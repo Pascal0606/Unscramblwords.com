@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm Brown Palette */
+    --background: 39 54% 96%;
+    --foreground: 30 33% 18%;
+    
+    /* Primary: #8b6b47 */
+    --primary: 32 32% 41%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary: #cfbe9f */
+    --secondary: 39 34% 72%;
+    --secondary-foreground: 30 33% 18%;
+    
+    /* Accent: #75593b */
+    --accent: 31 33% 35%;
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 39 30% 90%;
+    --muted-foreground: 30 20% 45%;
+    
+    --card: 39 54% 98%;
+    --card-foreground: 30 33% 18%;
+    
+    --popover: 39 54% 98%;
+    --popover-foreground: 30 33% 18%;
+    
+    --border: 39 34% 72%;
+    --input: 39 34% 72%;
+    
+    --ring: 32 32% 41%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --radius: 0.75rem;
+    
+    /* Custom Tile Tokens */
+    --tile-bg: 39 54% 86%; /* #f2e2c4 */
+    --tile-border: 39 34% 72%; /* #cfbe9f */
+    --tile-text: 30 33% 18%; /* #3d2b1f */
+
+    /* Help & FAQ Custom Properties */
+    --help-bg: 33 58% 89%; /* Beige #F5E6D3 */
+    --help-accent: 32 32% 41%; /* Tan/brown matching primary */
+    --help-border: 30 25% 65%; /* Brown border */
+    --help-text: 30 33% 18%; /* Dark brown */
+  }
+  
+  .dark {
+    --background: 30 33% 12%;
+    --foreground: 39 54% 86%;
+    
+    --primary: 32 32% 51%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 30 20% 25%;
+    --secondary-foreground: 39 54% 86%;
+    
+    --accent: 31 33% 45%;
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 30 20% 20%;
+    --muted-foreground: 39 30% 70%;
+    
+    --card: 30 30% 15%;
+    --card-foreground: 39 54% 86%;
+    
+    --popover: 30 30% 15%;
+    --popover-foreground: 39 54% 86%;
+    
+    --border: 30 20% 25%;
+    --input: 30 20% 25%;
+    
+    --ring: 32 32% 51%;
+    
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --tile-bg: 30 25% 25%;
+    --tile-border: 30 20% 20%;
+    --tile-text: 39 54% 86%;
+
+    /* Help & FAQ Custom Properties - Dark Mode Adjustments */
+    --help-bg: 30 25% 15%;
+    --help-accent: 32 32% 51%;
+    --help-border: 30 20% 30%;
+    --help-text: 39 54% 86%;
+  }
+  
+  * {
+    border-color: hsl(var(--border));
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: "DM Sans", sans-serif;
+    overflow-x: hidden;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-variant-numeric: tabular-nums;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #root {
+    position: relative;
+    z-index: 10;
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .scrabble-points {
+    @apply inline-flex items-center justify-center font-bold select-none transition-transform duration-200;
+    background-color: hsl(var(--tile-bg));
+    border: 2px solid hsl(var(--tile-border));
+    color: hsl(var(--tile-text));
+    box-shadow: 0 2px 4px -1px rgba(61,43,31,0.1), 0 1px 2px -1px rgba(61,43,31,0.1);
+  }
+  
+  .scrabble-points:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px -1px rgba(61,43,31,0.15), 0 2px 4px -2px rgba(61,43,31,0.1);
+  }
+
+  /* Help Section Base Components */
+  .help-container {
+    background-color: hsl(var(--help-bg));
+    color: hsl(var(--help-text));
+    @apply rounded-[2rem] border border-[hsl(var(--help-border))] overflow-hidden;
+  }
+
+  .help-number-circle {
+    background-color: hsl(var(--help-text));
+    color: hsl(var(--help-bg));
+    @apply w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-xl font-bold shadow-md;
+  }
+
+  .help-number-badge {
+    background-color: hsl(var(--help-accent));
+    color: hsl(var(--primary-foreground));
+    @apply w-8 h-8 flex-shrink-0 flex items-center justify-center rounded-full text-sm font-bold;
+  }
+
+  .help-box {
+    background-color: hsl(var(--card));
+    border-color: hsl(var(--help-border));
+    @apply rounded-2xl border p-5 shadow-sm transition-all duration-300;
+  }
+
+  .help-box:hover {
+    @apply shadow-md transform -translate-y-1;
+    border-color: hsl(var(--help-accent));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  @keyframes accordion-down {
+    from { height: 0; opacity: 0; }
+    to { height: var(--radix-accordion-content-height); opacity: 1; }
+  }
+  
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); opacity: 1; }
+    to { height: 0; opacity: 0; }
+  }
+  
+  .animate-accordion-down {
+    animation: accordion-down 0.2s ease-out;
+  }
+  
+  .animate-accordion-up {
+    animation: accordion-up 0.2s ease-out;
+  }
+
+  /* Game Animations */
+  @keyframes fadeInSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes successPulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+      background-color: rgba(139, 107, 71, 0.2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes scorePopup {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .animate-fadeInSlideUp {
+    animation: fadeInSlideUp 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-successPulse {
+    animation: successPulse 0.8s ease-out forwards;
+  }
+
+  .animate-scorePopup {
+    animation: scorePopup 0.4s ease-out;
+  }
+}
