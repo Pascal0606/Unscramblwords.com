@@ -1,5 +1,6 @@
-import { ES_WORDS, FR_WORDS, DE_WORDS } from './languageDictionaries1.js';
+import { ES_WORDS, DE_WORDS } from './languageDictionaries1.js';
 import { PT_WORDS, IT_WORDS, TR_WORDS } from './languageDictionaries2.js';
+import { FR_WORDS_FULL } from './FrWordsFull.js';
 
 export const RU_WORDS = [
   'я','ты','он','она','мы','вы','они','один','одна','это','и','в','не',
@@ -127,7 +128,7 @@ export const AR_WORDS = [
 export const LANGUAGE_DICTIONARIES = {
   en: [],
   es: ES_WORDS,
-  fr: FR_WORDS,
+  fr: FR_WORDS_FULL,
   de: DE_WORDS,
   pt: PT_WORDS,
   it: IT_WORDS,
