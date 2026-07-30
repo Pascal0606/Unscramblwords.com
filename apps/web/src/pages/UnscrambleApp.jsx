@@ -168,7 +168,7 @@ const UnscrambleApp = () => {
   const handleFilterChange = (field, value) => {
     const cleanValue = field === 'wordLength'
       ? value.replace(/[^0-9]/g, '')
-      : value.replace(/[^a-zA-Z]/g, '');
+      : value.replace(/[^\p{L}]/gu, '');
     updateFilters({ [field]: cleanValue });
   };
 
