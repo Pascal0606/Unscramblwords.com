@@ -1,20 +1,31 @@
 import { useState, useCallback, useRef } from 'react';
 import { ENABLE_WORDS, NWL_WORDS, CSW_WORDS } from '@/lib/dictionaries.js';
-import { getDictionaryForLanguage } from '@/lib/languageDictionaries3.js';
 
-// Non-English dictionaries are read directly from the bundled local word
-// lists (see languageDictionaries3.js / FrWordsFull.js). Earlier versions of
-// this hook tried to live-fetch full dictionaries from GitHub through public
-// CORS proxies at search time, falling back to a local list only if all
-// three proxies failed. That made every non-English search depend on the
-// uptime of third-party proxy services, which was unreliable and caused
-// long load times or empty results. Local lists are now the single source
-// of truth, so results are instant and don't depend on any network call.
+// Each non-English dictionary is loaded on demand via a dynamic import(),
+// so Vite splits it into its own chunk. A visitor's browser only downloads
+// the one language's word list they actually select, instead of every
+// language's dictionary on every page load. Results are cached in memory
+// after the first load for that language, so switching back and forth
+// within a session doesn't re-download anything.
+const dictionaryLoaders = {
+  fr: () => import('@/lib/FrWordsFull.js').then((m) => m.FR_WORDS_FULL),
+  es: () => import('@/lib/EsWordsFull.js').then((m) => m.ES_WORDS_FULL),
+  de: () => import('@/lib/DeWordsFull.js').then((m) => m.DE_WORDS_FULL),
+  pt: () => import('@/lib/PtWordsFull.js').then((m) => m.PT_WORDS_FULL),
+  it: () => import('@/lib/ItWordsFull.js').then((m) => m.IT_WORDS_FULL),
+  tr: () => import('@/lib/TrWordsFull.js').then((m) => m.TR_WORDS_FULL),
+  ru: () => import('@/lib/RuWordsFull.js').then((m) => m.RU_WORDS_FULL),
+  zh: () => import('@/lib/languageDictionaries3.js').then((m) => m.ZH_WORDS),
+  ar: () => import('@/lib/languageDictionaries3.js').then((m) => m.AR_WORDS),
+};
+
 const localDictionaryCache = {};
 
-const getLocalDictionary = (langCode) => {
+const getLocalDictionary = async (langCode) => {
   if (localDictionaryCache[langCode]) return localDictionaryCache[langCode];
-  const words = (getDictionaryForLanguage(langCode) || []).map((w) => w.toUpperCase());
+  const loader = dictionaryLoaders[langCode];
+  const raw = loader ? await loader() : [];
+  const words = (raw || []).map((w) => w.toUpperCase());
   localDictionaryCache[langCode] = words;
   return words;
 };
@@ -41,7 +52,7 @@ export const useWordUnscrambler = (dictionary = 'ENABLE', currentLanguage = 'en'
       let dict = [];
 
       if (currentLanguage !== 'en') {
-        dict = getLocalDictionary(currentLanguage);
+        dict = await getLocalDictionary(currentLanguage);
         setIsUsingFallbackDictionary(false);
       } else {
         setIsUsingFallbackDictionary(false);
