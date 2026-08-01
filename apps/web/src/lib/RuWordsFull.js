@@ -1,11 +1,11 @@
 // Full Russian word list (46991 words). Built from word-frequency
-// data (hermitdave/FrequencyWords), then cleaned of proper-noun/character-name
-// contamination that subtitle-derived frequency corpora commonly contain
-// (e.g. English character names retained in subtitles). Cleaning cross-checks
-// each candidate word against public-domain name databases (US Census
-// surnames, an international first-name list) combined with independent
-// validation against this language's own Hunspell dictionary, so genuine
-// vocabulary that happens to coincide with a name (e.g. Amor, Casa) is kept.
+// data (hermitdave/FrequencyWords), then cleaned of contamination that
+// subtitle-derived frequency corpora commonly contain: proper-noun/
+// character-name pollution (removed via cross-checking against
+// public-domain name databases combined with independent validation
+// against this language's own Hunspell dictionary), and common
+// international acronyms/initialisms (FBI, GPS, USA, etc.), which
+// aren't genuine vocabulary in any single language.
 export const RU_WORDS_FULL = [
   "НЕ","ЧТО","ТЫ","ЭТО","НА","ОН","МЫ","КАК","ВЫ","ДА","МНЕ","НЕТ","МЕНЯ","ТАК","НО","ЕГО","ВСЕ",
   "ТЕБЯ","ЕСЛИ","БЫ","ТЕБЕ","ЗА","ОНИ","ЧТОБЫ","ПРОСТО","ЕСТЬ","ИЗ","НУ","ДЛЯ","ХОРОШО","КОГДА",
