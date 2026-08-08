@@ -1,4 +1,4 @@
-// Full French word list (59502 words). Cleaned of proper-noun/
+// Full French word list (59504 words). Cleaned of proper-noun/
 // character-name contamination and common international acronyms.
 // 2, 3, and 4-letter words are cross-checked against official ODS-
 // sourced reference lists. All OE/AE ligature words respelled with
@@ -7010,4 +7010,5 @@ export const FR_WORDS_FULL = [
   "TRANSCRIPTASE", "TRANSFERRINE", "TRICARBOXYLIQUE", "TRIOSE", "TRYPSINE",
   "TRYPTAMINE", "TUBULINE", "TYRAMINE", "UBIQUITINE", "VOLORÉCEPTEUR", "XYLOSE",
   "ZÉAXANTHINE", "ZÉINE", "ZINGARO", "ZINGARI", "ZLABIA",
+  "HYDROFLUOROCARBURE", "HYDROPNEUMATIQUE",
 ];
