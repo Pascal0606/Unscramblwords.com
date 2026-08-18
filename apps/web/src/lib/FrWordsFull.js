@@ -1,4 +1,4 @@
-// Full French word list (63792 words). Cleaned of proper-noun/
+// Full French word list (63842 words). Cleaned of proper-noun/
 // character-name contamination and common international acronyms.
 // 2, 3, and 4-letter words are cross-checked against official ODS-
 // sourced reference lists. All OE/AE ligature words respelled with
@@ -7709,4 +7709,12 @@ export const FR_WORDS_FULL = [
   "FILEUSE", "GILETIÈRE", "JACQUARDÉE", "JUMEL", "LICIÈRE", "LISSIÈRE", "MÉCHEUSE",
   "OURDISSEUSE", "PÉKINÉE", "RETORSE", "SÉRANCEUSE", "TAUPÉE", "TEILLEUSE", "TILLEUSE",
   "TISSERANDE", "TISSEUSE", "TORDEUSE", "TOURNETTE", "TRAMEUSE", "TUFTÉE",
+  "ACATÈNE", "AGOUTI", "ALIZÉ", "ALIÉNISTE", "ANÉMOGRAPHE", "ANÉMOMÈTRE",
+  "ANÉMOMÉTRIE", "ANÉMOMÉTRIQUE", "ANÉMOPHILE", "ANÉMOPHILIE", "ATOUR", "AUTAN",
+  "AÉROGÉNÉRATRICE", "BADIANE", "BURLE", "BÉTAILLÈRE", "CHAMPISSE", "CHAMSIN",
+  "CONTREVENT", "CORS", "CÉRÉMONIALE", "DÉHARDER", "DÉKOULAKISATION", "FOEHN",
+  "HARMATAN", "HARMATTAN", "HIPPODAMIEN", "JORAN", "LIBECCIO", "MELTEM", "MISTRAL",
+  "PAMPÉRO", "RAFALE", "SAHEL", "SIGILLÉE", "SIMOUN", "SIROCCO", "SIROCO", "STERLING",
+  "SURVENTER", "TEMPÉTUEUSE", "TEMPÉTUEUX", "TERRE", "TOURBILLONNANT",
+  "TOURBILLONNANTE", "VENTER", "VENTEUSE", "VENTÉ", "VENTÉE", "ÉTÉSIEN",
 ];
