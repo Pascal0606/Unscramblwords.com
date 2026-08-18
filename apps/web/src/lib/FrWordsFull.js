@@ -1,4 +1,4 @@
-// Full French word list (63766 words). Cleaned of proper-noun/
+// Full French word list (63792 words). Cleaned of proper-noun/
 // character-name contamination and common international acronyms.
 // 2, 3, and 4-letter words are cross-checked against official ODS-
 // sourced reference lists. All OE/AE ligature words respelled with
@@ -7705,4 +7705,8 @@ export const FR_WORDS_FULL = [
   "UNIATISME", "VOYEUSE", "ÉCLIPSE", "ÉDEN", "ÉPICLÈSE", "ÉROTISANTE", "ÉVANGÉLIAIRE",
   "ZIZOU", "ZLATANESQUE", "MADJER", "ARCONADA", "PLATOCHE", "RAZETEUSE", "TAURIN",
   "TAURINE", "TORERA", "TORIL", "TORÉER", "VÉRONIQUE",
+  "BUANDIÈRE", "CARDEUSE", "CHANVRIÈRE", "DAMASSÉE", "DÉPERLANTE", "FEUTRANTE",
+  "FILEUSE", "GILETIÈRE", "JACQUARDÉE", "JUMEL", "LICIÈRE", "LISSIÈRE", "MÉCHEUSE",
+  "OURDISSEUSE", "PÉKINÉE", "RETORSE", "SÉRANCEUSE", "TAUPÉE", "TEILLEUSE", "TILLEUSE",
+  "TISSERANDE", "TISSEUSE", "TORDEUSE", "TOURNETTE", "TRAMEUSE", "TUFTÉE",
 ];
