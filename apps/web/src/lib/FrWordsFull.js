@@ -1,4 +1,4 @@
-// Full French word list (63842 words). Cleaned of proper-noun/
+// Full French word list (63849 words). Cleaned of proper-noun/
 // character-name contamination and common international acronyms.
 // 2, 3, and 4-letter words are cross-checked against official ODS-
 // sourced reference lists. All OE/AE ligature words respelled with
@@ -7717,4 +7717,6 @@ export const FR_WORDS_FULL = [
   "PAMPÉRO", "RAFALE", "SAHEL", "SIGILLÉE", "SIMOUN", "SIROCCO", "SIROCO", "STERLING",
   "SURVENTER", "TEMPÉTUEUSE", "TEMPÉTUEUX", "TERRE", "TOURBILLONNANT",
   "TOURBILLONNANTE", "VENTER", "VENTEUSE", "VENTÉ", "VENTÉE", "ÉTÉSIEN",
+  "CAPITEUSE", "MILDIOUSÉE", "PASSERILLÉE", "PERLANTE", "POÏKILOTHERMIE", "SOMMELIÈRE",
+  "VIGNERONNE",
 ];
