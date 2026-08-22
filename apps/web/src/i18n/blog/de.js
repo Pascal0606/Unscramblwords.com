@@ -2,6 +2,7 @@ export const de = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-03-15',
       title: 'Scrabble meistern: Wesentliche Strategien zur Verbesserung Ihres Spiels',
       excerpt: 'Lernen Sie bewährte Strategien zur Verbesserung Ihrer Scrabble-Leistung, von der Brettpositionierung bis zum Buchstabenmanagement.',
       body: [
@@ -19,6 +20,7 @@ export const de = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-03-29',
       title: 'Der vollständige Leitfaden zu Zwei-Buchstaben-Wörtern beim Scrabble',
       excerpt: 'Entdecken Sie die wertvollsten und nützlichsten Zwei-Buchstaben-Wörter, die Ihr Scrabble-Spiel transformieren können.',
       body: [
@@ -36,6 +38,7 @@ export const de = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-04-12',
       title: 'Wie Sie Ihren Wortschatz für Wortspiele verbessern können',
       excerpt: 'Praktische Strategien und Techniken zum Aufbau Ihres Wortschatzes, um ein beeindruckender Gegner bei Wortspielen zu werden.',
       body: [
@@ -53,6 +56,7 @@ export const de = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-04-26',
       title: 'Die besten Scrabble-Wörter mit dem Buchstaben Q',
       excerpt: 'Der Buchstabe Q ist beim Scrabble 10 Punkte wert, aber notorisch schwer zu verwenden. Hier sind die besten Q-Wörter, die Sie kennen sollten.',
       body: [
@@ -70,6 +74,7 @@ export const de = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-05-10',
       title: 'Hochscorende Sieben-Buchstaben-Wörter für Scrabble-Bingos',
       excerpt: 'Alle sieben Buchstaben zu spielen bringt einen Bonus von 50 Punkten. Hier sind die besten Sieben-Buchstaben-Wörter für Scrabble-Bingos.',
       body: [
@@ -87,6 +92,7 @@ export const de = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-05-24',
       title: 'Die faszinierende Geschichte des Scrabble',
       excerpt: 'Von seiner Erfindung während der Großen Depression bis zu einem der beliebtesten Gesellschaftsspiele der Welt — hier ist die vollständige Geschichte des Scrabble.',
       body: [
@@ -104,6 +110,7 @@ export const de = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-06-07',
       title: 'Wortspiele und Gehirngesundheit: Was die Forschung sagt',
       excerpt: 'Wissenschaftliche Forschung legt nahe, dass regelmäßige Wortspiele die kognitive Gesundheit unterstützen könnten. Hier ist, was wir derzeit wissen.',
       body: [
@@ -121,6 +128,7 @@ export const de = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-06-21',
       title: 'Wie man Buchstaben schnell entschlüsselt: Expertentipps und -techniken',
       excerpt: 'Ob Sie ein Wortspiel spielen oder ein Rätsel lösen — diese Expertentechniken helfen Ihnen, Wörter in gemischten Buchstaben viel schneller zu finden.',
       body: [
@@ -138,6 +146,7 @@ export const de = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-05',
       title: 'Wortspiele in mehreren Sprachen: Vorteile und Herausforderungen',
       excerpt: 'Wortspiele in verschiedenen Sprachen zu spielen bietet einzigartige kognitive Vorteile und stellt faszinierende Herausforderungen dar.',
       body: [
@@ -155,6 +164,7 @@ export const de = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-19',
       title: 'Wordle-Strategien: Wie man das Rätsel jeden Tag löst',
       excerpt: 'Wordle ist zu einem weltweiten Phänomen geworden. Hier sind die besten Strategien und Ausgangswörter, um es täglich effizient zu lösen.',
       body: [
@@ -172,6 +182,7 @@ export const de = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
+      date: '2026-08-16',
       title: 'Wörter entschlüsseln: Der komplette Leitfaden zum Lösen jedes Buchstabenrätsels',
       excerpt: 'Wie Wortsuch-Werkzeuge tatsächlich funktionieren, welche Strategie hinter punktestarken Zügen steckt, und wie man Filter effektiv nutzt.',
       body: [
@@ -190,6 +201,30 @@ export const de = [
         "Unterstützt UnscramblWords auch andere Sprachen als Deutsch? Ja — die Seite unterstützt 10 Sprachen, darunter Englisch, Französisch, Spanisch, Italienisch und Portugiesisch, jede geprüft gegen ihr eigenes Referenzwörterbuch.",
         "Wie viele Buchstaben kann man auf einmal suchen? Es gibt keine feste Obergrenze — das Werkzeug wurde mit allen 26 Buchstaben des Alphabets gleichzeitig getestet und liefert weiterhin Ergebnisse. Es verarbeitet damit problemlos sowohl ein kurzes Buchstabengemisch als auch einen langen Ausdruck.",
         "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); Buchstabenwerte und Bingo-Bonusregel im deutschen Scrabble."
+      ]
+    },
+    {
+      slug: 'unscramble-9-letter-words',
+      date: '2026-08-02',
+      title: 'Wörter mit 9 Buchstaben entschlüsseln: Der ultimative Leitfaden 2026',
+      excerpt: 'Bereit, 9-Buchstaben-Wörter wie ein Profi zu entschlüsseln? Dieser Leitfaden behandelt die Dreiergruppen-Methode, häufige Vor- und Nachsilben, Anschlusswörter auf dem Brett und die sichere Nutzung eines Online-Wort-Entschlüsselers.',
+      body: [
+        "Geschrieben und geprüft vom UnscramblWords-Team. Wörter und ihre Gültigkeit auf dieser Seite werden vor Veröffentlichung gegen die offizielle Turnierwörterliste (SDeV) geprüft.",
+        "Ein Wort mit neun Buchstaben zu legen, ist eine der schnellsten Möglichkeiten, einem Gegner davonzuziehen. Die meisten Spieler stocken, wenn sie einen vollen Steinsatz plus zwei bereits liegende Buchstaben kombinieren müssen — die Buchstaben ergeben kein offensichtliches Muster, und punktestarke Züge werden übersehen. Dieser Leitfaden zeigt eine wiederholbare Methode zum Entschlüsseln von Neun-Buchstaben-Wörtern: die Buchstaben in Dreiergruppen zerlegen, häufige Vor- und Nachsilben erkennen und Anschlussmöglichkeiten auf dem Brett suchen, statt sich allein auf einen frischen Steinsatz zu verlassen.",
+        "Unser eigenes Wörterbuch, das direkt anhand des offiziellen Referenzwerks aufgebaut wird, enthält derzeit 5.296 Wörter mit neun Buchstaben. Anders als beim französischen Wörterbuch, das bereits vollständig gegen Fremdwörter und Namen bereinigt wurde, steht diese Bereinigung für das deutsche Wörterbuch noch aus — die Zahl ist daher als vorläufig zu verstehen und wird sich nach der Bereinigung wahrscheinlich noch ändern.",
+        "Ein Neun-Buchstaben-Wort ist ein gültiger Wörterbucheintrag aus neun Zeichen. Ein Anagramm ist allgemeiner jedes Wort, das durch Neuanordnung einer Buchstabenmenge entsteht. Mit steigender Buchstabenzahl wächst die Zahl möglicher Anordnungen sehr schnell — ein Wort aus sechs unterschiedlichen Buchstaben hat 720 mögliche Reihenfolgen (6!), während neun unterschiedliche Buchstaben 362.880 mögliche Reihenfolgen ergeben (9!). Dieser kombinatorische Sprung ist der Hauptgrund, warum Spieler ohne Hilfe kaum Neun-Buchstaben-Wörter finden: Das menschliche Auge erkennt kurze, vertraute Muster gut, aber nicht Hunderttausende Permutationen.",
+        "Neun-Buchstaben-Wörter zuverlässig zu erkennen, hat auch einen praktischen Vokabelnutzen — es schärft den Blick für Vor- und Nachsilben sowie Silbenstrukturen, statt jedes Wort einzeln auswendig zu lernen.",
+        "Im Scrabble bringt das Legen aller sieben Steine des Steinsatzes in einem Zug einen Bonus von 50 Punkten, unabhängig vom regulären Wortwert — das gilt auch dann, wenn dabei ein Neun-Buchstaben-Wort durch Nutzung zweier bereits liegender Buchstaben entsteht. Zwei Wortwert-Dreifach-Felder im selben Zug zu treffen, kann einen sehr hohen Punktestand ergeben. Sieben-Buchstaben-Bingos kommen regelmäßig vor; Neun-Buchstaben-Gelegenheiten sind seltener und hängen stärker vom Blick fürs Brett ab als vom Glück beim Ziehen. Wörter wie BELOHNUNG, VERFÜHRER und STÖRRISCH lohnen sich zu merken, da sie häufige Buchstaben nutzen und oft wiederkehren.",
+        "Statt neun Buchstaben als einen Block zu betrachten, teilen Sie sie in drei Dreiergruppen und suchen nach vertrauten Buchstabenfolgen (SCH, UNG, EIT und ähnliche). Diese Methode verwandelt eine überwältigende Suche in eine überschaubare. Es hilft auch, das Verhältnis von Vokalen zu Konsonanten zu prüfen: Ein typisches Neun-Buchstaben-Wort hat drei bis vier Vokale und fünf bis sechs Konsonanten. Ein vokalreicher Steinsatz deutet auf Endungen wie -UNG oder -HEIT hin; ein konsonantenreicher Steinsatz deutet eher auf zusammengesetzte Wörter hin.",
+        "Eine Vorsilbe zu isolieren, verkleinert das Problem. Entfernt man eine vierbuchstabige Vorsilbe wie ÜBER- oder UNTER-, bleiben fünf Buchstaben zu lösen. Häufige Endungen wie -UNG, -HEIT und -KEIT machen einen großen Teil der Neun-Buchstaben-Substantive aus; -LICH und -BAR bilden Adjektive; ein abschließendes -EN oder -ER verwandelt oft ein Acht-Buchstaben-Wort in ein Neun-Buchstaben-Wort.",
+        "Manuelles Lösen baut mit der Zeit Wortschatz und Mustererkennung auf und lohnt sich auch außerhalb von Zeitspielen zu üben. In einer echten Partie ist ein Online-Werkzeug jedoch schneller und verringert das Risiko, ein ungültiges Wort zu legen, da die Ergebnisse gegen das gewählte Wörterbuch geprüft werden. Der praktische Ansatz: manuelles Lösen zum Üben, ein Werkzeug zur Bestätigung, bevor ein Stein aufs Brett kommt.",
+        "Die meisten Neun-Buchstaben-Züge entstehen nicht aus einem frischen Steinsatz — sie werden durch das Verlängern bereits liegender Wörter gebildet (die Anschluss-Strategie): ein bereits liegendes Sieben-Buchstaben-Wort nehmen und zwei Steine hinzufügen, um auf neun zu kommen. Paralleles Legen — Steine neben einem bestehenden Wort statt senkrecht dazu platzieren — kann in einem Zug für mehr als ein Wort punkten. Ein langes Wort kann auch die Punktelinie eines Gegners blockieren, aber prüfen Sie vor dem Legen auf Gegen-Anschlüsse, da dies dem Gegner ebenfalls ein neues Wortwert-Dreifach-Feld öffnen kann.",
+        "Um UnscramblWords für einen Neun-Buchstaben-Wurf zu nutzen, geben Sie Ihre Buchstaben in die Suchleiste ein, um eine vollständige, nach Länge und Punktzahl sortierte Liste gültiger Wörter zu erhalten. Nutzen Sie die Filter „beginnt mit“, „endet mit“ und „enthält“, um eine bestimmte Lücke auf dem Brett zu treffen, sowie Platzhalter (* oder ?) für Blankosteine oder unbekannte Buchstaben. UnscramblWords unterstützt 10 Sprachen, jede mit ihren eigenen Sonderzeichen (ß, Ö, Ä, Ü), die von den zugrunde liegenden Wortlisten korrekt verarbeitet werden.",
+        "Wie entschlüsselt man schnell ein 9-Buchstaben-Wort? Zerlegen Sie die Buchstaben in Dreiergruppen, oder prüfen Sie zuerst häufige Vorsilben (ÜBER-, UNTER-) und Nachsilben (-UNG, -HEIT), da sie das Problem auf eine kürzere Wurzel reduzieren. Für eine vollständige Liste gültiger Kombinationen nutzen Sie einen Online-Wort-Entschlüsseler.",
+        "Was sind häufige 9-Buchstaben-Wörter mit ÜBER-? ÜBERQUERT und ÜBERNAHME sind häufige Beispiele, oft gebildet durch Anfügen von ÜBER- an eine bereits auf dem Brett liegende Wurzel.",
+        "Wie viele 9-Buchstaben-Wörter gibt es im Deutschen? Unser Wörterbuch enthält derzeit 5.296 — diese Zahl ist vorläufig, da die vollständige Bereinigung gegen Fremdwörter und Namen für Deutsch noch aussteht, anders als beim bereits bereinigten französischen Wörterbuch.",
+        "Was ist ein punktestarkes 9-Buchstaben-Wort im Scrabble? Wörter mit hochwertigen Buchstaben — Q, Y (10 Punkte) oder Ö, X (8 Punkte) — punkten gut, besonders auf einem Wortwert-Dreifach-Feld. QUATSCHEN und LABYRINTH sind Beispiele.",
+        "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); interne Wörterbuchauszählung von UnscramblWords."
       ]
     }
   
