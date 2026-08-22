@@ -2,6 +2,7 @@ export const fr = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-03-15',
       title: 'Maîtriser le Scrabble : Stratégies Essentielles pour Améliorer Votre Jeu',
       excerpt: 'Découvrez des stratégies éprouvées pour améliorer vos performances au Scrabble, du positionnement sur le plateau à la gestion des lettres.',
       body: [
@@ -19,6 +20,7 @@ export const fr = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-03-29',
       title: 'Le Guide Complet des Mots de Deux Lettres au Scrabble',
       excerpt: 'Découvrez les mots de deux lettres les plus précieux et les plus utiles qui peuvent transformer votre jeu de Scrabble.',
       body: [
@@ -36,6 +38,7 @@ export const fr = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-04-12',
       title: 'Comment Améliorer Votre Vocabulaire pour les Jeux de Mots',
       excerpt: 'Stratégies pratiques et techniques pour développer votre vocabulaire et devenir un adversaire redoutable dans les jeux de mots.',
       body: [
@@ -53,6 +56,7 @@ export const fr = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-04-26',
       title: 'Les Meilleurs Mots au Scrabble avec la Lettre Q',
       excerpt: 'La lettre Q vaut 8 points au Scrabble français mais est notoirement difficile à utiliser. Voici les meilleurs mots en Q à connaître.',
       body: [
@@ -70,6 +74,7 @@ export const fr = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-05-10',
       title: 'Mots de Sept Lettres pour Réussir des Scrabbles',
       excerpt: 'Jouer les sept lettres rapporte un bonus de 50 points. Voici les meilleurs mots de sept lettres à connaître pour réussir des scrabbles.',
       body: [
@@ -87,6 +92,7 @@ export const fr = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-05-24',
       title: 'L\'Histoire Fascinante du Scrabble',
       excerpt: 'De son invention pendant la Grande Dépression à son statut de l\'un des jeux de société les plus populaires au monde, voici l\'histoire complète du Scrabble.',
       body: [
@@ -104,6 +110,7 @@ export const fr = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-06-07',
       title: 'Jeux de Mots et Santé du Cerveau : Ce que la Recherche Nous Dit',
       excerpt: 'La recherche scientifique suggère que la pratique régulière des jeux de mots pourrait soutenir la santé cognitive. Voici ce que nous savons actuellement.',
       body: [
@@ -121,6 +128,7 @@ export const fr = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-06-21',
       title: 'Comment Déchiffrer des Lettres Rapidement : Conseils d\'Experts',
       excerpt: 'Que vous jouiez à un jeu de mots ou que vous résolviez une énigme, ces techniques d\'experts vous aideront à trouver des mots dans des lettres mélangées beaucoup plus rapidement.',
       body: [
@@ -138,6 +146,7 @@ export const fr = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-05',
       title: 'Jeux de Mots en Plusieurs Langues : Avantages et Défis',
       excerpt: 'Jouer à des jeux de mots dans différentes langues offre des avantages cognitifs uniques et présente des défis fascinants. Voici comment commencer.',
       body: [
@@ -155,6 +164,7 @@ export const fr = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-19',
       title: 'Stratégies pour le Wordle : Comment Résoudre le Puzzle Chaque Jour',
       excerpt: 'Le Wordle est devenu un phénomène mondial. Voici les meilleures stratégies et les meilleurs mots de départ pour le résoudre efficacement chaque jour.',
       body: [
@@ -172,24 +182,49 @@ export const fr = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
-      title: 'Dénicheur de mots : le guide complet pour résoudre n\'importe quelle grille de lettres',
+      date: '2026-08-16',
+      title: 'Déchiffreur de mots : le guide complet pour résoudre n\'importe quelle grille de lettres',
       excerpt: 'Comment fonctionnent réellement les outils de recherche de mots, la stratégie derrière les coups à haut score, et comment utiliser les filtres efficacement.',
       body: [
         "Le contenu de ce site est assisté par IA et vérifié périodiquement par l'équipe UnscramblWords.",
-        "Se retrouver avec un Q et un Z sur son chevalet pendant que le chronomètre tourne est l'une des frustrations les plus courantes au Scrabble. Un dénicheur de mots transforme ce fouillis de lettres en une liste claire de mots jouables — mais comprendre comment ces outils fonctionnent, et savoir bien les utiliser, fait toute la différence entre un simple dépannage et un véritable avantage stratégique.",
-        "Un dénicheur de mots prend un ensemble de lettres mélangées et trouve tous les mots valides que l'on peut former à partir de celles-ci, vérifiés dans un dictionnaire donné. Le principe est une recherche par permutation : l'outil compare vos lettres à chaque entrée d'une liste de mots et renvoie les correspondances, généralement triées par longueur ou par valeur en points. Si vous jouez avec des lettres blanches, la plupart des outils prennent en charge un caractère générique, souvent un point d'interrogation ou un astérisque, qui remplace n'importe quelle lettre.",
+        "Se retrouver avec un Q et un Z sur son chevalet pendant que le chronomètre tourne est l'une des frustrations les plus courantes au Scrabble. Un déchiffreur de mots transforme ce fouillis de lettres en une liste claire de mots jouables — mais comprendre comment ces outils fonctionnent, et savoir bien les utiliser, fait toute la différence entre un simple dépannage et un véritable avantage stratégique.",
+        "Un déchiffreur de mots prend un ensemble de lettres mélangées et trouve tous les mots valides que l'on peut former à partir de celles-ci, vérifiés dans un dictionnaire donné. Le principe est une recherche par permutation : l'outil compare vos lettres à chaque entrée d'une liste de mots et renvoie les correspondances, généralement triées par longueur ou par valeur en points. Si vous jouez avec des lettres blanches, la plupart des outils prennent en charge un caractère générique, souvent un point d'interrogation ou un astérisque, qui remplace n'importe quelle lettre.",
         "Ces outils ne se limitent pas au Scrabble. Ils sont couramment utilisés pour les mots croisés, les jeux de lettres quotidiens, ou pour affiner une hypothèse dans des jeux comme le Motus. Ils sont aussi utiles pour l'apprentissage des langues, car voir tous les mots valides formés à partir d'un ensemble de lettres met en évidence des régularités orthographiques et des familles de mots que l'on ne remarquerait pas autrement.",
         "En France et dans l'espace francophone, la référence officielle du Scrabble de compétition est l'ODS, l'Officiel du jeu Scrabble, publié par Larousse. La version actuellement en vigueur est l'ODS9. Contrairement au Scrabble en anglais, où deux listes coexistent, le Scrabble francophone repose sur une liste unique reconnue par la Fédération Française de Scrabble. Vérifier qu'un outil de recherche de mots utilise bien l'ODS le plus récent évite les mauvaises surprises en cas de contestation d'un mot. Un point important à connaître : la valeur des lettres en Scrabble francophone diffère de celle du Scrabble anglais. En français, les lettres K, W, X, Y et Z valent 10 points chacune, tandis que le Q vaut 8 points — des valeurs qu'il ne faut pas confondre avec celles utilisées dans les versions en langue anglaise du jeu.",
         "Poser en un seul coup les sept lettres de son chevalet, ce qu'on appelle familièrement faire un scrabble, rapporte un bonus de 50 points en plus du score du mot lui-même. C'est souvent ce bonus qui fait basculer une partie. Certains joueurs gardent trop longtemps une lettre comme le Q ou le Z en attendant la combinaison idéale. Il existe des mots courants où le Q n'est pas suivi d'un U, comme COQ ou CINQ — les repérer permet de placer la lettre sans attendre une combinaison précise.",
         "Jouer le mot qui rapporte le plus de points n'est pas toujours le meilleur choix si cela vous laisse avec un chevalet injouable, par exemple quatre voyelles. Anticiper les lettres qui vous resteront fait partie d'une stratégie à long terme plus solide qu'une simple recherche du score immédiat. Ajouter une seule lettre à un mot déjà posé sur la grille pour en former un nouveau, ce qu'on appelle un appui, est une technique classique pour tirer davantage de valeur des mots déjà en jeu, tout en construisant simultanément un mot dans l'autre sens.",
         "Une liste de tous les mots possibles n'est pas toujours utile telle quelle — la restreindre à ce qui correspond réellement à votre situation est ce qui rend un outil pratique en cours de partie. Entrez les lettres dont vous disposez, puis utilisez un filtre commence par pour correspondre à un espace précis sur la grille, un filtre se termine par pour vous connecter à une lettre déjà posée, et fixez une longueur de mot pour viser un espace particulier ou pour rechercher spécifiquement les mots de sept lettres permettant un scrabble. Sélectionnez toujours le bon dictionnaire, l'ODS9, pour votre partie. Filtrer par lettre précise est également utile lorsque vous détenez une lettre à haute valeur comme le X, le Z ou le J et que vous cherchez un mot qui l'utilise. La même approche de filtrage fonctionne pour résoudre une grille de mots croisés ou affiner une hypothèse au Motus.",
-        "Utiliser un dénicheur de mots, est-ce de la triche au Scrabble ? Cela dépend du contexte. Les tournois officiels interdisent toute aide extérieure pendant la partie, mais de nombreux joueurs utilisent ces outils pour s'entraîner, revoir une partie après coup, ou lors de parties amicales où tous les joueurs sont d'accord. Mettez-vous toujours d'accord sur les règles avec votre adversaire avant de commencer.",
-        "Peut-on utiliser un dénicheur de mots pour le Motus ? Oui. Entrez les lettres que vous avez confirmées et utilisez les filtres pour placer les lettres connues à des positions précises, ce qui affine votre prochaine proposition sans gaspiller vos tentatives limitées.",
+        "Utiliser un déchiffreur de mots, est-ce de la triche au Scrabble ? Cela dépend du contexte. Les tournois officiels interdisent toute aide extérieure pendant la partie, mais de nombreux joueurs utilisent ces outils pour s'entraîner, revoir une partie après coup, ou lors de parties amicales où tous les joueurs sont d'accord. Mettez-vous toujours d'accord sur les règles avec votre adversaire avant de commencer.",
+        "Peut-on utiliser un déchiffreur de mots pour le Motus ? Oui. Entrez les lettres que vous avez confirmées et utilisez les filtres pour placer les lettres connues à des positions précises, ce qui affine votre prochaine proposition sans gaspiller vos tentatives limitées.",
         "Comment utiliser un joker pour représenter une lettre blanche ? Entrez un point d'interrogation ou un astérisque dans le champ de recherche pour représenter une lettre blanche. L'outil calcule toutes les lettres possibles pour cette position. Un jeu de Scrabble standard comporte deux lettres blanches, donc la plupart des outils permettent d'utiliser deux jokers dans une même recherche.",
         "Quelle est la différence entre les valeurs de lettres en français et en anglais ? En français, K, W, X, Y et Z valent 10 points et le Q vaut 8 points — des valeurs différentes de celles utilisées dans le Scrabble en langue anglaise. Vérifiez toujours que l'outil que vous utilisez applique le bon barème selon la langue choisie.",
         "UnscramblWords prend-il en charge d'autres langues que le français ? Oui — le site prend en charge 10 langues, dont l'anglais, l'espagnol, l'allemand, l'italien et le portugais, chacune vérifiée par rapport à son propre dictionnaire de référence.",
         "Combien de lettres peut-on rechercher à la fois ? Il n'y a pas de limite fixe — l'outil a été testé avec les 26 lettres de l'alphabet entrées en une seule fois et renvoie toujours des résultats, ce qui lui permet de traiter aussi bien un petit mélange de lettres qu'une longue expression à décomposer.",
         "Sources : Officiel du jeu Scrabble (ODS9), Larousse, référence officielle de la Fédération Française de Scrabble ; valeurs des lettres et règles du bonus de 50 points en Scrabble francophone."
+      ]
+    },
+    {
+      slug: 'unscramble-9-letter-words',
+      date: '2026-08-02',
+      title: 'Déchiffrer les mots de 9 lettres : le guide complet 2026',
+      excerpt: 'Prêt à déchiffrer des mots de 9 lettres comme un pro ? Ce guide couvre la méthode par blocs de trois lettres, les préfixes et suffixes courants, les appuis sur la grille, et comment utiliser un déchiffreur en ligne avec confiance.',
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords. Les mots et leur validité sur ce site sont vérifiés par rapport à l'ODS9, le dictionnaire officiel du Scrabble francophone, avant publication.",
+        "Poser un mot de neuf lettres est l'un des moyens les plus rapides de prendre l'avantage sur un adversaire. La plupart des joueurs restent bloqués lorsqu'ils ont un chevalet complet plus deux lettres déjà sur la grille à combiner — les lettres ne forment pas de motif évident, et les coups à fort score passent inaperçus. Ce guide propose une méthode reproductible pour déchiffrer les mots de neuf lettres : découper les lettres par blocs, repérer les préfixes et suffixes courants, et chercher des appuis sur la grille plutôt que de compter uniquement sur un chevalet neuf.",
+        "Notre propre dictionnaire, construit et vérifié directement à partir de l'ODS9, contient actuellement 9 387 mots de neuf lettres. Ce chiffre a régulièrement augmenté à chaque nouvelle édition de l'ODS depuis 1990 — l'édition ODS7 (2016) en comptait déjà environ 58 000 dans le référentiel officiel complet, et le nombre continue de croître à chaque révision, l'ODS9 (entrée en vigueur le 1er janvier 2024) ayant ajouté environ 750 nouvelles entrées à l'ensemble du dictionnaire.",
+        "Un mot de neuf lettres est une entrée valide du dictionnaire composée de neuf caractères. Une anagramme, plus généralement, est n'importe quel mot formé en réarrangeant un ensemble de lettres. Plus le nombre de lettres augmente, plus le nombre d'arrangements possibles croît rapidement — un mot de six lettres distinctes a 720 arrangements possibles (6!), tandis que neuf lettres distinctes en ont 362 880 (9!). Ce saut combinatoire explique pourquoi les joueurs peinent à repérer les mots de neuf lettres sans aide : l'œil humain excelle à reconnaître des motifs courts et familiers, pas à parcourir des centaines de milliers de permutations.",
+        "Reconnaître régulièrement des mots de neuf lettres a aussi un bénéfice pratique pour le vocabulaire — cela pousse à repérer les préfixes, suffixes et structures syllabiques plutôt que de mémoriser chaque mot isolément.",
+        "Au Scrabble francophone, poser un mot de neuf lettres en utilisant les sept lettres du chevalet plus deux lettres déjà sur la grille est parfois appelé un « double scrabble ». Toucher deux cases mot compte triple dans le même coup peut produire un score très élevé. Les scrabbles de sept lettres reviennent régulièrement ; les occasions de neuf lettres sont plus rares et dépendent davantage de la lecture de la grille que de la chance du tirage. Des mots comme DAVANTAGE, ESCLAVAGE et NORMALITÉ sont utiles à retenir, car ils utilisent des lettres courantes et reviennent souvent.",
+        "Plutôt que de balayer neuf lettres comme un seul bloc, séparez-les en trois groupes de trois et cherchez des trigrammes familiers (STR, ION, ENT, et similaires). Cette méthode par « blocs » transforme une recherche écrasante en une tâche plus abordable. Il est également utile de vérifier votre rapport voyelles-consonnes : un mot de neuf lettres typique compte trois à quatre voyelles et cinq à six consonnes. Un chevalet riche en voyelles oriente vers des terminaisons comme -TION ou -ANCE ; un chevalet riche en consonnes oriente vers des mots composés.",
+        "Isoler un préfixe réduit la taille du problème. Retirer un préfixe de quatre lettres comme SUR- ou ANTI- laisse cinq lettres à résoudre. Des terminaisons courantes comme -MENT, -TION et -ABLE représentent une grande part des noms et adjectifs de neuf lettres ; -ANT et -É prolongent les participes ; -ITÉ et -ISME transforment des racines en noms. Un S final pour le pluriel transforme souvent un mot de huit lettres en mot de neuf.",
+        "La résolution manuelle développe le vocabulaire et la reconnaissance de motifs avec le temps, et vaut la peine d'être pratiquée en dehors des parties chronométrées. En partie réelle, cependant, un outil en ligne est plus rapide et réduit le risque de poser un mot invalide, puisque les résultats sont vérifiés par rapport au dictionnaire sélectionné. L'approche pratique consiste à utiliser la résolution manuelle pour s'entraîner et un outil pour vérifier avant d'engager une lettre sur la grille.",
+        "La plupart des coups de neuf lettres ne se trouvent pas sur un chevalet neuf — ils se construisent en prolongeant des mots déjà présents sur la grille (la stratégie de « l'appui ») : prendre un mot de sept lettres déjà en jeu et y ajouter deux lettres du chevalet pour atteindre neuf. Le jeu parallèle — poser des lettres à côté d'un mot existant plutôt que perpendiculairement — peut faire marquer plusieurs mots en un seul coup. Un mot comme RÉVEILLE peut devenir RÉVEILLENT avec les bonnes lettres. Un mot long peut aussi bloquer la ligne de score d'un adversaire, mais vérifiez les « contre-appuis » avant de vous engager, car cela peut aussi lui ouvrir une nouvelle case mot compte triple.",
+        "Pour utiliser UnscramblWords sur un mélange de neuf lettres, entrez vos lettres dans la barre de recherche pour obtenir une liste complète de mots valides, classés par longueur et par score. Utilisez les filtres « commence par », « se termine par » et « contient » pour correspondre à un espace précis sur la grille, et les jokers (* ou ?) pour représenter les lettres blanches ou inconnues. UnscramblWords prend en charge 10 langues, chacune avec ses propres caractères accentués correctement gérés par les listes de mots sous-jacentes.",
+        "Comment déchiffrer rapidement un mot de 9 lettres ? Découpez les lettres en segments de trois, ou repérez d'abord les préfixes (SUR-, ANTI-) et suffixes (-TION, -MENT) courants, car ils réduisent le problème à une racine plus courte. Pour une liste complète des combinaisons valides, utilisez un déchiffreur en ligne.",
+        "Quels sont des mots de 9 lettres courants commençant par IN- ou ANTI- ? INCROYABLE et ANTIVIRUS en sont des exemples fréquents, souvent formés en ajoutant un préfixe à une racine déjà présente sur la grille.",
+        "Combien y a-t-il de mots de 9 lettres en français ? Notre dictionnaire, vérifié par rapport à l'ODS9, en compte actuellement 9 387. Le dictionnaire officiel complet, qui inclut toutes les formes conjuguées, pluriels et féminins, en compte nettement plus — l'ODS7 (2016) seul en dénombrait déjà environ 58 000.",
+        "Qu'est-ce qu'un mot de 9 lettres à fort score au Scrabble ? Les mots contenant des lettres à haute valeur — K, W, X, Y, Z (10 points) ou Q (8 points) — rapportent bien, surtout sur une case mot compte triple. ACRYLIQUE en est un bon exemple.",
+        "Sources : Officiel du jeu Scrabble (ODS9), Larousse, référence officielle de la Fédération Française de Scrabble ; comptages historiques par édition d'après Wikipédia."
       ]
     }
   
