@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, RotateCcw, Zap, BookOpen, Trophy, X } from 'lucide-react';
+import { Search, RotateCcw, Zap, Trophy, X } from 'lucide-react';
 
 // UI Components
 import { Button } from '@/components/ui/button.jsx';
@@ -9,13 +9,6 @@ import { Input } from '@/components/ui/input.jsx';
 import { Label } from '@/components/ui/label.jsx';
 import { Skeleton } from '@/components/ui/skeleton.jsx';
 import { Toaster } from '@/components/ui/sonner.jsx';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select.jsx";
 
 // Custom Components
 import WordCard from '@/components/WordCard.jsx';
@@ -108,7 +101,6 @@ const ScrabbleTileTitleLocal = ({ title1, title2 }) => (
 const UnscrambleApp = () => {
   const { t, currentLanguage } = useLanguage();
   const [inputValue, setInputValue] = useState('');
-  const [selectedDictionary, setSelectedDictionary] = useState('ENABLE');
 
   const [score, setScore] = useState(0);
   const [scoreKey, setScoreKey] = useState(0);
@@ -123,7 +115,7 @@ const UnscrambleApp = () => {
     filters,
     updateFilters,
     clearFilters
-  } = useWordUnscrambler(selectedDictionary, currentLanguage);
+  } = useWordUnscrambler(currentLanguage);
 
   useEffect(() => {
     if (inputValue.trim()) {
@@ -133,7 +125,7 @@ const UnscrambleApp = () => {
     } else {
       reset();
     }
-  }, [selectedDictionary, currentLanguage, unscramble, reset]);
+  }, [currentLanguage, unscramble, reset]);
 
   const handleSubmit = (e) => {
     if (e) e.preventDefault();
@@ -278,26 +270,8 @@ const UnscrambleApp = () => {
                     )}
                   </div>
                 </div>
-
-                {currentLanguage === 'en' && (
-                  <div className="w-full sm:w-1/3 space-y-1.5">
-                    <Label htmlFor="dictionary-select" className="text-xs font-bold text-muted-foreground uppercase tracking-wider ml-1 flex items-center gap-2">
-                      <BookOpen className="w-3.5 h-3.5" />
-                      {t('ui.dictionary')}
-                    </Label>
-                    <Select value={selectedDictionary} onValueChange={setSelectedDictionary}>
-                      <SelectTrigger id="dictionary-select" className="h-11 rounded-xl border-2 border-border bg-background text-sm font-semibold shadow-inner focus:ring-0 focus:border-primary transition-colors">
-                        <SelectValue placeholder={t('ui.dictionary')} />
-                      </SelectTrigger>
-                      <SelectContent className="rounded-xl border border-border z-50 shadow-xl">
-                        <SelectItem value="ENABLE" className="font-medium py-2 cursor-pointer">ENABLE</SelectItem>
-                        <SelectItem value="NWL" className="font-medium py-2 cursor-pointer">NWL</SelectItem>
-                        <SelectItem value="CSW" className="font-medium py-2 cursor-pointer">CSW</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                )}
               </div>
+
 
               <Button
                 type="submit"
