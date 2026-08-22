@@ -2,6 +2,7 @@ export const it = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-03-15',
       title: 'Padroneggiare lo Scarabeo: Strategie Essenziali per Migliorare il Vostro Gioco',
       excerpt: 'Scoprite strategie comprovate per migliorare le vostre prestazioni allo Scarabeo, dal posizionamento sulla tavola alla gestione delle lettere.',
       body: [
@@ -19,6 +20,7 @@ export const it = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-03-29',
       title: 'La Guida Completa alle Parole di Due Lettere allo Scarabeo',
       excerpt: 'Scoprite le parole di due lettere più preziose e utili che possono trasformare il vostro gioco di Scarabeo.',
       body: [
@@ -36,6 +38,7 @@ export const it = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-04-12',
       title: 'Come Migliorare il Vostro Vocabolario per i Giochi di Parole',
       excerpt: 'Strategie pratiche e tecniche per sviluppare il vostro vocabolario e diventare un avversario formidabile nei giochi di parole.',
       body: [
@@ -53,6 +56,7 @@ export const it = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-04-26',
       title: 'Le Migliori Parole allo Scarabeo con la Lettera Q',
       excerpt: 'La lettera Q vale 10 punti allo Scarabeo ma è notoriamente difficile da usare. Ecco le migliori parole con Q da conoscere.',
       body: [
@@ -70,12 +74,13 @@ export const it = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-05-10',
       title: 'Parole di Sette Lettere ad Alto Punteggio per gli Scarabei',
       excerpt: 'Giocare tutte e sette le lettere guadagna un bonus di 50 punti. Ecco le migliori parole di sette lettere da conoscere per fare scarabei.',
       body: [
         "Allo Scarabeo, giocare tutte e sette le lettere in un unico turno si chiama 'scarabeo'. Questa impresa vi fa guadagnare un bonus di 50 punti oltre al valore nominale della parola, rendendola una delle mosse più potenti nel gioco.",
         "Le tessere più favorevoli agli scarabei sono le lettere comuni E, A, R, S, T, I, N, O e L. I set contenenti combinazioni di queste lettere offrono la maggiore probabilità di formare parole di sette lettere.",
-        "Tra le parole di sette lettere per lo scarabeo più utili da conoscere in italiano troviamo NASTIER, RETAINS, SENATOR, STAINER e ORNATES — molte delle quali condividono le stesse lettere e possono essere memorizzate in gruppi di anagrammi.",
+        "Tra le parole di sette lettere per lo scarabeo più utili da conoscere in italiano troviamo TORNADO, COMPARE, PASSERI, NESSUNA e GIUDICO — parole comuni che vale la pena tenere a mente per le occasioni di scarabeo.",
         "I gruppi di anagrammi sono particolarmente preziosi. Le lettere A, E, I, N, R, S e T possono essere disposte in molti modi diversi per formare parole valide. Memorizzarne una vi dà effettivamente accesso a tutti i suoi anagrammi.",
         "Il suffisso -ZIONE è estremamente produttivo per gli scarabei in italiano. Qualsiasi radice di sei lettere che accetti -ZIONE diventa una potenziale giocata di sette lettere.",
         "La tessera jolly è la vostra migliore alleata per gli scarabei. Un jolly può sostituire qualsiasi lettera, aumentando notevolmente la gamma di possibili combinazioni di scarabeo nel vostro set.",
@@ -87,6 +92,7 @@ export const it = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-05-24',
       title: 'L\'Affascinante Storia dello Scarabeo',
       excerpt: 'Dalla sua invenzione durante la Grande Depressione al suo status di uno dei giochi da tavolo più popolari al mondo, ecco la storia completa dello Scarabeo.',
       body: [
@@ -104,6 +110,7 @@ export const it = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-06-07',
       title: 'Giochi di Parole e Salute del Cervello: Cosa Dice la Ricerca',
       excerpt: 'La ricerca scientifica suggerisce che la pratica regolare dei giochi di parole potrebbe supportare la salute cognitiva. Ecco ciò che sappiamo attualmente.',
       body: [
@@ -121,6 +128,7 @@ export const it = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-06-21',
       title: 'Come Decifrare le Lettere Rapidamente: Consigli di Esperti',
       excerpt: 'Che stiate giocando a un gioco di parole o risolvendo un indovinello, queste tecniche di esperti vi aiuteranno a trovare parole nelle lettere mescolate molto più velocemente.',
       body: [
@@ -138,6 +146,7 @@ export const it = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-05',
       title: 'Giochi di Parole in Più Lingue: Vantaggi e Sfide',
       excerpt: 'Giocare a giochi di parole in diverse lingue offre vantaggi cognitivi unici e presenta sfide affascinanti. Ecco come iniziare.',
       body: [
@@ -155,6 +164,7 @@ export const it = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-19',
       title: 'Strategie per Wordle: Come Risolvere il Rompicapo Ogni Giorno',
       excerpt: 'Wordle è diventato un fenomeno mondiale. Ecco le migliori strategie e le migliori parole di partenza per risolverlo efficacemente ogni giorno.',
       body: [
@@ -168,6 +178,25 @@ export const it = [
         "Gestire le caselle gialle — lettere confermate nella parola ma posizionate erroneamente — richiede un'attenzione particolare.",
         "Al di là della strategia, Wordle premia l'ampiezza del vocabolario. I giocatori che conoscono un'ampia gamma di parole di cinque lettere hanno accesso a tentativi più informativi.",
         "Strumenti come UnscramblWords possono aiutarvi a esplorare e memorizzare parole di cinque lettere in più lingue, migliorando le vostre prestazioni non solo nel Wordle in inglese ma anche nelle molte varianti internazionali di Wordle che oggi esistono."
+      ]
+    },
+    {
+      slug: 'unscramble-italian-words',
+      date: '2026-08-22',
+      title: 'Sciogliere le Lettere Italiane: Strumento Rapido per Scarabeo e Anagrammi',
+      excerpt: 'Un rack pieno di lettere italiane, accenti compresi, non deve trasformarsi in un turno perso. Ecco come sciogliere le lettere italiane rapidamente, gestire gli accenti correttamente e usare i filtri avanzati per lo Scarabeo.',
+      body: [
+        "Scritto e verificato dal team di UnscramblWords. Le parole e la loro validità su questo sito sono controllate prima della pubblicazione.",
+        "L'alfabeto italiano tradizionale ha solo 21 lettere: mancano J, K, W, X e Y, che compaiono comunque in molte parole straniere entrate nell'uso comune (JEANS, WEB, TAXI). Nel gioco dello Scarabeo, queste lettere 'extra' non hanno un valore ufficiale di punteggio proprio perché non fanno parte dell'alfabeto standard — non sono affatto tessere ad alto valore, contrariamente a quanto si potrebbe pensare.",
+        "Le tessere italiane davvero preziose sono altre: la Q vale 10 punti, mentre G, H e Z valgono 8 punti ciascuna. La H in particolare merita attenzione doppia: oltre al suo alto valore, è muta ma grammaticalmente essenziale — distingue ANNO (l'unità di tempo) da HANNO (la forma verbale di 'avere'). Ignorare la H cambia completamente il significato di una parola, non solo la sua ortografia.",
+        "Gli accenti italiani (À, È, É, Ì, Ò, Ù) non richiedono tessere separate nello Scarabeo — si usa la tessera della vocale base per rappresentare sia la forma accentata che quella non accentata. Sapere però dove cade l'accento resta importante per verificare che una parola sia effettivamente valida: PERCHÉ con l'accento acuto è la forma corretta, mentre PERCHÈ con l'accento grave è una variante meno standard che potrebbe essere contestata in una partita competitiva.",
+        "Le parole di due lettere sono particolarmente utili per incastrarsi in spazi ridotti senza bloccare il resto della tavola. Il nostro dizionario ne contiene diverse decine, tra cui HO, HA, LA, IL, TU, SU, MI, SI, TI, SE — parole brevi ma preziose quando serve agganciarsi a una lettera già presente senza aprire troppo la tavola all'avversario.",
+        "Per sciogliere le lettere italiane con UnscramblWords, inserite le vostre lettere nella barra di ricerca per ottenere un elenco completo di parole valide, ordinate per lunghezza e punteggio. Usate i filtri 'inizia con', 'finisce con' e 'contiene' per adattare la ricerca a uno spazio specifico sulla tavola, e i caratteri jolly (* o ?) per rappresentare tessere bianche o lettere sconosciute.",
+        "I suffissi verbali -ARE, -ERE e -IRE sono tra le occasioni di punteggio più frequenti in italiano, dato l'alto numero di verbi nella lingua. Il filtro 'finisce con' è particolarmente efficace quando avete un surplus di vocali sul vostro rack e volete trasformarle in una giocata concreta.",
+        "Cosa distingue lo Scarabeo dallo Scrabble in lingua inglese? Lo Scarabeo usa una distribuzione di tessere adattata alle frequenze della lingua italiana, e la sua tradizione risale agli anni Cinquanta in Italia, con l'alfabeto di 21 lettere come base — anche se le versioni moderne includono spesso le cinque lettere aggiuntive per le parole straniere.",
+        "Le lettere J, K, W, X e Y contano per il punteggio in italiano? No — non fanno parte dell'alfabeto italiano standard e non hanno un valore ufficiale nello Scarabeo; compaiono solo in parole di origine straniera ormai diffuse nell'uso comune.",
+        "Perché la H è importante nello Scarabeo italiano se è muta? Perché distingue coppie di parole altrimenti identiche nella pronuncia ma diverse nel significato, come ANNO e HANNO — e perché vale 8 punti, tra le tessere più preziose dell'alfabeto italiano.",
+        "Fonti: valori delle tessere italiane secondo la distribuzione ufficiale Hasbro/Mattel; dizionario proprio di UnscramblWords per gli esempi di parole citati."
       ]
     }
   
