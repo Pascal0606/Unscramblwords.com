@@ -2,6 +2,7 @@ export const en = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-03-15',
       title: 'Master Scrabble: Essential Strategies to Boost Your Game',
       excerpt: 'Learn proven strategies to improve your Scrabble performance, from board positioning to tile management and scoring tactics.',
       body: [
@@ -21,6 +22,7 @@ export const en = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-03-29',
       title: 'The Complete Guide to Two-Letter Words in Scrabble',
       excerpt: 'Discover the most valuable and useful two-letter words that can transform your Scrabble game and help you score big points.',
       body: [
@@ -40,6 +42,7 @@ export const en = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-04-12',
       title: 'How to Improve Your Vocabulary for Word Games',
       excerpt: 'Practical strategies and techniques to build your vocabulary and become a formidable opponent in word games like Scrabble and Wordle.',
       body: [
@@ -58,6 +61,7 @@ export const en = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-04-26',
       title: 'Best Scrabble Words Using the Letter Q',
       excerpt: 'The letter Q is worth 10 points in Scrabble but is notoriously difficult to use. Here are the best Q words to know.',
       body: [
@@ -77,6 +81,7 @@ export const en = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-05-10',
       title: 'High-Scoring Seven-Letter Words for Scrabble Bingos',
       excerpt: 'Playing all seven tiles earns a 50-point bonus. Here are the best seven-letter words to know for scoring bingos in Scrabble.',
       body: [
@@ -96,6 +101,7 @@ export const en = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-05-24',
       title: 'The Fascinating History of Scrabble',
       excerpt: 'From its invention during the Great Depression to becoming one of the world\'s most popular board games, here is the complete history of Scrabble.',
       body: [
@@ -115,6 +121,7 @@ export const en = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-06-07',
       title: 'Word Games and Brain Health: What the Research Says',
       excerpt: 'Scientific research suggests that regular engagement with word games may support cognitive health. Here is what we currently know.',
       body: [
@@ -135,6 +142,7 @@ export const en = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-06-21',
       title: 'How to Unscramble Letters Quickly: Expert Tips and Techniques',
       excerpt: 'Whether you are playing a word game or solving a puzzle, these expert techniques will help you find words in scrambled letters much faster.',
       body: [
@@ -153,6 +161,7 @@ export const en = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-05',
       title: 'Word Games in Multiple Languages: Benefits and Challenges',
       excerpt: 'Playing word games in different languages offers unique cognitive benefits and presents fascinating challenges. Here is how to get started.',
       body: [
@@ -171,6 +180,7 @@ export const en = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-19',
       title: 'Wordle Strategies: How to Solve the Puzzle Every Day',
       excerpt: 'Wordle has become a global phenomenon. Here are the best strategies and starting words to solve it efficiently every day.',
       body: [
@@ -190,6 +200,7 @@ export const en = [
     },
     {
       slug: 'unscramble-9-letter-words',
+      date: '2026-08-02',
       title: 'Unscramble 9 Letter Words: Ultimate 2026 Guide',
       excerpt: 'Ready to unscramble 9 letter words like a pro? This guide covers chunking strategy, common prefixes and suffixes, board extensions, and how to use an online unscrambler with confidence.',
       body: [
@@ -213,6 +224,7 @@ export const en = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
+      date: '2026-08-16',
       title: 'Word Unscrambler: The Complete Guide to Solving Any Letter Puzzle',
       excerpt: 'How word unscrambler tools actually work, the strategy behind high-scoring plays, and how to use filters effectively — a practical guide for Scrabble and beyond.',
       body: [
@@ -231,6 +243,48 @@ export const en = [
         "Does UnscramblWords support languages other than English? Yes — the site supports 10 languages, including Spanish, French, German, Italian, and Portuguese, each checked against that language's own word list.",
         "How many letters can you search at once? There's no fixed limit — the tool has been tested with all 26 letters of the alphabet entered at once and still returns results, so it comfortably handles anything from a short jumble to a long anagram phrase.",
         "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on tournament dictionary standards (TWL/NWL and SOWPODS/CSW) and standard Scrabble tile and blank-tile counts."
+      ]
+    },
+    {
+      slug: '5-letter-words-most-vowels',
+      date: '2026-08-22',
+      title: '5-Letter Words with the Most Vowels: Boost Your Game Strategy',
+      excerpt: 'A vowel-heavy rack feels unplayable, but it rarely is. Here are the real 5-letter words with the most vowels, why vowel-heavy racks happen, and how to turn them into a scoring play instead of a wasted turn.',
+      body: [
+        "Written and reviewed by the UnscramblWords Team. Word plays and rulings on this site are checked against official Scrabble tournament word lists (TWL/CSW) before publishing.",
+        "A rack full of vowels — AEIOU with a couple of extra A's or E's thrown in — is one of the most common ways a turn goes to waste. The instinct is to swap the whole lot, but that costs a turn and there's no guarantee the replacement rack is any better. Knowing a handful of genuinely valid, vowel-heavy 5-letter words turns a dead rack into a real play.",
+        "The English tournament word list contains no 5-letter word made entirely of vowels — the ceiling is four vowels out of five letters, and only a small number of words reach it. The clearest, most useful ones to know are ADIEU, AERIE, AIOLI, AUDIO, EERIE and QUEUE. Beyond those, the list gets more obscure fast: AALII (a shrub), AECIA (a fungal spore structure), OIDIA (fungal reproductive cells), URAEI (the plural of uraeus, a coiled-cobra emblem), and a small set of dialect or archaic entries like MIAOU, OORIE and OURIE. These are all legal Scrabble plays, worth knowing even if you'd never use them in conversation.",
+        "Below the 4-vowel ceiling, 3-vowel 5-letter words are far more common and far more useful day to day — hundreds of standard words like ABASE, ABIDE, ABODE, ABOUT and ABOVE fall into this group, giving you a wide, reliable pool to draw from whenever your rack skews vowel-heavy without being an outright emergency.",
+        "Vowel-heavy racks happen because of the letter distribution itself. In a standard English Scrabble set, vowels make up roughly 42 of the 98 non-blank tiles — A (9), E (12), I (9), O (8), U (4) — so pulling several vowels in a row isn't bad luck so much as simple probability given how the bag is stacked.",
+        "Before reaching for a swap, check whether your excess vowels can extend a word already on the board rather than form a brand-new one from scratch. Adding a vowel-heavy suffix like -IA, -EAU or -EOUS to an existing word on the board is often faster to spot than solving a fresh 5-letter word from a jumbled rack, and it doesn't cost you a turn the way an exchange does.",
+        "If no play is available at all, exchanging tiles is a legitimate move, not a failure — but do it selectively. Keep one or two vowels that pair well with common consonants (A and E are the most flexible) and swap out the rest, rather than exchanging your entire rack and hoping for a better draw. This keeps your positioning options open on your next turn instead of starting from zero.",
+        "To use UnscramblWords on a vowel-heavy rack, enter your letters into the search bar to get every valid word they can form, sorted by length and score. Use the 'contains' filter to check for a specific vowel combination, or the wildcard (* or ?) if you're holding a blank tile and want to see what it could stand in for.",
+        "What is the most vowel-heavy 5-letter word? Several words tie for the most — ADIEU, AERIE, AIOLI, AUDIO, EERIE and QUEUE each use four vowels out of five letters, which is the maximum found in the standard tournament word list.",
+        "Is there a 5-letter word with all vowels? No — no word in the standard English tournament dictionary is made entirely of vowels at five letters. Four vowels out of five is the highest ratio that exists.",
+        "What should I do with a vowel-heavy rack if I can't find a word? Check for extensions to words already on the board first, since a vowel-heavy suffix often fits an existing word more easily than a brand-new one. If nothing works, exchange only the least useful vowels rather than your whole rack.",
+        "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on tournament dictionary standards (TWL/NWL and SOWPODS/CSW); standard English Scrabble letter distribution (Hasbro/Mattel); word list drawn from UnscramblWords' own English dictionary (based on the public-domain ENABLE word list)."
+      ]
+    },
+    {
+      slug: '7-letter-word-unscrambler',
+      date: '2026-08-22',
+      title: '7-Letter Word Unscrambler: The Bingo Strategy Guide',
+      excerpt: 'A seven-letter "Bingo" earns a flat 50-point bonus and can flip a losing game. Here is how to spot them faster: the prefixes and suffixes that build them, the board-anchor strategy for fitting them in, and how to use UnscramblWords to find them.',
+      body: [
+        "Written and reviewed by the UnscramblWords Team. Word plays and rulings on this site are checked against official Scrabble tournament word lists (TWL/CSW) before publishing.",
+        "In Scrabble, using all seven tiles from your rack in a single turn earns a flat 50-point bonus on top of the word's own score — known as a 'Bingo.' Because the bonus is fixed rather than scaled to the word's letters, even a plain seven-letter word made of common tiles can outscore a short word built around a single high-value letter. A word like RETAINS, using entirely 1-point tiles, still nets 50-plus points as a Bingo — more than most short plays with a Q or Z ever will.",
+        "Estimates of how many seven-letter words exist vary noticeably by source and dictionary edition — from roughly 25,000 in some tournament word-list counts up to 35,000 in broader estimates. The range exists because 'how many seven-letter words' depends heavily on which official list (TWL, NWL, or the larger international CSW) is doing the counting, not because anyone's actually wrong.",
+        "Rather than scanning seven letters as one undifferentiated block, look for chunks. The five most common suffixes that complete Bingos are -ING, -ERS, -EST, -ION and -IES; the five most common prefixes are RE-, UN-, PRE-, DE- and DIS-. Spotting one of these early narrows your search from thousands of arrangements down to a handful of realistic candidates. A five-letter root plus a two-letter suffix is a common pattern — GREAT becomes the Bingo GREATLY with LY added, for instance.",
+        "Compound words are another fast route to a Bingo, since they combine two familiar short words you already recognise rather than requiring you to see a single unfamiliar seven-letter unit: SUNLIGHT (SUN + LIGHT), BACKPACK (BACK + PACK), KEYBOARD (KEY + BOARD).",
+        "Finding a seven-letter word is only half the job — it also has to fit the board. Expert players look for an 'anchor': a single letter already on the board that a new word can build off. Enter your rack letters plus the anchor letter into UnscramblWords, then apply the 'Starts With' or 'Ends With' filter to match its position. This turns 'do I have a seven-letter word' into 'do I have the specific seven-letter word that fits this exact gap' — a much faster question to answer.",
+        "To use UnscramblWords on a seven-letter rack, type your letters into the search bar (order doesn't matter), use ? for a blank tile, and set the length filter to exactly 7 to cut out shorter, lower-scoring distractions. Sort results by score to see the highest-value plays first, or use 'Starts With'/'Ends With' to solve for a specific board position.",
+        "A genuinely useful habit: after a game ends, re-enter racks you struggled with and see what Bingo you missed. Over time this builds recognition of 'stems' — six-letter combinations that form a seven-letter word with almost any extra letter. TISANE is a well-known example; adding most single letters to it produces a valid word.",
+        "UnscramblWords supports 10 languages, so the same rack-review habit works for building vocabulary in French, German, Spanish, and others, not just English.",
+        "Is using a 7-letter word unscrambler cheating? It depends on the setting. In sanctioned tournament play, outside tools during a game are against the rules. For casual games, online play where all players agree to it, or solo practice and post-game review, it's a normal training aid rather than cheating.",
+        "How many seven-letter words are there in English? Estimates range from roughly 25,000 to 35,000 depending on which official word list (TWL, NWL, or the larger CSW) is being counted — there's no single universally agreed figure.",
+        "What is the highest-scoring 7-letter word in Scrabble? MUZJIKS is a strong example, worth 29 points at base value under standard English letter scoring (M-3, U-1, Z-10, J-8, I-1, K-5, S-1) — before any bonus squares or the 50-point Bingo bonus.",
+        "Do word unscramblers handle blank tiles? Yes — enter a question mark (?) as a wildcard and the tool checks every letter in that position to find every valid seven-letter word your remaining tiles can complete.",
+        "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on tournament dictionary standards; standard English Scrabble letter distribution (Hasbro/Mattel); seven-letter word count estimates cross-checked across multiple word-list sources given disagreement between editions; word validity checked against UnscramblWords' own English dictionary (ENABLE-based)."
       ]
     }
   
