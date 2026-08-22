@@ -1,13 +1,13 @@
 import { useState, useCallback, useRef } from 'react';
-import { ENABLE_WORDS, NWL_WORDS, CSW_WORDS } from '@/lib/dictionaries.js';
 
-// Each non-English dictionary is loaded on demand via a dynamic import(),
-// so Vite splits it into its own chunk. A visitor's browser only downloads
-// the one language's word list they actually select, instead of every
-// language's dictionary on every page load. Results are cached in memory
-// after the first load for that language, so switching back and forth
-// within a session doesn't re-download anything.
+// Each dictionary — including English's own word list — is loaded on demand
+// via a dynamic import(), so Vite splits it into its own chunk. A visitor's
+// browser only downloads the one language's word list they actually need,
+// instead of every language's dictionary on every page load. Results are
+// cached in memory after the first load, so switching back and forth within
+// a session doesn't re-download anything.
 const dictionaryLoaders = {
+  en: () => import('@/lib/EnWordsFull.js').then((m) => m.EN_WORDS_FULL),
   fr: () => import('@/lib/FrWordsFull.js').then((m) => m.FR_WORDS_FULL),
   es: () => import('@/lib/EsWordsFull.js').then((m) => m.ES_WORDS_FULL),
   de: () => import('@/lib/DeWordsFull.js').then((m) => m.DE_WORDS_FULL),
@@ -30,7 +30,7 @@ const getLocalDictionary = async (langCode) => {
   return words;
 };
 
-export const useWordUnscrambler = (dictionary = 'ENABLE', currentLanguage = 'en') => {
+export const useWordUnscrambler = (currentLanguage = 'en') => {
   const [words, setWords] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isUsingFallbackDictionary, setIsUsingFallbackDictionary] = useState(false);
@@ -51,15 +51,8 @@ export const useWordUnscrambler = (dictionary = 'ENABLE', currentLanguage = 'en'
     try {
       let dict = [];
 
-      if (currentLanguage !== 'en') {
-        dict = await getLocalDictionary(currentLanguage);
-        setIsUsingFallbackDictionary(false);
-      } else {
-        setIsUsingFallbackDictionary(false);
-        if (dictionary === 'NWL') dict = NWL_WORDS || [];
-        else if (dictionary === 'CSW') dict = CSW_WORDS || [];
-        else dict = ENABLE_WORDS || [];
-      }
+      dict = await getLocalDictionary(currentLanguage);
+      setIsUsingFallbackDictionary(false);
 
       const inputUpper = inputLetters.toUpperCase();
       const currentFilters = filtersRef.current;
@@ -99,7 +92,7 @@ export const useWordUnscrambler = (dictionary = 'ENABLE', currentLanguage = 'en'
     } finally {
       setIsLoading(false);
     }
-  }, [dictionary, currentLanguage]);
+  }, [currentLanguage]);
 
   const updateFilters = useCallback((newFilters) => {
     setFilters(prev => ({ ...prev, ...newFilters }));
