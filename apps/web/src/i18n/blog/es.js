@@ -226,6 +226,24 @@ export const es = [
         "¿Cuál es una palabra de 9 letras de alto puntaje en el Scrabble en español? Las palabras con letras de alto valor — Ñ, K, W, X, Q (8 puntos) o Z (10 puntos), o que contienen los dígrafos LL o RR (8 puntos cada uno) — puntúan bien, sobre todo sobre una casilla de palabra triple. IZQUIERDA y VERGÜENZA son buenos ejemplos.",
         "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE; valores de fichas según la distribución oficial de Hasbro/Mattel para el español, incluidos los dígrafos LL y RR como fichas únicas (a diferencia de versiones anteriores, CH ya no se trata como ficha independiente)."
       ]
+    },
+    {
+      slug: '7-letter-word-unscrambler',
+      date: '2026-08-22',
+      title: 'Descifrador de palabras de 7 letras: la guía del bingo',
+      excerpt: 'Colocar las siete fichas del atril en una sola jugada da un bono fijo de 50 puntos y puede cambiar el rumbo de una partida. Así se detectan más rápido, con ejemplos reales de nuestro propio diccionario.',
+      body: [
+        "Escrito y revisado por el equipo de UnscramblWords. Las palabras y su validez en este sitio se comprueban frente al Diccionario de la lengua española (RAE/DLE) antes de su publicación.",
+        "En el Scrabble en español, colocar las siete fichas del atril en una sola jugada da un bono fijo de 50 puntos, además de la puntuación propia de la palabra. Como este bono es fijo y no depende de las letras usadas, incluso una palabra de siete letras común, formada por letras corrientes, puede superar a una palabra corta construida en torno a una sola letra de alto valor.",
+        "Nuestro propio diccionario contiene actualmente 7.164 palabras de siete letras. Esta cifra debe tomarse como provisional, ya que la revisión completa de limpieza para el español, a diferencia de la ya aplicada al francés, aún está pendiente.",
+        "En lugar de examinar siete letras como un solo bloque, busque bloques reconocibles. Terminaciones verbales como -ADO, -IDO o -ANDO ayudan a construir una palabra de siete letras a partir de una raíz más corta, en vez de revisar las siete letras a la vez.",
+        "Encontrar una palabra de siete letras es solo la mitad del trabajo — también debe encajar en el tablero. Los jugadores experimentados buscan una «extensión»: una letra ya colocada en el tablero sobre la que construir una palabra nueva. Introduzca sus letras más la letra de extensión en el Descifrador de Palabras, y use los filtros «empieza por» o «termina en» para ajustarse a esa posición exacta.",
+        "Para usar el Descifrador de Palabras con siete letras, introduzca sus letras en la barra de búsqueda (el orden no importa), use ? para una ficha en blanco, y ajuste el filtro de longitud exactamente a 7 para eliminar distracciones más cortas y menos rentables.",
+        "¿Usar un descifrador de palabras de 7 letras es hacer trampa? Depende del contexto. En un torneo oficial, la ayuda externa durante la partida está prohibida por el reglamento. Para partidas entre amigos, en línea con el acuerdo de todos los jugadores, o para practicar en solitario, es una herramienta de entrenamiento normal, no trampa.",
+        "¿Cuál es una palabra de 7 letras de alto puntaje en español? AJEDREZ es un buen ejemplo, con 24 puntos de valor base según los valores de letra estándar, antes incluso de contar las casillas de bonificación o el bono de 50 puntos.",
+        "¿Cuántas palabras de 7 letras hay en español? Nuestro diccionario contiene actualmente 7.164 — esta cifra es provisional, ya que la revisión completa de limpieza para el español aún está pendiente.",
+        "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE; valores de fichas según la distribución oficial de Hasbro/Mattel; recuento de palabras extraído del diccionario propio de UnscramblWords."
+      ]
     }
   
 ];
