@@ -226,6 +226,25 @@ export const fr = [
         "Qu'est-ce qu'un mot de 9 lettres à fort score au Scrabble ? Les mots contenant des lettres à haute valeur — K, W, X, Y, Z (10 points) ou Q (8 points) — rapportent bien, surtout sur une case mot compte triple. ACRYLIQUE en est un bon exemple.",
         "Sources : Officiel du jeu Scrabble (ODS9), Larousse, référence officielle de la Fédération Française de Scrabble ; comptages historiques par édition d'après Wikipédia."
       ]
+    },
+    {
+      slug: '7-letter-word-unscrambler',
+      date: '2026-08-22',
+      title: 'Déchiffreur de mots de 7 lettres : le guide du scrabble',
+      excerpt: 'Faire un scrabble avec sept lettres rapporte un bonus fixe de 50 points et peut renverser une partie. Voici comment les repérer plus vite : préfixes et suffixes utiles, stratégie des appuis sur la grille, et comment utiliser le Déchiffreur de Mots.',
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords. Les mots et leur validité sur ce site sont vérifiés par rapport à l'ODS9, le dictionnaire officiel du Scrabble francophone, avant publication.",
+        "Au Scrabble, poser les sept lettres de son chevalet en un seul coup — « faire un scrabble » — rapporte un bonus fixe de 50 points en plus du score du mot lui-même. Comme ce bonus est fixe plutôt que proportionnel aux lettres utilisées, même un mot de sept lettres ordinaire composé de lettres courantes peut surpasser un mot court construit autour d'une seule lettre à forte valeur.",
+        "Notre propre dictionnaire contient actuellement 10 240 mots de sept lettres, vérifiés par rapport à l'ODS9. Ce nombre reste indicatif : le dictionnaire officiel complet, avec toutes les formes conjuguées et accordées, en compte nettement plus.",
+        "Plutôt que de balayer sept lettres comme un seul bloc, cherchez des blocs reconnaissables. Un mot racine de cinq lettres plus un suffixe de deux lettres est un schéma courant — PARLE devient le scrabble PARLENT avec l'ajout de NT. Repérer ce genre de structure tôt réduit une recherche écrasante à une poignée de candidats réalistes.",
+        "Trouver un mot de sept lettres n'est que la moitié du travail — il doit aussi trouver sa place sur la grille. Les joueurs expérimentés cherchent un « appui » : une lettre déjà présente sur la grille sur laquelle bâtir un nouveau mot. Entrez vos lettres plus la lettre d'appui dans le Déchiffreur de Mots, puis utilisez les filtres « commence par » ou « se termine par » pour correspondre à sa position exacte.",
+        "Pour utiliser le Déchiffreur de Mots sur un chevalet de sept lettres, entrez vos lettres dans la barre de recherche (l'ordre n'a pas d'importance), utilisez ? pour une lettre blanche, et réglez le filtre de longueur sur exactement 7 pour éliminer les distractions plus courtes et moins rentables.",
+        "Une habitude vraiment utile : après une partie, ressaisissez les chevalets qui vous ont posé problème pour voir quel scrabble vous avez manqué. Cela développe avec le temps la reconnaissance des « appuis » naturels — des combinaisons de six lettres qui forment un mot de sept lettres avec presque n'importe quelle lettre supplémentaire.",
+        "Utiliser un déchiffreur de mots de 7 lettres, est-ce de la triche ? Cela dépend du contexte. En tournoi officiel, l'aide extérieure pendant la partie est interdite par le règlement. Pour les parties entre amis, en ligne avec l'accord de tous les joueurs, ou pour l'entraînement en solo, c'est un outil d'apprentissage normal, pas de la triche.",
+        "Quel est un mot de 7 lettres à fort score en français ? PHARYNX en est un bon exemple, valant 30 points en valeur de base — H, Y valent 4 points chacune, et la combinaison des autres lettres s'ajoute, avant même de compter les cases bonus ou le bonus de 50 points.",
+        "Combien y a-t-il de mots de 7 lettres en français ? Notre dictionnaire, vérifié par rapport à l'ODS9, en compte actuellement 10 240. Le dictionnaire officiel complet, qui inclut toutes les formes conjuguées, en compte nettement plus.",
+        "Sources : Officiel du jeu Scrabble (ODS9), Larousse, référence officielle de la Fédération Française de Scrabble ; valeurs des lettres et règle du bonus de 50 points en Scrabble francophone ; comptage de mots issu du dictionnaire propre d'UnscramblWords."
+      ]
     }
   
 ];
