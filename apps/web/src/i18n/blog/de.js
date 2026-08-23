@@ -226,6 +226,24 @@ export const de = [
         "Was ist ein punktestarkes 9-Buchstaben-Wort im Scrabble? Wörter mit hochwertigen Buchstaben — Q, Y (10 Punkte) oder Ö, X (8 Punkte) — punkten gut, besonders auf einem Wortwert-Dreifach-Feld. QUATSCHEN und LABYRINTH sind Beispiele.",
         "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); interne Wörterbuchauszählung von UnscramblWords."
       ]
+    },
+    {
+      slug: '7-letter-word-unscrambler',
+      date: '2026-08-22',
+      title: 'Wort-Entschlüsseler für 7 Buchstaben: der Bingo-Leitfaden',
+      excerpt: 'Alle sieben Steine des Rafts in einem Zug zu legen, bringt einen festen Bonus von 50 Punkten und kann eine Partie umdrehen. So erkennen Sie diese Züge schneller, mit echten Beispielen aus unserem eigenen Wörterbuch.',
+      body: [
+        "Geschrieben und geprüft vom UnscramblWords-Team. Wörter und ihre Gültigkeit auf dieser Seite werden vor Veröffentlichung gegen die offizielle Turnierwörterliste (SDeV) geprüft.",
+        "Im Scrabble bringt das Legen aller sieben Steine des Steinsatzes in einem Zug einen festen Bonus von 50 Punkten, zusätzlich zum eigentlichen Wortwert. Da dieser Bonus fest ist und nicht von den verwendeten Buchstaben abhängt, kann selbst ein gewöhnliches Sieben-Buchstaben-Wort aus häufigen Buchstaben ein kurzes Wort mit nur einem hochwertigen Buchstaben deutlich übertreffen.",
+        "Unser eigenes Wörterbuch enthält derzeit 5.252 Wörter mit sieben Buchstaben. Diese Zahl ist als vorläufig zu verstehen, da die vollständige Bereinigung für Deutsch — anders als beim bereits bereinigten Französisch — noch aussteht.",
+        "Statt sieben Buchstaben als einen Block zu betrachten, suchen Sie nach erkennbaren Blöcken. Vor- und Nachsilben wie GE- (Partizip-Präfix), -UNG, -HEIT und -KEIT helfen, ein Sieben-Buchstaben-Wort schnell aus einer kürzeren Wurzel zu bilden, statt alle sieben Buchstaben gleichzeitig zu durchsuchen.",
+        "Ein Sieben-Buchstaben-Wort zu finden ist nur die halbe Arbeit — es muss auch aufs Brett passen. Erfahrene Spieler suchen nach einem 'Anschluss': einem bereits liegenden Buchstaben, auf dem ein neues Wort aufbauen kann. Geben Sie Ihre Buchstaben plus den Anschlussbuchstaben in den Wort-Entschlüsseler ein und nutzen Sie die Filter 'beginnt mit' oder 'endet mit', um die genaue Position zu treffen.",
+        "Um den Wort-Entschlüsseler für sieben Buchstaben zu nutzen, geben Sie Ihre Buchstaben in die Suchleiste ein (die Reihenfolge spielt keine Rolle), verwenden Sie ? für einen Blankostein, und setzen Sie den Längenfilter auf genau 7, um kürzere, weniger einträgliche Ablenkungen auszuschließen.",
+        "Ist die Nutzung eines 7-Buchstaben-Wort-Entschlüsselers Schummeln? Das hängt vom Rahmen ab. Bei offiziellen Turnieren ist Hilfe von außen während der Partie durch das Regelwerk untersagt. Für Partien mit Freunden, online mit Zustimmung aller Spieler, oder zum Üben allein ist es ein normales Trainingswerkzeug, kein Betrug.",
+        "Was ist ein punktestarkes 7-Buchstaben-Wort im Deutschen? KOMPLEX ist ein gutes Beispiel mit 24 Punkten Grundwert nach den Standard-Buchstabenwerten — noch bevor Bonusfelder oder der 50-Punkte-Bonus dazukommen.",
+        "Wie viele 7-Buchstaben-Wörter gibt es im Deutschen? Unser Wörterbuch enthält derzeit 5.252 — diese Zahl ist vorläufig, da die vollständige Bereinigung für Deutsch noch aussteht.",
+        "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); Buchstabenwerte nach offizieller Hasbro/Mattel-Verteilung; interne Wörterbuchauszählung von UnscramblWords."
+      ]
     }
   
 ];
