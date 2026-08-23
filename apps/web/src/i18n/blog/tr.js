@@ -224,6 +224,24 @@ export const tr = [
         "Kelime oyunlarında yüksek puanlı bir 9 harfli kelime nedir? J (10 puan) veya Ğ (8 puan) gibi yüksek değerli harfler içeren kelimeler, özellikle üç kat kelime puanı karesini geçtiklerinde iyi puan kazandırır. İSTEDİĞİM ve GELDİĞİNİ buna örnektir.",
         "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük; UnscramblWords'ün kendi dahili sözlük sayımı."
       ]
+    },
+    {
+      slug: '7-letter-word-unscrambler',
+      date: '2026-08-22',
+      title: '7 Harfli Kelime Çözücü: Bonus Stratejisi Rehberi',
+      excerpt: 'Rafınızdaki yedi harfin tamamını tek hamlede kullanmak sabit bir 50 puan bonusu getirir ve oyunu tersine çevirebilir. İşte bunları daha hızlı bulmanın yolu, kendi sözlüğümüzden gerçek örneklerle.',
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve incelenmiştir. Bu sitedeki kelimeler ve geçerlilikleri, yayımlanmadan önce Türk Dil Kurumu'nun (TDK) Güncel Türkçe Sözlük'üne göre kontrol edilir.",
+        "Türkçe kelime oyunlarında, raftaki yedi taşın tamamını tek hamlede kullanmak, kelimenin kendi puanına ek olarak sabit bir 50 puan bonusu kazandırır. Bu bonus sabit olduğu ve kullanılan harflere bağlı olmadığı için, sık kullanılan harflerden oluşan sıradan bir yedi harfli kelime bile, tek bir yüksek değerli harf etrafında kurulmuş kısa bir kelimeyi geride bırakabilir.",
+        "Kendi sözlüğümüz şu anda 7.018 adet yedi harfli kelime içeriyor. Bu rakam geçici olarak değerlendirilmelidir; Fransızca için zaten tamamlanmış olan temizlik incelemesinin aksine, Türkçe için bu inceleme henüz yapılmadı.",
+        "Yedi harfi tek bir blok olarak taramak yerine, tanınabilir blokları arayın. Türkçenin eklemeli yapısı sayesinde, -DIĞI, -MESİ, -LÜĞÜ gibi sık kullanılan sona ekler, daha kısa bir kökten yedi harfli bir kelime oluşturmaya yardımcı olur.",
+        "Yedi harfli bir kelime bulmak işin yalnızca yarısıdır — tahtaya da uyması gerekir. Deneyimli oyuncular bir 'bağlantı' arar: üzerine yeni bir kelime kurulabilecek, tahtada zaten bulunan bir harf. Harflerinizi bağlantı harfiyle birlikte Kelime Çözücü'ye girin ve tam konumu bulmak için 'ile başlar' veya 'ile biter' filtrelerini kullanın.",
+        "Kelime Çözücü'yü yedi harf için kullanmak üzere, harflerinizi arama çubuğuna girin (sıralama önemli değildir), boş taş için ? kullanın ve daha kısa, daha az kazançlı sonuçları elemek için uzunluk filtresini tam olarak 7'ye ayarlayın.",
+        "7 harfli bir kelime çözücü kullanmak hile midir? Bu, bağlama bağlıdır. Resmi bir turnuvada, oyun sırasında dışarıdan yardım kurallarca yasaktır. Arkadaşlar arasındaki oyunlarda, tüm oyuncuların onayıyla çevrimiçi oyunlarda veya tek başına antrenman yaparken, bu normal bir antrenman aracıdır, hile değildir.",
+        "Türkçede yüksek puanlı bir 7 harfli kelime nedir? ÖZGÜVEN, standart harf değerlerine göre 28 puanlık taban değeriyle iyi bir örnektir — bonus kareler veya 50 puanlık bonus hesaba katılmadan önce bile.",
+        "Türkçede kaç adet 7 harfli kelime var? Sözlüğümüz şu anda 7.018 adet içeriyor — bu rakam geçicidir, çünkü Türkçe için tam temizlik incelemesi henüz tamamlanmadı.",
+        "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük; resmi Hasbro/Mattel harf dağılımına göre harf değerleri; UnscramblWords'ün kendi dahili sözlük sayımı."
+      ]
     }
   
 ];
