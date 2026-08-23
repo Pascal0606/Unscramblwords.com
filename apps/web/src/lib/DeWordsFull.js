@@ -1,4 +1,4 @@
-// Full German word list.
+// Full German word list. 40,024 words
 // Removed 1,587 words in a first cleanup pass: 30 OCR "L" misread as "I" bugs
 // (e.g. LHR corrected by removal, real form IHR already present separately),
 // and 1,553 confirmed English-word/foreign-word contamination entries found
