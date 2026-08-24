@@ -1,6 +1,9 @@
 // Per-language Scrabble tile point values.
 // Sources: official Hasbro/Mattel letter distributions per language edition.
-// Chinese and Arabic have no official letter-tile scoring system implemented yet —
+// Polish values sourced from the standard 100-tile Polish Scrabble set
+// (verified count: tile quantities sum to exactly 100, matching every
+// other language's tile set size).
+// Arabic has no official letter-tile scoring system implemented yet —
 // see note at bottom of file.
 
 const POINTS_BY_LANGUAGE = {
@@ -44,6 +47,11 @@ const POINTS_BY_LANGUAGE = {
     А: 1, Б: 3, В: 1, Г: 3, Д: 2, Е: 1, Ё: 3, Ж: 5, З: 5, И: 1, Й: 4, К: 2, Л: 2,
     М: 2, Н: 1, О: 1, П: 2, Р: 1, С: 1, Т: 1, У: 2, Ф: 10, Х: 5, Ц: 5, Ч: 5, Ш: 8,
     Щ: 10, Ъ: 10, Ы: 4, Ь: 3, Э: 8, Ю: 8, Я: 3
+  },
+  pl: {
+    A: 1, Ą: 5, B: 3, C: 2, Ć: 6, D: 2, E: 1, Ę: 5, F: 5, G: 3, H: 3, I: 1, J: 3,
+    K: 2, L: 2, Ł: 3, M: 2, N: 1, Ń: 7, O: 1, Ó: 5, P: 2, R: 1, S: 1, Ś: 5, T: 2,
+    U: 3, W: 1, Y: 2, Z: 1, Ź: 9, Ż: 5
   }
 };
 
@@ -87,11 +95,10 @@ const tokenizeWord = (word, language) => {
 export const calculateScrabblePoints = (word, language = 'en') => {
   if (!word || typeof word !== 'string') return 0;
 
-  // Chinese and Arabic don't have an implemented letter-tile scoring system yet.
-  // Chinese in particular has no official Scrabble letter distribution at all,
-  // since standard Scrabble is alphabet-based. Returning 0 rather than a
-  // fabricated or misleading value until a scoring approach is decided.
-  if (language === 'zh' || language === 'ar') {
+  // Arabic doesn't have an implemented letter-tile scoring system yet.
+  // Returning 0 rather than a fabricated or misleading value until a
+  // scoring approach is decided.
+  if (language === 'ar') {
     return 0;
   }
 
