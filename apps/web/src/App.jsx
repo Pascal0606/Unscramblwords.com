@@ -50,8 +50,8 @@ function App() {
         <Route path="/tr/blog/:slug" element={<BlogArticlePage lang="tr" />} />
         <Route path="/ru/blog" element={<BlogPage lang="ru" />} />
         <Route path="/ru/blog/:slug" element={<BlogArticlePage lang="ru" />} />
-        <Route path="/zh/blog" element={<BlogPage lang="zh" />} />
-        <Route path="/zh/blog/:slug" element={<BlogArticlePage lang="zh" />} />
+        <Route path="/pl/blog" element={<BlogPage lang="pl" />} />
+        <Route path="/pl/blog/:slug" element={<BlogArticlePage lang="pl" />} />
         <Route path="/ar/blog" element={<BlogPage lang="ar" />} />
         <Route path="/ar/blog/:slug" element={<BlogArticlePage lang="ar" />} />
 
@@ -63,7 +63,7 @@ function App() {
         <Route path="/pt" element={<LangPage lang="pt" />} />
         <Route path="/tr" element={<LangPage lang="tr" />} />
         <Route path="/ru" element={<LangPage lang="ru" />} />
-        <Route path="/zh" element={<LangPage lang="zh" />} />
+        <Route path="/pl" element={<LangPage lang="pl" />} />
         <Route path="/ar" element={<LangPage lang="ar" />} />
         <Route path="/" element={<Navigate to="/en" replace />} />
         <Route path="*" element={<Navigate to="/en" replace />} />
