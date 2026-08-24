@@ -110,6 +110,7 @@ const UnscrambleApp = () => {
   const {
     words,
     isLoading,
+    isBackgroundLoading,
     unscramble,
     reset,
     filters,
@@ -307,6 +308,11 @@ const UnscrambleApp = () => {
                     {hasSearched && !isLoading && (
                       <span className="text-[11px] font-bold text-muted-foreground mt-1 px-1">
                         {t('messages.showingMatches', { count: displayWords.length })}
+                      </span>
+                    )}
+                    {isBackgroundLoading && (
+                      <span className="text-[11px] font-medium text-muted-foreground/80 mt-1 px-1">
+                        {t('ui.expandingDictionary')}
                       </span>
                     )}
                   </div>
