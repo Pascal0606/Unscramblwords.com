@@ -1,5 +1,5 @@
 export const detectLanguage = () => {
-  const supportedLanguages = ['en', 'es', 'fr', 'de', 'pt', 'it', 'tr', 'ru', 'zh', 'ar'];
+  const supportedLanguages = ['en', 'es', 'fr', 'de', 'pt', 'it', 'tr', 'ru', 'pl', 'ar'];
   
   if (typeof navigator === 'undefined') return 'en';
   
