@@ -2,7 +2,6 @@ export const es = [
 
     {
       slug: 'scrabble-strategies',
-      date: '2026-03-15',
       title: 'Dominar el Scrabble: Estrategias Esenciales para Mejorar su Juego',
       excerpt: 'Aprenda estrategias probadas para mejorar su rendimiento en el Scrabble, desde el posicionamiento en el tablero hasta la gestión de las fichas.',
       body: [
@@ -20,7 +19,6 @@ export const es = [
     },
     {
       slug: 'best-two-letter-words',
-      date: '2026-03-29',
       title: 'La Guía Completa de las Palabras de Dos Letras en el Scrabble',
       excerpt: 'Descubra las palabras de dos letras más valiosas y útiles que pueden transformar su juego de Scrabble.',
       body: [
@@ -38,7 +36,6 @@ export const es = [
     },
     {
       slug: 'improve-vocabulary-word-games',
-      date: '2026-04-12',
       title: 'Cómo Mejorar su Vocabulario para los Juegos de Palabras',
       excerpt: 'Estrategias prácticas y técnicas para desarrollar su vocabulario y convertirse en un adversario formidable en los juegos de palabras.',
       body: [
@@ -56,7 +53,6 @@ export const es = [
     },
     {
       slug: 'best-scrabble-words-with-q',
-      date: '2026-04-26',
       title: 'Las Mejores Palabras en el Scrabble con la Letra Q',
       excerpt: 'La letra Q vale 8 puntos en el Scrabble español pero es notoriamente difícil de usar. Aquí están las mejores palabras con Q que debe conocer.',
       body: [
@@ -74,7 +70,6 @@ export const es = [
     },
     {
       slug: 'seven-letter-words-scrabble',
-      date: '2026-05-10',
       title: 'Palabras de Siete Letras de Alta Puntuación para los Scrabbles',
       excerpt: 'Jugar todas las siete fichas obtiene un bono de 50 puntos. Aquí están las mejores palabras de siete letras que debe conocer para hacer scrabbles.',
       body: [
@@ -92,7 +87,6 @@ export const es = [
     },
     {
       slug: 'history-of-scrabble',
-      date: '2026-05-24',
       title: 'La Fascinante Historia del Scrabble',
       excerpt: 'Desde su invención durante la Gran Depresión hasta convertirse en uno de los juegos de mesa más populares del mundo, aquí está la historia completa del Scrabble.',
       body: [
@@ -110,14 +104,13 @@ export const es = [
     },
     {
       slug: 'word-games-brain-health',
-      date: '2026-06-07',
       title: 'Juegos de Palabras y Salud del Cerebro: Lo que Dice la Investigación',
       excerpt: 'La investigación científica sugiere que la práctica regular de los juegos de palabras podría apoyar la salud cognitiva. Esto es lo que sabemos actualmente.',
       body: [
         "La relación entre los juegos de palabras y la salud del cerebro ha atraído un creciente interés científico en las últimas décadas. Aunque los investigadores continúan estudiando este ámbito, existen pruebas significativas que sugieren que el compromiso regular con actividades mentalmente estimulantes — incluidos los juegos de palabras — puede apoyar la función cognitiva a lo largo de la vida.",
         "Un estudio publicado en 2011 en la revista Neuropsychology encontró que los individuos que se dedicaban a actividades de ocio mentalmente estimulantes, incluidos los juegos de palabras y los rompecabezas, mostraban tasas más lentas de deterioro cognitivo en la vejez.",
         "El procesamiento del lenguaje es una de las funciones cognitivas más complejas realizadas por el cerebro humano, e implica múltiples regiones, incluidas el área de Broca, el área de Wernicke y diversas partes de la corteza prefrontal. Los juegos de palabras como el Scrabble solicitan intensamente estas áreas lingüísticas.",
-        "Investigaciones dirigidas por Ellen Bialystok y sus colegas de la Universidad de York han demostrado que los pacientes bilingües con demencia mostraban síntomas, en promedio, de cuatro a cinco años más tarde que los pacientes monolingües con antecedentes por lo demás comparables. Jugar a juegos de palabras en varios idiomas podría, por tanto, ofrecer beneficios cognitivos acumulados.",
+        "Investigaciones de la Universidad de Waterloo han demostrado que los individuos bilingües y multilingües tienden a mostrar un inicio más tardío de los síntomas de demencia en comparación con los individuos monolingües. Jugar a juegos de palabras en varios idiomas podría, por tanto, ofrecer beneficios cognitivos acumulados.",
         "La memoria de trabajo — la capacidad de retener y manipular información en la mente durante períodos breves — se solicita intensamente durante los juegos de palabras. En el Scrabble, por ejemplo, los jugadores deben simultáneamente mantener en mente su conjunto de letras, explorar el tablero en busca de oportunidades y calcular las puntuaciones.",
         "La atención y la concentración también se desarrollan mediante la práctica de los juegos de palabras. El Scrabble competitivo exige una atención sostenida durante períodos de 30 minutos a varias horas.",
         "Es importante señalar que la comunidad científica aún no ha establecido un vínculo causal definitivo entre la práctica de los juegos de palabras y la prevención del deterioro cognitivo o de enfermedades neurodegenerativas como el Alzheimer.",
@@ -128,7 +121,6 @@ export const es = [
     },
     {
       slug: 'unscramble-letters-tips',
-      date: '2026-06-21',
       title: 'Cómo Descifrar Letras Rápidamente: Consejos de Expertos',
       excerpt: 'Tanto si está jugando a un juego de palabras como si está resolviendo un acertijo, estas técnicas de expertos le ayudarán a encontrar palabras en letras mezcladas mucho más rápidamente.',
       body: [
@@ -146,7 +138,6 @@ export const es = [
     },
     {
       slug: 'multilingual-word-games',
-      date: '2026-07-05',
       title: 'Juegos de Palabras en Varios Idiomas: Ventajas y Desafíos',
       excerpt: 'Jugar a juegos de palabras en diferentes idiomas ofrece ventajas cognitivas únicas y presenta desafíos fascinantes. Así es como empezar.',
       body: [
@@ -156,7 +147,7 @@ export const es = [
         "Los juegos de palabras en alemán presentan el fascinante desafío de las palabras compuestas. El alemán combina fácilmente los sustantivos en palabras compuestas de considerable longitud, lo que significa que un scrabble de siete letras en alemán puede representar un compuesto de dos palabras más cortas.",
         "Los juegos de palabras en árabe y en ruso introducen alfabetos no latinos, lo que altera radicalmente la experiencia cognitiva. Los jugadores deben procesar símbolos visuales que difieren fundamentalmente de las letras latinas.",
         "Para los jugadores multilingües, alternar entre idiomas durante una sesión ejercita lo que los lingüistas denominan capacidad de «alternancia de códigos» — la habilidad de moverse fluidamente entre diferentes sistemas lingüísticos. Esta habilidad está asociada a una mejor función ejecutiva.",
-        "UnscramblWords admite diez idiomas — inglés, español, francés, alemán, portugués, italiano, turco, ruso, chino y árabe — permitiendo a los jugadores practicar el descifrado de palabras en una notable variedad de familias lingüísticas.",
+        "UnscramblWords admite diez idiomas — inglés, español, francés, alemán, portugués, italiano, turco, ruso, polaco y árabe — permitiendo a los jugadores practicar el descifrado de palabras en una notable variedad de familias lingüísticas.",
         "Si es nuevo en los juegos de palabras multilingüe, el enfoque más eficaz es comenzar con un idioma que ya esté aprendiendo o con el que tenga cierta familiaridad.",
         "La alegría de los juegos de palabras multilingüe reside no sólo en los beneficios cognitivos, sino también en el enriquecimiento cultural que proporcionan.",
         "Cada palabra que aprende en un nuevo idioma abre una pequeña ventana a la historia, la cultura y las formas de pensar de las personas que lo hablan."
@@ -164,7 +155,6 @@ export const es = [
     },
     {
       slug: 'wordle-strategies',
-      date: '2026-07-19',
       title: 'Estrategias para el Wordle: Cómo Resolver el Puzle Cada Día',
       excerpt: 'El Wordle se ha convertido en un fenómeno mundial. Aquí están las mejores estrategias y palabras de partida para resolverlo eficientemente cada día.',
       body: [
@@ -182,7 +172,6 @@ export const es = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
-      date: '2026-08-16',
       title: 'Buscador de palabras: la guía completa para resolver cualquier sopa de letras',
       excerpt: 'Cómo funcionan realmente las herramientas de búsqueda de palabras, la estrategia detrás de las jugadas de alta puntuación, y cómo usar los filtros de forma eficaz.',
       body: [
@@ -201,48 +190,6 @@ export const es = [
         "¿UnscramblWords admite otros idiomas además del español? Sí — el sitio admite 10 idiomas, entre ellos inglés, francés, alemán, italiano y portugués, cada uno verificado frente a su propio diccionario de referencia.",
         "¿Cuántas letras se pueden buscar a la vez? No hay un límite fijo — la herramienta se ha probado introduciendo las 26 letras del alfabeto a la vez y sigue devolviendo resultados, por lo que gestiona con soltura desde una combinación corta hasta una expresión larga.",
         "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE, Federación Internacional de Scrabble en Español; composición de fichas y reglas del bono de 50 puntos en el Scrabble en español."
-      ]
-    },
-    {
-      slug: 'unscramble-9-letter-words',
-      date: '2026-08-02',
-      title: 'Descifrar palabras de 9 letras: la guía definitiva 2026',
-      excerpt: '¿Listo para descifrar palabras de 9 letras como un profesional? Esta guía cubre la técnica de agrupar en bloques de tres, prefijos y sufijos comunes, extensiones en el tablero y cómo usar con confianza un descifrador en línea.',
-      body: [
-        "Escrito y revisado por el equipo de UnscramblWords. Las palabras y su validez en este sitio se comprueban frente al Diccionario de la lengua española (RAE/DLE), referencia oficial de la FISE, antes de su publicación.",
-        "Colocar una palabra de nueve letras es una de las formas más rápidas de tomar ventaja sobre un oponente. La mayoría de los jugadores se atascan cuando tienen un atril completo más dos fichas del tablero para combinar — las letras no forman patrones evidentes y se pasan por alto jugadas de alto puntaje. Esta guía presenta un método repetible para descifrar palabras de nueve letras: dividir las letras en bloques, reconocer prefijos y sufijos comunes, y buscar extensiones en el tablero en lugar de depender solo de un atril nuevo.",
-        "Nuestro propio diccionario, construido directamente a partir de la referencia oficial, contiene actualmente 5.967 palabras de nueve letras. A diferencia del diccionario francés, que ya pasó por una limpieza completa contra palabras extranjeras y nombres propios, esa misma revisión aún está pendiente para el español — aunque, a diferencia de lo encontrado en otros idiomas, no se detectaron indicios claros de contaminación en una muestra de estas palabras.",
-        "Una palabra de nueve letras es una entrada válida del diccionario compuesta por nueve caracteres. Un anagrama, de forma más general, es cualquier palabra formada reordenando un conjunto de letras. A medida que aumenta el número de letras, el número de combinaciones posibles crece muy rápido — una palabra de seis letras distintas tiene 720 órdenes posibles (6!), mientras que nueve letras distintas tienen 362.880 órdenes posibles (9!). Ese salto combinatorio es la razón principal por la que a los jugadores les cuesta detectar palabras de nueve letras sin ayuda: el ojo humano reconoce bien patrones cortos y familiares, no cientos de miles de permutaciones.",
-        "Reconocer palabras de nueve letras de forma constante también tiene un beneficio práctico para el vocabulario — obliga a fijarse en prefijos, sufijos y estructuras silábicas en lugar de memorizar cada palabra por separado.",
-        "En el Scrabble en español, colocar una palabra de nueve letras usando las siete fichas del atril más dos fichas ya presentes en el tablero se conoce como un doble bingo. Alcanzar dos casillas de palabra triple en la misma jugada puede producir una puntuación muy alta. Los bingos de siete letras aparecen con regularidad; las oportunidades de nueve letras son más raras y dependen más de la visión del tablero que de la suerte del atril. Palabras como ESPERANZA, CONFIANZA y COMPAÑERO son útiles de recordar, ya que usan letras comunes y reaparecen con frecuencia.",
-        "En lugar de examinar las nueve letras como un solo bloque, divídalas en tres grupos de tres y busque trigramas conocidos (CON, TRA, CIÓN, y similares). Este método de agrupar por bloques convierte una búsqueda abrumadora en una más manejable. También ayuda revisar la proporción de vocales y consonantes: una palabra típica de nueve letras tiene entre tres y cuatro vocales y entre cinco y seis consonantes. Un atril con muchas vocales apunta a terminaciones como -CIÓN o -ANZA; un atril con muchas consonantes apunta a palabras compuestas.",
-        "Aislar un prefijo reduce el tamaño del problema. Quitar un prefijo de cuatro letras como SOBR(E)- o CONTR(A)- deja menos letras por resolver. Terminaciones comunes como -CIÓN, -MENTE y -DAD representan una gran parte de los sustantivos y adverbios de nueve letras; -ANDO e -IENDO forman gerundios; una S final para el plural suele convertir una palabra de ocho letras en una de nueve.",
-        "Resolver manualmente desarrolla vocabulario y reconocimiento de patrones con el tiempo, y vale la pena practicarlo fuera de las partidas cronometradas. En una partida real, sin embargo, una herramienta en línea es más rápida y reduce el riesgo de jugar una palabra inválida, ya que los resultados se comprueban frente al diccionario seleccionado. El enfoque práctico es usar la resolución manual para entrenar y una herramienta para verificar antes de comprometer una ficha en el tablero.",
-        "La mayoría de las jugadas de nueve letras no se encuentran en un atril nuevo — se construyen extendiendo palabras ya presentes en el tablero (la estrategia de extensión): tomar una palabra de siete letras ya en juego y añadir dos fichas del atril para llegar a nueve. El juego paralelo — colocar fichas junto a una palabra existente en lugar de perpendicularmente a ella — puede puntuar más de una palabra en la misma jugada. Una palabra larga también puede bloquear la línea de puntuación de un oponente, pero conviene comprobar las extensiones contrarias antes de comprometerse, ya que también puede abrirle a el una nueva casilla de palabra triple.",
-        "Para usar UnscramblWords con una mezcla de nueve letras, introduzca sus letras en la barra de búsqueda para obtener una lista completa de palabras válidas, organizadas por longitud y puntuación. Use los filtros «empieza por», «termina en» y «contiene» para ajustarse a un hueco específico del tablero, y comodines (* o ?) para representar fichas en blanco o letras desconocidas. UnscramblWords admite 10 idiomas, cada uno con sus propios caracteres especiales (Ñ, Á, É, Í, Ó, Ú) gestionados correctamente por las listas de palabras subyacentes.",
-        "¿Cómo se descifra rápidamente una palabra de 9 letras? Divida las letras en segmentos de tres, o revise primero los prefijos (SOBR(E)-, CONTR(A)-) y sufijos (-CIÓN, -MENTE) comunes, ya que reducen el problema a una raíz más corta. Para una lista completa de combinaciones válidas, use un descifrador en línea.",
-        "¿Cuáles son algunas palabras comunes de 9 letras con el prefijo DES-? DESANIMAR y DESCUBRIR son ejemplos frecuentes, a menudo formados al añadir DES- a una raíz ya presente en el tablero.",
-        "¿Cuántas palabras de 9 letras hay en español? Nuestro diccionario, verificado frente al DLE, contiene actualmente 5.967. Esta cifra procede del diccionario propio del sitio y aún no ha pasado por la revisión de limpieza completa aplicada al francés.",
-        "¿Cuál es una palabra de 9 letras de alto puntaje en el Scrabble en español? Las palabras con letras de alto valor — Ñ, K, W, X, Q (8 puntos) o Z (10 puntos), o que contienen los dígrafos LL o RR (8 puntos cada uno) — puntúan bien, sobre todo sobre una casilla de palabra triple. IZQUIERDA y VERGÜENZA son buenos ejemplos.",
-        "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE; valores de fichas según la distribución oficial de Hasbro/Mattel para el español, incluidos los dígrafos LL y RR como fichas únicas (a diferencia de versiones anteriores, CH ya no se trata como ficha independiente)."
-      ]
-    },
-    {
-      slug: '7-letter-word-unscrambler',
-      date: '2026-08-22',
-      title: 'Descifrador de palabras de 7 letras: la guía del bingo',
-      excerpt: 'Colocar las siete fichas del atril en una sola jugada da un bono fijo de 50 puntos y puede cambiar el rumbo de una partida. Así se detectan más rápido, con ejemplos reales de nuestro propio diccionario.',
-      body: [
-        "Escrito y revisado por el equipo de UnscramblWords. Las palabras y su validez en este sitio se comprueban frente al Diccionario de la lengua española (RAE/DLE) antes de su publicación.",
-        "En el Scrabble en español, colocar las siete fichas del atril en una sola jugada da un bono fijo de 50 puntos, además de la puntuación propia de la palabra. Como este bono es fijo y no depende de las letras usadas, incluso una palabra de siete letras común, formada por letras corrientes, puede superar a una palabra corta construida en torno a una sola letra de alto valor.",
-        "Nuestro propio diccionario contiene actualmente 7.164 palabras de siete letras. Esta cifra debe tomarse como provisional, ya que la revisión completa de limpieza para el español, a diferencia de la ya aplicada al francés, aún está pendiente.",
-        "En lugar de examinar siete letras como un solo bloque, busque bloques reconocibles. Terminaciones verbales como -ADO, -IDO o -ANDO ayudan a construir una palabra de siete letras a partir de una raíz más corta, en vez de revisar las siete letras a la vez.",
-        "Encontrar una palabra de siete letras es solo la mitad del trabajo — también debe encajar en el tablero. Los jugadores experimentados buscan una «extensión»: una letra ya colocada en el tablero sobre la que construir una palabra nueva. Introduzca sus letras más la letra de extensión en el Descifrador de Palabras, y use los filtros «empieza por» o «termina en» para ajustarse a esa posición exacta.",
-        "Para usar el Descifrador de Palabras con siete letras, introduzca sus letras en la barra de búsqueda (el orden no importa), use ? para una ficha en blanco, y ajuste el filtro de longitud exactamente a 7 para eliminar distracciones más cortas y menos rentables.",
-        "¿Usar un descifrador de palabras de 7 letras es hacer trampa? Depende del contexto. En un torneo oficial, la ayuda externa durante la partida está prohibida por el reglamento. Para partidas entre amigos, en línea con el acuerdo de todos los jugadores, o para practicar en solitario, es una herramienta de entrenamiento normal, no trampa.",
-        "¿Cuál es una palabra de 7 letras de alto puntaje en español? AJEDREZ es un buen ejemplo, con 24 puntos de valor base según los valores de letra estándar, antes incluso de contar las casillas de bonificación o el bono de 50 puntos.",
-        "¿Cuántas palabras de 7 letras hay en español? Nuestro diccionario contiene actualmente 7.164 — esta cifra es provisional, ya que la revisión completa de limpieza para el español aún está pendiente.",
-        "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE; valores de fichas según la distribución oficial de Hasbro/Mattel; recuento de palabras extraído del diccionario propio de UnscramblWords."
       ]
     }
   
