@@ -2,7 +2,6 @@ export const de = [
 
     {
       slug: 'scrabble-strategies',
-      date: '2026-03-15',
       title: 'Scrabble meistern: Wesentliche Strategien zur Verbesserung Ihres Spiels',
       excerpt: 'Lernen Sie bewährte Strategien zur Verbesserung Ihrer Scrabble-Leistung, von der Brettpositionierung bis zum Buchstabenmanagement.',
       body: [
@@ -20,7 +19,6 @@ export const de = [
     },
     {
       slug: 'best-two-letter-words',
-      date: '2026-03-29',
       title: 'Der vollständige Leitfaden zu Zwei-Buchstaben-Wörtern beim Scrabble',
       excerpt: 'Entdecken Sie die wertvollsten und nützlichsten Zwei-Buchstaben-Wörter, die Ihr Scrabble-Spiel transformieren können.',
       body: [
@@ -38,7 +36,6 @@ export const de = [
     },
     {
       slug: 'improve-vocabulary-word-games',
-      date: '2026-04-12',
       title: 'Wie Sie Ihren Wortschatz für Wortspiele verbessern können',
       excerpt: 'Praktische Strategien und Techniken zum Aufbau Ihres Wortschatzes, um ein beeindruckender Gegner bei Wortspielen zu werden.',
       body: [
@@ -56,7 +53,6 @@ export const de = [
     },
     {
       slug: 'best-scrabble-words-with-q',
-      date: '2026-04-26',
       title: 'Die besten Scrabble-Wörter mit dem Buchstaben Q',
       excerpt: 'Der Buchstabe Q ist beim Scrabble 10 Punkte wert, aber notorisch schwer zu verwenden. Hier sind die besten Q-Wörter, die Sie kennen sollten.',
       body: [
@@ -74,7 +70,6 @@ export const de = [
     },
     {
       slug: 'seven-letter-words-scrabble',
-      date: '2026-05-10',
       title: 'Hochscorende Sieben-Buchstaben-Wörter für Scrabble-Bingos',
       excerpt: 'Alle sieben Buchstaben zu spielen bringt einen Bonus von 50 Punkten. Hier sind die besten Sieben-Buchstaben-Wörter für Scrabble-Bingos.',
       body: [
@@ -92,7 +87,6 @@ export const de = [
     },
     {
       slug: 'history-of-scrabble',
-      date: '2026-05-24',
       title: 'Die faszinierende Geschichte des Scrabble',
       excerpt: 'Von seiner Erfindung während der Großen Depression bis zu einem der beliebtesten Gesellschaftsspiele der Welt — hier ist die vollständige Geschichte des Scrabble.',
       body: [
@@ -110,14 +104,13 @@ export const de = [
     },
     {
       slug: 'word-games-brain-health',
-      date: '2026-06-07',
       title: 'Wortspiele und Gehirngesundheit: Was die Forschung sagt',
       excerpt: 'Wissenschaftliche Forschung legt nahe, dass regelmäßige Wortspiele die kognitive Gesundheit unterstützen könnten. Hier ist, was wir derzeit wissen.',
       body: [
         "Die Beziehung zwischen Wortspielen und der Gehirngesundheit hat in den letzten Jahrzehnten wachsendes wissenschaftliches Interesse auf sich gezogen. Obwohl Forscher diesen Bereich weiterhin untersuchen, gibt es aussagekräftige Beweise, die darauf hindeuten, dass regelmäßige Beschäftigung mit geistig stimulierenden Aktivitäten — einschließlich Wortspiele — die kognitive Funktion im Laufe des Lebens unterstützen könnte.",
         "Eine 2011 in der Zeitschrift Neuropsychology veröffentlichte Studie ergab, dass Personen, die sich mit geistig stimulierenden Freizeitaktivitäten beschäftigten, einschließlich Wortspiele und Puzzles, im fortgeschrittenen Alter langsamere Raten des kognitiven Abbaus zeigten.",
         "Die Sprachverarbeitung ist eine der komplexesten kognitiven Funktionen, die vom menschlichen Gehirn ausgeführt werden, und beinhaltet mehrere Regionen, darunter das Broca-Areal, das Wernicke-Areal und verschiedene Teile des präfrontalen Kortex. Wortspiele wie Scrabble beanspruchen diese Sprachbereiche intensiv.",
-        "Forschungen von Ellen Bialystok und Kolleginnen und Kollegen an der York University haben gezeigt, dass zweisprachige Demenzpatienten im Durchschnitt vier bis fünf Jahre später Symptome zeigten als einsprachige Patienten mit ansonsten vergleichbarem Hintergrund. Das Spielen von Wortspielen in mehreren Sprachen könnte daher kumulative kognitive Vorteile bieten.",
+        "Forschungen der Universität Waterloo haben gezeigt, dass zweisprachige und mehrsprachige Personen im Vergleich zu einsprachigen Personen tendenziell einen späteren Beginn von Demenzsymptomen aufweisen. Das Spielen von Wortspielen in mehreren Sprachen könnte daher kumulative kognitive Vorteile bieten.",
         "Das Arbeitsgedächtnis — die Fähigkeit, Informationen über kurze Zeiträume im Gedächtnis zu halten und zu bearbeiten — wird bei Wortspielen stark beansprucht. Beim Scrabble müssen Spieler gleichzeitig ihr Buchstabengestell im Gedächtnis behalten, das Brett nach Möglichkeiten absuchen und Scores berechnen.",
         "Aufmerksamkeit und Konzentration werden ebenfalls durch Wortspiele entwickelt. Kompetitives Scrabble erfordert konzentrierte Aufmerksamkeit über Zeiträume von 30 Minuten bis zu mehreren Stunden.",
         "Es ist wichtig anzumerken, dass die wissenschaftliche Gemeinschaft noch keinen definitiven kausalen Zusammenhang zwischen Wortspiele und der Prävention von kognitivem Abbau oder neurodegenerativen Erkrankungen wie Alzheimer hergestellt hat.",
@@ -128,7 +121,6 @@ export const de = [
     },
     {
       slug: 'unscramble-letters-tips',
-      date: '2026-06-21',
       title: 'Wie man Buchstaben schnell entschlüsselt: Expertentipps und -techniken',
       excerpt: 'Ob Sie ein Wortspiel spielen oder ein Rätsel lösen — diese Expertentechniken helfen Ihnen, Wörter in gemischten Buchstaben viel schneller zu finden.',
       body: [
@@ -146,7 +138,6 @@ export const de = [
     },
     {
       slug: 'multilingual-word-games',
-      date: '2026-07-05',
       title: 'Wortspiele in mehreren Sprachen: Vorteile und Herausforderungen',
       excerpt: 'Wortspiele in verschiedenen Sprachen zu spielen bietet einzigartige kognitive Vorteile und stellt faszinierende Herausforderungen dar.',
       body: [
@@ -156,7 +147,7 @@ export const de = [
         "Deutsche Wortspiele bieten die faszinierende Herausforderung von Komposita. Das Deutsche kombiniert Nomen mühelos zu Komposita beträchtlicher Länge, was bedeutet, dass ein Sieben-Buchstaben-Bingo auf Deutsch ein Kompositum aus zwei kürzeren Wörtern darstellen könnte.",
         "Arabische und russische Wortspiele führen nicht-lateinische Schriften ein, was das kognitive Erlebnis grundlegend verändert. Spieler müssen visuelle Symbole verarbeiten, die sich grundlegend von lateinischen Buchstaben unterscheiden.",
         "Für mehrsprachige Wortspieler übt das Wechseln zwischen Sprachen das sogenannte 'Code-Switching' — die Fähigkeit, fließend zwischen verschiedenen linguistischen Systemen zu wechseln. Diese Fähigkeit wird mit verbesserter exekutiver Funktion in Verbindung gebracht.",
-        "UnscramblWords unterstützt zehn Sprachen — Englisch, Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Türkisch, Russisch, Chinesisch und Arabisch — und ermöglicht es Spielern, die Wort-Entschlüsselung in einem bemerkenswerten Spektrum von Sprachfamilien zu üben.",
+        "UnscramblWords unterstützt zehn Sprachen — Englisch, Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Türkisch, Russisch, Polnisch und Arabisch — und ermöglicht es Spielern, die Wort-Entschlüsselung in einem bemerkenswerten Spektrum von Sprachfamilien zu üben.",
         "Wenn Sie neu bei mehrsprachigen Wortspielen sind, besteht der effektivste Ansatz darin, mit einer Sprache zu beginnen, die Sie bereits lernen oder mit der Sie bereits vertraut sind.",
         "Die Freude an mehrsprachigen Wortspielen liegt nicht nur in den kognitiven Vorteilen, sondern auch in der kulturellen Bereicherung, die sie bieten.",
         "Jedes Wort, das Sie in einer neuen Sprache lernen, öffnet ein kleines Fenster in die Geschichte, Kultur und Denkweise der Menschen, die sie sprechen."
@@ -164,7 +155,6 @@ export const de = [
     },
     {
       slug: 'wordle-strategies',
-      date: '2026-07-19',
       title: 'Wordle-Strategien: Wie man das Rätsel jeden Tag löst',
       excerpt: 'Wordle ist zu einem weltweiten Phänomen geworden. Hier sind die besten Strategien und Ausgangswörter, um es täglich effizient zu lösen.',
       body: [
@@ -182,67 +172,24 @@ export const de = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
-      date: '2026-08-16',
       title: 'Wörter entschlüsseln: Der komplette Leitfaden zum Lösen jedes Buchstabenrätsels',
       excerpt: 'Wie Wortsuch-Werkzeuge tatsächlich funktionieren, welche Strategie hinter punktestarken Zügen steckt, und wie man Filter effektiv nutzt.',
       body: [
         "Inhalte auf dieser Seite werden KI-unterstützt erstellt und regelmäßig vom UnscramblWords-Team überprüft.",
-        "Mit einem Q und einem Z auf dem Buchstabenständer dazusitzen, während die Uhr tickt, gehört zu den häufigsten Frustrationen bei Wortspielen. Ein Wort-Entschlüsseler verwandelt dieses Durcheinander in eine klare Liste spielbarer Wörter — aber zu verstehen, wie diese Werkzeuge funktionieren und wie man sie gut einsetzt, macht den Unterschied zwischen einer schnellen Lösung und einem echten strategischen Vorteil.",
-        "Ein Wort-Entschlüsseler nimmt eine Menge durcheinandergewürfelter Buchstaben und findet alle gültigen Wörter, die sich daraus bilden lassen, geprüft gegen ein bestimmtes Wörterbuch. Das Prinzip dahinter ist eine Permutationssuche: Das Werkzeug vergleicht Ihre Buchstaben mit jedem Eintrag einer Wortliste und liefert die Treffer, meist sortiert nach Länge oder Punktwert. Wenn Sie mit Blankosteinen spielen, unterstützen die meisten Werkzeuge ein Platzhalterzeichen, meist ein Fragezeichen oder Sternchen, das für einen beliebigen Buchstaben steht.",
+        "Mit einem Q und einem Z auf dem Buchstabenständer dazusitzen, während die Uhr tickt, gehört zu den häufigsten Frustrationen bei Wortspielen. Ein Wörter-Entschlüsseler verwandelt dieses Durcheinander in eine klare Liste spielbarer Wörter — aber zu verstehen, wie diese Werkzeuge funktionieren und wie man sie gut einsetzt, macht den Unterschied zwischen einer schnellen Lösung und einem echten strategischen Vorteil.",
+        "Ein Wörter-Entschlüsseler nimmt eine Menge durcheinandergewürfelter Buchstaben und findet alle gültigen Wörter, die sich daraus bilden lassen, geprüft gegen ein bestimmtes Wörterbuch. Das Prinzip dahinter ist eine Permutationssuche: Das Werkzeug vergleicht Ihre Buchstaben mit jedem Eintrag einer Wortliste und liefert die Treffer, meist sortiert nach Länge oder Punktwert. Wenn Sie mit Blankosteinen spielen, unterstützen die meisten Werkzeuge ein Platzhalterzeichen, meist ein Fragezeichen oder Sternchen, das für einen beliebigen Buchstaben steht.",
         "Diese Werkzeuge sind nicht auf Scrabble beschränkt. Sie werden häufig für Kreuzworträtsel, tägliche Buchstabenrätsel oder zum Eingrenzen einer Vermutung bei Spielen wie Wordle genutzt. Auch beim Sprachenlernen sind sie hilfreich, da das Sehen aller gültigen Wörter aus einer Buchstabenmenge Rechtschreibmuster und Wortfamilien sichtbar macht, die sonst leicht übersehen werden.",
         "Im deutschsprachigen Scrabble-Turnierspiel ist der Rechtschreibduden die maßgebliche Quelle. Der Dachverband Scrabble Deutschland e. V., kurz SDeV, veröffentlicht daraus die Offizielle Turnierwörterliste, die aktuell rund 184.000 Wörter bis zu neun Buchstaben umfasst. Eine Besonderheit des deutschen Scrabble-Spiels betrifft das ß: Es besitzt keinen eigenen Spielstein. Enthält ein Wort ein ß, etwa STRASSE, legen Spieler stattdessen zwei S-Steine. Das ist ein Detail, das man kennen sollte, bevor man ein Wort mit ß auf das Brett legt.",
         "Wer alle sieben Buchstaben vom Ständer in einem Zug legt, erhält zusätzlich zum Wortwert einen Bonus von 50 Punkten. Dieser Zug entscheidet häufig ein knappes Spiel. Q und Y bringen im deutschen Scrabble jeweils 10 Punkte, Ö und X jeweils 8 Punkte, und Ä, J, Ü sowie V jeweils 6 Punkte. Da Ä, Ö und Ü im Spiel jeweils nur ein einziges Mal vorkommen, lohnt es sich besonders, kurze Wörter zu kennen, mit denen sich diese seltenen Steine gezielt auf ein Bonusfeld legen lassen.",
         "Das punktestärkste Wort zu spielen ist nicht immer die beste Wahl, wenn es Sie mit einem unspielbaren Rest an Buchstaben zurücklässt, etwa vier Vokalen. Die Buchstaben zu bedenken, die nach einem Zug übrig bleiben, gehört zu einer langfristig stärkeren Strategie als die reine Jagd nach dem höchsten Sofortpunktestand. Einen einzelnen Buchstaben an ein bereits liegendes Wort anzuhängen, um ein neues zu bilden, ist eine klassische Technik, um mehr Wert aus bereits im Spiel befindlichen Wörtern zu ziehen, während gleichzeitig in die andere Richtung ein weiteres Wort entsteht. Das Deutsche neigt zudem aufgrund seiner Wortzusammensetzungen zu längeren Wörtern als viele andere Sprachen, was häufiger Gelegenheiten für lange, punktestarke Züge eröffnet.",
         "Eine Liste aller möglichen Wörter ist nicht immer für sich genommen hilfreich — sie auf das einzugrenzen, was tatsächlich zur aktuellen Situation passt, macht ein Werkzeug während des Spiels wirklich praktisch. Geben Sie Ihre verfügbaren Buchstaben ein, nutzen Sie dann einen beginnt-mit-Filter für eine bestimmte Lücke auf dem Brett, einen endet-mit-Filter, um an einen bereits liegenden Stein anzuknüpfen, und legen Sie eine Wortlänge fest, um einen bestimmten Bereich anzuvisieren oder gezielt nach Sieben-Buchstaben-Wörtern für den Bingo-Bonus zu suchen. Wählen Sie stets das richtige Wörterbuch für Ihr Spiel. Die Suche nach einem bestimmten Buchstaben ist ebenfalls nützlich, wenn Sie einen hochpunktigen Stein wie X, Y oder J halten. Derselbe Filteransatz funktioniert auch beim Lösen von Kreuzworträtsel-Hinweisen oder beim Eingrenzen eines Wordle-Versuchs.",
-        "Gilt die Nutzung eines Wort-Entschlüsselers beim Scrabble als Schummeln? Das hängt vom Kontext ab. Offizielle Turniere verbieten jede externe Hilfe während des Spiels, aber viele Spieler nutzen solche Werkzeuge zum Training, zur Nachbereitung einer Partie oder bei lockeren Spielen, bei denen sich alle Beteiligten darauf verständigt haben. Klären Sie die Regeln immer vorher mit Ihrem Gegenüber ab.",
-        "Kann man einen Wort-Entschlüsseler für Wordle nutzen? Ja. Geben Sie die bereits bestätigten Buchstaben ein und nutzen Sie Filter, um bekannte Buchstaben an bestimmten Positionen zu platzieren. Das grenzt Ihren nächsten Versuch ein, ohne Ihre begrenzten Versuche zu verschwenden.",
+        "Gilt die Nutzung eines Wörter-Entschlüsselers beim Scrabble als Schummeln? Das hängt vom Kontext ab. Offizielle Turniere verbieten jede externe Hilfe während des Spiels, aber viele Spieler nutzen solche Werkzeuge zum Training, zur Nachbereitung einer Partie oder bei lockeren Spielen, bei denen sich alle Beteiligten darauf verständigt haben. Klären Sie die Regeln immer vorher mit Ihrem Gegenüber ab.",
+        "Kann man einen Wörter-Entschlüsseler für Wordle nutzen? Ja. Geben Sie die bereits bestätigten Buchstaben ein und nutzen Sie Filter, um bekannte Buchstaben an bestimmten Positionen zu platzieren. Das grenzt Ihren nächsten Versuch ein, ohne Ihre begrenzten Versuche zu verschwenden.",
         "Wie nutzt man einen Platzhalter für einen Blankostein? Geben Sie ein Fragezeichen oder ein Sternchen in das Suchfeld ein, um einen Blankostein darzustellen. Das Werkzeug berechnet alle möglichen Buchstaben für diese Position. Ein Standard-Scrabble-Set enthält zwei Blankosteine, weshalb die meisten Werkzeuge die Nutzung von zwei Platzhaltern in einer Suche erlauben.",
         "Warum hat das ß keinen eigenen Spielstein? Historisch gehört das ß nicht zum ursprünglichen Buchstabensatz des Spiels. Nach den gültigen Regeln legt man stattdessen zwei S-Steine, wenn ein Wort ein ß enthält — ein Detail, das beim ersten Spielen leicht übersehen wird.",
         "Unterstützt UnscramblWords auch andere Sprachen als Deutsch? Ja — die Seite unterstützt 10 Sprachen, darunter Englisch, Französisch, Spanisch, Italienisch und Portugiesisch, jede geprüft gegen ihr eigenes Referenzwörterbuch.",
         "Wie viele Buchstaben kann man auf einmal suchen? Es gibt keine feste Obergrenze — das Werkzeug wurde mit allen 26 Buchstaben des Alphabets gleichzeitig getestet und liefert weiterhin Ergebnisse. Es verarbeitet damit problemlos sowohl ein kurzes Buchstabengemisch als auch einen langen Ausdruck.",
         "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); Buchstabenwerte und Bingo-Bonusregel im deutschen Scrabble."
-      ]
-    },
-    {
-      slug: 'unscramble-9-letter-words',
-      date: '2026-08-02',
-      title: 'Wörter mit 9 Buchstaben entschlüsseln: Der ultimative Leitfaden 2026',
-      excerpt: 'Bereit, 9-Buchstaben-Wörter wie ein Profi zu entschlüsseln? Dieser Leitfaden behandelt die Dreiergruppen-Methode, häufige Vor- und Nachsilben, Anschlusswörter auf dem Brett und die sichere Nutzung eines Online-Wort-Entschlüsselers.',
-      body: [
-        "Geschrieben und geprüft vom UnscramblWords-Team. Wörter und ihre Gültigkeit auf dieser Seite werden vor Veröffentlichung gegen die offizielle Turnierwörterliste (SDeV) geprüft.",
-        "Ein Wort mit neun Buchstaben zu legen, ist eine der schnellsten Möglichkeiten, einem Gegner davonzuziehen. Die meisten Spieler stocken, wenn sie einen vollen Steinsatz plus zwei bereits liegende Buchstaben kombinieren müssen — die Buchstaben ergeben kein offensichtliches Muster, und punktestarke Züge werden übersehen. Dieser Leitfaden zeigt eine wiederholbare Methode zum Entschlüsseln von Neun-Buchstaben-Wörtern: die Buchstaben in Dreiergruppen zerlegen, häufige Vor- und Nachsilben erkennen und Anschlussmöglichkeiten auf dem Brett suchen, statt sich allein auf einen frischen Steinsatz zu verlassen.",
-        "Unser eigenes Wörterbuch, das direkt anhand des offiziellen Referenzwerks aufgebaut wird, enthält derzeit 5.296 Wörter mit neun Buchstaben. Anders als beim französischen Wörterbuch, das bereits vollständig gegen Fremdwörter und Namen bereinigt wurde, steht diese Bereinigung für das deutsche Wörterbuch noch aus — die Zahl ist daher als vorläufig zu verstehen und wird sich nach der Bereinigung wahrscheinlich noch ändern.",
-        "Ein Neun-Buchstaben-Wort ist ein gültiger Wörterbucheintrag aus neun Zeichen. Ein Anagramm ist allgemeiner jedes Wort, das durch Neuanordnung einer Buchstabenmenge entsteht. Mit steigender Buchstabenzahl wächst die Zahl möglicher Anordnungen sehr schnell — ein Wort aus sechs unterschiedlichen Buchstaben hat 720 mögliche Reihenfolgen (6!), während neun unterschiedliche Buchstaben 362.880 mögliche Reihenfolgen ergeben (9!). Dieser kombinatorische Sprung ist der Hauptgrund, warum Spieler ohne Hilfe kaum Neun-Buchstaben-Wörter finden: Das menschliche Auge erkennt kurze, vertraute Muster gut, aber nicht Hunderttausende Permutationen.",
-        "Neun-Buchstaben-Wörter zuverlässig zu erkennen, hat auch einen praktischen Vokabelnutzen — es schärft den Blick für Vor- und Nachsilben sowie Silbenstrukturen, statt jedes Wort einzeln auswendig zu lernen.",
-        "Im Scrabble bringt das Legen aller sieben Steine des Steinsatzes in einem Zug einen Bonus von 50 Punkten, unabhängig vom regulären Wortwert — das gilt auch dann, wenn dabei ein Neun-Buchstaben-Wort durch Nutzung zweier bereits liegender Buchstaben entsteht. Zwei Wortwert-Dreifach-Felder im selben Zug zu treffen, kann einen sehr hohen Punktestand ergeben. Sieben-Buchstaben-Bingos kommen regelmäßig vor; Neun-Buchstaben-Gelegenheiten sind seltener und hängen stärker vom Blick fürs Brett ab als vom Glück beim Ziehen. Wörter wie BELOHNUNG, VERFÜHRER und STÖRRISCH lohnen sich zu merken, da sie häufige Buchstaben nutzen und oft wiederkehren.",
-        "Statt neun Buchstaben als einen Block zu betrachten, teilen Sie sie in drei Dreiergruppen und suchen nach vertrauten Buchstabenfolgen (SCH, UNG, EIT und ähnliche). Diese Methode verwandelt eine überwältigende Suche in eine überschaubare. Es hilft auch, das Verhältnis von Vokalen zu Konsonanten zu prüfen: Ein typisches Neun-Buchstaben-Wort hat drei bis vier Vokale und fünf bis sechs Konsonanten. Ein vokalreicher Steinsatz deutet auf Endungen wie -UNG oder -HEIT hin; ein konsonantenreicher Steinsatz deutet eher auf zusammengesetzte Wörter hin.",
-        "Eine Vorsilbe zu isolieren, verkleinert das Problem. Entfernt man eine vierbuchstabige Vorsilbe wie ÜBER- oder UNTER-, bleiben fünf Buchstaben zu lösen. Häufige Endungen wie -UNG, -HEIT und -KEIT machen einen großen Teil der Neun-Buchstaben-Substantive aus; -LICH und -BAR bilden Adjektive; ein abschließendes -EN oder -ER verwandelt oft ein Acht-Buchstaben-Wort in ein Neun-Buchstaben-Wort.",
-        "Manuelles Lösen baut mit der Zeit Wortschatz und Mustererkennung auf und lohnt sich auch außerhalb von Zeitspielen zu üben. In einer echten Partie ist ein Online-Werkzeug jedoch schneller und verringert das Risiko, ein ungültiges Wort zu legen, da die Ergebnisse gegen das gewählte Wörterbuch geprüft werden. Der praktische Ansatz: manuelles Lösen zum Üben, ein Werkzeug zur Bestätigung, bevor ein Stein aufs Brett kommt.",
-        "Die meisten Neun-Buchstaben-Züge entstehen nicht aus einem frischen Steinsatz — sie werden durch das Verlängern bereits liegender Wörter gebildet (die Anschluss-Strategie): ein bereits liegendes Sieben-Buchstaben-Wort nehmen und zwei Steine hinzufügen, um auf neun zu kommen. Paralleles Legen — Steine neben einem bestehenden Wort statt senkrecht dazu platzieren — kann in einem Zug für mehr als ein Wort punkten. Ein langes Wort kann auch die Punktelinie eines Gegners blockieren, aber prüfen Sie vor dem Legen auf Gegen-Anschlüsse, da dies dem Gegner ebenfalls ein neues Wortwert-Dreifach-Feld öffnen kann.",
-        "Um UnscramblWords für einen Neun-Buchstaben-Wurf zu nutzen, geben Sie Ihre Buchstaben in die Suchleiste ein, um eine vollständige, nach Länge und Punktzahl sortierte Liste gültiger Wörter zu erhalten. Nutzen Sie die Filter „beginnt mit“, „endet mit“ und „enthält“, um eine bestimmte Lücke auf dem Brett zu treffen, sowie Platzhalter (* oder ?) für Blankosteine oder unbekannte Buchstaben. UnscramblWords unterstützt 10 Sprachen, jede mit ihren eigenen Sonderzeichen (ß, Ö, Ä, Ü), die von den zugrunde liegenden Wortlisten korrekt verarbeitet werden.",
-        "Wie entschlüsselt man schnell ein 9-Buchstaben-Wort? Zerlegen Sie die Buchstaben in Dreiergruppen, oder prüfen Sie zuerst häufige Vorsilben (ÜBER-, UNTER-) und Nachsilben (-UNG, -HEIT), da sie das Problem auf eine kürzere Wurzel reduzieren. Für eine vollständige Liste gültiger Kombinationen nutzen Sie einen Online-Wort-Entschlüsseler.",
-        "Was sind häufige 9-Buchstaben-Wörter mit ÜBER-? ÜBERQUERT und ÜBERNAHME sind häufige Beispiele, oft gebildet durch Anfügen von ÜBER- an eine bereits auf dem Brett liegende Wurzel.",
-        "Wie viele 9-Buchstaben-Wörter gibt es im Deutschen? Unser Wörterbuch enthält derzeit 5.296 — diese Zahl ist vorläufig, da die vollständige Bereinigung gegen Fremdwörter und Namen für Deutsch noch aussteht, anders als beim bereits bereinigten französischen Wörterbuch.",
-        "Was ist ein punktestarkes 9-Buchstaben-Wort im Scrabble? Wörter mit hochwertigen Buchstaben — Q, Y (10 Punkte) oder Ö, X (8 Punkte) — punkten gut, besonders auf einem Wortwert-Dreifach-Feld. QUATSCHEN und LABYRINTH sind Beispiele.",
-        "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); interne Wörterbuchauszählung von UnscramblWords."
-      ]
-    },
-    {
-      slug: '7-letter-word-unscrambler',
-      date: '2026-08-22',
-      title: 'Wort-Entschlüsseler für 7 Buchstaben: der Bingo-Leitfaden',
-      excerpt: 'Alle sieben Steine des Rafts in einem Zug zu legen, bringt einen festen Bonus von 50 Punkten und kann eine Partie umdrehen. So erkennen Sie diese Züge schneller, mit echten Beispielen aus unserem eigenen Wörterbuch.',
-      body: [
-        "Geschrieben und geprüft vom UnscramblWords-Team. Wörter und ihre Gültigkeit auf dieser Seite werden vor Veröffentlichung gegen die offizielle Turnierwörterliste (SDeV) geprüft.",
-        "Im Scrabble bringt das Legen aller sieben Steine des Steinsatzes in einem Zug einen festen Bonus von 50 Punkten, zusätzlich zum eigentlichen Wortwert. Da dieser Bonus fest ist und nicht von den verwendeten Buchstaben abhängt, kann selbst ein gewöhnliches Sieben-Buchstaben-Wort aus häufigen Buchstaben ein kurzes Wort mit nur einem hochwertigen Buchstaben deutlich übertreffen.",
-        "Unser eigenes Wörterbuch enthält derzeit 5.252 Wörter mit sieben Buchstaben. Diese Zahl ist als vorläufig zu verstehen, da die vollständige Bereinigung für Deutsch — anders als beim bereits bereinigten Französisch — noch aussteht.",
-        "Statt sieben Buchstaben als einen Block zu betrachten, suchen Sie nach erkennbaren Blöcken. Vor- und Nachsilben wie GE- (Partizip-Präfix), -UNG, -HEIT und -KEIT helfen, ein Sieben-Buchstaben-Wort schnell aus einer kürzeren Wurzel zu bilden, statt alle sieben Buchstaben gleichzeitig zu durchsuchen.",
-        "Ein Sieben-Buchstaben-Wort zu finden ist nur die halbe Arbeit — es muss auch aufs Brett passen. Erfahrene Spieler suchen nach einem 'Anschluss': einem bereits liegenden Buchstaben, auf dem ein neues Wort aufbauen kann. Geben Sie Ihre Buchstaben plus den Anschlussbuchstaben in den Wort-Entschlüsseler ein und nutzen Sie die Filter 'beginnt mit' oder 'endet mit', um die genaue Position zu treffen.",
-        "Um den Wort-Entschlüsseler für sieben Buchstaben zu nutzen, geben Sie Ihre Buchstaben in die Suchleiste ein (die Reihenfolge spielt keine Rolle), verwenden Sie ? für einen Blankostein, und setzen Sie den Längenfilter auf genau 7, um kürzere, weniger einträgliche Ablenkungen auszuschließen.",
-        "Ist die Nutzung eines 7-Buchstaben-Wort-Entschlüsselers Schummeln? Das hängt vom Rahmen ab. Bei offiziellen Turnieren ist Hilfe von außen während der Partie durch das Regelwerk untersagt. Für Partien mit Freunden, online mit Zustimmung aller Spieler, oder zum Üben allein ist es ein normales Trainingswerkzeug, kein Betrug.",
-        "Was ist ein punktestarkes 7-Buchstaben-Wort im Deutschen? KOMPLEX ist ein gutes Beispiel mit 24 Punkten Grundwert nach den Standard-Buchstabenwerten — noch bevor Bonusfelder oder der 50-Punkte-Bonus dazukommen.",
-        "Wie viele 7-Buchstaben-Wörter gibt es im Deutschen? Unser Wörterbuch enthält derzeit 5.252 — diese Zahl ist vorläufig, da die vollständige Bereinigung für Deutsch noch aussteht.",
-        "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); Buchstabenwerte nach offizieller Hasbro/Mattel-Verteilung; interne Wörterbuchauszählung von UnscramblWords."
       ]
     }
   
