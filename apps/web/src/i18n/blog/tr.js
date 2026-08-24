@@ -2,7 +2,6 @@ export const tr = [
 
     {
       slug: 'scrabble-strategies',
-      date: '2026-03-15',
       title: 'Scrabble\'da Ustalaşmak: Oyununuzu Geliştirmek için Temel Stratejiler',
       excerpt: 'Tahta konumlandırmasından harf yönetimine kadar Scrabble performansınızı artıracak kanıtlanmış stratejiler öğrenin.',
       body: [
@@ -20,7 +19,6 @@ export const tr = [
     },
     {
       slug: 'best-two-letter-words',
-      date: '2026-03-29',
       title: 'Scrabble\'da İki Harfli Kelimelere Kapsamlı Rehber',
       excerpt: 'Scrabble oyununuzu dönüştürebilecek en değerli ve kullanışlı iki harfli kelimeleri keşfedin.',
       body: [
@@ -38,7 +36,6 @@ export const tr = [
     },
     {
       slug: 'improve-vocabulary-word-games',
-      date: '2026-04-12',
       title: 'Kelime Oyunları için Kelime Dağarcığınızı Nasıl Geliştirebilirsiniz',
       excerpt: 'Kelime dağarcığınızı geliştirmek ve kelime oyunlarında zorlu bir rakip olmak için pratik stratejiler ve teknikler.',
       body: [
@@ -56,7 +53,6 @@ export const tr = [
     },
     {
       slug: 'best-scrabble-words-with-q',
-      date: '2026-04-26',
       title: 'Scrabble\'da Q Harfiyle En İyi Kelimeler',
       excerpt: 'Q harfi Scrabble\'da 10 puan değerindedir ancak kullanımı son derece güçtür. İşte bilmeniz gereken en iyi Q kelimeleri.',
       body: [
@@ -74,7 +70,6 @@ export const tr = [
     },
     {
       slug: 'seven-letter-words-scrabble',
-      date: '2026-05-10',
       title: 'Scrabble Bingolarında Yüksek Puanlı Yedi Harfli Kelimeler',
       excerpt: 'Tüm yedi taşı oynamak 50 puanlık bonus kazandırır. İşte Scrabble\'da bingo yapmak için bilmeniz gereken en iyi yedi harfli kelimeler.',
       body: [
@@ -92,7 +87,6 @@ export const tr = [
     },
     {
       slug: 'history-of-scrabble',
-      date: '2026-05-24',
       title: 'Scrabble\'ın Büyüleyici Tarihi',
       excerpt: 'Büyük Buhran dönemindeki icadından dünyanın en popüler kutu oyunlarından biri olmaya kadar Scrabble\'ın tam tarihi.',
       body: [
@@ -110,14 +104,13 @@ export const tr = [
     },
     {
       slug: 'word-games-brain-health',
-      date: '2026-06-07',
       title: 'Kelime Oyunları ve Beyin Sağlığı: Araştırmalar Ne Söylüyor?',
       excerpt: 'Bilimsel araştırmalar, düzenli kelime oyunlarının bilişsel sağlığı destekleyebileceğini öne sürmektedir. İşte şu an bilinen veriler.',
       body: [
         "Kelime oyunları ile beyin sağlığı arasındaki ilişki, son on yıllarda giderek artan bilimsel ilgi görmektedir. Araştırmacılar bu alanı incelemeyi sürdürseler de, kelime oyunları da dahil olmak üzere zihinsel açıdan uyarıcı aktivitelere düzenli katılımın bilişsel işlevi destekleyebileceğine dair anlamlı kanıtlar bulunmaktadır.",
         "Neuropsychology dergisinde 2011 yılında yayımlanan bir araştırma; kelime oyunları ve bulmacalar gibi zihinsel açıdan uyarıcı boş zaman aktivitelerine katılan bireylerin ileri yaşta daha yavaş bilişsel gerileme hızı gösterdiğini ortaya koymuştur.",
         "Dil işleme, insan beyninin gerçekleştirdiği en karmaşık bilişsel işlevlerden biridir; Broca alanı, Wernicke alanı ve prefrontal korteksin çeşitli bölümleri dahil olmak üzere birden fazla bölgeyi kapsar. Scrabble gibi kelime oyunları bu dil alanlarını yoğun biçimde harekete geçirir.",
-        "Ellen Bialystok ve York Üniversitesi'ndeki meslektaşlarının yürüttüğü araştırmalar, demans hastası olan iki dilli bireylerin, benzer geçmişe sahip tek dilli hastalara kıyasla ortalama dört ila beş yıl daha geç belirti gösterdiğini ortaya koymuştur. Birden fazla dilde kelime oyunları oynamak bu nedenle kümülatif bilişsel yararlar sunabilir.",
+        "Waterloo Üniversitesi'nden araştırmalar, iki dilli ve çok dilli bireylerin tek dilli bireylerle karşılaştırıldığında bunama belirtilerini daha geç yaşta gösterme eğiliminde olduğunu ortaya koymuştur. Birden fazla dilde kelime oyunları oynamak bu nedenle kümülatif bilişsel yararlar sunabilir.",
         "Çalışma belleği — bilgiyi kısa süreler boyunca akılda tutma ve işleme becerisi — kelime oyunları sırasında yoğun biçimde kullanılır. Örneğin Scrabble'da oyuncular, harf setlerini akılda tutarken tahtayı fırsat açısından tarayıp aynı anda puan hesaplamak zorunda kalır.",
         "Dikkat ve konsantrasyon da kelime oyunları pratiğiyle geliştirilir. Rekabetçi Scrabble, 30 dakika ile birkaç saat arasında değişen sürelerde sürekli odaklanma gerektirir.",
         "Bilim insanı topluluğunun kelime oyunları ile bilişsel gerilemenin ya da Alzheimer gibi nörodejeneratif hastalıkların önlenmesi arasında kesin bir nedensellik bağı henüz kurmadığını belirtmek önemlidir.",
@@ -128,7 +121,6 @@ export const tr = [
     },
     {
       slug: 'unscramble-letters-tips',
-      date: '2026-06-21',
       title: 'Harfleri Hızla Çözme: Uzman İpuçları ve Teknikler',
       excerpt: 'İster bir kelime oyunu oynayın ister bir bulmaca çözün, bu uzman teknikler karışık harflerde çok daha hızlı kelimeler bulmanıza yardımcı olacaktır.',
       body: [
@@ -146,7 +138,6 @@ export const tr = [
     },
     {
       slug: 'multilingual-word-games',
-      date: '2026-07-05',
       title: 'Birden Fazla Dilde Kelime Oyunları: Avantajlar ve Zorluklar',
       excerpt: 'Farklı dillerde kelime oyunları oynamak eşsiz bilişsel avantajlar sunar ve büyüleyici zorluklar içerir. İşte nasıl başlayabileceğiniz.',
       body: [
@@ -156,7 +147,7 @@ export const tr = [
         "Almanca kelime oyunları, bileşik kelimelerin büyüleyici zorluğunu barındırır. Almanca, isimleri kolaylıkla önemli uzunluklarda bileşik kelimeler hâlinde birleştirir; bu da Almancada yedi harfli bir bingoyu, tek bir kök kelimeden ziyade iki kısa kelimenin bileşimini temsil edebileceği anlamına gelir.",
         "Arapça ve Rusça kelime oyunları Latin olmayan alfabeleri devreye sokar; bu durum bilişsel deneyimi köklü biçimde değiştirir. Oyuncular, Latin harflerinden temelden farklı görsel semboller işlemek zorunda kalır.",
         "Çok dilli oyuncular için bir oturumda diller arasında geçiş yapmak, dilbilimcilerin 'kod değiştirme' kapasitesi olarak adlandırdığı şeyi — yani farklı dilsel sistemler arasında akıcı biçimde hareket etme becerisini — egzersiz ettirir. Bu beceri, gelişmiş yönetici işlevle ilişkilendirilmektedir.",
-        "UnscramblWords; İngilizce, İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Türkçe, Rusça, Çince ve Arapça olmak üzere on dili destekleyerek oyuncuların dikkate değer bir dil ailesi çeşitliliğinde kelime çözme pratiği yapmasına olanak tanır.",
+        "UnscramblWords; İngilizce, İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Türkçe, Rusça, Lehçe ve Arapça olmak üzere on dili destekleyerek oyuncuların dikkate değer bir dil ailesi çeşitliliğinde kelime çözme pratiği yapmasına olanak tanır.",
         "Çok dilli kelime oyunlarında yeniyseniz, en etkili yaklaşım zaten öğrenmekte olduğunuz ya da belirli bir düzeyde aşina olduğunuz bir dille başlamaktır.",
         "Çok dilli kelime oyunlarının keyfi yalnızca bilişsel avantajlarda değil, aynı zamanda sundukları kültürel zenginleşmede de yatar.",
         "Yeni bir dilde öğrendiğiniz her kelime, o dili konuşan insanların tarihine, kültürüne ve düşünce biçimlerine açılan küçük bir penceredir."
@@ -164,7 +155,6 @@ export const tr = [
     },
     {
       slug: 'wordle-strategies',
-      date: '2026-07-19',
       title: 'Wordle Stratejileri: Her Gün Bulmacayı Nasıl Çözersiniz',
       excerpt: 'Wordle dünya genelinde bir fenomene dönüştü. İşte onu her gün verimli biçimde çözmek için en iyi stratejiler ve başlangıç kelimeleri.',
       body: [
@@ -182,7 +172,6 @@ export const tr = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
-      date: '2026-08-16',
       title: 'Kelime Çözücü: Her Türlü Harf Bulmacasını Çözmenin Eksiksiz Rehberi',
       excerpt: 'Kelime arama araçlarının nasıl çalıştığı, yüksek puanlı hamlelerin ardındaki strateji ve filtrelerin etkili kullanımı.',
       body: [
@@ -200,47 +189,6 @@ export const tr = [
         "UnscramblWords Türkçe dışında başka dilleri de destekliyor mu? Evet — site, İngilizce, Fransızca, İspanyolca, Almanca ve İtalyanca dahil 10 dili destekler; her biri kendi referans sözlüğüne göre denetlenir.",
         "Aynı anda kaç harf aranabilir? Sabit bir sınır yoktur — araç, alfabenin 26 harfinin tamamı aynı anda girildiğinde bile sonuç döndürecek şekilde test edilmiştir. Kısa bir harf karmaşasından uzun bir ifadeye kadar her boyutu rahatlıkla işleyebilir.",
         "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük, Türkçe kelime oyunlarında resmi referans kaynağı olarak kullanılmaktadır."
-      ]
-    },
-    {
-      slug: 'unscramble-9-letter-words',
-      date: '2026-08-02',
-      title: '9 Harfli Kelimeleri Çözme: 2026 Kesin Rehberi',
-      excerpt: '9 harfli kelimeleri bir profesyonel gibi çözmeye hazır mısınız? Bu rehber, üçlü gruplama tekniğini, yaygın ekleri, tahtadaki uzatmaları ve çevrimiçi bir kelime çözücüyü güvenle kullanmayı kapsıyor.',
-      body: [
-        "UnscramblWords ekibi tarafından yazılmış ve incelenmiştir. Bu sitedeki kelimeler ve geçerlilikleri, yayımlanmadan önce Türk Dil Kurumu'nun (TDK) Güncel Türkçe Sözlük'üne göre kontrol edilir.",
-        "Dokuz harfli bir kelime yerleştirmek, rakibinizin önüne geçmenin en hızlı yollarından biridir. Çoğu oyuncu, elindeki dolu bir raf artı tahtadaki iki harfi birleştirmesi gerektiğinde tıkanır — harfler belirgin bir örüntü oluşturmaz ve yüksek puanlı hamleler gözden kaçar. Bu rehber, dokuz harfli kelimeleri çözmek için tekrarlanabilir bir yöntem sunar: harfleri gruplara ayırmak, yaygın ekleri tanımak ve yeni bir rafa güvenmek yerine tahtada uzatmalar aramak.",
-        "Resmi kaynağa dayanarak doğrudan oluşturulan kendi sözlüğümüz şu anda 6.575 adet dokuz harfli kelime içeriyor. Fransızca sözlüğün aksine — ki o, yabancı kelimelerden ve özel isimlerden tamamen arındırılmış durumda — Türkçe için bu temizlik henüz yapılmadı; ancak örneklenen kelimelerde belirgin bir kirlenme işareti görülmedi.",
-        "Dokuz harfli bir kelime, dokuz karakterden oluşan geçerli bir sözlük girdisidir. Bir anagram, daha genel olarak, bir harf kümesinin yeniden düzenlenmesiyle oluşan herhangi bir kelimedir. Harf sayısı arttıkça olası düzenlemelerin sayısı çok hızlı artar — altı farklı harften oluşan bir kelimenin 720 olası sıralaması vardır (6!), dokuz farklı harfin ise 362.880 olası sıralaması vardır (9!). Bu kombinatoryal sıçrama, oyuncuların yardımsız dokuz harfli kelimeleri bulmakta neden zorlandığının temel nedenidir: insan gözü kısa, tanıdık örüntüleri iyi tanır, yüz binlerce permütasyonu taramakta değil.",
-        "Dokuz harfli kelimeleri düzenli olarak tanımanın pratik bir kelime dağarcığı faydası da vardır — her kelimeyi tek tek ezberlemek yerine ekleri ve hece yapılarını fark etmeye yöneltir.",
-        "Türkçe kelime oyunlarında, raftaki yedi taşın tamamının artı tahtada bulunan iki taşın kullanılmasıyla dokuz harfli bir kelime oluşturmak, çifte bonus olarak adlandırılabilir. Aynı hamlede iki üç kat kelime puanı karesine ulaşmak çok yüksek bir skor üretebilir. Yedi harfli bonuslar düzenli olarak ortaya çıkar; dokuz harfli fırsatlar daha nadirdir ve raf şansından çok tahta görüşüne bağlıdır. HAYVANDIR, KALİTESİZ ve EĞLENCELİ gibi kelimeler, sık kullanılan harfler içerdikleri ve tekrar tekrar karşımıza çıktıkları için akılda tutulmaya değerdir. Türkçenin eklemeli yapısı — sona eklerin üst üste eklenmesi — bu tür uzun kelimelerin diğer dillere göre daha sık ortaya çıkmasını sağlar.",
-        "Dokuz harfi tek bir blok olarak taramak yerine, onları üç grup üçe ayırın ve tanıdık üçlü harf gruplarını arayın. Bu 'gruplama' yöntemi, bunaltıcı bir aramayı daha yönetilebilir bir hale getirir. Ünlü-ünsüz oranınızı kontrol etmek de yardımcı olur: tipik bir dokuz harfli Türkçe kelimede genellikle üç ila dört ünlü ve beş ila altı ünsüz bulunur.",
-        "Bir eki ayırmak sorunun boyutunu küçültür. Dört harfli bir ek olan -LARDAN veya -MİŞTİR gibi bir sonu çıkarmak, çözülecek harf sayısını azaltır. Türkçenin eklemeli doğası nedeniyle, -DIR, -MİŞ, -MEK gibi yaygın ekler dokuz harfli fiil ve isimlerin büyük bir bölümünü oluşturur; sona eklenen bir -LAR veya -LER çoğulu, sekiz harfli bir kelimeyi genellikle dokuz harfli bir kelimeye dönüştürür.",
-        "Elle çözmek, zaman içinde kelime dağarcığı ve örüntü tanıma becerisi geliştirir ve zamanlı oyunların dışında da pratik yapmaya değer. Ancak canlı bir maçta, çevrimiçi bir araç daha hızlıdır ve sonuçlar seçtiğiniz sözlüğe göre kontrol edildiğinden geçersiz bir kelime oynama riskini azaltır. Pratik yaklaşım, antrenman için elle çözmeyi, bir taşı tahtaya koymadan önce doğrulama için ise bir aracı kullanmaktır.",
-        "Çoğu dokuz harfli hamle yeni bir raftan bulunmaz — bunlar, tahtada zaten bulunan kelimeleri uzatarak oluşturulur (uzatma stratejisi): tahtada bulunan yedi harfli bir kelimeyi alıp dokuza ulaşmak için raftan iki harf eklemek. Paralel oynama — mevcut bir kelimenin yanına, ona dik değil, yan yana taş yerleştirmek — aynı hamlede birden fazla kelime için puan kazandırabilir. Uzun bir kelime aynı zamanda bir rakibin puan hattını engelleyebilir, ancak taahhüt etmeden önce karşı-uzatmaları kontrol edin, çünkü bu onlara da yeni bir üç kat kelime puanı karesi açabilir.",
-        "UnscramblWords'ü dokuz harfli bir karışıklık için kullanmak üzere, harflerinizi arama çubuğuna girerek uzunluğa ve puana göre düzenlenmiş geçerli kelimelerin tam bir listesini alın. Tahtadaki belirli bir boşluğa uymak için 'ile başlar', 'ile biter' ve 'içerir' filtrelerini, boş taşları veya bilinmeyen harfleri temsil etmek için ise joker karakterlerini (* veya ?) kullanın. UnscramblWords 10 dili destekler ve her biri, temel alınan kelime listeleri tarafından doğru şekilde işlenen kendi özel karakterlerine (ç, ğ, ı, İ, ö, ş, ü) sahiptir.",
-        "9 harfli bir kelime hızlıca nasıl çözülür? Harfleri üçerli parçalara ayırın veya önce yaygın ekleri kontrol edin, çünkü bunlar sorunu daha kısa bir köke indirger. Geçerli kombinasyonların tam bir listesi için çevrimiçi bir kelime çözücü kullanın.",
-        "Türkçede kaç adet 9 harfli kelime var? Sözlüğümüz şu anda 6.575 adet içeriyor. Bu rakam, sitenin kendi sözlüğünden gelir ve Fransızca için uygulanan tam temizlik incelemesinden henüz geçmemiştir.",
-        "Kelime oyunlarında yüksek puanlı bir 9 harfli kelime nedir? J (10 puan) veya Ğ (8 puan) gibi yüksek değerli harfler içeren kelimeler, özellikle üç kat kelime puanı karesini geçtiklerinde iyi puan kazandırır. İSTEDİĞİM ve GELDİĞİNİ buna örnektir.",
-        "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük; UnscramblWords'ün kendi dahili sözlük sayımı."
-      ]
-    },
-    {
-      slug: '7-letter-word-unscrambler',
-      date: '2026-08-22',
-      title: '7 Harfli Kelime Çözücü: Bonus Stratejisi Rehberi',
-      excerpt: 'Rafınızdaki yedi harfin tamamını tek hamlede kullanmak sabit bir 50 puan bonusu getirir ve oyunu tersine çevirebilir. İşte bunları daha hızlı bulmanın yolu, kendi sözlüğümüzden gerçek örneklerle.',
-      body: [
-        "UnscramblWords ekibi tarafından yazılmış ve incelenmiştir. Bu sitedeki kelimeler ve geçerlilikleri, yayımlanmadan önce Türk Dil Kurumu'nun (TDK) Güncel Türkçe Sözlük'üne göre kontrol edilir.",
-        "Türkçe kelime oyunlarında, raftaki yedi taşın tamamını tek hamlede kullanmak, kelimenin kendi puanına ek olarak sabit bir 50 puan bonusu kazandırır. Bu bonus sabit olduğu ve kullanılan harflere bağlı olmadığı için, sık kullanılan harflerden oluşan sıradan bir yedi harfli kelime bile, tek bir yüksek değerli harf etrafında kurulmuş kısa bir kelimeyi geride bırakabilir.",
-        "Kendi sözlüğümüz şu anda 7.018 adet yedi harfli kelime içeriyor. Bu rakam geçici olarak değerlendirilmelidir; Fransızca için zaten tamamlanmış olan temizlik incelemesinin aksine, Türkçe için bu inceleme henüz yapılmadı.",
-        "Yedi harfi tek bir blok olarak taramak yerine, tanınabilir blokları arayın. Türkçenin eklemeli yapısı sayesinde, -DIĞI, -MESİ, -LÜĞÜ gibi sık kullanılan sona ekler, daha kısa bir kökten yedi harfli bir kelime oluşturmaya yardımcı olur.",
-        "Yedi harfli bir kelime bulmak işin yalnızca yarısıdır — tahtaya da uyması gerekir. Deneyimli oyuncular bir 'bağlantı' arar: üzerine yeni bir kelime kurulabilecek, tahtada zaten bulunan bir harf. Harflerinizi bağlantı harfiyle birlikte Kelime Çözücü'ye girin ve tam konumu bulmak için 'ile başlar' veya 'ile biter' filtrelerini kullanın.",
-        "Kelime Çözücü'yü yedi harf için kullanmak üzere, harflerinizi arama çubuğuna girin (sıralama önemli değildir), boş taş için ? kullanın ve daha kısa, daha az kazançlı sonuçları elemek için uzunluk filtresini tam olarak 7'ye ayarlayın.",
-        "7 harfli bir kelime çözücü kullanmak hile midir? Bu, bağlama bağlıdır. Resmi bir turnuvada, oyun sırasında dışarıdan yardım kurallarca yasaktır. Arkadaşlar arasındaki oyunlarda, tüm oyuncuların onayıyla çevrimiçi oyunlarda veya tek başına antrenman yaparken, bu normal bir antrenman aracıdır, hile değildir.",
-        "Türkçede yüksek puanlı bir 7 harfli kelime nedir? ÖZGÜVEN, standart harf değerlerine göre 28 puanlık taban değeriyle iyi bir örnektir — bonus kareler veya 50 puanlık bonus hesaba katılmadan önce bile.",
-        "Türkçede kaç adet 7 harfli kelime var? Sözlüğümüz şu anda 7.018 adet içeriyor — bu rakam geçicidir, çünkü Türkçe için tam temizlik incelemesi henüz tamamlanmadı.",
-        "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük; resmi Hasbro/Mattel harf dağılımına göre harf değerleri; UnscramblWords'ün kendi dahili sözlük sayımı."
       ]
     }
   
