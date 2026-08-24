@@ -15,14 +15,54 @@ const dictionaryLoaders = {
   it: () => import('@/lib/ItWordsFull.js').then((m) => m.IT_WORDS_FULL),
   tr: () => import('@/lib/TrWordsFull.js').then((m) => m.TR_WORDS_FULL),
   ru: () => import('@/lib/RuWordsFull.js').then((m) => m.RU_WORDS_FULL),
-  zh: () => import('@/lib/languageDictionaries3.js').then((m) => m.ZH_WORDS),
   ar: () => import('@/lib/languageDictionaries3.js').then((m) => m.AR_WORDS),
+};
+
+// Polish is handled separately from the single-file loaders above: its
+// grammar is so richly inflected that a genuinely complete word list
+// (~2.87M forms, ~7.5MB gzipped) is roughly 16x larger than any other
+// language's dictionary here. Rather than make every Polish user wait on
+// that full download before the tool becomes usable, or shrink Polish down
+// to base/lemma forms only (which would make it the functionally weakest
+// dictionary in the app, unable to recognise common inflected forms like
+// case declensions), Polish loads in two tiers:
+//   1. PlWordsCommon.js (~238K base/lemma words) loads first, same speed
+//      as any other language, so the tool is usable almost immediately.
+//   2. PlWordsBackground.js (~2.63M remaining inflected forms) then loads
+//      in the background and merges in silently once ready.
+// isBackgroundLoading (returned by the hook below) lets the UI show an
+// honest "still expanding dictionary" indicator during that window, since
+// a valid inflected word could otherwise be wrongly reported as invalid
+// before the background tier finishes loading.
+const loadPolishDictionary = async (onBackgroundLoadingChange) => {
+  const { PL_WORDS_COMMON_RAW } = await import('@/lib/PlWordsCommon.js');
+  const common = (PL_WORDS_COMMON_RAW || '').split('\n').filter(Boolean).map((w) => w.toUpperCase());
+  localDictionaryCache.pl = common;
+
+  onBackgroundLoadingChange?.(true);
+  import('@/lib/PlWordsBackground.js')
+    .then((m) => {
+      const background = (m.PL_WORDS_BACKGROUND_RAW || '').split('\n').filter(Boolean).map((w) => w.toUpperCase());
+      localDictionaryCache.pl = [...common, ...background];
+    })
+    .catch((error) => {
+      console.error('Polish background dictionary failed to load:', error);
+      // The common-word tier stays usable even if the background tier fails.
+    })
+    .finally(() => {
+      onBackgroundLoadingChange?.(false);
+    });
+
+  return common;
 };
 
 const localDictionaryCache = {};
 
-const getLocalDictionary = async (langCode) => {
+const getLocalDictionary = async (langCode, onBackgroundLoadingChange) => {
   if (localDictionaryCache[langCode]) return localDictionaryCache[langCode];
+  if (langCode === 'pl') {
+    return loadPolishDictionary(onBackgroundLoadingChange);
+  }
   const loader = dictionaryLoaders[langCode];
   const raw = loader ? await loader() : [];
   const words = (raw || []).map((w) => w.toUpperCase());
@@ -34,6 +74,7 @@ export const useWordUnscrambler = (currentLanguage = 'en') => {
   const [words, setWords] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isUsingFallbackDictionary, setIsUsingFallbackDictionary] = useState(false);
+  const [isBackgroundLoading, setIsBackgroundLoading] = useState(false);
   const [filters, setFilters] = useState({
     startsWith: '',
     endsWith: '',
@@ -51,7 +92,7 @@ export const useWordUnscrambler = (currentLanguage = 'en') => {
     try {
       let dict = [];
 
-      dict = await getLocalDictionary(currentLanguage);
+      dict = await getLocalDictionary(currentLanguage, setIsBackgroundLoading);
       setIsUsingFallbackDictionary(false);
 
       const inputUpper = inputLetters.toUpperCase();
@@ -117,6 +158,7 @@ export const useWordUnscrambler = (currentLanguage = 'en') => {
     words,
     isLoading,
     isUsingFallbackDictionary,
+    isBackgroundLoading,
     unscramble,
     reset,
     filters,
