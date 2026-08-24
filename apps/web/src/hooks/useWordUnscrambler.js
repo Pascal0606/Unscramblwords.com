@@ -40,9 +40,25 @@ const loadPolishDictionary = async (onBackgroundLoadingChange) => {
   localDictionaryCache.pl = common;
 
   onBackgroundLoadingChange?.(true);
-  import('@/lib/PlWordsBackground.js')
-    .then((m) => {
-      const background = (m.PL_WORDS_BACKGROUND_RAW || '').split('\n').filter(Boolean).map((w) => w.toUpperCase());
+  // The background tier is split across 4 files so each stays under
+  // GitHub's 25MB web-upload limit -- all 4 are fetched in parallel and
+  // merged in once every part has arrived.
+  Promise.all([
+    import('@/lib/PlWordsBackground1.js'),
+    import('@/lib/PlWordsBackground2.js'),
+    import('@/lib/PlWordsBackground3.js'),
+    import('@/lib/PlWordsBackground4.js'),
+  ])
+    .then(([m1, m2, m3, m4]) => {
+      const background = [
+        m1.PL_WORDS_BACKGROUND_1_RAW,
+        m2.PL_WORDS_BACKGROUND_2_RAW,
+        m3.PL_WORDS_BACKGROUND_3_RAW,
+        m4.PL_WORDS_BACKGROUND_4_RAW,
+      ]
+        .flatMap((raw) => (raw || '').split('\n'))
+        .filter(Boolean)
+        .map((w) => w.toUpperCase());
       localDictionaryCache.pl = [...common, ...background];
     })
     .catch((error) => {
