@@ -15,7 +15,47 @@ const dictionaryLoaders = {
   it: () => import('@/lib/ItWordsFull.js').then((m) => m.IT_WORDS_FULL),
   tr: () => import('@/lib/TrWordsFull.js').then((m) => m.TR_WORDS_FULL),
   ru: () => import('@/lib/RuWordsFull.js').then((m) => m.RU_WORDS_FULL),
-  ar: () => import('@/lib/languageDictionaries3.js').then((m) => m.AR_WORDS),
+};
+
+// Arabic is handled the same way as Polish: its verb morphology (tense
+// particles as prefixes, object pronouns as suffixes) makes a genuinely
+// complete word list far larger than a single small file, so it loads in
+// two tiers -- ArWordsCommon.js (~81K base dictionary forms) loads first
+// so the tool is usable immediately, then ArWordsBackground1-4.js
+// (~2.5M grammatically-expanded forms) load in the background and merge
+// in silently. See loadPolishDictionary below for the identical pattern.
+const loadArabicDictionary = async (onBackgroundLoadingChange) => {
+  const { AR_WORDS_COMMON_RAW } = await import('@/lib/ArWordsCommon.js');
+  const common = (AR_WORDS_COMMON_RAW || '').split('\n').filter(Boolean).map((w) => w.toUpperCase());
+  localDictionaryCache.ar = common;
+
+  onBackgroundLoadingChange?.(true);
+  Promise.all([
+    import('@/lib/ArWordsBackground1.js'),
+    import('@/lib/ArWordsBackground2.js'),
+    import('@/lib/ArWordsBackground3.js'),
+    import('@/lib/ArWordsBackground4.js'),
+  ])
+    .then(([m1, m2, m3, m4]) => {
+      const background = [
+        m1.AR_WORDS_BACKGROUND_1_RAW,
+        m2.AR_WORDS_BACKGROUND_2_RAW,
+        m3.AR_WORDS_BACKGROUND_3_RAW,
+        m4.AR_WORDS_BACKGROUND_4_RAW,
+      ]
+        .flatMap((raw) => (raw || '').split('\n'))
+        .filter(Boolean)
+        .map((w) => w.toUpperCase());
+      localDictionaryCache.ar = [...common, ...background];
+    })
+    .catch((error) => {
+      console.error('Arabic background dictionary failed to load:', error);
+    })
+    .finally(() => {
+      onBackgroundLoadingChange?.(false);
+    });
+
+  return common;
 };
 
 // Polish is handled separately from the single-file loaders above: its
@@ -78,6 +118,9 @@ const getLocalDictionary = async (langCode, onBackgroundLoadingChange) => {
   if (localDictionaryCache[langCode]) return localDictionaryCache[langCode];
   if (langCode === 'pl') {
     return loadPolishDictionary(onBackgroundLoadingChange);
+  }
+  if (langCode === 'ar') {
+    return loadArabicDictionary(onBackgroundLoadingChange);
   }
   const loader = dictionaryLoaders[langCode];
   const raw = loader ? await loader() : [];
