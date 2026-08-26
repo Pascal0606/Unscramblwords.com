@@ -216,4 +216,25 @@ export const es = [
         "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE)."
       ]
     },
+    {
+      slug: '7-letter-word-unscrambler-bingo-guide',
+      title: 'Cómo encontrar tu próximo juego de siete fichas',
+      excerpt: 'Cómo detectar más rápido las jugadas de siete letras, usando raíces frecuentes, conexiones y filtros — y las cifras reales detrás de la bonificación de 50 puntos.',
+      body: [
+        "Escrito y revisado por el equipo de UnscramblWords.",
+        "Colocar las siete fichas de tu atril en un solo turno suele marcar la diferencia entre una derrota ajustada y una victoria clara. Hacerlo otorga una bonificación fija de 50 puntos, además de la puntuación de la propia palabra — por eso incluso una palabra modesta hecha solo de fichas de un punto puede superar a una jugada más corta construida alrededor de una letra de alto valor.",
+        "Los atriles con letras comunes — E, A, R, I, O, T, N y S — ofrecen las mejores probabilidades, ya que estas letras aparecen en una amplia variedad de palabras de siete letras. Los atriles cargados de letras raras como la J, la Q, la X o la Z tienen muchas menos probabilidades de producir una jugada así, aunque siempre vale la pena comprobarlo con un filtro de longitud antes de asumir que no hay nada que hacer.",
+        "En lugar de examinar siete letras como un bloque, los jugadores expertos las dividen en fragmentos familiares. Ciertas raíces de seis letras son especialmente productivas, y sufijos comunes como -CIÓN, -MENTE, -ANDO, o prefijos como RE-, DES-, IN-, merecen aprenderse específicamente porque convierten una raíz de cinco o seis letras que ya tienes en una jugada completa de siete con solo una o dos fichas más.",
+        "Encontrar la palabra en tu atril es solo la mitad del trabajo: también tiene que encajar en el tablero. Una conexión consiste en añadir una sola letra a una palabra ya colocada para formar una nueva. Usar un filtro de «empieza con» o «termina con» que coincida con una letra ya en juego reduce una lista larga de resultados a las jugadas que realmente podrían conectar, en lugar de las que tendrías que descartar al ver el tablero.",
+        "El comodín es tu mejor aliado a la hora de buscar una jugada de siete fichas: puede sustituir cualquier letra, ampliando enormemente lo que tu atril puede llegar a formar. Cuando te toque uno, vale la pena comprobar primero si permite una jugada de siete letras antes de gastarlo en algo más corto. Un buscador de palabras con un carácter comodín (normalmente un signo de interrogación) hace esta comprobación automáticamente, probando las 27 letras del alfabeto español contra el resto de tu atril.",
+        "En el Scrabble en español, la Z vale 10 puntos, la letra más alta, seguida de la Ñ, la K, la W, la X, la Q, la RR y la LL, todas con 8 puntos — letras de gran valor que también pueden quedarse mucho tiempo en el atril si esperas la combinación perfecta para una jugada completa de siete, en lugar de jugarlas antes en una palabra más corta.",
+        "Repasar tu atril después de una partida — introduciendo una combinación que te costó resolver para ver qué se te escapó — es una de las formas más fiables de ampliar con el tiempo tu vocabulario de palabras útiles para estas jugadas. Muchos jugadores usan este método específicamente como repaso posterior, en lugar de apoyarse en una herramienta durante la partida, ya que los torneos y clubes suelen prohibir la ayuda externa mientras se juega.",
+        "Para buscar una jugada de siete letras en UnscramblWords, introduce las letras de tu atril y ajusta el filtro de longitud a exactamente 7. Si te falta una letra para completarla, prueba a añadir una habitual como la S o la E a la búsqueda. Los filtros de «empieza con» y «termina con» ayudan a coincidir con una letra ya colocada, y un signo de interrogación representa un comodín. UnscramblWords es compatible con 10 idiomas (inglés, español, francés, alemán, portugués, italiano, turco, ruso, polaco y árabe), así que el mismo método funciona sea cual sea el idioma en el que juegues.",
+        "¿Usar un buscador de palabras se considera trampa? Depende del contexto. Los torneos y clubes suelen no permitirlo, pero las partidas informales se aceptan generalmente si todos están de acuerdo de antemano — y muchos jugadores serios usan estas herramientas específicamente entre partidas, para repasar jugadas que se les escaparon, no para resolver una en curso.",
+        "¿Cuántas palabras de siete letras existen? Depende del diccionario y del idioma con el que juegues.",
+        "¿La herramienta admite el comodín? Sí — introduce un signo de interrogación en el campo de búsqueda, y prueba cada letra del alfabeto en esa posición.",
+        "¿Puedo buscar palabras de siete letras en otros idiomas? Sí — UnscramblWords es compatible con 10 idiomas, y cambiar de uno a otro se hace al instante desde la misma pantalla.",
+        "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE)."
+      ]
+    },
 ];

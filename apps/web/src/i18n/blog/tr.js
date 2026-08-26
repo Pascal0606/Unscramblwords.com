@@ -215,4 +215,25 @@ export const tr = [
         "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı ve güncel kelime geçerliliği üzerine."
       ]
     },
+    {
+      slug: '7-letter-word-unscrambler-bingo-guide',
+      title: 'Yedi Harfi Birden Oynamak: Büyük Bonusun Rehberi',
+      excerpt: 'Yaygın kelime kökleri, eklemeler ve filtrelerle yedi harfli hamleleri daha hızlı nasıl fark edersiniz — ve 50 puanlık bonusun arkasındaki gerçek sayılar.',
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve gözden geçirilmiştir.",
+        "Rafınızdaki yedi harfin tamamını tek hamlede oynamak, genellikle sıkı bir kayıp ile net bir galibiyet arasındaki farkı yaratır. Bunu yapmak, kelimenin kendi puanına ek olarak sabit 50 puanlık bir bonus kazandırır — bu yüzden yalnızca birer puanlık harflerden oluşan mütevazı bir kelime bile, yüksek değerli bir harf etrafında kurulmuş daha kısa bir hamleden daha fazla puan getirebilir.",
+        "Yaygın harflerden oluşan raflar — E, A, R, I, O, T, N ve S — en iyi şansı sunar, çünkü bu harfler çok sayıda yedi harfli kelimede geçer. J, Q, X veya Z gibi nadir harflerle dolu raflar böyle bir hamle üretme ihtimali çok daha düşüktür, ama yine de hiçbir şey olmadığını varsaymadan önce uzunluk filtresiyle kontrol etmek işe yarar.",
+        "Deneyimli oyuncular yedi harfi bir bütün olarak taramak yerine, tanıdık parçalara ayırır. Belirli altı harfli kelime kökleri özellikle verimlidir ve -LIK/-LİK, -MEK/-MAK gibi yaygın ekler ile yeniden yapılandırılmış kökler, elinizde zaten bulunan beş veya altı harfli bir kökü, sadece bir veya iki harf ekleyerek tam bir yedi harfli hamleye dönüştürür.",
+        "Kelimeyi rafınızda bulmak işin sadece yarısıdır — tahtaya da uyması gerekir. Bir eklemeleme, mevcut bir kelimeye tek bir harf ekleyerek yeni bir kelime oluşturmaktır. Tahtada zaten bulunan bir harfe uyan 'ile başlar' veya 'ile biter' filtresi kullanmak, uzun bir sonuç listesini gerçekten bağlanabilecek hamlelere indirger — tahtaya baktıktan sonra eleyeceğiniz hamlelere değil.",
+        "Joker, yedi harfli bir hamle ararken en değerli müttefikinizdir: herhangi bir harfin yerine geçebilir ve rafınızın neye dönüşebileceğini önemli ölçüde genişletir. Bir joker çektiğinizde, onu daha kısa bir şey için harcamadan önce yedi harfli bir hamlenin mümkün olup olmadığını kontrol etmeye değer. Joker karakteri (genellikle bir soru işareti) destekleyen bir kelime bulucu bu kontrolü otomatik olarak yapar, rafınızın geri kalanına karşı alfabedeki 29 harfi de test eder.",
+        "Türkçenin kelime oyunlarında kendine has bir zorluğu var: noktalı İ ile noktasız I, alfabede tamamen farklı iki harftir ve birbirinin yerine geçemez. Bir kelime bulucunun bu ayrımı doğru işlemesi, özellikle yedi harfli bir hamleyi ararken, aramanızın güncel Türkçe sözlüğe göre gerçekten geçerli sonuçlar vermesini sağlar.",
+        "Bir oyundan sonra rafınızı gözden geçirmek — sizi zorlayan bir kombinasyonu girip neyi kaçırdığınızı görmek — zamanla yedi harfli hamlelere uygun bir kelime dağarcığı oluşturmanın en güvenilir yollarından biridir. Birçok oyuncu bu yöntemi özellikle oyun sonrası inceleme olarak kullanır, oyun sırasında bir araca güvenmek yerine, çünkü turnuvalar ve kulüpler genellikle oyun sırasında dış yardımı yasaklar.",
+        "UnscramblWords'te yedi harfli bir hamle aramak için raf harflerinizi girin, ardından uzunluk filtresini tam olarak 7'ye ayarlayın. Tamamlamak için bir harfiniz eksikse, aramaya S veya E gibi yaygın bir harf eklemeyi deneyin. 'İle başlar' ve 'ile biter' filtreleri, tahtada zaten bulunan bir harfe uymanıza yardımcı olur ve bir soru işareti jokeri temsil eder. UnscramblWords 10 dili destekler (İngilizce, İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Türkçe, Rusça, Lehçe ve Arapça), bu yüzden hangi dilde oynarsanız oynayın aynı yöntem işe yarar.",
+        "Kelime bulucu kullanmak hile sayılır mı? Ortama bağlıdır. Turnuvalar ve kulüpler genellikle buna izin vermez, ama rahat oyunlar önceden anlaşıldığı sürece genellikle kabul edilir — ve birçok ciddi oyuncu bu araçları özellikle oyunlar arasında, oyun sırasında değil, kaçırdıkları hamleleri gözden geçirmek için kullanır.",
+        "Kaç tane yedi harfli kelime var? Bu, hangi sözlüğü ve hangi dili kullandığınıza bağlıdır.",
+        "Bu araç joker destekliyor mu? Evet — arama alanına bir soru işareti girin, alfabedeki her harfi bu konumda dener.",
+        "Başka dillerde de yedi harfli kelime arayabilir miyim? Evet — UnscramblWords 10 dili destekler ve diller arasında geçiş aynı ekrandan bir anda yapılır.",
+        "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı üzerine."
+      ]
+    },
 ];
