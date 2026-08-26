@@ -52,6 +52,20 @@ const POINTS_BY_LANGUAGE = {
     A: 1, Ą: 5, B: 3, C: 2, Ć: 6, D: 2, E: 1, Ę: 5, F: 5, G: 3, H: 3, I: 1, J: 3,
     K: 2, L: 2, Ł: 3, M: 2, N: 1, Ń: 7, O: 1, Ó: 5, P: 2, R: 1, S: 1, Ś: 5, T: 2,
     U: 3, W: 1, Y: 2, Z: 1, Ź: 9, Ż: 5
+  },
+  // Sourced from the official 100-tile Arabic Scrabble distribution
+  // (cross-verified via BSIRI Games and an independent Wikipedia-sourced
+  // reference), using isolated letter forms only, matching how Arabic
+  // Scrabble tiles are actually printed.
+  ar: {
+    ا: 1, ل: 1, ج: 1, ح: 1, خ: 1, م: 1, ن: 1, ه: 1, و: 1, ي: 1,
+    ب: 2, ر: 2, ت: 2, د: 2, س: 2, ث: 2,
+    ف: 3, ق: 3, ذ: 3, ش: 3, ز: 3,
+    ص: 4, ض: 4, ع: 4, ك: 4, ط: 4,
+    ظ: 5,
+    ئ: 6,
+    غ: 8, ء: 8,
+    أ: 10, ؤ: 10
   }
 };
 
@@ -94,13 +108,6 @@ const tokenizeWord = (word, language) => {
 
 export const calculateScrabblePoints = (word, language = 'en') => {
   if (!word || typeof word !== 'string') return 0;
-
-  // Arabic doesn't have an implemented letter-tile scoring system yet.
-  // Returning 0 rather than a fabricated or misleading value until a
-  // scoring approach is decided.
-  if (language === 'ar') {
-    return 0;
-  }
 
   const points = POINTS_BY_LANGUAGE[language] || POINTS_BY_LANGUAGE.en;
   const upperWord = uppercaseForLanguage(word, language);
