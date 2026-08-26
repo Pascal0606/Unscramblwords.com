@@ -1,9 +1,32 @@
 import React, { useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowRight, ArrowLeft, BookOpen, Clock, Calendar, Tag, Search, X } from 'lucide-react';
+import { ArrowRight, ArrowLeft, BookOpen, Clock, Calendar, Tag, Search, X, Lightbulb, List as ListIcon, ChevronDown } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage.js';
 import { blogContent } from '@/i18n/blogContent.js';
+
+// Renders one FAQ entry as a collapsible item. Kept as its own component so
+// each entry has independent open/closed state.
+function FaqItem({ question, answer }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border border-border/40 rounded-2xl overflow-hidden bg-card">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left"
+        aria-expanded={open}
+      >
+        <span className="font-semibold text-card-foreground">{question}</span>
+        <ChevronDown className={`w-5 h-5 text-muted-foreground shrink-0 transition-transform ${open ? 'rotate-180' : ''}`} />
+      </button>
+      {open && (
+        <div className="px-5 pb-4 text-muted-foreground leading-relaxed">
+          {answer}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export function BlogArticle() {
   const { slug } = useParams();
@@ -70,13 +93,80 @@ export function BlogArticle() {
 
         <hr className="border-border mb-10" />
 
+        {/* Key Takeaways -- only renders if the article provides them */}
+        {article.keyTakeaways && article.keyTakeaways.length > 0 && (
+          <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 md:p-8 mb-10">
+            <div className="flex items-center gap-2.5 mb-4">
+              <Lightbulb className="w-5 h-5 text-primary" />
+              <h2 className="font-bold text-lg text-foreground">Key Takeaways</h2>
+            </div>
+            <ul className="space-y-2.5">
+              {article.keyTakeaways.map((point, i) => (
+                <li key={i} className="flex items-start gap-2.5 text-foreground leading-relaxed">
+                  <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Table of Contents -- only renders if the article provides section anchors */}
+        {article.toc && article.toc.length > 0 && (
+          <div className="bg-secondary/30 border border-border/40 rounded-2xl p-6 md:p-8 mb-10">
+            <div className="flex items-center gap-2.5 mb-4">
+              <ListIcon className="w-5 h-5 text-foreground" />
+              <h2 className="font-bold text-lg text-foreground">Table of Contents</h2>
+            </div>
+            <ul className="space-y-2">
+              {article.toc.map((entry, i) => (
+                <li key={i}>
+                  <a href={`#${entry.id}`} className="text-primary hover:text-primary/80 hover:underline transition-colors">
+                    {entry.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         <article>
-          {article.body.map((paragraph, i) => (
-            <p key={i} className="mb-6 text-foreground leading-relaxed text-base md:text-lg">
-              {paragraph}
-            </p>
-          ))}
+          {article.body.map((block, i) => {
+            // Legacy articles store body as a flat array of paragraph strings.
+            // Newer articles may store objects to support headings for the TOC.
+            if (typeof block === 'string') {
+              return (
+                <p key={i} className="mb-6 text-foreground leading-relaxed text-base md:text-lg">
+                  {block}
+                </p>
+              );
+            }
+            if (block.type === 'heading') {
+              return (
+                <h2 key={i} id={block.id} className="text-2xl md:text-3xl font-bold text-foreground mt-12 mb-5 scroll-mt-24">
+                  {block.text}
+                </h2>
+              );
+            }
+            return (
+              <p key={i} className="mb-6 text-foreground leading-relaxed text-base md:text-lg">
+                {block.text}
+              </p>
+            );
+          })}
         </article>
+
+        {/* FAQ -- only renders if the article provides questions */}
+        {article.faq && article.faq.length > 0 && (
+          <div className="mt-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-3">
+              {article.faq.map((item, i) => (
+                <FaqItem key={i} question={item.question} answer={item.answer} />
+              ))}
+            </div>
+          </div>
+        )}
 
         <hr className="border-border mt-12 mb-8" />
 
