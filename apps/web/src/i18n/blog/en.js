@@ -280,4 +280,46 @@ export const en = [
         "Sources: Wikipedia (Bingo, Scrabble), on the MUZJIKS scoring record; NASPA and Collins Scrabble Words, on seven-letter word list sizes and the standard Bingo bonus."
       ]
     },
+    {
+      slug: 'words-that-start-with-x',
+      title: 'Words That Start With X: A Scrabble and Word Puzzle Guide',
+      excerpt: 'The X tile is rare and worth 8 points — here\'s how to actually use it, from short two-letter escapes to genuine 7-letter Bingo plays, all verified against a real dictionary.',
+      keyTakeaways: [
+        "The X tile is worth 8 points in both Scrabble and Words With Friends — not 10, a common misconception.",
+        "XI and XU are both valid two-letter X words, giving you two different ways to clear the tile in a tight spot.",
+        "Mid-length words like XYST, XENON, and XERIC bridge gaps without needing rare letter combinations.",
+        "Real 7-letter Bingo plays exist with X, including two genuinely common words: XANTHAN (as in xanthan gum) and XYLITOL.",
+        "Use the \"Starts With\" filter to isolate every valid X word your rack can make, verified against our dictionary rather than guesswork."
+      ],
+      toc: [
+        { id: 'why-x-is-valuable', label: 'Why the X Tile Is Worth Learning' },
+        { id: 'short-x-words', label: 'Short X Words: XI, XU, and XIS' },
+        { id: 'mid-length-x-words', label: 'Mid-Length X Words for Puzzles' },
+        { id: 'long-x-words', label: 'Long X Words and Bingo Plays' },
+        { id: 'finding-x-words', label: 'Finding X Words with UnscramblWords' }
+      ],
+      body: [
+        "Written and reviewed by the UnscramblWords Team.",
+        { type: 'heading', id: 'why-x-is-valuable', text: 'Why the X Tile Is Worth Learning' },
+        "Drawing an X can feel like a setback, but it's one of the higher-value tiles in the game: 8 points in both standard Scrabble and Words With Friends. (The two games share almost all their letter values — the one real exception is J, worth 8 in Scrabble and 10 in Words With Friends. X isn't part of that difference, despite what you may have read elsewhere.)",
+        "X words are genuinely rare — in our own English dictionary, only 136 out of 172,823 words start with X, a little under 0.1%. That scarcity is exactly why they're worth memorising a handful of: on a double or triple letter square, an 8-point tile turns into a real swing in the score.",
+        { type: 'heading', id: 'short-x-words', text: 'Short X Words: XI, XU, and XIS' },
+        "XI, the 14th letter of the Greek alphabet, is the word most players reach for first — and it's genuinely useful for parallel plays, letting you score in two directions at once with a single tile. Less well known: XU is also a valid two-letter X word (a monetary subunit used in Vietnam), giving you a second short option depending on what letters you're holding.",
+        "XIS, the plural of XI, extends your options a little further if you've got an S to spare — useful for hooking onto an existing XI already on the board.",
+        { type: 'heading', id: 'mid-length-x-words', text: 'Mid-Length X Words for Puzzles' },
+        "Once the board opens up, mid-length words give you more flexibility than short hooks without needing a long, awkward rack. XYST (a covered walkway used for exercise in ancient Greece and Rome) and XENON (the noble gas) are both solid five- and six-letter options. XERIC (describing an extremely dry habitat) and XYLEM (the water-conducting tissue in plants) round out a useful set — all genuinely playable, not just recognisable science-class vocabulary.",
+        { type: 'heading', id: 'long-x-words', text: 'Long X Words and Bingo Plays' },
+        "Seven-letter Bingo plays — using all the tiles in your rack for a 50-point bonus — are rarer with X than with more common letters, but they exist, and two of them are words you likely already know: XANTHAN, as in xanthan gum, the thickener found in countless food products, and XYLITOL, the sugar substitute common in sugar-free gum. Both are exactly seven letters and confirmed valid. XIPHOID, the sword-shaped lower part of the sternum, is another solid seven-letter option if you're working with medical or anatomical vocabulary.",
+        { type: 'heading', id: 'finding-x-words', text: 'Finding X Words with UnscramblWords' },
+        "Rather than trying to recall this list from memory mid-game, our \"Starts With\" filter does the work directly: enter your rack, filter for words beginning with X, and you'll see every valid match rather than guessing whether an unfamiliar word is actually playable. The tool works the same way across all 10 supported languages, so the same approach applies whether you're playing in English, Spanish, French, or any of the others — each checked against that language's own dictionary rather than a translated English list."
+      ],
+      faq: [
+        { question: "What is the highest-scoring practical word that starts with X?", answer: "XENOPHOBIC and XEROGRAPHIC are both valid, long options that offer a large base score before any bonus squares are applied. Longer, more obscure words can theoretically score more, but these two are genuinely useful in an actual game." },
+        { question: "Are there any 2-letter words starting with X?", answer: "Yes — two, not one. XI (the Greek letter) is the better-known option, but XU, a Vietnamese currency subunit, is also valid. Having both gives you more flexibility when you're stuck with an X and a single vowel." },
+        { question: "Is XIS a valid word?", answer: "Yes. It's the plural of XI, and a reliable way to extend an existing XI already on the board." },
+        { question: "How many words start with X in English?", answer: "In our own dictionary, 136 out of 172,823 words start with X — a little under 0.1% of the total. That scarcity is exactly why a handful of memorised X words go a long way." },
+        { question: "Can I find a genuine 7-letter Bingo word with X?", answer: "Yes. XANTHAN and XYLITOL are both confirmed 7-letter words — and both are everyday terms (a food thickener and a sugar substitute) rather than obscure technical vocabulary." },
+        { question: "Does UnscramblWords work for languages other than English?", answer: "Yes, across all 10 supported languages, each checked against that language's own dictionary rather than a single shared word list." }
+      ]
+    },
 ];
