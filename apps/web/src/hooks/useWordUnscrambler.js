@@ -11,7 +11,6 @@ const dictionaryLoaders = {
   fr: () => import('@/lib/FrWordsFull.js').then((m) => m.FR_WORDS_FULL),
   es: () => import('@/lib/EsWordsFull.js').then((m) => m.ES_WORDS_FULL),
   de: () => import('@/lib/DeWordsFull.js').then((m) => m.DE_WORDS_FULL),
-  pt: () => import('@/lib/PtWordsFull.js').then((m) => m.PT_WORDS_FULL),
   it: () => import('@/lib/ItWordsFull.js').then((m) => m.IT_WORDS_FULL),
   tr: () => import('@/lib/TrWordsFull.js').then((m) => m.TR_WORDS_FULL),
   ru: () => import('@/lib/RuWordsFull.js').then((m) => m.RU_WORDS_FULL),
@@ -112,6 +111,51 @@ const loadPolishDictionary = async (onBackgroundLoadingChange) => {
   return common;
 };
 
+// Portuguese is handled the same way as Polish and Arabic: it now has a
+// full grammatical expansion (conjugated/declined forms) covering both
+// European and Brazilian Portuguese, built to bring it up to the same
+// depth as those two languages -- so it loads in two tiers.
+//   1. PtWordsCommon.js (~38K contamination-cleaned base words) loads
+//      first, same speed as any other language, so the tool is usable
+//      almost immediately.
+//   2. PtWordsBackground1-4.js (~2.85M expanded forms) then load in the
+//      background and merge in silently once ready.
+// See loadPolishDictionary above for the identical pattern and
+// PtWordsBackground1.js for detail on how the expansion was built/cleaned.
+const loadPortugueseDictionary = async (onBackgroundLoadingChange) => {
+  const { PT_WORDS_COMMON_RAW } = await import('@/lib/PtWordsCommon.js');
+  const common = (PT_WORDS_COMMON_RAW || '').split('\n').filter(Boolean).map((w) => w.toUpperCase());
+  localDictionaryCache.pt = common;
+
+  onBackgroundLoadingChange?.(true);
+  Promise.all([
+    import('@/lib/PtWordsBackground1.js'),
+    import('@/lib/PtWordsBackground2.js'),
+    import('@/lib/PtWordsBackground3.js'),
+    import('@/lib/PtWordsBackground4.js'),
+  ])
+    .then(([m1, m2, m3, m4]) => {
+      const background = [
+        m1.PT_WORDS_BACKGROUND_1_RAW,
+        m2.PT_WORDS_BACKGROUND_2_RAW,
+        m3.PT_WORDS_BACKGROUND_3_RAW,
+        m4.PT_WORDS_BACKGROUND_4_RAW,
+      ]
+        .flatMap((raw) => (raw || '').split('\n'))
+        .filter(Boolean)
+        .map((w) => w.toUpperCase());
+      localDictionaryCache.pt = [...common, ...background];
+    })
+    .catch((error) => {
+      console.error('Portuguese background dictionary failed to load:', error);
+    })
+    .finally(() => {
+      onBackgroundLoadingChange?.(false);
+    });
+
+  return common;
+};
+
 const localDictionaryCache = {};
 
 const getLocalDictionary = async (langCode, onBackgroundLoadingChange) => {
@@ -121,6 +165,9 @@ const getLocalDictionary = async (langCode, onBackgroundLoadingChange) => {
   }
   if (langCode === 'ar') {
     return loadArabicDictionary(onBackgroundLoadingChange);
+  }
+  if (langCode === 'pt') {
+    return loadPortugueseDictionary(onBackgroundLoadingChange);
   }
   const loader = dictionaryLoaders[langCode];
   const raw = loader ? await loader() : [];
