@@ -1,9 +1,8 @@
 export const es = [
-
     {
-      slug: 'scrabble-strategies',
-      title: 'Dominar el Scrabble: Estrategias Esenciales para Mejorar su Juego',
-      excerpt: 'Aprenda estrategias probadas para mejorar su rendimiento en el Scrabble, desde el posicionamiento en el tablero hasta la gestión de las fichas.',
+      slug: "scrabble-strategies",
+      title: "Dominar el Scrabble: Estrategias Esenciales para Mejorar su Juego",
+      excerpt: "Aprenda estrategias probadas para mejorar su rendimiento en el Scrabble, desde el posicionamiento en el tablero hasta la gestión de las fichas.",
       body: [
         "El Scrabble es un juego de habilidad, estrategia y vocabulario. Tanto si es un jugador ocasional como un aspirante a campeón, comprender las estrategias clave puede mejorar significativamente su rendimiento. En esta guía exploramos las tácticas esenciales que le ayudarán a dominar el tablero.",
         "Una de las estrategias más importantes en el Scrabble es el control de las casillas de bonificación del tablero. Las casillas de letra doble o triple pueden transformar una palabra mediocre en una jugada de alta puntuación. Planifique con antelación e intente posicionar sus fichas para acceder a estas valiosas casillas en su próximo turno.",
@@ -18,9 +17,9 @@ export const es = [
       ]
     },
     {
-      slug: 'best-two-letter-words',
-      title: 'La Guía Completa de las Palabras de Dos Letras en el Scrabble',
-      excerpt: 'Descubra las palabras de dos letras más valiosas y útiles que pueden transformar su juego de Scrabble.',
+      slug: "best-two-letter-words",
+      title: "La Guía Completa de las Palabras de Dos Letras en el Scrabble",
+      excerpt: "Descubra las palabras de dos letras más valiosas y útiles que pueden transformar su juego de Scrabble.",
       body: [
         "Las palabras de dos letras son el arma secreta de los campeones del Scrabble. Estas palabras cortas pero poderosas pueden encajar en espacios reducidos, crear múltiples oportunidades de puntuación y ayudarle a usar letras difíciles. Dominar las palabras de dos letras es esencial para cualquier jugador serio.",
         "Los diccionarios oficiales del Scrabble contienen más de cien palabras válidas de dos letras. Aprenderlas todas es una de las inversiones con mayor rendimiento que puede hacer un jugador de Scrabble. Incluso conocer las cincuenta más comunes mejorará drásticamente su juego.",
@@ -35,9 +34,9 @@ export const es = [
       ]
     },
     {
-      slug: 'improve-vocabulary-word-games',
-      title: 'Cómo Mejorar su Vocabulario para los Juegos de Palabras',
-      excerpt: 'Estrategias prácticas y técnicas para desarrollar su vocabulario y convertirse en un adversario formidable en los juegos de palabras.',
+      slug: "improve-vocabulary-word-games",
+      title: "Cómo Mejorar su Vocabulario para los Juegos de Palabras",
+      excerpt: "Estrategias prácticas y técnicas para desarrollar su vocabulario y convertirse en un adversario formidable en los juegos de palabras.",
       body: [
         "Un vocabulario sólido es el fundamento del éxito en los juegos de palabras. Tanto si juega al Scrabble, al Wordle o a cualquier otro juego basado en palabras, conocer más palabras le da más opciones y mejores probabilidades de ganar.",
         "Empiece por leer amplia y regularmente. Libros, artículos, sitios de noticias y periodismo de calidad le exponen a nuevas palabras en su contexto. Cuando encuentre una palabra desconocida, búsquela de inmediato e intente usarla en una frase.",
@@ -52,26 +51,21 @@ export const es = [
       ]
     },
     {
-      slug: 'best-scrabble-words-with-q',
-      title: 'Las Mejores Palabras en el Scrabble con la Letra Q',
-      excerpt: 'La letra Q vale 8 puntos en el Scrabble español pero es notoriamente difícil de usar. Aquí están las mejores palabras con Q que debe conocer.',
+      slug: "best-scrabble-words-with-q",
+      title: "LL y RR: las Fichas Dobles Únicas del Scrabble en Español",
+      excerpt: "El español tiene algo que ningún otro idioma de esta lista tiene: dos combinaciones de letras, LL y RR, que cuentan como una sola ficha. Esto es lo que hay que saber.",
       body: [
-        "La letra Q es una de las fichas con mayor puntuación en el Scrabble. Es también una de las más temidas, ya que los jugadores creen tradicionalmente que la Q debe ir siempre seguida de una U. Esto sencillamente no es cierto, y conocer las palabras con Q sin U es una de las ventajas más poderosas que puede tener un jugador de Scrabble.",
-        "Las palabras con Q sin U más importantes para memorizar incluyen QI (el concepto chino de energía vital), QOPH (una letra hebrea) y QANAT (un túnel de irrigación). Estas palabras pueden sorprender a sus adversarios y generar puntuaciones elevadas.",
-        "Cuando tenga una U para acompañar a su Q, algunas de las mejores palabras con Q para la puntuación incluyen QUIZ, QUESO, QUEJA, QUEMA y QUINTO. Estas palabras utilizan la letra Q de forma eficaz contribuyendo significativamente a su puntuación.",
-        "Consejos estratégicos para usar la Q: si saca la letra Q al principio de la partida, no entre en pánico. Consérvela y espere una U o una oportunidad de jugar una palabra con Q sin U.",
-        "QUIZ es particularmente potente cuando la Z cae en una casilla de letra doble, ya que vale 32 puntos antes de cualquier multiplicador de palabra.",
-        "QUESO, QUEJA y QUÍMICA son palabras útiles porque utilizan múltiples vocales junto con la Q, ayudando a equilibrar un conjunto rico en vocales.",
-        "Aprender palabras con Q no consiste sólo en memorizar — se trata de transformar una de las letras más temidas en una de las más rentables.",
-        "Los jugadores avanzados saben también que ciertas palabras raras con Q pueden pillar a sus adversarios completamente por sorpresa. Muchos jugadores experimentados de Scrabble impugnarán estas palabras, lo que significa que si sabe que son válidas, gana los puntos y su adversario pierde un turno.",
-        "Dedique tiempo a memorizar la lista completa de palabras con Q válidas en su diccionario de Scrabble preferido.",
-        "Esta única inversión en vocabulario es probable que rinda sus frutos en prácticamente todas las partidas que juegue."
+        "A diferencia del inglés, francés o alemán, el Scrabble en español trata LL y RR como fichas únicas, no como dos letras separadas -- cada una vale 8 puntos, el mismo valor que la Q, la K, la W o la X. Esta es una característica genuinamente exclusiva del español entre los idiomas que soporta esta herramienta.",
+        "LL aparece en palabras muy comunes: LLAVE (llave), LLUVIA (lluvia), LLANO (llano) y CALLE (calle). A diferencia de RR, LL puede aparecer al principio de una palabra.",
+        "RR, en cambio, solo aparece entre vocales -- nunca al principio de una palabra. GUERRA (guerra), TIERRA (tierra), PERRO (perro) y CARRO (carro) son ejemplos cotidianos que usan esta ficha doble.",
+        "Al buscar palabras con nuestra herramienta, recuerde que LL y RR cuentan como una sola letra a efectos de longitud y puntuación -- CABALLO, por ejemplo, tiene seis fichas (C-A-B-A-LL-O), no siete, gracias a que LL cuenta como una única ficha.",
+        "Esta regla hace que dominar las palabras con LL y RR sea una ventaja genuinamente específica del español: no es un truco importado de otro idioma, sino una característica real de cómo se juega el Scrabble en esta lengua."
       ]
     },
     {
-      slug: 'seven-letter-words-scrabble',
-      title: 'Palabras de Siete Letras de Alta Puntuación para los Scrabbles',
-      excerpt: 'Jugar todas las siete fichas obtiene un bono de 50 puntos. Aquí están las mejores palabras de siete letras que debe conocer para hacer scrabbles.',
+      slug: "seven-letter-words-scrabble",
+      title: "Palabras de Siete Letras de Alta Puntuación para los Scrabbles",
+      excerpt: "Jugar todas las siete fichas obtiene un bono de 50 puntos. Aquí están las mejores palabras de siete letras que debe conocer para hacer scrabbles.",
       body: [
         "En el Scrabble, jugar todas las siete letras en un solo turno se denomina «scrabble». Esta proeza le otorga un bono de 50 puntos además del valor nominal de la palabra, convirtiéndola en una de las jugadas más poderosas del juego.",
         "Las fichas más favorables para los scrabbles son las letras comunes E, A, R, S, T, I, N, O y L. Los conjuntos que contienen combinaciones de estas letras ofrecen la mayor probabilidad de formar palabras de siete letras.",
@@ -86,9 +80,9 @@ export const es = [
       ]
     },
     {
-      slug: 'history-of-scrabble',
-      title: 'La Fascinante Historia del Scrabble',
-      excerpt: 'Desde su invención durante la Gran Depresión hasta convertirse en uno de los juegos de mesa más populares del mundo, aquí está la historia completa del Scrabble.',
+      slug: "history-of-scrabble",
+      title: "La Fascinante Historia del Scrabble",
+      excerpt: "Desde su invención durante la Gran Depresión hasta convertirse en uno de los juegos de mesa más populares del mundo, aquí está la historia completa del Scrabble.",
       body: [
         "El Scrabble tiene una historia rica y fascinante que se extiende durante casi un siglo. El juego fue inventado por Alfred Mosher Butts, un arquitecto de Nueva York que había perdido su empleo durante la Gran Depresión de los años treinta. Decidido a crear un pasatiempo popular, Butts pasó años analizando las frecuencias de las letras en periódicos y libros.",
         "Butts llamó inicialmente a su invención «Lexiko», y luego «Criss-Cross Words». El juego combinaba elementos de los juegos de anagramas con el elemento de puntuación numérica que lo hacía especialmente atractivo. A pesar de sus esfuerzos, Butts tuvo dificultades para encontrar un fabricante dispuesto a producir el juego.",
@@ -103,9 +97,9 @@ export const es = [
       ]
     },
     {
-      slug: 'word-games-brain-health',
-      title: 'Juegos de Palabras y Salud del Cerebro: Lo que Dice la Investigación',
-      excerpt: 'La investigación científica sugiere que la práctica regular de los juegos de palabras podría apoyar la salud cognitiva. Esto es lo que sabemos actualmente.',
+      slug: "word-games-brain-health",
+      title: "Juegos de Palabras y Salud del Cerebro: Lo que Dice la Investigación",
+      excerpt: "La investigación científica sugiere que la práctica regular de los juegos de palabras podría apoyar la salud cognitiva. Esto es lo que sabemos actualmente.",
       body: [
         "La relación entre los juegos de palabras y la salud del cerebro ha atraído un creciente interés científico en las últimas décadas. Aunque los investigadores continúan estudiando este ámbito, existen pruebas significativas que sugieren que el compromiso regular con actividades mentalmente estimulantes — incluidos los juegos de palabras — puede apoyar la función cognitiva a lo largo de la vida.",
         "Un estudio publicado en 2011 en la revista Neuropsychology encontró que los individuos que se dedicaban a actividades de ocio mentalmente estimulantes, incluidos los juegos de palabras y los rompecabezas, mostraban tasas más lentas de deterioro cognitivo en la vejez.",
@@ -120,9 +114,9 @@ export const es = [
       ]
     },
     {
-      slug: 'unscramble-letters-tips',
-      title: 'Cómo Descifrar Letras Rápidamente: Consejos de Expertos',
-      excerpt: 'Tanto si está jugando a un juego de palabras como si está resolviendo un acertijo, estas técnicas de expertos le ayudarán a encontrar palabras en letras mezcladas mucho más rápidamente.',
+      slug: "unscramble-letters-tips",
+      title: "Cómo Descifrar Letras Rápidamente: Consejos de Expertos",
+      excerpt: "Tanto si está jugando a un juego de palabras como si está resolviendo un acertijo, estas técnicas de expertos le ayudarán a encontrar palabras en letras mezcladas mucho más rápidamente.",
       body: [
         "Descifrar letras de forma eficiente es una habilidad que puede desarrollarse con práctica y las estrategias mentales adecuadas. Tanto si está jugando al Scrabble, resolviendo un enigma de anagrama o participando en un juego de palabras, saber cómo identificar rápidamente las palabras ocultas en un conjunto de letras es enormemente valioso.",
         "La primera y más importante técnica consiste en identificar grupos de letras comunes. El español contiene muchas combinaciones de consonantes altamente predecibles como TR, PR, BR, CR, GR, CH, LL y QU. Cuando vea uno de estos pares en sus letras mezcladas, agrúpelas mentalmente como una unidad.",
@@ -137,9 +131,9 @@ export const es = [
       ]
     },
     {
-      slug: 'multilingual-word-games',
-      title: 'Juegos de Palabras en Varios Idiomas: Ventajas y Desafíos',
-      excerpt: 'Jugar a juegos de palabras en diferentes idiomas ofrece ventajas cognitivas únicas y presenta desafíos fascinantes. Así es como empezar.',
+      slug: "multilingual-word-games",
+      title: "Juegos de Palabras en Varios Idiomas: Ventajas y Desafíos",
+      excerpt: "Jugar a juegos de palabras en diferentes idiomas ofrece ventajas cognitivas únicas y presenta desafíos fascinantes. Así es como empezar.",
       body: [
         "Jugar a juegos de palabras en varios idiomas es una de las actividades intelectualmente más enriquecedoras disponibles para los amantes de los idiomas. Tanto si es un hablante nativo que explora los juegos de palabras en una lengua extranjera como un jugador multilingüe que alterna cómodamente entre idiomas, la experiencia ofrece beneficios cognitivos y educativos distintivos.",
         "Para los estudiantes de idiomas, los juegos de palabras en la lengua objetivo proporcionan una práctica de vocabulario contextualmente significativa que los libros de texto a menudo no pueden replicar. Encontrar nuevas palabras bajo la agradable presión de una situación de juego crea asociaciones mnémicas más fuertes que el estudio pasivo.",
@@ -154,9 +148,9 @@ export const es = [
       ]
     },
     {
-      slug: 'wordle-strategies',
-      title: 'Estrategias para el Wordle: Cómo Resolver el Puzle Cada Día',
-      excerpt: 'El Wordle se ha convertido en un fenómeno mundial. Aquí están las mejores estrategias y palabras de partida para resolverlo eficientemente cada día.',
+      slug: "wordle-strategies",
+      title: "Estrategias para el Wordle: Cómo Resolver el Puzle Cada Día",
+      excerpt: "El Wordle se ha convertido en un fenómeno mundial. Aquí están las mejores estrategias y palabras de partida para resolverlo eficientemente cada día.",
       body: [
         "El Wordle, el juego de adivinar palabras de cinco letras creado por Josh Wardle y adquirido por el New York Times en 2022, se convirtió en un fenómeno mundial poco después de su lanzamiento en 2021. Millones de jugadores intentan el puzle diario, compartiendo sus resultados codificados por colores en las redes sociales.",
         "Los mecanismos fundamentales del Wordle son simples: tiene seis intentos para adivinar una palabra de cinco letras. Cada intento revela qué letras son correctas y están en la posición correcta (verde), correctas pero en la posición incorrecta (amarillo) o no presentes en la palabra (gris).",
@@ -171,9 +165,9 @@ export const es = [
       ]
     },
     {
-      slug: 'word-unscrambler-ultimate-guide',
-      title: 'Buscador de palabras: la guía completa para resolver cualquier sopa de letras',
-      excerpt: 'Cómo funcionan realmente las herramientas de búsqueda de palabras, la estrategia detrás de las jugadas de alta puntuación, y cómo usar los filtros de forma eficaz.',
+      slug: "word-unscrambler-ultimate-guide",
+      title: "Buscador de palabras: la guía completa para resolver cualquier sopa de letras",
+      excerpt: "Cómo funcionan realmente las herramientas de búsqueda de palabras, la estrategia detrás de las jugadas de alta puntuación, y cómo usar los filtros de forma eficaz.",
       body: [
         "El contenido de este sitio está asistido por IA y se revisa periódicamente por el equipo de UnscramblWords.",
         "Quedarte con una Q y una Z en el atril mientras el reloj corre es una de las frustraciones más comunes en las partidas de palabras. Un buscador o desordenador de letras convierte ese lío de fichas en una lista clara de palabras jugables — pero entender cómo funcionan estas herramientas, y saber usarlas bien, marca la diferencia entre una solución rápida y una verdadera ventaja estratégica.",
@@ -193,9 +187,9 @@ export const es = [
       ]
     },
     {
-      slug: 'scrabble-cheat-word-finder-guide',
-      title: 'Cómo elegir y usar el mejor buscador de palabras para el Scrabble',
-      excerpt: 'Cómo funcionan realmente los buscadores de palabras, qué diferencia a uno bueno de una simple lista de anagramas, y cómo usar los filtros de forma estratégica para encontrar la jugada que encaja en tu tablero.',
+      slug: "scrabble-cheat-word-finder-guide",
+      title: "Cómo elegir y usar el mejor buscador de palabras para el Scrabble",
+      excerpt: "Cómo funcionan realmente los buscadores de palabras, qué diferencia a uno bueno de una simple lista de anagramas, y cómo usar los filtros de forma estratégica para encontrar la jugada que encaja en tu tablero.",
       body: [
         "Escrito y revisado por el equipo de UnscramblWords.",
         "Los mejores jugadores de Scrabble no se limitan a memorizar el diccionario: utilizan herramientas precisas para encontrar jugadas que sus rivales pasan por alto. Un buen buscador de palabras no sirve para hacer trampa, sino para convertir letras desordenadas en opciones claras, rápido, sin una interfaz recargada que estorbe. Esta guía explica cómo funcionan estas herramientas, qué buscar en una buena, y cómo usar los filtros de forma estratégica en lugar de desplazarte por una lista interminable de resultados.",
@@ -217,9 +211,9 @@ export const es = [
       ]
     },
     {
-      slug: '7-letter-word-unscrambler-bingo-guide',
-      title: 'Cómo encontrar tu próximo juego de siete fichas',
-      excerpt: 'Cómo detectar más rápido las jugadas de siete letras, usando raíces frecuentes, conexiones y filtros — y las cifras reales detrás de la bonificación de 50 puntos.',
+      slug: "7-letter-word-unscrambler-bingo-guide",
+      title: "Cómo encontrar tu próximo juego de siete fichas",
+      excerpt: "Cómo detectar más rápido las jugadas de siete letras, usando raíces frecuentes, conexiones y filtros — y las cifras reales detrás de la bonificación de 50 puntos.",
       body: [
         "Escrito y revisado por el equipo de UnscramblWords.",
         "Colocar las siete fichas de tu atril en un solo turno suele marcar la diferencia entre una derrota ajustada y una victoria clara. Hacerlo otorga una bonificación fija de 50 puntos, además de la puntuación de la propia palabra — por eso incluso una palabra modesta hecha solo de fichas de un punto puede superar a una jugada más corta construida alrededor de una letra de alto valor.",
@@ -238,9 +232,9 @@ export const es = [
       ]
     },
     {
-      slug: 'palabras-que-empiezan-por-z',
-      title: 'Palabras que empiezan por Z: la letra más valiosa del Scrabble en español',
-      excerpt: 'La Z vale 10 puntos en el Scrabble en español, la puntuación más alta del juego — aquí tienes cómo aprovecharla de verdad, con palabras reales verificadas en nuestro propio diccionario.',
+      slug: "palabras-que-empiezan-por-z",
+      title: "Palabras que empiezan por Z: la letra más valiosa del Scrabble en español",
+      excerpt: "La Z vale 10 puntos en el Scrabble en español, la puntuación más alta del juego — aquí tienes cómo aprovecharla de verdad, con palabras reales verificadas en nuestro propio diccionario.",
       keyTakeaways: [
         "La Z vale 10 puntos en español — la puntuación más alta de cualquier letra del juego.",
         "Palabras cotidianas como ZAPATO y ZORRO demuestran que la Z no es solo para tecnicismos.",
@@ -248,23 +242,23 @@ export const es = [
         "El filtro \"Empieza por\" encuentra todas las palabras válidas con Z al instante, sin adivinar."
       ],
       toc: [
-        { id: 'por-que-z-vale-tanto', label: 'Por qué la Z vale tanto en español' },
-        { id: 'palabras-cortas-z', label: 'Palabras cortas con Z' },
-        { id: 'palabras-medias-z', label: 'Palabras de longitud media con Z' },
-        { id: 'palabras-largas-z', label: 'Palabras largas y Scrabble completo' },
-        { id: 'encontrar-z', label: 'Encontrar palabras con Z en UnscramblWords' }
+        { id: "por-que-z-vale-tanto", label: "Por qué la Z vale tanto en español" },
+        { id: "palabras-cortas-z", label: "Palabras cortas con Z" },
+        { id: "palabras-medias-z", label: "Palabras de longitud media con Z" },
+        { id: "palabras-largas-z", label: "Palabras largas y Scrabble completo" },
+        { id: "encontrar-z", label: "Encontrar palabras con Z en UnscramblWords" }
       ],
       body: [
         "Escrito y verificado por el equipo de UnscramblWords.",
-        { type: 'heading', id: 'por-que-z-vale-tanto', text: 'Por qué la Z vale tanto en español' },
+        { type: 'heading', id: "por-que-z-vale-tanto", text: "Por qué la Z vale tanto en español" },
         "La Z es la letra de mayor valor en el Scrabble en español: 10 puntos, más que cualquier otra letra del juego. En nuestro propio diccionario, 57 de más de 38.000 palabras empiezan por Z — no es tan rara como el X, pero sigue siendo poco frecuente, lo que explica su alto valor.",
-        { type: 'heading', id: 'palabras-cortas-z', text: 'Palabras cortas con Z' },
+        { type: 'heading', id: "palabras-cortas-z", text: "Palabras cortas con Z" },
         "ZAR (como en el zar ruso), ZOO y ZONA son opciones cortas y muy reconocibles. ZORRO, la palabra española real para el animal, es una opción de cinco letras que casi todos los jugadores ya conocen sin saberlo.",
-        { type: 'heading', id: 'palabras-medias-z', text: 'Palabras de longitud media con Z' },
+        { type: 'heading', id: "palabras-medias-z", text: "Palabras de longitud media con Z" },
         "ZAPATO (zapato individual) y ZAFIRO (la piedra preciosa) son opciones sólidas de seis letras. Si tienes una A adicional, ZANAHORIA es una palabra larga y muy común que aprovecha bien un atril cargado de vocales.",
-        { type: 'heading', id: 'palabras-largas-z', text: 'Palabras largas y Scrabble completo' },
+        { type: 'heading', id: "palabras-largas-z", text: "Palabras largas y Scrabble completo" },
         "Para un auténtico Scrabble completo (bono de 50 puntos por usar las siete fichas), ZAPATOS (el plural de zapato), ZODIACO y ZAFIROS son palabras reales de exactamente siete letras — no rarezas técnicas, sino vocabulario cotidiano.",
-        { type: 'heading', id: 'encontrar-z', text: 'Encontrar palabras con Z en UnscramblWords' },
+        { type: 'heading', id: "encontrar-z", text: "Encontrar palabras con Z en UnscramblWords" },
         "En lugar de intentar recordar esta lista de memoria en plena partida, nuestro filtro \"Empieza por\" hace el trabajo directamente: introduce tus letras, filtra por palabras que empiecen por Z, y verás cada resultado válido en lugar de adivinar. El mismo enfoque funciona en los 10 idiomas compatibles con la herramienta."
       ],
       faq: [

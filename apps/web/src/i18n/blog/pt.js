@@ -87,19 +87,14 @@ export const pt = [
     },
     {
       slug: "best-scrabble-words-with-q",
-      title: "As Melhores Palavras no Scrabble com a Letra Q",
-      excerpt: "A letra Q vale 10 pontos no Scrabble mas é notoriamente difícil de usar. Aqui estão as melhores palavras com Q a conhecer.",
+      title: "O Ç e o Sufixo -ÇÃO: a Letra Mais Produtiva do Português",
+      excerpt: "O Q vale apenas 6 pontos em português -- nada de especial. O Ç, porém, alimenta um dos sufixos mais produtivos da língua. Eis porque vale a pena conhecê-lo.",
       body: [
-        "A letra Q é uma das peças com maior pontuação no Scrabble. É também uma das mais temidas, pois os jogadores acreditam tradicionalmente que o Q deve sempre ser seguido de um U. Isso simplesmente não é verdade, e conhecer palavras com Q sem U é uma das vantagens mais poderosas que um jogador de Scrabble pode ter.",
-        "As palavras com Q sem U mais importantes a memorizar incluem QI (o conceito chinês de energia vital), QOPH (uma letra hebraica) e QANAT (um túnel de irrigação). Estas palavras podem surpreender os seus adversários e gerar pontuações elevadas.",
-        "Quando tem um U para acompanhar o seu Q, algumas das melhores palavras com Q para pontuação incluem QUIZ, QUARTO, QUOTA, QUAL e QUASE. Estas palavras usam a letra Q de forma eficaz contribuindo significativamente para a sua pontuação.",
-        "Conselhos estratégicos para usar o Q: se retirar a letra Q no início do jogo, não entre em pânico. Guarde-a e aguarde um U ou uma oportunidade de jogar uma palavra com Q sem U.",
-        "QUIZ é particularmente poderoso quando o Z cai numa casa de letra dupla, pois vale 32 pontos antes de qualquer multiplicador de palavra.",
-        "QUALIDADE, QUANTIDADE e QUESTÃO são palavras úteis porque usam múltiplas vogais juntamente com o Q, ajudando a equilibrar um conjunto rico em vogais.",
-        "Aprender palavras com Q não se resume à memorização — trata-se de transformar uma das letras mais temidas numa das mais rentáveis.",
-        "Os jogadores avançados sabem também que certas palavras raras com Q podem apanhar os adversários completamente de surpresa. Muitos jogadores experientes de Scrabble contestarão estas palavras, o que significa que se souber que são válidas, ganha os pontos e o seu adversário perde uma jogada.",
-        "Dedique tempo a memorizar a lista completa de palavras com Q válidas no seu dicionário de Scrabble preferido.",
-        "Este único investimento no vocabulário é provável que compense em praticamente todas as partidas que jogar."
+        "Ao contrário do que acontece noutras línguas, o Q não é uma letra particularmente valiosa em português -- vale apenas 6 pontos, bem abaixo do X e do Z, que valem 8 cada. A verdadeira curiosidade linguística do português está noutro lado: o Ç, e sobretudo o sufixo -ÇÃO que ele ajuda a formar.",
+        "No nosso próprio dicionário, há 1.682 palavras que contêm um Ç, e 657 delas terminam especificamente em -ÇÃO. Este sufixo transforma verbos em substantivos com enorme regularidade: AÇÃO, NAÇÃO, LIÇÃO, PAIXÃO, ORAÇÃO e CORAÇÃO são apenas alguns exemplos do dia a dia.",
+        "ESTAÇÃO (estação), com exatamente sete letras, é um Scrabble completo real -- uma palavra comum, não uma curiosidade técnica.",
+        "Reconhecer o padrão -ÇÃO é uma das formas mais eficazes de encontrar palavras rapidamente: praticamente qualquer verbo que termine em -AR ou -IR tem uma forma nominal correspondente em -ÇÃO, o que multiplica as suas opções sem exigir memorização palavra a palavra.",
+        "Use o filtro \"termina em\" com ÇÃO para ver instantaneamente quantas destas palavras a sua mão consegue formar, em vez de tentar recordá-las de memória a meio do jogo."
       ]
     },
     {

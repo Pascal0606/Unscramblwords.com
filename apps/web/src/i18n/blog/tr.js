@@ -1,9 +1,8 @@
 export const tr = [
-
     {
-      slug: 'scrabble-strategies',
-      title: 'Scrabble\'da Ustalaşmak: Oyununuzu Geliştirmek için Temel Stratejiler',
-      excerpt: 'Tahta konumlandırmasından harf yönetimine kadar Scrabble performansınızı artıracak kanıtlanmış stratejiler öğrenin.',
+      slug: "scrabble-strategies",
+      title: "Scrabble'da Ustalaşmak: Oyununuzu Geliştirmek için Temel Stratejiler",
+      excerpt: "Tahta konumlandırmasından harf yönetimine kadar Scrabble performansınızı artıracak kanıtlanmış stratejiler öğrenin.",
       body: [
         "Scrabble, beceri, strateji ve kelime bilgisi gerektiren bir oyundur. İster sıradan bir oyuncu olun ister şampiyon adayı — temel stratejileri anlamak performansınızı önemli ölçüde artırabilir. Bu kılavuzda, tahtaya hâkim olmanıza yardımcı olacak temel taktikleri inceliyoruz.",
         "Scrabble'daki en önemli stratejilerden biri tahtanın prim karelerini kontrol etmektir. Harf iki katı veya üç katı kareleri, sıradan bir kelimeyi yüksek puanlı bir hamleye dönüştürebilir. İleriye planlayın ve bir sonraki hamlenizde bu değerli karelere erişmek için taşlarınızı konumlandırmaya çalışın.",
@@ -18,9 +17,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'best-two-letter-words',
-      title: 'Scrabble\'da İki Harfli Kelimelere Kapsamlı Rehber',
-      excerpt: 'Scrabble oyununuzu dönüştürebilecek en değerli ve kullanışlı iki harfli kelimeleri keşfedin.',
+      slug: "best-two-letter-words",
+      title: "Scrabble'da İki Harfli Kelimelere Kapsamlı Rehber",
+      excerpt: "Scrabble oyununuzu dönüştürebilecek en değerli ve kullanışlı iki harfli kelimeleri keşfedin.",
       body: [
         "İki harfli kelimeler, Scrabble şampiyonlarının gizli silahıdır. Bu kısa ama güçlü kelimeler dar alanlara sığabilir, birden fazla puan fırsatı yaratabilir ve zor harfleri kullanmanıza yardımcı olabilir. İki harfli kelimelerde ustalaşmak, ciddi her Scrabble oyuncusu için vazgeçilmezdir.",
         "Resmi Scrabble sözlükleri yüzden fazla geçerli iki harfli kelime içermektedir. Hepsini öğrenmek, bir Scrabble oyuncusunun yapabileceği en yüksek getirili yatırımlardan biridir. En yaygın elli tanesini bile bilmek oyununuzu önemli ölçüde geliştirecektir.",
@@ -35,9 +34,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'improve-vocabulary-word-games',
-      title: 'Kelime Oyunları için Kelime Dağarcığınızı Nasıl Geliştirebilirsiniz',
-      excerpt: 'Kelime dağarcığınızı geliştirmek ve kelime oyunlarında zorlu bir rakip olmak için pratik stratejiler ve teknikler.',
+      slug: "improve-vocabulary-word-games",
+      title: "Kelime Oyunları için Kelime Dağarcığınızı Nasıl Geliştirebilirsiniz",
+      excerpt: "Kelime dağarcığınızı geliştirmek ve kelime oyunlarında zorlu bir rakip olmak için pratik stratejiler ve teknikler.",
       body: [
         "Güçlü bir kelime dağarcığı, kelime oyunlarındaki başarının temelidir. İster Scrabble, ister Wordle oynayın, ister başka bir kelimeye dayalı oyun — daha fazla kelime bilmek size daha fazla seçenek ve kazanma şansı sunar.",
         "Geniş ve düzenli okuyarak başlayın. Kitaplar, makaleler, haber siteleri ve kaliteli gazetecilik sizi bağlam içinde yeni kelimelerle tanıştırır. Bilinmedik bir kelimeyle karşılaştığınızda hemen arayın ve bir cümlede kullanmaya çalışın.",
@@ -52,26 +51,21 @@ export const tr = [
       ]
     },
     {
-      slug: 'best-scrabble-words-with-q',
-      title: 'Scrabble\'da Q Harfiyle En İyi Kelimeler',
-      excerpt: 'Q harfi Scrabble\'da 10 puan değerindedir ancak kullanımı son derece güçtür. İşte bilmeniz gereken en iyi Q kelimeleri.',
+      slug: "best-scrabble-words-with-q",
+      title: "Noktalı İ ve Noktasız I: Türkçe Scrabble'ın Kendine Özgü Kuralı",
+      excerpt: "Q, W ve X harfleri Türk alfabesinde yer almaz. Ama Türkçenin kendine özgü gerçek bir zorluğu var: noktalı İ ve noktasız I arasındaki fark. İşte bilmeniz gerekenler.",
       body: [
-        "Q harfi, Scrabble'daki en yüksek puanlı taşlardan biridir. Oyuncular geleneksel olarak Q'nun her zaman U ile birlikte kullanılması gerektiğine inandığından, aynı zamanda en korkulan harftir. Bu kesinlikle doğru değildir; U'suz Q kelimelerini bilmek, bir Scrabble oyuncusunun sahip olabileceği en güçlü avantajlardan biridir.",
-        "Ezberlenmesi gereken en önemli U'suz Q kelimeleri arasında QI (Çin felsefesindeki yaşam enerjisi kavramı), QOPH (bir İbrani harfi), QANAT (bir sulama tüneli) ve TRANQ (sakinleştirici için argo) yer almaktadır.",
-        "Q'nuzla birlikte kullanabileceğiniz bir U olduğunda, puanlama açısından en iyi Q kelimelerinden bazıları QUIZ, QUARTZ ve QUEEN'dir. Bu kelimeler Q harfini etkili biçimde kullanırken puanınıza önemli ölçüde katkıda bulunur.",
-        "Q kullanımına ilişkin stratejik tavsiyeler: Oyunun başında Q harfini çekerseniz paniğe kapılmayın. Onu saklayın ve bir U ya da U'suz bir Q kelimesi oynama fırsatı bekleyin.",
-        "QUIZ, özellikle Z bir harf çift değeri karesine denk geldiğinde güçlüdür; herhangi bir kelime çarpanından önce 32 puan değer taşır.",
-        "Q kelimelerini öğrenmek yalnızca ezberlemeyle ilgili değildir — en çok korkulan harflerden birini en kârlı olana dönüştürmekle ilgilidir.",
-        "İleri düzey oyuncular, belirli nadir Q kelimelerinin rakipleri tamamen şaşırtabileceğini de bilir. Deneyimli birçok Scrabble oyuncusu bu kelimelere itiraz edecektir; bu da onların geçerli olduğunu biliyorsanız hem puanı kazanacağınız hem de rakibinizin bir tur kaybedeceği anlamına gelir.",
-        "Tercih ettiğiniz Scrabble sözlüğündeki geçerli Q kelimelerinin tam listesini ezberlemeye zaman ayırın.",
-        "Bu tek kelime dağarcığı yatırımı, oynayacağınız neredeyse her oyunda meyvesini verecektir.",
-        "Bir zamanlar korkulan bu harfi değerli bir kaynağa dönüştürerek kazanmanızı kolaylaştıracaktır."
+        "Türk alfabesinde Q, W ve X harfleri bulunmaz -- bu yüzden İngilizce, Fransızca veya Almanca kaynaklı \"Q harfi\" stratejileri Türkçe Scrabble'a hiç uygulanmaz. Ancak Türkçenin kendine has, gerçek bir zorluğu var: noktalı İ (büyük İ, küçük i) ile noktasız I (büyük I, küçük ı) tamamen farklı harflerdir, farklı sesleri temsil eder ve oyunda ayrı taşlar olarak yer alır.",
+        "Bu ayrım sadece yazım kuralı değildir -- kelimelerin anlamını değiştirir. Örneğin, kendi sözlüğümüzde bu iki harf birbirinin yerine kullanılamaz; İ ile yazılması gereken bir kelime I ile yazıldığında geçersiz sayılır.",
+        "Dijital ortamda bu durum ekstra bir dikkat gerektirir: birçok klavye ve yazılım, küçük harfe çevirirken İ'yi otomatik olarak noktasız I'ya dönüştürür -- bu, Türkçe için yanlış bir dönüşümdür ve kelime arama sonuçlarını bozabilir.",
+        "UnscramblWords bu ayrımı doğru şekilde işler: harflerinizi girerken İ ve I'yı birbirinden ayrı tutar, böylece sonuçlar gerçek Türkçe sözlüğe göre doğru şekilde filtrelenir.",
+        "Türk alfabesinde J harfi en nadir ve en değerli harftir (10 puan) -- Q'nun yokluğunda Türkçenin gerçek \"değerli harf\" hikâyesi budur, İngilizceden ödünç alınmış bir kavram değil."
       ]
     },
     {
-      slug: 'seven-letter-words-scrabble',
-      title: 'Scrabble Bingolarında Yüksek Puanlı Yedi Harfli Kelimeler',
-      excerpt: 'Tüm yedi taşı oynamak 50 puanlık bonus kazandırır. İşte Scrabble\'da bingo yapmak için bilmeniz gereken en iyi yedi harfli kelimeler.',
+      slug: "seven-letter-words-scrabble",
+      title: "Scrabble Bingolarında Yüksek Puanlı Yedi Harfli Kelimeler",
+      excerpt: "Tüm yedi taşı oynamak 50 puanlık bonus kazandırır. İşte Scrabble'da bingo yapmak için bilmeniz gereken en iyi yedi harfli kelimeler.",
       body: [
         "Scrabble'da tek bir turda tüm yedi harfi oynamak 'bingo' olarak adlandırılır. Bu başarı, kelimenin nominal değerinin üzerine 50 puanlık bir bonus kazandırır ve oyundaki en güçlü hamlelerden biri hâline gelir.",
         "Bingo yapmaya en elverişli taşlar, E, A, R, S, T, I, N, O ve L gibi yaygın harflerdir. Bu harflerin kombinasyonlarını içeren eller, yedi harfli kelimeler oluşturma olasılığı en yüksek olanlardır.",
@@ -86,9 +80,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'history-of-scrabble',
-      title: 'Scrabble\'ın Büyüleyici Tarihi',
-      excerpt: 'Büyük Buhran dönemindeki icadından dünyanın en popüler kutu oyunlarından biri olmaya kadar Scrabble\'ın tam tarihi.',
+      slug: "history-of-scrabble",
+      title: "Scrabble'ın Büyüleyici Tarihi",
+      excerpt: "Büyük Buhran dönemindeki icadından dünyanın en popüler kutu oyunlarından biri olmaya kadar Scrabble'ın tam tarihi.",
       body: [
         "Scrabble, yaklaşık bir asra yayılan zengin ve büyüleyici bir tarihe sahiptir. Oyun, 1930'ların Büyük Buhran döneminde işini kaybeden New Yorklu bir mimar olan Alfred Mosher Butts tarafından icat edilmiştir. Popüler bir hobi yaratmaya kararlı olan Butts, dengeli ve zorlu bir kelime oyunu tasarlamak amacıyla gazete ve kitaplardaki harf sıklıklarını yıllarca analiz etmiştir.",
         "Butts başlangıçta icadına 'Lexiko', daha sonra 'Criss-Cross Words' adını vermiştir. Oyun, anagram oyunlarının unsurlarını özellikle ilgi çekici kılan sayısal puanlama öğesiyle birleştiriyordu. Çabalarına rağmen Butts, oyunu üretmeye istekli bir üretici bulmakta zorlandı.",
@@ -103,9 +97,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'word-games-brain-health',
-      title: 'Kelime Oyunları ve Beyin Sağlığı: Araştırmalar Ne Söylüyor?',
-      excerpt: 'Bilimsel araştırmalar, düzenli kelime oyunlarının bilişsel sağlığı destekleyebileceğini öne sürmektedir. İşte şu an bilinen veriler.',
+      slug: "word-games-brain-health",
+      title: "Kelime Oyunları ve Beyin Sağlığı: Araştırmalar Ne Söylüyor?",
+      excerpt: "Bilimsel araştırmalar, düzenli kelime oyunlarının bilişsel sağlığı destekleyebileceğini öne sürmektedir. İşte şu an bilinen veriler.",
       body: [
         "Kelime oyunları ile beyin sağlığı arasındaki ilişki, son on yıllarda giderek artan bilimsel ilgi görmektedir. Araştırmacılar bu alanı incelemeyi sürdürseler de, kelime oyunları da dahil olmak üzere zihinsel açıdan uyarıcı aktivitelere düzenli katılımın bilişsel işlevi destekleyebileceğine dair anlamlı kanıtlar bulunmaktadır.",
         "Neuropsychology dergisinde 2011 yılında yayımlanan bir araştırma; kelime oyunları ve bulmacalar gibi zihinsel açıdan uyarıcı boş zaman aktivitelerine katılan bireylerin ileri yaşta daha yavaş bilişsel gerileme hızı gösterdiğini ortaya koymuştur.",
@@ -120,9 +114,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'unscramble-letters-tips',
-      title: 'Harfleri Hızla Çözme: Uzman İpuçları ve Teknikler',
-      excerpt: 'İster bir kelime oyunu oynayın ister bir bulmaca çözün, bu uzman teknikler karışık harflerde çok daha hızlı kelimeler bulmanıza yardımcı olacaktır.',
+      slug: "unscramble-letters-tips",
+      title: "Harfleri Hızla Çözme: Uzman İpuçları ve Teknikler",
+      excerpt: "İster bir kelime oyunu oynayın ister bir bulmaca çözün, bu uzman teknikler karışık harflerde çok daha hızlı kelimeler bulmanıza yardımcı olacaktır.",
       body: [
         "Harfleri verimli biçimde çözmek, pratik ve doğru zihinsel stratejilerle geliştirilebilen bir beceridir. İster Scrabble oynuyor, ister anagram bulmacası çözüyor, ister kelime oyununa katılıyor olun; bir harf yığınında gizli kelimeleri hızla nasıl tanıyacağınızı bilmek son derece değerlidir.",
         "İlk ve en önemli teknik, yaygın harf gruplarını belirlemektir. Türkçe, ST, TR, PR, BR, KR, GR ve ŞT gibi son derece öngörülebilir ünsüz kümeleri içerir. Karışık harflerinizde bu çiftlerden herhangi birini gördüğünüzde, onları zihinsel olarak bir birim hâlinde gruplandırın.",
@@ -137,9 +131,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'multilingual-word-games',
-      title: 'Birden Fazla Dilde Kelime Oyunları: Avantajlar ve Zorluklar',
-      excerpt: 'Farklı dillerde kelime oyunları oynamak eşsiz bilişsel avantajlar sunar ve büyüleyici zorluklar içerir. İşte nasıl başlayabileceğiniz.',
+      slug: "multilingual-word-games",
+      title: "Birden Fazla Dilde Kelime Oyunları: Avantajlar ve Zorluklar",
+      excerpt: "Farklı dillerde kelime oyunları oynamak eşsiz bilişsel avantajlar sunar ve büyüleyici zorluklar içerir. İşte nasıl başlayabileceğiniz.",
       body: [
         "Birden fazla dilde kelime oyunları oynamak, dil meraklıları için entelektüel açıdan en zenginleştirici aktivitelerden biridir. İster yabancı bir dilde kelime oyunlarını keşfeden ana dilli bir konuşmacı olun, ister diller arasında rahatça geçiş yapan çok dilli bir oyuncu — bu deneyim farklı bilişsel ve eğitimsel avantajlar sunar.",
         "Dil öğrencileri için hedef dilde oynanan kelime oyunları, ders kitaplarının çoğunlukla kopyalayamadığı bağlamsal olarak anlamlı bir kelime dağarcığı pratiği sağlar. Oyun ortamının keyifli baskısı altında yeni kelimelerle karşılaşmak, pasif çalışmaya kıyasla daha güçlü bellek ilişkilendirmeleri oluşturur.",
@@ -154,9 +148,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'wordle-strategies',
-      title: 'Wordle Stratejileri: Her Gün Bulmacayı Nasıl Çözersiniz',
-      excerpt: 'Wordle dünya genelinde bir fenomene dönüştü. İşte onu her gün verimli biçimde çözmek için en iyi stratejiler ve başlangıç kelimeleri.',
+      slug: "wordle-strategies",
+      title: "Wordle Stratejileri: Her Gün Bulmacayı Nasıl Çözersiniz",
+      excerpt: "Wordle dünya genelinde bir fenomene dönüştü. İşte onu her gün verimli biçimde çözmek için en iyi stratejiler ve başlangıç kelimeleri.",
       body: [
         "Josh Wardle tarafından oluşturulan ve 2022 yılında New York Times tarafından satın alınan beş harfli kelime tahmin oyunu Wordle, 2021'deki çıkışının hemen ardından dünya genelinde bir fenomene dönüştü. Milyonlarca oyuncu, renkle kodlanmış sonuçlarını sosyal medyada paylaşarak günlük bulmacayı çözmeye çalışmaktadır.",
         "Wordle'ın temel mekanizmaları basittir: beş harfli bir kelimeyi tahmin etmek için altı deneme hakkınız bulunmaktadır. Her tahmin; hangi harflerin doğru ve doğru konumda (yeşil), doğru ancak yanlış konumda (sarı) ya da kelimede hiç bulunmadığını (gri) gösterir.",
@@ -171,9 +165,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'word-unscrambler-ultimate-guide',
-      title: 'Kelime Çözücü: Her Türlü Harf Bulmacasını Çözmenin Eksiksiz Rehberi',
-      excerpt: 'Kelime arama araçlarının nasıl çalıştığı, yüksek puanlı hamlelerin ardındaki strateji ve filtrelerin etkili kullanımı.',
+      slug: "word-unscrambler-ultimate-guide",
+      title: "Kelime Çözücü: Her Türlü Harf Bulmacasını Çözmenin Eksiksiz Rehberi",
+      excerpt: "Kelime arama araçlarının nasıl çalıştığı, yüksek puanlı hamlelerin ardındaki strateji ve filtrelerin etkili kullanımı.",
       body: [
         "Bu sitedeki içerikler yapay zekâ desteğiyle hazırlanır ve UnscramblWords ekibi tarafından düzenli olarak gözden geçirilir.",
         "Süre daralırken elinizde bir Q ve bir Z ile kalakalmak, kelime oyunlarındaki en yaygın hayal kırıklıklarından biridir. Bir kelime çözücü, bu harf karmaşasını oynanabilir kelimelerden oluşan net bir listeye dönüştürür — ama bu araçların nasıl çalıştığını anlamak ve onları iyi kullanmayı bilmek, basit bir çözümle gerçek bir stratejik avantaj arasındaki farkı yaratır.",
@@ -192,9 +186,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'scrabble-cheat-word-finder-guide',
-      title: 'En İyi Kelime Bulucuyu Seçmek ve Kullanmak',
-      excerpt: 'Kelime bulucular gerçekte nasıl çalışır, iyi bir araç ile basit bir anagram listesi arasındaki fark nedir ve tahtanıza uyan hamleyi bulmak için filtreler nasıl stratejik kullanılır.',
+      slug: "scrabble-cheat-word-finder-guide",
+      title: "En İyi Kelime Bulucuyu Seçmek ve Kullanmak",
+      excerpt: "Kelime bulucular gerçekte nasıl çalışır, iyi bir araç ile basit bir anagram listesi arasındaki fark nedir ve tahtanıza uyan hamleyi bulmak için filtreler nasıl stratejik kullanılır.",
       body: [
         "UnscramblWords ekibi tarafından yazılmış ve gözden geçirilmiştir.",
         "En iyi kelime oyunu oyuncuları sadece sözlük ezberlemez — rakiplerinin gözden kaçırdığı hamleleri bulmak için hassas araçlar kullanır. İyi bir kelime bulucu hile yapmak için değil, karışık harfleri hızlıca net seçeneklere dönüştürmek için vardır, üstelik karmaşık bir arayüz işi yavaşlatmadan. Bu rehber, bu araçların nasıl çalıştığını, iyi bir araçta nelere dikkat etmeniz gerektiğini ve filtreleri uzun bir sonuç listesinde gezinmek yerine stratejik şekilde nasıl kullanacağınızı anlatıyor.",
@@ -216,9 +210,9 @@ export const tr = [
       ]
     },
     {
-      slug: '7-letter-word-unscrambler-bingo-guide',
-      title: 'Yedi Harfi Birden Oynamak: Büyük Bonusun Rehberi',
-      excerpt: 'Yaygın kelime kökleri, eklemeler ve filtrelerle yedi harfli hamleleri daha hızlı nasıl fark edersiniz — ve 50 puanlık bonusun arkasındaki gerçek sayılar.',
+      slug: "7-letter-word-unscrambler-bingo-guide",
+      title: "Yedi Harfi Birden Oynamak: Büyük Bonusun Rehberi",
+      excerpt: "Yaygın kelime kökleri, eklemeler ve filtrelerle yedi harfli hamleleri daha hızlı nasıl fark edersiniz — ve 50 puanlık bonusun arkasındaki gerçek sayılar.",
       body: [
         "UnscramblWords ekibi tarafından yazılmış ve gözden geçirilmiştir.",
         "Rafınızdaki yedi harfin tamamını tek hamlede oynamak, genellikle sıkı bir kayıp ile net bir galibiyet arasındaki farkı yaratır. Bunu yapmak, kelimenin kendi puanına ek olarak sabit 50 puanlık bir bonus kazandırır — bu yüzden yalnızca birer puanlık harflerden oluşan mütevazı bir kelime bile, yüksek değerli bir harf etrafında kurulmuş daha kısa bir hamleden daha fazla puan getirebilir.",
@@ -237,9 +231,9 @@ export const tr = [
       ]
     },
     {
-      slug: 'j-ile-baslayan-kelimeler',
-      title: 'J ile Başlayan Kelimeler: Türkçe Scrabble\'ın En Değerli Harfi',
-      excerpt: 'J, Türkçe Scrabble\'da 10 puan değerinde — oyunun en yüksek puanlı harfi. İşte gerçek sözlüğümüzden doğrulanmış, gerçekten oynanabilir kelimelerle bu harfi nasıl değerlendirebileceğiniz.',
+      slug: "j-ile-baslayan-kelimeler",
+      title: "J ile Başlayan Kelimeler: Türkçe Scrabble'ın En Değerli Harfi",
+      excerpt: "J, Türkçe Scrabble'da 10 puan değerinde — oyunun en yüksek puanlı harfi. İşte gerçek sözlüğümüzden doğrulanmış, gerçekten oynanabilir kelimelerle bu harfi nasıl değerlendirebileceğiniz.",
       keyTakeaways: [
         "J harfi Türkçe Scrabble'da 10 puan değerinde — oyundaki en yüksek değer.",
         "JÜRİ ve JAMBON gibi günlük kelimeler J'nin sadece yabancı kökenli nadir bir harf olmadığını gösteriyor.",
@@ -247,23 +241,23 @@ export const tr = [
         "\"İle Başlayan\" filtresi, tahmin etmeden anında her geçerli J kelimesini bulur."
       ],
       toc: [
-        { id: 'neden-j-degerli', label: 'J Harfi Neden Bu Kadar Değerli' },
-        { id: 'kisa-j-kelimeleri', label: 'Kısa J Kelimeleri' },
-        { id: 'orta-j-kelimeleri', label: 'Orta Uzunlukta J Kelimeleri' },
-        { id: 'uzun-j-kelimeleri', label: 'Uzun Kelimeler ve Tam Bingo' },
-        { id: 'j-kelime-bulma', label: 'UnscramblWords ile J Kelimeleri Bulma' }
+        { id: "neden-j-degerli", label: "J Harfi Neden Bu Kadar Değerli" },
+        { id: "kisa-j-kelimeleri", label: "Kısa J Kelimeleri" },
+        { id: "orta-j-kelimeleri", label: "Orta Uzunlukta J Kelimeleri" },
+        { id: "uzun-j-kelimeleri", label: "Uzun Kelimeler ve Tam Bingo" },
+        { id: "j-kelime-bulma", label: "UnscramblWords ile J Kelimeleri Bulma" }
       ],
       body: [
         "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
-        { type: 'heading', id: 'neden-j-degerli', text: 'J Harfi Neden Bu Kadar Değerli' },
+        { type: 'heading', id: "neden-j-degerli", text: "J Harfi Neden Bu Kadar Değerli" },
         "Türk alfabesinde Q, W ve X harfleri bulunmaz — bu yüzden Türkçe Scrabble'da en nadir ve en değerli harf J'dir: 10 puan, oyundaki en yüksek değer. Kendi sözlüğümüzde 42.745 kelimeden sadece 41'i J ile başlıyor.",
-        { type: 'heading', id: 'kisa-j-kelimeleri', text: 'Kısa J Kelimeleri' },
+        { type: 'heading', id: "kisa-j-kelimeleri", text: "Kısa J Kelimeleri" },
         "JEL, JET ve JÜRİ dört harfe kadar olan sağlam seçeneklerdir. JÜRİ (bir yarışmada karar veren kurul) günlük konuşmada sıkça karşılaşılan bir kelimedir.",
-        { type: 'heading', id: 'orta-j-kelimeleri', text: 'Orta Uzunlukta J Kelimeleri' },
+        { type: 'heading', id: "orta-j-kelimeleri", text: "Orta Uzunlukta J Kelimeleri" },
         "JAMBON (bir tür işlenmiş et) ve JAGUAR (hayvan) altı harfli, tanıdık kelimelerdir. JETON, bir metro veya otobüs jetonu anlamına gelir ve beş harfle sağlam bir seçenektir.",
-        { type: 'heading', id: 'uzun-j-kelimeleri', text: 'Uzun Kelimeler ve Tam Bingo' },
+        { type: 'heading', id: "uzun-j-kelimeleri", text: "Uzun Kelimeler ve Tam Bingo" },
         "Tam bir Bingo için (rakınızdaki yedi harfin tamamını kullanarak 50 puan bonusu kazanmak), JEOLOJİ (yer bilimi) ve JAPONCA (Japon dili) tam olarak yedi harften oluşan gerçek, doğrulanmış kelimelerdir — belirsiz teknik terimler değil.",
-        { type: 'heading', id: 'j-kelime-bulma', text: 'UnscramblWords ile J Kelimeleri Bulma' },
+        { type: 'heading', id: "j-kelime-bulma", text: "UnscramblWords ile J Kelimeleri Bulma" },
         "Bu listeyi oyun sırasında hafızadan hatırlamaya çalışmak yerine, \"İle Başlayan\" filtremiz işi doğrudan halleder: harflerinizi girin, J ile başlayan kelimelere göre filtreleyin ve tahmin etmek yerine her geçerli sonucu görün. Aynı yaklaşım aracın desteklediği 10 dilin tamamında aynı şekilde çalışır."
       ],
       faq: [

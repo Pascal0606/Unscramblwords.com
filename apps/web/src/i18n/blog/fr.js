@@ -1,9 +1,8 @@
 export const fr = [
-
     {
-      slug: 'scrabble-strategies',
-      title: 'Maîtriser le Scrabble : Stratégies Essentielles pour Améliorer Votre Jeu',
-      excerpt: 'Découvrez des stratégies éprouvées pour améliorer vos performances au Scrabble, du positionnement sur le plateau à la gestion des lettres.',
+      slug: "scrabble-strategies",
+      title: "Maîtriser le Scrabble : Stratégies Essentielles pour Améliorer Votre Jeu",
+      excerpt: "Découvrez des stratégies éprouvées pour améliorer vos performances au Scrabble, du positionnement sur le plateau à la gestion des lettres.",
       body: [
         "Le Scrabble est un jeu d'habileté, de stratégie et de vocabulaire. Que vous soyez un joueur occasionnel ou un champion en devenir, comprendre les stratégies clés peut considérablement améliorer vos performances. Dans ce guide, nous explorons les tactiques essentielles qui vous aideront à dominer le plateau.",
         "L'une des stratégies les plus importantes au Scrabble est le contrôle des cases bonus du plateau. Les cases à valeur double ou triple de lettre peuvent transformer un mot ordinaire en une case très rentable. Planifiez à l'avance et essayez de positionner vos lettres pour accéder à ces cases précieuses lors de votre prochain tour. De même, les cases à valeur double ou triple de mot changent la donne — les sécuriser peut vous donner un avantage décisif.",
@@ -18,9 +17,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'best-two-letter-words',
-      title: 'Le Guide Complet des Mots de Deux Lettres au Scrabble',
-      excerpt: 'Découvrez les mots de deux lettres les plus précieux et les plus utiles qui peuvent transformer votre jeu de Scrabble.',
+      slug: "best-two-letter-words",
+      title: "Le Guide Complet des Mots de Deux Lettres au Scrabble",
+      excerpt: "Découvrez les mots de deux lettres les plus précieux et les plus utiles qui peuvent transformer votre jeu de Scrabble.",
       body: [
         "Les mots de deux lettres sont l'arme secrète des champions de Scrabble. Ces mots courts mais puissants peuvent s'insérer dans des espaces restreints, créer de multiples opportunités de score et vous aider à utiliser des lettres difficiles. Maîtriser les mots de deux lettres est essentiel pour tout joueur de Scrabble sérieux.",
         "Les dictionnaires officiels du Scrabble contiennent plus de cent mots valides de deux lettres. Les apprendre tous est l'un des investissements les plus rentables qu'un joueur de Scrabble puisse faire. Connaître même les cinquante plus courants améliorera considérablement votre jeu.",
@@ -35,9 +34,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'improve-vocabulary-word-games',
-      title: 'Comment Améliorer Votre Vocabulaire pour les Jeux de Mots',
-      excerpt: 'Stratégies pratiques et techniques pour développer votre vocabulaire et devenir un adversaire redoutable dans les jeux de mots.',
+      slug: "improve-vocabulary-word-games",
+      title: "Comment Améliorer Votre Vocabulaire pour les Jeux de Mots",
+      excerpt: "Stratégies pratiques et techniques pour développer votre vocabulaire et devenir un adversaire redoutable dans les jeux de mots.",
       body: [
         "Un vocabulaire solide est le fondement du succès dans les jeux de mots. Que vous jouiez au Scrabble, au Motus ou à tout autre jeu basé sur les mots, connaître davantage de mots vous donne plus d'options et de meilleures chances de gagner. La bonne nouvelle est que le développement du vocabulaire est une compétence qui peut être cultivée avec une pratique régulière et la bonne approche.",
         "Commencez par lire largement et régulièrement. Les livres, les articles, les sites d'actualités et même le journalisme de qualité vous exposent à de nouveaux mots dans leur contexte. Lorsque vous rencontrez un mot inconnu, cherchez-le immédiatement et essayez de l'utiliser dans une phrase. Cet engagement actif ancre le mot dans votre mémoire bien mieux que la lecture passive.",
@@ -52,26 +51,22 @@ export const fr = [
       ]
     },
     {
-      slug: 'best-scrabble-words-with-q',
-      title: 'Les Meilleurs Mots au Scrabble avec la Lettre Q',
-      excerpt: 'La lettre Q vaut 8 points au Scrabble français mais est notoirement difficile à utiliser. Voici les meilleurs mots en Q à connaître.',
+      slug: "best-scrabble-words-with-q",
+      title: "Les Meilleurs Mots au Scrabble avec la Lettre K",
+      excerpt: "La lettre K vaut 10 points au Scrabble français, à égalité avec W, X, Y et Z -- contrairement au Q, qui n'en vaut que 8. Voici comment vraiment l'exploiter.",
       body: [
-        "La lettre Q est l'une des lettres les plus précieuses du Scrabble, valant 8 points dans la version française. Elle est également l'une des plus redoutées, car les joueurs croient traditionnellement que le Q doit toujours être suivi d'un U. Cette croyance est fausse, et connaître les mots en Q sans U est l'un des avantages les plus puissants qu'un joueur de Scrabble puisse avoir.",
-        "Les mots en Q sans U les plus importants à mémoriser en français incluent QAT (un arbuste dont les feuilles sont mâchées comme stimulant), QANAT (un tunnel d'irrigation traditionnel) et QOPH (une lettre hébraïque). Ces mots peuvent surprendre vos adversaires et générer des scores élevés.",
-        "Lorsque vous avez un U pour accompagner votre Q, certains des meilleurs mots en Q pour le score incluent QUIXOTIQUE, SQUELETTE, QUIZ, QUARTZ, REINE et CITATION. Ces mots utilisent la lettre Q de manière efficace tout en contribuant significativement à votre score.",
-        "Le mot QI, bien que plus courant dans les versions anglophones du Scrabble, illustre le principe général selon lequel les mots courts utilisant la lettre Q peuvent être extrêmement précieux lorsqu'ils atterrissent sur des cases à multiplicateur.",
-        "Les conseils stratégiques pour utiliser le Q : si vous tirez la lettre Q tôt dans la partie, ne paniquez pas. Gardez-la et attendez un U ou une opportunité de jouer un mot en Q sans U. Évitez de conserver le Q en fin de partie, car une lettre Q non jouée vous coûte des points sur votre score final.",
-        "QUALITÉ, QUANTITÉ et QUESTION sont des mots utiles car ils utilisent plusieurs voyelles avec le Q, aidant à équilibrer un chevalet chargé en voyelles.",
-        "Apprendre les mots en Q ne consiste pas seulement en la mémorisation — il s'agit de transformer l'une des lettres les plus redoutées en l'une des plus rentables. Les joueurs à l'aise avec les mots en Q ont un avantage psychologique significatif sur les adversaires qui craignent de tirer le Q.",
-        "Les joueurs avancés savent également que certains mots en Q peu courants peuvent prendre leurs adversaires totalement par surprise. De nombreux joueurs de Scrabble expérimentés contesteront ces mots, ce qui signifie que si vous savez qu'ils sont valides, vous gagnez les points et votre adversaire perd un tour.",
-        "Consacrez du temps à mémoriser la liste complète des mots en Q valides dans votre dictionnaire de Scrabble préféré, que ce soit le dictionnaire officiel du Scrabble francophone ou une autre référence reconnue.",
-        "Cet investissement en vocabulaire est susceptible de porter ses fruits dans pratiquement chaque partie que vous jouerez, transformant une lettre autrefois redoutée en une ressource précieuse."
+        "La lettre K vaut 10 points au Scrabble français -- à égalité avec W, X, Y et Z pour le score le plus élevé du jeu. Le Q, souvent présenté à tort comme la lettre la plus précieuse, n'en vaut en réalité que 8 en français. Dans notre propre dictionnaire, 503 mots commencent par K -- une richesse surprenante pour une lettre que beaucoup de joueurs redoutent.",
+        "Le K doit sa présence en français presque entièrement aux emprunts à d'autres langues : KIMONO et KARAOKE (japonais), KAYAK (inuit), KOALA et KIWI (langues autochtones d'Océanie), KETCHUP (anglais). Ces mots sont aujourd'hui pleinement intégrés au vocabulaire courant, pas de simples curiosités.",
+        "KARAOKE, avec exactement 7 lettres, est un vrai scrabble complet (bonus de 50 points) -- et c'est un mot que tout le monde connaît. KIOSQUE et KABBALE sont d'autres options solides à six et sept lettres.",
+        "KILO, court et courant, permet de placer le K dans un espace restreint sans sacrifier la valeur du coup. KOALA et KIWI, avec leurs voyelles multiples, aident à équilibrer un chevalet chargé en voyelles tout en utilisant une lettre à haute valeur.",
+        "Contrairement au Q, qui pousse à chercher des exceptions rares, le K se prête à un jeu direct : sa richesse en emprunts bien intégrés en fait une lettre à la fois précieuse et facile à jouer une fois qu'on connaît quelques mots clés.",
+        "Utilisez le filtre « Commence par » pour trouver instantanément tous les mots en K valides dans votre chevalet, plutôt que de deviner si un mot emprunté est réellement reconnu par le dictionnaire."
       ]
     },
     {
-      slug: 'seven-letter-words-scrabble',
-      title: 'Mots de Sept Lettres pour Réussir des Scrabbles',
-      excerpt: 'Jouer les sept lettres rapporte un bonus de 50 points. Voici les meilleurs mots de sept lettres à connaître pour réussir des scrabbles.',
+      slug: "seven-letter-words-scrabble",
+      title: "Mots de Sept Lettres pour Réussir des Scrabbles",
+      excerpt: "Jouer les sept lettres rapporte un bonus de 50 points. Voici les meilleurs mots de sept lettres à connaître pour réussir des scrabbles.",
       body: [
         "Au Scrabble, jouer les sept lettres en un seul tour est appelé un « scrabble ». Cet exploit vous rapporte un bonus de 50 points en plus de la valeur nominale du mot, ce qui en fait l'un des coups les plus puissants du jeu. Savoir quelles combinaisons de sept lettres ont le plus de chances d'apparaître sur votre chevalet augmente considérablement la fréquence de vos scrabbles.",
         "Les lettres les plus favorables aux scrabbles sont les lettres courantes E, A, I, S, N, R, T, O, L et U. Les chevalets contenant des combinaisons de ces lettres offrent la plus grande probabilité de former des mots de sept lettres. En revanche, les chevalets lourds en lettres rares comme J, Q, X et Z produisent rarement des scrabbles.",
@@ -86,9 +81,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'history-of-scrabble',
-      title: 'L\'Histoire Fascinante du Scrabble',
-      excerpt: 'De son invention pendant la Grande Dépression à son statut de l\'un des jeux de société les plus populaires au monde, voici l\'histoire complète du Scrabble.',
+      slug: "history-of-scrabble",
+      title: "L'Histoire Fascinante du Scrabble",
+      excerpt: "De son invention pendant la Grande Dépression à son statut de l'un des jeux de société les plus populaires au monde, voici l'histoire complète du Scrabble.",
       body: [
         "Le Scrabble a une histoire riche et fascinante qui s'étend sur près d'un siècle. Le jeu a été inventé par Alfred Mosher Butts, un architecte new-yorkais qui avait perdu son emploi pendant la Grande Dépression des années 1930. Déterminé à créer un passe-temps populaire, Butts a passé des années à analyser les fréquences de lettres dans les journaux et les livres afin de concevoir un jeu de mots équilibré et stimulant.",
         "Butts a d'abord appelé son invention « Lexiko », puis l'a rebaptisée « Criss-Cross Words ». Le jeu combinait des éléments des jeux d'anagrammes avec l'élément de score numérique qui le rendait particulièrement engageant. Malgré ses efforts, Butts a eu du mal à trouver un fabricant prêt à produire le jeu, et pendant des années, il est resté un produit artisanal vendu informellement à des amis et des connaissances.",
@@ -103,9 +98,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'word-games-brain-health',
-      title: 'Jeux de Mots et Santé du Cerveau : Ce que la Recherche Nous Dit',
-      excerpt: 'La recherche scientifique suggère que la pratique régulière des jeux de mots pourrait soutenir la santé cognitive. Voici ce que nous savons actuellement.',
+      slug: "word-games-brain-health",
+      title: "Jeux de Mots et Santé du Cerveau : Ce que la Recherche Nous Dit",
+      excerpt: "La recherche scientifique suggère que la pratique régulière des jeux de mots pourrait soutenir la santé cognitive. Voici ce que nous savons actuellement.",
       body: [
         "La relation entre les jeux de mots et la santé du cerveau a suscité un intérêt scientifique croissant au cours des dernières décennies. Bien que les chercheurs continuent d'étudier ce domaine, il existe des preuves significatives suggérant que la pratique régulière d'activités mentalement stimulantes — y compris les jeux de mots — pourrait soutenir la fonction cognitive tout au long de la vie.",
         "Une étude publiée en 2011 dans la revue Neuropsychology a révélé que les personnes qui s'engageaient dans des activités de loisirs mentalement stimulantes, notamment les jeux de mots et les puzzles, présentaient des taux de déclin cognitif plus lents à un âge avancé. La recherche suggérait que ces activités pourraient contribuer à ce que les scientifiques appellent la « réserve cognitive ».",
@@ -120,9 +115,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'unscramble-letters-tips',
-      title: 'Comment Déchiffrer des Lettres Rapidement : Conseils d\'Experts',
-      excerpt: 'Que vous jouiez à un jeu de mots ou que vous résolviez une énigme, ces techniques d\'experts vous aideront à trouver des mots dans des lettres mélangées beaucoup plus rapidement.',
+      slug: "unscramble-letters-tips",
+      title: "Comment Déchiffrer des Lettres Rapidement : Conseils d'Experts",
+      excerpt: "Que vous jouiez à un jeu de mots ou que vous résolviez une énigme, ces techniques d'experts vous aideront à trouver des mots dans des lettres mélangées beaucoup plus rapidement.",
       body: [
         "Déchiffrer des lettres efficacement est une compétence qui peut être développée avec de la pratique et les bonnes stratégies mentales. Que vous jouiez au Scrabble, que vous résolviez une énigme d'anagramme ou que vous participiez à un jeu de mots, savoir identifier rapidement les mots cachés dans un ensemble de lettres est extrêmement précieux.",
         "La première et la plus importante technique consiste à identifier les groupes de lettres courants. Le français contient de nombreuses combinaisons de consonnes très prévisibles telles que TR, PR, BR, CR, GR, PL, BL, CL, FL et GL. Lorsque vous voyez l'une de ces paires dans vos lettres mélangées, regroupez-les mentalement comme une unité et essayez de construire des mots autour d'elles.",
@@ -137,9 +132,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'multilingual-word-games',
-      title: 'Jeux de Mots en Plusieurs Langues : Avantages et Défis',
-      excerpt: 'Jouer à des jeux de mots dans différentes langues offre des avantages cognitifs uniques et présente des défis fascinants. Voici comment commencer.',
+      slug: "multilingual-word-games",
+      title: "Jeux de Mots en Plusieurs Langues : Avantages et Défis",
+      excerpt: "Jouer à des jeux de mots dans différentes langues offre des avantages cognitifs uniques et présente des défis fascinants. Voici comment commencer.",
       body: [
         "Jouer à des jeux de mots dans plusieurs langues est l'une des activités intellectuellement les plus enrichissantes disponibles pour les amateurs de langues. Que vous soyez un locuteur natif explorant les jeux de mots dans une langue étrangère ou un joueur multilingue qui passe aisément d'une langue à l'autre, l'expérience offre des avantages cognitifs et éducatifs distincts.",
         "Pour les apprenants de langues, les jeux de mots dans la langue cible fournissent une pratique du vocabulaire contextuellement significative que les manuels scolaires ne peuvent souvent pas reproduire. Rencontrer de nouveaux mots sous la pression agréable d'une situation de jeu crée des associations mémnémoniques plus fortes que l'étude passive.",
@@ -154,9 +149,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'wordle-strategies',
-      title: 'Stratégies pour le Wordle : Comment Résoudre le Puzzle Chaque Jour',
-      excerpt: 'Le Wordle est devenu un phénomène mondial. Voici les meilleures stratégies et les meilleurs mots de départ pour le résoudre efficacement chaque jour.',
+      slug: "wordle-strategies",
+      title: "Stratégies pour le Wordle : Comment Résoudre le Puzzle Chaque Jour",
+      excerpt: "Le Wordle est devenu un phénomène mondial. Voici les meilleures stratégies et les meilleurs mots de départ pour le résoudre efficacement chaque jour.",
       body: [
         "Le Wordle, le jeu de devinettes de mots de cinq lettres créé par Josh Wardle et acquis par le New York Times en 2022, est devenu un phénomène mondial peu après sa sortie en 2021. Des millions de joueurs tentent le puzzle quotidien, partageant leurs résultats codés par couleur sur les réseaux sociaux.",
         "Les mécanismes fondamentaux du Wordle sont simples : vous avez six tentatives pour deviner un mot de cinq lettres. Chaque supposition révèle quelles lettres sont correctes et à la bonne position (vert), correctes mais à la mauvaise position (jaune) ou absentes du mot (gris).",
@@ -171,9 +166,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'word-unscrambler-ultimate-guide',
-      title: 'Dénicheur de mots : le guide complet pour résoudre n\'importe quelle grille de lettres',
-      excerpt: 'Comment fonctionnent réellement les outils de recherche de mots, la stratégie derrière les coups à haut score, et comment utiliser les filtres efficacement.',
+      slug: "word-unscrambler-ultimate-guide",
+      title: "Dénicheur de mots : le guide complet pour résoudre n'importe quelle grille de lettres",
+      excerpt: "Comment fonctionnent réellement les outils de recherche de mots, la stratégie derrière les coups à haut score, et comment utiliser les filtres efficacement.",
       body: [
         "Le contenu de ce site est assisté par IA et vérifié périodiquement par l'équipe UnscramblWords.",
         "Se retrouver avec un Q et un Z sur son chevalet pendant que le chronomètre tourne est l'une des frustrations les plus courantes au Scrabble. Un dénicheur de mots transforme ce fouillis de lettres en une liste claire de mots jouables — mais comprendre comment ces outils fonctionnent, et savoir bien les utiliser, fait toute la différence entre un simple dépannage et un véritable avantage stratégique.",
@@ -193,9 +188,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'scrabble-cheat-word-finder-guide',
-      title: 'Bien choisir et utiliser un outil de recherche de mots au Scrabble',
-      excerpt: 'Comment fonctionnent vraiment les outils de recherche de mots, ce qui distingue un bon outil d\'une simple liste d\'anagrammes, et comment utiliser les filtres pour trouver le coup qui correspond à votre plateau.',
+      slug: "scrabble-cheat-word-finder-guide",
+      title: "Bien choisir et utiliser un outil de recherche de mots au Scrabble",
+      excerpt: "Comment fonctionnent vraiment les outils de recherche de mots, ce qui distingue un bon outil d'une simple liste d'anagrammes, et comment utiliser les filtres pour trouver le coup qui correspond à votre plateau.",
       body: [
         "Rédigé et relu par l'équipe UnscramblWords.",
         "Les meilleurs joueurs de Scrabble ne se contentent pas de mémoriser le dictionnaire : ils utilisent des outils précis pour trouver des coups que leurs adversaires manquent. Un bon outil de recherche de mots ne sert pas à tricher, mais à transformer rapidement des lettres mélangées en options claires, sans une interface encombrée qui ralentit tout. Ce guide explique comment ces outils fonctionnent, ce qu'il faut rechercher dans un bon outil, et comment utiliser les filtres de façon stratégique plutôt que de faire défiler une longue liste de résultats.",
@@ -217,9 +212,9 @@ export const fr = [
       ]
     },
     {
-      slug: '7-letter-word-unscrambler-bingo-guide',
-      title: 'Trouver son scrabble : le guide du mot de sept lettres',
-      excerpt: 'Comment repérer plus vite les coups de sept lettres, grâce aux radicaux fréquents, aux greffes et aux filtres — et les vrais chiffres derrière le bonus de 50 points.',
+      slug: "7-letter-word-unscrambler-bingo-guide",
+      title: "Trouver son scrabble : le guide du mot de sept lettres",
+      excerpt: "Comment repérer plus vite les coups de sept lettres, grâce aux radicaux fréquents, aux greffes et aux filtres — et les vrais chiffres derrière le bonus de 50 points.",
       body: [
         "Rédigé et relu par l'équipe UnscramblWords.",
         "Poser un seul mot de sept lettres — ce qu'on appelle « faire un scrabble » — fait souvent la différence entre une défaite serrée et une victoire écrasante. Utiliser les sept lettres de son chevalet en un seul coup rapporte un bonus fixe de 50 points, en plus du score du mot lui-même — c'est pourquoi même un mot modeste, composé uniquement de lettres à un point, peut rapporter plus qu'un coup plus court bâti autour d'une lettre à forte valeur.",
@@ -238,9 +233,9 @@ export const fr = [
       ]
     },
     {
-      slug: 'mots-commencant-par-x',
-      title: 'Mots commençant par X : un guide pour le Scrabble et les mots croisés',
-      excerpt: 'La lettre X vaut 10 points et reste l\'une des plus rares du français — voici comment vraiment l\'exploiter, du simple XI aux mots de 7 lettres, tous vérifiés dans notre propre dictionnaire.',
+      slug: "mots-commencant-par-x",
+      title: "Mots commençant par X : un guide pour le Scrabble et les mots croisés",
+      excerpt: "La lettre X vaut 10 points et reste l'une des plus rares du français — voici comment vraiment l'exploiter, du simple XI aux mots de 7 lettres, tous vérifiés dans notre propre dictionnaire.",
       keyTakeaways: [
         "Le X vaut 10 points au Scrabble français — l'une des valeurs les plus élevées du jeu.",
         "XI, à deux lettres, est le mot le plus utile pour les jeux croisés.",
@@ -249,23 +244,23 @@ export const fr = [
         "Utilisez le filtre « Commence par » pour trouver instantanément tous les mots valides de votre dictionnaire."
       ],
       toc: [
-        { id: 'pourquoi-x-precieux', label: 'Pourquoi la lettre X mérite d\'être apprise' },
-        { id: 'mots-courts-x', label: 'Mots courts en X : XI et au-delà' },
-        { id: 'mots-moyens-x', label: 'Mots de longueur moyenne en X' },
-        { id: 'mots-longs-x', label: 'Mots longs et Scrabble complet' },
-        { id: 'trouver-mots-x', label: 'Trouver des mots en X avec UnscramblWords' }
+        { id: "pourquoi-x-precieux", label: "Pourquoi la lettre X mérite d'être apprise" },
+        { id: "mots-courts-x", label: "Mots courts en X : XI et au-delà" },
+        { id: "mots-moyens-x", label: "Mots de longueur moyenne en X" },
+        { id: "mots-longs-x", label: "Mots longs et Scrabble complet" },
+        { id: "trouver-mots-x", label: "Trouver des mots en X avec UnscramblWords" }
       ],
       body: [
         "Rédigé et vérifié par l'équipe UnscramblWords.",
-        { type: 'heading', id: 'pourquoi-x-precieux', text: 'Pourquoi la lettre X mérite d\'être apprise' },
+        { type: 'heading', id: "pourquoi-x-precieux", text: "Pourquoi la lettre X mérite d'être apprise" },
         "Tirer un X peut sembler un handicap, mais c'est en réalité l'une des lettres les plus valorisées du Scrabble français : 10 points, à égalité avec le K, le W et le Y. Dans notre propre dictionnaire, seuls 44 mots sur plus de 62 000 commencent par X — une rareté qui explique pourquoi il vaut la peine d'en mémoriser quelques-uns.",
-        { type: 'heading', id: 'mots-courts-x', text: 'Mots courts en X : XI et au-delà' },
+        { type: 'heading', id: "mots-courts-x", text: "Mots courts en X : XI et au-delà" },
         "XI, la 14e lettre de l'alphabet grec, est l'option la plus connue et la plus utile pour les jeux croisés, où elle permet de marquer des points dans deux directions à la fois avec une seule lettre.",
-        { type: 'heading', id: 'mots-moyens-x', text: 'Mots de longueur moyenne en X' },
+        { type: 'heading', id: "mots-moyens-x", text: "Mots de longueur moyenne en X" },
         "XYSTE (un portique couvert utilisé pour l'exercice dans l'Antiquité), XÉNON (le gaz noble) et XYLOSE (un sucre présent dans le bois) offrent des options solides sans nécessiter de lettres rares supplémentaires. XÉRÈS, le nom du célèbre vin, est un autre mot courant que beaucoup de joueurs ne pensent pas à utiliser.",
-        { type: 'heading', id: 'mots-longs-x', text: 'Mots longs et Scrabble complet' },
+        { type: 'heading', id: "mots-longs-x", text: "Mots longs et Scrabble complet" },
         "XÉRIQUE (qui décrit un milieu extrêmement sec) compte exactement 7 lettres — un authentique Scrabble complet si vous utilisez les sept lettres de votre chevalet, avec le bonus de 50 points à la clé. XANTHINE et XIPHOÏDE, à 8 lettres, sont d'autres options solides si votre chevalet le permet.",
-        { type: 'heading', id: 'trouver-mots-x', text: 'Trouver des mots en X avec UnscramblWords' },
+        { type: 'heading', id: "trouver-mots-x", text: "Trouver des mots en X avec UnscramblWords" },
         "Plutôt que d'essayer de retrouver cette liste de mémoire en pleine partie, notre filtre « Commence par » fait le travail directement : entrez vos lettres, filtrez sur les mots commençant par X, et obtenez chaque résultat valide plutôt que de deviner si un mot peu familier est réellement jouable. Le même principe s'applique dans les 10 langues prises en charge par l'outil."
       ],
       faq: [
