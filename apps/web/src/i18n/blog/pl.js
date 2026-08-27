@@ -368,4 +368,34 @@ export const pl = [
         { question: "Czy warto uczyć się przedrostków i przyrostków?", answer: "Tak -- rozpoznanie garstki częstych wzorców pozwala zidentyfikować wiele powiązanych słów naraz." }
       ]
     },
+    {
+      slug: "litery-kotwice-slowa-siedmioliterowe",
+      title: "Gra Wokół Kotwic: Jak Znaleźć Słowa Siedmioliterowe, Które Naprawdę Pasują do Planszy",
+      excerpt: "Znalezienie siedmioliterowego słowa to tylko połowa pracy -- musi ono jeszcze gdzieś sensownie trafić. Oto jak łączyć litery-kotwice z polami premiowymi, by tworzyć ruchy, które naprawdę się liczą.",
+      keyTakeaways: [
+        "Kotwica to pojedyncza litera już obecna na planszy, od której można zbudować nowe słowo -- znalezienie jej jako pierwszej znacznie zawęża wyszukiwanie.",
+        "Połączenie ruchu z kotwicą z polem podwójnego lub potrójnego słowa mnoży wartość tego samego siedmioliterowego słowa.",
+        "W naszym własnym słowniku jest 121 981 słów o dokładnie siedmiu literach -- szukanie jednocześnie po kotwicy i długości zamienia to w krótką, dopasowaną do planszy listę.",
+        "Wartościowa litera (Ź, Q nie istnieje, ale np. Ż) lądująca na własnym polu premiowym, w słowie, które dodatkowo zdobywa bonus 50 punktów za pełny Scrabble -- stąd biorą się największe wyniki w jednym ruchu."
+      ],
+      toc: [
+        { id: "czym-jest-kotwica", label: "Czym Naprawdę Jest Litera-Kotwica" },
+        { id: "szukanie-kotwica-dlugosc", label: "Szukanie Jednocześnie po Kotwicy i Długości" },
+        { id: "laczenie-bonusow", label: "Łączenie Ruchu z Kotwicą z Polem Premiowym" }
+      ],
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords.",
+        { type: 'heading', id: "czym-jest-kotwica", text: "Czym Naprawdę Jest Litera-Kotwica" },
+        "Kotwica to po prostu litera już leżąca na planszy, przez którą lub wokół której można zbudować nowe słowo -- w przeciwieństwie do gry w wolnej przestrzeni. Zamiast traktować swoje litery jako odizolowaną łamigłówkę, ustalasz jedną literę na planszy i szukasz siedmioliterowych słów, które przechodzą przez nią we właściwej pozycji. To zamienia pytanie \"jakie siedmioliterowe słowa mogę ułożyć?\" w znacznie bardziej użyteczne pytanie \"jakie siedmioliterowe słowa mogę ułożyć, które też tu pasują?\"",
+        { type: 'heading', id: "szukanie-kotwica-dlugosc", text: "Szukanie Jednocześnie po Kotwicy i Długości" },
+        "W praktyce: zauważ pozycję litery-kotwicy w potrzebnym słowie (pierwsza litera, ostatnia litera, lub gdzieś w środku), wpisz litery ze swojego zestawu, ustaw filtr długości dokładnie na 7, i dodaj filtr \"zaczyna się od\" lub \"kończy się na\" dla kotwicy, jeśli znajduje się na jednym z końców. W naszym własnym słowniku jest dokładnie 121 981 słów o siedmiu literach -- szukanie bez żadnego ograniczenia planszy zostawia Cię z przeglądaniem ich wszystkich, podczas gdy dodanie filtra kotwicy zawęża to tylko do faktycznie możliwych do zagrania ruchów.",
+        { type: 'heading', id: "laczenie-bonusow", text: "Łączenie Ruchu z Kotwicą z Polem Premiowym" },
+        "Największe wyniki w jednym ruchu biorą się z łączenia bonusów, a nie z pogoni za jednym z nich: siedmioliterowe słowo już zdobywa stały bonus 50 punktów za pełny Scrabble, a jeśli jednocześnie przechodzi przez pole podwójnego lub potrójnego słowa, ten mnożnik stosuje się do całego słowa, oprócz tych 50 punktów. Jeśli Twój zestaw liter zawiera wartościową literę, taką jak Ź lub Ż, warto sprawdzić, czy jakiś prawidłowy ruch z kotwicą pozwala tej konkretnej literze wylądować na jej własnym polu premiowym, zamiast zadowalać się pierwszym znalezionym siedmioliterowym słowem."
+      ],
+      faq: [
+        { question: "Jaka jest różnica między kotwicą a zaczepieniem?", answer: "Zaczepienie zwykle oznacza dodanie jednej litery do istniejącego słowa, by utworzyć nowe. Kotwica to szersze pojęcie: dowolna litera na planszy, przez którą budowane jest nowe słowo, niezależnie od tego, czy jest to proste zaczepienie, czy całe słowo przechodzące przez literę w środku." },
+        { question: "Czy zawsze warto przedkładać pole premiowe nad zwykłe znalezienie prawidłowego słowa?", answer: "Nie zawsze -- pewny pełny Scrabble na wolnym polu często jest lepszy niż czekanie na idealną kotwicę, zwłaszcza pod koniec gry, gdy liter w woreczku jest coraz mniej. Ale gdy dostępne są obie opcje, największe wyniki biorą się właśnie z połączenia bonusu 50 punktów z mnożnikiem słowa lub litery." },
+        { question: "Ile siedmioliterowych słów rozpoznaje UnscramblWords w języku polskim?", answer: "121 981 -- liczba pochodząca bezpośrednio z naszego własnego słownika, a nie z szacunku." }
+      ]
+    },
 ];

@@ -388,4 +388,34 @@ export const pt = [
         { question: "A ferramenta funciona noutros idiomas além do português?", answer: "Sim, nos 10 idiomas suportados, cada um verificado contra o seu próprio dicionário." }
       ]
     },
+    {
+      slug: "letras-ancora-palavras-sete-letras",
+      title: "Jogar à Volta de Âncoras: Encontrar Palavras de 7 Letras Que Realmente Encaixam no Tabuleiro",
+      excerpt: "Encontrar uma palavra de sete letras é só metade do trabalho -- também tem de encaixar nalgum sítio útil. Eis como combinar letras-âncora com casas premium para jogadas que realmente contam.",
+      keyTakeaways: [
+        "Uma âncora é uma letra já presente no tabuleiro a partir da qual a sua nova palavra pode ser construída -- encontrar uma primeiro reduz muito a sua pesquisa.",
+        "Combinar uma jogada de âncora com uma casa de palavra a dobrar ou triplicar multiplica o valor da mesma palavra de sete letras.",
+        "No nosso próprio dicionário há 64.818 palavras de exatamente sete letras -- pesquisar por âncora e comprimento em conjunto transforma isso numa lista curta e específica do tabuleiro.",
+        "Uma letra de alto valor (X, Z) a cair na sua própria casa premium, dentro de uma palavra que também ganha o bónus de 50 pontos por Scrabble completo, é de onde vêm as pontuações mais altas numa única jogada."
+      ],
+      toc: [
+        { id: "o-que-e-uma-ancora", label: "O Que é Realmente uma Letra-Âncora" },
+        { id: "pesquisar-ancora-comprimento", label: "Pesquisar por Âncora e Comprimento em Conjunto" },
+        { id: "acumular-bonus", label: "Combinar uma Jogada de Âncora com uma Casa Premium" }
+      ],
+      body: [
+        "Escrito e verificado pela equipa UnscramblWords.",
+        { type: 'heading', id: "o-que-e-uma-ancora", text: "O Que é Realmente uma Letra-Âncora" },
+        "Uma âncora é simplesmente uma letra já colocada no tabuleiro através da qual, ou à volta da qual, a sua nova palavra pode ser construída -- em vez de jogar num espaço livre. Em vez de tratar as suas letras como um puzzle isolado, fixa uma letra do tabuleiro e procura palavras de sete letras que passem por ela na posição certa. Isto transforma \"que palavras de sete letras consigo formar?\" na pergunta muito mais útil \"que palavras de sete letras consigo formar que também encaixem aqui?\"",
+        { type: 'heading', id: "pesquisar-ancora-comprimento", text: "Pesquisar por Âncora e Comprimento em Conjunto" },
+        "Na prática: identifique a posição da letra-âncora na palavra de que precisa (primeira letra, última letra, ou algures no meio), insira as suas letras, defina o filtro de comprimento exatamente para 7, e adicione um filtro \"começa por\" ou \"termina em\" para a âncora, se esta estiver numa das extremidades. No nosso próprio dicionário há 64.818 palavras de exatamente sete letras -- pesquisar sem qualquer restrição de tabuleiro deixa-o a percorrer todas elas, enquanto adicionar o filtro de âncora reduz isso apenas às jogadas realmente possíveis.",
+        { type: 'heading', id: "acumular-bonus", text: "Combinar uma Jogada de Âncora com uma Casa Premium" },
+        "As pontuações mais altas numa única jogada vêm de acumular bónus em vez de perseguir apenas um: uma palavra de sete letras já ganha o bónus fixo de 50 pontos por Scrabble completo, e se ao mesmo tempo atravessar uma casa de palavra a dobrar ou triplicar, esse multiplicador aplica-se a toda a palavra, além dos 50 pontos. Se as suas letras incluírem uma de alto valor como X ou Z, vale a pena verificar se alguma jogada de âncora válida permite que essa letra específica caia na sua própria casa premium, em vez de se contentar com a primeira palavra de sete letras encontrada."
+      ],
+      faq: [
+        { question: "Qual é a diferença entre uma âncora e um encaixe?", answer: "Um encaixe geralmente refere-se a adicionar uma única letra a uma palavra existente para formar uma nova. Uma âncora é o conceito mais amplo: qualquer letra do tabuleiro através da qual a sua nova palavra é construída, seja um simples encaixe ou uma palavra inteira que passa por uma letra central." },
+        { question: "Deve-se sempre priorizar uma casa premium em vez de simplesmente encontrar uma palavra válida?", answer: "Nem sempre -- um Scrabble completo garantido num espaço livre costuma valer mais do que esperar por uma âncora perfeita, especialmente no final do saco quando as letras escasseiam. Mas quando ambas as opções estão disponíveis, as pontuações mais altas vêm precisamente de acumular o bónus de 50 pontos com um multiplicador de palavra ou letra." },
+        { question: "Quantas palavras de sete letras é que o UnscramblWords reconhece em português?", answer: "64.818, um número tirado diretamente do nosso próprio dicionário, não uma estimativa." }
+      ]
+    },
 ];

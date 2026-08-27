@@ -169,6 +169,36 @@ export const it = [
         "Al di là della strategia, Wordle premia l'ampiezza del vocabolario. I giocatori che conoscono un'ampia gamma di parole di cinque lettere hanno accesso a tentativi più informativi.",
         "Strumenti come UnscramblWords possono aiutarvi a esplorare e memorizzare parole di cinque lettere in più lingue, migliorando le vostre prestazioni non solo nel Wordle in inglese ma anche nelle molte varianti internazionali di Wordle che oggi esistono."
       ]
-    }
+    },
   
+    {
+      slug: "lettere-ancora-parole-sette-lettere",
+      title: "Giocare Intorno alle Lettere Ancora: Trovare Parole di 7 Lettere Che Si Adattano Davvero al Tabellone",
+      excerpt: "Trovare una parola di sette lettere è solo metà del lavoro -- deve anche trovare posto in modo utile. Ecco come combinare le lettere ancora con le caselle premio per giocate che contano davvero.",
+      keyTakeaways: [
+        "Un'ancora è una singola lettera già presente sul tabellone da cui la tua nuova parola può partire -- trovarne una per prima restringe molto la ricerca.",
+        "Combinare una giocata di ancoraggio con una casella parola doppia o tripla moltiplica il valore della stessa parola di sette lettere.",
+        "Il nostro dizionario ha 6.100 parole di esattamente sette lettere -- cercare per ancora e lunghezza insieme trasforma tutto ciò in una lista breve e specifica per il tabellone.",
+        "Una lettera di alto valore (Q, Z) che cade sulla propria casella premio, all'interno di una parola che guadagna anche il bonus di 50 punti per lo scarabeo completo, è da dove nascono i punteggi più alti in una sola mossa."
+      ],
+      toc: [
+        { id: "cose-unancora", label: "Cos'è Davvero una Lettera Ancora" },
+        { id: "ricerca-ancora-lunghezza", label: "Cercare per Ancora e Lunghezza Insieme" },
+        { id: "sommare-bonus", label: "Combinare una Giocata di Ancoraggio con una Casella Premio" }
+      ],
+      body: [
+        "Scritto e verificato dal team di UnscramblWords.",
+        { type: 'heading', id: "cose-unancora", text: "Cos'è Davvero una Lettera Ancora" },
+        "Un'ancora è semplicemente una lettera già posata sul tabellone attraverso o intorno alla quale può essere costruita la tua nuova parola -- anziché giocare in uno spazio libero. Invece di trattare le tue lettere come un rompicapo isolato, fissi una lettera del tabellone e cerchi parole di sette lettere che passino per essa nella posizione giusta. Questo trasforma 'quali parole di sette lettere posso formare?' nella domanda molto più utile 'quali parole di sette lettere posso formare che si posino anche qui?'",
+        { type: 'heading', id: "ricerca-ancora-lunghezza", text: "Cercare per Ancora e Lunghezza Insieme" },
+        "In pratica: individua la posizione della lettera ancora nella parola di cui hai bisogno (prima lettera, ultima lettera, o nel mezzo), inserisci le lettere del tuo leggio, imposta il filtro di lunghezza esattamente su 7, e aggiungi un filtro 'inizia con' o 'finisce con' per l'ancora se cade a una delle estremità. Nel nostro dizionario ci sono esattamente 6.100 parole di sette lettere -- cercare senza vincoli di tabellone ti lascia scorrere tutte queste parole, mentre aggiungere il filtro dell'ancora lo riduce solo alle giocate realmente possibili.",
+        { type: 'heading', id: "sommare-bonus", text: "Combinare una Giocata di Ancoraggio con una Casella Premio" },
+        "I punteggi più alti in una sola mossa nascono dal sommare i bonus piuttosto che inseguirne uno solo: una parola di sette lettere guadagna già il bonus fisso di 50 punti per lo scarabeo completo, e se allo stesso tempo attraversa una casella parola doppia o tripla, quel moltiplicatore si applica all'intera parola in aggiunta ai 50 punti. Se il tuo leggio include una lettera di alto valore come Q o Z, vale la pena controllare se qualche giocata di ancoraggio valida permette a quella lettera specifica di cadere sulla propria casella premio, invece di accontentarsi della prima parola di sette lettere trovata."
+      ],
+      faq: [
+        { question: "Qual è la differenza tra un'ancora e un aggancio?", answer: "Un aggancio di solito indica l'aggiunta di una singola lettera a una parola esistente per formarne una nuova. Un'ancora è il concetto più ampio: qualsiasi lettera del tabellone attraverso cui si costruisce la tua nuova parola, che sia un semplice aggancio o un'intera parola che passa per una lettera centrale." },
+        { question: "Bisogna sempre preferire una casella premio al semplice trovare una parola valida?", answer: "Non sempre -- uno scarabeo completo garantito su uno spazio libero spesso batte l'attesa di un'ancora perfetta, specialmente verso la fine del sacchetto quando le lettere scarseggiano. Ma quando entrambe le opzioni sono disponibili, i punteggi più alti nascono proprio dal sommare il bonus di 50 punti con un moltiplicatore di parola o lettera." },
+        { question: "Quante parole di sette lettere riconosce UnscramblWords in italiano?", answer: "6.100, un numero preso direttamente dal nostro dizionario, non una stima." }
+      ]
+    },
 ];

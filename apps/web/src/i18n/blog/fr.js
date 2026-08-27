@@ -270,4 +270,34 @@ export const fr = [
         { question: "UnscramblWords fonctionne-t-il dans d'autres langues que le français ?", answer: "Oui, dans les 10 langues prises en charge, chacune vérifiée par rapport à son propre dictionnaire plutôt qu'une simple traduction." }
       ]
     },
+    {
+      slug: "ancres-mots-sept-lettres",
+      title: "Jouer Autour des Ancres : Trouver des Mots de 7 Lettres Qui S'Adaptent Vraiment au Plateau",
+      excerpt: "Trouver un mot de sept lettres n'est que la moitié du travail -- il faut aussi qu'il trouve sa place. Voici comment combiner les lettres d'ancrage avec les cases premium pour des coups qui comptent vraiment.",
+      keyTakeaways: [
+        "Une ancre est une lettre déjà présente sur le plateau à partir de laquelle votre nouveau mot peut se construire -- en trouver une en premier réduit considérablement votre recherche.",
+        "Combiner un coup d'ancrage avec une case mot compte double ou triple multiplie la valeur du même mot de sept lettres.",
+        "Notre propre dictionnaire compte 10 240 mots d'exactement sept lettres -- chercher par ancre et longueur ensemble transforme cela en une courte liste adaptée au plateau.",
+        "Une lettre à haute valeur (K, W, X, Y, Z) posée sur sa propre case premium, dans un mot qui rapporte aussi le bonus de 50 points du Scrabble complet, c'est là que naissent les plus gros scores en un seul tour."
+      ],
+      toc: [
+        { id: "quest-ce-quune-ancre", label: "Ce Qu'est Vraiment une Lettre d'Ancrage" },
+        { id: "recherche-ancre-longueur", label: "Chercher par Ancre et Longueur Ensemble" },
+        { id: "cumuler-bonus", label: "Cumuler un Coup d'Ancrage avec une Case Premium" }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords.",
+        { type: 'heading', id: "quest-ce-quune-ancre", text: "Ce Qu'est Vraiment une Lettre d'Ancrage" },
+        "Une ancre est simplement une lettre déjà posée sur le plateau à travers ou autour de laquelle votre nouveau mot peut se construire -- par opposition à jouer dans un espace libre. Plutôt que de traiter votre chevalet comme un puzzle isolé, vous fixez une lettre du plateau et cherchez des mots de sept lettres qui passent par elle à la bonne position. Cela transforme « quels mots de sept lettres puis-je former ? » en la question bien plus utile « quels mots de sept lettres puis-je former qui se posent aussi ici ? »",
+        { type: 'heading', id: "recherche-ancre-longueur", text: "Chercher par Ancre et Longueur Ensemble" },
+        "En pratique : repérez la position de la lettre d'ancrage dans le mot dont vous avez besoin (première lettre, dernière lettre, ou au milieu), entrez les lettres de votre chevalet, réglez le filtre de longueur sur exactement 7, et ajoutez un filtre « commence par » ou « termine par » pour l'ancre si elle se trouve à l'une des extrémités. Dans notre propre dictionnaire, 10 240 mots comptent exactement sept lettres -- chercher sans contrainte de plateau vous laisse parcourir tous ces mots, tandis qu'ajouter le filtre d'ancrage réduit cela aux seuls coups réellement jouables.",
+        { type: 'heading', id: "cumuler-bonus", text: "Cumuler un Coup d'Ancrage avec une Case Premium" },
+        "Les plus gros scores en un seul tour viennent de l'empilement des bonus plutôt que de la poursuite d'un seul d'entre eux : un mot de sept lettres rapporte déjà le bonus fixe de 50 points du Scrabble complet, et s'il traverse en même temps une case mot compte double ou triple, ce multiplicateur s'applique à tout le mot en plus des 50 points. Si votre chevalet contient une lettre à haute valeur comme K, W, X, Y ou Z, il vaut la peine de vérifier si un coup d'ancrage valide permet à cette lettre précise de se poser sur sa propre case premium, plutôt que de vous contenter du premier mot de sept lettres trouvé."
+      ],
+      faq: [
+        { question: "Quelle est la différence entre une ancre et un crochet ?", answer: "Un crochet désigne généralement l'ajout d'une seule lettre à un mot existant pour en former un nouveau (ajouter un S à CORE pour faire CORES). Une ancre est le concept plus large : toute lettre du plateau à travers laquelle votre nouveau mot se construit, qu'il s'agisse d'un simple crochet ou d'un mot entier passant par une lettre centrale." },
+        { question: "Faut-il toujours privilégier une case premium plutôt que de simplement trouver un mot valide ?", answer: "Pas toujours -- un Scrabble complet garanti sur un espace libre l'emporte souvent sur l'attente d'un ancrage parfait, surtout en fin de sac quand les lettres se raréfient. Mais quand les deux sont disponibles, cumuler le bonus de 50 points avec un multiplicateur de mot ou de lettre est ce qui produit les scores les plus élevés." },
+        { question: "Combien de mots de sept lettres UnscramblWords reconnaît-il en français ?", answer: "10 240, un chiffre tiré directement de notre propre dictionnaire plutôt qu'une estimation." }
+      ]
+    },
 ];

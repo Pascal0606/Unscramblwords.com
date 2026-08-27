@@ -267,4 +267,34 @@ export const tr = [
         { question: "Araç Türkçe dışındaki dillerde de çalışıyor mu?", answer: "Evet, desteklenen 10 dilin tamamında, her biri kendi sözlüğüne göre doğrulanarak çalışır." }
       ]
     },
+    {
+      slug: "capa-harfler-yedi-harfli-kelimeler",
+      title: "Çapa Harfleri Etrafında Oynamak: Tahtaya Gerçekten Uyan 7 Harfli Kelimeler Bulmak",
+      excerpt: "Yedi harfli bir kelime bulmak işin sadece yarısı -- bir de işe yarar bir yere yerleşmesi gerekiyor. İşte gerçekten sayılan hamleler için çapa harflerini prim kareleriyle birleştirme yöntemi.",
+      keyTakeaways: [
+        "Çapa, tahtada zaten bulunan ve yeni kelimenizin üzerine inşa edilebileceği tek bir harftir -- önce birini bulmak aramanızı büyük ölçüde daraltır.",
+        "Bir çapa hamlesini çift veya üç katı kelime karesiyle birleştirmek, aynı yedi harfli kelimenin değerini katlar.",
+        "Kendi sözlüğümüzde tam olarak yedi harften oluşan 6.432 kelime var -- çapa ve uzunluğa göre birlikte arama yapmak bunu kısa, tahtaya özgü bir listeye dönüştürür.",
+        "Yüksek değerli bir harfin (J, Ğ, Ö) kendi prim karesine düşmesi, aynı zamanda 50 puanlık tam Scrabble bonusunu da kazandıran bir kelime içinde gerçekleştiğinde, en büyük tek hamle skorları buradan gelir."
+      ],
+      toc: [
+        { id: "capa-nedir", label: "Çapa Harfi Gerçekte Nedir" },
+        { id: "capa-uzunluk-arama", label: "Çapa ve Uzunluğa Göre Birlikte Arama" },
+        { id: "bonuslari-birlestirmek", label: "Çapa Hamlesini Prim Karesiyle Birleştirmek" }
+      ],
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
+        { type: 'heading', id: "capa-nedir", text: "Çapa Harfi Gerçekte Nedir" },
+        "Çapa, tahtada zaten duran ve yeni kelimenizin üzerinden veya etrafından inşa edilebileceği bir harftir -- boş bir alana oynamanın aksine. Rakınızı bağımsız bir bulmaca gibi ele almak yerine, bir tahta harfini sabit tutar ve doğru pozisyonda o harfin üzerinden geçen yedi harfli kelimeler ararsınız. Bu, 'hangi yedi harfli kelimeleri yapabilirim?' sorusunu çok daha kullanışlı olan 'burada da yerleşecek hangi yedi harfli kelimeleri yapabilirim?' sorusuna dönüştürür.",
+        { type: 'heading', id: "capa-uzunluk-arama", text: "Çapa ve Uzunluğa Göre Birlikte Arama" },
+        "Pratikte: ihtiyacınız olan kelimedeki çapa harfinin pozisyonunu not edin (ilk harf, son harf veya ortada bir yer), rakınızdaki harfleri girin, uzunluk filtresini tam olarak 7'ye ayarlayın ve çapa uçlardan birindeyse \"ile başlayan\" veya \"ile biten\" filtresi ekleyin. Kendi sözlüğümüzde tam olarak yedi harften oluşan 6.432 kelime var -- tahta kısıtlaması olmadan arama yapmak hepsini taramanızı gerektirir, çapa filtresi eklemek ise bunu yalnızca gerçekten oynanabilir hamlelere indirger.",
+        { type: 'heading', id: "bonuslari-birlestirmek", text: "Çapa Hamlesini Prim Karesiyle Birleştirmek" },
+        "Tek hamledeki en büyük skorlar, bonuslardan yalnızca birini kovalamak yerine onları üst üste bindirmekten gelir: yedi harfli bir kelime zaten 50 puanlık sabit tam Scrabble bonusunu kazandırır, ve aynı anda çift veya üç katı kelime karesinden geçerse, bu çarpan 50 puana ek olarak kelimenin tamamına uygulanır. Rakınızda J, Ğ veya Ö gibi yüksek değerli bir harf varsa, ilk bulduğunuz yedi harfli kelimeyle yetinmek yerine, geçerli bir çapa hamlesinin bu belirli harfi kendi prim karesine düşürüp düşürmediğini kontrol etmeye değer."
+      ],
+      faq: [
+        { question: "Çapa ile kanca arasındaki fark nedir?", answer: "Kanca genellikle var olan bir kelimeye tek bir harf ekleyerek yeni bir kelime oluşturmayı ifade eder. Çapa daha geniş bir kavramdır: ister basit bir kanca ister ortadaki bir harften geçen tam bir kelime olsun, yeni kelimenizin üzerinden inşa edildiği herhangi bir tahta harfidir." },
+        { question: "Her zaman prim karesini geçerli bir kelime bulmaya tercih etmeli miyim?", answer: "Her zaman değil -- açık bir alandaki garanti bir tam Scrabble, özellikle torbada harfler azaldığında, mükemmel bir çapayı beklemekten genellikle daha iyidir. Ancak her ikisi de mevcut olduğunda, en yüksek skorlar 50 puanlık bonusu bir kelime veya harf çarpanıyla birleştirmekten gelir." },
+        { question: "UnscramblWords Türkçede kaç tane yedi harfli kelime tanıyor?", answer: "Tahmin değil, doğrudan kendi sözlüğümüzden alınan bir sayı olan 6.432." }
+      ]
+    },
 ];

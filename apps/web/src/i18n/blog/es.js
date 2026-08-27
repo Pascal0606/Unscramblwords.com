@@ -268,4 +268,34 @@ export const es = [
         { question: "¿Funciona esta herramienta en otros idiomas además del español?", answer: "Sí, en los 10 idiomas compatibles, cada uno verificado contra su propio diccionario." }
       ]
     },
+    {
+      slug: "anclas-palabras-siete-letras",
+      title: "Jugar Alrededor de Anclas: Encontrar Palabras de 7 Letras Que Realmente Encajen en el Tablero",
+      excerpt: "Encontrar una palabra de siete letras es solo la mitad del trabajo -- también tiene que encajar en algún sitio útil. Así se combinan las letras ancla con las casillas premium para jugadas que realmente cuentan.",
+      keyTakeaways: [
+        "Un ancla es una letra ya presente en el tablero a partir de la cual puede construirse tu nueva palabra -- encontrar una primero reduce mucho la búsqueda.",
+        "Combinar una jugada de ancla con una casilla de palabra doble o triple multiplica el valor de la misma palabra de siete letras.",
+        "Nuestro propio diccionario tiene 6.449 palabras de exactamente siete letras -- buscar por ancla y longitud a la vez convierte eso en una lista corta y específica del tablero.",
+        "Una letra de alto valor (K, W, X, Ñ) cayendo en su propia casilla premium, dentro de una palabra que también gana el bono de 50 puntos por Scrabble completo, es de donde salen las puntuaciones más altas en un solo turno."
+      ],
+      toc: [
+        { id: "que-es-un-ancla", label: "Qué es Realmente una Letra Ancla" },
+        { id: "buscar-ancla-longitud", label: "Buscar por Ancla y Longitud a la Vez" },
+        { id: "acumular-bonos", label: "Acumular una Jugada de Ancla con una Casilla Premium" }
+      ],
+      body: [
+        "Escrito y verificado por el equipo de UnscramblWords.",
+        { type: 'heading', id: "que-es-un-ancla", text: "Qué es Realmente una Letra Ancla" },
+        "Un ancla es simplemente una letra ya colocada en el tablero a través de la cual, o alrededor de la cual, puede construirse tu nueva palabra -- en lugar de jugar en un espacio abierto. En vez de tratar tu atril como un rompecabezas aislado, fijas una letra del tablero y buscas palabras de siete letras que pasen por ella en la posición correcta. Esto convierte '¿qué palabras de siete letras puedo formar?' en la pregunta mucho más útil de '¿qué palabras de siete letras puedo formar que también encajen aquí?'",
+        { type: 'heading', id: "buscar-ancla-longitud", text: "Buscar por Ancla y Longitud a la Vez" },
+        "En la práctica: identifica la posición de la letra ancla en la palabra que necesitas (primera letra, última letra, o en medio), introduce las letras de tu atril, fija el filtro de longitud en exactamente 7, y añade un filtro de 'empieza por' o 'termina en' para el ancla si cae en uno de los extremos. En nuestro propio diccionario hay exactamente 6.449 palabras de siete letras -- buscar sin ninguna restricción de tablero te deja revisando todas ellas, mientras que añadir el filtro de ancla lo reduce solo a las jugadas realmente posibles.",
+        { type: 'heading', id: "acumular-bonos", text: "Acumular una Jugada de Ancla con una Casilla Premium" },
+        "Las puntuaciones más altas en un solo turno vienen de acumular bonos en lugar de perseguir uno solo: una palabra de siete letras ya gana el bono fijo de 50 puntos por Scrabble completo, y si además atraviesa una casilla de palabra doble o triple al mismo tiempo, ese multiplicador se aplica a toda la palabra además de los 50 puntos. Si tu atril incluye una letra de alto valor como K, W, X o Ñ, vale la pena comprobar si alguna jugada de ancla válida permite que esa letra en concreto caiga en su propia casilla premium, en lugar de conformarte con la primera palabra de siete letras que encuentres."
+      ],
+      faq: [
+        { question: "¿Cuál es la diferencia entre un ancla y un gancho?", answer: "Un gancho suele referirse a añadir una sola letra a una palabra existente para formar una nueva (añadir una S a CASA para hacer CASAS). Un ancla es el concepto más amplio: cualquier letra del tablero a través de la cual se construye tu nueva palabra, ya sea un simple gancho o una palabra entera que pasa por una letra central." },
+        { question: "¿Siempre hay que priorizar una casilla premium sobre simplemente encontrar una palabra válida?", answer: "No siempre -- un Scrabble completo garantizado en un espacio abierto suele ganar a esperar un ancla perfecta, especialmente al final de la bolsa cuando las letras escasean. Pero cuando ambas opciones están disponibles, acumular el bono de 50 puntos con un multiplicador de palabra o letra es de donde salen las puntuaciones más altas." },
+        { question: "¿Cuántas palabras de siete letras reconoce UnscramblWords en español?", answer: "6.449, una cifra extraída directamente de nuestro propio diccionario, no una estimación." }
+      ]
+    },
 ];

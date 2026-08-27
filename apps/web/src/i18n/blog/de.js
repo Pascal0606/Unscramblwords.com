@@ -274,4 +274,34 @@ export const de = [
         { question: "Funktioniert das Tool auch in anderen Sprachen als Deutsch?", answer: "Ja, in allen 10 unterstützten Sprachen, jeweils gegen das eigene Wörterbuch der jeweiligen Sprache geprüft." }
       ]
     },
+    {
+      slug: "ankerbuchstaben-sieben-buchstaben-woerter",
+      title: "Spielen um Ankerbuchstaben: 7-Buchstaben-Wörter Finden, Die Wirklich zum Spielfeld Passen",
+      excerpt: "Ein Wort mit sieben Buchstaben zu finden ist nur die halbe Arbeit -- es muss auch irgendwo sinnvoll landen. So kombinieren Sie Ankerbuchstaben mit Bonusfeldern für Züge, die wirklich zählen.",
+      keyTakeaways: [
+        "Ein Anker ist ein einzelner Buchstabe, der bereits auf dem Spielfeld liegt und von dem aus Ihr neues Wort aufgebaut werden kann -- einen zu finden, verengt die Suche erheblich.",
+        "Die Kombination eines Ankerzugs mit einem Wort-doppelt- oder Wort-dreifach-Feld vervielfacht den Wert desselben Sieben-Buchstaben-Worts.",
+        "Unser eigenes Wörterbuch enthält 4.486 Wörter mit genau sieben Buchstaben -- die Suche nach Anker und Länge zugleich macht daraus eine kurze, feldspezifische Liste.",
+        "Ein hochwertiger Buchstabe (Q, X, Y) auf seinem eigenen Bonusfeld, innerhalb eines Wortes, das zusätzlich den 50-Punkte-Bonus für ein vollständiges Bingo einbringt -- daher stammen die größten Punktzahlen in einem einzigen Zug."
+      ],
+      toc: [
+        { id: "was-ist-ein-anker", label: "Was ein Ankerbuchstabe Wirklich Ist" },
+        { id: "anker-plus-filter", label: "Nach Anker und Länge Zugleich Suchen" },
+        { id: "boni-stapeln", label: "Einen Ankerzug mit einem Bonusfeld Kombinieren" }
+      ],
+      body: [
+        "Verfasst und geprüft vom UnscramblWords-Team.",
+        { type: 'heading', id: "was-ist-ein-anker", text: "Was ein Ankerbuchstabe Wirklich Ist" },
+        "Ein Anker ist einfach ein Buchstabe, der bereits auf dem Spielfeld liegt und durch oder um den herum Ihr neues Wort gebaut werden kann -- im Gegensatz dazu, in freien Raum zu spielen. Statt Ihr Buchstabenset als eigenständiges Rätsel zu behandeln, legen Sie einen Feldbuchstaben fest und suchen nach Sieben-Buchstaben-Wörtern, die an der richtigen Stelle durch ihn hindurchgehen. Das verwandelt die Frage 'Welche Sieben-Buchstaben-Wörter kann ich bilden?' in die viel nützlichere Frage 'Welche Sieben-Buchstaben-Wörter kann ich bilden, die auch hier landen?'",
+        { type: 'heading', id: "anker-plus-filter", text: "Nach Anker und Länge Zugleich Suchen" },
+        "In der Praxis: Notieren Sie die Position des Ankerbuchstabens im benötigten Wort (erster Buchstabe, letzter Buchstabe oder irgendwo in der Mitte), geben Sie Ihre Buchstaben ein, stellen Sie den Längenfilter auf genau 7, und fügen Sie einen 'Beginnt mit'- oder 'Endet mit'-Filter für den Anker hinzu, falls er an einem der beiden Enden liegt. In unserem eigenen Wörterbuch haben genau 4.486 Wörter sieben Buchstaben -- eine Suche ohne Feldeinschränkung lässt Sie durch all diese scrollen, während der Ankerfilter dies auf die wenigen tatsächlich spielbaren Züge reduziert.",
+        { type: 'heading', id: "boni-stapeln", text: "Einen Ankerzug mit einem Bonusfeld Kombinieren" },
+        "Die größten Punktzahlen in einem einzigen Zug entstehen durch das Stapeln von Boni, nicht durch die Jagd auf einen einzelnen: Ein Sieben-Buchstaben-Wort bringt bereits den festen 50-Punkte-Bonus für ein vollständiges Bingo, und wenn es gleichzeitig ein Wort-doppelt- oder Wort-dreifach-Feld durchquert, gilt dieser Multiplikator für das gesamte Wort zusätzlich zu den 50 Punkten. Enthält Ihr Buchstabenset einen hochwertigen Buchstaben wie Q, X oder Y, lohnt es sich zu prüfen, ob ein gültiger Ankerzug diesen bestimmten Buchstaben auf sein eigenes Bonusfeld bringt, statt einfach das erste gefundene Sieben-Buchstaben-Wort zu nehmen."
+      ],
+      faq: [
+        { question: "Was ist der Unterschied zwischen einem Anker und einem Anschluss?", answer: "Ein Anschluss bezeichnet meist das Hinzufügen eines einzelnen Buchstabens zu einem bestehenden Wort, um ein neues zu bilden. Ein Anker ist das breitere Konzept: jeder Feldbuchstabe, durch den Ihr neues Wort aufgebaut wird, egal ob als einfacher Anschluss oder als ganzes Wort durch einen mittleren Buchstaben." },
+        { question: "Sollte man immer ein Bonusfeld einem einfach gültigen Wort vorziehen?", answer: "Nicht immer -- ein sicheres Bingo auf freiem Raum schlägt oft das Warten auf den perfekten Anker, besonders spät im Spiel, wenn Buchstaben knapp werden. Aber wenn beides verfügbar ist, entstehen die höchsten Punktzahlen durch das Stapeln des 50-Punkte-Bonus mit einem Wort- oder Buchstabenmultiplikator." },
+        { question: "Wie viele Sieben-Buchstaben-Wörter erkennt UnscramblWords auf Deutsch?", answer: "4.486, eine Zahl direkt aus unserem eigenen Wörterbuch, keine Schätzung." }
+      ]
+    },
 ];
