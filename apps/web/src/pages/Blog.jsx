@@ -28,9 +28,19 @@ function FaqItem({ question, answer }) {
   );
 }
 
+// Renders a nav link's label. Per Pascal's spec, pure navigation links (Back to
+// Blog, Go to Word Unscrambler) show both the selected language and English,
+// since these cross between different language sections of the site. When the
+// selected language IS English, showing it twice would be redundant, so we
+// only append the English suffix for non-English languages.
+function BilingualLabel({ translated, english, currentLanguage }) {
+  if (currentLanguage === 'en') return translated;
+  return `${translated} / ${english}`;
+}
+
 export function BlogArticle() {
   const { slug } = useParams();
-  const { currentLanguage } = useLanguage();
+  const { currentLanguage, t } = useLanguage();
 
   const articles = blogContent[currentLanguage] || blogContent['en'] || [];
   const article = articles.find(a => a.slug === slug);
@@ -39,9 +49,9 @@ export function BlogArticle() {
     return (
       <div className="min-h-dvh bg-background text-foreground flex items-center justify-center">
         <div className="text-center px-4">
-          <h1 className="text-3xl font-bold mb-4">Article not found</h1>
+          <h1 className="text-3xl font-bold mb-4">{t('blog.articleNotFound')}</h1>
           <Link to={`/${currentLanguage}/blog`} className="text-primary underline">
-            ← Back to Blog
+            ← <BilingualLabel translated={t('blog.backToBlog')} english="Back to Blog" currentLanguage={currentLanguage} />
           </Link>
         </div>
       </div>
@@ -63,14 +73,14 @@ export function BlogArticle() {
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-10"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to Blog
+          <BilingualLabel translated={t('blog.backToBlog')} english="Back to Blog" currentLanguage={currentLanguage} />
         </Link>
 
         <header className="mb-10">
           <div className="flex flex-wrap items-center gap-4 mb-6">
             <span className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-secondary/80 text-secondary-foreground text-xs font-semibold tracking-wide uppercase">
               <Tag className="w-3.5 h-3.5 mr-1.5" />
-              Word Games
+              {t('blog.wordGamesTag')}
             </span>
             <span className="flex items-center text-sm text-muted-foreground font-medium">
               <Calendar className="w-4 h-4 mr-1.5" />
@@ -78,7 +88,7 @@ export function BlogArticle() {
             </span>
             <span className="flex items-center text-sm text-muted-foreground font-medium">
               <Clock className="w-4 h-4 mr-1.5" />
-              {Math.ceil(article.body.join(' ').split(' ').length / 200)} min read
+              {Math.ceil(article.body.join(' ').split(' ').length / 200)} {t('blog.minRead')}
             </span>
           </div>
 
@@ -98,7 +108,7 @@ export function BlogArticle() {
           <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 md:p-8 mb-10">
             <div className="flex items-center gap-2.5 mb-4">
               <Lightbulb className="w-5 h-5 text-primary" />
-              <h2 className="font-bold text-lg text-foreground">Key Takeaways</h2>
+              <h2 className="font-bold text-lg text-foreground">{t('blog.keyTakeaways')}</h2>
             </div>
             <ul className="space-y-2.5">
               {article.keyTakeaways.map((point, i) => (
@@ -116,7 +126,7 @@ export function BlogArticle() {
           <div className="bg-secondary/30 border border-border/40 rounded-2xl p-6 md:p-8 mb-10">
             <div className="flex items-center gap-2.5 mb-4">
               <ListIcon className="w-5 h-5 text-foreground" />
-              <h2 className="font-bold text-lg text-foreground">Table of Contents</h2>
+              <h2 className="font-bold text-lg text-foreground">{t('blog.tableOfContents')}</h2>
             </div>
             <ul className="space-y-2">
               {article.toc.map((entry, i) => (
@@ -159,7 +169,7 @@ export function BlogArticle() {
         {/* FAQ -- only renders if the article provides questions */}
         {article.faq && article.faq.length > 0 && (
           <div className="mt-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Frequently Asked Questions</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">{t('blog.faqHeading')}</h2>
             <div className="space-y-3">
               {article.faq.map((item, i) => (
                 <FaqItem key={i} question={item.question} answer={item.answer} />
@@ -176,13 +186,13 @@ export function BlogArticle() {
             className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary/80 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Blog
+            <BilingualLabel translated={t('blog.backToBlog')} english="Back to Blog" currentLanguage={currentLanguage} />
           </Link>
           <Link
             to={`/${currentLanguage}`}
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            Go to Word Unscrambler →
+            <BilingualLabel translated={t('blog.goToUnscrambler')} english="Go to Word Unscrambler" currentLanguage={currentLanguage} /> →
           </Link>
         </div>
 
@@ -192,11 +202,21 @@ export function BlogArticle() {
 }
 
 export default function Blog() {
-  const { currentLanguage } = useLanguage();
+  const { currentLanguage, t } = useLanguage();
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
 
   const rawArticles = blogContent[currentLanguage] || blogContent['en'] || [];
+
+  // Internal category keys stay in English so slug/title matching below keeps
+  // working regardless of language; only the on-screen label is translated,
+  // via categoryLabels at render time.
+  const categoryLabels = {
+    All: t('blog.categoryAll'),
+    Guides: t('blog.categoryGuides'),
+    Strategy: t('blog.categoryStrategy'),
+    Vocabulary: t('blog.categoryVocabulary')
+  };
 
   const enhancedArticles = useMemo(() => {
     return rawArticles.map((article, index) => {
@@ -210,11 +230,11 @@ export default function Blog() {
       return {
         ...article,
         category,
-        date: date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-        readTime: `${4 + (index % 3)} min read`
+        date: date.toLocaleDateString(t('blog.dateLocale'), { month: 'short', day: 'numeric', year: 'numeric' }),
+        readTime: `${4 + (index % 3)} ${t('blog.minRead')}`
       };
     });
-  }, [rawArticles]);
+  }, [rawArticles, currentLanguage]);
 
   const categories = ['All', ...new Set(enhancedArticles.map(a => a.category))];
 
@@ -231,8 +251,8 @@ export default function Blog() {
   return (
     <div className="min-h-dvh bg-background text-foreground py-16 md:py-24">
       <Helmet>
-        <title>Blog - Word Games & Scrabble Strategies</title>
-        <meta name="description" content="Discover expert strategies, tips, and vocabulary guides to master Scrabble and dominate word games." />
+        <title>{t('blog.pageTitleTag')}</title>
+        <meta name="description" content={t('blog.metaDescription')} />
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -241,10 +261,10 @@ export default function Blog() {
             <BookOpen className="w-8 h-8" />
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-foreground text-balance" style={{ letterSpacing: '-0.02em' }}>
-            Word game strategies & guides
+            {t('blog.pageTitle')}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-            Elevate your gameplay with our comprehensive guides on Scrabble strategies, vocabulary expansion, and competitive tactics.
+            {t('blog.pageDescription')}
           </p>
 
           <div className="w-full max-w-2xl flex flex-col sm:flex-row gap-4 items-center justify-center">
@@ -254,7 +274,7 @@ export default function Blog() {
               </div>
               <input
                 type="text"
-                placeholder="Search articles..."
+                placeholder={t('blog.searchPlaceholder')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-11 pr-10 py-3.5 bg-card border border-input rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-shadow shadow-sm"
@@ -263,7 +283,7 @@ export default function Blog() {
                 <button
                   onClick={() => setSearchQuery('')}
                   className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-muted-foreground hover:text-foreground transition-colors"
-                  aria-label="Clear search"
+                  aria-label={t('blog.clearSearchLabel')}
                 >
                   <X className="h-5 w-5" />
                 </button>
@@ -281,7 +301,7 @@ export default function Blog() {
                     : 'bg-secondary/50 text-secondary-foreground hover:bg-secondary/80'
                   }`}
               >
-                {category}
+                {categoryLabels[category] || category}
               </button>
             ))}
           </div>
@@ -305,7 +325,7 @@ export default function Blog() {
                     <div className="flex flex-wrap items-center gap-4 mb-6 md:mb-8">
                       <span className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-secondary/80 text-secondary-foreground text-xs font-semibold tracking-wide uppercase">
                         <Tag className="w-3.5 h-3.5 mr-1.5" />
-                        {article.category}
+                        {categoryLabels[article.category] || article.category}
                       </span>
                       <span className="flex items-center text-sm text-muted-foreground font-medium">
                         <Calendar className="w-4 h-4 mr-1.5" />
@@ -338,7 +358,7 @@ export default function Blog() {
                         className="inline-flex items-center text-primary font-semibold hover:text-primary/80 transition-colors"
                       >
                         <span className="border-b border-transparent hover:border-primary/50 transition-colors">
-                          Read full article
+                          {t('blog.readFullArticle')}
                         </span>
                         <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-1.5 transition-transform" />
                       </Link>
@@ -352,15 +372,15 @@ export default function Blog() {
               <div className="w-20 h-20 bg-background rounded-full flex items-center justify-center mb-6 shadow-sm border border-border/50">
                 <Search className="w-10 h-10 text-muted-foreground opacity-60" />
               </div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-3 text-foreground">No articles found</h2>
+              <h2 className="text-2xl md:text-3xl font-bold mb-3 text-foreground">{t('blog.noArticlesFound')}</h2>
               <p className="text-lg text-muted-foreground max-w-md mb-8">
-                We could not find any articles matching your search.
+                {t('blog.noArticlesFoundDesc')}
               </p>
               <button
                 onClick={() => { setSearchQuery(''); setActiveCategory('All'); }}
                 className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors active:scale-[0.98]"
               >
-                Clear filters
+                {t('blog.clearFilters')}
               </button>
             </div>
           )}
