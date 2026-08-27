@@ -322,4 +322,34 @@ export const en = [
         { question: "Does UnscramblWords work for languages other than English?", answer: "Yes, across all 10 supported languages, each checked against that language's own dictionary rather than a single shared word list." }
       ]
     },
+    {
+      slug: "anchor-letters-seven-letter-words",
+      title: "Playing Around Anchors: Finding 7-Letter Words That Actually Fit Your Board",
+      excerpt: "Finding a seven-letter word is only half the job -- it has to land somewhere useful too. Here's how to combine anchor letters with premium squares for plays that count.",
+      keyTakeaways: [
+        "An anchor is a single letter already on the board that your new word can build from -- finding one first narrows your search dramatically.",
+        "Combining an anchor play with a double or triple word square multiplies the value of the same seven-letter word.",
+        "Our own dictionary has 23,109 words of exactly seven letters -- searching by anchor and length together turns that into a short, board-specific list.",
+        "A high-value letter (Q, X, Z) landing on its own premium square, inside a word that also earns the 50-point Bingo bonus, is where the biggest single-turn scores come from."
+      ],
+      toc: [
+        { id: "what-is-an-anchor", label: "What an Anchor Letter Actually Is" },
+        { id: "anchor-plus-filter", label: "Searching by Anchor and Length Together" },
+        { id: "stacking-bonuses", label: "Stacking an Anchor Play with a Premium Square" }
+      ],
+      body: [
+        "Written and reviewed by the UnscramblWords Team.",
+        { type: 'heading', id: "what-is-an-anchor", text: "What an Anchor Letter Actually Is" },
+        "An anchor is simply a letter already sitting on the board that your new word can be built through or around -- as opposed to playing into open space. Rather than treating your rack as a standalone puzzle, you treat one board letter as fixed and search for seven-letter words that pass through it in the right position. This turns 'what seven-letter words can I make?' into the more useful question 'what seven-letter words can I make that also land here?'",
+        { type: 'heading', id: "anchor-plus-filter", text: "Searching by Anchor and Length Together" },
+        "In practice: note the anchor letter's position in the word you need (first letter, last letter, or somewhere in the middle), enter your rack letters, set the length filter to exactly 7, and add a starts-with or ends-with filter for the anchor if it falls at either end. In our own dictionary, 23,109 words are exactly seven letters long -- searching without any board constraint leaves you scrolling through all of them, while adding the anchor filter cuts that down to only the handful that could physically be played.",
+        { type: 'heading', id: "stacking-bonuses", text: "Stacking an Anchor Play with a Premium Square" },
+        "The biggest single-turn scores come from stacking bonuses rather than chasing any one of them alone: a seven-letter word already earns the flat 50-point Bingo bonus, and if it happens to pass through a double or triple word square at the same time, that multiplier applies to the whole word on top of the 50 points. If your rack includes a high-value letter like Q, X, or Z, it's worth checking whether any valid anchor play lets that specific letter land on its own premium square, rather than just taking the first seven-letter word you find."
+      ],
+      faq: [
+        { question: "What's the difference between an anchor and a hook?", answer: "A hook usually refers to adding one letter to an existing word to form a new one (adding S to CORE for CORES). An anchor is the broader concept -- any board letter your new word is built through, whether that's a single-letter hook or a full word passing through a middle letter." },
+        { question: "Should I always prioritize a premium square over just finding any valid word?", answer: "Not always -- a guaranteed Bingo on an open space often beats holding out for a perfect anchor match, especially late in the bag when tiles are scarce. But when both are available, stacking the 50-point bonus with a word or letter multiplier is where the largest scores come from." },
+        { question: "How many seven-letter words does UnscramblWords recognize in English?", answer: "23,109, a number pulled directly from our own dictionary rather than an estimate." }
+      ]
+    },
 ];
