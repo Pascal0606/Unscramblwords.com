@@ -51,7 +51,7 @@ export function BlogArticle() {
         <div className="text-center px-4">
           <h1 className="text-3xl font-bold mb-4">{t('blog.articleNotFound')}</h1>
           <Link to={`/${currentLanguage}/blog`} className="text-primary underline">
-            ← <BilingualLabel translated={t('blog.backToBlog')} english="Back to Blog" currentLanguage={currentLanguage} />
+            ← {t('blog.backToBlog')}
           </Link>
         </div>
       </div>
@@ -73,7 +73,7 @@ export function BlogArticle() {
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-10"
         >
           <ArrowLeft className="w-4 h-4" />
-          <BilingualLabel translated={t('blog.backToBlog')} english="Back to Blog" currentLanguage={currentLanguage} />
+          {t('blog.backToBlog')}
         </Link>
 
         <header className="mb-10">
@@ -186,7 +186,7 @@ export function BlogArticle() {
             className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary/80 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            <BilingualLabel translated={t('blog.backToBlog')} english="Back to Blog" currentLanguage={currentLanguage} />
+            {t('blog.backToBlog')}
           </Link>
           <Link
             to={`/${currentLanguage}`}
@@ -256,6 +256,14 @@ export default function Blog() {
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Link
+          to={`/${currentLanguage}`}
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          <BilingualLabel translated={t('blog.goToUnscrambler')} english="Go to Word Unscrambler" currentLanguage={currentLanguage} />
+        </Link>
+
         <header className="mb-16 md:mb-20 flex flex-col items-center text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center justify-center p-3.5 bg-primary/10 text-primary rounded-2xl mb-8 ring-1 ring-primary/20">
             <BookOpen className="w-8 h-8" />
