@@ -75,7 +75,7 @@ export const tr = [
       body: [
         "Scrabble'da tek bir turda tüm yedi harfi oynamak 'bingo' olarak adlandırılır. Bu başarı, kelimenin nominal değerinin üzerine 50 puanlık bir bonus kazandırır ve oyundaki en güçlü hamlelerden biri hâline gelir.",
         "Bingo yapmaya en elverişli taşlar, E, A, R, S, T, I, N, O ve L gibi yaygın harflerdir. Bu harflerin kombinasyonlarını içeren eller, yedi harfli kelimeler oluşturma olasılığı en yüksek olanlardır.",
-        "Bilmeniz gereken en kullanışlı yedi harfli bingo kelimeleri arasında NASTIER, RETAINS, SENATOR, STAINER ve ORNATES sayılabilir; bunların pek çoğu aynı harfleri paylaşır ve anagram grupları hâlinde ezberlenebilir.",
+        "Kendi Türkçe sözlüğümüzde tam olarak yedi harften oluşan 6.432 kelime bulunuyor. Türkçenin eklemeli yapısı sayesinde GÖZLÜĞÜ (onun gözlüğü) ve DÖVÜŞÇÜ (dövüşçü) gibi gerçek kelimeler kolayca yedi harfe ulaşır — İngilizceden ödünç alınmış anagramlar değil, doğrulanmış gerçek kelimeler.",
         "Anagram grupları özellikle değerlidir. A, E, I, N, R, S ve T harfleri birçok farklı düzenlemede geçerli kelimeler oluşturabilir. Bu kelimelerden birini ezberlemek, tüm anagramlarına erişim sağlar.",
         "Boş taş, bingo için en büyük müttefikinizdir. Boş taş herhangi bir harfin yerine geçebilir ve elinizden olası bingo kombinasyonlarının çeşitliliğini büyük ölçüde artırır.",
         "Scrabble analiz programları gibi yazılım araçları, bingo olasılığını incelemenize yardımcı olabilir. Çeşitli harf kombinasyonlarını girerek hangi ellerin en yüksek bingo potansiyeli sunduğunu keşfedebilirsiniz.",

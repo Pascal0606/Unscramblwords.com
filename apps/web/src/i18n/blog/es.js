@@ -75,7 +75,7 @@ export const es = [
       body: [
         "En el Scrabble, jugar todas las siete letras en un solo turno se denomina «scrabble». Esta proeza le otorga un bono de 50 puntos además del valor nominal de la palabra, convirtiéndola en una de las jugadas más poderosas del juego.",
         "Las fichas más favorables para los scrabbles son las letras comunes E, A, R, S, T, I, N, O y L. Los conjuntos que contienen combinaciones de estas letras ofrecen la mayor probabilidad de formar palabras de siete letras.",
-        "Entre las palabras de siete letras más útiles para los scrabbles en español se encuentran RETINAS, SATIREN, ENTERAS, SENATOR y RATEIOS — muchas de las cuales comparten las mismas letras y pueden memorizarse en grupos de anagramas.",
+        "En nuestro propio diccionario español hay 6.449 palabras de exactamente siete letras. Entre las más útiles y reconocibles: AJEDREZ (ajedrez, un clásico), RIQUEZA (riqueza) y HAZAÑAS (hazañas) — palabras reales del uso diario, verificadas directamente en nuestro diccionario.",
         "Los grupos de anagramas son particularmente valiosos. Las letras A, E, I, N, R, S y T pueden ordenarse de muchas formas diferentes para formar palabras válidas. Memorizar una de estas palabras le da efectivamente acceso a todos sus anagramas.",
         "El sufijo -CIÓN es extremadamente productivo para los scrabbles en español. Cualquier raíz de seis letras que acepte -CIÓN se convierte en una potencial jugada de siete letras.",
         "La ficha en blanco es su mayor aliada para los scrabbles. Una ficha en blanco puede sustituir a cualquier letra, aumentando enormemente la gama de posibles combinaciones de scrabble en su conjunto.",

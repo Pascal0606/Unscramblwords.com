@@ -75,7 +75,7 @@ export const it = [
       body: [
         "Allo Scarabeo, giocare tutte e sette le lettere in un unico turno si chiama 'scarabeo'. Questa impresa vi fa guadagnare un bonus di 50 punti oltre al valore nominale della parola, rendendola una delle mosse più potenti nel gioco.",
         "Le tessere più favorevoli agli scarabei sono le lettere comuni E, A, R, S, T, I, N, O e L. I set contenenti combinazioni di queste lettere offrono la maggiore probabilità di formare parole di sette lettere.",
-        "Tra le parole di sette lettere per lo scarabeo più utili da conoscere in italiano troviamo NASTIER, RETAINS, SENATOR, STAINER e ORNATES — molte delle quali condividono le stesse lettere e possono essere memorizzate in gruppi di anagrammi.",
+        "Nel nostro dizionario italiano ci sono 6.100 parole di esattamente sette lettere. Tra le più utili: AGGEGGI (aggeggi, informale ma reale), PUPAZZO (pupazzo) e SCHIZZO (schizzo) — parole vere e verificate, non anagrammi presi in prestito dall'inglese.",
         "I gruppi di anagrammi sono particolarmente preziosi. Le lettere A, E, I, N, R, S e T possono essere disposte in molti modi diversi per formare parole valide. Memorizzarne una vi dà effettivamente accesso a tutti i suoi anagrammi.",
         "Il suffisso -ZIONE è estremamente produttivo per gli scarabei in italiano. Qualsiasi radice di sei lettere che accetti -ZIONE diventa una potenziale giocata di sette lettere.",
         "La tessera jolly è la vostra migliore alleata per gli scarabei. Un jolly può sostituire qualsiasi lettera, aumentando notevolmente la gamma di possibili combinazioni di scarabeo nel vostro set.",

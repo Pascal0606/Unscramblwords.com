@@ -75,7 +75,7 @@ export const de = [
       body: [
         "Beim Scrabble bedeutet das Spielen aller sieben Buchstaben in einem einzigen Zug ein sogenanntes 'Bingo'. Dieser Coup bringt Ihnen einen Bonus von 50 Punkten zusätzlich zum Nennwert des Wortes, was es zu einem der stärksten Züge im Spiel macht.",
         "Die bingo-freundlichsten Buchstaben sind die häufigen Buchstaben E, A, R, S, T, I, N, O und L. Buchstabengestelle mit Kombinationen dieser Buchstaben bieten die größte Wahrscheinlichkeit, Sieben-Buchstaben-Wörter zu bilden.",
-        "Zu den nützlichsten Sieben-Buchstaben-Bingo-Wörtern im Deutschen gehören NASTIER, RETAINS, SENATOR, STAINER und ORNATES — viele davon sind aus den gleichen häufigen Buchstaben aufgebaut.",
+        "In unserem eigenen deutschen Wörterbuch gibt es 4.486 Wörter mit genau sieben Buchstaben. Zu den höchstbewerteten zählen PLAYBOY (ein im Duden anerkanntes Wort, kein reiner Markenname), KÜHLBOX und PYJAMAS — echte, alltägliche Wörter statt seltener Fachbegriffe.",
         "Anagramm-Gruppen sind besonders wertvoll. Die Buchstaben A, E, I, N, R, S und T können in vielen verschiedenen Anordnungen gültige Wörter ergeben. Ein solches Wort zu memorieren gibt Ihnen effektiv Zugang zu all seinen Anagrammen.",
         "Die Nachsilbe -UNG ist für Bingos im Deutschen äußerst produktiv. Jeder Sechsbuchstaben-Wortstamm, der -UNG akzeptiert, wird zu einem potenziellen Sieben-Buchstaben-Zug.",
         "Der Blankstein ist Ihr größter Bingo-Verbündeter. Ein Blankstein kann jeden Buchstaben ersetzen und erhöht die Bandbreite möglicher Bingo-Kombinationen in Ihrem Gestell erheblich.",
