@@ -71,7 +71,33 @@ export const translations = {
       s3Step4Desc: "Results are ordered by length, points, or alphabetically based on your preference.",
       s3TipsTitle: "Tips for Best Results",
       s3TipsDesc: "Use a combination of filters and try different dictionaries to conquer the toughest puzzles."
+    },
+    blog: {
+      backToBlog: "Back to Blog",
+      goToUnscrambler: "Go to Word Unscrambler",
+      pageTitle: "Word game strategies & guides",
+      pageTitleTag: "Blog - Word Games & Scrabble Strategies",
+      pageDescription: "Elevate your gameplay with our comprehensive guides on Scrabble strategies, vocabulary expansion, and competitive tactics.",
+      metaDescription: "Discover expert strategies, tips, and vocabulary guides to master Scrabble and dominate word games.",
+      searchPlaceholder: "Search articles...",
+      clearSearchLabel: "Clear search",
+      categoryAll: "All",
+      categoryGuides: "Guides",
+      categoryStrategy: "Strategy",
+      categoryVocabulary: "Vocabulary",
+      readFullArticle: "Read full article",
+      minRead: "min read",
+      keyTakeaways: "Key Takeaways",
+      tableOfContents: "Table of Contents",
+      faqHeading: "Frequently Asked Questions",
+      wordGamesTag: "Word Games",
+      articleNotFound: "Article not found",
+      noArticlesFound: "No articles found",
+      noArticlesFoundDesc: "We could not find any articles matching your search.",
+      clearFilters: "Clear filters",
+      dateLocale: "en-US"
     }
+
   },
   es: {
     ui: {
@@ -145,7 +171,33 @@ export const translations = {
       s3Step4Desc: "Los resultados se ordenan por longitud o puntos.",
       s3TipsTitle: "Consejos para Mejores Resultados",
       s3TipsDesc: "Usa una combinación de filtros y diccionarios para resolver los rompecabezas más difíciles."
+    },
+    blog: {
+      backToBlog: "Volver al Blog",
+      goToUnscrambler: "Ir al Descifrador de Palabras",
+      pageTitle: "Estrategias y guías de juegos de palabras",
+      pageTitleTag: "Blog - Juegos de Palabras y Estrategias de Scrabble",
+      pageDescription: "Mejora tu juego con nuestras guías completas sobre estrategias de Scrabble, ampliación de vocabulario y tácticas competitivas.",
+      metaDescription: "Descubre estrategias expertas, consejos y guías de vocabulario para dominar el Scrabble y los juegos de palabras.",
+      searchPlaceholder: "Buscar artículos...",
+      clearSearchLabel: "Borrar búsqueda",
+      categoryAll: "Todos",
+      categoryGuides: "Guías",
+      categoryStrategy: "Estrategia",
+      categoryVocabulary: "Vocabulario",
+      readFullArticle: "Leer artículo completo",
+      minRead: "min de lectura",
+      keyTakeaways: "Puntos Clave",
+      tableOfContents: "Índice",
+      faqHeading: "Preguntas Frecuentes",
+      wordGamesTag: "Juegos de Palabras",
+      articleNotFound: "Artículo no encontrado",
+      noArticlesFound: "No se encontraron artículos",
+      noArticlesFoundDesc: "No pudimos encontrar artículos que coincidan con tu búsqueda.",
+      clearFilters: "Borrar filtros",
+      dateLocale: "es-ES"
     }
+
   },
   fr: {
     ui: {
@@ -219,7 +271,33 @@ export const translations = {
       s3Step4Desc: "Les résultats sont classés par longueur ou points.",
       s3TipsTitle: "Conseils pour les Meilleurs Résultats",
       s3TipsDesc: "Utilisez une combinaison de filtres pour résoudre les puzzles les plus difficiles."
+    },
+    blog: {
+      backToBlog: "Retour au Blog",
+      goToUnscrambler: "Aller au Déchiffreur de Mots",
+      pageTitle: "Stratégies et guides pour les jeux de mots",
+      pageTitleTag: "Blog - Jeux de Mots et Stratégies de Scrabble",
+      pageDescription: "Améliorez votre jeu grâce à nos guides complets sur les stratégies de Scrabble, l'enrichissement du vocabulaire et les tactiques compétitives.",
+      metaDescription: "Découvrez des stratégies d'experts, des astuces et des guides de vocabulaire pour maîtriser le Scrabble et dominer les jeux de mots.",
+      searchPlaceholder: "Rechercher des articles...",
+      clearSearchLabel: "Effacer la recherche",
+      categoryAll: "Tous",
+      categoryGuides: "Guides",
+      categoryStrategy: "Stratégie",
+      categoryVocabulary: "Vocabulaire",
+      readFullArticle: "Lire l'article complet",
+      minRead: "min de lecture",
+      keyTakeaways: "Points Clés",
+      tableOfContents: "Table des Matières",
+      faqHeading: "Questions Fréquentes",
+      wordGamesTag: "Jeux de Mots",
+      articleNotFound: "Article introuvable",
+      noArticlesFound: "Aucun article trouvé",
+      noArticlesFoundDesc: "Nous n'avons trouvé aucun article correspondant à votre recherche.",
+      clearFilters: "Effacer les filtres",
+      dateLocale: "fr-FR"
     }
+
   },
   de: {
     ui: {
@@ -293,7 +371,33 @@ export const translations = {
       s3Step4Desc: "Ergebnisse werden nach Länge oder Punkten sortiert.",
       s3TipsTitle: "Tipps für beste Ergebnisse",
       s3TipsDesc: "Nutze eine Kombination aus Filtern für die schwersten Rätsel."
+    },
+    blog: {
+      backToBlog: "Zurück zum Blog",
+      goToUnscrambler: "Zum Wort-Entschlüsseler",
+      pageTitle: "Strategien und Ratgeber für Wortspiele",
+      pageTitleTag: "Blog - Wortspiele und Scrabble-Strategien",
+      pageDescription: "Verbessern Sie Ihr Spiel mit unseren umfassenden Ratgebern zu Scrabble-Strategien, Wortschatzerweiterung und Wettkampftaktiken.",
+      metaDescription: "Entdecken Sie Expertenstrategien, Tipps und Wortschatz-Ratgeber, um Scrabble zu meistern und Wortspiele zu dominieren.",
+      searchPlaceholder: "Artikel durchsuchen...",
+      clearSearchLabel: "Suche löschen",
+      categoryAll: "Alle",
+      categoryGuides: "Ratgeber",
+      categoryStrategy: "Strategie",
+      categoryVocabulary: "Wortschatz",
+      readFullArticle: "Ganzen Artikel lesen",
+      minRead: "Min. Lesezeit",
+      keyTakeaways: "Kernpunkte",
+      tableOfContents: "Inhaltsverzeichnis",
+      faqHeading: "Häufig gestellte Fragen",
+      wordGamesTag: "Wortspiele",
+      articleNotFound: "Artikel nicht gefunden",
+      noArticlesFound: "Keine Artikel gefunden",
+      noArticlesFoundDesc: "Wir konnten keine Artikel finden, die Ihrer Suche entsprechen.",
+      clearFilters: "Filter zurücksetzen",
+      dateLocale: "de-DE"
     }
+
   },
   pt: {
     ui: {
@@ -367,7 +471,33 @@ export const translations = {
       s3Step4Desc: "Resultados são ordenados por tamanho ou pontos.",
       s3TipsTitle: "Dicas para Melhores Resultados",
       s3TipsDesc: "Use uma combinação de filtros para resolver os quebra-cabeças mais difíceis."
+    },
+    blog: {
+      backToBlog: "Voltar ao Blog",
+      goToUnscrambler: "Ir para o Decifrador de Palavras",
+      pageTitle: "Estratégias e guias para jogos de palavras",
+      pageTitleTag: "Blog - Jogos de Palavras e Estratégias de Scrabble",
+      pageDescription: "Melhore o seu jogo com os nossos guias completos sobre estratégias de Scrabble, ampliação de vocabulário e táticas competitivas.",
+      metaDescription: "Descubra estratégias especializadas, dicas e guias de vocabulário para dominar o Scrabble e os jogos de palavras.",
+      searchPlaceholder: "Pesquisar artigos...",
+      clearSearchLabel: "Limpar pesquisa",
+      categoryAll: "Todos",
+      categoryGuides: "Guias",
+      categoryStrategy: "Estratégia",
+      categoryVocabulary: "Vocabulário",
+      readFullArticle: "Ler artigo completo",
+      minRead: "min de leitura",
+      keyTakeaways: "Pontos-Chave",
+      tableOfContents: "Índice",
+      faqHeading: "Perguntas Frequentes",
+      wordGamesTag: "Jogos de Palavras",
+      articleNotFound: "Artigo não encontrado",
+      noArticlesFound: "Nenhum artigo encontrado",
+      noArticlesFoundDesc: "Não encontrámos nenhum artigo correspondente à sua pesquisa.",
+      clearFilters: "Limpar filtros",
+      dateLocale: "pt-PT"
     }
+
   },
   it: {
     ui: {
@@ -442,7 +572,33 @@ export const translations = {
       s3Step4Desc: "I risultati sono ordinati per lunghezza o punti.",
       s3TipsTitle: "Consigli per i Migliori Risultati",
       s3TipsDesc: "Usa una combinazione di filtri per i puzzle più difficili."
+    },
+    blog: {
+      backToBlog: "Torna al Blog",
+      goToUnscrambler: "Vai al Decifratore di Parole",
+      pageTitle: "Strategie e guide per i giochi di parole",
+      pageTitleTag: "Blog - Giochi di Parole e Strategie per lo Scarabeo",
+      pageDescription: "Migliora il tuo gioco con le nostre guide complete su strategie per lo Scarabeo, ampliamento del vocabolario e tattiche competitive.",
+      metaDescription: "Scopri strategie esperte, consigli e guide di vocabolario per padroneggiare lo Scarabeo e dominare i giochi di parole.",
+      searchPlaceholder: "Cerca articoli...",
+      clearSearchLabel: "Cancella ricerca",
+      categoryAll: "Tutti",
+      categoryGuides: "Guide",
+      categoryStrategy: "Strategia",
+      categoryVocabulary: "Vocabolario",
+      readFullArticle: "Leggi l'articolo completo",
+      minRead: "min di lettura",
+      keyTakeaways: "Punti Chiave",
+      tableOfContents: "Indice",
+      faqHeading: "Domande Frequenti",
+      wordGamesTag: "Giochi di Parole",
+      articleNotFound: "Articolo non trovato",
+      noArticlesFound: "Nessun articolo trovato",
+      noArticlesFoundDesc: "Non abbiamo trovato articoli corrispondenti alla tua ricerca.",
+      clearFilters: "Cancella filtri",
+      dateLocale: "it-IT"
     }
+
   },
   tr: {
     ui: {
@@ -517,7 +673,33 @@ export const translations = {
       s3Step4Desc: "Sonuçlar uzunluk veya puana göre sıralanır.",
       s3TipsTitle: "En İyi Sonuçlar İçin İpuçları",
       s3TipsDesc: "En zor bulmacaları fethetmek için filtre kombinasyonları kullanın."
+    },
+    blog: {
+      backToBlog: "Bloga Dön",
+      goToUnscrambler: "Kelime Çözücüye Git",
+      pageTitle: "Kelime oyunu stratejileri ve rehberleri",
+      pageTitleTag: "Blog - Kelime Oyunları ve Scrabble Stratejileri",
+      pageDescription: "Scrabble stratejileri, kelime dağarcığı geliştirme ve rekabetçi taktikler hakkındaki kapsamlı rehberlerimizle oyununuzu geliştirin.",
+      metaDescription: "Scrabble'da ustalaşmak ve kelime oyunlarına hakim olmak için uzman stratejiler, ipuçları ve kelime dağarcığı rehberleri keşfedin.",
+      searchPlaceholder: "Makalelerde ara...",
+      clearSearchLabel: "Aramayı temizle",
+      categoryAll: "Tümü",
+      categoryGuides: "Rehberler",
+      categoryStrategy: "Strateji",
+      categoryVocabulary: "Kelime Dağarcığı",
+      readFullArticle: "Makalenin tamamını oku",
+      minRead: "dk okuma",
+      keyTakeaways: "Önemli Noktalar",
+      tableOfContents: "İçindekiler",
+      faqHeading: "Sıkça Sorulan Sorular",
+      wordGamesTag: "Kelime Oyunları",
+      articleNotFound: "Makale bulunamadı",
+      noArticlesFound: "Makale bulunamadı",
+      noArticlesFoundDesc: "Aramanızla eşleşen herhangi bir makale bulamadık.",
+      clearFilters: "Filtreleri temizle",
+      dateLocale: "tr-TR"
     }
+
   },
   ru: {
     ui: {
@@ -591,7 +773,33 @@ export const translations = {
       s3Step4Desc: "Результаты сортируются по длине или очкам.",
       s3TipsTitle: "Советы для лучших результатов",
       s3TipsDesc: "Используйте комбинацию фильтров для самых сложных головоломок."
+    },
+    blog: {
+      backToBlog: "Назад к блогу",
+      goToUnscrambler: "Перейти к Расшифровщику Слов",
+      pageTitle: "Стратегии и руководства по словесным играм",
+      pageTitleTag: "Блог - Словесные игры и стратегии Скрэббла",
+      pageDescription: "Улучшите свою игру с помощью наших подробных руководств по стратегиям Скрэббла, расширению словарного запаса и соревновательной тактике.",
+      metaDescription: "Откройте для себя экспертные стратегии, советы и руководства по словарному запасу, чтобы освоить Скрэббл и превзойти всех в словесных играх.",
+      searchPlaceholder: "Поиск статей...",
+      clearSearchLabel: "Очистить поиск",
+      categoryAll: "Все",
+      categoryGuides: "Руководства",
+      categoryStrategy: "Стратегия",
+      categoryVocabulary: "Словарный запас",
+      readFullArticle: "Читать статью полностью",
+      minRead: "мин. чтения",
+      keyTakeaways: "Основные Выводы",
+      tableOfContents: "Содержание",
+      faqHeading: "Часто Задаваемые Вопросы",
+      wordGamesTag: "Словесные Игры",
+      articleNotFound: "Статья не найдена",
+      noArticlesFound: "Статьи не найдены",
+      noArticlesFoundDesc: "Мы не смогли найти статьи, соответствующие вашему запросу.",
+      clearFilters: "Очистить фильтры",
+      dateLocale: "ru-RU"
     }
+
   },
   pl: {
     ui: {
@@ -666,7 +874,33 @@ export const translations = {
       s3Step4Desc: "Wyniki są uporządkowane według długości, liczby punktów lub alfabetycznie, zgodnie z preferencjami.",
       s3TipsTitle: "Wskazówki dla najlepszych wyników",
       s3TipsDesc: "Korzystaj z kombinacji filtrów i wypróbuj różne słowniki, aby poradzić sobie z najtrudniejszymi łamigłówkami."
+    },
+    blog: {
+      backToBlog: "Powrót do Bloga",
+      goToUnscrambler: "Przejdź do Rozszyfrowywacza Słów",
+      pageTitle: "Strategie i poradniki do gier słownych",
+      pageTitleTag: "Blog - Gry Słowne i Strategie Scrabble",
+      pageDescription: "Popraw swoją grę dzięki naszym kompleksowym poradnikom dotyczącym strategii Scrabble, poszerzania słownictwa i taktyk konkurencyjnych.",
+      metaDescription: "Odkryj eksperckie strategie, wskazówki i poradniki słownictwa, aby opanować Scrabble i zdominować gry słowne.",
+      searchPlaceholder: "Szukaj artykułów...",
+      clearSearchLabel: "Wyczyść wyszukiwanie",
+      categoryAll: "Wszystkie",
+      categoryGuides: "Poradniki",
+      categoryStrategy: "Strategia",
+      categoryVocabulary: "Słownictwo",
+      readFullArticle: "Przeczytaj cały artykuł",
+      minRead: "min czytania",
+      keyTakeaways: "Kluczowe Wnioski",
+      tableOfContents: "Spis Treści",
+      faqHeading: "Najczęściej Zadawane Pytania",
+      wordGamesTag: "Gry Słowne",
+      articleNotFound: "Nie znaleziono artykułu",
+      noArticlesFound: "Nie znaleziono artykułów",
+      noArticlesFoundDesc: "Nie znaleźliśmy żadnych artykułów pasujących do Twojego wyszukiwania.",
+      clearFilters: "Wyczyść filtry",
+      dateLocale: "pl-PL"
     }
+
   },
   ar: {
     ui: {
@@ -739,6 +973,32 @@ export const translations = {
       s3Step4Desc: "يتم ترتيب النتائج حسب الطول أو النقاط.",
       s3TipsTitle: "نصائح لأفضل النتائج",
       s3TipsDesc: "استخدم مزيجاً من الفلاتر لحل أصعب الألغاز."
+    },
+    blog: {
+      backToBlog: "العودة إلى المدونة",
+      goToUnscrambler: "الذهاب إلى مفكك الكلمات",
+      pageTitle: "استراتيجيات وأدلة ألعاب الكلمات",
+      pageTitleTag: "المدونة - ألعاب الكلمات واستراتيجيات سكرابل",
+      pageDescription: "طوّر مستوى لعبك من خلال أدلتنا الشاملة حول استراتيجيات سكرابل، وتوسيع المفردات، والتكتيكات التنافسية.",
+      metaDescription: "اكتشف استراتيجيات الخبراء والنصائح وأدلة المفردات لإتقان سكرابل والتفوق في ألعاب الكلمات.",
+      searchPlaceholder: "البحث في المقالات...",
+      clearSearchLabel: "مسح البحث",
+      categoryAll: "الكل",
+      categoryGuides: "أدلة",
+      categoryStrategy: "استراتيجية",
+      categoryVocabulary: "المفردات",
+      readFullArticle: "قراءة المقال كاملاً",
+      minRead: "دقيقة قراءة",
+      keyTakeaways: "أبرز النقاط",
+      tableOfContents: "جدول المحتويات",
+      faqHeading: "الأسئلة الشائعة",
+      wordGamesTag: "ألعاب الكلمات",
+      articleNotFound: "المقال غير موجود",
+      noArticlesFound: "لم يتم العثور على مقالات",
+      noArticlesFoundDesc: "لم نتمكن من العثور على أي مقالات تطابق بحثك.",
+      clearFilters: "مسح الفلاتر",
+      dateLocale: "ar"
     }
+
   }
 };
