@@ -236,4 +236,41 @@ export const tr = [
         "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı üzerine."
       ]
     },
+    {
+      slug: 'j-ile-baslayan-kelimeler',
+      title: 'J ile Başlayan Kelimeler: Türkçe Scrabble\'ın En Değerli Harfi',
+      excerpt: 'J, Türkçe Scrabble\'da 10 puan değerinde — oyunun en yüksek puanlı harfi. İşte gerçek sözlüğümüzden doğrulanmış, gerçekten oynanabilir kelimelerle bu harfi nasıl değerlendirebileceğiniz.',
+      keyTakeaways: [
+        "J harfi Türkçe Scrabble'da 10 puan değerinde — oyundaki en yüksek değer.",
+        "JÜRİ ve JAMBON gibi günlük kelimeler J'nin sadece yabancı kökenli nadir bir harf olmadığını gösteriyor.",
+        "JEOLOJİ ve JAPONCA tam olarak 7 harf uzunluğunda gerçek örnekler — tam bir \"Bingo\".",
+        "\"İle Başlayan\" filtresi, tahmin etmeden anında her geçerli J kelimesini bulur."
+      ],
+      toc: [
+        { id: 'neden-j-degerli', label: 'J Harfi Neden Bu Kadar Değerli' },
+        { id: 'kisa-j-kelimeleri', label: 'Kısa J Kelimeleri' },
+        { id: 'orta-j-kelimeleri', label: 'Orta Uzunlukta J Kelimeleri' },
+        { id: 'uzun-j-kelimeleri', label: 'Uzun Kelimeler ve Tam Bingo' },
+        { id: 'j-kelime-bulma', label: 'UnscramblWords ile J Kelimeleri Bulma' }
+      ],
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
+        { type: 'heading', id: 'neden-j-degerli', text: 'J Harfi Neden Bu Kadar Değerli' },
+        "Türk alfabesinde Q, W ve X harfleri bulunmaz — bu yüzden Türkçe Scrabble'da en nadir ve en değerli harf J'dir: 10 puan, oyundaki en yüksek değer. Kendi sözlüğümüzde 42.745 kelimeden sadece 41'i J ile başlıyor.",
+        { type: 'heading', id: 'kisa-j-kelimeleri', text: 'Kısa J Kelimeleri' },
+        "JEL, JET ve JÜRİ dört harfe kadar olan sağlam seçeneklerdir. JÜRİ (bir yarışmada karar veren kurul) günlük konuşmada sıkça karşılaşılan bir kelimedir.",
+        { type: 'heading', id: 'orta-j-kelimeleri', text: 'Orta Uzunlukta J Kelimeleri' },
+        "JAMBON (bir tür işlenmiş et) ve JAGUAR (hayvan) altı harfli, tanıdık kelimelerdir. JETON, bir metro veya otobüs jetonu anlamına gelir ve beş harfle sağlam bir seçenektir.",
+        { type: 'heading', id: 'uzun-j-kelimeleri', text: 'Uzun Kelimeler ve Tam Bingo' },
+        "Tam bir Bingo için (rakınızdaki yedi harfin tamamını kullanarak 50 puan bonusu kazanmak), JEOLOJİ (yer bilimi) ve JAPONCA (Japon dili) tam olarak yedi harften oluşan gerçek, doğrulanmış kelimelerdir — belirsiz teknik terimler değil.",
+        { type: 'heading', id: 'j-kelime-bulma', text: 'UnscramblWords ile J Kelimeleri Bulma' },
+        "Bu listeyi oyun sırasında hafızadan hatırlamaya çalışmak yerine, \"İle Başlayan\" filtremiz işi doğrudan halleder: harflerinizi girin, J ile başlayan kelimelere göre filtreleyin ve tahmin etmek yerine her geçerli sonucu görün. Aynı yaklaşım aracın desteklediği 10 dilin tamamında aynı şekilde çalışır."
+      ],
+      faq: [
+        { question: "Türkçe Scrabble'da J harfi kaç puan değerinde?", answer: "10 puan — oyundaki en yüksek değer. Bunun nedeni, Q, W ve X harflerinin Türk alfabesinde hiç bulunmaması ve J'nin bu nedenle en nadir harf olmasıdır." },
+        { question: "J ile başlayan günlük kelimeler var mı?", answer: "Evet. JAMBON, JÜRİ ve JETON günlük hayatta sıkça karşılaşılan kelimelerdir, nadir teknik terimler değildir." },
+        { question: "J ile gerçek bir 7 harfli Bingo mümkün mü?", answer: "Evet — JEOLOJİ ve JAPONCA tam olarak yedi harften oluşan, kendi sözlüğümüzde doğrulanmış gerçek kelimelerdir." },
+        { question: "Araç Türkçe dışındaki dillerde de çalışıyor mu?", answer: "Evet, desteklenen 10 dilin tamamında, her biri kendi sözlüğüne göre doğrulanarak çalışır." }
+      ]
+    },
 ];

@@ -237,4 +237,42 @@ export const fr = [
         "Sources : valeurs des lettres et règles officielles du Scrabble francophone (Fédération internationale de Scrabble francophone)."
       ]
     },
+    {
+      slug: 'mots-commencant-par-x',
+      title: 'Mots commençant par X : un guide pour le Scrabble et les mots croisés',
+      excerpt: 'La lettre X vaut 10 points et reste l\'une des plus rares du français — voici comment vraiment l\'exploiter, du simple XI aux mots de 7 lettres, tous vérifiés dans notre propre dictionnaire.',
+      keyTakeaways: [
+        "Le X vaut 10 points au Scrabble français — l'une des valeurs les plus élevées du jeu.",
+        "XI, à deux lettres, est le mot le plus utile pour les jeux croisés.",
+        "Des mots comme XYSTE, XÉNON et XYLOSE permettent de placer le X sans lettres rares supplémentaires.",
+        "XÉRIQUE, à exactement 7 lettres, est un authentique mot de Scrabble complet (bonus de 50 points).",
+        "Utilisez le filtre « Commence par » pour trouver instantanément tous les mots valides de votre dictionnaire."
+      ],
+      toc: [
+        { id: 'pourquoi-x-precieux', label: 'Pourquoi la lettre X mérite d\'être apprise' },
+        { id: 'mots-courts-x', label: 'Mots courts en X : XI et au-delà' },
+        { id: 'mots-moyens-x', label: 'Mots de longueur moyenne en X' },
+        { id: 'mots-longs-x', label: 'Mots longs et Scrabble complet' },
+        { id: 'trouver-mots-x', label: 'Trouver des mots en X avec UnscramblWords' }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords.",
+        { type: 'heading', id: 'pourquoi-x-precieux', text: 'Pourquoi la lettre X mérite d\'être apprise' },
+        "Tirer un X peut sembler un handicap, mais c'est en réalité l'une des lettres les plus valorisées du Scrabble français : 10 points, à égalité avec le K, le W et le Y. Dans notre propre dictionnaire, seuls 44 mots sur plus de 62 000 commencent par X — une rareté qui explique pourquoi il vaut la peine d'en mémoriser quelques-uns.",
+        { type: 'heading', id: 'mots-courts-x', text: 'Mots courts en X : XI et au-delà' },
+        "XI, la 14e lettre de l'alphabet grec, est l'option la plus connue et la plus utile pour les jeux croisés, où elle permet de marquer des points dans deux directions à la fois avec une seule lettre.",
+        { type: 'heading', id: 'mots-moyens-x', text: 'Mots de longueur moyenne en X' },
+        "XYSTE (un portique couvert utilisé pour l'exercice dans l'Antiquité), XÉNON (le gaz noble) et XYLOSE (un sucre présent dans le bois) offrent des options solides sans nécessiter de lettres rares supplémentaires. XÉRÈS, le nom du célèbre vin, est un autre mot courant que beaucoup de joueurs ne pensent pas à utiliser.",
+        { type: 'heading', id: 'mots-longs-x', text: 'Mots longs et Scrabble complet' },
+        "XÉRIQUE (qui décrit un milieu extrêmement sec) compte exactement 7 lettres — un authentique Scrabble complet si vous utilisez les sept lettres de votre chevalet, avec le bonus de 50 points à la clé. XANTHINE et XIPHOÏDE, à 8 lettres, sont d'autres options solides si votre chevalet le permet.",
+        { type: 'heading', id: 'trouver-mots-x', text: 'Trouver des mots en X avec UnscramblWords' },
+        "Plutôt que d'essayer de retrouver cette liste de mémoire en pleine partie, notre filtre « Commence par » fait le travail directement : entrez vos lettres, filtrez sur les mots commençant par X, et obtenez chaque résultat valide plutôt que de deviner si un mot peu familier est réellement jouable. Le même principe s'applique dans les 10 langues prises en charge par l'outil."
+      ],
+      faq: [
+        { question: "XI est-il vraiment un mot valide au Scrabble ?", answer: "Oui. XI désigne la 14e lettre de l'alphabet grec et reste l'un des rares mots de deux lettres commençant par X dans la langue française." },
+        { question: "Combien de mots commencent par X en français ?", answer: "Dans notre dictionnaire, 44 mots sur plus de 62 000 commencent par X — une rareté qui justifie pleinement les 10 points attribués à cette lettre." },
+        { question: "Existe-t-il un vrai Scrabble complet (7 lettres) commençant par X ?", answer: "Oui — XÉRIQUE, qui signifie « extrêmement sec », compte exactement 7 lettres et est un mot authentique, pas une curiosité technique obscure." },
+        { question: "UnscramblWords fonctionne-t-il dans d'autres langues que le français ?", answer: "Oui, dans les 10 langues prises en charge, chacune vérifiée par rapport à son propre dictionnaire plutôt qu'une simple traduction." }
+      ]
+    },
 ];

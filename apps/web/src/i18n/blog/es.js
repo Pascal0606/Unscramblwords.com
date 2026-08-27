@@ -237,4 +237,41 @@ export const es = [
         "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE)."
       ]
     },
+    {
+      slug: 'palabras-que-empiezan-por-z',
+      title: 'Palabras que empiezan por Z: la letra más valiosa del Scrabble en español',
+      excerpt: 'La Z vale 10 puntos en el Scrabble en español, la puntuación más alta del juego — aquí tienes cómo aprovecharla de verdad, con palabras reales verificadas en nuestro propio diccionario.',
+      keyTakeaways: [
+        "La Z vale 10 puntos en español — la puntuación más alta de cualquier letra del juego.",
+        "Palabras cotidianas como ZAPATO y ZORRO demuestran que la Z no es solo para tecnicismos.",
+        "ZAPATOS, ZODIACO y ZAFIROS son ejemplos reales de siete letras — un auténtico Scrabble completo.",
+        "El filtro \"Empieza por\" encuentra todas las palabras válidas con Z al instante, sin adivinar."
+      ],
+      toc: [
+        { id: 'por-que-z-vale-tanto', label: 'Por qué la Z vale tanto en español' },
+        { id: 'palabras-cortas-z', label: 'Palabras cortas con Z' },
+        { id: 'palabras-medias-z', label: 'Palabras de longitud media con Z' },
+        { id: 'palabras-largas-z', label: 'Palabras largas y Scrabble completo' },
+        { id: 'encontrar-z', label: 'Encontrar palabras con Z en UnscramblWords' }
+      ],
+      body: [
+        "Escrito y verificado por el equipo de UnscramblWords.",
+        { type: 'heading', id: 'por-que-z-vale-tanto', text: 'Por qué la Z vale tanto en español' },
+        "La Z es la letra de mayor valor en el Scrabble en español: 10 puntos, más que cualquier otra letra del juego. En nuestro propio diccionario, 57 de más de 38.000 palabras empiezan por Z — no es tan rara como el X, pero sigue siendo poco frecuente, lo que explica su alto valor.",
+        { type: 'heading', id: 'palabras-cortas-z', text: 'Palabras cortas con Z' },
+        "ZAR (como en el zar ruso), ZOO y ZONA son opciones cortas y muy reconocibles. ZORRO, la palabra española real para el animal, es una opción de cinco letras que casi todos los jugadores ya conocen sin saberlo.",
+        { type: 'heading', id: 'palabras-medias-z', text: 'Palabras de longitud media con Z' },
+        "ZAPATO (zapato individual) y ZAFIRO (la piedra preciosa) son opciones sólidas de seis letras. Si tienes una A adicional, ZANAHORIA es una palabra larga y muy común que aprovecha bien un atril cargado de vocales.",
+        { type: 'heading', id: 'palabras-largas-z', text: 'Palabras largas y Scrabble completo' },
+        "Para un auténtico Scrabble completo (bono de 50 puntos por usar las siete fichas), ZAPATOS (el plural de zapato), ZODIACO y ZAFIROS son palabras reales de exactamente siete letras — no rarezas técnicas, sino vocabulario cotidiano.",
+        { type: 'heading', id: 'encontrar-z', text: 'Encontrar palabras con Z en UnscramblWords' },
+        "En lugar de intentar recordar esta lista de memoria en plena partida, nuestro filtro \"Empieza por\" hace el trabajo directamente: introduce tus letras, filtra por palabras que empiecen por Z, y verás cada resultado válido en lugar de adivinar. El mismo enfoque funciona en los 10 idiomas compatibles con la herramienta."
+      ],
+      faq: [
+        { question: "¿Cuánto vale la letra Z en el Scrabble en español?", answer: "10 puntos — la puntuación más alta de cualquier letra en el juego en español." },
+        { question: "¿Hay palabras comunes que empiecen por Z?", answer: "Sí. ZAPATO, ZORRO y ZANAHORIA son palabras cotidianas que la mayoría de hablantes ya conoce, no vocabulario técnico." },
+        { question: "¿Existe un Scrabble completo real de siete letras con Z?", answer: "Sí — ZAPATOS, ZODIACO y ZAFIROS son ejemplos reales, verificados en nuestro propio diccionario." },
+        { question: "¿Funciona esta herramienta en otros idiomas además del español?", answer: "Sí, en los 10 idiomas compatibles, cada uno verificado contra su propio diccionario." }
+      ]
+    },
 ];

@@ -237,4 +237,41 @@ export const de = [
         "Quellen: Buchstabenwerte und offizielle Regeln des deutschen Scrabble (Duden / Scrabble-Deutschland-Verband)."
       ]
     },
+    {
+      slug: 'woerter-mit-q',
+      title: 'Wörter mit Q: der wertvollste Buchstabe im deutschen Scrabble',
+      excerpt: 'Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble — und anders als oft angenommen, gibt es dafür viele alltägliche Wörter. Alle hier genannten Beispiele sind gegen unser eigenes Wörterbuch geprüft.',
+      keyTakeaways: [
+        "Q ist im deutschen Scrabble 10 Punkte wert — der höchste Wert im gesamten Spiel.",
+        "Alltagswörter wie QUATSCH und QUADRAT zeigen, dass Q kein reines Fremdwort-Problem ist.",
+        "QUADRAT, QUARTAL und QUATSCH sind echte 7-Buchstaben-Beispiele — ein vollständiges \"Bingo\".",
+        "Der \"Beginnt mit\"-Filter findet sofort jedes gültige Q-Wort, ganz ohne Raten."
+      ],
+      toc: [
+        { id: 'warum-q-wertvoll', label: 'Warum Q so wertvoll ist' },
+        { id: 'kurze-q-woerter', label: 'Kurze Wörter mit Q' },
+        { id: 'mittlere-q-woerter', label: 'Mittellange Wörter mit Q' },
+        { id: 'lange-q-woerter', label: 'Lange Wörter und ein vollständiges Bingo' },
+        { id: 'q-woerter-finden', label: 'Q-Wörter mit UnscramblWords finden' }
+      ],
+      body: [
+        "Verfasst und geprüft vom UnscramblWords-Team.",
+        { type: 'heading', id: 'warum-q-wertvoll', text: 'Warum Q so wertvoll ist' },
+        "Q ist der höchstwertige Buchstabe im deutschen Scrabble: 10 Punkte, genauso viel wie Y. In unserem eigenen Wörterbuch beginnen 77 von über 36.000 Wörtern mit Q — selten genug, um den hohen Punktwert zu rechtfertigen, aber häufiger als man zunächst denkt.",
+        { type: 'heading', id: 'kurze-q-woerter', text: 'Kurze Wörter mit Q' },
+        "QUAL (Schmerz, Leid) und QUIZ sind kurze, alltägliche Optionen mit vier Buchstaben. QUOTE (Anteil, Rate) ist ein gutes fünfbuchstabiges Wort für eine engere Lücke auf dem Spielfeld.",
+        { type: 'heading', id: 'mittlere-q-woerter', text: 'Mittellange Wörter mit Q' },
+        "QUALLE (die Qualle) und QUELLE (Quelle, Ursprung) sind solide sechsbuchstabige Optionen. QUATSCH — das alltägliche Wort für Unsinn — ist eines der nützlichsten Q-Wörter überhaupt, weil es so häufig im gesprochenen Deutsch vorkommt.",
+        { type: 'heading', id: 'lange-q-woerter', text: 'Lange Wörter und ein vollständiges Bingo' },
+        "Für ein echtes Bingo (Bonus für die Verwendung aller sieben Buchstaben) sind QUADRAT (das Quadrat), QUARTAL (das Geschäftsquartal) und QUATSCH echte Wörter mit genau sieben Buchstaben — kein technisches Kuriosum, sondern Wörter, die im Alltag tatsächlich vorkommen.",
+        { type: 'heading', id: 'q-woerter-finden', text: 'Q-Wörter mit UnscramblWords finden' },
+        "Statt sich diese Liste mitten im Spiel aus dem Gedächtnis zusammenzusuchen, übernimmt unser \"Beginnt mit\"-Filter die Arbeit direkt: Buchstaben eingeben, nach Wörtern mit Q filtern, und jedes gültige Ergebnis sehen, statt zu raten. Das funktioniert genauso in allen 10 unterstützten Sprachen."
+      ],
+      faq: [
+        { question: "Wie viele Punkte ist Q im deutschen Scrabble wert?", answer: "10 Punkte — zusammen mit Y der höchste Wert im gesamten Spiel." },
+        { question: "Gibt es alltägliche Wörter, die mit Q beginnen?", answer: "Ja. QUATSCH, QUAL und QUOTE sind Wörter, die im normalen Sprachgebrauch häufig vorkommen, keine seltenen Fachbegriffe." },
+        { question: "Gibt es ein echtes 7-Buchstaben-Bingo mit Q?", answer: "Ja — QUADRAT, QUARTAL und QUATSCH sind reale, geprüfte Beispiele mit genau sieben Buchstaben." },
+        { question: "Funktioniert das Tool auch in anderen Sprachen als Deutsch?", answer: "Ja, in allen 10 unterstützten Sprachen, jeweils gegen das eigene Wörterbuch der jeweiligen Sprache geprüft." }
+      ]
+    },
 ];
