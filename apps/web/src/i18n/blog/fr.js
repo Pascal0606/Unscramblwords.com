@@ -331,4 +331,36 @@ export const fr = [
         { question: "Combien de mots contient le dictionnaire français d'UnscramblWords ?", answer: "Plus de 62 000, chacun vérifié individuellement plutôt que traduit mécaniquement." }
       ]
     },
+
+    {
+      slug: "decodeur-mots-lettres-blanches",
+      title: "Déchiffreur de Mots avec Lettres Blanches : Résoudre les Puzzles à Joker Instantanément",
+      excerpt: "Un joker peut devenir n'importe quelle lettre, ce qui le rend justement difficile à bien utiliser. Voici comment chercher avec un joker correctement, et ce que cela trouve vraiment.",
+      keyTakeaways: [
+        "Un point d'interrogation (?) représente un joker, et l'outil teste chaque lettre de l'alphabet à cette position plutôt que de vous laisser deviner.",
+        "Le nombre de lettres saisies, joker inclus, doit correspondre à la longueur du mot recherché -- six lettres ne peuvent pas produire un mot de huit lettres.",
+        "KARAOKE, KAYAK et KIMOMO sont des exemples réels utilisant le K, l'une des lettres les plus précieuses du français, avec 10 points.",
+        "Il n'existe aucun sélecteur de dictionnaire à gérer -- un seul dictionnaire vérifié par langue, appliqué automatiquement."
+      ],
+      toc: [
+        { id: "comment-fonctionne-joker", label: "Comment Fonctionne Vraiment une Recherche avec Joker" },
+        { id: "correspondance-longueur", label: "Pourquoi le Nombre de Lettres Doit Correspondre" },
+        { id: "joker-lettres-precieuses", label: "Utiliser un Joker avec des Lettres Précieuses" }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords.",
+        { type: 'heading', id: "comment-fonctionne-joker", text: "Comment Fonctionne Vraiment une Recherche avec Joker" },
+        "Entrez un point d'interrogation (?) n'importe où dans votre recherche pour représenter un joker, et l'outil vérifie chaque lettre de l'alphabet à cette position plutôt que de vous laisser deviner laquelle convient. Par exemple, chercher M?T renvoie correctement MOT et MAT -- le joker représente vraiment n'importe quelle lettre, testée systématiquement plutôt qu'approximée.",
+        { type: 'heading', id: "correspondance-longueur", text: "Pourquoi le Nombre de Lettres Doit Correspondre" },
+        "Le nombre de lettres saisies, joker inclus, doit correspondre à la longueur de tout mot renvoyé par la recherche. Une recherche à six lettres ne peut renvoyer que des mots de six lettres -- un mot de huit lettres ne peut tout simplement pas sortir d'un chevalet de six lettres, quelle que soit l'utilisation du joker.",
+        { type: 'heading', id: "joker-lettres-precieuses", text: "Utiliser un Joker avec des Lettres Précieuses" },
+        "Un joker se combine particulièrement bien avec une lettre précieuse autrement difficile à placer. Le K, malgré son origine presque entièrement empruntée, vaut 10 points en français -- l'une des valeurs les plus élevées du jeu. KARAOKE, KAYAK et KIMONO sont des mots réels et vérifiés qui exploitent cette lettre efficacement, particulièrement utiles quand un joker complète le mot."
+      ],
+      faq: [
+        { question: "Comment chercher avec un joker ?", answer: "Entrez un point d'interrogation (?) à la position de votre joker. L'outil teste chaque lettre de l'alphabet à cet endroit et renvoie chaque résultat valide." },
+        { question: "Puis-je utiliser plusieurs jokers dans une même recherche ?", answer: "Oui, plusieurs jokers dans une même recherche sont pris en charge -- utile quand vous en détenez plus d'un." },
+        { question: "L'outil permet-il de choisir entre différents dictionnaires officiels ?", answer: "Non -- il n'y a aucun sélecteur de dictionnaire. Chaque langue utilise un seul dictionnaire vérifié, appliqué automatiquement, plutôt que de vous demander de choisir une liste de tournoi." },
+        { question: "Quelle lettre vaut-il la peine de combiner avec un joker en français ?", answer: "Le K, qui vaut 10 points malgré son origine presque entièrement empruntée -- KARAOKE, KAYAK et KIMONO sont des exemples réels et vérifiés." }
+      ]
+    },
 ];

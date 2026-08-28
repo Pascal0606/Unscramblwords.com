@@ -329,4 +329,36 @@ export const es = [
         { question: "¿Cuántas palabras con Ñ reconoce UnscramblWords?", answer: "512, un número extraído directamente de nuestro propio diccionario." }
       ]
     },
+
+    {
+      slug: "descifrador-palabras-comodin",
+      title: "Descifrador de Palabras con Comodín: Resolver Puzles con Ficha en Blanco al Instante",
+      excerpt: "Una ficha en blanco puede convertirse en cualquier letra, lo cual es precisamente lo que la hace difícil de usar bien. Así se busca correctamente con un comodín.",
+      keyTakeaways: [
+        "Un signo de interrogación (?) representa una ficha en blanco, y la herramienta prueba cada letra del alfabeto en esa posición en lugar de dejarte adivinar.",
+        "El número de fichas introducidas, comodín incluido, debe coincidir con la longitud de la palabra buscada -- seis fichas no pueden producir una palabra de ocho letras.",
+        "ZAPATO y ZORRO son ejemplos reales que usan la Z, la letra de mayor valor en español con 10 puntos.",
+        "No existe un selector de diccionario -- un solo diccionario verificado por idioma, aplicado automáticamente."
+      ],
+      toc: [
+        { id: "como-funciona-comodin", label: "Cómo Funciona Realmente una Búsqueda con Comodín" },
+        { id: "longitud-debe-coincidir", label: "Por Qué el Número de Fichas Debe Coincidir" },
+        { id: "comodin-letras-valiosas", label: "Usar un Comodín con Letras Valiosas" }
+      ],
+      body: [
+        "Escrito y verificado por el equipo de UnscramblWords.",
+        { type: 'heading', id: "como-funciona-comodin", text: "Cómo Funciona Realmente una Búsqueda con Comodín" },
+        "Introduce un signo de interrogación (?) en cualquier parte de tu búsqueda para representar una ficha en blanco, y la herramienta comprueba cada letra del alfabeto en esa posición en lugar de dejarte adivinar cuál encaja. Por ejemplo, buscar M?TA devuelve correctamente META y MATA -- el comodín realmente representa cualquier letra, probada sistemáticamente en lugar de aproximada.",
+        { type: 'heading', id: "longitud-debe-coincidir", text: "Por Qué el Número de Fichas Debe Coincidir" },
+        "El número de fichas introducidas, comodín incluido, debe coincidir con la longitud de cualquier palabra que devuelva la búsqueda. Una búsqueda de seis fichas solo puede devolver palabras de seis letras -- una palabra de ocho letras simplemente no puede salir de un atril de seis fichas, sin importar cómo se use el comodín.",
+        { type: 'heading', id: "comodin-letras-valiosas", text: "Usar un Comodín con Letras Valiosas" },
+        "Un comodín combina especialmente bien con una letra valiosa que de otro modo es difícil de colocar. La Z es la letra de mayor valor en español, con 10 puntos. ZAPATO y ZORRO son palabras reales y verificadas que aprovechan esta letra de forma cotidiana, especialmente útiles cuando un comodín completa la palabra."
+      ],
+      faq: [
+        { question: "¿Cómo busco usando una ficha en blanco?", answer: "Introduce un signo de interrogación (?) en la posición de tu ficha en blanco. La herramienta prueba cada letra del alfabeto en ese lugar y devuelve cada resultado válido." },
+        { question: "¿Puedo usar más de un comodín en una búsqueda?", answer: "Sí, se admite el uso de varios comodines en una misma búsqueda -- útil cuando tienes más de uno." },
+        { question: "¿La herramienta permite elegir entre distintos diccionarios oficiales?", answer: "No -- no existe un selector de diccionario. Cada idioma usa un único diccionario verificado, aplicado automáticamente, en lugar de pedirte elegir una lista de torneo." },
+        { question: "¿Qué letra merece la pena combinar con un comodín en español?", answer: "La Z, la letra de mayor valor con 10 puntos -- ZAPATO y ZORRO son ejemplos reales y verificados." }
+      ]
+    },
 ];

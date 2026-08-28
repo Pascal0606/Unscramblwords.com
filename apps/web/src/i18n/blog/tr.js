@@ -328,4 +328,36 @@ export const tr = [
         { question: "UnscramblWords Ğ içeren kaç kelime tanıyor?", answer: "4.711, doğrudan kendi sözlüğümüzden alınan bir sayı." }
       ]
     },
+
+    {
+      slug: "joker-harfli-kelime-cozucu",
+      title: "Joker Harfli Kelime Çözücü: Joker Bulmacalarını Anında Çözmek",
+      excerpt: "Bir joker herhangi bir harf olabilir, ve onu doğru kullanmayı zorlaştıran da tam olarak bu. İşte joker ile doğru arama yapmanın yolu.",
+      keyTakeaways: [
+        "Soru işareti (?) bir joker taşını temsil eder ve araç, tahmin etmenize gerek kalmadan o pozisyondaki her harfi dener.",
+        "Girilen harf sayısı, joker dahil, aranan kelimenin uzunluğuyla eşleşmelidir -- altı harften sekiz harfli bir kelime çıkamaz.",
+        "JÜRİ ve JAMBON, Türkçe Scrabble'ın en değerli harfi olan J (10 puan) ile gerçek örneklerdir.",
+        "Seçilecek bir sözlük filtresi yoktur -- her dil için otomatik olarak uygulanan tek bir doğrulanmış sözlük vardır."
+      ],
+      toc: [
+        { id: "joker-arama-nasil-calisir", label: "Joker Araması Gerçekte Nasıl Çalışır" },
+        { id: "uzunluk-eslesmeli", label: "Neden Harf Sayısı Eşleşmelidir" },
+        { id: "joker-degerli-harfler", label: "Jokeri Değerli Harflerle Kullanmak" }
+      ],
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
+        { type: 'heading', id: "joker-arama-nasil-calisir", text: "Joker Araması Gerçekte Nasıl Çalışır" },
+        "Örneğin, K?Z araması doğru şekilde KAZ (kaz) sonucunu verir -- joker gerçekten herhangi bir harfi temsil eder, yaklaşık değil sistematik olarak test edilir.",
+        { type: 'heading', id: "uzunluk-eslesmeli", text: "Neden Harf Sayısı Eşleşmelidir" },
+        "Girilen harf sayısı, joker dahil, aramanın döndürdüğü herhangi bir kelimenin uzunluğuyla eşleşmelidir. Altı harfli bir arama yalnızca altı harfli kelimeler döndürebilir -- joker nasıl kullanılırsa kullanılsın, sekiz harfli bir kelime altı harfli bir rakadan çıkamaz.",
+        { type: 'heading', id: "joker-degerli-harfler", text: "Jokeri Değerli Harflerle Kullanmak" },
+        "Joker, aksi takdirde yerleştirilmesi zor olan değerli bir harfle özellikle iyi eşleşir. J, Türkçe Scrabble'da 10 puan değerinde -- oyundaki en yüksek değer. JÜRİ ve JAMBON, bu harfi etkili şekilde kullanan gerçek, doğrulanmış kelimelerdir; özellikle bir joker kelimeyi tamamladığında faydalıdır."
+      ],
+      faq: [
+        { question: "Joker taşı ile nasıl arama yapılır?", answer: "Joker taşınızın pozisyonuna bir soru işareti (?) girin. Araç o pozisyondaki alfabenin her harfini dener ve her geçerli sonucu döndürür." },
+        { question: "Bir aramada birden fazla joker kullanabilir miyim?", answer: "Evet, bir aramada birden fazla joker desteklenir -- birden fazla joker taşınız olduğunda kullanışlıdır." },
+        { question: "Araç farklı resmi sözlükler arasında seçim yapmama izin veriyor mu?", answer: "Hayır -- sözlük seçici yoktur. Her dil, bir turnuva kelime listesi seçmenizi istemek yerine otomatik olarak uygulanan tek bir doğrulanmış sözlük kullanır." },
+        { question: "Türkçede jokerle birleştirmeye değer hangi harftir?", answer: "J, 10 puanla Türkçe Scrabble'daki en yüksek değer -- JÜRİ ve JAMBON gerçek, doğrulanmış örneklerdir." }
+      ]
+    },
 ];

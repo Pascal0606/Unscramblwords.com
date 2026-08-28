@@ -335,4 +335,36 @@ export const de = [
         { question: "Wie viele Wörter enthält das deutsche Wörterbuch von UnscramblWords?", answer: "Über 36.000, jedes einzeln geprüft statt mechanisch übersetzt." }
       ]
     },
+
+    {
+      slug: "wortentschluesseler-mit-jokerbuchstaben",
+      title: "Wort-Entschlüsseler mit Jokerbuchstaben: Rätsel mit Platzhaltern Sofort Lösen",
+      excerpt: "Ein Joker kann zu jedem beliebigen Buchstaben werden -- genau das macht ihn schwer richtig einzusetzen. So funktioniert die Suche mit einem Platzhalter richtig.",
+      keyTakeaways: [
+        "Ein Fragezeichen (?) steht für einen Jokerstein, und das Tool testet jeden Buchstaben des Alphabets an dieser Stelle, statt Sie raten zu lassen.",
+        "Die Anzahl der eingegebenen Buchstaben, Joker eingeschlossen, muss der Länge des gesuchten Wortes entsprechen -- aus sechs Buchstaben kann kein achtbuchstabiges Wort entstehen.",
+        "QUATSCH und QUALITÄT sind echte Beispiele mit Q, dem höchstwertigen Buchstaben im deutschen Scrabble mit 10 Punkten.",
+        "Es gibt keinen Wörterbuch-Umschalter -- ein geprüftes Wörterbuch pro Sprache, automatisch angewendet."
+      ],
+      toc: [
+        { id: "wie-joker-suche-funktioniert", label: "Wie Eine Joker-Suche Wirklich Funktioniert" },
+        { id: "laenge-muss-passen", label: "Warum die Buchstabenzahl Passen Muss" },
+        { id: "joker-mit-wertvollen-buchstaben", label: "Einen Joker mit Wertvollen Buchstaben Kombinieren" }
+      ],
+      body: [
+        "Verfasst und geprüft vom UnscramblWords-Team.",
+        { type: 'heading', id: "wie-joker-suche-funktioniert", text: "Wie Eine Joker-Suche Wirklich Funktioniert" },
+        "Geben Sie ein Fragezeichen (?) an beliebiger Stelle in Ihrer Suche ein, um einen Jokerstein darzustellen, und das Tool prüft jeden Buchstaben des Alphabets an dieser Position, statt Sie raten zu lassen, welcher passt. Die Suche nach W?RT liefert beispielsweise korrekt WORT und WIRT -- der Joker steht wirklich für jeden Buchstaben, systematisch getestet statt nur angenähert.",
+        { type: 'heading', id: "laenge-muss-passen", text: "Warum die Buchstabenzahl Passen Muss" },
+        "Die Anzahl der eingegebenen Buchstaben, Joker eingeschlossen, muss der Länge jedes gefundenen Wortes entsprechen. Eine Suche mit sechs Buchstaben kann nur sechsbuchstabige Wörter liefern -- ein achtbuchstabiges Wort kann schlicht nicht aus einem Sechs-Buchstaben-Set entstehen, egal wie der Joker eingesetzt wird.",
+        { type: 'heading', id: "joker-mit-wertvollen-buchstaben", text: "Einen Joker mit Wertvollen Buchstaben Kombinieren" },
+        "Ein Joker passt besonders gut zu einem wertvollen Buchstaben, der sonst schwer zu platzieren ist. Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, zusammen mit Y. QUATSCH und QUALITÄT sind echte, geprüfte Wörter, die diesen Buchstaben effektiv nutzen -- besonders hilfreich, wenn ein Joker das Wort vervollständigt."
+      ],
+      faq: [
+        { question: "Wie suche ich mit einem Jokerstein?", answer: "Geben Sie ein Fragezeichen (?) an der Stelle des Jokersteins ein. Das Tool testet jeden Buchstaben des Alphabets an dieser Stelle und liefert jedes gültige Ergebnis." },
+        { question: "Kann ich mehrere Jokersteine in einer Suche verwenden?", answer: "Ja, mehrere Platzhalter in einer Suche werden unterstützt -- nützlich, wenn Sie mehr als einen besitzen." },
+        { question: "Kann ich zwischen verschiedenen offiziellen Wörterbüchern wählen?", answer: "Nein -- es gibt keinen Wörterbuch-Umschalter. Jede Sprache verwendet ein geprüftes Wörterbuch, automatisch angewendet, statt Sie eine Turnierliste auswählen zu lassen." },
+        { question: "Welcher Buchstabe lohnt sich besonders mit einem Joker?", answer: "Q, der mit 10 Punkten der höchste Wert im deutschen Scrabble ist -- QUATSCH und QUALITÄT sind echte, geprüfte Beispiele." }
+      ]
+    },
 ];

@@ -232,4 +232,36 @@ export const it = [
         { question: "Ci sono parole italiane di due lettere utili per Scarabeo?", answer: "Sì -- RE, SA e MA sono tutte parole valide di due lettere, utili per incastrarsi in spazi ristretti sul tabellone senza bloccare mosse future." }
       ]
     },
+
+    {
+      slug: "decifratore-parole-lettere-jolly",
+      title: "Decifratore di Parole con Lettere Jolly: Risolvere i Puzzle con Jolly all'Istante",
+      excerpt: "Una lettera jolly può diventare qualsiasi lettera, ed è proprio questo che la rende difficile da usare bene. Ecco come cercare correttamente con un jolly.",
+      keyTakeaways: [
+        "Un punto interrogativo (?) rappresenta una lettera jolly, e lo strumento verifica ogni lettera dell'alfabeto in quella posizione invece di lasciarvi indovinare.",
+        "Il numero di lettere inserite, jolly incluso, deve corrispondere alla lunghezza della parola cercata -- sei lettere non possono produrre una parola di otto lettere.",
+        "QUARZO e QUERCIA sono esempi reali che usano la Q, la lettera di maggior valore nello Scarabeo italiano con 10 punti.",
+        "Non esiste un selettore di dizionario -- un solo dizionario verificato per lingua, applicato automaticamente."
+      ],
+      toc: [
+        { id: "come-funziona-jolly", label: "Come Funziona Davvero una Ricerca con Jolly" },
+        { id: "lunghezza-deve-corrispondere", label: "Perché il Numero di Lettere Deve Corrispondere" },
+        { id: "jolly-lettere-preziose", label: "Usare un Jolly con Lettere Preziose" }
+      ],
+      body: [
+        "Scritto e verificato dal team di UnscramblWords.",
+        { type: 'heading', id: "come-funziona-jolly", text: "Come Funziona Davvero una Ricerca con Jolly" },
+        "Ad esempio, cercare M?TA restituisce correttamente META -- il jolly rappresenta davvero qualsiasi lettera, testata sistematicamente anziché approssimata.",
+        { type: 'heading', id: "lunghezza-deve-corrispondere", text: "Perché il Numero di Lettere Deve Corrispondere" },
+        "Il numero di lettere inserite, jolly incluso, deve corrispondere alla lunghezza di qualsiasi parola restituita dalla ricerca. Una ricerca di sei lettere può restituire solo parole di sei lettere -- una parola di otto lettere semplicemente non può derivare da un leggio di sei lettere, indipendentemente da come viene usato il jolly.",
+        { type: 'heading', id: "jolly-lettere-preziose", text: "Usare un Jolly con Lettere Preziose" },
+        "Un jolly si abbina particolarmente bene a una lettera preziosa altrimenti difficile da posizionare. La Q vale 10 punti nello Scarabeo italiano, il valore più alto del gioco. QUARZO e QUERCIA sono parole reali e verificate che sfruttano efficacemente questa lettera, particolarmente utili quando un jolly completa la parola."
+      ],
+      faq: [
+        { question: "Come si cerca usando una lettera jolly?", answer: "Inserite un punto interrogativo (?) nella posizione della vostra lettera jolly. Lo strumento verifica ogni lettera dell'alfabeto in quel punto e restituisce ogni risultato valido." },
+        { question: "Posso usare più di un jolly in una ricerca?", answer: "Sì, è supportato l'uso di più jolly in un'unica ricerca -- utile quando ne avete più di uno." },
+        { question: "Lo strumento permette di scegliere tra diversi dizionari ufficiali?", answer: "No -- non esiste un selettore di dizionario. Ogni lingua usa un unico dizionario verificato, applicato automaticamente, invece di chiedervi di scegliere una lista da torneo." },
+        { question: "Quale lettera conviene abbinare a un jolly in italiano?", answer: "La Q, che vale 10 punti, il valore più alto nello Scarabeo italiano -- QUARZO e QUERCIA sono esempi reali e verificati." }
+      ]
+    },
 ];

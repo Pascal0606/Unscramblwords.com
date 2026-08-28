@@ -429,4 +429,36 @@ export const pl = [
         { question: "Ile słów zawiera polski słownik UnscramblWords?", answer: "Ponad 2,8 miliona, w tym pełna ekspansja gramatyczna." }
       ]
     },
+
+    {
+      slug: "rozszyfrowywacz-slow-z-jokerem",
+      title: "Rozszyfrowywacz Słów z Jokerem: Natychmiastowe Rozwiązywanie Zagadek z Pustym Kafelkiem",
+      excerpt: "Pusty kafelek może stać się dowolną literą -- i to właśnie sprawia, że trudno go dobrze wykorzystać. Oto jak poprawnie szukać z jokerem.",
+      keyTakeaways: [
+        "Znak zapytania (?) reprezentuje pusty kafelek, a narzędzie sprawdza każdą literę alfabetu w tej pozycji, zamiast każe Ci zgadywać.",
+        "Liczba wpisanych liter, wliczając jokera, musi odpowiadać długości szukanego słowa -- z sześciu liter nie powstanie słowo ośmioliterowe.",
+        "ŹLE i ŹRÓDŁO to prawdziwe przykłady wykorzystujące literę Ź, najcenniejszą literę w polskim Scrabble (9 punktów).",
+        "Nie ma potrzeby wybierania słownika -- jeden zweryfikowany słownik na język, stosowany automatycznie."
+      ],
+      toc: [
+        { id: "jak-dziala-joker", label: "Jak Naprawdę Działa Wyszukiwanie z Jokerem" },
+        { id: "dlugosc-musi-pasowac", label: "Dlaczego Liczba Liter Musi Pasować" },
+        { id: "joker-wartosciowe-litery", label: "Używanie Jokera z Wartościowymi Literami" }
+      ],
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords.",
+        { type: 'heading', id: "jak-dziala-joker", text: "Jak Naprawdę Działa Wyszukiwanie z Jokerem" },
+        "Wpisz znak zapytania (?) w dowolnym miejscu wyszukiwania, aby reprezentować pusty kafelek, a narzędzie sprawdzi każdą literę alfabetu w tej pozycji, zamiast każe Ci zgadywać, która pasuje. Na przykład wyszukanie K?T poprawnie zwraca KOT i KIT -- joker naprawdę reprezentuje dowolną literę, testowaną systematycznie, a nie w przybliżeniu.",
+        { type: 'heading', id: "dlugosc-musi-pasowac", text: "Dlaczego Liczba Liter Musi Pasować" },
+        "Liczba wpisanych liter, wliczając jokera, musi odpowiadać długości każdego zwróconego słowa. Wyszukiwanie sześcioliterowe może zwrócić tylko słowa sześcioliterowe -- ośmioliterowe słowo po prostu nie może powstać z zestawu sześciu liter, niezależnie od tego, jak użyty zostanie joker.",
+        { type: 'heading', id: "joker-wartosciowe-litery", text: "Używanie Jokera z Wartościowymi Literami" },
+        "Joker szczególnie dobrze łączy się z wartościową literą, którą inaczej trudno umieścić. Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze. ŹLE i ŹRÓDŁO to prawdziwe, zweryfikowane słowa skutecznie wykorzystujące tę literę, szczególnie przydatne, gdy joker uzupełnia słowo."
+      ],
+      faq: [
+        { question: "Jak szukać za pomocą pustego kafelka?", answer: "Wpisz znak zapytania (?) w pozycji swojego pustego kafelka. Narzędzie sprawdzi każdą literę alfabetu w tym miejscu i zwróci każdy prawidłowy wynik." },
+        { question: "Czy mogę użyć więcej niż jednego jokera w wyszukiwaniu?", answer: "Tak, obsługiwane jest użycie kilku jokerów w jednym wyszukiwaniu -- przydatne, gdy masz więcej niż jeden." },
+        { question: "Czy narzędzie pozwala wybierać między różnymi oficjalnymi słownikami?", answer: "Nie -- nie ma selektora słownika. Każdy język używa jednego zweryfikowanego słownika, stosowanego automatycznie, zamiast prosić o wybór listy turniejowej." },
+        { question: "Którą literę warto łączyć z jokerem w języku polskim?", answer: "Ź, warta 9 punktów -- najwyższa wartość w polskim Scrabble. ŹLE i ŹRÓDŁO to prawdziwe, zweryfikowane przykłady." }
+      ]
+    },
 ];

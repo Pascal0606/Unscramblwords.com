@@ -449,4 +449,36 @@ export const pt = [
         { question: "Quantas palavras tem o dicionário português do UnscramblWords?", answer: "Quase 2,9 milhões, incluindo a expansão gramatical completa para ambas as variantes." }
       ]
     },
+
+    {
+      slug: "decifrador-palavras-letras-curinga",
+      title: "Decifrador de Palavras com Letras Curinga: Resolver Puzzles com Letra em Branco Instantaneamente",
+      excerpt: "Uma letra em branco pode tornar-se qualquer letra, o que é precisamente o que a torna difícil de usar bem. Eis como pesquisar corretamente com um curinga.",
+      keyTakeaways: [
+        "Um ponto de interrogação (?) representa uma letra em branco, e a ferramenta testa cada letra do alfabeto nessa posição em vez de o deixar adivinhar.",
+        "O número de letras inseridas, curinga incluído, tem de corresponder ao comprimento da palavra procurada -- seis letras não podem produzir uma palavra de oito letras.",
+        "XADREZ e XAROPE são exemplos reais que usam o X, uma das letras de maior valor no português, com 8 pontos.",
+        "Não existe um seletor de dicionário -- um único dicionário verificado por idioma, aplicado automaticamente."
+      ],
+      toc: [
+        { id: "como-funciona-curinga", label: "Como Funciona Realmente uma Pesquisa com Curinga" },
+        { id: "comprimento-deve-corresponder", label: "Porque o Número de Letras Tem de Corresponder" },
+        { id: "curinga-letras-valiosas", label: "Usar um Curinga com Letras Valiosas" }
+      ],
+      body: [
+        "Escrito e verificado pela equipa UnscramblWords.",
+        { type: 'heading', id: "como-funciona-curinga", text: "Como Funciona Realmente uma Pesquisa com Curinga" },
+        "Insira um ponto de interrogação (?) em qualquer parte da sua pesquisa para representar uma letra em branco, e a ferramenta verifica cada letra do alfabeto nessa posição em vez de o deixar adivinhar qual encaixa. Por exemplo, pesquisar M?TA devolve corretamente META e MATA -- o curinga representa mesmo qualquer letra, testada sistematicamente em vez de aproximada.",
+        { type: 'heading', id: "comprimento-deve-corresponder", text: "Porque o Número de Letras Tem de Corresponder" },
+        "O número de letras inseridas, curinga incluído, tem de corresponder ao comprimento de qualquer palavra devolvida pela pesquisa. Uma pesquisa de seis letras só pode devolver palavras de seis letras -- uma palavra de oito letras simplesmente não pode sair de um conjunto de seis letras, independentemente de como o curinga é usado.",
+        { type: 'heading', id: "curinga-letras-valiosas", text: "Usar um Curinga com Letras Valiosas" },
+        "Um curinga combina particularmente bem com uma letra valiosa que de outro modo é difícil de colocar. X e Z são as letras de maior valor no português, com 8 pontos cada. XADREZ e XAROPE são palavras reais e verificadas que aproveitam esta letra no dia a dia, especialmente úteis quando um curinga completa a palavra."
+      ],
+      faq: [
+        { question: "Como pesquiso usando uma letra em branco?", answer: "Insira um ponto de interrogação (?) na posição da sua letra em branco. A ferramenta testa cada letra do alfabeto nesse lugar e devolve cada resultado válido." },
+        { question: "Posso usar mais do que um curinga numa pesquisa?", answer: "Sim, o uso de vários curingas numa mesma pesquisa é suportado -- útil quando tem mais do que um." },
+        { question: "A ferramenta permite escolher entre diferentes dicionários oficiais?", answer: "Não -- não existe um seletor de dicionário. Cada idioma usa um único dicionário verificado, aplicado automaticamente, em vez de pedir para escolher uma lista de torneio." },
+        { question: "Que letra vale a pena combinar com um curinga em português?", answer: "X ou Z, ambas com 8 pontos -- XADREZ e XAROPE são exemplos reais e verificados." }
+      ]
+    },
 ];
