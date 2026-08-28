@@ -91,7 +91,7 @@ export const pt = [
       excerpt: "O Q vale apenas 6 pontos em português -- nada de especial. O Ç, porém, alimenta um dos sufixos mais produtivos da língua. Eis porque vale a pena conhecê-lo.",
       body: [
         "Ao contrário do que acontece noutras línguas, o Q não é uma letra particularmente valiosa em português -- vale apenas 6 pontos, bem abaixo do X e do Z, que valem 8 cada. A verdadeira curiosidade linguística do português está noutro lado: o Ç, e sobretudo o sufixo -ÇÃO que ele ajuda a formar.",
-        "No nosso próprio dicionário, há 1.682 palavras que contêm um Ç, e 657 delas terminam especificamente em -ÇÃO. Este sufixo transforma verbos em substantivos com enorme regularidade: AÇÃO, NAÇÃO, LIÇÃO, PAIXÃO, ORAÇÃO e CORAÇÃO são apenas alguns exemplos do dia a dia.",
+        "No nosso próprio dicionário -- incluindo a expansão gramatical completa -- há 78.949 palavras que contêm um Ç, e 12.744 delas terminam especificamente em -ÇÃO. Este sufixo transforma verbos em substantivos com enorme regularidade: AÇÃO, NAÇÃO, LIÇÃO, PAIXÃO, ORAÇÃO e CORAÇÃO são apenas alguns exemplos do dia a dia.",
         "ESTAÇÃO (estação), com exatamente sete letras, é um Scrabble completo real -- uma palavra comum, não uma curiosidade técnica.",
         "Reconhecer o padrão -ÇÃO é uma das formas mais eficazes de encontrar palavras rapidamente: praticamente qualquer verbo que termine em -AR ou -IR tem uma forma nominal correspondente em -ÇÃO, o que multiplica as suas opções sem exigir memorização palavra a palavra.",
         "Use o filtro \"termina em\" com ÇÃO para ver instantaneamente quantas destas palavras a sua mão consegue formar, em vez de tentar recordá-las de memória a meio do jogo."

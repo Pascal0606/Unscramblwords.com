@@ -18,7 +18,7 @@ export const pl = [
       ],
       body: [
         { type: 'heading', id: "dlaczego-z-cenna", text: "Dlaczego litera Ź jest tak cenna" },
-        "Litera Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość spośród wszystkich liter w grze. W naszym własnym słowniku 58 z ponad 237 tysięcy słów zaczyna się na Ź -- rzadkość, która w pełni tłumaczy tak wysoką wartość.",
+        "Litera Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość spośród wszystkich liter w grze. W naszym własnym słowniku -- łącznie z pełną ekspansją gramatyczną -- 614 z ponad 2,8 miliona słów zaczyna się na Ź -- rzadkość, która w pełni tłumaczy tak wysoką wartość.",
         { type: 'heading', id: "krotkie-slowa-z", text: "Krótkie słowa z Ź" },
         "ŹLE (przeciwieństwo \"dobrze\") to jedno z najbardziej podstawowych słów języka polskiego, a mimo to zaczyna się od najcenniejszej litery w grze. To doskonały przykład na to, że rzadkie litery nie muszą oznaczać rzadkich słów.",
         { type: 'heading', id: "srednie-slowa-z", text: "Słowa średniej długości z Ź" },
