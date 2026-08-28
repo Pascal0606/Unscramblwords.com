@@ -352,4 +352,35 @@ export const en = [
         { question: "How many seven-letter words does UnscramblWords recognize in English?", answer: "23,109, a number pulled directly from our own dictionary rather than an estimate." }
       ]
     },
+    {
+      slug: "word-unscrambler-blank-letters",
+      title: "Word Unscrambler with Blank Letters: Solve Wildcard Puzzles Instantly",
+      excerpt: "A blank tile can become any letter, which is exactly what makes it hard to use well. Here's how to search with a wildcard properly, and what it actually finds.",
+      keyTakeaways: [
+        "A question mark (?) represents a blank tile, and the tool tests every letter of the alphabet in that position rather than making you guess.",
+        "The number of tiles you enter, including the wildcard, has to match the length of the word you're looking for -- a 6-tile rack can't produce an 8-letter word.",
+        "QAT is a real, confirmed 3-letter Q-without-U word in our dictionary; QI, despite being well known in some Scrabble circles, isn't currently recognized by our tool.",
+        "There's no dictionary selector to worry about -- one verified dictionary per language, applied automatically."
+      ],
+      toc: [
+        { id: "how-wildcards-work", label: "How a Wildcard Search Actually Works" },
+        { id: "matching-tile-count", label: "Why Tile Count Has to Match" },
+        { id: "q-without-u", label: "Using a Blank with High-Value Letters" }
+      ],
+      body: [
+        "Written and reviewed by the UnscramblWords Team.",
+        { type: 'heading', id: "how-wildcards-work", text: "How a Wildcard Search Actually Works" },
+        "Enter a question mark (?) anywhere in your search to represent a blank tile, and the tool checks every letter of the alphabet in that position rather than making you guess which one fits. For example, searching W?RD correctly returns both WORD and WARD -- the wildcard genuinely stands in for any letter, tested systematically rather than approximated.",
+        { type: 'heading', id: "matching-tile-count", text: "Why Tile Count Has to Match" },
+        "The number of tiles you enter, wildcard included, has to match the length of any word the search returns. TR?ANE is six tiles (T, R, a wildcard, A, N, E), so it can only return six-letter words -- and it correctly finds RETAIN this way. An eight-letter word simply can't come from a six-tile rack, no matter how the wildcard is used.",
+        { type: 'heading', id: "q-without-u", text: "Using a Blank with High-Value Letters" },
+        "A blank pairs especially well with a high-value letter that's otherwise hard to place. QAT -- a real word for a stimulant plant chewed in parts of East Africa and the Middle East -- is a confirmed three-letter Q-without-U word in our dictionary, useful when you're holding a Q but no U. Not every word that shows up in general Scrabble discussion is necessarily in every dictionary, though: QI, for instance, isn't currently recognized by our own tool, so it's worth checking a word's validity directly rather than assuming."
+      ],
+      faq: [
+        { question: "How do I search using a blank tile?", answer: "Enter a question mark (?) in the position of your blank tile. The tool tests every letter of the alphabet in that spot and returns every valid match." },
+        { question: "Can I use more than one blank tile in a search?", answer: "Yes, multiple wildcards in one search are supported -- useful when you're holding more than one blank." },
+        { question: "Does the tool let me choose between different official dictionaries, like NWL or CSW?", answer: "No -- there's no dictionary selector. Each language uses one verified dictionary, applied automatically, rather than requiring you to pick a tournament word list." },
+        { question: "Is QI a valid word for finding wildcard matches?", answer: "Not currently in our dictionary -- QAT is a confirmed, valid three-letter Q-without-U alternative if you're holding a Q with no U." }
+      ]
+    },
 ];
