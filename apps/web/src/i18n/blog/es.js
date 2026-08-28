@@ -298,4 +298,35 @@ export const es = [
         { question: "¿Cuántas palabras de siete letras reconoce UnscramblWords en español?", answer: "6.449, una cifra extraída directamente de nuestro propio diccionario, no una estimación." }
       ]
     },
+
+    {
+      slug: "descifrar-palabras-espanolas-scrabble",
+      title: "Descifrar Palabras Españolas: Herramienta Rápida para Scrabble y Anagramas",
+      excerpt: "Un descifrador genérico a menudo no reconoce bien la Ñ española. Así es como una herramienta dedicada al español marca la diferencia real en el Scrabble.",
+      keyTakeaways: [
+        "La Ñ es una letra propia del español, distinta de la N, y vale 8 puntos en el Scrabble en español.",
+        "Una herramienta dedicada al español reconoce correctamente palabras cotidianas con Ñ como ACOMPAÑA, sin confundirla con una N con tilde.",
+        "En nuestro propio diccionario hay 512 palabras que contienen la Ñ -- una letra genuinamente distintiva del español, no un simple acento.",
+        "Z es la letra de mayor valor en español, con 10 puntos, más alta incluso que la Ñ."
+      ],
+      toc: [
+        { id: "por-que-herramienta-dedicada", label: "Por Qué Hace Falta una Herramienta Dedicada al Español" },
+        { id: "la-ene-con-tilde", label: "La Ñ: Por Qué Es una Letra Propia" },
+        { id: "filtros-para-ganar", label: "Usar los Filtros para Encontrar la Jugada Correcta" }
+      ],
+      body: [
+        "Escrito y verificado por el equipo de UnscramblWords.",
+        { type: 'heading', id: "por-que-herramienta-dedicada", text: "Por Qué Hace Falta una Herramienta Dedicada al Español" },
+        "Un descifrador genérico, pensado principalmente para el inglés, a menudo no reconoce las particularidades propias del español. Nuestro propio diccionario tiene más de 38.000 palabras, cada una verificada individualmente en lugar de simplemente traducida desde una lista en inglés.",
+        { type: 'heading', id: "la-ene-con-tilde", text: "La Ñ: Por Qué Es una Letra Propia" },
+        "La Ñ no es una N con un acento decorativo: es una letra propia del alfabeto español, con su propia ficha y su propio valor de 8 puntos. En nuestro propio diccionario hay 512 palabras que contienen la Ñ, como ACOMPAÑA. Una herramienta que trate la Ñ como una simple variante de la N generará resultados incorrectos o pasará por alto palabras válidas.",
+        { type: 'heading', id: "filtros-para-ganar", text: "Usar los Filtros para Encontrar la Jugada Correcta" },
+        "El filtro \"empieza por\" ayuda a construir a partir de una letra ya presente en el tablero. La Z es la letra de mayor valor en español, con 10 puntos -- incluso más que la Ñ. Usar los filtros para encontrar palabras que aprovechen estas letras de alto valor en una casilla premium suele ser la diferencia entre una jugada normal y una jugada ganadora."
+      ],
+      faq: [
+        { question: "¿Es la Ñ realmente una letra distinta de la N?", answer: "Sí -- la Ñ es una letra propia del alfabeto español, con su propia ficha y su propio valor de 8 puntos, no una simple variante de la N." },
+        { question: "¿Cuál es la letra de mayor valor en el Scrabble en español?", answer: "La Z, con 10 puntos -- más alta incluso que la Ñ." },
+        { question: "¿Cuántas palabras con Ñ reconoce UnscramblWords?", answer: "512, un número extraído directamente de nuestro propio diccionario." }
+      ]
+    },
 ];

@@ -201,4 +201,35 @@ export const it = [
         { question: "Quante parole di sette lettere riconosce UnscramblWords in italiano?", answer: "6.100, un numero preso direttamente dal nostro dizionario, non una stima." }
       ]
     },
+    {
+      slug: "decifrare-parole-italiane-scarabeo",
+      title: "Decifrare Parole Italiane: Strumento Rapido per Scarabeo e Anagrammi",
+      excerpt: "Un decifratore generico spesso non gestisce bene gli accenti e le doppie dell'italiano. Ecco come uno strumento dedicato alla lingua italiana fa davvero la differenza a Scarabeo.",
+      keyTakeaways: [
+        "Un decifratore dedicato all'italiano riconosce correttamente le vocali accentate (À, È, É, Ì, Ò, Ù), a differenza degli strumenti generici pensati per l'inglese.",
+        "La lettera H, pur essendo muta, cambia il significato di parole come \"anno\" (l'unità di tempo) e \"hanno\" (voce del verbo avere) -- una distinzione che uno strumento italiano deve riconoscere.",
+        "In Italia ci sono 14,2 milioni di giocatori (32% della popolazione secondo il rapporto IIDEA 2022) -- una community reale, non una cifra generica.",
+        "Q vale 10 punti e Z ne vale 8 nello Scarabeo italiano -- le lettere più preziose del gioco."
+      ],
+      toc: [
+        { id: "perche-strumento-dedicato", label: "Perché Serve uno Strumento Dedicato all'Italiano" },
+        { id: "accenti-e-acca", label: "Accenti e la Lettera H: Perché Contano" },
+        { id: "filtri-per-vincere", label: "Usare i Filtri per Trovare la Mossa Giusta" }
+      ],
+      body: [
+        "Scritto e verificato dal team di UnscramblWords.",
+        { type: 'heading', id: "perche-strumento-dedicato", text: "Perché Serve uno Strumento Dedicato all'Italiano" },
+        "Un decifratore generico, pensato principalmente per l'inglese, spesso non riconosce le caratteristiche specifiche dell'italiano. Con 14,2 milioni di giocatori in Italia secondo il rapporto IIDEA del 2022 (il 32% della popolazione), è una community abbastanza ampia da meritare uno strumento che gestisca davvero la lingua, non un adattamento approssimativo.",
+        { type: 'heading', id: "accenti-e-acca", text: "Accenti e la Lettera H: Perché Contano" },
+        "Le vocali accentate -- À, È, É, Ì, Ò, Ù -- non sono un dettaglio estetico: cambiano il significato e la validità di una parola. Un buon strumento distingue \"perche\" (una stringa non valida) da \"perché\" (la parola corretta). Allo stesso modo, la H, pur essendo muta, è tutt'altro che superflua: distingue \"anno\" (l'unità di tempo) da \"hanno\" (voce del verbo avere). Riconoscere questa differenza è essenziale per non giocare una parola che verrebbe contestata.",
+        { type: 'heading', id: "filtri-per-vincere", text: "Usare i Filtri per Trovare la Mossa Giusta" },
+        "Il filtro \"inizia con\" aiuta a costruire a partire da una lettera già presente sul tabellone; il filtro \"finisce con\" è particolarmente utile per gli infiniti verbali italiani in -ARE, -ERE e -IRE. Q (10 punti) e Z (8 punti) sono le lettere più preziose del gioco: usare i filtri per trovare parole che le sfruttino su una casella premio è spesso la differenza tra una mossa qualsiasi e una vincente. Non sottovalutate nemmeno le parole di due lettere come RE, SA e MA -- perfette per incastrarsi in spazi ristretti senza bloccare il tabellone."
+      ],
+      faq: [
+        { question: "Come faccio a decifrare parole italiane con accenti come È o À?", answer: "Non serve digitare l'accento: il motore di ricerca confronta automaticamente le lettere base con le voci accentate del dizionario, identificando parole come città o perché istantaneamente." },
+        { question: "Perché la lettera H è importante in italiano se è muta?", answer: "Anche se non si pronuncia, la H distingue coppie di parole come anno/hanno. Uno strumento che ignora questa differenza rischia di proporre o accettare parole non valide." },
+        { question: "Qual è la lettera con il punteggio più alto a Scarabeo?", answer: "La Q vale 10 punti, il valore più alto del gioco, seguita dalla Z con 8 punti." },
+        { question: "Ci sono parole italiane di due lettere utili per Scarabeo?", answer: "Sì -- RE, SA e MA sono tutte parole valide di due lettere, utili per incastrarsi in spazi ristretti sul tabellone senza bloccare mosse future." }
+      ]
+    },
 ];

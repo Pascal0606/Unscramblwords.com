@@ -418,4 +418,35 @@ export const pt = [
         { question: "Quantas palavras de sete letras é que o UnscramblWords reconhece em português?", answer: "64.818, um número tirado diretamente do nosso próprio dicionário, não uma estimativa." }
       ]
     },
+
+    {
+      slug: "decifrar-palavras-portuguesas-scrabble",
+      title: "Decifrar Palavras Portuguesas: Ferramenta Rápida para Scrabble e Anagramas",
+      excerpt: "Uma ferramenta genérica raramente sabe lidar com as diferenças entre o português europeu e o brasileiro. Eis porque uma ferramenta dedicada faz mesmo a diferença.",
+      keyTakeaways: [
+        "O português europeu e o brasileiro têm diferenças ortográficas genuínas -- por exemplo, \"receção\" em Portugal e \"receção\" no Brasil.",
+        "O nosso próprio dicionário combina fontes de ambas as variantes, para aceitar palavras genuínas de qualquer uma delas, em vez de forçar uma escolha.",
+        "X e Z são as letras de maior valor no português, com 8 pontos cada.",
+        "O nosso dicionário tem quase 2,9 milhões de palavras no total, incluindo a expansão gramatical completa para ambas as variantes."
+      ],
+      toc: [
+        { id: "porque-ferramenta-dedicada", label: "Porque É Preciso uma Ferramenta Dedicada ao Português" },
+        { id: "europeu-e-brasileiro", label: "Português Europeu e Brasileiro: Duas Normas, Um Dicionário" },
+        { id: "filtros-para-vencer", label: "Usar os Filtros para Encontrar a Jogada Certa" }
+      ],
+      body: [
+        "Escrito e verificado pela equipa UnscramblWords.",
+        { type: 'heading', id: "porque-ferramenta-dedicada", text: "Porque É Preciso uma Ferramenta Dedicada ao Português" },
+        "Uma ferramenta genérica, pensada sobretudo para o inglês, raramente reconhece as particularidades do português. O nosso próprio dicionário tem quase 2,9 milhões de palavras, construído a partir de fontes reais em vez de traduzido mecanicamente de uma lista noutra língua.",
+        { type: 'heading', id: "europeu-e-brasileiro", text: "Português Europeu e Brasileiro: Duas Normas, Um Dicionário" },
+        "O português tem duas variantes principais com diferenças ortográficas reais -- por exemplo, algumas palavras têm grafias distintas em Portugal e no Brasil. Em vez de forçar os jogadores a escolher uma única variante, o nosso dicionário foi construído combinando fontes de ambas, aceitando palavras genuínas de qualquer uma delas. Uma ferramenta baseada apenas numa das variantes rejeitaria injustamente palavras válidas da outra.",
+        { type: 'heading', id: "filtros-para-vencer", text: "Usar os Filtros para Encontrar a Jogada Certa" },
+        "O filtro \"começa por\" ajuda a construir a partir de uma letra já presente no tabuleiro. X e Z são as letras de maior valor no português, com 8 pontos cada. Usar os filtros para encontrar palavras que aproveitem estas letras numa casa premium é frequentemente a diferença entre uma jogada comum e uma jogada vencedora."
+      ],
+      faq: [
+        { question: "O dicionário aceita palavras de Portugal e do Brasil?", answer: "Sim -- foi construído combinando fontes de ambas as variantes, para aceitar palavras genuínas de qualquer uma delas." },
+        { question: "Quais são as letras de maior valor no português?", answer: "X e Z, ambas com 8 pontos -- as mais altas do jogo." },
+        { question: "Quantas palavras tem o dicionário português do UnscramblWords?", answer: "Quase 2,9 milhões, incluindo a expansão gramatical completa para ambas as variantes." }
+      ]
+    },
 ];

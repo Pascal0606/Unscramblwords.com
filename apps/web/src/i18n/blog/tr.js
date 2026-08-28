@@ -297,4 +297,35 @@ export const tr = [
         { question: "UnscramblWords Türkçede kaç tane yedi harfli kelime tanıyor?", answer: "Tahmin değil, doğrudan kendi sözlüğümüzden alınan bir sayı olan 6.432." }
       ]
     },
+
+    {
+      slug: "turkce-kelime-cozucu-scrabble",
+      title: "Türkçe Kelimeleri Çözmek: Scrabble ve Anagramlar için Hızlı Araç",
+      excerpt: "Genel bir kelime çözücü genellikle Türkçenin yumuşak G'sini doğru tanımaz. İşte Türkçeye özel bir aracın Scrabble'da neden gerçekten fark yarattığı.",
+      keyTakeaways: [
+        "Ğ (yumuşak g) çoğunlukla ayrı bir ünsüz olarak telaffuz edilmez, ama Türkçe kelimelerde gerçek ve ayrı bir harftir.",
+        "Türkçeye özel bir araç, DAĞ, SAĞ ve YAĞ gibi günlük kelimeleri Ğ ile doğru şekilde tanır.",
+        "Kendi sözlüğümüzde Ğ içeren 4.711 kelime var -- nadir bir harf değil, gerçekten üretken bir harf.",
+        "J, Türkçe Scrabble'da 10 puan değerinde, oyundaki en yüksek değer."
+      ],
+      toc: [
+        { id: "neden-ozel-arac", label: "Neden Türkçeye Özel Bir Araç Gerekli" },
+        { id: "yumusak-g", label: "Ğ: Neden Gerçek Bir Harf" },
+        { id: "filtrelerle-kazanmak", label: "Doğru Hamleyi Bulmak için Filtreleri Kullanmak" }
+      ],
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
+        { type: 'heading', id: "neden-ozel-arac", text: "Neden Türkçeye Özel Bir Araç Gerekli" },
+        "Ağırlıklı olarak İngilizce için tasarlanmış genel bir kelime çözücü, genellikle Türkçenin kendine özgü yönlerini tanımaz. Kendi sözlüğümüzde 42.745 kelime var, her biri İngilizce bir listeden mekanik olarak çevrilmek yerine tek tek doğrulanmıştır.",
+        { type: 'heading', id: "yumusak-g", text: "Ğ: Neden Gerçek Bir Harf" },
+        "Ğ (yumuşak g) çoğu durumda ayrı bir ünsüz sesi olarak telaffuz edilmez, genellikle önceki sesli harfi uzatır -- ama Türkçe yazımda gerçek ve ayrı bir harftir. Kendi sözlüğümüzde Ğ içeren 4.711 kelime var, DAĞ (dağ), SAĞ (sağ/canlı) ve YAĞ (yağ) gibi günlük kelimeler dahil. Ğ'yi göz ardı eden bir araç bu kelimeleri ya tanımaz ya da yanlış sonuçlar üretir.",
+        { type: 'heading', id: "filtrelerle-kazanmak", text: "Doğru Hamleyi Bulmak için Filtreleri Kullanmak" },
+        "\"İle başlayan\" filtresi, tahtada zaten bulunan bir harften inşa etmeye yardımcı olur. J, Türkçe Scrabble'da 10 puan değerinde -- oyundaki en yüksek değer. Bu yüksek değerli harfleri bir prim karesinde değerlendiren kelimeleri bulmak için filtreleri kullanmak, sıradan bir hamle ile kazanan bir hamle arasındaki farkı yaratır."
+      ],
+      faq: [
+        { question: "Ğ gerçekten ayrı bir harf mi?", answer: "Evet -- çoğu durumda ayrı bir ünsüz sesi olarak telaffuz edilmese de, Türkçe yazımda ve Scrabble'da gerçek ve ayrı bir harftir." },
+        { question: "Türkçe Scrabble'da en değerli harf hangisi?", answer: "J, 10 puanla oyundaki en yüksek değere sahip." },
+        { question: "UnscramblWords Ğ içeren kaç kelime tanıyor?", answer: "4.711, doğrudan kendi sözlüğümüzden alınan bir sayı." }
+      ]
+    },
 ];

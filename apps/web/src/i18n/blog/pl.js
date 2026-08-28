@@ -398,4 +398,35 @@ export const pl = [
         { question: "Ile siedmioliterowych słów rozpoznaje UnscramblWords w języku polskim?", answer: "121 981 -- liczba pochodząca bezpośrednio z naszego własnego słownika, a nie z szacunku." }
       ]
     },
+
+    {
+      slug: "rozszyfrowac-polskie-slowa-scrabble",
+      title: "Rozszyfrować Polskie Słowa: Szybkie Narzędzie do Scrabble i Anagramów",
+      excerpt: "Ogólne narzędzie często nie radzi sobie z polskimi zbitkami spółgłoskowymi. Oto dlaczego narzędzie dedykowane polskiemu naprawdę robi różnicę w Scrabble.",
+      keyTakeaways: [
+        "Polskie dwuznaki spółgłoskowe -- SZ, CZ, RZ, DZ -- to prawdziwe, pojedyncze dźwięki, a nie przypadkowe zestawienia liter.",
+        "Narzędzie dedykowane polskiemu poprawnie rozpoznaje codzienne słowa jak SZKOŁA, CZAS i RZEKA.",
+        "Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze.",
+        "Nasz własny słownik zawiera ponad 2,8 miliona słów, w tym pełną ekspansję gramatyczną."
+      ],
+      toc: [
+        { id: "dlaczego-dedykowane-narzedzie", label: "Dlaczego Potrzebne Jest Narzędzie Dedykowane Polskiemu" },
+        { id: "zbitki-spolgloskowe", label: "SZ, CZ, RZ, DZ: Prawdziwe Dźwięki, Nie Przypadek" },
+        { id: "filtry-do-wygranej", label: "Używanie Filtrów, By Znaleźć Właściwy Ruch" }
+      ],
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords.",
+        { type: 'heading', id: "dlaczego-dedykowane-narzedzie", text: "Dlaczego Potrzebne Jest Narzędzie Dedykowane Polskiemu" },
+        "Ogólne narzędzie, zaprojektowane głównie z myślą o angielskim, często nie rozpoznaje specyfiki języka polskiego. Nasz własny słownik zawiera ponad 2,8 miliona słów, zbudowany z prawdziwych źródeł, a nie mechanicznie przetłumaczony z listy w innym języku.",
+        { type: 'heading', id: "zbitki-spolgloskowe", text: "SZ, CZ, RZ, DZ: Prawdziwe Dźwięki, Nie Przypadek" },
+        "Zbitki takie jak SZ, CZ, RZ i DZ reprezentują pojedyncze, odrębne dźwięki w języku polskim, a nie przypadkowe zestawienie dwóch liter. Pojawiają się w codziennych słowach jak SZKOŁA, CZAS, RZEKA i DZIEŃ. Narzędzie, które traktuje je jako zwykłe sekwencje liter, nie rozumie prawdziwej struktury polskich słów -- każda z tych liter nadal liczy się osobno przy punktacji, ale ich powtarzalność w codziennym słownictwie jest czymś, co dedykowany słownik musi uwzględniać poprawnie.",
+        { type: 'heading', id: "filtry-do-wygranej", text: "Używanie Filtrów, By Znaleźć Właściwy Ruch" },
+        "Filtr \"zaczyna się od\" pomaga budować od litery już obecnej na planszy. Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze. Używanie filtrów do znalezienia słów, które umieszczają takie wartościowe litery na polu premiowym, często decyduje o różnicy między zwykłym a zwycięskim ruchem."
+      ],
+      faq: [
+        { question: "Czy SZ, CZ, RZ i DZ liczą się jako pojedyncze litery w Scrabble?", answer: "Nie -- każda litera nadal liczy się osobno przy punktacji, ale reprezentują one pojedyncze dźwięki w wymowie, co jest ważne dla poprawnego rozpoznawania słów." },
+        { question: "Jaka jest najcenniejsza litera w polskim Scrabble?", answer: "Ź, warta 9 punktów -- najwyższa wartość w całej grze." },
+        { question: "Ile słów zawiera polski słownik UnscramblWords?", answer: "Ponad 2,8 miliona, w tym pełna ekspansja gramatyczna." }
+      ]
+    },
 ];

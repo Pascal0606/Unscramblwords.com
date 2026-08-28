@@ -304,4 +304,35 @@ export const de = [
         { question: "Wie viele Sieben-Buchstaben-Wörter erkennt UnscramblWords auf Deutsch?", answer: "4.486, eine Zahl direkt aus unserem eigenen Wörterbuch, keine Schätzung." }
       ]
     },
+
+    {
+      slug: "deutsche-woerter-entschluesseln-scrabble",
+      title: "Deutsche Wörter Entschlüsseln: Schnelles Werkzeug für Scrabble und Anagramme",
+      excerpt: "Ein generischer Entschlüsseler kommt mit dem deutschen ß oft nicht klar. So macht ein speziell auf Deutsch zugeschnittenes Werkzeug beim Scrabble wirklich den Unterschied.",
+      keyTakeaways: [
+        "Das ß hat im deutschen Scrabble keinen eigenen Stein -- Wörter mit ß werden mit SS geschrieben (ABFLUSS statt ABFLUß).",
+        "Ein auf Deutsch zugeschnittenes Werkzeug erkennt echte Alltagswörter wie ABFLUSS und ABENDESSEN korrekt in ihrer spielbaren SS-Schreibweise.",
+        "Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, gemeinsam mit Y.",
+        "Unser eigenes deutsches Wörterbuch enthält über 36.000 Wörter, jedes einzeln geprüft statt mechanisch aus dem Englischen übersetzt."
+      ],
+      toc: [
+        { id: "warum-eigenes-werkzeug", label: "Warum ein Werkzeug Speziell für Deutsch" },
+        { id: "das-eszett", label: "Das ß: Warum es Keinen Eigenen Stein Gibt" },
+        { id: "filter-fuer-den-sieg", label: "Mit Filtern den Richtigen Zug Finden" }
+      ],
+      body: [
+        "Verfasst und geprüft vom UnscramblWords-Team.",
+        { type: 'heading', id: "warum-eigenes-werkzeug", text: "Warum ein Werkzeug Speziell für Deutsch" },
+        "Ein generischer Entschlüsseler, der hauptsächlich für Englisch gebaut wurde, erkennt oft die Besonderheiten des Deutschen nicht. Unser eigenes Wörterbuch enthält über 36.000 Wörter, jedes einzeln geprüft statt einfach aus einer englischen Liste übersetzt.",
+        { type: 'heading', id: "das-eszett", text: "Das ß: Warum es Keinen Eigenen Stein Gibt" },
+        "Das ß hat im offiziellen deutschen Scrabble keinen eigenen Spielstein -- Wörter, die normalerweise mit ß geschrieben werden, müssen mit SS geschrieben werden, um spielbar zu sein. Unser Wörterbuch wendet diese Regel konsequent auf echte Alltagswörter wie ABFLUSS und ABENDESSEN an. Ein Werkzeug, das diese Regel ignoriert, würde entweder gültige Wörter ablehnen oder ungültige Schreibweisen akzeptieren.",
+        { type: 'heading', id: "filter-fuer-den-sieg", text: "Mit Filtern den Richtigen Zug Finden" },
+        "Der \"Beginnt mit\"-Filter hilft, von einem bereits auf dem Feld liegenden Buchstaben aus aufzubauen. Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, zusammen mit Y. Filter zu nutzen, um Wörter zu finden, die Q auf ein Bonusfeld bringen, ist oft der Unterschied zwischen einem gewöhnlichen und einem gewinnenden Zug."
+      ],
+      faq: [
+        { question: "Warum wird ABFLUSS mit SS statt ß geschrieben?", answer: "Das ß hat im offiziellen Scrabble keinen eigenen Spielstein, daher müssen Wörter mit ß für das Spiel mit SS geschrieben werden." },
+        { question: "Ist Q wirklich der wertvollste Buchstabe im Deutschen?", answer: "Ja -- Q ist zusammen mit Y mit 10 Punkten der höchste Wert im gesamten Spiel." },
+        { question: "Wie viele Wörter enthält das deutsche Wörterbuch von UnscramblWords?", answer: "Über 36.000, jedes einzeln geprüft statt mechanisch übersetzt." }
+      ]
+    },
 ];

@@ -300,4 +300,35 @@ export const fr = [
         { question: "Combien de mots de sept lettres UnscramblWords reconnaît-il en français ?", answer: "10 240, un chiffre tiré directement de notre propre dictionnaire plutôt qu'une estimation." }
       ]
     },
+
+    {
+      slug: "decrypter-mots-francais-scrabble",
+      title: "Déchiffrer des Mots Français : Outil Rapide pour le Scrabble et les Anagrammes",
+      excerpt: "Un déchiffreur générique ne gère souvent pas bien les ligatures françaises. Voici pourquoi un outil dédié au français fait vraiment la différence au Scrabble.",
+      keyTakeaways: [
+        "Les ligatures ŒU et Æ doivent être respelées avec des lettres séparées (BŒUF devient BOEUF) car elles ne correspondent à aucun jeton de Scrabble jouable.",
+        "Un outil dédié au français reconnaît des mots courants comme BOEUF, SOEUR, COEUR et NOEUD respelés correctement, contrairement à un outil générique.",
+        "Le K vaut 10 points en français, l'une des valeurs les plus élevées du jeu, malgré son origine presque entièrement empruntée.",
+        "Notre propre dictionnaire français compte plus de 62 000 mots, chacun vérifié individuellement plutôt que traduit mécaniquement depuis l'anglais."
+      ],
+      toc: [
+        { id: "pourquoi-outil-dedie", label: "Pourquoi un Outil Dédié au Français" },
+        { id: "ligatures-oe-ae", label: "Les Ligatures ŒU et Æ : Pourquoi Elles Comptent" },
+        { id: "filtres-pour-gagner", label: "Utiliser les Filtres pour Trouver le Bon Coup" }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords.",
+        { type: 'heading', id: "pourquoi-outil-dedie", text: "Pourquoi un Outil Dédié au Français" },
+        "Un déchiffreur générique, conçu principalement pour l'anglais, ne reconnaît souvent pas les particularités propres au français. Notre propre dictionnaire compte plus de 62 000 mots, chacun vérifié individuellement plutôt que simplement traduit ou copié depuis une liste anglaise.",
+        { type: 'heading', id: "ligatures-oe-ae", text: "Les Ligatures ŒU et Æ : Pourquoi Elles Comptent" },
+        "Les ligatures comme ŒU dans BŒUF ne correspondent à aucune lettre jouable au Scrabble : chaque lettre du plateau est une lettre séparée, donc ces mots doivent être respelés en BOEUF pour être reconnus correctement. Notre dictionnaire applique cette règle systématiquement à des mots courants comme BOEUF, SOEUR, COEUR et NOEUD -- un outil qui ignore cette règle risque de rejeter des mots parfaitement valides ou, pire, d'en accepter d'invalides.",
+        { type: 'heading', id: "filtres-pour-gagner", text: "Utiliser les Filtres pour Trouver le Bon Coup" },
+        "Le filtre « commence par » aide à construire à partir d'une lettre déjà présente sur le plateau. Le K, malgré son origine presque entièrement empruntée à d'autres langues (kimono, kayak, karaoké), vaut 10 points -- l'une des valeurs les plus élevées du jeu. Utiliser les filtres pour trouver des mots qui exploitent le K sur une case premium est souvent la différence entre un coup ordinaire et un coup gagnant."
+      ],
+      faq: [
+        { question: "Pourquoi BŒUF doit-il s'écrire BOEUF au Scrabble ?", answer: "La ligature Œ ne correspond à aucun jeton du jeu -- chaque lettre du plateau est une lettre distincte, donc le mot doit être respelé avec un O et un E séparés pour être reconnu correctement." },
+        { question: "Le K est-il vraiment une lettre précieuse en français ?", answer: "Oui -- il vaut 10 points, l'une des valeurs les plus élevées du jeu, malgré son origine presque entièrement empruntée à d'autres langues." },
+        { question: "Combien de mots contient le dictionnaire français d'UnscramblWords ?", answer: "Plus de 62 000, chacun vérifié individuellement plutôt que traduit mécaniquement." }
+      ]
+    },
 ];
