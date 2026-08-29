@@ -309,7 +309,7 @@ export const en = [
         { type: 'heading', id: 'mid-length-x-words', text: 'Mid-Length X Words for Puzzles' },
         "Once the board opens up, mid-length words give you more flexibility than short hooks without needing a long, awkward rack. XYST (a covered walkway used for exercise in ancient Greece and Rome) and XENON (the noble gas) are both solid five- and six-letter options. XERIC (describing an extremely dry habitat) and XYLEM (the water-conducting tissue in plants) round out a useful set — all genuinely playable, not just recognisable science-class vocabulary.",
         { type: 'heading', id: 'long-x-words', text: 'Long X Words and Bingo Plays' },
-        "Seven-letter Bingo plays — using all the tiles in your rack for a 50-point bonus — are rarer with X than with more common letters, but they exist, and two of them are words you likely already know: XANTHAN, as in xanthan gum, the thickener found in countless food products, and XYLITOL, the sugar substitute common in sugar-free gum. Both are exactly seven letters and confirmed valid. XIPHOID, the sword-shaped lower part of the sternum, is another solid seven-letter option if you're working with medical or anatomical vocabulary.",
+        "Seven-letter Bingo plays — using all the tiles in your rack for a 50-point bonus in Scrabble (35 points in Words With Friends) — are rarer with X than with more common letters, but they exist, and two of them are words you likely already know: XANTHAN, as in xanthan gum, the thickener found in countless food products, and XYLITOL, the sugar substitute common in sugar-free gum. Both are exactly seven letters and confirmed valid. XIPHOID, the sword-shaped lower part of the sternum, is another solid seven-letter option if you're working with medical or anatomical vocabulary.",
         { type: 'heading', id: 'finding-x-words', text: 'Finding X Words with UnscramblWords' },
         "Rather than trying to recall this list from memory mid-game, our \"Starts With\" filter does the work directly: enter your rack, filter for words beginning with X, and you'll see every valid match rather than guessing whether an unfamiliar word is actually playable. The tool works the same way across all 10 supported languages, so the same approach applies whether you're playing in English, Spanish, French, or any of the others — each checked against that language's own dictionary rather than a translated English list."
       ],
@@ -381,6 +381,37 @@ export const en = [
         { question: "Can I use more than one blank tile in a search?", answer: "Yes, multiple wildcards in one search are supported -- useful when you're holding more than one blank." },
         { question: "Does the tool let me choose between different official dictionaries, like NWL or CSW?", answer: "No -- there's no dictionary selector. Each language uses one verified dictionary, applied automatically, rather than requiring you to pick a tournament word list." },
         { question: "Is QI a valid word for finding wildcard matches?", answer: "Not currently in our dictionary -- QAT is a confirmed, valid three-letter Q-without-U alternative if you're holding a Q with no U." }
+      ]
+    },
+    {
+      slug: "words-with-friends-vs-scrabble-differences",
+      title: "Words With Friends vs. Scrabble: The Real Differences That Change Your Strategy",
+      excerpt: "They look alike, but Words With Friends and Scrabble score differently, value letters differently, and even use different dictionaries. Here's what actually changes your strategy.",
+      keyTakeaways: [
+        "A Bingo (using all seven tiles) earns 50 points in Scrabble, but only 35 points in Words With Friends -- confirmed directly by the game's own official rules.",
+        "J is worth 8 points in Scrabble but 10 in Words With Friends, making it a genuinely more valuable tile to hold in WWF.",
+        "Words With Friends' dictionary is based on the same public-domain ENABLE word list our own tool uses, though Words With Friends adds its own extra slang and abbreviations on top that aren't part of the standard list.",
+        "QAT and QAID are real, confirmed Q-without-U words in our dictionary -- useful in either game when you're holding a Q with no U."
+      ],
+      toc: [
+        { id: "bingo-bonus-difference", label: "The Bingo Bonus: 50 Points vs. 35" },
+        { id: "tile-value-difference", label: "Tile Values: Where J Really Matters" },
+        { id: "dictionary-difference", label: "The Dictionary Difference" }
+      ],
+      body: [
+        "Written and reviewed by the UnscramblWords Team.",
+        { type: 'heading', id: "bingo-bonus-difference", text: "The Bingo Bonus: 50 Points vs. 35" },
+        "Using all seven tiles from your rack in a single turn is called a Bingo in both games, but the reward isn't the same: Scrabble awards a flat 50-point bonus, while Words With Friends' own official rules confirm its Bingo bonus is 35 points. It's a real, verified difference, not a rumor -- and it means a Bingo carries relatively less weight in a Words With Friends match, so it's worth weighing against other scoring opportunities rather than chasing one automatically.",
+        { type: 'heading', id: "tile-value-difference", text: "Tile Values: Where J Really Matters" },
+        "Most letter values carry over between the two games, but J is a genuine exception: it's worth 8 points in Scrabble, where it barely moves the needle on your score, but 10 points in Words With Friends, making it one of the more valuable tiles to hold onto rather than dump early. If you're used to treating J as a minor tile from Scrabble habits, that assumption doesn't carry over.",
+        { type: 'heading', id: "dictionary-difference", text: "The Dictionary Difference" },
+        "Words With Friends' word list is genuinely built on the ENABLE dictionary -- the same public-domain word list our own tool uses -- though Words With Friends has added its own extra slang and abbreviations on top of the base list over the years. That means a word confirmed in our dictionary is very likely valid in Words With Friends too, though the reverse isn't guaranteed, since some of Words With Friends' own additions go beyond standard ENABLE. QAT and QAID are two reliable Q-without-U options confirmed directly in our own dictionary, useful in either game when you're holding a Q but no U."
+      ],
+      faq: [
+        { question: "Is the Bingo bonus really different between Scrabble and Words With Friends?", answer: "Yes -- Scrabble awards 50 points for using all seven tiles in one turn, while Words With Friends' own official rules confirm a 35-point bonus for the same feat." },
+        { question: "Which tile values actually differ between the two games?", answer: "J is the clearest, best-documented difference: 8 points in Scrabble versus 10 in Words With Friends. Most other letter values carry over between the two games." },
+        { question: "Does Words With Friends use the same dictionary as our tool?", answer: "It's built on the same ENABLE word list our tool uses, though Words With Friends has added extra slang and abbreviations beyond the standard list over the years." },
+        { question: "What's a reliable Q-without-U word for either game?", answer: "QAT and QAID are both confirmed valid in our own dictionary -- useful options when you're holding a Q but no U." }
       ]
     },
 ];
