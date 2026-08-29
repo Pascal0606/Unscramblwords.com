@@ -95,9 +95,9 @@ function writeRoute(url, template, render, onSuccess, errors) {
       html = html.replace('</head>', `${helmetMeta}\n${helmetLink}\n</head>`);
     }
 
-    const outDir = path.join(CLIENT_DIST, url);
+    const outDir = path.dirname(path.join(CLIENT_DIST, url + '.html'));
     fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf-8');
+    fs.writeFileSync(path.join(CLIENT_DIST, url + '.html'), html, 'utf-8');
     onSuccess();
   } catch (err) {
     errors.push({ url, message: err.message });
