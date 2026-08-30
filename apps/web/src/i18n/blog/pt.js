@@ -481,4 +481,34 @@ export const pt = [
         { question: "Que letra vale a pena combinar com um curinga em português?", answer: "X ou Z, ambas com 8 pontos -- XADREZ e XAROPE são exemplos reais e verificados." }
       ]
     },
+    {
+      slug: "desembaralhador-plurais-nasais-portugues",
+      title: "Plurais Nasais e Padrões de Letras: Truques Reais para Scrabble e Palavras Cruzadas em Português",
+      excerpt: "Os plurais nasais do português (-ões, -ães, -ãos) são um caminho genuíno para um Bingo de sete letras -- e a pesquisa por padrão resolve palavras cruzadas em segundos. Eis como usar ambos.",
+      keyTakeaways: [
+        "Existem 453 palavras terminadas em -ÕES no nosso próprio dicionário -- um padrão plural extremamente produtivo, ideal para completar um rack quase pronto.",
+        "CAPITÃES (capitães) e BENÇÃOS (bênçãos) são exemplos reais e verificados de palavras de exatamente sete letras terminadas em plural nasal -- um Scrabble completo genuíno.",
+        "Para palavras cruzadas, uma pesquisa por padrão como ?????MENTE encontra instantaneamente advérbios como ALTAMENTE ou FORTEMENTE, ambos confirmados no nosso dicionário.",
+        "O Q praticamente sempre precisa de um U em português -- ao contrário do inglês ou do francês, quase não existem exceções genuínas nesta língua."
+      ],
+      toc: [
+        { id: "plurais-nasais-bingo", label: "Plurais Nasais: um Caminho Real para o Bingo" },
+        { id: "pesquisa-por-padrao", label: "Pesquisa por Padrão para Palavras Cruzadas" },
+        { id: "q-sempre-precisa-u", label: "O Q em Português: Quase Sempre Precisa de U" }
+      ],
+      body: [
+        "Escrito e verificado pela equipa UnscramblWords.",
+        { type: 'heading', id: "plurais-nasais-bingo", text: "Plurais Nasais: um Caminho Real para o Bingo" },
+        "O português forma muitos plurais com terminações nasais -- -ÕES, -ÃES e -ÃOS -- e esta é uma das formas mais fiáveis de completar um rack quase pronto para um Scrabble completo. No nosso próprio dicionário há 453 palavras terminadas em -ÕES, um padrão genuinamente produtivo. CAPITÃES (capitães) e BENÇÃOS (bênçãos) são exemplos reais de exactamente sete letras -- não curiosidades técnicas, mas palavras do dia a dia que fecham um rack com o bónus completo.",
+        { type: 'heading', id: "pesquisa-por-padrao", text: "Pesquisa por Padrão para Palavras Cruzadas" },
+        "Nas palavras cruzadas, muitas vezes já sabe algumas letras mas não todas. Uma pesquisa por padrão resolve isto diretamente: usar ?????MENTE (cinco letras desconhecidas seguidas do sufixo conhecido) encontra advérbios reais como ALTAMENTE e FORTEMENTE, ambos confirmados no nosso dicionário. Esta técnica funciona com qualquer sufixo ou prefixo conhecido, transformando um espaço vazio numa lista curta de candidatos reais em vez de uma tentativa às cegas.",
+        { type: 'heading', id: "q-sempre-precisa-u", text: "O Q em Português: Quase Sempre Precisa de U" },
+        "Ao contrário do inglês, onde existem palavras genuínas como QAT ou QI sem U a seguir ao Q, o português praticamente não tem exceções a esta regra -- no nosso próprio dicionário, a única entrada com Q sem U é um empréstimo raro. Se tiver um Q na mão sem um U disponível, a estratégia mais fiável é normalmente trocar a peça em vez de esperar por uma exceção que quase não existe."
+      ],
+      faq: [
+        { question: "Os plurais nasais são realmente úteis para encontrar um Scrabble completo?", answer: "Sim -- há 453 palavras terminadas em -ÕES no nosso dicionário, e CAPITÃES e BENÇÃOS são exemplos reais de exatamente sete letras." },
+        { question: "Como funciona a pesquisa por padrão numa palavra cruzada?", answer: "Substitua as letras desconhecidas por pontos de interrogação -- por exemplo, ?????MENTE encontra advérbios reais como ALTAMENTE e FORTEMENTE que terminam dessa forma." },
+        { question: "O Q em português também tem exceções sem U, como no inglês?", answer: "Praticamente não. Ao contrário do inglês, o português quase não tem palavras genuínas com Q sem U a seguir." }
+      ]
+    },
 ];
