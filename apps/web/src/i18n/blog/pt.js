@@ -126,26 +126,26 @@ export const pt = [
       title: "A Fascinante História do Scrabble",
       excerpt: "Do arquiteto desempregado que o inventou ao fenómeno mundial que se tornou — a história real do Scrabble, com as datas e factos verificados.",
       keyTakeaways: [
-        "O Scrabble foi inventado por Alfred Butts, um arquiteto americano desempregado, durante a Grande Depressão.",
+        "O Scrabble foi inventado por Alfred Butts, um arquiteto americano desempregado, na década de 1930.",
         "O jogo passou por vários nomes — Lexiko, depois Criss-Cross Words — antes de se chamar Scrabble.",
         "James Brunot adquiriu os direitos em 1948 e foi quem lhe deu o nome atual.",
         "O jogo só decolou comercialmente em 1952, depois de ser visto na loja Macy's."
       ],
       toc: [
-        { id: "origem-butts", label: "A origem: Alfred Butts e a Grande Depressão" },
+        { id: "origem-butts", label: "A origem: Alfred Butts e os Anos 1930" },
         { id: "nome-e-brunot", label: "De Lexiko a Scrabble: James Brunot" },
         { id: "sucesso-macys", label: "O sucesso repentino de 1952" }
       ],
       body: [
-        { type: 'heading', id: "origem-butts", text: "A origem: Alfred Butts e a Grande Depressão" },
-        "O Scrabble foi criado por Alfred Mosher Butts, um arquiteto americano que ficou desempregado durante a Grande Depressão. Butts analisou a frequência das letras em jornais e outros textos para determinar os valores de pontuação de cada letra — uma abordagem sistemática que ainda hoje sustenta o jogo.",
+        { type: 'heading', id: "origem-butts", text: "A origem: Alfred Butts e os Anos 1930" },
+        "O Scrabble foi criado por Alfred Mosher Butts, um arquiteto americano que ficou desempregado na década de 1930. Butts analisou a frequência das letras em jornais e outros textos para determinar os valores de pontuação de cada letra — uma abordagem sistemática que ainda hoje sustenta o jogo.",
         { type: 'heading', id: "nome-e-brunot", text: "De Lexiko a Scrabble: James Brunot" },
         "O jogo teve vários nomes ao longo do seu desenvolvimento — primeiro Lexiko, depois Criss-Cross Words — antes de James Brunot adquirir os direitos em 1948 e lhe dar o nome definitivo de Scrabble.",
         { type: 'heading', id: "sucesso-macys", text: "O sucesso repentino de 1952" },
         "Apesar de existir desde os anos 1930, o Scrabble só se tornou um sucesso comercial em 1952, depois de o presidente da loja de departamentos Macy's o descobrir de férias e ficar surpreendido por a sua própria loja não o vender. A procura disparou quase da noite para o dia."
       ],
       faq: [
-        { question: "Quem inventou o Scrabble?", answer: "Alfred Mosher Butts, um arquiteto americano desempregado durante a Grande Depressão." },
+        { question: "Quem inventou o Scrabble?", answer: "Alfred Mosher Butts, um arquiteto americano desempregado na década de 1930." },
         { question: "Porque é que o Scrabble teve tanto sucesso a partir de 1952?", answer: "Depois de o presidente da Macy's descobrir o jogo e notar que a sua própria loja não o vendia, a procura cresceu rapidamente." },
         { question: "Quando é que o Scrabble chegou a Portugal e ao Brasil?", answer: "Não encontrámos uma data fiável e verificável para a introdução do jogo em qualquer um dos países — se tiver essa informação de uma fonte fidedigna, ficaríamos gratos por a partilhar." }
       ]
@@ -156,7 +156,7 @@ export const pt = [
       excerpt: "Jogar Scrabble não é apenas divertido — a investigação sobre bilinguismo e reserva cognitiva de Ellen Bialystok sugere benefícios reais e mensuráveis.",
       keyTakeaways: [
         "A investigação da Estudos Longitudinais de Victoria (2011, Neuropsychology) associa jogos de palavras a benefícios cognitivos mensuráveis.",
-        "A investigação sobre bilinguismo de Ellen Bialystok, da Universidade de York (não da Universidade de Waterloo, um erro que já corrigimos noutros idiomas deste projeto), associa-se ao atraso de sintomas de demência em 4 a 5 anos.",
+        "A investigação sobre bilinguismo de Ellen Bialystok, da Universidade de York, associa-se ao atraso de certos sintomas cognitivos relacionados com a idade em 4 a 5 anos.",
         "Jogos de palavras multilingues, como os que o UnscramblWords suporta em 10 idiomas, podem ativar os mesmos mecanismos cognitivos que a investigação identifica."
       ],
       toc: [
@@ -167,7 +167,7 @@ export const pt = [
         { type: 'heading', id: "estudo-victoria", text: "O Estudo Longitudinal de Victoria" },
         "Um estudo de 2011 publicado na revista Neuropsychology, baseado no Estudo Longitudinal de Victoria, associa a participação regular em jogos de palavras a um desempenho cognitivo mensuravelmente melhor ao longo do tempo.",
         { type: 'heading', id: "bialystok-york", text: "A investigação de Ellen Bialystok em York" },
-        "Uma parte significativa da investigação sobre os benefícios cognitivos de manipular palavras vem do trabalho de Ellen Bialystok e colegas na Universidade de York, em Toronto — nomeadamente Bialystok, Craik e Freedman (2007, Neuropsychologia) — que associou o bilinguismo ao atraso dos sintomas de demência em cerca de 4 a 5 anos."
+        "Uma parte significativa da investigação sobre os benefícios cognitivos de manipular palavras vem do trabalho de Ellen Bialystok e colegas na Universidade de York, em Toronto — nomeadamente Bialystok, Craik e Freedman (2007, Neuropsychologia) — que associou o bilinguismo ao atraso de certos sintomas cognitivos relacionados com a idade em cerca de 4 a 5 anos."
       ],
       faq: [
         { question: "Que investigação relaciona jogos de palavras com saúde cerebral?", answer: "O Estudo Longitudinal de Victoria (2011, Neuropsychology) e a investigação sobre bilinguismo de Ellen Bialystok na Universidade de York (2007, Neuropsychologia)." },

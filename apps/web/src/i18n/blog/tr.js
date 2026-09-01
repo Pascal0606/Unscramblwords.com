@@ -82,9 +82,9 @@ export const tr = [
     {
       slug: "history-of-scrabble",
       title: "Scrabble'ın Büyüleyici Tarihi",
-      excerpt: "Büyük Buhran dönemindeki icadından dünyanın en popüler kutu oyunlarından biri olmaya kadar Scrabble'ın tam tarihi.",
+      excerpt: "1930'lardaki icadından dünyanın en popüler kutu oyunlarından biri olmaya kadar Scrabble'ın tam tarihi.",
       body: [
-        "Scrabble, yaklaşık bir asra yayılan zengin ve büyüleyici bir tarihe sahiptir. Oyun, 1930'ların Büyük Buhran döneminde işini kaybeden New Yorklu bir mimar olan Alfred Mosher Butts tarafından icat edilmiştir. Popüler bir hobi yaratmaya kararlı olan Butts, dengeli ve zorlu bir kelime oyunu tasarlamak amacıyla gazete ve kitaplardaki harf sıklıklarını yıllarca analiz etmiştir.",
+        "Scrabble, yaklaşık bir asra yayılan zengin ve büyüleyici bir tarihe sahiptir. Oyun, 1930'larda işini kaybeden New Yorklu bir mimar olan Alfred Mosher Butts tarafından icat edilmiştir. Popüler bir hobi yaratmaya kararlı olan Butts, dengeli ve zorlu bir kelime oyunu tasarlamak amacıyla gazete ve kitaplardaki harf sıklıklarını yıllarca analiz etmiştir.",
         "Butts başlangıçta icadına 'Lexiko', daha sonra 'Criss-Cross Words' adını vermiştir. Oyun, anagram oyunlarının unsurlarını özellikle ilgi çekici kılan sayısal puanlama öğesiyle birleştiriyordu. Çabalarına rağmen Butts, oyunu üretmeye istekli bir üretici bulmakta zorlandı.",
         "Dönüm noktası 1948'de Butts'ın arkadaşı James Brunot'nun oyunun üretim ve satış haklarını satın almasıyla geldi. Brunot kuralları basitleştirdi, tahtayı hafifçe yeniden tasarladı ve oyuna 'Scrabble' adını verdi — 'bir şey için çırpınmak veya kazımak' anlamına gelen gerçek bir İngilizce kelime.",
         "Oyun, 1952 yılında Macy's mağazalar zincirinin başkanı Jack Straus'un bir tatilde oynayıp büyülenene kadar mütevazı bir satış rakamına sahipti. Straus'un mağazaya sipariş etmesiyle birlikte talep patlama yaşadı. 1954 yılına gelindiğinde Amerika Birleşik Devletleri'nde dört milyondan fazla Scrabble oyunu satılmıştı.",
@@ -93,7 +93,7 @@ export const tr = [
         "Scrabble 29 dile çevrilmiş ve 121 ülkede satılmıştır; bu durum onu tarihin en geniş çapta dağıtılan kutu oyunlarından biri yapmaktadır. Dünya genelinde yaklaşık 150 milyon adet satılmıştır.",
         "Oyunun kültürel etkisi de kayda değerdir. Okullarda yazım ve kelime dağarcığını geliştirmeye yönelik bir öğretim aracı olarak düzenli biçimde kullanılmaktadır.",
         "Son on yıllarda çevrimiçi Scrabble platformları ve akıllı telefon uygulamaları oyunu tamamen yeni oyuncu kuşaklarına tanıtmış ve rekabetçi kelime oyunlarına yönelik ana akım ilgiyi yeniden canlandırmıştır.",
-        "1993 yılında 93 yaşında hayatını kaybeden Alfred Butts, Buhran döneminde doğan icadının yüz milyonlarca kişi tarafından beğenilen küresel bir fenomene dönüştüğünü bizzat görmüştür."
+        "1993 yılında 93 yaşında hayatını kaybeden Alfred Butts, 1930'larda doğan icadının yüz milyonlarca kişi tarafından beğenilen küresel bir fenomene dönüştüğünü bizzat görmüştür."
       ]
     },
     {
@@ -104,10 +104,10 @@ export const tr = [
         "Kelime oyunları ile beyin sağlığı arasındaki ilişki, son on yıllarda giderek artan bilimsel ilgi görmektedir. Araştırmacılar bu alanı incelemeyi sürdürseler de, kelime oyunları da dahil olmak üzere zihinsel açıdan uyarıcı aktivitelere düzenli katılımın bilişsel işlevi destekleyebileceğine dair anlamlı kanıtlar bulunmaktadır.",
         "Neuropsychology dergisinde 2011 yılında yayımlanan bir araştırma; kelime oyunları ve bulmacalar gibi zihinsel açıdan uyarıcı boş zaman aktivitelerine katılan bireylerin ileri yaşta daha yavaş bilişsel gerileme hızı gösterdiğini ortaya koymuştur.",
         "Dil işleme, insan beyninin gerçekleştirdiği en karmaşık bilişsel işlevlerden biridir; Broca alanı, Wernicke alanı ve prefrontal korteksin çeşitli bölümleri dahil olmak üzere birden fazla bölgeyi kapsar. Scrabble gibi kelime oyunları bu dil alanlarını yoğun biçimde harekete geçirir.",
-        "Waterloo Üniversitesi'nden araştırmalar, iki dilli ve çok dilli bireylerin tek dilli bireylerle karşılaştırıldığında bunama belirtilerini daha geç yaşta gösterme eğiliminde olduğunu ortaya koymuştur. Birden fazla dilde kelime oyunları oynamak bu nedenle kümülatif bilişsel yararlar sunabilir.",
+        "Ellen Bialystok ve York Üniversitesi'ndeki meslektaşlarının araştırmaları, iki dilli ve çok dilli bireylerin tek dilli bireylerle karşılaştırıldığında yaşa bağlı bazı bilişsel belirtileri daha geç yaşta gösterme eğiliminde olduğunu ortaya koymuştur. Birden fazla dilde kelime oyunları oynamak bu nedenle kümülatif bilişsel yararlar sunabilir.",
         "Çalışma belleği — bilgiyi kısa süreler boyunca akılda tutma ve işleme becerisi — kelime oyunları sırasında yoğun biçimde kullanılır. Örneğin Scrabble'da oyuncular, harf setlerini akılda tutarken tahtayı fırsat açısından tarayıp aynı anda puan hesaplamak zorunda kalır.",
         "Dikkat ve konsantrasyon da kelime oyunları pratiğiyle geliştirilir. Rekabetçi Scrabble, 30 dakika ile birkaç saat arasında değişen sürelerde sürekli odaklanma gerektirir.",
-        "Bilim insanı topluluğunun kelime oyunları ile bilişsel gerilemenin ya da Alzheimer gibi nörodejeneratif hastalıkların önlenmesi arasında kesin bir nedensellik bağı henüz kurmadığını belirtmek önemlidir.",
+        "Bilim insanı topluluğunun kelime oyunları ile yaşa bağlı bilişsel gerilemenin önlenmesi arasında kesin bir nedensellik bağı henüz kurmadığını belirtmek önemlidir.",
         "Bununla birlikte bilişsel bilimciler arasındaki genel kanı, zihinsel uyarımın, sosyal katılımın, fiziksel egzersizin ve sağlıklı beslenmenin birlikte genel beyin sağlığına katkıda bulunduğu yönündedir.",
         "Çocuklar ve gençler için kelime oyunları önemli eğitimsel yararlar sunar. Araştırmalar, kelime oyunlarına katılım ile kelime dağarcığı gelişimi, okuma anlayışı ve yazım becerileri arasında olumlu ilişkiler olduğunu ortaya koymuştur.",
         "Özetle, kelime oyunları herhangi bir bilişsel durum için tıbbi olarak kanıtlanmış bir tedavi olmasa da mevcut kanıtlar, bu oyunların her yaşta beyin sağlığı için keyifli, erişilebilir ve potansiyel olarak yararlı aktiviteler olduğunu öne sürmektedir."

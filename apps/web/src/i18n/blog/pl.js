@@ -118,26 +118,26 @@ export const pl = [
       title: "Fascynująca Historia Gry Scrabble",
       excerpt: "Od bezrobotnego architekta, który ją wymyślił, po światowy fenomen -- prawdziwa historia Scrabble, ze zweryfikowanymi datami i faktami.",
       keyTakeaways: [
-        "Scrabble wymyślił Alfred Butts, bezrobotny amerykański architekt, w czasie Wielkiego Kryzysu.",
+        "Scrabble wymyślił Alfred Butts, bezrobotny amerykański architekt, w latach 30.",
         "Gra przechodziła przez różne nazwy -- Lexiko, potem Criss-Cross Words -- zanim otrzymała nazwę Scrabble.",
         "James Brunot nabył prawa do gry w 1948 roku i to on nadał jej ostateczną nazwę.",
         "Gra odniosła sukces komercyjny dopiero w 1952 roku, po tym jak zauważono ją w domu towarowym Macy's."
       ],
       toc: [
-        { id: "poczatki-butts", label: "Początki: Alfred Butts i Wielki Kryzys" },
+        { id: "poczatki-butts", label: "Początki: Alfred Butts i lata 30." },
         { id: "nazwa-brunot", label: "Od Lexiko do Scrabble: James Brunot" },
         { id: "sukces-1952", label: "Nagły sukces roku 1952" }
       ],
       body: [
-        { type: 'heading', id: "poczatki-butts", text: "Początki: Alfred Butts i Wielki Kryzys" },
-        "Scrabble stworzył Alfred Mosher Butts, amerykański architekt, który stracił pracę podczas Wielkiego Kryzysu. Butts analizował częstotliwość występowania liter w gazetach i innych tekstach, aby ustalić wartości punktowe poszczególnych liter -- systematyczne podejście, które do dziś stanowi podstawę gry.",
+        { type: 'heading', id: "poczatki-butts", text: "Początki: Alfred Butts i lata 30." },
+        "Scrabble stworzył Alfred Mosher Butts, amerykański architekt, który stracił pracę w latach 30. Butts analizował częstotliwość występowania liter w gazetach i innych tekstach, aby ustalić wartości punktowe poszczególnych liter -- systematyczne podejście, które do dziś stanowi podstawę gry.",
         { type: 'heading', id: "nazwa-brunot", text: "Od Lexiko do Scrabble: James Brunot" },
         "Gra przechodziła przez kilka nazw podczas rozwoju -- najpierw Lexiko, potem Criss-Cross Words -- zanim James Brunot nabył prawa w 1948 roku i nadał jej ostateczną nazwę Scrabble.",
         { type: 'heading', id: "sukces-1952", text: "Nagły sukces roku 1952" },
         "Mimo że gra istniała już od lat trzydziestych, Scrabble odniósł sukces komercyjny dopiero w 1952 roku, gdy prezes domu towarowego Macy's odkrył grę podczas wakacji i był zaskoczony, że jego własny sklep jej nie sprzedaje. Popyt wzrósł niemal z dnia na dzień."
       ],
       faq: [
-        { question: "Kto wymyślił Scrabble?", answer: "Alfred Mosher Butts, amerykański architekt bezrobotny podczas Wielkiego Kryzysu." },
+        { question: "Kto wymyślił Scrabble?", answer: "Alfred Mosher Butts, amerykański architekt bezrobotny w latach 30." },
         { question: "Dlaczego Scrabble odniósł taki sukces od 1952 roku?", answer: "Gdy prezes Macy's odkrył grę i zauważył, że jego sklep jej nie sprzedaje, popyt gwałtownie wzrósł." },
         { question: "Kiedy Scrabble dotarł do Polski?", answer: "Nie znaleźliśmy wiarygodnej, zweryfikowanej daty wprowadzenia gry w Polsce -- jeśli dysponujesz taką informacją z rzetelnego źródła, chętnie ją uwzględnimy." }
       ]
@@ -148,7 +148,7 @@ export const pl = [
       excerpt: "Granie w Scrabble to nie tylko rozrywka -- badania nad dwujęzycznością Ellen Bialystok sugerują realne, mierzalne korzyści.",
       keyTakeaways: [
         "Badanie Victoria Longitudinal Study (2011, Neuropsychology) łączy gry słowne z mierzalnymi korzyściami poznawczymi.",
-        "Badania Ellen Bialystok z Uniwersytetu York wiążą dwujęzyczność z opóźnieniem objawów demencji o 4-5 lat.",
+        "Badania Ellen Bialystok z Uniwersytetu York wiążą dwujęzyczność z opóźnieniem pewnych objawów poznawczych związanych z wiekiem o 4-5 lat.",
         "Wielojęzyczne gry słowne, takie jak UnscramblWords obsługujący 10 języków, mogą angażować te same mechanizmy poznawcze."
       ],
       toc: [
@@ -159,7 +159,7 @@ export const pl = [
         { type: 'heading', id: "badanie-victoria", text: "Victoria Longitudinal Study" },
         "Badanie z 2011 roku opublikowane w czasopiśmie Neuropsychology, oparte na Victoria Longitudinal Study, łączy regularne uczestnictwo w grach słownych z mierzalnie lepszymi wynikami poznawczymi w czasie.",
         { type: 'heading', id: "bialystok-york", text: "Badania Ellen Bialystok na Uniwersytecie York" },
-        "Znaczna część badań nad korzyściami poznawczymi płynącymi z manipulowania słowami pochodzi z pracy Ellen Bialystok i współpracowników z Uniwersytetu York w Toronto -- konkretnie Bialystok, Craik i Freedman (2007, Neuropsychologia) -- które powiązały dwujęzyczność z opóźnieniem objawów demencji o około 4-5 lat."
+        "Znaczna część badań nad korzyściami poznawczymi płynącymi z manipulowania słowami pochodzi z pracy Ellen Bialystok i współpracowników z Uniwersytetu York w Toronto -- konkretnie Bialystok, Craik i Freedman (2007, Neuropsychologia) -- które powiązały dwujęzyczność z opóźnieniem pewnych objawów poznawczych związanych z wiekiem o około 4-5 lat."
       ],
       faq: [
         { question: "Jakie badania łączą gry słowne ze zdrowiem mózgu?", answer: "Victoria Longitudinal Study (2011, Neuropsychology) oraz badania nad dwujęzycznością Ellen Bialystok z Uniwersytetu York (2007, Neuropsychologia)." },

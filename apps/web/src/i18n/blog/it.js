@@ -88,9 +88,9 @@ export const it = [
     {
       slug: 'history-of-scrabble',
       title: 'L\'Affascinante Storia dello Scarabeo',
-      excerpt: 'Dalla sua invenzione durante la Grande Depressione al suo status di uno dei giochi da tavolo più popolari al mondo, ecco la storia completa dello Scarabeo.',
+      excerpt: 'Dalla sua invenzione negli anni Trenta al suo status di uno dei giochi da tavolo più popolari al mondo, ecco la storia completa dello Scarabeo.',
       body: [
-        "Lo Scarabeo ha una storia ricca e affascinante che si estende per quasi un secolo. Il gioco fu inventato da Alfred Mosher Butts, un architetto di New York che aveva perso il lavoro durante la Grande Depressione degli anni Trenta. Determinato a creare un passatempo popolare, Butts trascorse anni ad analizzare le frequenze delle lettere nei giornali e nei libri.",
+        "Lo Scarabeo ha una storia ricca e affascinante che si estende per quasi un secolo. Il gioco fu inventato da Alfred Mosher Butts, un architetto di New York che aveva perso il lavoro negli anni Trenta. Determinato a creare un passatempo popolare, Butts trascorse anni ad analizzare le frequenze delle lettere nei giornali e nei libri.",
         "Butts chiamò inizialmente la sua invenzione 'Lexiko', poi 'Criss-Cross Words'. Il gioco combinava elementi dei giochi di anagrammi con l'elemento di punteggio numerico che lo rendeva particolarmente coinvolgente. Nonostante i suoi sforzi, Butts faticò a trovare un produttore disposto a realizzare il gioco.",
         "La svolta arrivò nel 1948, quando James Brunot, un amico di Butts, acquisì i diritti per produrre e vendere il gioco. Brunot semplificò le regole, ridisegnò leggermente il tabellone e rinominò il gioco 'Scrabble' — una vera parola inglese che significa grattare o arrampicarsi.",
         "Il gioco rimase un venditore modesto fino al 1952, quando Jack Straus, il presidente del grande magazzino Macy's, ci giocò durante una vacanza e ne rimase così affascinato che ordinò al negozio di metterlo in vendita. Entro il 1954, oltre quattro milioni di giochi di Scrabble erano stati venduti negli Stati Uniti.",
@@ -99,7 +99,7 @@ export const it = [
         "Lo Scarabeo è stato tradotto in 29 lingue e venduto in 121 paesi, rendendolo uno dei giochi da tavolo più ampiamente distribuiti della storia. Nel mondo sono stati venduti circa 150 milioni di esemplari.",
         "Il gioco ha avuto anche un notevole impatto culturale. È regolarmente utilizzato nelle scuole come strumento pedagogico per migliorare l'ortografia e il vocabolario.",
         "Negli ultimi decenni, le piattaforme online di Scarabeo e le applicazioni per smartphone hanno presentato il gioco a generazioni completamente nuove di giocatori.",
-        "Alfred Butts, morto nel 1993 all'età di 93 anni, visse abbastanza da vedere la sua invenzione nata durante la Depressione diventare un fenomeno globale apprezzato da centinaia di milioni di persone."
+        "Alfred Butts, morto nel 1993 all'età di 93 anni, visse abbastanza da vedere la sua invenzione nata negli anni Trenta diventare un fenomeno globale apprezzato da centinaia di milioni di persone."
       ]
     },
     {
@@ -110,10 +110,10 @@ export const it = [
         "Il rapporto tra giochi di parole e salute del cervello ha attirato un interesse scientifico crescente negli ultimi decenni. Sebbene i ricercatori continuino a studiare quest'area, esistono prove significative che suggeriscono che il regolare impegno in attività mentalmente stimolanti — compresi i giochi di parole — potrebbe supportare la funzione cognitiva nel corso della vita.",
         "Uno studio del 2011 pubblicato sulla rivista Neuropsychology ha rilevato che le persone che si impegnavano in attività di svago mentalmente stimolanti, compresi i giochi di parole e i rompicapi, mostravano tassi più lenti di declino cognitivo nell'età avanzata.",
         "L'elaborazione del linguaggio è una delle funzioni cognitive più complesse eseguite dal cervello umano, coinvolgendo molteplici regioni tra cui l'area di Broca, l'area di Wernicke e varie parti della corteccia prefrontale. I giochi di parole come lo Scarabeo sollecitano intensamente queste aree linguistiche.",
-        "Ricerche dell'Università di Waterloo hanno dimostrato che le persone bilingui e multilingui tendono a mostrare un'insorgenza ritardata dei sintomi della demenza rispetto alle persone monolingui. Giocare a giochi di parole in più lingue potrebbe quindi offrire benefici cognitivi cumulativi.",
+        "Ricerche di Ellen Bialystok e colleghi dell'Università di York hanno dimostrato che le persone bilingui e multilingui tendono a mostrare un'insorgenza ritardata di alcuni sintomi cognitivi legati all'età rispetto alle persone monolingui. Giocare a giochi di parole in più lingue potrebbe quindi offrire benefici cognitivi cumulativi.",
         "La memoria di lavoro — la capacità di mantenere e manipolare le informazioni nella mente per brevi periodi — è fortemente sollecitata durante i giochi di parole. Allo Scarabeo, ad esempio, i giocatori devono simultaneamente tenere a mente il loro set di lettere, scansionare la tavola alla ricerca di opportunità e calcolare i punteggi.",
         "L'attenzione e la concentrazione vengono anch'esse sviluppate attraverso la pratica dei giochi di parole. Lo Scarabeo competitivo richiede un'attenzione sostenuta per periodi da 30 minuti a diverse ore.",
-        "È importante notare che la comunità scientifica non ha ancora stabilito un nesso causale definitivo tra la pratica dei giochi di parole e la prevenzione del declino cognitivo o di malattie neurodegenerative come l'Alzheimer.",
+        "È importante notare che la comunità scientifica non ha ancora stabilito un nesso causale definitivo tra la pratica dei giochi di parole e la prevenzione del declino cognitivo legato all'età.",
         "Tuttavia, il consenso generale tra gli scienziati cognitivi è che la stimolazione mentale, il coinvolgimento sociale, l'esercizio fisico e una dieta sana contribuiscono insieme alla salute complessiva del cervello.",
         "Per i bambini e i giovani, i giochi di parole offrono significativi vantaggi educativi. La ricerca ha dimostrato associazioni positive tra la partecipazione ai giochi di parole e lo sviluppo del vocabolario, la comprensione della lettura e le competenze ortografiche.",
         "In sintesi, sebbene i giochi di parole non siano un trattamento medicalmente provato per alcuna condizione cognitiva, le prove disponibili suggeriscono che costituiscono un'attività piacevole, accessibile e potenzialmente benefica per la salute del cervello a tutte le età."
