@@ -264,4 +264,41 @@ export const it = [
         { question: "Quale lettera conviene abbinare a un jolly in italiano?", answer: "La Q, che vale 10 punti, il valore più alto nello Scarabeo italiano -- QUARZO e QUERCIA sono esempi reali e verificati." }
       ]
     },
+    {
+      slug: "decifratore-parole-turche-guida",
+      title: "Decifrare le parole turche: cosa deve saper fare davvero uno strumento",
+      excerpt: "Lo Scarabeo turco ha 29 lettere, una lettera che non inizia mai una parola e un sistema di valori che gli strumenti generici capiscono spesso male. Ecco cosa conta davvero.",
+      keyTakeaways: [
+        "Il turco usa 29 lettere, incluse sette assenti dall'italiano: ç, ğ, ı, ö, ş, ü e la İ puntata.",
+        "La İ puntata e la ı senza punto sono due lettere completamente distinte -- uno strumento che le confonde restituisce risultati inutilizzabili.",
+        "La J vale 10 punti, il valore più alto nello Scarabeo turco.",
+        "La Ğ (yumuşak g) non inizia mai una parola turca -- nessuna parola valida comincia con questa lettera."
+      ],
+      toc: [
+        { id: "dimensione-dizionario", label: "Quanto è grande il dizionario turco?" },
+        { id: "i-puntata-non-puntata", label: "Due lettere, non una: İ e ı" },
+        { id: "g-dolce", label: "Perché la Ğ si comporta diversamente" },
+        { id: "valori-lettere", label: "Valori di lettere da conoscere" },
+        { id: "parole-lunghe", label: "Gestire le parole lunghe del turco" }
+      ],
+      body: [
+        "Scritto e verificato dal team di UnscramblWords.",
+        { type: 'heading', id: "dimensione-dizionario", text: "Quanto è grande il dizionario turco?" },
+        "I giochi puzzle generano il 96,9% dei ricavi degli sviluppatori mobile turchi, secondo il report 2026 di AppMagic \"Türkiye's Mobile Gaming Landscape\" -- un mercato davvero grande e competitivo. Eppure la maggior parte degli strumenti di decifrazione delle parole è pensata per l'inglese e adattata solo in seguito, cosa che si nota subito con l'input turco.",
+        { type: 'heading', id: "i-puntata-non-puntata", text: "Due lettere, non una: İ e ı" },
+        "Il punto debole più comune è confondere la İ puntata con la ı senza punto. Non sono varianti stilistiche della stessa lettera: sono lettere distinte, con suoni e posizioni valide diverse. Uno strumento che le tratta come intercambiabili perderà parole reali o ne suggerirà di inesistenti.",
+        { type: 'heading', id: "g-dolce", text: "Perché la Ğ si comporta diversamente" },
+        "La Ğ (yumuşak g, la \"g dolce\") raramente si pronuncia come consonante autonoma -- di solito allunga la vocale precedente -- ma è una lettera reale e distinta sia nell'ortografia turca sia nello Scarabeo. Una regola costante: nessuna parola turca inizia con Ğ, quindi un decifratore non dovrebbe mai suggerire una parola che comincia con questa lettera.",
+        { type: 'heading', id: "valori-lettere", text: "Valori di lettere da conoscere" },
+        "La J è la lettera più preziosa dello Scarabeo turco, con 10 punti -- rara, ma vale la pena conservarla per una casella bonus. La Ğ, al contrario, è abbastanza comune (compare in parole quotidiane come DAĞ e YAĞ) da non dover essere trattata come preziosa.",
+        { type: 'heading', id: "parole-lunghe", text: "Gestire le parole lunghe del turco" },
+        "Il turco è una lingua agglutinante: catene di suffissi si aggiungono a una radice per costruire rapidamente parole lunghe. Uno strumento con filtri \"inizia con\" o \"finisce con\", abbinato a un dizionario turco davvero completo, rende molto più facile trovare queste parole lunghe rispetto a scorrere le lettere manualmente."
+      ],
+      faq: [
+        { question: "La İ puntata e la ı senza punto sono davvero diverse?", answer: "Sì -- sono due lettere distinte in turco, con suoni e regole di gioco diverse." },
+        { question: "Qual è la lettera più preziosa nello Scarabeo turco?", answer: "La J, con 10 punti, il valore più alto del gioco." },
+        { question: "La Ğ può iniziare una parola?", answer: "No -- nessuna parola turca valida inizia con Ğ." },
+        { question: "Perché il turco forma parole così lunghe?", answer: "Il turco è agglutinante: i suffissi si concatenano a una radice, permettendo di costruire parole lunghe a partire da una base breve." }
+      ]
+    },
 ];

@@ -367,4 +367,41 @@ export const de = [
         { question: "Welcher Buchstabe lohnt sich besonders mit einem Joker?", answer: "Q, der mit 10 Punkten der höchste Wert im deutschen Scrabble ist -- QUATSCH und QUALITÄT sind echte, geprüfte Beispiele." }
       ]
     },
+    {
+      slug: "tuerkische-woerter-entschluesseln-guide",
+      title: "Türkische Wörter entschlüsseln: Worauf ein Tool wirklich achten muss",
+      excerpt: "Türkisches Scrabble hat 29 Buchstaben, einen Buchstaben, der nie ein Wort beginnt, und ein Wertesystem, das generische Tools regelmäßig falsch handhaben. Das zählt wirklich.",
+      keyTakeaways: [
+        "Das Türkische verwendet 29 Buchstaben, darunter sieben, die im Deutschen nicht vorkommen: ç, ğ, ı, ö, ş, ü und das punktierte İ.",
+        "Das punktierte İ und das punktlose ı sind zwei völlig getrennte Buchstaben -- ein Tool, das sie zusammenlegt, liefert unbrauchbare Ergebnisse.",
+        "J ist mit 10 Punkten der höchste Wert im türkischen Scrabble.",
+        "Ğ (yumuşak g) beginnt nie ein türkisches Wort -- kein gültiges Wort startet mit diesem Buchstaben."
+      ],
+      toc: [
+        { id: "woerterbuch-groesse", label: "Wie groß ist das türkische Wörterbuch-Problem?" },
+        { id: "i-punkt-ohne-punkt", label: "Zwei Buchstaben, nicht einer: İ und ı" },
+        { id: "weiches-g", label: "Warum sich Ğ anders verhält" },
+        { id: "buchstabenwerte", label: "Wichtige Buchstabenwerte" },
+        { id: "lange-woerter", label: "Umgang mit langen türkischen Wörtern" }
+      ],
+      body: [
+        "Verfasst und geprüft vom UnscramblWords-Team.",
+        { type: 'heading', id: "woerterbuch-groesse", text: "Wie groß ist das türkische Wörterbuch-Problem?" },
+        "Puzzlespiele machen laut AppMagics Bericht \"Türkiye's Mobile Gaming Landscape 2026\" 96,9 % der Einnahmen türkischer Mobile-Entwickler aus -- ein wirklich großer, umkämpfter Markt. Trotzdem sind die meisten Wort-Entschlüsseler für Englisch gebaut und erst nachträglich angepasst, was sich bei türkischer Eingabe sofort zeigt.",
+        { type: 'heading', id: "i-punkt-ohne-punkt", text: "Zwei Buchstaben, nicht einer: İ und ı" },
+        "Der häufigste Fehlerpunkt ist die Verwechslung von punktiertem İ und punktlosem ı. Das sind keine stilistischen Varianten desselben Buchstabens, sondern eigenständige Buchstaben mit unterschiedlichen Lauten und unterschiedlich gültigen Platzierungen. Ein Tool, das sie austauschbar behandelt, übersieht echte Wörter oder schlägt nicht existierende vor.",
+        { type: 'heading', id: "weiches-g", text: "Warum sich Ğ anders verhält" },
+        "Ğ (yumuşak g, das \"weiche g\") wird selten als eigener Konsonantenlaut ausgesprochen -- meist verlängert es den vorhergehenden Vokal --, ist aber in der türkischen Rechtschreibung und beim Scrabble ein echter, eigenständiger Buchstabe. Eine feste Regel: Kein türkisches Wort beginnt mit Ğ, ein Entschlüsseler sollte also nie ein Wort vorschlagen, das damit anfängt.",
+        { type: 'heading', id: "buchstabenwerte", text: "Wichtige Buchstabenwerte" },
+        "J ist mit 10 Punkten der wertvollste Buchstabe im türkischen Scrabble -- selten, aber es lohnt sich, ihn für ein Bonusfeld aufzuheben. Ğ dagegen kommt häufig genug vor (etwa in Alltagswörtern wie DAĞ und YAĞ), dass man ihn nicht wie einen Schatz behandeln sollte.",
+        { type: 'heading', id: "lange-woerter", text: "Umgang mit langen türkischen Wörtern" },
+        "Türkisch ist agglutinierend: Suffixketten werden an einen Wortstamm angehängt und bilden so schnell lange Wörter. Ein Tool mit \"beginnt mit\"- oder \"endet mit\"-Filtern, kombiniert mit einem wirklich umfassenden türkischen Wörterbuch, macht das Finden dieser langen Wörter deutlich einfacher als das manuelle Durchsuchen der Buchstaben."
+      ],
+      faq: [
+        { question: "Sind punktiertes İ und punktloses ı wirklich unterschiedlich?", answer: "Ja -- es sind zwei eigenständige Buchstaben im Türkischen mit unterschiedlichen Lauten und Spielregeln." },
+        { question: "Welcher Buchstabe ist im türkischen Scrabble am wertvollsten?", answer: "J, mit 10 Punkten der höchste Wert im Spiel." },
+        { question: "Kann Ğ ein Wort beginnen?", answer: "Nein -- kein gültiges türkisches Wort beginnt mit Ğ." },
+        { question: "Warum entstehen im Türkischen so lange Wörter?", answer: "Türkisch ist agglutinierend: Suffixe reihen sich an einen Wortstamm, sodass aus kurzen Grundformen lange Wörter entstehen." }
+      ]
+    },
 ];

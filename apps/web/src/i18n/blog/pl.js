@@ -461,4 +461,41 @@ export const pl = [
         { question: "Którą literę warto łączyć z jokerem w języku polskim?", answer: "Ź, warta 9 punktów -- najwyższa wartość w polskim Scrabble. ŹLE i ŹRÓDŁO to prawdziwe, zweryfikowane przykłady." }
       ]
     },
+    {
+      slug: "rozszyfrowac-tureckie-slowa-poradnik",
+      title: "Rozszyfrowywanie tureckich słów: co naprawdę musi umieć dobre narzędzie",
+      excerpt: "Turecki Scrabble ma 29 liter, jedną literę, która nigdy nie zaczyna słowa, i system wartości, który ogólne narzędzia często rozumieją błędnie. Oto, co naprawdę się liczy.",
+      keyTakeaways: [
+        "Turecki alfabet ma 29 liter, w tym siedem nieobecnych w polskim: ç, ğ, ı, ö, ş, ü oraz kropkowane İ.",
+        "Kropkowane İ i bezkropkowe ı to dwie zupełnie odrębne litery -- narzędzie, które je myli, zwróci bezużyteczne wyniki.",
+        "Litera J jest warta 10 punktów -- najwyższa wartość w tureckim Scrabble.",
+        "Litera Ğ (yumuşak g) nigdy nie zaczyna tureckiego słowa -- żadne poprawne słowo nie zaczyna się od tej litery."
+      ],
+      toc: [
+        { id: "wielkosc-slownika", label: "Jak duży jest turecki słownik?" },
+        { id: "i-kropkowane-bezkropkowe", label: "Dwie litery, nie jedna: İ i ı" },
+        { id: "miekkie-g", label: "Dlaczego Ğ zachowuje się inaczej" },
+        { id: "wartosci-liter", label: "Wartości liter, które warto znać" },
+        { id: "dlugie-slowa", label: "Jak radzić sobie z długimi tureckimi słowami" }
+      ],
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords.",
+        { type: 'heading', id: "wielkosc-slownika", text: "Jak duży jest turecki słownik?" },
+        "Gry logiczne odpowiadają za 96,9% przychodów tureckich twórców gier mobilnych, według raportu AppMagic z 2026 roku \"Türkiye's Mobile Gaming Landscape\" -- to naprawdę duży i konkurencyjny rynek. Mimo to większość narzędzi do rozszyfrowywania słów jest projektowana z myślą o angielskim i dopiero później adaptowana, co od razu widać przy tureckim tekście.",
+        { type: 'heading', id: "i-kropkowane-bezkropkowe", text: "Dwie litery, nie jedna: İ i ı" },
+        "Najczęstszym problemem jest mylenie kropkowanego İ z bezkropkowym ı. To nie są stylistyczne warianty tej samej litery -- to odrębne litery, z różnymi dźwiękami i różnymi dopuszczalnymi pozycjami. Narzędzie traktujące je zamiennie pominie prawdziwe słowa albo zaproponuje takie, które nie istnieją.",
+        { type: 'heading', id: "miekkie-g", text: "Dlaczego Ğ zachowuje się inaczej" },
+        "Ğ (yumuşak g, „miękkie g\") rzadko wymawia się jako osobną spółgłoskę -- zwykle wydłuża poprzedzającą samogłoskę -- ale jest prawdziwą, odrębną literą zarówno w tureckiej ortografii, jak i w Scrabble. Stała zasada: żadne tureckie słowo nie zaczyna się od Ğ, więc solver nigdy nie powinien sugerować słowa zaczynającego się od tej litery.",
+        { type: 'heading', id: "wartosci-liter", text: "Wartości liter, które warto znać" },
+        "J to najcenniejsza litera tureckiego Scrabble, warta 10 punktów -- rzadka, ale warto ją zachować na pole premiowe. Ğ z kolei jest na tyle powszechna (występuje w codziennych słowach jak DAĞ i YAĞ), że nie należy jej traktować jak skarbu.",
+        { type: 'heading', id: "dlugie-slowa", text: "Jak radzić sobie z długimi tureckimi słowami" },
+        "Turecki jest językiem aglutynacyjnym: łańcuchy przyrostków dołączane są do rdzenia, szybko tworząc długie słowa. Narzędzie z filtrami „zaczyna się od\" lub „kończy się na\", połączone z naprawdę pełnym tureckim słownikiem, znacznie ułatwia znajdowanie takich długich słów w porównaniu z ręcznym przeglądaniem liter."
+      ],
+      faq: [
+        { question: "Czy kropkowane İ i bezkropkowe ı naprawdę się różnią?", answer: "Tak -- to dwie odrębne litery w języku tureckim, z różnymi dźwiękami i zasadami gry." },
+        { question: "Która litera jest najcenniejsza w tureckim Scrabble?", answer: "J, warta 10 punktów -- najwyższa wartość w grze." },
+        { question: "Czy Ğ może zaczynać słowo?", answer: "Nie -- żadne poprawne tureckie słowo nie zaczyna się od Ğ." },
+        { question: "Dlaczego turecki tworzy tak długie słowa?", answer: "Turecki jest aglutynacyjny: przyrostki łączą się z rdzeniem jeden po drugim, co pozwala budować długie słowa z krótkiej podstawy." }
+      ]
+    },
 ];

@@ -511,4 +511,41 @@ export const pt = [
         { question: "O Q em português também tem exceções sem U, como no inglês?", answer: "Praticamente não. Ao contrário do inglês, o português quase não tem palavras genuínas com Q sem U a seguir." }
       ]
     },
+    {
+      slug: "decifrador-palavras-turcas-guia",
+      title: "Decifrar palavras turcas: o que uma ferramenta precisa de fazer bem",
+      excerpt: "O Scrabble turco tem 29 letras, uma letra que nunca começa uma palavra e um sistema de valores que as ferramentas genéricas costumam entender mal. Eis o que realmente importa.",
+      keyTakeaways: [
+        "O turco usa 29 letras, incluindo sete que não existem em português: ç, ğ, ı, ö, ş, ü e o İ com ponto.",
+        "O İ com ponto e o ı sem ponto são duas letras totalmente distintas -- uma ferramenta que as confunde devolve resultados inutilizáveis.",
+        "O J vale 10 pontos, o valor mais alto no Scrabble turco.",
+        "O Ğ (yumuşak g) nunca começa uma palavra turca -- nenhuma palavra válida começa com esta letra."
+      ],
+      toc: [
+        { id: "tamanho-dicionario", label: "Qual é a dimensão do dicionário turco?" },
+        { id: "i-com-ponto-sem-ponto", label: "Duas letras, não uma: İ e ı" },
+        { id: "g-suave", label: "Por que razão o Ğ se comporta de forma diferente" },
+        { id: "valores-letras", label: "Valores de letras a conhecer" },
+        { id: "palavras-longas", label: "Como lidar com as palavras longas do turco" }
+      ],
+      body: [
+        "Escrito e verificado pela equipa da UnscramblWords.",
+        { type: 'heading', id: "tamanho-dicionario", text: "Qual é a dimensão do dicionário turco?" },
+        "Os jogos de puzzle representam 96,9% das receitas dos programadores móveis turcos, segundo o relatório de 2026 da AppMagic \"Türkiye's Mobile Gaming Landscape\" -- um mercado verdadeiramente grande e competitivo. Ainda assim, a maioria das ferramentas de desencriptação de palavras é concebida para o inglês e apenas adaptada mais tarde, o que se nota de imediato com texto turco.",
+        { type: 'heading', id: "i-com-ponto-sem-ponto", text: "Duas letras, não uma: İ e ı" },
+        "O ponto de fricção mais comum é a confusão entre o İ com ponto e o ı sem ponto. Não são variantes estilísticas da mesma letra: são letras distintas, com sons e posições válidas diferentes. Uma ferramenta que as trate como intercambiáveis irá perder palavras reais ou sugerir outras que não existem.",
+        { type: 'heading', id: "g-suave", text: "Por que razão o Ğ se comporta de forma diferente" },
+        "O Ğ (yumuşak g, o \"g suave\") raramente é pronunciado como uma consoante independente -- normalmente prolonga a vogal anterior -- mas é uma letra real e distinta tanto na ortografia turca como no Scrabble. Uma regra constante: nenhuma palavra turca começa com Ğ, pelo que um decifrador nunca deveria sugerir uma palavra que comece com esta letra.",
+        { type: 'heading', id: "valores-letras", text: "Valores de letras a conhecer" },
+        "O J é a letra mais valiosa do Scrabble turco, com 10 pontos -- rara, mas vale a pena guardá-la para uma casa de bónus. O Ğ, pelo contrário, é suficientemente comum (surge em palavras do dia a dia como DAĞ e YAĞ) para não dever ser tratado como precioso.",
+        { type: 'heading', id: "palavras-longas", text: "Como lidar com as palavras longas do turco" },
+        "O turco é uma língua aglutinante: cadeias de sufixos juntam-se a uma raiz para construir rapidamente palavras longas. Uma ferramenta com filtros \"começa por\" ou \"termina em\", combinada com um dicionário turco verdadeiramente completo, torna muito mais fácil encontrar estas palavras longas do que percorrer as letras manualmente."
+      ],
+      faq: [
+        { question: "O İ com ponto e o ı sem ponto são mesmo diferentes?", answer: "Sim -- são duas letras distintas em turco, com sons e regras de jogo diferentes." },
+        { question: "Qual é a letra mais valiosa no Scrabble turco?", answer: "O J, com 10 pontos, o valor mais alto do jogo." },
+        { question: "O Ğ pode começar uma palavra?", answer: "Não -- nenhuma palavra turca válida começa com Ğ." },
+        { question: "Por que razão o turco forma palavras tão longas?", answer: "O turco é aglutinante: os sufixos encadeiam-se a uma raiz, permitindo construir palavras longas a partir de uma base curta." }
+      ]
+    },
 ];

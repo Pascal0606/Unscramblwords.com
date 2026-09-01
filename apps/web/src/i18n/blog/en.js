@@ -449,4 +449,41 @@ export const en = [
         { question: "Which German letters are worth the most points?", answer: "Q and Y are tied for the highest value at 10 points each, with X close behind at 8." }
       ]
     },
+    {
+      slug: "turkish-word-unscrambler-guide",
+      title: "Unscrambling Turkish Words: What a Solver Needs to Get Right",
+      excerpt: "Turkish Scrabble has 29 letters, a letter that can never start a word, and a value system generic tools routinely get wrong. Here's what actually matters.",
+      keyTakeaways: [
+        "Turkish uses 29 letters, including seven not found in English: ç, ğ, ı, ö, ş, ü, and the dotted İ.",
+        "The dotted İ and dotless ı are two entirely separate letters -- a tool that merges them into one \"I\" will return unusable results.",
+        "J is worth 10 points, the highest value in Turkish Scrabble.",
+        "Ğ (yumuşak g) never begins a word in Turkish -- no valid word starts with it."
+      ],
+      toc: [
+        { id: "turkish-dictionary-size", label: "How Big Is the Turkish Dictionary Problem?" },
+        { id: "two-letters-not-one", label: "Two Letters, Not One: İ and ı" },
+        { id: "g-breve-different", label: "Why Ğ Behaves Differently" },
+        { id: "letter-values-worth-knowing", label: "Letter Values Worth Knowing" },
+        { id: "handling-long-words", label: "Handling Turkish's Long Words" }
+      ],
+      body: [
+        "Written and reviewed by the UnscramblWords Team.",
+        { type: 'heading', id: "turkish-dictionary-size", text: "How Big Is the Turkish Dictionary Problem?" },
+        "Puzzle games account for 96.9% of all revenue earned by Turkish mobile game developers, according to AppMagic's 2026 Türkiye gaming report -- this is a genuinely large, competitive market. Yet most word-unscrambling tools are built for English and only loosely adapted afterwards, which shows immediately with Turkish input.",
+        { type: 'heading', id: "two-letters-not-one", text: "Two Letters, Not One: İ and ı" },
+        "The most common failure point is the dotted İ versus the dotless ı. These aren't stylistic variants of the same letter -- they're distinct letters with different sounds and different valid placements. A tool that treats them interchangeably will either miss real words or suggest ones that don't exist.",
+        { type: 'heading', id: "g-breve-different", text: "Why Ğ Behaves Differently" },
+        "Ğ (yumuşak g, the \"soft g\") is rarely pronounced as its own consonant sound -- it typically lengthens the vowel before it -- but it is a real, distinct letter in Turkish spelling and in Scrabble. One consistent rule: no Turkish word begins with Ğ, so a solver should never suggest a word starting with it.",
+        { type: 'heading', id: "letter-values-worth-knowing", text: "Letter Values Worth Knowing" },
+        "J is Turkish Scrabble's highest-value letter at 10 points -- rare, but worth holding onto for a premium square. Ğ, by contrast, is common enough (appearing in everyday words like DAĞ and YAĞ) that it shouldn't be treated as precious.",
+        { type: 'heading', id: "handling-long-words", text: "Handling Turkish's Long Words" },
+        "Turkish is agglutinative -- suffix chains stack onto a root to build long words quickly. A solver with a \"starts with\" or \"ends with\" filter, matched against a genuinely comprehensive Turkish dictionary, makes it far easier to find these longer words than scanning letters manually."
+      ],
+      faq: [
+        { question: "Are the dotted İ and dotless ı really different letters?", answer: "Yes -- they are two separate letters in Turkish, with different sounds and different rules for where they can appear." },
+        { question: "What is the highest-value letter in Turkish Scrabble?", answer: "J, worth 10 points -- the highest value in the game." },
+        { question: "Can a word start with Ğ?", answer: "No -- no valid Turkish word begins with the letter Ğ." },
+        { question: "Why does Turkish produce such long words?", answer: "Turkish is agglutinative: suffixes chain onto a root one after another, letting long words build up from a short base." }
+      ]
+    },
 ];

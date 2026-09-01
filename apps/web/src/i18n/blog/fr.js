@@ -363,4 +363,41 @@ export const fr = [
         { question: "Quelle lettre vaut-il la peine de combiner avec un joker en français ?", answer: "Le K, qui vaut 10 points malgré son origine presque entièrement empruntée -- KARAOKE, KAYAK et KIMONO sont des exemples réels et vérifiés." }
       ]
     },
+    {
+      slug: "solveur-mots-turcs-guide",
+      title: "Déchiffrer les mots turcs : ce qu'un outil doit vraiment maîtriser",
+      excerpt: "Le turc compte 29 lettres, une lettre qui ne commence jamais un mot, et un système de valeurs que les outils génériques comprennent mal. Voici ce qui compte vraiment.",
+      keyTakeaways: [
+        "Le turc utilise 29 lettres, dont sept absentes de l'alphabet français : ç, ğ, ı, ö, ş, ü et le İ pointé.",
+        "Le İ pointé et le ı sans point sont deux lettres totalement distinctes -- un outil qui les confond renverra des résultats inutilisables.",
+        "Le J vaut 10 points, la valeur la plus élevée au Scrabble turc.",
+        "Le Ğ (yumuşak g) ne commence jamais un mot turc -- aucun mot valide ne débute par cette lettre."
+      ],
+      toc: [
+        { id: "ampleur-dictionnaire", label: "L'ampleur du problème du dictionnaire turc" },
+        { id: "i-point-sans-point", label: "Deux lettres, pas une : İ et ı" },
+        { id: "le-g-doux", label: "Pourquoi le Ğ se comporte différemment" },
+        { id: "valeurs-lettres", label: "Les valeurs de lettres à connaître" },
+        { id: "mots-longs", label: "Gérer les mots longs du turc" }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords.",
+        { type: 'heading', id: "ampleur-dictionnaire", text: "L'ampleur du problème du dictionnaire turc" },
+        "Les jeux de puzzle représentent 96,9 % des revenus des développeurs mobiles turcs, selon le rapport 2026 d'AppMagic sur le marché du jeu en Türkiye -- un marché véritablement important et compétitif. Pourtant, la plupart des outils de déchiffrement de mots sont conçus pour l'anglais et adaptés après coup, ce qui se voit immédiatement dès qu'on saisit du texte turc.",
+        { type: 'heading', id: "i-point-sans-point", text: "Deux lettres, pas une : İ et ı" },
+        "Le point de friction le plus fréquent est la confusion entre le İ pointé et le ı sans point. Ce ne sont pas de simples variantes stylistiques d'une même lettre : ce sont deux lettres distinctes, avec des sons et des emplacements valides différents. Un outil qui les traite comme interchangeables manquera de vrais mots ou en proposera qui n'existent pas.",
+        { type: 'heading', id: "le-g-doux", text: "Pourquoi le Ğ se comporte différemment" },
+        "Le Ğ (yumuşak g, le « g doux ») ne se prononce presque jamais comme une consonne à part entière -- il allonge généralement la voyelle qui le précède -- mais c'est une lettre réelle et distincte à l'écrit comme au Scrabble. Une règle constante : aucun mot turc ne commence par Ğ, un solveur ne devrait donc jamais suggérer un mot débutant par cette lettre.",
+        { type: 'heading', id: "valeurs-lettres", text: "Les valeurs de lettres à connaître" },
+        "Le J est la lettre la plus précieuse du Scrabble turc, à 10 points -- rare, mais à conserver pour une case premium. Le Ğ, en revanche, est suffisamment courant (présent dans des mots du quotidien comme DAĞ et YAĞ) pour ne pas être traité comme un trésor.",
+        { type: 'heading', id: "mots-longs", text: "Gérer les mots longs du turc" },
+        "Le turc est une langue agglutinante : des chaînes de suffixes s'ajoutent à une racine pour construire rapidement des mots longs. Un outil doté de filtres « commence par » ou « se termine par », combiné à un dictionnaire turc réellement complet, facilite grandement la recherche de ces mots longs par rapport à un examen manuel des lettres."
+      ],
+      faq: [
+        { question: "Le İ pointé et le ı sans point sont-ils vraiment différents ?", answer: "Oui -- ce sont deux lettres distinctes en turc, avec des sons et des emplacements valides différents dans le jeu." },
+        { question: "Quelle est la lettre la plus valorisée au Scrabble turc ?", answer: "Le J, à 10 points, la valeur la plus élevée du jeu." },
+        { question: "Le Ğ peut-il commencer un mot ?", answer: "Non -- aucun mot turc valide ne débute par la lettre Ğ." },
+        { question: "Pourquoi le turc produit-il des mots aussi longs ?", answer: "Le turc est agglutinant : des suffixes s'enchaînent sur une racine, ce qui permet de construire des mots longs à partir d'une base courte." }
+      ]
+    },
 ];
