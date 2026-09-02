@@ -498,4 +498,39 @@ export const pl = [
         { question: "Dlaczego turecki tworzy tak długie słowa?", answer: "Turecki jest aglutynacyjny: przyrostki łączą się z rdzeniem jeden po drugim, co pozwala budować długie słowa z krótkiej podstawy." }
       ]
     },
+    {
+      slug: "niemiecki-scrabble-poradnik",
+      title: "Niemiecki Scrabble: co naprawdę musi umieć dobry solver słów",
+      excerpt: "Niemiecki Scrabble ma prawdziwy turniejowy słownik liczący 184 243 słowa, literę bez własnego kafelka i umlauty, które całkowicie zmieniają znaczenie słów. Oto, z czym musi sobie poprawnie radzić narzędzie.",
+      keyTakeaways: [
+        "Oficjalna niemiecka lista słów turniejowych, prowadzona przez Scrabble Deutschland e.V., zawiera 184 243 słowa w wydaniu z 1 maja 2025 roku -- prawdziwa, weryfikowalna liczba, a nie szacunek.",
+        "Eszett (ß) nie ma własnego kafelka w niemieckim Scrabble -- słowa normalnie zapisywane przez ß trzeba wpisywać jako SS.",
+        "Q i Y to najcenniejsze litery w niemieckim, po 10 punktów każda, tuż za nimi X z 8 punktami -- a w zestawie jest naprawdę 15 kafelków E, więcej niż jakiejkolwiek innej litery.",
+        "Pusty kafelek jest oznaczany znakiem zapytania (?), a nie krzyżykiem -- narzędzie sprawdza każdą literę alfabetu na tej pozycji."
+      ],
+      toc: [
+        { id: "rozmiar-slownika-niemieckiego", label: "Jak duży jest naprawdę niemiecki słownik?" },
+        { id: "eszett-umlauty", label: "Eszett i umlauty: poprawne radzenie sobie ze znakami specjalnymi" },
+        { id: "wartosc-czestotliwosc-liter", label: "Wartość i częstotliwość liter: co jest naprawdę rzadkie" },
+        { id: "slowa-zlozone", label: "Znajdowanie słów złożonych dzięki przedrostkom i przyrostkom" }
+      ],
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords.",
+        { type: 'heading', id: "rozmiar-slownika-niemieckiego", text: "Jak duży jest naprawdę niemiecki słownik?" },
+        "Oficjalna niemiecka lista słów turniejowych -- Offizielle Turnierwörterliste, prowadzona przez Scrabble Deutschland e.V. -- zawiera 184 243 słowa w wydaniu z 1 maja 2025 roku, obejmując słowa do dziewięciu liter. To prawdziwa, niezależnie weryfikowalna liczba, a nie zaokrąglony szacunek. Solver dedykowany niemieckiemu powinien opierać się na naprawdę pełnym słownictwie takim jak to, a nie na ogólnej liście, która przypadkiem zawiera kilka niemieckich słów.",
+        { type: 'heading', id: "eszett-umlauty", text: "Eszett i umlauty: poprawne radzenie sobie ze znakami specjalnymi" },
+        "Niemiecki używa znaków, z którymi ogólne narzędzie, zaprojektowane najpierw dla angielskiego, często sobie nie radzi. Umlauty -- Ä, Ö, Ü -- to litery odrębne od A, O i U, a nie ich ozdobione warianty; wyszukiwanie traktujące je zamiennie pominie wyniki albo błędnie je zidentyfikuje. Jeśli nie możecie wpisać umlautów bezpośrednio, standardowa niemiecka konwencja to zastąpienie ich przez AE, OE i UE -- więc MÖGLICHKEIT można też wyszukać jako MOEGLICHKEIT. Eszett (ß) to zupełnie inny przypadek: nie ma własnego kafelka w oficjalnym niemieckim Scrabble, więc słowa normalnie zapisywane przez ß wpisuje się jako SS.",
+        { type: 'heading', id: "wartosc-czestotliwosc-liter", text: "Wartość i częstotliwość liter: co jest naprawdę rzadkie" },
+        "W niemieckim Scrabble Q i Y dzielą najwyższą wartość -- po 10 punktów każda, tuż za nimi X z 8 punktami. Na drugim biegunie E jest zdecydowanie najczęstszą literą -- w standardowym zestawie jest naprawdę 15 kafelków E, ponad dwa razy więcej niż kolejnej najczęstszej litery. Wiedza o tym kształtuje strategię w obu kierunkach: zachowajcie Q lub Y na dobrą okazję, ale nie żałujcie E, bo jest ich znacznie więcej.",
+        { type: 'heading', id: "slowa-zlozone", text: "Znajdowanie słów złożonych dzięki przedrostkom i przyrostkom" },
+        "Słynne niemieckie rzeczowniki złożone i długie formy czasownikowe są mniej onieśmielające, gdy rozpozna się ich elementy składowe. Imiesłowy bierne bardzo często zaczynają się od GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), a rzeczowniki abstrakcyjne często kończą się na -HEIT lub -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) albo na -UNG. Wyszukiwanie z filtrem „zaczyna się od\" lub „kończy się na\" dla tych wzorców zamienia onieśmielające długie słowo w znacznie mniejsze, łatwiejsze do ogarnięcia wyszukiwanie."
+      ],
+      faq: [
+        { question: "Ile słów zawiera oficjalny słownik niemieckiego Scrabble?", answer: "184 243, według wydania z 1 maja 2025 roku Offizielle Turnierwörterliste prowadzonej przez Scrabble Deutschland e.V. -- prawdziwa, weryfikowalna liczba." },
+        { question: "Jak wpisać umlaut, jeśli moja klawiatura go nie ma?", answer: "Użyjcie standardowego niemieckiego zastępstwa: AE zamiast Ä, OE zamiast Ö i UE zamiast Ü." },
+        { question: "Czy Eszett (ß) ma własny kafelek w Scrabble?", answer: "Nie -- niemiecki Scrabble nie ma kafelka ß. Słowa normalnie zapisywane przez ß wpisuje się jako SS." },
+        { question: "Jak wyszukiwać za pomocą pustego kafelka?", answer: "Wpiszcie znak zapytania (?) na pozycji pustego kafelka. Narzędzie sprawdza każdą literę alfabetu na tej pozycji i zwraca każde poprawne dopasowanie." },
+        { question: "Które niemieckie litery są warte najwięcej punktów?", answer: "Q i Y dzielą najwyższą wartość -- po 10 punktów każda, tuż za nimi X z 8 punktami." }
+      ]
+    },
 ];

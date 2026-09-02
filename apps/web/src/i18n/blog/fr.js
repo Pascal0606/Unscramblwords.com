@@ -400,4 +400,39 @@ export const fr = [
         { question: "Pourquoi le turc produit-il des mots aussi longs ?", answer: "Le turc est agglutinant : des suffixes s'enchaînent sur une racine, ce qui permet de construire des mots longs à partir d'une base courte." }
       ]
     },
+    {
+      slug: "scrabble-allemand-solveur-guide",
+      title: "Jouer au Scrabble allemand : ce qu'un solveur de mots doit vraiment maîtriser",
+      excerpt: "Le Scrabble allemand a un vrai dictionnaire de tournoi de 184 243 mots, une lettre qui n'a pas sa propre case, et des trémas qui changent complètement le sens des mots. Voici ce qu'un solveur doit gérer correctement.",
+      keyTakeaways: [
+        "La liste officielle de mots de tournoi allemande, tenue par Scrabble Deutschland e.V., contient 184 243 mots dans son édition du 1er mai 2025 -- un chiffre réel et vérifiable, pas une estimation.",
+        "L'Eszett (ß) n'a pas sa propre lettre au Scrabble allemand -- les mots normalement écrits avec ß doivent être saisis avec SS à la place.",
+        "Le Q et le Y sont les lettres les plus valorisées de l'allemand, à 10 points chacune, suivies de près par le X à 8 points -- et il y a réellement 15 lettres E dans le jeu, plus que toute autre lettre.",
+        "Une lettre blanche est représentée par un point d'interrogation (?), pas par un dièse -- l'outil teste chaque lettre de l'alphabet à cette position."
+      ],
+      toc: [
+        { id: "taille-dictionnaire", label: "Quelle est la taille réelle du dictionnaire allemand ?" },
+        { id: "eszett-trema", label: "L'Eszett et les trémas : bien gérer les caractères spéciaux" },
+        { id: "valeurs-frequence-lettres", label: "Valeurs et fréquence des lettres : ce qui est vraiment rare" },
+        { id: "mots-composes", label: "Trouver les mots composés grâce aux préfixes et suffixes" }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords.",
+        { type: 'heading', id: "taille-dictionnaire", text: "Quelle est la taille réelle du dictionnaire allemand ?" },
+        "La liste officielle de mots de tournoi allemande -- l'Offizielle Turnierwörterliste, tenue par Scrabble Deutschland e.V. -- contient 184 243 mots dans son édition du 1er mai 2025, allant jusqu'à neuf lettres. C'est un chiffre réel et vérifiable de manière indépendante, pas une estimation arrondie. Un solveur de mots allemand dédié doit s'appuyer sur un vocabulaire réellement complet comme celui-ci, plutôt que sur une liste générique qui contient par hasard quelques mots allemands.",
+        { type: 'heading', id: "eszett-trema", text: "L'Eszett et les trémas : bien gérer les caractères spéciaux" },
+        "L'allemand utilise des caractères qu'un outil générique, conçu d'abord pour l'anglais, gère souvent mal. Les trémas -- Ä, Ö, Ü -- sont des lettres distinctes de A, O et U, pas de simples variantes décorées ; une recherche qui les traite comme interchangeables manquera des résultats ou les identifiera mal. Si vous ne pouvez pas taper les trémas directement, la convention allemande standard consiste à les remplacer par AE, OE et UE -- ainsi MÖGLICHKEIT peut aussi être recherché sous la forme MOEGLICHKEIT. L'Eszett (ß) est un cas totalement différent : il n'a pas sa propre lettre au Scrabble allemand officiel, donc les mots normalement écrits avec ß sont saisis avec SS à la place.",
+        { type: 'heading', id: "valeurs-frequence-lettres", text: "Valeurs et fréquence des lettres : ce qui est vraiment rare" },
+        "Au Scrabble allemand, le Q et le Y sont à égalité pour la valeur la plus élevée, à 10 points chacune, suivies de près par le X à 8 points. À l'autre extrémité, le E est de loin la lettre la plus courante -- il y a réellement 15 lettres E dans un jeu standard, plus du double de la lettre suivante la plus courante. Savoir cela oriente la stratégie dans les deux sens : gardez un Q ou un Y pour une bonne occasion, mais ne soyez pas avare d'un E, puisqu'il y en a beaucoup d'autres.",
+        { type: 'heading', id: "mots-composes", text: "Trouver les mots composés grâce aux préfixes et suffixes" },
+        "Les célèbres noms composés et les longues formes verbales de l'allemand sont moins intimidants une fois qu'on reconnaît leurs éléments constitutifs. Les participes passés commencent très souvent par GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), et les noms abstraits se terminent fréquemment par -HEIT ou -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ou par -UNG. Rechercher avec un filtre \"commence par\" ou \"se termine par\" pour ces schémas transforme un mot long intimidant en une recherche bien plus restreinte et gérable."
+      ],
+      faq: [
+        { question: "Combien de mots contient le dictionnaire officiel du Scrabble allemand ?", answer: "184 243, dans l'édition du 1er mai 2025 de l'Offizielle Turnierwörterliste tenue par Scrabble Deutschland e.V. -- un chiffre réel et vérifiable." },
+        { question: "Comment taper un tréma si mon clavier n'en a pas ?", answer: "Utilisez la substitution allemande standard : AE pour Ä, OE pour Ö et UE pour Ü." },
+        { question: "L'Eszett (ß) a-t-il sa propre lettre au Scrabble ?", answer: "Non -- le Scrabble allemand n'a pas de lettre ß. Les mots normalement écrits avec ß sont saisis avec SS à la place." },
+        { question: "Comment rechercher avec une lettre blanche ?", answer: "Saisissez un point d'interrogation (?) à la position de votre lettre blanche. L'outil teste chaque lettre de l'alphabet à cette position et renvoie chaque résultat valide." },
+        { question: "Quelles lettres allemandes valent le plus de points ?", answer: "Le Q et le Y sont à égalité pour la valeur la plus élevée, à 10 points chacune, suivies de près par le X à 8 points." }
+      ]
+    },
 ];

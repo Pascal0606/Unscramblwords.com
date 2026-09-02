@@ -301,4 +301,39 @@ export const it = [
         { question: "Perché il turco forma parole così lunghe?", answer: "Il turco è agglutinante: i suffissi si concatenano a una radice, permettendo di costruire parole lunghe a partire da una base breve." }
       ]
     },
+    {
+      slug: "giocare-scarabeo-tedesco-guida",
+      title: "Giocare a Scarabeo in tedesco: cosa deve saper fare davvero uno strumento",
+      excerpt: "Lo Scarabeo tedesco ha un vero dizionario da torneo di 184.243 parole, una lettera senza una propria tessera, e umlaut che cambiano completamente il significato delle parole. Ecco cosa deve gestire correttamente uno strumento.",
+      keyTakeaways: [
+        "L'elenco ufficiale delle parole da torneo della Germania, mantenuto da Scrabble Deutschland e.V., contiene 184.243 parole nell'edizione del 1° maggio 2025 -- un numero reale e verificabile, non una stima.",
+        "L'Eszett (ß) non ha una propria tessera nello Scarabeo tedesco -- le parole normalmente scritte con ß devono essere inserite con SS al suo posto.",
+        "Q e Y sono le lettere di maggior valore in tedesco, con 10 punti ciascuna, seguite da vicino dalla X con 8 -- e ci sono davvero 15 tessere E nel set, più di qualsiasi altra lettera.",
+        "Una tessera vuota è rappresentata da un punto interrogativo (?), non da un cancelletto -- lo strumento testa ogni lettera dell'alfabeto in quella posizione."
+      ],
+      toc: [
+        { id: "dimensione-dizionario", label: "Quanto è grande davvero il dizionario tedesco?" },
+        { id: "eszett-umlaut", label: "L'Eszett e gli umlaut: gestire correttamente i caratteri speciali" },
+        { id: "valori-frequenza-lettere", label: "Valori e frequenza delle lettere: cosa è davvero raro" },
+        { id: "parole-composte", label: "Trovare parole composte tramite prefissi e suffissi" }
+      ],
+      body: [
+        "Scritto e verificato dal team di UnscramblWords.",
+        { type: 'heading', id: "dimensione-dizionario", text: "Quanto è grande davvero il dizionario tedesco?" },
+        "L'elenco ufficiale delle parole da torneo della Germania -- l'Offizielle Turnierwörterliste, mantenuto da Scrabble Deutschland e.V. -- contiene 184.243 parole nell'edizione del 1° maggio 2025, fino a nove lettere. È un numero reale e verificabile in modo indipendente, non una stima arrotondata. Uno strumento dedicato al tedesco dovrebbe basarsi su un vocabolario davvero completo come questo, invece che su un elenco generico che per caso include alcune parole tedesche.",
+        { type: 'heading', id: "eszett-umlaut", text: "L'Eszett e gli umlaut: gestire correttamente i caratteri speciali" },
+        "Il tedesco usa caratteri che uno strumento generico, pensato prima per l'inglese, spesso gestisce male. Gli umlaut -- Ä, Ö, Ü -- sono lettere distinte da A, O e U, non semplici varianti decorate; una ricerca che le tratta come intercambiabili perderà risultati o li identificherà male. Se non riuscite a digitare gli umlaut direttamente, la convenzione tedesca standard è sostituirli con AE, OE e UE -- quindi MÖGLICHKEIT può essere cercato anche come MOEGLICHKEIT. L'Eszett (ß) è un caso completamente diverso: non ha una propria tessera nello Scarabeo tedesco ufficiale, quindi le parole normalmente scritte con ß vengono inserite con SS al suo posto.",
+        { type: 'heading', id: "valori-frequenza-lettere", text: "Valori e frequenza delle lettere: cosa è davvero raro" },
+        "Nello Scarabeo tedesco, Q e Y sono a pari merito per il valore più alto, con 10 punti ciascuna, seguite da vicino dalla X con 8. All'altro estremo, la E è di gran lunga la lettera più comune -- ci sono davvero 15 tessere E in un set standard, più del doppio della lettera successiva più comune. Saperlo orienta la strategia in entrambe le direzioni: conservate una Q o una Y per una buona occasione, ma non siate avari con una E, dato che ce ne sono molte altre.",
+        { type: 'heading', id: "parole-composte", text: "Trovare parole composte tramite prefissi e suffissi" },
+        "I famosi sostantivi composti e le lunghe forme verbali del tedesco risultano meno intimidatori una volta riconosciuti i loro elementi costitutivi. I participi passati iniziano molto spesso con GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), e i sostantivi astratti terminano frequentemente in -HEIT o -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) oppure in -UNG. Cercare con un filtro \"inizia con\" o \"finisce con\" per questi schemi trasforma una parola lunga e intimidatoria in una ricerca molto più piccola e gestibile."
+      ],
+      faq: [
+        { question: "Quante parole contiene il dizionario ufficiale dello Scarabeo tedesco?", answer: "184.243, secondo l'edizione del 1° maggio 2025 dell'Offizielle Turnierwörterliste mantenuta da Scrabble Deutschland e.V. -- un dato reale e verificabile." },
+        { question: "Come digito un umlaut se la mia tastiera non ce l'ha?", answer: "Usate la sostituzione tedesca standard: AE per Ä, OE per Ö e UE per Ü." },
+        { question: "L'Eszett (ß) ha una propria tessera nello Scarabeo?", answer: "No -- lo Scarabeo tedesco non ha una tessera ß. Le parole normalmente scritte con ß vengono inserite con SS al suo posto." },
+        { question: "Come cerco usando una tessera vuota?", answer: "Inserite un punto interrogativo (?) nella posizione della tessera vuota. Lo strumento testa ogni lettera dell'alfabeto in quella posizione e restituisce ogni corrispondenza valida." },
+        { question: "Quali lettere tedesche valgono di più?", answer: "Q e Y sono a pari merito per il valore più alto, con 10 punti ciascuna, seguite da vicino dalla X con 8." }
+      ]
+    },
 ];

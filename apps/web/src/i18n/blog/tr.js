@@ -360,4 +360,39 @@ export const tr = [
         { question: "Türkçede jokerle birleştirmeye değer hangi harftir?", answer: "J, 10 puanla Türkçe Scrabble'daki en yüksek değer -- JÜRİ ve JAMBON gerçek, doğrulanmış örneklerdir." }
       ]
     },
+    {
+      slug: "almanca-scrabble-oynamak-rehber",
+      title: "Almanca Scrabble Oynamak: Bir Kelime Çözücünün Gerçekten Bilmesi Gerekenler",
+      excerpt: "Almanca Scrabble'ın gerçek bir turnuva sözlüğü 184.243 kelime içeriyor, kendi taşı olmayan bir harfi var, ve kelimeleri tamamen değiştiren umlaut'ları var. İşte bir çözücünün doğru şekilde ele alması gerekenler.",
+      keyTakeaways: [
+        "Almanya'nın resmi turnuva kelime listesi, Scrabble Deutschland e.V. tarafından tutulur ve 1 Mayıs 2025 baskısı itibarıyla 184.243 kelime içerir -- tahmini değil, gerçek ve doğrulanabilir bir sayı.",
+        "Eszett (ß) harfinin Almanca Scrabble'da kendi taşı yoktur -- normalde ß ile yazılan kelimeler bunun yerine SS ile girilmelidir.",
+        "Q ve Y, Almancanın en değerli harfleridir, her biri 10 puan; hemen ardından X 8 puanla gelir -- ve sette gerçekten 15 tane E taşı vardır, başka herhangi bir harften daha fazla.",
+        "Boş bir taş, kare işareti değil soru işareti (?) ile temsil edilir -- araç, o konumdaki alfabenin her harfini dener."
+      ],
+      toc: [
+        { id: "gercek-sozluk-buyuklugu", label: "Gerçek Almanca Sözlük Ne Kadar Büyük?" },
+        { id: "eszett-ve-umlautlar", label: "Eszett ve Umlaut'lar: Özel Karakterleri Doğru Ele Almak" },
+        { id: "harf-degerleri-sikligi", label: "Harf Değerleri ve Sıklığı: Gerçekten Nadir Olan Ne?" },
+        { id: "bilesik-kelimeler", label: "Ön Ekler ve Son Ekler ile Bileşik Kelimeler Bulmak" }
+      ],
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
+        { type: 'heading', id: "gercek-sozluk-buyuklugu", text: "Gerçek Almanca Sözlük Ne Kadar Büyük?" },
+        "Almanya'nın resmi turnuva kelime listesi -- Scrabble Deutschland e.V. tarafından tutulan Offizielle Turnierwörterliste -- 1 Mayıs 2025 baskısı itibarıyla, dokuz harfe kadar, 184.243 kelime içerir. Bu, yuvarlanmış bir tahmin değil, gerçek ve bağımsız olarak doğrulanabilir bir sayıdır. Almancaya özel bir kelime çözücü, tesadüfen birkaç Almanca kelime içeren genel bir listeye değil, bunun gibi gerçekten kapsamlı bir kelime dağarcığına dayanmalıdır.",
+        { type: 'heading', id: "eszett-ve-umlautlar", text: "Eszett ve Umlaut'lar: Özel Karakterleri Doğru Ele Almak" },
+        "Almanca, öncelikle İngilizce için tasarlanmış genel bir aracın sıklıkla yanlış ele aldığı karakterler kullanır. Umlaut'lar -- Ä, Ö, Ü -- A, O ve U'dan ayrı harflerdir, onların süslenmiş versiyonları değildir; bunları birbirinin yerine geçebilir gibi ele alan bir arama, sonuçları kaçırır veya yanlış tanımlar. Umlaut'ları doğrudan yazamıyorsanız, standart Almanca kural bunları AE, OE ve UE ile değiştirmektir -- böylece MÖGLICHKEIT, MOEGLICHKEIT olarak da aranabilir. Eszett (ß) tamamen farklı bir durumdur: resmi Almanca Scrabble'da kendi taşı yoktur, bu yüzden normalde ß ile yazılan kelimeler bunun yerine SS ile girilir.",
+        { type: 'heading', id: "harf-degerleri-sikligi", text: "Harf Değerleri ve Sıklığı: Gerçekten Nadir Olan Ne?" },
+        "Almanca Scrabble'da Q ve Y en yüksek değerde eşittir, her biri 10 puan; hemen ardından X 8 puanla gelir. Diğer uçta ise E açık ara en yaygın harftir -- standart bir sette gerçekten 15 tane E taşı vardır, bir sonraki en yaygın harfin iki katından fazla. Bunu bilmek stratejiyi iki yönde de şekillendirir: iyi bir fırsat için bir Q veya Y'yi saklayın, ama bir E konusunda cimri olmayın, çünkü daha birçoğu var.",
+        { type: 'heading', id: "bilesik-kelimeler", text: "Ön Ekler ve Son Ekler ile Bileşik Kelimeler Bulmak" },
+        "Almancanın ünlü bileşik isimleri ve uzun fiil biçimleri, yapı taşları tanındığında daha az korkutucu hâle gelir. Geçmiş zaman ortaçları çoğunlukla GE- ile başlar (GESAGT, GESCHRIEBEN, GEKOMMEN), ve soyut isimler sıklıkla -HEIT veya -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ya da -UNG ile biter. Bu kalıplar için \"ile başlar\" veya \"ile biter\" filtresiyle arama yapmak, korkutucu uzun bir kelimeyi çok daha küçük, yönetilebilir bir aramaya dönüştürür."
+      ],
+      faq: [
+        { question: "Resmi Almanca Scrabble sözlüğünde kaç kelime var?", answer: "184.243 -- Scrabble Deutschland e.V. tarafından tutulan Offizielle Turnierwörterliste'nin 1 Mayıs 2025 baskısına göre -- gerçek ve doğrulanabilir bir rakam." },
+        { question: "Klavyemde yoksa bir umlaut'u nasıl yazarım?", answer: "Standart Almanca değişimi kullanın: Ä için AE, Ö için OE, Ü için UE." },
+        { question: "Eszett'in (ß) Scrabble'da kendi taşı var mı?", answer: "Hayır -- Almanca Scrabble'da ß taşı yoktur. Normalde ß ile yazılan kelimeler bunun yerine SS ile girilir." },
+        { question: "Boş bir taşla nasıl arama yaparım?", answer: "Boş taşınızın konumuna bir soru işareti (?) girin. Araç, o konumdaki alfabenin her harfini dener ve her geçerli eşleşmeyi döndürür." },
+        { question: "Hangi Almanca harfler en çok puan değerindedir?", answer: "Q ve Y en yüksek değerde eşittir, her biri 10 puan; hemen ardından X 8 puanla gelir." }
+      ]
+    },
 ];

@@ -398,4 +398,39 @@ export const es = [
         { question: "¿Por qué el turco forma palabras tan largas?", answer: "El turco es aglutinante: los sufijos se encadenan a una raíz, lo que permite construir palabras largas a partir de una base corta." }
       ]
     },
+    {
+      slug: "jugar-scrabble-aleman-guia",
+      title: "Jugar al Scrabble alemán: lo que un solucionador de palabras debe hacer bien",
+      excerpt: "El Scrabble alemán tiene un diccionario de torneo real de 184.243 palabras, una letra que no tiene su propia ficha y diéresis que cambian por completo el significado de las palabras. Esto es lo que una herramienta debe gestionar correctamente.",
+      keyTakeaways: [
+        "La lista oficial de palabras de torneo de Alemania, mantenida por Scrabble Deutschland e.V., contiene 184.243 palabras en su edición del 1 de mayo de 2025 -- una cifra real y verificable, no una estimación.",
+        "La Eszett (ß) no tiene su propia ficha en el Scrabble alemán -- las palabras que normalmente se escriben con ß deben introducirse con SS en su lugar.",
+        "La Q y la Y son las letras de mayor valor del alemán, con 10 puntos cada una, seguidas de cerca por la X con 8 -- y hay realmente 15 fichas E en el juego, más que cualquier otra letra.",
+        "Una ficha en blanco se representa con un signo de interrogación (?), no con una almohadilla -- la herramienta prueba cada letra del alfabeto en esa posición."
+      ],
+      toc: [
+        { id: "tamano-diccionario", label: "¿Qué tamaño tiene realmente el diccionario alemán?" },
+        { id: "eszett-dieresis", label: "La Eszett y las diéresis: gestionar bien los caracteres especiales" },
+        { id: "valores-frecuencia-letras", label: "Valores y frecuencia de las letras: qué es realmente escaso" },
+        { id: "palabras-compuestas", label: "Encontrar palabras compuestas a través de prefijos y sufijos" }
+      ],
+      body: [
+        "Escrito y verificado por el equipo de UnscramblWords.",
+        { type: 'heading', id: "tamano-diccionario", text: "¿Qué tamaño tiene realmente el diccionario alemán?" },
+        "La lista oficial de palabras de torneo de Alemania -- la Offizielle Turnierwörterliste, mantenida por Scrabble Deutschland e.V. -- contiene 184.243 palabras en su edición del 1 de mayo de 2025, con hasta nueve letras. Es una cifra real y verificable de forma independiente, no una estimación redondeada. Una herramienta dedicada al alemán debería basarse en un vocabulario realmente completo como este, en lugar de una lista genérica que da la casualidad de incluir algunas palabras alemanas.",
+        { type: 'heading', id: "eszett-dieresis", text: "La Eszett y las diéresis: gestionar bien los caracteres especiales" },
+        "El alemán usa caracteres que una herramienta genérica, pensada primero para el inglés, suele gestionar mal. Las diéresis -- Ä, Ö, Ü -- son letras distintas de A, O y U, no versiones decoradas de ellas; una búsqueda que las trate como intercambiables pasará por alto resultados o los identificará mal. Si no puede escribir diéresis directamente, la convención alemana estándar es sustituirlas por AE, OE y UE -- así MÖGLICHKEIT también puede buscarse como MOEGLICHKEIT. La Eszett (ß) es un caso totalmente distinto: no tiene su propia ficha en el Scrabble alemán oficial, así que las palabras que normalmente se escriben con ß se introducen con SS en su lugar.",
+        { type: 'heading', id: "valores-frecuencia-letras", text: "Valores y frecuencia de las letras: qué es realmente escaso" },
+        "En el Scrabble alemán, la Q y la Y están empatadas en el valor más alto, con 10 puntos cada una, seguidas de cerca por la X con 8. En el otro extremo, la E es, con diferencia, la letra más común -- hay realmente 15 fichas E en un juego estándar, más del doble que la siguiente letra más común. Saber esto orienta la estrategia en ambos sentidos: guarde una Q o una Y para una buena oportunidad, pero no sea tacaño con una E, ya que hay muchas más disponibles.",
+        { type: 'heading', id: "palabras-compuestas", text: "Encontrar palabras compuestas a través de prefijos y sufijos" },
+        "Los famosos sustantivos compuestos y las largas formas verbales del alemán resultan menos intimidantes en cuanto se reconocen sus componentes. Los participios pasados suelen empezar por GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), y los sustantivos abstractos terminan con frecuencia en -HEIT o -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) o en -UNG. Buscar con un filtro de \"empieza por\" o \"termina en\" para estos patrones convierte una palabra larga e intimidante en una búsqueda mucho más pequeña y manejable."
+      ],
+      faq: [
+        { question: "¿Cuántas palabras tiene el diccionario oficial del Scrabble alemán?", answer: "184.243, según la edición del 1 de mayo de 2025 de la Offizielle Turnierwörterliste mantenida por Scrabble Deutschland e.V. -- una cifra real y verificable." },
+        { question: "¿Cómo escribo una diéresis si mi teclado no la tiene?", answer: "Use la sustitución alemana estándar: AE para Ä, OE para Ö y UE para Ü." },
+        { question: "¿Tiene la Eszett (ß) su propia ficha de Scrabble?", answer: "No -- el Scrabble alemán no tiene ficha ß. Las palabras que normalmente se escriben con ß se introducen con SS en su lugar." },
+        { question: "¿Cómo busco usando una ficha en blanco?", answer: "Introduzca un signo de interrogación (?) en la posición de su ficha en blanco. La herramienta prueba cada letra del alfabeto en esa posición y devuelve cada coincidencia válida." },
+        { question: "¿Qué letras alemanas valen más puntos?", answer: "La Q y la Y están empatadas en el valor más alto, con 10 puntos cada una, seguidas de cerca por la X con 8." }
+      ]
+    },
 ];
