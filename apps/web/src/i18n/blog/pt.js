@@ -1,6 +1,7 @@
 export const pt = [
     {
       slug: "scrabble-strategies",
+      date: '2026-07-24',
       title: "Domine o Scrabble: Estratégias Essenciais para Melhorar o Seu Jogo",
       excerpt: "Um bom vocabulário ajuda, mas é a estratégia que transforma isso em vitórias consistentes — eis as táticas que realmente fazem diferença.",
       keyTakeaways: [
@@ -28,6 +29,7 @@ export const pt = [
     },
     {
       slug: "best-two-letter-words",
+      date: '2026-07-24',
       title: "Guia Completo de Palavras de Duas Letras no Scrabble",
       excerpt: "As palavras de duas letras não parecem impressionantes, mas são as mais úteis do jogo — eis uma seleção real e verificada, sem abreviaturas disfarçadas de palavras.",
       keyTakeaways: [
@@ -60,6 +62,7 @@ export const pt = [
     },
     {
       slug: "improve-vocabulary-word-games",
+      date: '2026-07-24',
       title: "Como Melhorar o Seu Vocabulário para Jogos de Palavras",
       excerpt: "Construir vocabulário para jogos de palavras não significa decorar listas — significa reconhecer padrões. Eis uma abordagem prática, sem promessas vagas.",
       keyTakeaways: [
@@ -87,6 +90,7 @@ export const pt = [
     },
     {
       slug: "best-scrabble-words-with-q",
+      date: '2026-07-24',
       title: "O Ç e o Sufixo -ÇÃO: a Letra Mais Produtiva do Português",
       excerpt: "O Q vale apenas 6 pontos em português -- nada de especial. O Ç, porém, alimenta um dos sufixos mais produtivos da língua. Eis porque vale a pena conhecê-lo.",
       body: [
@@ -99,6 +103,7 @@ export const pt = [
     },
     {
       slug: "seven-letter-words-scrabble",
+      date: '2026-07-24',
       title: "Palavras de Sete Letras de Pontuação Alta para Bingos no Scrabble",
       excerpt: "Usar as sete peças numa só jogada soma um bónus de 50 pontos — eis que letras procurar e exemplos reais, verificados no nosso próprio dicionário.",
       keyTakeaways: [
@@ -123,6 +128,7 @@ export const pt = [
     },
     {
       slug: "history-of-scrabble",
+      date: '2026-07-24',
       title: "A Fascinante História do Scrabble",
       excerpt: "Do arquiteto desempregado que o inventou ao fenómeno mundial que se tornou — a história real do Scrabble, com as datas e factos verificados.",
       keyTakeaways: [
@@ -152,6 +158,7 @@ export const pt = [
     },
     {
       slug: "word-games-brain-health",
+      date: '2026-07-24',
       title: "Jogos de Palavras e Saúde Cerebral: O Que Diz a Investigação",
       excerpt: "Jogar Scrabble não é apenas divertido — a investigação sobre bilinguismo e reserva cognitiva de Ellen Bialystok sugere benefícios reais e mensuráveis.",
       keyTakeaways: [
@@ -176,6 +183,7 @@ export const pt = [
     },
     {
       slug: "unscramble-letters-tips",
+      date: '2026-07-24',
       title: "Como Desembaralhar Letras Rapidamente: Técnicas e Dicas",
       excerpt: "Encontrar palavras num monte de letras embaralhadas fica mais fácil com um método — eis como abordar isso sem depender só da sorte.",
       keyTakeaways: [
@@ -203,6 +211,7 @@ export const pt = [
     },
     {
       slug: "multilingual-word-games",
+      date: '2026-07-24',
       title: "Jogos de Palavras em Vários Idiomas: Benefícios e Desafios",
       excerpt: "Jogar em mais do que um idioma traz desafios reais — de dicionários diferentes a valores de letras diferentes — mas também vantagens genuínas.",
       keyTakeaways: [
@@ -227,6 +236,7 @@ export const pt = [
     },
     {
       slug: "wordle-strategies",
+      date: '2026-07-24',
       title: "Estratégias para o Termo: Como Resolver o Desafio Diário",
       excerpt: "O Termo, a versão portuguesa do Wordle criada por Fernando Serboncini em 2022, tem as suas próprias estratégias — eis como abordar o desafio diário de forma mais eficaz.",
       keyTakeaways: [
@@ -254,6 +264,7 @@ export const pt = [
     },
     {
       slug: "desembaralhar-palavras-9-letras",
+      date: '2026-08-27',
       title: "Desembaralhar Palavras de 9 Letras: Guia Completo",
       excerpt: "Palavras de nove letras são um verdadeiro desafio de desembaralhar de cabeça — eis uma abordagem prática, com um número real e verificado do nosso próprio dicionário.",
       keyTakeaways: [
@@ -278,6 +289,7 @@ export const pt = [
     },
     {
       slug: "desembaralhador-de-palavras-guia-completo",
+      date: '2026-08-27',
       title: "Desembaralhador de Palavras: O Guia Completo",
       excerpt: "Como usar um desembaralhador de palavras de forma eficaz — dos filtros básicos às estratégias que realmente fazem diferença numa partida.",
       keyTakeaways: [
@@ -302,6 +314,7 @@ export const pt = [
     },
     {
       slug: "truques-scrabble-localizador-palavras",
+      date: '2026-08-27',
       title: "Truques para o Scrabble: Como Escolher e Usar o Melhor Localizador de Palavras",
       excerpt: "Um bom localizador de palavras pode transformar uma mão difícil numa jogada vencedora — eis o que realmente vale a pena procurar numa ferramenta.",
       keyTakeaways: [
@@ -326,6 +339,7 @@ export const pt = [
     },
     {
       slug: "desembaralhador-7-letras-bingo",
+      date: '2026-08-27',
       title: "Desembaralhador de Palavras de 7 Letras: Como Encontrar o Próximo Bingo",
       excerpt: "Um Bingo real — usar as sete peças de uma vez — soma 50 pontos de bónus. Eis as palavras mais valiosas de 7 letras confirmadas no nosso próprio dicionário, e como as encontrar.",
       keyTakeaways: [
@@ -354,6 +368,7 @@ export const pt = [
     },
     {
       slug: "palavras-comecadas-por-x",
+      date: '2026-08-27',
       title: "Palavras Começadas por X: Guia para Scrabble e Jogos de Palavras",
       excerpt: "O X vale 8 pontos — um dos valores mais altos do Scrabble em português. Eis como aproveitá-lo de verdade, com palavras reais confirmadas no nosso próprio dicionário.",
       keyTakeaways: [
@@ -390,6 +405,7 @@ export const pt = [
     },
     {
       slug: "letras-ancora-palavras-sete-letras",
+      date: '2026-08-27',
       title: "Jogar à Volta de Âncoras: Encontrar Palavras de 7 Letras Que Realmente Encaixam no Tabuleiro",
       excerpt: "Encontrar uma palavra de sete letras é só metade do trabalho -- também tem de encaixar nalgum sítio útil. Eis como combinar letras-âncora com casas premium para jogadas que realmente contam.",
       keyTakeaways: [
@@ -421,6 +437,7 @@ export const pt = [
 
     {
       slug: "decifrar-palavras-portuguesas-scrabble",
+      date: '2026-08-28',
       title: "Decifrar Palavras Portuguesas: Ferramenta Rápida para Scrabble e Anagramas",
       excerpt: "Uma ferramenta genérica raramente sabe lidar com as diferenças entre o português europeu e o brasileiro. Eis porque uma ferramenta dedicada faz mesmo a diferença.",
       keyTakeaways: [
@@ -452,6 +469,7 @@ export const pt = [
 
     {
       slug: "decifrador-palavras-letras-curinga",
+      date: '2026-08-28',
       title: "Decifrador de Palavras com Letras Curinga: Resolver Puzzles com Letra em Branco Instantaneamente",
       excerpt: "Uma letra em branco pode tornar-se qualquer letra, o que é precisamente o que a torna difícil de usar bem. Eis como pesquisar corretamente com um curinga.",
       keyTakeaways: [
@@ -483,6 +501,7 @@ export const pt = [
     },
     {
       slug: "desembaralhador-plurais-nasais-portugues",
+      date: '2026-08-30',
       title: "Plurais Nasais e Padrões de Letras: Truques Reais para Scrabble e Palavras Cruzadas em Português",
       excerpt: "Os plurais nasais do português (-ões, -ães, -ãos) são um caminho genuíno para um Bingo de sete letras -- e a pesquisa por padrão resolve palavras cruzadas em segundos. Eis como usar ambos.",
       keyTakeaways: [
@@ -513,6 +532,7 @@ export const pt = [
     },
     {
       slug: "decifrador-palavras-turcas-guia",
+      date: '2026-09-01',
       title: "Decifrar palavras turcas: o que uma ferramenta precisa de fazer bem",
       excerpt: "O Scrabble turco tem 29 letras, uma letra que nunca começa uma palavra e um sistema de valores que as ferramentas genéricas costumam entender mal. Eis o que realmente importa.",
       keyTakeaways: [
@@ -550,6 +570,7 @@ export const pt = [
     },
     {
       slug: "jogar-scrabble-alemao-guia",
+      date: '2026-09-02',
       title: "Jogar Scrabble alemão: o que uma ferramenta precisa de fazer bem",
       excerpt: "O Scrabble alemão tem um dicionário de torneio real com 184.243 palavras, uma letra sem peça própria e tremas que mudam completamente o significado das palavras. Eis o que uma ferramenta precisa de tratar corretamente.",
       keyTakeaways: [

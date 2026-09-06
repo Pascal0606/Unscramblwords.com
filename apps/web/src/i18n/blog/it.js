@@ -2,6 +2,7 @@ export const it = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-07-24',
       title: 'Padroneggiare lo Scarabeo: Strategie Essenziali per Migliorare il Vostro Gioco',
       excerpt: 'Scoprite strategie comprovate per migliorare le vostre prestazioni allo Scarabeo, dal posizionamento sulla tavola alla gestione delle lettere.',
       body: [
@@ -19,6 +20,7 @@ export const it = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-07-24',
       title: 'La Guida Completa alle Parole di Due Lettere allo Scarabeo',
       excerpt: 'Scoprite le parole di due lettere più preziose e utili che possono trasformare il vostro gioco di Scarabeo.',
       body: [
@@ -36,6 +38,7 @@ export const it = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-07-24',
       title: 'Come Migliorare il Vostro Vocabolario per i Giochi di Parole',
       excerpt: 'Strategie pratiche e tecniche per sviluppare il vostro vocabolario e diventare un avversario formidabile nei giochi di parole.',
       body: [
@@ -53,6 +56,7 @@ export const it = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-07-24',
       title: 'Le Migliori Parole allo Scarabeo con la Lettera Q',
       excerpt: 'La lettera Q vale 10 punti allo Scarabeo ma è notoriamente difficile da usare. Ecco le migliori parole con Q da conoscere.',
       body: [
@@ -70,6 +74,7 @@ export const it = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-07-24',
       title: 'Parole di Sette Lettere ad Alto Punteggio per gli Scarabei',
       excerpt: 'Giocare tutte e sette le lettere guadagna un bonus di 50 punti. Ecco le migliori parole di sette lettere da conoscere per fare scarabei.',
       body: [
@@ -87,6 +92,7 @@ export const it = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-07-24',
       title: 'L\'Affascinante Storia dello Scarabeo',
       excerpt: 'Dalla sua invenzione negli anni Trenta al suo status di uno dei giochi da tavolo più popolari al mondo, ecco la storia completa dello Scarabeo.',
       body: [
@@ -104,6 +110,7 @@ export const it = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-07-24',
       title: 'Giochi di Parole e Salute del Cervello: Cosa Dice la Ricerca',
       excerpt: 'La ricerca scientifica suggerisce che la pratica regolare dei giochi di parole potrebbe supportare la salute cognitiva. Ecco ciò che sappiamo attualmente.',
       body: [
@@ -121,6 +128,7 @@ export const it = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-07-24',
       title: 'Come Decifrare le Lettere Rapidamente: Consigli di Esperti',
       excerpt: 'Che stiate giocando a un gioco di parole o risolvendo un indovinello, queste tecniche di esperti vi aiuteranno a trovare parole nelle lettere mescolate molto più velocemente.',
       body: [
@@ -138,6 +146,7 @@ export const it = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-24',
       title: 'Giochi di Parole in Più Lingue: Vantaggi e Sfide',
       excerpt: 'Giocare a giochi di parole in diverse lingue offre vantaggi cognitivi unici e presenta sfide affascinanti. Ecco come iniziare.',
       body: [
@@ -155,6 +164,7 @@ export const it = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-24',
       title: 'Strategie per Wordle: Come Risolvere il Rompicapo Ogni Giorno',
       excerpt: 'Wordle è diventato un fenomeno mondiale. Ecco le migliori strategie e le migliori parole di partenza per risolverlo efficacemente ogni giorno.',
       body: [
@@ -175,6 +185,7 @@ export const it = [
   
     {
       slug: "lettere-ancora-parole-sette-lettere",
+      date: '2026-08-27',
       title: "Giocare Intorno alle Lettere Ancora: Trovare Parole di 7 Lettere Che Si Adattano Davvero al Tabellone",
       excerpt: "Trovare una parola di sette lettere è solo metà del lavoro -- deve anche trovare posto in modo utile. Ecco come combinare le lettere ancora con le caselle premio per giocate che contano davvero.",
       keyTakeaways: [
@@ -205,6 +216,7 @@ export const it = [
     },
     {
       slug: "decifrare-parole-italiane-scarabeo",
+      date: '2026-08-28',
       title: "Decifrare Parole Italiane: Strumento Rapido per Scarabeo e Anagrammi",
       excerpt: "Un decifratore generico spesso non gestisce bene gli accenti e le doppie dell'italiano. Ecco come uno strumento dedicato alla lingua italiana fa davvero la differenza a Scarabeo.",
       keyTakeaways: [
@@ -237,6 +249,7 @@ export const it = [
 
     {
       slug: "decifratore-parole-lettere-jolly",
+      date: '2026-08-28',
       title: "Decifratore di Parole con Lettere Jolly: Risolvere i Puzzle con Jolly all'Istante",
       excerpt: "Una lettera jolly può diventare qualsiasi lettera, ed è proprio questo che la rende difficile da usare bene. Ecco come cercare correttamente con un jolly.",
       keyTakeaways: [
@@ -268,6 +281,7 @@ export const it = [
     },
     {
       slug: "decifratore-parole-turche-guida",
+      date: '2026-09-01',
       title: "Decifrare le parole turche: cosa deve saper fare davvero uno strumento",
       excerpt: "Lo Scarabeo turco ha 29 lettere, una lettera che non inizia mai una parola e un sistema di valori che gli strumenti generici capiscono spesso male. Ecco cosa conta davvero.",
       keyTakeaways: [
@@ -305,6 +319,7 @@ export const it = [
     },
     {
       slug: "giocare-scarabeo-tedesco-guida",
+      date: '2026-09-02',
       title: "Giocare a Scarabeo in tedesco: cosa deve saper fare davvero uno strumento",
       excerpt: "Lo Scarabeo tedesco ha un vero dizionario da torneo di 184.243 parole, una lettera senza una propria tessera, e umlaut che cambiano completamente il significato delle parole. Ecco cosa deve gestire correttamente uno strumento.",
       keyTakeaways: [

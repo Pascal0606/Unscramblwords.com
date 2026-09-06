@@ -1,6 +1,7 @@
 export const tr = [
     {
       slug: "scrabble-strategies",
+      date: '2026-07-24',
       title: "Scrabble'da Ustalaşmak: Oyununuzu Geliştirmek için Temel Stratejiler",
       excerpt: "Tahta konumlandırmasından harf yönetimine kadar Scrabble performansınızı artıracak kanıtlanmış stratejiler öğrenin.",
       body: [
@@ -18,6 +19,7 @@ export const tr = [
     },
     {
       slug: "best-two-letter-words",
+      date: '2026-07-24',
       title: "Scrabble'da İki Harfli Kelimelere Kapsamlı Rehber",
       excerpt: "Scrabble oyununuzu dönüştürebilecek en değerli ve kullanışlı iki harfli kelimeleri keşfedin.",
       body: [
@@ -35,6 +37,7 @@ export const tr = [
     },
     {
       slug: "improve-vocabulary-word-games",
+      date: '2026-07-24',
       title: "Kelime Oyunları için Kelime Dağarcığınızı Nasıl Geliştirebilirsiniz",
       excerpt: "Kelime dağarcığınızı geliştirmek ve kelime oyunlarında zorlu bir rakip olmak için pratik stratejiler ve teknikler.",
       body: [
@@ -52,6 +55,7 @@ export const tr = [
     },
     {
       slug: "best-scrabble-words-with-q",
+      date: '2026-07-24',
       title: "Noktalı İ ve Noktasız I: Türkçe Scrabble'ın Kendine Özgü Kuralı",
       excerpt: "Q, W ve X harfleri Türk alfabesinde yer almaz. Ama Türkçenin kendine özgü gerçek bir zorluğu var: noktalı İ ve noktasız I arasındaki fark. İşte bilmeniz gerekenler.",
       body: [
@@ -64,6 +68,7 @@ export const tr = [
     },
     {
       slug: "seven-letter-words-scrabble",
+      date: '2026-07-24',
       title: "Scrabble Bingolarında Yüksek Puanlı Yedi Harfli Kelimeler",
       excerpt: "Tüm yedi taşı oynamak 50 puanlık bonus kazandırır. İşte Scrabble'da bingo yapmak için bilmeniz gereken en iyi yedi harfli kelimeler.",
       body: [
@@ -81,6 +86,7 @@ export const tr = [
     },
     {
       slug: "history-of-scrabble",
+      date: '2026-07-24',
       title: "Scrabble'ın Büyüleyici Tarihi",
       excerpt: "1930'lardaki icadından dünyanın en popüler kutu oyunlarından biri olmaya kadar Scrabble'ın tam tarihi.",
       body: [
@@ -98,6 +104,7 @@ export const tr = [
     },
     {
       slug: "word-games-brain-health",
+      date: '2026-07-24',
       title: "Kelime Oyunları ve Beyin Sağlığı: Araştırmalar Ne Söylüyor?",
       excerpt: "Bilimsel araştırmalar, düzenli kelime oyunlarının bilişsel sağlığı destekleyebileceğini öne sürmektedir. İşte şu an bilinen veriler.",
       body: [
@@ -115,6 +122,7 @@ export const tr = [
     },
     {
       slug: "unscramble-letters-tips",
+      date: '2026-07-24',
       title: "Harfleri Hızla Çözme: Uzman İpuçları ve Teknikler",
       excerpt: "İster bir kelime oyunu oynayın ister bir bulmaca çözün, bu uzman teknikler karışık harflerde çok daha hızlı kelimeler bulmanıza yardımcı olacaktır.",
       body: [
@@ -132,6 +140,7 @@ export const tr = [
     },
     {
       slug: "multilingual-word-games",
+      date: '2026-07-24',
       title: "Birden Fazla Dilde Kelime Oyunları: Avantajlar ve Zorluklar",
       excerpt: "Farklı dillerde kelime oyunları oynamak eşsiz bilişsel avantajlar sunar ve büyüleyici zorluklar içerir. İşte nasıl başlayabileceğiniz.",
       body: [
@@ -149,6 +158,7 @@ export const tr = [
     },
     {
       slug: "wordle-strategies",
+      date: '2026-07-24',
       title: "Wordle Stratejileri: Her Gün Bulmacayı Nasıl Çözersiniz",
       excerpt: "Wordle dünya genelinde bir fenomene dönüştü. İşte onu her gün verimli biçimde çözmek için en iyi stratejiler ve başlangıç kelimeleri.",
       body: [
@@ -168,6 +178,7 @@ export const tr = [
     },
     {
       slug: "word-unscrambler-ultimate-guide",
+      date: '2026-08-16',
       title: "Kelime Çözücü: Her Türlü Harf Bulmacasını Çözmenin Eksiksiz Rehberi",
       excerpt: "Kelime arama araçlarının nasıl çalıştığı, yüksek puanlı hamlelerin ardındaki strateji ve filtrelerin etkili kullanımı.",
       body: [
@@ -189,6 +200,7 @@ export const tr = [
     },
     {
       slug: "scrabble-cheat-word-finder-guide",
+      date: '2026-08-25',
       title: "En İyi Kelime Bulucuyu Seçmek ve Kullanmak",
       excerpt: "Kelime bulucular gerçekte nasıl çalışır, iyi bir araç ile basit bir anagram listesi arasındaki fark nedir ve tahtanıza uyan hamleyi bulmak için filtreler nasıl stratejik kullanılır.",
       body: [
@@ -213,6 +225,7 @@ export const tr = [
     },
     {
       slug: "7-letter-word-unscrambler-bingo-guide",
+      date: '2026-08-26',
       title: "Yedi Harfi Birden Oynamak: Büyük Bonusun Rehberi",
       excerpt: "Yaygın kelime kökleri, eklemeler ve filtrelerle yedi harfli hamleleri daha hızlı nasıl fark edersiniz — ve 50 puanlık bonusun arkasındaki gerçek sayılar.",
       body: [
@@ -234,6 +247,7 @@ export const tr = [
     },
     {
       slug: "j-ile-baslayan-kelimeler",
+      date: '2026-08-27',
       title: "J ile Başlayan Kelimeler: Türkçe Scrabble'ın En Değerli Harfi",
       excerpt: "J, Türkçe Scrabble'da 10 puan değerinde — oyunun en yüksek puanlı harfi. İşte gerçek sözlüğümüzden doğrulanmış, gerçekten oynanabilir kelimelerle bu harfi nasıl değerlendirebileceğiniz.",
       keyTakeaways: [
@@ -271,6 +285,7 @@ export const tr = [
     },
     {
       slug: "capa-harfler-yedi-harfli-kelimeler",
+      date: '2026-08-27',
       title: "Çapa Harfleri Etrafında Oynamak: Tahtaya Gerçekten Uyan 7 Harfli Kelimeler Bulmak",
       excerpt: "Yedi harfli bir kelime bulmak işin sadece yarısı -- bir de işe yarar bir yere yerleşmesi gerekiyor. İşte gerçekten sayılan hamleler için çapa harflerini prim kareleriyle birleştirme yöntemi.",
       keyTakeaways: [
@@ -302,6 +317,7 @@ export const tr = [
 
     {
       slug: "turkce-kelime-cozucu-scrabble",
+      date: '2026-08-28',
       title: "Türkçe Kelimeleri Çözmek: Scrabble ve Anagramlar için Hızlı Araç",
       excerpt: "Genel bir kelime çözücü genellikle Türkçenin yumuşak G'sini doğru tanımaz. İşte Türkçeye özel bir aracın Scrabble'da neden gerçekten fark yarattığı.",
       keyTakeaways: [
@@ -333,6 +349,7 @@ export const tr = [
 
     {
       slug: "joker-harfli-kelime-cozucu",
+      date: '2026-08-28',
       title: "Joker Harfli Kelime Çözücü: Joker Bulmacalarını Anında Çözmek",
       excerpt: "Bir joker herhangi bir harf olabilir, ve onu doğru kullanmayı zorlaştıran da tam olarak bu. İşte joker ile doğru arama yapmanın yolu.",
       keyTakeaways: [
@@ -364,6 +381,7 @@ export const tr = [
     },
     {
       slug: "almanca-scrabble-oynamak-rehber",
+      date: '2026-09-02',
       title: "Almanca Scrabble Oynamak: Bir Kelime Çözücünün Gerçekten Bilmesi Gerekenler",
       excerpt: "Almanca Scrabble'ın gerçek bir turnuva sözlüğü 184.243 kelime içeriyor, kendi taşı olmayan bir harfi var, ve kelimeleri tamamen değiştiren umlaut'ları var. İşte bir çözücünün doğru şekilde ele alması gerekenler.",
       keyTakeaways: [

@@ -1,6 +1,7 @@
 export const fr = [
     {
       slug: "scrabble-strategies",
+      date: '2026-07-24',
       title: "Maîtriser le Scrabble : Stratégies Essentielles pour Améliorer Votre Jeu",
       excerpt: "Découvrez des stratégies éprouvées pour améliorer vos performances au Scrabble, du positionnement sur le plateau à la gestion des lettres.",
       body: [
@@ -18,6 +19,7 @@ export const fr = [
     },
     {
       slug: "best-two-letter-words",
+      date: '2026-07-24',
       title: "Le Guide Complet des Mots de Deux Lettres au Scrabble",
       excerpt: "Découvrez les mots de deux lettres les plus précieux et les plus utiles qui peuvent transformer votre jeu de Scrabble.",
       body: [
@@ -35,6 +37,7 @@ export const fr = [
     },
     {
       slug: "improve-vocabulary-word-games",
+      date: '2026-07-24',
       title: "Comment Améliorer Votre Vocabulaire pour les Jeux de Mots",
       excerpt: "Stratégies pratiques et techniques pour développer votre vocabulaire et devenir un adversaire redoutable dans les jeux de mots.",
       body: [
@@ -52,6 +55,7 @@ export const fr = [
     },
     {
       slug: "best-scrabble-words-with-q",
+      date: '2026-07-24',
       title: "Les Meilleurs Mots au Scrabble avec la Lettre K",
       excerpt: "La lettre K vaut 10 points au Scrabble français, à égalité avec W, X, Y et Z -- contrairement au Q, qui n'en vaut que 8. Voici comment vraiment l'exploiter.",
       body: [
@@ -65,6 +69,7 @@ export const fr = [
     },
     {
       slug: "seven-letter-words-scrabble",
+      date: '2026-07-24',
       title: "Mots de Sept Lettres pour Réussir des Scrabbles",
       excerpt: "Jouer les sept lettres rapporte un bonus de 50 points. Voici les meilleurs mots de sept lettres à connaître pour réussir des scrabbles.",
       body: [
@@ -82,6 +87,7 @@ export const fr = [
     },
     {
       slug: "history-of-scrabble",
+      date: '2026-07-24',
       title: "L'Histoire Fascinante du Scrabble",
       excerpt: "De son invention pendant la Grande Dépression à son statut de l'un des jeux de société les plus populaires au monde, voici l'histoire complète du Scrabble.",
       body: [
@@ -99,6 +105,7 @@ export const fr = [
     },
     {
       slug: "word-games-brain-health",
+      date: '2026-07-24',
       title: "Jeux de Mots et Santé du Cerveau : Ce que la Recherche Nous Dit",
       excerpt: "La recherche scientifique suggère que la pratique régulière des jeux de mots pourrait soutenir la santé cognitive. Voici ce que nous savons actuellement.",
       body: [
@@ -116,6 +123,7 @@ export const fr = [
     },
     {
       slug: "unscramble-letters-tips",
+      date: '2026-07-24',
       title: "Comment Déchiffrer des Lettres Rapidement : Conseils d'Experts",
       excerpt: "Que vous jouiez à un jeu de mots ou que vous résolviez une énigme, ces techniques d'experts vous aideront à trouver des mots dans des lettres mélangées beaucoup plus rapidement.",
       body: [
@@ -133,6 +141,7 @@ export const fr = [
     },
     {
       slug: "multilingual-word-games",
+      date: '2026-07-24',
       title: "Jeux de Mots en Plusieurs Langues : Avantages et Défis",
       excerpt: "Jouer à des jeux de mots dans différentes langues offre des avantages cognitifs uniques et présente des défis fascinants. Voici comment commencer.",
       body: [
@@ -150,6 +159,7 @@ export const fr = [
     },
     {
       slug: "wordle-strategies",
+      date: '2026-07-24',
       title: "Stratégies pour le Wordle : Comment Résoudre le Puzzle Chaque Jour",
       excerpt: "Le Wordle est devenu un phénomène mondial. Voici les meilleures stratégies et les meilleurs mots de départ pour le résoudre efficacement chaque jour.",
       body: [
@@ -169,6 +179,7 @@ export const fr = [
     },
     {
       slug: "word-unscrambler-ultimate-guide",
+      date: '2026-08-16',
       title: "Dénicheur de mots : le guide complet pour résoudre n'importe quelle grille de lettres",
       excerpt: "Comment fonctionnent réellement les outils de recherche de mots, la stratégie derrière les coups à haut score, et comment utiliser les filtres efficacement.",
       body: [
@@ -191,6 +202,7 @@ export const fr = [
     },
     {
       slug: "scrabble-cheat-word-finder-guide",
+      date: '2026-08-25',
       title: "Bien choisir et utiliser un outil de recherche de mots au Scrabble",
       excerpt: "Comment fonctionnent vraiment les outils de recherche de mots, ce qui distingue un bon outil d'une simple liste d'anagrammes, et comment utiliser les filtres pour trouver le coup qui correspond à votre plateau.",
       body: [
@@ -215,6 +227,7 @@ export const fr = [
     },
     {
       slug: "7-letter-word-unscrambler-bingo-guide",
+      date: '2026-08-26',
       title: "Trouver son scrabble : le guide du mot de sept lettres",
       excerpt: "Comment repérer plus vite les coups de sept lettres, grâce aux radicaux fréquents, aux greffes et aux filtres — et les vrais chiffres derrière le bonus de 50 points.",
       body: [
@@ -236,6 +249,7 @@ export const fr = [
     },
     {
       slug: "mots-commencant-par-x",
+      date: '2026-08-27',
       title: "Mots commençant par X : un guide pour le Scrabble et les mots croisés",
       excerpt: "La lettre X vaut 10 points et reste l'une des plus rares du français — voici comment vraiment l'exploiter, du simple XI aux mots de 7 lettres, tous vérifiés dans notre propre dictionnaire.",
       keyTakeaways: [
@@ -274,6 +288,7 @@ export const fr = [
     },
     {
       slug: "ancres-mots-sept-lettres",
+      date: '2026-08-27',
       title: "Jouer Autour des Ancres : Trouver des Mots de 7 Lettres Qui S'Adaptent Vraiment au Plateau",
       excerpt: "Trouver un mot de sept lettres n'est que la moitié du travail -- il faut aussi qu'il trouve sa place. Voici comment combiner les lettres d'ancrage avec les cases premium pour des coups qui comptent vraiment.",
       keyTakeaways: [
@@ -305,6 +320,7 @@ export const fr = [
 
     {
       slug: "decrypter-mots-francais-scrabble",
+      date: '2026-08-28',
       title: "Déchiffrer des Mots Français : Outil Rapide pour le Scrabble et les Anagrammes",
       excerpt: "Un déchiffreur générique ne gère souvent pas bien les ligatures françaises. Voici pourquoi un outil dédié au français fait vraiment la différence au Scrabble.",
       keyTakeaways: [
@@ -336,6 +352,7 @@ export const fr = [
 
     {
       slug: "decodeur-mots-lettres-blanches",
+      date: '2026-08-28',
       title: "Déchiffreur de Mots avec Lettres Blanches : Résoudre les Puzzles à Joker Instantanément",
       excerpt: "Un joker peut devenir n'importe quelle lettre, ce qui le rend justement difficile à bien utiliser. Voici comment chercher avec un joker correctement, et ce que cela trouve vraiment.",
       keyTakeaways: [
@@ -367,6 +384,7 @@ export const fr = [
     },
     {
       slug: "solveur-mots-turcs-guide",
+      date: '2026-09-01',
       title: "Déchiffrer les mots turcs : ce qu'un outil doit vraiment maîtriser",
       excerpt: "Le turc compte 29 lettres, une lettre qui ne commence jamais un mot, et un système de valeurs que les outils génériques comprennent mal. Voici ce qui compte vraiment.",
       keyTakeaways: [
@@ -404,6 +422,7 @@ export const fr = [
     },
     {
       slug: "scrabble-allemand-solveur-guide",
+      date: '2026-09-02',
       title: "Jouer au Scrabble allemand : ce qu'un solveur de mots doit vraiment maîtriser",
       excerpt: "Le Scrabble allemand a un vrai dictionnaire de tournoi de 184 243 mots, une lettre qui n'a pas sa propre case, et des trémas qui changent complètement le sens des mots. Voici ce qu'un solveur doit gérer correctement.",
       keyTakeaways: [

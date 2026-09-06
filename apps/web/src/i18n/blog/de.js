@@ -2,6 +2,7 @@ export const de = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-07-24',
       title: 'Scrabble meistern: Wesentliche Strategien zur Verbesserung Ihres Spiels',
       excerpt: 'Lernen Sie bewährte Strategien zur Verbesserung Ihrer Scrabble-Leistung, von der Brettpositionierung bis zum Buchstabenmanagement.',
       body: [
@@ -19,6 +20,7 @@ export const de = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-07-24',
       title: 'Der vollständige Leitfaden zu Zwei-Buchstaben-Wörtern beim Scrabble',
       excerpt: 'Entdecken Sie die wertvollsten und nützlichsten Zwei-Buchstaben-Wörter, die Ihr Scrabble-Spiel transformieren können.',
       body: [
@@ -36,6 +38,7 @@ export const de = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-07-24',
       title: 'Wie Sie Ihren Wortschatz für Wortspiele verbessern können',
       excerpt: 'Praktische Strategien und Techniken zum Aufbau Ihres Wortschatzes, um ein beeindruckender Gegner bei Wortspielen zu werden.',
       body: [
@@ -53,6 +56,7 @@ export const de = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-07-24',
       title: 'Die besten Scrabble-Wörter mit dem Buchstaben Q',
       excerpt: 'Der Buchstabe Q ist beim Scrabble 10 Punkte wert, aber notorisch schwer zu verwenden. Hier sind die besten Q-Wörter, die Sie kennen sollten.',
       body: [
@@ -70,6 +74,7 @@ export const de = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-07-24',
       title: 'Hochscorende Sieben-Buchstaben-Wörter für Scrabble-Bingos',
       excerpt: 'Alle sieben Buchstaben zu spielen bringt einen Bonus von 50 Punkten. Hier sind die besten Sieben-Buchstaben-Wörter für Scrabble-Bingos.',
       body: [
@@ -87,6 +92,7 @@ export const de = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-07-24',
       title: 'Die faszinierende Geschichte des Scrabble',
       excerpt: 'Von seiner Erfindung in den 1930er Jahren bis zu einem der beliebtesten Gesellschaftsspiele der Welt — hier ist die vollständige Geschichte des Scrabble.',
       body: [
@@ -104,6 +110,7 @@ export const de = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-07-24',
       title: 'Wortspiele und Gehirngesundheit: Was die Forschung sagt',
       excerpt: 'Wissenschaftliche Forschung legt nahe, dass regelmäßige Wortspiele die kognitive Gesundheit unterstützen könnten. Hier ist, was wir derzeit wissen.',
       body: [
@@ -121,6 +128,7 @@ export const de = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-07-24',
       title: 'Wie man Buchstaben schnell entschlüsselt: Expertentipps und -techniken',
       excerpt: 'Ob Sie ein Wortspiel spielen oder ein Rätsel lösen — diese Expertentechniken helfen Ihnen, Wörter in gemischten Buchstaben viel schneller zu finden.',
       body: [
@@ -138,6 +146,7 @@ export const de = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-24',
       title: 'Wortspiele in mehreren Sprachen: Vorteile und Herausforderungen',
       excerpt: 'Wortspiele in verschiedenen Sprachen zu spielen bietet einzigartige kognitive Vorteile und stellt faszinierende Herausforderungen dar.',
       body: [
@@ -155,6 +164,7 @@ export const de = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-24',
       title: 'Wordle-Strategien: Wie man das Rätsel jeden Tag löst',
       excerpt: 'Wordle ist zu einem weltweiten Phänomen geworden. Hier sind die besten Strategien und Ausgangswörter, um es täglich effizient zu lösen.',
       body: [
@@ -174,6 +184,7 @@ export const de = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
+      date: '2026-08-16',
       title: 'Wörter entschlüsseln: Der komplette Leitfaden zum Lösen jedes Buchstabenrätsels',
       excerpt: 'Wie Wortsuch-Werkzeuge tatsächlich funktionieren, welche Strategie hinter punktestarken Zügen steckt, und wie man Filter effektiv nutzt.',
       body: [
@@ -196,6 +207,7 @@ export const de = [
     },
     {
       slug: 'scrabble-cheat-word-finder-guide',
+      date: '2026-08-25',
       title: 'Wort-Entschlüsseler beim Scrabble: Auswahl und richtige Nutzung',
       excerpt: 'Wie Wort-Entschlüsseler wirklich funktionieren, was ein gutes Werkzeug von einer einfachen Anagramm-Liste unterscheidet, und wie man Filter gezielt nutzt, um den passenden Zug zu finden.',
       body: [
@@ -220,6 +232,7 @@ export const de = [
     },
     {
       slug: '7-letter-word-unscrambler-bingo-guide',
+      date: '2026-08-26',
       title: 'Sieben Buchstaben auf einmal: der Guide zum großen Bonus',
       excerpt: 'Wie man Siebenbuchstaben-Züge schneller erkennt — mit häufigen Wortstämmen, Anschlüssen und Filtern — und die echten Zahlen hinter dem 50-Punkte-Bonus.',
       body: [
@@ -241,6 +254,7 @@ export const de = [
     },
     {
       slug: 'woerter-mit-q',
+      date: '2026-08-27',
       title: 'Wörter mit Q: der wertvollste Buchstabe im deutschen Scrabble',
       excerpt: 'Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble — und anders als oft angenommen, gibt es dafür viele alltägliche Wörter. Alle hier genannten Beispiele sind gegen unser eigenes Wörterbuch geprüft.',
       keyTakeaways: [
@@ -278,6 +292,7 @@ export const de = [
     },
     {
       slug: "ankerbuchstaben-sieben-buchstaben-woerter",
+      date: '2026-08-27',
       title: "Spielen um Ankerbuchstaben: 7-Buchstaben-Wörter Finden, Die Wirklich zum Spielfeld Passen",
       excerpt: "Ein Wort mit sieben Buchstaben zu finden ist nur die halbe Arbeit -- es muss auch irgendwo sinnvoll landen. So kombinieren Sie Ankerbuchstaben mit Bonusfeldern für Züge, die wirklich zählen.",
       keyTakeaways: [
@@ -309,6 +324,7 @@ export const de = [
 
     {
       slug: "deutsche-woerter-entschluesseln-scrabble",
+      date: '2026-08-28',
       title: "Deutsche Wörter Entschlüsseln: Schnelles Werkzeug für Scrabble und Anagramme",
       excerpt: "Ein generischer Entschlüsseler kommt mit dem deutschen ß oft nicht klar. So macht ein speziell auf Deutsch zugeschnittenes Werkzeug beim Scrabble wirklich den Unterschied.",
       keyTakeaways: [
@@ -340,6 +356,7 @@ export const de = [
 
     {
       slug: "wortentschluesseler-mit-jokerbuchstaben",
+      date: '2026-08-28',
       title: "Wort-Entschlüsseler mit Jokerbuchstaben: Rätsel mit Platzhaltern Sofort Lösen",
       excerpt: "Ein Joker kann zu jedem beliebigen Buchstaben werden -- genau das macht ihn schwer richtig einzusetzen. So funktioniert die Suche mit einem Platzhalter richtig.",
       keyTakeaways: [
@@ -371,6 +388,7 @@ export const de = [
     },
     {
       slug: "tuerkische-woerter-entschluesseln-guide",
+      date: '2026-09-01',
       title: "Türkische Wörter entschlüsseln: Worauf ein Tool wirklich achten muss",
       excerpt: "Türkisches Scrabble hat 29 Buchstaben, einen Buchstaben, der nie ein Wort beginnt, und ein Wertesystem, das generische Tools regelmäßig falsch handhaben. Das zählt wirklich.",
       keyTakeaways: [

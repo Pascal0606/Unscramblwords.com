@@ -2,6 +2,7 @@ export const en = [
 
     {
       slug: 'scrabble-strategies',
+      date: '2026-07-24',
       title: 'Master Scrabble: Essential Strategies to Boost Your Game',
       excerpt: 'Learn proven strategies to improve your Scrabble performance, from board positioning to tile management and scoring tactics.',
       body: [
@@ -21,6 +22,7 @@ export const en = [
     },
     {
       slug: 'best-two-letter-words',
+      date: '2026-07-24',
       title: 'The Complete Guide to Two-Letter Words in Scrabble',
       excerpt: 'Discover the most valuable and useful two-letter words that can transform your Scrabble game and help you score big points.',
       body: [
@@ -40,6 +42,7 @@ export const en = [
     },
     {
       slug: 'improve-vocabulary-word-games',
+      date: '2026-07-24',
       title: 'How to Improve Your Vocabulary for Word Games',
       excerpt: 'Practical strategies and techniques to build your vocabulary and become a formidable opponent in word games like Scrabble and Wordle.',
       body: [
@@ -58,6 +61,7 @@ export const en = [
     },
     {
       slug: 'best-scrabble-words-with-q',
+      date: '2026-07-24',
       title: 'Best Scrabble Words Using the Letter Q',
       excerpt: 'The letter Q is worth 10 points in Scrabble but is notoriously difficult to use. Here are the best Q words to know.',
       body: [
@@ -77,6 +81,7 @@ export const en = [
     },
     {
       slug: 'seven-letter-words-scrabble',
+      date: '2026-07-24',
       title: 'High-Scoring Seven-Letter Words for Scrabble Bingos',
       excerpt: 'Playing all seven tiles earns a 50-point bonus. Here are the best seven-letter words to know for scoring bingos in Scrabble.',
       body: [
@@ -96,6 +101,7 @@ export const en = [
     },
     {
       slug: 'history-of-scrabble',
+      date: '2026-07-24',
       title: 'The Fascinating History of Scrabble',
       excerpt: 'From its invention by an out-of-work architect in the 1930s to becoming one of the world\'s most popular board games, here is the complete history of Scrabble.',
       body: [
@@ -115,6 +121,7 @@ export const en = [
     },
     {
       slug: 'word-games-brain-health',
+      date: '2026-07-24',
       title: 'Word Games and Brain Health: What the Research Says',
       excerpt: 'Scientific research suggests that regular engagement with word games may support cognitive health. Here is what we currently know.',
       body: [
@@ -135,6 +142,7 @@ export const en = [
     },
     {
       slug: 'unscramble-letters-tips',
+      date: '2026-07-24',
       title: 'How to Unscramble Letters Quickly: Expert Tips and Techniques',
       excerpt: 'Whether you are playing a word game or solving a puzzle, these expert techniques will help you find words in scrambled letters much faster.',
       body: [
@@ -153,6 +161,7 @@ export const en = [
     },
     {
       slug: 'multilingual-word-games',
+      date: '2026-07-24',
       title: 'Word Games in Multiple Languages: Benefits and Challenges',
       excerpt: 'Playing word games in different languages offers unique cognitive benefits and presents fascinating challenges. Here is how to get started.',
       body: [
@@ -171,6 +180,7 @@ export const en = [
     },
     {
       slug: 'wordle-strategies',
+      date: '2026-07-24',
       title: 'Wordle Strategies: How to Solve the Puzzle Every Day',
       excerpt: 'Wordle has become a global phenomenon. Here are the best strategies and starting words to solve it efficiently every day.',
       body: [
@@ -192,6 +202,7 @@ export const en = [
     },
     {
       slug: 'unscramble-9-letter-words',
+      date: '2026-07-24',
       title: 'Unscramble 9 Letter Words: Ultimate 2026 Guide',
       excerpt: 'Ready to unscramble 9 letter words like a pro? This guide covers chunking strategy, common prefixes and suffixes, board extensions, and how to use an online unscrambler with confidence.',
       body: [
@@ -215,6 +226,7 @@ export const en = [
     },
     {
       slug: 'word-unscrambler-ultimate-guide',
+      date: '2026-08-16',
       title: 'Word Unscrambler: The Complete Guide to Solving Any Letter Puzzle',
       excerpt: 'How word unscrambler tools actually work, the strategy behind high-scoring plays, and how to use filters effectively — a practical guide for Scrabble and beyond.',
       body: [
@@ -237,6 +249,7 @@ export const en = [
     },
     {
       slug: 'scrabble-cheat-word-finder-guide',
+      date: '2026-08-25',
       title: 'Scrabble Cheat: How to Choose and Use the Best Word Finder',
       excerpt: 'How word-finder tools actually work, what separates a good one from a basic anagram list, and how to use filters strategically to find the play that fits your board.',
       body: [
@@ -262,6 +275,7 @@ export const en = [
     },
     {
       slug: '7-letter-word-unscrambler-bingo-guide',
+      date: '2026-08-26',
       title: '7-Letter Word Unscrambler: How to Find Your Next Bingo',
       excerpt: 'How to spot seven-letter Bingo plays faster, using common stems, hooks, and filters — plus the real numbers behind the 50-point bonus.',
       body: [
@@ -284,6 +298,7 @@ export const en = [
     },
     {
       slug: 'words-that-start-with-x',
+      date: '2026-08-26',
       title: 'Words That Start With X: A Scrabble and Word Puzzle Guide',
       excerpt: 'The X tile is rare and worth 8 points — here\'s how to actually use it, from short two-letter escapes to genuine 7-letter Bingo plays, all verified against a real dictionary.',
       keyTakeaways: [
@@ -326,6 +341,7 @@ export const en = [
     },
     {
       slug: "anchor-letters-seven-letter-words",
+      date: '2026-08-27',
       title: "Playing Around Anchors: Finding 7-Letter Words That Actually Fit Your Board",
       excerpt: "Finding a seven-letter word is only half the job -- it has to land somewhere useful too. Here's how to combine anchor letters with premium squares for plays that count.",
       keyTakeaways: [
@@ -356,6 +372,7 @@ export const en = [
     },
     {
       slug: "word-unscrambler-blank-letters",
+      date: '2026-08-28',
       title: "Word Unscrambler with Blank Letters: Solve Wildcard Puzzles Instantly",
       excerpt: "A blank tile can become any letter, which is exactly what makes it hard to use well. Here's how to search with a wildcard properly, and what it actually finds.",
       keyTakeaways: [
@@ -387,6 +404,7 @@ export const en = [
     },
     {
       slug: "words-with-friends-vs-scrabble-differences",
+      date: '2026-08-30',
       title: "Words With Friends vs. Scrabble: The Real Differences That Change Your Strategy",
       excerpt: "They look alike, but Words With Friends and Scrabble score differently, value letters differently, and even use different dictionaries. Here's what actually changes your strategy.",
       keyTakeaways: [
@@ -418,6 +436,7 @@ export const en = [
     },
     {
       slug: "german-anagram-solver-guide",
+      date: '2026-08-31',
       title: "Playing German Scrabble: What a Word Solver Actually Needs to Get Right",
       excerpt: "German Scrabble has a real 184,243-word tournament dictionary, a letter that doesn't get its own tile, and umlauts that change words entirely. Here's what a solver needs to handle correctly.",
       keyTakeaways: [
@@ -453,6 +472,7 @@ export const en = [
     },
     {
       slug: "turkish-word-unscrambler-guide",
+      date: '2026-09-01',
       title: "Unscrambling Turkish Words: What a Solver Needs to Get Right",
       excerpt: "Turkish Scrabble has 29 letters, a letter that can never start a word, and a value system generic tools routinely get wrong. Here's what actually matters.",
       keyTakeaways: [

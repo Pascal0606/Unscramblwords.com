@@ -1,6 +1,7 @@
 export const pl = [
     {
       slug: "slowa-z-litera-z-kreska",
+      date: '2026-08-27',
       title: "Słowa z Literą Ź: Najcenniejsza Litera w Polskim Scrabble",
       excerpt: "Litera Ź jest warta 9 punktów -- najwyższa wartość w polskim Scrabble. Oto jak naprawdę ją wykorzystać, na przykładach zweryfikowanych w naszym własnym słowniku.",
       keyTakeaways: [
@@ -37,6 +38,7 @@ export const pl = [
     },
     {
       slug: "opanuj-scrabble-kluczowe-strategie",
+      date: '2026-08-27',
       title: "Opanuj Scrabble: Kluczowe Strategie na Lepszą Grę",
       excerpt: "Dobre słownictwo pomaga, ale to strategia zamienia je w regularne zwycięstwa -- oto taktyki, które naprawdę mają znaczenie.",
       keyTakeaways: [
@@ -64,6 +66,7 @@ export const pl = [
     },
     {
       slug: "dwuliterowe-slowa-scrabble",
+      date: '2026-08-27',
       title: "Kompletny Przewodnik po Dwuliterowych Słowach w Scrabble",
       excerpt: "Dwuliterowe słowa nie robią wrażenia, ale są jednymi z najbardziej przydatnych w grze -- oto sprawdzona lista, bez ukrytych skrótów udających słowa.",
       keyTakeaways: [
@@ -91,6 +94,7 @@ export const pl = [
     },
     {
       slug: "siedmioliterowe-slowa-wysoki-wynik",
+      date: '2026-08-27',
       title: "Wysoko Punktowane Siedmioliterowe Słowa na Pełny Scrabble",
       excerpt: "Użycie wszystkich siedmiu liter naraz daje bonus 50 punktów -- oto jakich liter szukać i prawdziwe przykłady zweryfikowane w naszym własnym słowniku.",
       keyTakeaways: [
@@ -115,6 +119,7 @@ export const pl = [
     },
     {
       slug: "historia-gry-scrabble",
+      date: '2026-08-27',
       title: "Fascynująca Historia Gry Scrabble",
       excerpt: "Od bezrobotnego architekta, który ją wymyślił, po światowy fenomen -- prawdziwa historia Scrabble, ze zweryfikowanymi datami i faktami.",
       keyTakeaways: [
@@ -144,6 +149,7 @@ export const pl = [
     },
     {
       slug: "gry-slowne-zdrowie-mozgu",
+      date: '2026-08-27',
       title: "Gry Słowne a Zdrowie Mózgu: Co Mówią Badania",
       excerpt: "Granie w Scrabble to nie tylko rozrywka -- badania nad dwujęzycznością Ellen Bialystok sugerują realne, mierzalne korzyści.",
       keyTakeaways: [
@@ -168,6 +174,7 @@ export const pl = [
     },
     {
       slug: "jak-szybko-rozszyfrowac-litery",
+      date: '2026-08-27',
       title: "Jak Szybko Rozszyfrować Litery: Techniki i Wskazówki",
       excerpt: "Znalezienie słów w stosie wymieszanych liter staje się łatwiejsze dzięki metodzie -- oto jak podejść do tego bez polegania wyłącznie na szczęściu.",
       keyTakeaways: [
@@ -195,6 +202,7 @@ export const pl = [
     },
     {
       slug: "gry-slowne-wiele-jezykow",
+      date: '2026-08-27',
       title: "Gry Słowne w Wielu Językach: Korzyści i Wyzwania",
       excerpt: "Gra w więcej niż jednym języku niesie ze sobą realne wyzwania -- od różnych słowników po różne wartości liter -- ale też prawdziwe korzyści.",
       keyTakeaways: [
@@ -219,6 +227,7 @@ export const pl = [
     },
     {
       slug: "strategie-gry-typu-wordle",
+      date: '2026-08-27',
       title: "Strategie na Gry Typu Wordle: Jak Rozwiązywać Codzienne Zagadki Słowne",
       excerpt: "Nie znaleźliśmy jednej dominującej polskiej wersji Wordle -- ale zasady skutecznego zgadywania słów są takie same niezależnie od tego, w którą wersję grasz.",
       keyTakeaways: [
@@ -243,6 +252,7 @@ export const pl = [
     },
     {
       slug: "rozszyfrowywanie-slow-9-liter",
+      date: '2026-08-27',
       title: "Rozszyfrowywanie Dziewięcioliterowych Słów: Kompletny Poradnik",
       excerpt: "Dziewięcioliterowe słowa to prawdziwe wyzwanie do rozszyfrowania w głowie -- oto praktyczne podejście, z prawdziwą liczbą z naszego własnego słownika.",
       keyTakeaways: [
@@ -267,6 +277,7 @@ export const pl = [
     },
     {
       slug: "rozszyfrowywacz-slow-kompletny-poradnik",
+      date: '2026-08-27',
       title: "Rozszyfrowywacz Słów: Kompletny Poradnik",
       excerpt: "Jak skutecznie korzystać z rozszyfrowywacza słów -- od podstawowych filtrów po strategie, które naprawdę robią różnicę w grze.",
       keyTakeaways: [
@@ -291,6 +302,7 @@ export const pl = [
     },
     {
       slug: "sposoby-na-scrabble-wyszukiwacz-slow",
+      date: '2026-08-27',
       title: "Sposoby na Scrabble: Jak Wybrać i Korzystać z Najlepszego Wyszukiwacza Słów",
       excerpt: "Dobry wyszukiwacz słów może zamienić trudną rękę w zwycięski ruch -- oto na co naprawdę warto zwracać uwagę przy wyborze narzędzia.",
       keyTakeaways: [
@@ -315,6 +327,7 @@ export const pl = [
     },
     {
       slug: "rozszyfrowywacz-7-liter-pelny-scrabble",
+      date: '2026-08-27',
       title: "Rozszyfrowywacz Siedmioliterowych Słów: Jak Znaleźć Kolejny Pełny Scrabble",
       excerpt: "Prawdziwy pełny Scrabble -- użycie wszystkich siedmiu liter naraz -- daje bonus 50 punktów. Oto zweryfikowane słowa i jak je znaleźć.",
       keyTakeaways: [
@@ -343,6 +356,7 @@ export const pl = [
     },
     {
       slug: "jak-poszerzyc-slownictwo-gry-slowne",
+      date: '2026-08-27',
       title: "Jak Poszerzyć Słownictwo do Gier Słownych",
       excerpt: "Budowanie słownictwa do gier słownych nie polega na wkuwaniu list -- polega na rozpoznawaniu wzorców. Oto praktyczne podejście, bez pustych obietnic.",
       keyTakeaways: [
@@ -370,6 +384,7 @@ export const pl = [
     },
     {
       slug: "litery-kotwice-slowa-siedmioliterowe",
+      date: '2026-08-27',
       title: "Gra Wokół Kotwic: Jak Znaleźć Słowa Siedmioliterowe, Które Naprawdę Pasują do Planszy",
       excerpt: "Znalezienie siedmioliterowego słowa to tylko połowa pracy -- musi ono jeszcze gdzieś sensownie trafić. Oto jak łączyć litery-kotwice z polami premiowymi, by tworzyć ruchy, które naprawdę się liczą.",
       keyTakeaways: [
@@ -401,6 +416,7 @@ export const pl = [
 
     {
       slug: "rozszyfrowac-polskie-slowa-scrabble",
+      date: '2026-08-28',
       title: "Rozszyfrować Polskie Słowa: Szybkie Narzędzie do Scrabble i Anagramów",
       excerpt: "Ogólne narzędzie często nie radzi sobie z polskimi zbitkami spółgłoskowymi. Oto dlaczego narzędzie dedykowane polskiemu naprawdę robi różnicę w Scrabble.",
       keyTakeaways: [
@@ -432,6 +448,7 @@ export const pl = [
 
     {
       slug: "rozszyfrowywacz-slow-z-jokerem",
+      date: '2026-08-28',
       title: "Rozszyfrowywacz Słów z Jokerem: Natychmiastowe Rozwiązywanie Zagadek z Pustym Kafelkiem",
       excerpt: "Pusty kafelek może stać się dowolną literą -- i to właśnie sprawia, że trudno go dobrze wykorzystać. Oto jak poprawnie szukać z jokerem.",
       keyTakeaways: [
@@ -463,6 +480,7 @@ export const pl = [
     },
     {
       slug: "rozszyfrowac-tureckie-slowa-poradnik",
+      date: '2026-09-01',
       title: "Rozszyfrowywanie tureckich słów: co naprawdę musi umieć dobre narzędzie",
       excerpt: "Turecki Scrabble ma 29 liter, jedną literę, która nigdy nie zaczyna słowa, i system wartości, który ogólne narzędzia często rozumieją błędnie. Oto, co naprawdę się liczy.",
       keyTakeaways: [
@@ -500,6 +518,7 @@ export const pl = [
     },
     {
       slug: "niemiecki-scrabble-poradnik",
+      date: '2026-09-02',
       title: "Niemiecki Scrabble: co naprawdę musi umieć dobry solver słów",
       excerpt: "Niemiecki Scrabble ma prawdziwy turniejowy słownik liczący 184 243 słowa, literę bez własnego kafelka i umlauty, które całkowicie zmieniają znaczenie słów. Oto, z czym musi sobie poprawnie radzić narzędzie.",
       keyTakeaways: [

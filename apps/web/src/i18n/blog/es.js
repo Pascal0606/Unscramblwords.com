@@ -1,6 +1,7 @@
 export const es = [
     {
       slug: "scrabble-strategies",
+      date: '2026-07-24',
       title: "Dominar el Scrabble: Estrategias Esenciales para Mejorar su Juego",
       excerpt: "Aprenda estrategias probadas para mejorar su rendimiento en el Scrabble, desde el posicionamiento en el tablero hasta la gestión de las fichas.",
       body: [
@@ -18,6 +19,7 @@ export const es = [
     },
     {
       slug: "best-two-letter-words",
+      date: '2026-07-24',
       title: "La Guía Completa de las Palabras de Dos Letras en el Scrabble",
       excerpt: "Descubra las palabras de dos letras más valiosas y útiles que pueden transformar su juego de Scrabble.",
       body: [
@@ -35,6 +37,7 @@ export const es = [
     },
     {
       slug: "improve-vocabulary-word-games",
+      date: '2026-07-24',
       title: "Cómo Mejorar su Vocabulario para los Juegos de Palabras",
       excerpt: "Estrategias prácticas y técnicas para desarrollar su vocabulario y convertirse en un adversario formidable en los juegos de palabras.",
       body: [
@@ -52,6 +55,7 @@ export const es = [
     },
     {
       slug: "best-scrabble-words-with-q",
+      date: '2026-07-24',
       title: "LL y RR: las Fichas Dobles Únicas del Scrabble en Español",
       excerpt: "El español tiene algo que ningún otro idioma de esta lista tiene: dos combinaciones de letras, LL y RR, que cuentan como una sola ficha. Esto es lo que hay que saber.",
       body: [
@@ -64,6 +68,7 @@ export const es = [
     },
     {
       slug: "seven-letter-words-scrabble",
+      date: '2026-07-24',
       title: "Palabras de Siete Letras de Alta Puntuación para los Scrabbles",
       excerpt: "Jugar todas las siete fichas obtiene un bono de 50 puntos. Aquí están las mejores palabras de siete letras que debe conocer para hacer scrabbles.",
       body: [
@@ -81,6 +86,7 @@ export const es = [
     },
     {
       slug: "history-of-scrabble",
+      date: '2026-07-24',
       title: "La Fascinante Historia del Scrabble",
       excerpt: "Desde su invención en la década de 1930 hasta convertirse en uno de los juegos de mesa más populares del mundo, aquí está la historia completa del Scrabble.",
       body: [
@@ -98,6 +104,7 @@ export const es = [
     },
     {
       slug: "word-games-brain-health",
+      date: '2026-07-24',
       title: "Juegos de Palabras y Salud del Cerebro: Lo que Dice la Investigación",
       excerpt: "La investigación científica sugiere que la práctica regular de los juegos de palabras podría apoyar la salud cognitiva. Esto es lo que sabemos actualmente.",
       body: [
@@ -115,6 +122,7 @@ export const es = [
     },
     {
       slug: "unscramble-letters-tips",
+      date: '2026-07-24',
       title: "Cómo Descifrar Letras Rápidamente: Consejos de Expertos",
       excerpt: "Tanto si está jugando a un juego de palabras como si está resolviendo un acertijo, estas técnicas de expertos le ayudarán a encontrar palabras en letras mezcladas mucho más rápidamente.",
       body: [
@@ -132,6 +140,7 @@ export const es = [
     },
     {
       slug: "multilingual-word-games",
+      date: '2026-07-24',
       title: "Juegos de Palabras en Varios Idiomas: Ventajas y Desafíos",
       excerpt: "Jugar a juegos de palabras en diferentes idiomas ofrece ventajas cognitivas únicas y presenta desafíos fascinantes. Así es como empezar.",
       body: [
@@ -149,6 +158,7 @@ export const es = [
     },
     {
       slug: "wordle-strategies",
+      date: '2026-07-24',
       title: "Estrategias para el Wordle: Cómo Resolver el Puzle Cada Día",
       excerpt: "El Wordle se ha convertido en un fenómeno mundial. Aquí están las mejores estrategias y palabras de partida para resolverlo eficientemente cada día.",
       body: [
@@ -168,6 +178,7 @@ export const es = [
     },
     {
       slug: "word-unscrambler-ultimate-guide",
+      date: '2026-08-16',
       title: "Buscador de palabras: la guía completa para resolver cualquier sopa de letras",
       excerpt: "Cómo funcionan realmente las herramientas de búsqueda de palabras, la estrategia detrás de las jugadas de alta puntuación, y cómo usar los filtros de forma eficaz.",
       body: [
@@ -190,6 +201,7 @@ export const es = [
     },
     {
       slug: "scrabble-cheat-word-finder-guide",
+      date: '2026-08-25',
       title: "Cómo elegir y usar el mejor buscador de palabras para el Scrabble",
       excerpt: "Cómo funcionan realmente los buscadores de palabras, qué diferencia a uno bueno de una simple lista de anagramas, y cómo usar los filtros de forma estratégica para encontrar la jugada que encaja en tu tablero.",
       body: [
@@ -214,6 +226,7 @@ export const es = [
     },
     {
       slug: "7-letter-word-unscrambler-bingo-guide",
+      date: '2026-08-26',
       title: "Cómo encontrar tu próximo juego de siete fichas",
       excerpt: "Cómo detectar más rápido las jugadas de siete letras, usando raíces frecuentes, conexiones y filtros — y las cifras reales detrás de la bonificación de 50 puntos.",
       body: [
@@ -235,6 +248,7 @@ export const es = [
     },
     {
       slug: "palabras-que-empiezan-por-z",
+      date: '2026-08-27',
       title: "Palabras que empiezan por Z: la letra más valiosa del Scrabble en español",
       excerpt: "La Z vale 10 puntos en el Scrabble en español, la puntuación más alta del juego — aquí tienes cómo aprovecharla de verdad, con palabras reales verificadas en nuestro propio diccionario.",
       keyTakeaways: [
@@ -272,6 +286,7 @@ export const es = [
     },
     {
       slug: "anclas-palabras-siete-letras",
+      date: '2026-08-27',
       title: "Jugar Alrededor de Anclas: Encontrar Palabras de 7 Letras Que Realmente Encajen en el Tablero",
       excerpt: "Encontrar una palabra de siete letras es solo la mitad del trabajo -- también tiene que encajar en algún sitio útil. Así se combinan las letras ancla con las casillas premium para jugadas que realmente cuentan.",
       keyTakeaways: [
@@ -303,6 +318,7 @@ export const es = [
 
     {
       slug: "descifrar-palabras-espanolas-scrabble",
+      date: '2026-08-28',
       title: "Descifrar Palabras Españolas: Herramienta Rápida para Scrabble y Anagramas",
       excerpt: "Un descifrador genérico a menudo no reconoce bien la Ñ española. Así es como una herramienta dedicada al español marca la diferencia real en el Scrabble.",
       keyTakeaways: [
@@ -334,6 +350,7 @@ export const es = [
 
     {
       slug: "descifrador-palabras-comodin",
+      date: '2026-08-28',
       title: "Descifrador de Palabras con Comodín: Resolver Puzles con Ficha en Blanco al Instante",
       excerpt: "Una ficha en blanco puede convertirse en cualquier letra, lo cual es precisamente lo que la hace difícil de usar bien. Así se busca correctamente con un comodín.",
       keyTakeaways: [
@@ -365,6 +382,7 @@ export const es = [
     },
     {
       slug: "descifrador-palabras-turcas-guia",
+      date: '2026-09-01',
       title: "Descifrar palabras turcas: lo que una herramienta debe hacer bien",
       excerpt: "El Scrabble turco tiene 29 letras, una letra que nunca empieza una palabra y un sistema de valores que las herramientas genéricas suelen entender mal. Esto es lo que realmente importa.",
       keyTakeaways: [
@@ -402,6 +420,7 @@ export const es = [
     },
     {
       slug: "jugar-scrabble-aleman-guia",
+      date: '2026-09-02',
       title: "Jugar al Scrabble alemán: lo que un solucionador de palabras debe hacer bien",
       excerpt: "El Scrabble alemán tiene un diccionario de torneo real de 184.243 palabras, una letra que no tiene su propia ficha y diéresis que cambian por completo el significado de las palabras. Esto es lo que una herramienta debe gestionar correctamente.",
       keyTakeaways: [
