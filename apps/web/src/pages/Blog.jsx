@@ -219,21 +219,36 @@ export default function Blog() {
   };
 
   const enhancedArticles = useMemo(() => {
-    return rawArticles.map((article, index) => {
+    const articles = rawArticles.map((article, index) => {
       let category = 'Guides';
       if (article.slug.includes('strategies') || article.title.toLowerCase().includes('strategy')) {
         category = 'Strategy';
       } else if (article.slug.includes('vocabulary') || article.title.toLowerCase().includes('vocabulary')) {
         category = 'Vocabulary';
       }
-      const date = new Date(2025, 9 - index, 15 + (index * 2));
+      // article.date is a genuine 'YYYY-MM-DD' value sourced from this article's actual
+      // git history (or, for the small number of articles that predate reliable version
+      // control, the earliest confirmed date the article is known to have existed).
+      // Parse the components manually rather than `new Date(article.date)`, since the
+      // latter is parsed as UTC midnight and can display as the previous day in
+      // timezones behind UTC.
+      let formattedDate = '';
+      if (article.date) {
+        const [y, m, d] = article.date.split('-').map(Number);
+        const parsed = new Date(y, m - 1, d);
+        formattedDate = parsed.toLocaleDateString(t('blog.dateLocale'), { month: 'short', day: 'numeric', year: 'numeric' });
+      }
       return {
         ...article,
         category,
-        date: date.toLocaleDateString(t('blog.dateLocale'), { month: 'short', day: 'numeric', year: 'numeric' }),
+        rawDate: article.date || '',
+        date: formattedDate,
         readTime: `${4 + (index % 3)} ${t('blog.minRead')}`
       };
     });
+    // Sort newest-first by the genuine date, since article order previously relied
+    // on the fabricated date formula to control what appeared first/featured.
+    return articles.sort((a, b) => (a.rawDate < b.rawDate ? 1 : a.rawDate > b.rawDate ? -1 : 0));
   }, [rawArticles, currentLanguage]);
 
   const categories = ['All', ...new Set(enhancedArticles.map(a => a.category))];
