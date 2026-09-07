@@ -353,4 +353,18 @@ export const it = [
         { question: "Quali lettere tedesche valgono di più?", answer: "Q e Y sono a pari merito per il valore più alto, con 10 punti ciascuna, seguite da vicino dalla X con 8." }
       ]
     },
+    {
+      slug: 'parole-gancio-scarabeo',
+      date: '2026-09-07',
+      title: 'Le parole-gancio a Scarabeo: come aggiungere una lettera e cambiare tutto',
+      excerpt: 'Come una sola lettera aggiunta a una parola già posata può raddoppiare il punteggio, con esempi verificati nel nostro dizionario.',
+      body: [
+        "Scritto e verificato dal team di UnscramblWords, con ogni parola controllata direttamente nel nostro dizionario.",
+        "A Scarabeo, aggiungere una singola lettera all'inizio o alla fine di una parola già presente sul tabellone può creare una nuova parola valida. Conviene farlo perché si ottengono punti sia per la nuova parola sia per l'intero valore di quella già posata.",
+        "Aggiungere una lettera all'inizio: RE diventa ORE.",
+        "Aggiungere una lettera alla fine: AVER diventa AVERE.",
+        "Il Q vale 10 punti, il valore più alto del gioco. G, H e Z valgono invece 8 punti ciascuna: sono le lettere più difficili da piazzare, ma anche le più preziose quando ci si riesce. Questi valori corrispondono alla distribuzione ufficiale delle lettere di Scarabeo.",
+        "Ogni esempio qui sopra è stato controllato direttamente nel dizionario italiano di UnscramblWords, non semplicemente dato per valido."
+      ]
+    },
 ];

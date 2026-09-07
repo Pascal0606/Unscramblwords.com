@@ -552,4 +552,18 @@ export const pl = [
         { question: "Które niemieckie litery są warte najwięcej punktów?", answer: "Q i Y dzielą najwyższą wartość -- po 10 punktów każda, tuż za nimi X z 8 punktami." }
       ]
     },
+    {
+      slug: 'slowa-haczyki-scrabble',
+      date: '2026-09-07',
+      title: 'Słowa-haczyki w Scrabble: jedna litera, nowe słowo',
+      excerpt: 'Jak dodanie jednej litery do już wyłożonego słowa może podwoić twój wynik — z przykładami zweryfikowanymi w naszym słowniku.',
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords — każde słowo sprawdzone bezpośrednio w naszym własnym słowniku.",
+        "Haczyk polega na dodaniu jednej litery na początku lub na końcu słowa już leżącego na planszy. Warto to robić, bo punktuje się zarówno za nowe słowo, jak i za pełną wartość słowa już istniejącego.",
+        "Haczyki z przodu: OD staje się JOD.",
+        "Haczyki z tyłu: ZŁO staje się ZŁOM.",
+        "Litera Ź jest warta aż 9 punktów — to jedna z najcenniejszych liter w grze. Ń jest warta 7 punktów, a Ć — 6. Te wartości pochodzą z oficjalnego rozkładu liter polskiego Scrabble.",
+        "Każdy powyższy przykład został sprawdzony bezpośrednio w polskim słowniku UnscramblWords, a nie po prostu założony jako poprawny."
+      ]
+    },
 ];

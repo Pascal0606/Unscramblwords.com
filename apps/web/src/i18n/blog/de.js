@@ -424,4 +424,18 @@ export const de = [
         { question: "Warum entstehen im Türkischen so lange Wörter?", answer: "Türkisch ist agglutinierend: Suffixe reihen sich an einen Wortstamm, sodass aus kurzen Grundformen lange Wörter entstehen." }
       ]
     },
+    {
+      slug: 'scrabble-woerter-anhaengen',
+      date: '2026-09-07',
+      title: 'Anhängen und Voranstellen: Ein Buchstabe, ein neues Wort',
+      excerpt: 'Wie ein einziger zusätzlicher Buchstabe ein bereits liegendes Wort in ein neues verwandelt — mit Beispielen aus unserem eigenen Wörterbuch.',
+      body: [
+        "Geschrieben und geprüft vom UnscramblWords-Team, wobei jedes Wort direkt gegen unser eigenes Wörterbuch kontrolliert wurde.",
+        "Beim Scrabble kann man ein bereits liegendes Wort durch einen einzigen zusätzlichen Buchstaben am Anfang oder Ende in ein neues, gültiges Wort verwandeln. Das lohnt sich, weil man dabei sowohl für das neue Wort als auch für den vollen Wert des ursprünglichen Wortes punktet.",
+        "Buchstaben voranstellen: OHR wird zu ROHR, ART wird zu PART.",
+        "Buchstaben anhängen: AFFE wird zu AFFEN, SIEG wird zu SIEGE.",
+        "Q und Y sind mit je 10 Punkten die wertvollsten Buchstaben im deutschen Scrabble, gefolgt von Ö und X mit je 8 Punkten. Ä, J, Ü und V sind mit je 6 Punkten ebenfalls überdurchschnittlich wertvoll. Diese Werte stammen aus der offiziellen deutschen Buchstabenverteilung.",
+        "Jedes Beispiel oben wurde direkt gegen das deutsche Wörterbuch von UnscramblWords geprüft, nicht nur aus dem Englischen übernommen."
+      ]
+    },
 ];

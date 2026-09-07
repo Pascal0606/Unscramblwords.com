@@ -604,4 +604,18 @@ export const pt = [
         { question: "Que letras alemãs valem mais pontos?", answer: "O Q e o Y estão empatados no valor mais alto, com 10 pontos cada, seguidos de perto pelo X com 8." }
       ]
     },
+    {
+      slug: 'palavras-gancho-scrabble',
+      date: '2026-09-07',
+      title: 'Palavras-gancho no Scrabble: uma letra, uma palavra nova',
+      excerpt: 'Como acrescentar uma única letra a uma palavra já colocada pode duplicar a sua pontuação, com exemplos verificados no nosso dicionário.',
+      body: [
+        "Escrito e verificado pela equipa do UnscramblWords, com cada palavra confirmada diretamente no nosso próprio dicionário.",
+        "Um gancho consiste em juntar uma única letra ao início ou ao fim de uma palavra já colocada no tabuleiro. Vale a pena, porque se pontua pela nova palavra e também pelo valor total da palavra já existente.",
+        "Ganchos no início: UNHA torna-se PUNHA.",
+        "Ganchos no fim: LAVA torna-se LAVAM.",
+        "O X e o Z valem 8 pontos cada, os valores mais altos do jogo. O Q vale 6 pontos. Estes valores correspondem à distribuição oficial das letras do Scrabble em português.",
+        "Cada exemplo acima foi confirmado diretamente no dicionário português do UnscramblWords, e não simplesmente dado como certo."
+      ]
+    },
 ];

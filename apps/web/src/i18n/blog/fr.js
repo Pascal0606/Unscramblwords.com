@@ -456,4 +456,19 @@ export const fr = [
         { question: "Quelles lettres allemandes valent le plus de points ?", answer: "Le Q et le Y sont à égalité pour la valeur la plus élevée, à 10 points chacune, suivies de près par le X à 8 points." }
       ]
     },
+    {
+      slug: 'mots-crochets-scrabble',
+      date: '2026-09-07',
+      title: 'Le jeu des mots-crochets au Scrabble',
+      excerpt: 'Comment une seule lettre ajoutée à un mot déjà posé peut doubler votre score, avec des exemples vérifiés dans notre propre dictionnaire.',
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords, chaque mot étant contrôlé directement dans notre propre dictionnaire.",
+        "Un mot-crochet consiste à ajouter une seule lettre au début ou à la fin d'un mot déjà posé sur le plateau. C'est utile car cela permet de marquer à la fois pour le nouveau mot et pour la pleine valeur du mot déjà présent.",
+        "Crochets avant : OSER devient DOSER, SI devient PSI, AMER devient DAMER.",
+        "Crochets arrière : MARI devient MARIN, VA devient VAS, PRIS devient PRISE.",
+        "Le S permet de former de nombreux pluriels et conjugaisons, mais il vaut aussi la peine d'être gardé pour un scrabble (utiliser ses sept lettres d'un coup, pour un bonus de 50 points), plutôt que dépensé pour un petit crochet.",
+        "Le Q et le Z sont parmi les lettres les plus délicates. D'après la répartition officielle du Scrabble en français, le Q vaut 8 points, tandis que K, W, X, Y et Z valent chacun 10 points — ce sont les lettres les plus précieuses du jeu.",
+        "Chaque exemple ci-dessus a été contrôlé directement dans le dictionnaire français utilisé par UnscramblWords, et non simplement supposé valide."
+      ]
+    },
 ];

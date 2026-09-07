@@ -415,4 +415,18 @@ export const tr = [
         { question: "Hangi Almanca harfler en çok puan değerindedir?", answer: "Q ve Y en yüksek değerde eşittir, her biri 10 puan; hemen ardından X 8 puanla gelir." }
       ]
     },
+    {
+      slug: 'scrabble-kanca-kelimeler',
+      date: '2026-09-07',
+      title: 'Scrabble\'da Kanca Kelimeler: Tek Harfle Yeni Bir Kelime',
+      excerpt: 'Var olan bir kelimeye tek harf ekleyerek puanınızı nasıl ikiye katlayabileceğiniz, sözlüğümüzde doğrulanmış örneklerle.',
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve her kelime doğrudan kendi sözlüğümüzde doğrulanmıştır.",
+        "Kanca, tahtada zaten bulunan bir kelimenin başına veya sonuna tek bir harf ekleyerek yeni bir kelime oluşturmaktır. Buna değer, çünkü hem yeni kelimeden hem de var olan kelimenin tam değerinden puan alırsınız.",
+        "Başa harf ekleme: AZ, KAZ olur.",
+        "Sona harf ekleme: BEBE, BEBEK olur.",
+        "J harfi 10 puanla oyundaki en yüksek değere sahiptir. Ğ harfi ise 8 puan değerindedir. Bu değerler resmi Türkçe Scrabble harf dağılımından alınmıştır.",
+        "Yukarıdaki her örnek, sadece varsayılmak yerine doğrudan UnscramblWords'ün Türkçe sözlüğünde kontrol edilmiştir."
+      ]
+    },
 ];

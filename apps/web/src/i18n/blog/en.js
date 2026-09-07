@@ -508,4 +508,19 @@ export const en = [
         { question: "Why does Turkish produce such long words?", answer: "Turkish is agglutinative: suffixes chain onto a root one after another, letting long words build up from a short base." }
       ]
     },
+    {
+      slug: 'scrabble-hook-words',
+      date: '2026-09-07',
+      title: 'Scrabble Hook Words: A Practical Guide',
+      excerpt: 'Learn how adding a single letter to a played word can double your score — with real front and back hook examples verified against our own dictionary.',
+      body: [
+        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
+        "A hook word is a valid word formed by adding a single letter to the start or end of a word already on the board. Hooks matter because they let you score for both your new word and the full value of the word you built onto — effectively double-dipping on points you've already put on the table.",
+        "Front hooks: LIT to SLIT, LAP to SLAP, EAT to BEAT, OAR to BOAR, ARK to PARK, ANT to PANT, AIL to JAIL, AT to QAT (one of the few practical ways to play a Q without a U), ONE to ZONE, ALE to VALE.",
+        "Back hooks: JO to JOY, AB to ABA, AD to ADO, AG to AGO, AM to AMI, AN to ANI, AR to ART, AY to AYE, HAND to HANDY.",
+        "S is the most flexible hook, since it pluralises most nouns and conjugates many verbs. It's also easy to overuse: saving an S for a seven-tile bingo play (worth a 50-point bonus) is often more valuable than spending it on a small hook. Letter values referenced here (Z = 10, V = 4, J = 8, Q = 10) are the standard English Scrabble tile values.",
+        "Q and Z are the two hardest letters to place. QAT and QAID (both genuine playable words) are reliable ways to use a Q without a U. ZOO, ZEST, and ZONE do the same job for Z.",
+        "Every example above has been checked against UnscramblWords' own English dictionary — not just general Scrabble knowledge — so what you see here is what the tool will actually confirm. If you're unsure whether a hook is valid mid-game, our word filters (by starting or ending letter) let you check in seconds."
+      ]
+    },
 ];
