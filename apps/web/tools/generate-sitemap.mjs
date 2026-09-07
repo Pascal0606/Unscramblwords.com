@@ -21,8 +21,8 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
   const urls = [];
 
-  const addUrl = (loc, priority = '0.8') => {
-    urls.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
+  const addUrl = (loc, priority = '0.8', lastmod = today) => {
+    urls.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
   };
 
   // Root + each language's main tool page.
@@ -38,7 +38,12 @@ async function main() {
     addUrl(`${BASE}/${lang}/blog`, '0.9');
     const articles = blogContent[lang] || [];
     for (const article of articles) {
-      addUrl(`${BASE}/${lang}/blog/${article.slug}`, '0.7');
+      // Use the article's own genuine publish date as lastmod, rather than
+      // stamping every URL with today's build date regardless of whether that
+      // specific page actually changed. Every article carries a real `date`
+      // field (see the 6 Sept 2026 date fix); fall back to today only in the
+      // unexpected case that a future article is missing one.
+      addUrl(`${BASE}/${lang}/blog/${article.slug}`, '0.7', article.date || today);
     }
   }
 
