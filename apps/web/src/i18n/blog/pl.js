@@ -557,13 +557,36 @@ export const pl = [
       date: '2026-09-07',
       title: 'Słowa-haczyki w Scrabble: jedna litera, nowe słowo',
       excerpt: 'Jak dodanie jednej litery do już wyłożonego słowa może podwoić twój wynik — z przykładami zweryfikowanymi w naszym słowniku.',
+      keyTakeaways: [
+        "Haczyk dodaje jedną literę na początku lub na końcu słowa już leżącego na planszy, dając punkty za oba słowa.",
+        "Przykłady takie jak OD → JOD i ZŁO → ZŁOM pochodzą z prawdziwych par słów zweryfikowanych w słowniku.",
+        "Litera Ź jest warta aż 9 punktów — jedna z najcenniejszych liter w grze.",
+        "Każde słowo w tym przewodniku zostało sprawdzone bezpośrednio w polskim słowniku UnscramblWords."
+      ],
+      toc: [
+        { id: 'czym-jest-haczyk', label: "Czym jest słowo-haczyk?" },
+        { id: 'haczyki-z-przodu', label: "Haczyki z przodu" },
+        { id: 'haczyki-z-tylu', label: "Haczyki z tyłu" },
+        { id: 'najtrudniejsze-litery', label: "Najtrudniejsze litery" }
+      ],
       body: [
         "Napisane i zweryfikowane przez zespół UnscramblWords — każde słowo sprawdzone bezpośrednio w naszym własnym słowniku.",
+        { type: 'heading', id: 'czym-jest-haczyk', text: "Czym jest słowo-haczyk?" },
         "Haczyk polega na dodaniu jednej litery na początku lub na końcu słowa już leżącego na planszy. Warto to robić, bo punktuje się zarówno za nowe słowo, jak i za pełną wartość słowa już istniejącego.",
-        "Haczyki z przodu: OD staje się JOD.",
-        "Haczyki z tyłu: ZŁO staje się ZŁOM.",
+        { type: 'heading', id: 'haczyki-z-przodu', text: "Haczyki z przodu" },
+        "OD staje się JOD.",
+        { type: 'heading', id: 'haczyki-z-tylu', text: "Haczyki z tyłu" },
+        "ZŁO staje się ZŁOM.",
+        { type: 'heading', id: 'najtrudniejsze-litery', text: "Najtrudniejsze litery" },
         "Litera Ź jest warta aż 9 punktów — to jedna z najcenniejszych liter w grze. Ń jest warta 7 punktów, a Ć — 6. Te wartości pochodzą z oficjalnego rozkładu liter polskiego Scrabble.",
         "Każdy powyższy przykład został sprawdzony bezpośrednio w polskim słowniku UnscramblWords, a nie po prostu założony jako poprawny."
+      ],
+      faq: [
+        { question: "Czym jest słowo-haczyk w Scrabble?", answer: "Słowo-haczyk powstaje przez dodanie jednej litery na początku lub na końcu słowa już leżącego na planszy, tworząc nowe poprawne słowo i punktując także za oryginał." },
+        { question: "Jaka litera jest najlepsza jako haczyk?", answer: "W polskim nie ma jednej uniwersalnej litery jak angielskie S — haczyki zależą mocno od konkretnego słowa, dlatego warto sprawdzać je bezpośrednio w słowniku." },
+        { question: "Czy haczyk może dodać więcej niż jedną literę?", answer: "Z definicji haczyk dodaje dokładnie jedną literę. Dodanie kilku liter to inna technika." },
+        { question: "Jak znaleźć haczyki dla moich liter?", answer: "Filtry \"zaczyna się od\" i \"kończy się na\" w UnscramblWords pozwalają w kilka sekund sprawdzić, które litery można dodać do istniejącego słowa." },
+        { question: "Czy haczyki są dozwolone w turniejach?", answer: "Tak. Haczyk nie jest specjalną zasadą — można zagrać dowolne poprawne słowo uznane przez oficjalny słownik turnieju, w tym słowa utworzone przez haczyk." }
       ]
     },
 ];

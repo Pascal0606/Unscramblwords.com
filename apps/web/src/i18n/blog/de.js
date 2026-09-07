@@ -429,13 +429,36 @@ export const de = [
       date: '2026-09-07',
       title: 'Anhängen und Voranstellen: Ein Buchstabe, ein neues Wort',
       excerpt: 'Wie ein einziger zusätzlicher Buchstabe ein bereits liegendes Wort in ein neues verwandelt — mit Beispielen aus unserem eigenen Wörterbuch.',
+      keyTakeaways: [
+        "Ein „Hook“ fügt einem bereits liegenden Wort einen einzigen Buchstaben am Anfang oder Ende hinzu und punktet dabei für beide Wörter.",
+        "Beispiele wie OHR zu ROHR und AFFE zu AFFEN stammen aus echten, wörterbuchgeprüften Wortpaaren.",
+        "Q und Y sind mit je 10 Punkten die wertvollsten Buchstaben im deutschen Scrabble.",
+        "Jedes Wort in diesem Leitfaden wurde direkt gegen das deutsche Wörterbuch von UnscramblWords geprüft."
+      ],
+      toc: [
+        { id: 'was-ist-ein-hook', label: "Was ist ein Hook?" },
+        { id: 'voranstellen', label: "Buchstaben voranstellen" },
+        { id: 'anhaengen', label: "Buchstaben anhängen" },
+        { id: 'schwierige-buchstaben', label: "Schwierige Buchstaben sinnvoll einsetzen" }
+      ],
       body: [
         "Geschrieben und geprüft vom UnscramblWords-Team, wobei jedes Wort direkt gegen unser eigenes Wörterbuch kontrolliert wurde.",
+        { type: 'heading', id: 'was-ist-ein-hook', text: "Was ist ein Hook?" },
         "Beim Scrabble kann man ein bereits liegendes Wort durch einen einzigen zusätzlichen Buchstaben am Anfang oder Ende in ein neues, gültiges Wort verwandeln. Das lohnt sich, weil man dabei sowohl für das neue Wort als auch für den vollen Wert des ursprünglichen Wortes punktet.",
-        "Buchstaben voranstellen: OHR wird zu ROHR, ART wird zu PART.",
-        "Buchstaben anhängen: AFFE wird zu AFFEN, SIEG wird zu SIEGE.",
+        { type: 'heading', id: 'voranstellen', text: "Buchstaben voranstellen" },
+        "OHR wird zu ROHR, ART wird zu PART.",
+        { type: 'heading', id: 'anhaengen', text: "Buchstaben anhängen" },
+        "AFFE wird zu AFFEN, SIEG wird zu SIEGE.",
+        { type: 'heading', id: 'schwierige-buchstaben', text: "Schwierige Buchstaben sinnvoll einsetzen" },
         "Q und Y sind mit je 10 Punkten die wertvollsten Buchstaben im deutschen Scrabble, gefolgt von Ö und X mit je 8 Punkten. Ä, J, Ü und V sind mit je 6 Punkten ebenfalls überdurchschnittlich wertvoll. Diese Werte stammen aus der offiziellen deutschen Buchstabenverteilung.",
         "Jedes Beispiel oben wurde direkt gegen das deutsche Wörterbuch von UnscramblWords geprüft, nicht nur aus dem Englischen übernommen."
+      ],
+      faq: [
+        { question: "Was ist ein Hook beim Scrabble?", answer: "Ein Hook entsteht, indem man einen einzigen Buchstaben an den Anfang oder das Ende eines bereits liegenden Wortes anfügt und dabei ein neues, gültiges Wort bildet." },
+        { question: "Welcher ist der beste Hook-Buchstabe?", answer: "S existiert im deutschen Scrabble nicht als eigener Pluralbuchstabe wie im Englischen; im Deutschen sind Hooks meist wortspezifisch, weshalb es sich lohnt, das Wörterbuch direkt zu prüfen." },
+        { question: "Kann ein Hook mehr als einen Buchstaben hinzufügen?", answer: "Per Definition fügt ein Hook genau einen Buchstaben hinzu. Mehrere Buchstaben anzufügen ist eine andere Technik." },
+        { question: "Wie finde ich Hooks für meine Buchstaben?", answer: "Mit den Filtern „beginnt mit“ und „endet mit“ von UnscramblWords lässt sich in Sekunden prüfen, welche Buchstaben an ein bestehendes Wort passen." },
+        { question: "Sind Hooks im Turnier erlaubt?", answer: "Ja. Ein Hook ist keine besondere Regel — jedes im offiziellen Turnierwörterbuch anerkannte Wort darf gespielt werden, auch wenn es durch einen Hook entstanden ist." }
       ]
     },
 ];

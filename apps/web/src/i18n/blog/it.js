@@ -358,13 +358,36 @@ export const it = [
       date: '2026-09-07',
       title: 'Le parole-gancio a Scarabeo: come aggiungere una lettera e cambiare tutto',
       excerpt: 'Come una sola lettera aggiunta a una parola già posata può raddoppiare il punteggio, con esempi verificati nel nostro dizionario.',
+      keyTakeaways: [
+        "Un gancio aggiunge una sola lettera all'inizio o alla fine di una parola già presente, facendo punteggio per entrambe.",
+        "Esempi come RE che diventa ORE e AVER che diventa AVERE provengono da coppie di parole reali e verificate.",
+        "Il Q vale 10 punti, il valore più alto del gioco; G, H e Z valgono 8 punti ciascuna.",
+        "Ogni parola di questa guida è stata controllata direttamente nel dizionario italiano di UnscramblWords."
+      ],
+      toc: [
+        { id: 'cose-un-gancio', label: "Cos'è una parola-gancio?" },
+        { id: 'gancio-iniziale', label: "Aggiungere una lettera all'inizio" },
+        { id: 'gancio-finale', label: "Aggiungere una lettera alla fine" },
+        { id: 'lettere-difficili', label: "Le lettere più difficili" }
+      ],
       body: [
         "Scritto e verificato dal team di UnscramblWords, con ogni parola controllata direttamente nel nostro dizionario.",
+        { type: 'heading', id: 'cose-un-gancio', text: "Cos'è una parola-gancio?" },
         "A Scarabeo, aggiungere una singola lettera all'inizio o alla fine di una parola già presente sul tabellone può creare una nuova parola valida. Conviene farlo perché si ottengono punti sia per la nuova parola sia per l'intero valore di quella già posata.",
-        "Aggiungere una lettera all'inizio: RE diventa ORE.",
-        "Aggiungere una lettera alla fine: AVER diventa AVERE.",
+        { type: 'heading', id: 'gancio-iniziale', text: "Aggiungere una lettera all'inizio" },
+        "RE diventa ORE.",
+        { type: 'heading', id: 'gancio-finale', text: "Aggiungere una lettera alla fine" },
+        "AVER diventa AVERE.",
+        { type: 'heading', id: 'lettere-difficili', text: "Le lettere più difficili" },
         "Il Q vale 10 punti, il valore più alto del gioco. G, H e Z valgono invece 8 punti ciascuna: sono le lettere più difficili da piazzare, ma anche le più preziose quando ci si riesce. Questi valori corrispondono alla distribuzione ufficiale delle lettere di Scarabeo.",
         "Ogni esempio qui sopra è stato controllato direttamente nel dizionario italiano di UnscramblWords, non semplicemente dato per valido."
+      ],
+      faq: [
+        { question: "Cos'è una parola-gancio a Scarabeo?", answer: "Una parola-gancio si forma aggiungendo una sola lettera all'inizio o alla fine di una parola già presente sul tabellone, creando una nuova parola valida e facendo punteggio anche per quella originale." },
+        { question: "Qual è la lettera-gancio migliore?", answer: "Non esiste un'unica lettera universale come in inglese; conviene verificare le combinazioni direttamente nel dizionario, poiché in italiano i ganci dipendono molto dalla parola specifica." },
+        { question: "Un gancio può aggiungere più di una lettera?", answer: "Per definizione un gancio aggiunge esattamente una lettera. Aggiungerne diverse è una tecnica differente." },
+        { question: "Come posso trovare ganci per le mie lettere?", answer: "I filtri \"inizia con\" e \"finisce con\" di UnscramblWords permettono di verificare in pochi secondi quali lettere si possono aggiungere a una parola esistente." },
+        { question: "I ganci sono ammessi nei tornei?", answer: "Sì. Il gancio non è una regola speciale: qualsiasi parola valida riconosciuta dal dizionario ufficiale del torneo può essere giocata, comprese quelle formate con un gancio." }
       ]
     },
 ];

@@ -420,13 +420,36 @@ export const tr = [
       date: '2026-09-07',
       title: 'Scrabble\'da Kanca Kelimeler: Tek Harfle Yeni Bir Kelime',
       excerpt: 'Var olan bir kelimeye tek harf ekleyerek puanınızı nasıl ikiye katlayabileceğiniz, sözlüğümüzde doğrulanmış örneklerle.',
+      keyTakeaways: [
+        "Bir kanca, tahtada bulunan bir kelimenin başına veya sonuna tek harf ekler ve her iki kelime için de puan kazandırır.",
+        "AZ'dan KAZ'a ve BEBE'den BEBEK'e gibi örnekler gerçek, sözlükte doğrulanmış kelime çiftlerinden gelir.",
+        "J harfi 10 puanla oyundaki en yüksek değere sahiptir.",
+        "Bu rehberdeki her kelime doğrudan UnscramblWords'ün Türkçe sözlüğünde kontrol edilmiştir."
+      ],
+      toc: [
+        { id: 'kanca-nedir', label: "Kanca kelime nedir?" },
+        { id: 'basa-harf-ekleme', label: "Başa harf ekleme" },
+        { id: 'sona-harf-ekleme', label: "Sona harf ekleme" },
+        { id: 'en-zor-harfler', label: "En zor harfler" }
+      ],
       body: [
         "UnscramblWords ekibi tarafından yazılmış ve her kelime doğrudan kendi sözlüğümüzde doğrulanmıştır.",
+        { type: 'heading', id: 'kanca-nedir', text: "Kanca kelime nedir?" },
         "Kanca, tahtada zaten bulunan bir kelimenin başına veya sonuna tek bir harf ekleyerek yeni bir kelime oluşturmaktır. Buna değer, çünkü hem yeni kelimeden hem de var olan kelimenin tam değerinden puan alırsınız.",
-        "Başa harf ekleme: AZ, KAZ olur.",
-        "Sona harf ekleme: BEBE, BEBEK olur.",
+        { type: 'heading', id: 'basa-harf-ekleme', text: "Başa harf ekleme" },
+        "AZ, KAZ olur.",
+        { type: 'heading', id: 'sona-harf-ekleme', text: "Sona harf ekleme" },
+        "BEBE, BEBEK olur.",
+        { type: 'heading', id: 'en-zor-harfler', text: "En zor harfler" },
         "J harfi 10 puanla oyundaki en yüksek değere sahiptir. Ğ harfi ise 8 puan değerindedir. Bu değerler resmi Türkçe Scrabble harf dağılımından alınmıştır.",
         "Yukarıdaki her örnek, sadece varsayılmak yerine doğrudan UnscramblWords'ün Türkçe sözlüğünde kontrol edilmiştir."
+      ],
+      faq: [
+        { question: "Scrabble'da kanca kelime nedir?", answer: "Kanca kelime, tahtada zaten bulunan bir kelimenin başına veya sonuna tek bir harf eklenerek oluşturulur ve hem yeni kelime hem de orijinal kelime için puan kazandırır." },
+        { question: "En iyi kanca harfi hangisidir?", answer: "Türkçede İngilizcedeki gibi tek bir evrensel kanca harfi yoktur; her kelimeye özgü olduğundan sözlükte doğrudan kontrol etmek en güvenlisidir." },
+        { question: "Bir kanca birden fazla harf ekleyebilir mi?", answer: "Tanım gereği bir kanca tam olarak bir harf ekler. Birden fazla harf eklemek farklı bir tekniktir." },
+        { question: "Harflerim için nasıl kanca bulabilirim?", answer: "UnscramblWords'ün \"ile başlayan\" ve \"ile biten\" filtreleri, hangi harflerinizin mevcut bir kelimeye eklenebileceğini saniyeler içinde kontrol etmenizi sağlar." },
+        { question: "Kancalar turnuvalarda geçerli midir?", answer: "Evet. Kanca özel bir kural değildir; turnuvanın resmi sözlüğünde tanınan geçerli her kelime oynanabilir, kanca ile oluşturulanlar da dahil." }
       ]
     },
 ];

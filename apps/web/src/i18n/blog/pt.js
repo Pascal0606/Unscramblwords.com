@@ -609,13 +609,36 @@ export const pt = [
       date: '2026-09-07',
       title: 'Palavras-gancho no Scrabble: uma letra, uma palavra nova',
       excerpt: 'Como acrescentar uma única letra a uma palavra já colocada pode duplicar a sua pontuação, com exemplos verificados no nosso dicionário.',
+      keyTakeaways: [
+        "Um gancho acrescenta uma única letra ao início ou ao fim de uma palavra já colocada, pontuando por ambas.",
+        "Exemplos como UNHA para PUNHA e LAVA para LAVAM vêm de pares de palavras reais verificados no dicionário.",
+        "O X e o Z valem 8 pontos cada, os valores mais altos do jogo.",
+        "Cada palavra deste guia foi confirmada diretamente no dicionário português do UnscramblWords."
+      ],
+      toc: [
+        { id: 'o-que-e-um-gancho', label: "O que é uma palavra-gancho?" },
+        { id: 'ganchos-no-inicio', label: "Ganchos no início" },
+        { id: 'ganchos-no-fim', label: "Ganchos no fim" },
+        { id: 'letras-mais-dificeis', label: "As letras mais difíceis" }
+      ],
       body: [
         "Escrito e verificado pela equipa do UnscramblWords, com cada palavra confirmada diretamente no nosso próprio dicionário.",
+        { type: 'heading', id: 'o-que-e-um-gancho', text: "O que é uma palavra-gancho?" },
         "Um gancho consiste em juntar uma única letra ao início ou ao fim de uma palavra já colocada no tabuleiro. Vale a pena, porque se pontua pela nova palavra e também pelo valor total da palavra já existente.",
-        "Ganchos no início: UNHA torna-se PUNHA.",
-        "Ganchos no fim: LAVA torna-se LAVAM.",
+        { type: 'heading', id: 'ganchos-no-inicio', text: "Ganchos no início" },
+        "UNHA torna-se PUNHA.",
+        { type: 'heading', id: 'ganchos-no-fim', text: "Ganchos no fim" },
+        "LAVA torna-se LAVAM.",
+        { type: 'heading', id: 'letras-mais-dificeis', text: "As letras mais difíceis" },
         "O X e o Z valem 8 pontos cada, os valores mais altos do jogo. O Q vale 6 pontos. Estes valores correspondem à distribuição oficial das letras do Scrabble em português.",
         "Cada exemplo acima foi confirmado diretamente no dicionário português do UnscramblWords, e não simplesmente dado como certo."
+      ],
+      faq: [
+        { question: "O que é uma palavra-gancho no Scrabble?", answer: "Uma palavra-gancho forma-se acrescentando uma única letra ao início ou ao fim de uma palavra já colocada, criando uma nova palavra válida e pontuando também pela original." },
+        { question: "Qual é a melhor letra-gancho?", answer: "Não há uma única letra universal como no inglês; vale a pena verificar as combinações diretamente no dicionário, já que em português os ganchos dependem muito da palavra específica." },
+        { question: "Um gancho pode acrescentar mais de uma letra?", answer: "Por definição, um gancho acrescenta exatamente uma letra. Acrescentar várias é uma técnica diferente." },
+        { question: "Como encontro ganchos para as minhas letras?", answer: "Os filtros \"começa por\" e \"termina em\" do UnscramblWords permitem verificar em segundos que letras podem ser acrescentadas a uma palavra existente." },
+        { question: "Os ganchos são permitidos em torneios?", answer: "Sim. O gancho não é uma regra especial: qualquer palavra válida reconhecida pelo dicionário oficial do torneio pode ser jogada, incluindo as formadas por um gancho." }
       ]
     },
 ];

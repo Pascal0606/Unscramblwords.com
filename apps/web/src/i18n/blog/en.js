@@ -513,14 +513,40 @@ export const en = [
       date: '2026-09-07',
       title: 'Scrabble Hook Words: A Practical Guide',
       excerpt: 'Learn how adding a single letter to a played word can double your score — with real front and back hook examples verified against our own dictionary.',
+      keyTakeaways: [
+        "A hook word adds a single letter to the front or back of a word already on the board, earning points for both the new word and the one it's built onto.",
+        "Front hooks like LIT to SLIT and back hooks like JO to JOY come from real, dictionary-verified word pairs, not invented ones.",
+        "S is the most flexible hook letter, but it's often worth more saved for a seven-tile bingo play than spent on a small hook.",
+        "Q and Z are the hardest letters to place — QAT, QAID, ZOO, ZEST, and ZONE are reliable ways to use them.",
+        "Every word in this guide has been checked directly against UnscramblWords' own dictionary, not just assumed to be valid."
+      ],
+      toc: [
+        { id: 'what-is-a-hook', label: "What Is a Hook Word?" },
+        { id: 'front-hooks', label: "Front Hooks: Adding a Letter to the Start" },
+        { id: 'back-hooks', label: "Back Hooks: Extending a Word at the End" },
+        { id: 's-the-flexible-hook', label: "The Most Flexible Hook: S" },
+        { id: 'hardest-letters', label: "The Hardest Letters to Play" }
+      ],
       body: [
         "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
+        { type: 'heading', id: 'what-is-a-hook', text: "What Is a Hook Word?" },
         "A hook word is a valid word formed by adding a single letter to the start or end of a word already on the board. Hooks matter because they let you score for both your new word and the full value of the word you built onto — effectively double-dipping on points you've already put on the table.",
-        "Front hooks: LIT to SLIT, LAP to SLAP, EAT to BEAT, OAR to BOAR, ARK to PARK, ANT to PANT, AIL to JAIL, AT to QAT (one of the few practical ways to play a Q without a U), ONE to ZONE, ALE to VALE.",
-        "Back hooks: JO to JOY, AB to ABA, AD to ADO, AG to AGO, AM to AMI, AN to ANI, AR to ART, AY to AYE, HAND to HANDY.",
-        "S is the most flexible hook, since it pluralises most nouns and conjugates many verbs. It's also easy to overuse: saving an S for a seven-tile bingo play (worth a 50-point bonus) is often more valuable than spending it on a small hook. Letter values referenced here (Z = 10, V = 4, J = 8, Q = 10) are the standard English Scrabble tile values.",
-        "Q and Z are the two hardest letters to place. QAT and QAID (both genuine playable words) are reliable ways to use a Q without a U. ZOO, ZEST, and ZONE do the same job for Z.",
+        { type: 'heading', id: 'front-hooks', text: "Front Hooks: Adding a Letter to the Start" },
+        "Adding a letter to the front of a played word can open up unexpected plays: LIT to SLIT, LAP to SLAP, EAT to BEAT, OAR to BOAR, ARK to PARK, ANT to PANT, AIL to JAIL, AT to QAT (one of the few practical ways to play a Q without a U), ONE to ZONE, and ALE to VALE.",
+        { type: 'heading', id: 'back-hooks', text: "Back Hooks: Extending a Word at the End" },
+        "Extending a played word at the end is the most common way to grow into open board space: JO to JOY, AB to ABA, AD to ADO, AG to AGO, AM to AMI, AN to ANI, AR to ART, AY to AYE, and HAND to HANDY.",
+        { type: 'heading', id: 's-the-flexible-hook', text: "The Most Flexible Hook: S" },
+        "S is the most flexible hook, since it pluralises most nouns and conjugates many verbs. It's also easy to overuse: saving an S for a seven-tile bingo play (worth a 50-point bonus) is often more valuable than spending it on a small hook.",
+        { type: 'heading', id: 'hardest-letters', text: "The Hardest Letters to Play" },
+        "Q and Z are the two hardest letters to place. QAT and QAID (both genuine playable words) are reliable ways to use a Q without a U. ZOO, ZEST, and ZONE do the same job for Z. Letter values referenced here (Z = 10, V = 4, J = 8, Q = 10) are the standard English Scrabble tile values.",
         "Every example above has been checked against UnscramblWords' own English dictionary — not just general Scrabble knowledge — so what you see here is what the tool will actually confirm. If you're unsure whether a hook is valid mid-game, our word filters (by starting or ending letter) let you check in seconds."
+      ],
+      faq: [
+        { question: "What is a hook word in Scrabble?", answer: "A hook word is formed by adding a single letter to the beginning or end of a word already on the board, creating a new valid word while also scoring for the original one." },
+        { question: "What is the best hook letter?", answer: "S is generally considered the most useful hook letter, since it pluralises most nouns and conjugates many verbs — though it's often better saved for a high-scoring bingo play." },
+        { question: "Can a hook add more than one letter?", answer: "By definition, a hook adds exactly one letter. Adding several letters, such as \"-ING\" or \"-ED\", is a different technique usually called extending rather than hooking." },
+        { question: "How can I find hooks for the letters in my rack?", answer: "UnscramblWords' \"starts with\" and \"ends with\" filters let you check which of your letters can be added to an existing word in seconds." },
+        { question: "Are hooks legal in tournament Scrabble?", answer: "Yes. Hooking isn't a special rule — any grammatically valid word recognised by the tournament's official dictionary can be played, including ones formed by hooking." }
       ]
     },
 ];

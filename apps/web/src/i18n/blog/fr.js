@@ -461,14 +461,40 @@ export const fr = [
       date: '2026-09-07',
       title: 'Le jeu des mots-crochets au Scrabble',
       excerpt: 'Comment une seule lettre ajoutée à un mot déjà posé peut doubler votre score, avec des exemples vérifiés dans notre propre dictionnaire.',
+      keyTakeaways: [
+        "Un mot-crochet ajoute une seule lettre au début ou à la fin d'un mot déjà posé, en rapportant des points pour le nouveau mot et pour celui déjà présent.",
+        "Les crochets avant comme OSER en DOSER et les crochets arrière comme MARI en MARIN proviennent de paires de mots réelles, vérifiées dans le dictionnaire.",
+        "Le S est la lettre-crochet la plus polyvalente, mais elle vaut souvent mieux gardée pour un scrabble (sept lettres d'un coup) que dépensée sur un petit crochet.",
+        "Le Q et le Z sont les lettres les plus difficiles à placer.",
+        "Chaque mot de ce guide a été vérifié directement dans le dictionnaire français d'UnscramblWords, et non simplement supposé valide."
+      ],
+      toc: [
+        { id: 'quest-ce-quun-crochet', label: "Qu'est-ce qu'un mot-crochet ?" },
+        { id: 'crochets-avant', label: "Crochets avant : ajouter une lettre au début" },
+        { id: 'crochets-arriere', label: "Crochets arrière : prolonger un mot" },
+        { id: 'le-s-la-lettre-polyvalente', label: "Le S, la lettre la plus polyvalente" },
+        { id: 'lettres-difficiles', label: "Les lettres les plus difficiles à placer" }
+      ],
       body: [
         "Rédigé et vérifié par l'équipe UnscramblWords, chaque mot étant contrôlé directement dans notre propre dictionnaire.",
+        { type: 'heading', id: 'quest-ce-quun-crochet', text: "Qu'est-ce qu'un mot-crochet ?" },
         "Un mot-crochet consiste à ajouter une seule lettre au début ou à la fin d'un mot déjà posé sur le plateau. C'est utile car cela permet de marquer à la fois pour le nouveau mot et pour la pleine valeur du mot déjà présent.",
-        "Crochets avant : OSER devient DOSER, SI devient PSI, AMER devient DAMER.",
-        "Crochets arrière : MARI devient MARIN, VA devient VAS, PRIS devient PRISE.",
+        { type: 'heading', id: 'crochets-avant', text: "Crochets avant : ajouter une lettre au début" },
+        "OSER devient DOSER, SI devient PSI, AMER devient DAMER.",
+        { type: 'heading', id: 'crochets-arriere', text: "Crochets arrière : prolonger un mot" },
+        "MARI devient MARIN, VA devient VAS, PRIS devient PRISE.",
+        { type: 'heading', id: 'le-s-la-lettre-polyvalente', text: "Le S, la lettre la plus polyvalente" },
         "Le S permet de former de nombreux pluriels et conjugaisons, mais il vaut aussi la peine d'être gardé pour un scrabble (utiliser ses sept lettres d'un coup, pour un bonus de 50 points), plutôt que dépensé pour un petit crochet.",
+        { type: 'heading', id: 'lettres-difficiles', text: "Les lettres les plus difficiles à placer" },
         "Le Q et le Z sont parmi les lettres les plus délicates. D'après la répartition officielle du Scrabble en français, le Q vaut 8 points, tandis que K, W, X, Y et Z valent chacun 10 points — ce sont les lettres les plus précieuses du jeu.",
         "Chaque exemple ci-dessus a été contrôlé directement dans le dictionnaire français utilisé par UnscramblWords, et non simplement supposé valide."
+      ],
+      faq: [
+        { question: "Qu'est-ce qu'un mot-crochet au Scrabble ?", answer: "Un mot-crochet se forme en ajoutant une seule lettre au début ou à la fin d'un mot déjà posé, créant un nouveau mot valide tout en marquant aussi pour le mot d'origine." },
+        { question: "Quelle est la meilleure lettre-crochet ?", answer: "Le S est généralement considéré comme la lettre-crochet la plus utile, car il permet de former de nombreux pluriels et conjugaisons — mais il vaut souvent mieux le garder pour un scrabble." },
+        { question: "Un crochet peut-il ajouter plusieurs lettres ?", answer: "Par définition, un crochet ajoute exactement une lettre. Ajouter plusieurs lettres est une autre technique, généralement appelée prolongement plutôt que crochet." },
+        { question: "Comment trouver des crochets pour mes lettres ?", answer: "Les filtres « commence par » et « se termine par » d'UnscramblWords permettent de vérifier en quelques secondes lesquelles de vos lettres peuvent s'ajouter à un mot existant." },
+        { question: "Les crochets sont-ils autorisés en tournoi ?", answer: "Oui. Le crochet n'est pas une règle spéciale : tout mot valide reconnu par le dictionnaire officiel du tournoi peut être joué, y compris ceux formés par un crochet." }
       ]
     },
 ];

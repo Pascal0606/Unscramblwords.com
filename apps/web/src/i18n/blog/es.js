@@ -459,13 +459,36 @@ export const es = [
       date: '2026-09-07',
       title: 'Palabras gancho en Scrabble: una letra, una palabra nueva',
       excerpt: 'Cómo añadir una sola letra a una palabra ya colocada puede duplicar tu puntuación, con ejemplos verificados en nuestro diccionario.',
+      keyTakeaways: [
+        "Un gancho añade una sola letra al principio o al final de una palabra ya colocada, puntuando por ambas.",
+        "Ejemplos como UNA a LUNA y VALE a VALES provienen de pares de palabras reales verificados en el diccionario.",
+        "La Z vale 10 puntos, el valor más alto del juego; la J, LL, Ñ, RR y X valen 8 puntos cada una.",
+        "Cada palabra de esta guía se comprobó directamente en el diccionario español de UnscramblWords."
+      ],
+      toc: [
+        { id: 'que-es-un-gancho', label: "¿Qué es una palabra gancho?" },
+        { id: 'ganchos-al-principio', label: "Ganchos al principio" },
+        { id: 'ganchos-al-final', label: "Ganchos al final" },
+        { id: 'letras-dificiles', label: "Las letras más difíciles" }
+      ],
       body: [
         "Escrito y verificado por el equipo de UnscramblWords, comprobando cada palabra directamente en nuestro propio diccionario.",
+        { type: 'heading', id: 'que-es-un-gancho', text: "¿Qué es una palabra gancho?" },
         "Un gancho consiste en añadir una sola letra al principio o al final de una palabra ya colocada en el tablero. Merece la pena porque se puntúa tanto por la palabra nueva como por el valor completo de la palabra ya existente.",
-        "Ganchos al principio: UNA se convierte en LUNA, ORO se convierte en CORO.",
-        "Ganchos al final: VALE se convierte en VALES, RÍO se convierte en RÍOS.",
+        { type: 'heading', id: 'ganchos-al-principio', text: "Ganchos al principio" },
+        "UNA se convierte en LUNA, ORO se convierte en CORO.",
+        { type: 'heading', id: 'ganchos-al-final', text: "Ganchos al final" },
+        "VALE se convierte en VALES, RÍO se convierte en RÍOS.",
+        { type: 'heading', id: 'letras-dificiles', text: "Las letras más difíciles" },
         "La Z vale 10 puntos, el valor más alto del juego. La J, la LL, la Ñ, la RR y la X valen 8 puntos cada una, y el CH y la Q valen 5. Estos son los valores oficiales del Scrabble en español (edición internacional).",
         "Cada ejemplo anterior fue comprobado directamente en el diccionario español de UnscramblWords, no simplemente traducido del inglés."
+      ],
+      faq: [
+        { question: "¿Qué es una palabra gancho en Scrabble?", answer: "Una palabra gancho se forma añadiendo una sola letra al principio o al final de una palabra ya colocada, creando una nueva palabra válida y puntuando también por la original." },
+        { question: "¿Cuál es la mejor letra gancho?", answer: "La S suele ser la más útil por formar plurales y conjugaciones, aunque conviene comprobar cada caso en el diccionario según la variante de Scrabble que uses." },
+        { question: "¿Un gancho puede añadir más de una letra?", answer: "Por definición, un gancho añade exactamente una letra. Añadir varias es una técnica distinta." },
+        { question: "¿Cómo encuentro ganchos para mis letras?", answer: "Los filtros \"empieza por\" y \"termina en\" de UnscramblWords permiten comprobar en segundos qué letras se pueden añadir a una palabra existente." },
+        { question: "¿Los ganchos son legales en torneos?", answer: "Sí. El gancho no es una regla especial: cualquier palabra válida reconocida por el diccionario oficial del torneo puede jugarse, incluidas las formadas mediante un gancho." }
       ]
     },
 ];
