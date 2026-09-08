@@ -169,6 +169,33 @@ const HelpSection = () => {
             </div>
           </div>
         </section>
+
+        {/* Section 4: Frequently Asked Questions */}
+        <section>
+          <div className="flex items-start gap-4 mb-6">
+            <div className="help-number-circle">4.</div>
+            <div>
+              <h3 className="text-2xl font-bold mb-2 text-[hsl(var(--help-text))]">{t('help.faqSectionTitle')}</h3>
+              <p className="font-medium opacity-80 leading-relaxed text-[hsl(var(--help-text))]">
+                {t('help.faqSectionDesc')}
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-3 pl-0 md:pl-14">
+            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+              <details key={i} className="help-box group">
+                <summary className="font-bold cursor-pointer list-none flex items-center justify-between text-[hsl(var(--help-text))]">
+                  {t(`help.faq${i}Q`)}
+                  <span className="ml-3 text-[hsl(var(--help-accent))] transition-transform group-open:rotate-45 text-xl leading-none">+</span>
+                </summary>
+                <p className="text-sm font-medium opacity-80 mt-3 text-[hsl(var(--help-text))]">
+                  {t(`help.faq${i}A`)}
+                </p>
+              </details>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );
