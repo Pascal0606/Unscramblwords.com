@@ -204,35 +204,62 @@ export const useWordUnscrambler = (currentLanguage = 'en') => {
       const inputUpper = inputLetters.toUpperCase();
       const currentFilters = filtersRef.current;
 
-      let results = dict.filter(word => {
-        let tempInput = inputUpper;
-        for (let char of word.toUpperCase()) {
-          if (tempInput.includes(char)) {
-            tempInput = tempInput.replace(char, '');
+      // A '?' represents a wildcard (the digital equivalent of a blank
+      // Scrabble tile) and can stand in for any single letter. Unlike a
+      // physical tile set (2 blanks), this is a word-research tool rather
+      // than a literal game, so the number of wildcards isn't capped —
+      // whatever the person actually types is what's available.
+      const wildcardCount = (inputUpper.match(/\?/g) || []).length;
+      const availableLetters = inputUpper.replace(/\?/g, '').split('');
+
+      // Checks whether `word` can be formed from the available real letters
+      // plus up to `wildcardCount` blanks. Returns null if it can't; if it
+      // can, returns the character indices (into `word`) that had to be
+      // filled by a wildcard rather than a real available letter — needed
+      // downstream both to score those positions as 0 (a blank always
+      // scores 0, regardless of which letter it represents) and to show
+      // the person which letter each wildcard became.
+      const matchWithWildcards = (word) => {
+        const pool = [...availableLetters];
+        const wildcardIndices = [];
+        for (let i = 0; i < word.length; i++) {
+          const char = word[i];
+          const idx = pool.indexOf(char);
+          if (idx !== -1) {
+            pool.splice(idx, 1);
           } else {
-            return false;
+            wildcardIndices.push(i);
           }
         }
-        return true;
-      });
+        return wildcardIndices.length <= wildcardCount ? wildcardIndices : null;
+      };
+
+      let results = [];
+      for (const dictWord of dict) {
+        const upperWord = dictWord.toUpperCase();
+        const wildcardIndices = matchWithWildcards(upperWord);
+        if (wildcardIndices !== null) {
+          results.push({ word: upperWord, wildcardIndices });
+        }
+      }
 
       if (currentFilters.startsWith) {
-        results = results.filter(w => w.toUpperCase().startsWith(currentFilters.startsWith.toUpperCase()));
+        results = results.filter(r => r.word.startsWith(currentFilters.startsWith.toUpperCase()));
       }
       if (currentFilters.endsWith) {
-        results = results.filter(w => w.toUpperCase().endsWith(currentFilters.endsWith.toUpperCase()));
+        results = results.filter(r => r.word.endsWith(currentFilters.endsWith.toUpperCase()));
       }
       if (currentFilters.contains) {
-        results = results.filter(w => w.toUpperCase().includes(currentFilters.contains.toUpperCase()));
+        results = results.filter(r => r.word.includes(currentFilters.contains.toUpperCase()));
       }
       if (currentFilters.requiredLetter) {
-        results = results.filter(w => w.toUpperCase().includes(currentFilters.requiredLetter.toUpperCase()));
+        results = results.filter(r => r.word.includes(currentFilters.requiredLetter.toUpperCase()));
       }
       if (currentFilters.wordLength) {
-        results = results.filter(w => w.length === parseInt(currentFilters.wordLength));
+        results = results.filter(r => r.word.length === parseInt(currentFilters.wordLength));
       }
 
-      setWords(results.map(w => w.toUpperCase()));
+      setWords(results);
     } catch (error) {
       console.error('Dictionary error:', error);
       setWords([]);
