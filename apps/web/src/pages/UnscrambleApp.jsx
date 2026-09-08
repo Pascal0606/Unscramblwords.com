@@ -77,13 +77,13 @@ const FilterPanelLocal = ({ filters, clearFilters, t }) => {
   );
 };
 
-const ScrabbleTileTitleLocal = ({ title1, title2 }) => (
+const ScrabbleTileTitleLocal = ({ title1, title2, currentLanguage }) => (
   <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-2 select-none">
     <div className="flex gap-1">
       {title1.split('').map((letter, i) => (
         <div key={`word1-${i}`} className="bg-[#fdfbf7] text-foreground w-8 h-10 sm:w-10 sm:h-12 md:w-12 md:h-14 rounded-md shadow-md border-2 border-[#e6d5c3] flex items-center justify-center text-xl sm:text-2xl md:text-3xl font-bold relative">
           {letter}
-          <span className="absolute bottom-1 right-1 text-[8px] sm:text-[10px] text-muted-foreground font-semibold">1</span>
+          <span className="absolute bottom-1 right-1 text-[8px] sm:text-[10px] text-muted-foreground font-semibold">{calculateScrabblePoints(letter, currentLanguage)}</span>
         </div>
       ))}
     </div>
@@ -91,7 +91,7 @@ const ScrabbleTileTitleLocal = ({ title1, title2 }) => (
       {title2.split('').map((letter, i) => (
         <div key={`word2-${i}`} className="bg-[#fdfbf7] text-foreground w-8 h-10 sm:w-10 sm:h-12 md:w-12 md:h-14 rounded-md shadow-md border-2 border-[#e6d5c3] flex items-center justify-center text-xl sm:text-2xl md:text-3xl font-bold relative">
           {letter}
-          <span className="absolute bottom-1 right-1 text-[8px] sm:text-[10px] text-muted-foreground font-semibold">1</span>
+          <span className="absolute bottom-1 right-1 text-[8px] sm:text-[10px] text-muted-foreground font-semibold">{calculateScrabblePoints(letter, currentLanguage)}</span>
         </div>
       ))}
     </div>
@@ -244,7 +244,7 @@ const UnscrambleApp = () => {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-center mb-4"
           >
-            <ScrabbleTileTitleLocal title1={t('ui.title1')} title2={t('ui.title2')} />
+            <ScrabbleTileTitleLocal title1={t('ui.title1')} title2={t('ui.title2')} currentLanguage={currentLanguage} />
 
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground mx-auto leading-relaxed font-medium bg-background/50 backdrop-blur-sm rounded-lg p-2 inline-block mt-2 whitespace-nowrap px-4">
               {t('ui.subtitle')}
