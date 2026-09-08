@@ -113,5 +113,21 @@ export const calculateScrabblePoints = (word, language = 'en') => {
   const upperWord = uppercaseForLanguage(word, language);
   const tokens = tokenizeWord(upperWord, language);
 
-  return tokens.reduce((total, token) => total + (points[token] || 0), 0);
+  // Some languages spell real dictionary words with accented letters
+  // (French É, À, Ç; Portuguese Á, Ê, Ã, Í, Õ, Ú; Italian È, É, Ò, etc.)
+  // that are NOT separate Scrabble tiles in that language's official set —
+  // the accent is orthographic only, and the tile is really the base
+  // letter. Other languages (German Ä/Ö/Ü, Spanish Ñ, Turkish Ç/Ğ/İ/Ö/Ş/Ü,
+  // Polish's nine diacritic letters) genuinely DO have separate tiles for
+  // their accented letters, with their own real point values.
+  // So: try an exact match first (this always wins when the letter really
+  // is its own tile), and only fall back to the accent-stripped base
+  // letter if no exact entry exists for that language.
+  const stripAccents = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+  return tokens.reduce((total, token) => {
+    if (points[token] !== undefined) return total + points[token];
+    const base = stripAccents(token);
+    return total + (points[base] || 0);
+  }, 0);
 };
