@@ -4,13 +4,14 @@ import { toast } from 'sonner';
 import { cn } from '@/lib/utils.js';
 import { useLanguage } from '@/hooks/useLanguage.js';
 
-const WordCard = ({ word, index, points, isSuccess, onClick }) => {
+const WordCard = ({ word, wildcardIndices = [], index, points, isSuccess, onClick }) => {
   const { t } = useLanguage();
   const [copied, setCopied] = useState(false);
-  
+  const wildcardSet = new Set(wildcardIndices);
+
   const handleClick = async () => {
     if (onClick) {
-      onClick(word);
+      onClick(word, wildcardIndices);
     }
     
     try {
@@ -64,7 +65,15 @@ const WordCard = ({ word, index, points, isSuccess, onClick }) => {
       )}
     >
       <h3 className="text-2xl font-bold break-words tracking-tight">
-        {word}
+        {word.split('').map((letter, i) => (
+          <span
+            key={i}
+            className={wildcardSet.has(i) ? "opacity-40" : undefined}
+            title={wildcardSet.has(i) ? "Wildcard letter — scores 0 points" : undefined}
+          >
+            {letter}
+          </span>
+        ))}
       </h3>
 
       <div className="flex items-center justify-between gap-3 mt-auto pt-3 flex-wrap">
