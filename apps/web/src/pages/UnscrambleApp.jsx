@@ -144,7 +144,7 @@ const UnscrambleApp = () => {
     reset();
   };
 
-  const handleWordClaim = (word) => {
+  const handleWordClaim = (word, wildcardIndices = []) => {
     if (animatingWords.includes(word) || claimedWords.includes(word)) return;
 
     setAnimatingWords(prev => [...prev, word]);
@@ -152,7 +152,7 @@ const UnscrambleApp = () => {
     setTimeout(() => {
       setAnimatingWords(prev => prev.filter(w => w !== word));
       setClaimedWords(prev => [...prev, word]);
-      const pointsEarned = calculateScrabblePoints(word, currentLanguage);
+      const pointsEarned = calculateScrabblePoints(word, currentLanguage, wildcardIndices);
       setScore(prev => prev + pointsEarned);
       setScoreKey(prev => prev + 1);
     }, 800);
@@ -169,8 +169,8 @@ const UnscrambleApp = () => {
   const hasActiveFilters = Object.values(filters).some(f => f !== '');
 
   const displayWords = words
-    .filter(word => !claimedWords.includes(word))
-    .sort((a, b) => calculateScrabblePoints(b, currentLanguage) - calculateScrabblePoints(a, currentLanguage));
+    .filter(item => !claimedWords.includes(item.word))
+    .sort((a, b) => calculateScrabblePoints(b.word, currentLanguage, b.wildcardIndices) - calculateScrabblePoints(a.word, currentLanguage, a.wildcardIndices));
 
   return (
     <>
@@ -287,6 +287,9 @@ const UnscrambleApp = () => {
                       </button>
                     )}
                   </div>
+                  <p className="text-xs text-muted-foreground mt-1.5 ml-1">
+                    {t('ui.wildcardHint')}
+                  </p>
                 </div>
               </div>
 
@@ -430,13 +433,14 @@ const UnscrambleApp = () => {
                 </div>
               ) : displayWords.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 mt-2">
-                  {displayWords.map((word, index) => (
+                  {displayWords.map((item, index) => (
                     <WordCard
-                      key={`${word}-${index}`}
-                      word={word}
+                      key={`${item.word}-${index}`}
+                      word={item.word}
+                      wildcardIndices={item.wildcardIndices}
                       index={index}
-                      points={calculateScrabblePoints(word, currentLanguage)}
-                      isSuccess={animatingWords.includes(word)}
+                      points={calculateScrabblePoints(item.word, currentLanguage, item.wildcardIndices)}
+                      isSuccess={animatingWords.includes(item.word)}
                       onClick={handleWordClaim}
                     />
                   ))}
