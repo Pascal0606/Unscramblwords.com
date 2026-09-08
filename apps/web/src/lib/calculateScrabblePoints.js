@@ -87,31 +87,28 @@ const uppercaseForLanguage = (word, language) => {
 
 const tokenizeWord = (word, language) => {
   const digraphs = DIGRAPHS_BY_LANGUAGE[language];
-  if (!digraphs) {
-    return word.split('');
-  }
-
   const tokens = [];
   let i = 0;
   while (i < word.length) {
-    const matchedDigraph = digraphs.find((d) => word.slice(i, i + d.length) === d);
+    const matchedDigraph = digraphs && digraphs.find((d) => word.slice(i, i + d.length) === d);
     if (matchedDigraph) {
-      tokens.push(matchedDigraph);
+      tokens.push({ text: matchedDigraph, start: i, length: matchedDigraph.length });
       i += matchedDigraph.length;
     } else {
-      tokens.push(word[i]);
+      tokens.push({ text: word[i], start: i, length: 1 });
       i += 1;
     }
   }
   return tokens;
 };
 
-export const calculateScrabblePoints = (word, language = 'en') => {
+export const calculateScrabblePoints = (word, language = 'en', wildcardIndices = []) => {
   if (!word || typeof word !== 'string') return 0;
 
   const points = POINTS_BY_LANGUAGE[language] || POINTS_BY_LANGUAGE.en;
   const upperWord = uppercaseForLanguage(word, language);
   const tokens = tokenizeWord(upperWord, language);
+  const wildcardSet = new Set(wildcardIndices);
 
   // Some languages spell real dictionary words with accented letters
   // (French É, À, Ç; Portuguese Á, Ê, Ã, Í, Õ, Ú; Italian È, É, Ò, etc.)
@@ -125,9 +122,17 @@ export const calculateScrabblePoints = (word, language = 'en') => {
   // letter if no exact entry exists for that language.
   const stripAccents = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-  return tokens.reduce((total, token) => {
-    if (points[token] !== undefined) return total + points[token];
-    const base = stripAccents(token);
+  return tokens.reduce((total, { text, start, length }) => {
+    // A wildcard (blank tile) always scores 0, regardless of which letter
+    // it represents — real Scrabble rule. If any character position this
+    // token spans came from a wildcard, the whole tile scores 0. (This
+    // only matters for multi-character digraph tiles, e.g. Spanish LL/RR;
+    // for ordinary single-letter tiles it's just that one position.)
+    for (let i = start; i < start + length; i++) {
+      if (wildcardSet.has(i)) return total;
+    }
+    if (points[text] !== undefined) return total + points[text];
+    const base = stripAccents(text);
     return total + (points[base] || 0);
   }, 0);
 };
