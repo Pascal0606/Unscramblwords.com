@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, RotateCcw, Zap, Trophy, X } from 'lucide-react';
+import { Search, RotateCcw, Zap, Trophy, X, BookOpen, HelpCircle } from 'lucide-react';
 
 // UI Components
 import { Button } from '@/components/ui/button.jsx';
@@ -202,6 +202,23 @@ const UnscrambleApp = () => {
         <ScrabbleBackground />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-12 lg:pb-16">
+
+          <nav className="flex justify-center gap-4 mb-4 text-sm font-bold">
+            <a
+              href={`/${currentLanguage}/blog`}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-card/95 backdrop-blur-md border border-border shadow-sm hover:bg-muted transition-colors text-foreground"
+            >
+              <BookOpen className="w-4 h-4" />
+              {t('nav.blog')}
+            </a>
+            <a
+              href="#help-section"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-card/95 backdrop-blur-md border border-border shadow-sm hover:bg-muted transition-colors text-foreground"
+            >
+              <HelpCircle className="w-4 h-4" />
+              {t('nav.help')}
+            </a>
+          </nav>
 
           <div className="flex justify-between items-center mb-6 sticky top-4 z-50">
             <LanguageSelector />
@@ -453,18 +470,22 @@ const UnscrambleApp = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-12 max-w-4xl mx-auto relative"
           >
-            <div className="bg-card/95 backdrop-blur-xl rounded-3xl shadow-xl border border-border p-2">
+            <div id="help-section" className="bg-card/95 backdrop-blur-xl rounded-3xl shadow-xl border border-border p-2 scroll-mt-24">
               <HelpSection />
             </div>
           </motion.div>
 
           <footer className="mt-12 text-center text-sm text-muted-foreground pb-8">
             <a href={`/${currentLanguage}/blog`} className="underline hover:text-foreground transition-colors">
-              Blog
+              {t('nav.blog')}
+            </a>
+            <span className="mx-2">·</span>
+            <a href="#help-section" className="underline hover:text-foreground transition-colors">
+              {t('nav.help')}
             </a>
             <span className="mx-2">·</span>
             <a href="/privacy" className="underline hover:text-foreground transition-colors">
-              Privacy Policy
+              {t('nav.privacy')}
             </a>
             <span className="mx-2">·</span>
             <span>© 2026 UnscramblWords</span>
