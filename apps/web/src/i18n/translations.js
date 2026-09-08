@@ -17,7 +17,8 @@ export const translations = {
       loadingDict: "Loading dictionary for the first time, please wait...",
       expandingDictionary: "Still loading the full dictionary in the background — results may not include every word form yet.",
       seoTitle: "Word Unscrambler - Find Words Instantly | UnscramblWords",
-      seoDescription: "Free word unscrambler. Instantly find all valid words from scrambled letters. Perfect for Scrabble, crosswords and word games. Supports 10 languages."
+      seoDescription: "Free word unscrambler. Instantly find all valid words from scrambled letters. Perfect for Scrabble, crosswords and word games. Supports 10 languages.",
+      wildcardHint: "Tip: use ? for a wildcard letter (e.g. CAT? finds CATS, CATE...). Wildcard letters score 0 points, just like a real blank tile."
     },
     filters: {
       startsWith: "Starts with",
@@ -87,7 +88,7 @@ export const translations = {
       faq4Q: "Can I search by starting or ending letters?",
       faq4A: "Yes. Use the filter options to search by starting letters, ending letters, letters the word must contain, and word length.",
       faq5Q: "Does UnscramblWords support wildcards or blank tiles?",
-      faq5A: "Not currently. This is a known limitation we may address in a future update.",
+      faq5A: "Yes. Type ? in the search box to represent any single letter — for example, CAT? finds CATS, CATE, and more. A wildcard letter always scores 0 points, matching the real Scrabble blank-tile rule.",
       faq6Q: "Why is a word I expected missing from the results?",
       faq6A: "Our dictionaries are large but not exhaustive, and we continue reviewing and improving them. If a common word seems to be missing, it may not yet be included in that language's list.",
       faq7Q: "Do you store my search history or personal data?",
@@ -140,7 +141,8 @@ export const translations = {
       loadingDict: "Cargando el diccionario por primera vez, por favor espera...",
       expandingDictionary: "Todavía estamos cargando el diccionario completo en segundo plano — los resultados pueden no incluir todavía todas las formas de las palabras.",
       seoTitle: "Descifrador de Palabras - Encuentra Palabras al Instante | UnscramblWords",
-      seoDescription: "Descifrador de palabras gratuito. Encuentra todas las palabras válidas al instante. Perfecto para Scrabble, crucigramas y juegos de palabras."
+      seoDescription: "Descifrador de palabras gratuito. Encuentra todas las palabras válidas al instante. Perfecto para Scrabble, crucigramas y juegos de palabras.",
+      wildcardHint: "Consejo: usa ? como comodín (p. ej. CAT? encuentra CATA, CATE...). Las letras comodín valen 0 puntos, igual que una ficha en blanco real."
     },
     filters: {
       startsWith: "Empieza con",
@@ -210,7 +212,7 @@ export const translations = {
       faq4Q: "¿Puedo buscar por letras iniciales o finales?",
       faq4A: "Sí. Usa las opciones de filtro para buscar por letra inicial, letra final, letras que la palabra debe contener y longitud de la palabra.",
       faq5Q: "¿UnscramblWords admite comodines o fichas en blanco?",
-      faq5A: "Actualmente no. Es una limitación conocida que podríamos abordar en una futura actualización.",
+      faq5A: "Sí. Escribe ? en el cuadro de búsqueda para representar cualquier letra — por ejemplo, CAT? encuentra CATA, CATE y más. Una letra comodín siempre vale 0 puntos, igual que la regla real de la ficha en blanco del Scrabble.",
       faq6Q: "¿Por qué falta una palabra que esperaba encontrar?",
       faq6A: "Nuestros diccionarios son extensos pero no exhaustivos, y seguimos revisándolos y mejorándolos. Si una palabra común parece faltar, puede que aún no esté incluida en la lista de ese idioma.",
       faq7Q: "¿Guardáis mi historial de búsqueda o mis datos personales?",
@@ -263,7 +265,8 @@ export const translations = {
       loadingDict: "Chargement du dictionnaire pour la première fois, veuillez patienter...",
       expandingDictionary: "Le dictionnaire complet continue de se charger en arrière-plan — les résultats peuvent ne pas encore inclure toutes les formes des mots.",
       seoTitle: "Déchiffreur de Mots - Trouvez des Mots Instantanément | UnscramblWords",
-      seoDescription: "Déchiffreur de mots gratuit. Trouvez instantanément tous les mots valides. Parfait pour le Scrabble, les mots croisés et les jeux de mots."
+      seoDescription: "Déchiffreur de mots gratuit. Trouvez instantanément tous les mots valides. Parfait pour le Scrabble, les mots croisés et les jeux de mots.",
+      wildcardHint: "Astuce : utilisez ? comme joker (ex. CAT? trouve CATS, CATE...). Une lettre joker vaut 0 point, comme un vrai jeton blanc."
     },
     filters: {
       startsWith: "Commence par",
@@ -333,7 +336,7 @@ export const translations = {
       faq4Q: "Puis-je rechercher par lettres de début ou de fin ?",
       faq4A: "Oui. Utilisez les filtres pour rechercher par lettre de début, lettre de fin, lettres que le mot doit contenir, et longueur du mot.",
       faq5Q: "UnscramblWords prend-il en charge les jokers ou les lettres blanches ?",
-      faq5A: "Pas pour l'instant. C'est une limitation connue que nous pourrions traiter dans une future mise à jour.",
+      faq5A: "Oui. Tapez ? dans la barre de recherche pour représenter n'importe quelle lettre — par exemple, CAT? trouve CATS, CATE, etc. Une lettre joker vaut toujours 0 point, comme la vraie règle du jeton blanc au Scrabble.",
       faq6Q: "Pourquoi un mot que j'attendais est-il absent des résultats ?",
       faq6A: "Nos dictionnaires sont vastes mais pas exhaustifs, et nous continuons à les revoir et à les améliorer. Si un mot courant semble manquer, il n'est peut-être pas encore inclus dans la liste de cette langue.",
       faq7Q: "Conservez-vous mon historique de recherche ou mes données personnelles ?",
@@ -386,7 +389,8 @@ export const translations = {
       loadingDict: "Wörterbuch wird zum ersten Mal geladen, bitte warten...",
       expandingDictionary: "Das vollständige Wörterbuch wird noch im Hintergrund geladen — die Ergebnisse enthalten möglicherweise noch nicht alle Wortformen.",
       seoTitle: "Wort-Entschlüsseler - Finde Wörter Sofort | UnscramblWords",
-      seoDescription: "Kostenloser Wort-Entschlüsseler. Finde sofort alle gültigen Wörter. Perfekt für Scrabble, Kreuzworträtsel und Wortspiele."
+      seoDescription: "Kostenloser Wort-Entschlüsseler. Finde sofort alle gültigen Wörter. Perfekt für Scrabble, Kreuzworträtsel und Wortspiele.",
+      wildcardHint: "Tipp: Verwende ? als Platzhalter (z. B. findet CAT? die Wörter CATS, CATE...). Platzhalter-Buchstaben zählen 0 Punkte, genau wie ein echter Blindstein."
     },
     filters: {
       startsWith: "Beginnt mit",
@@ -456,7 +460,7 @@ export const translations = {
       faq4Q: "Kann ich nach Anfangs- oder Endbuchstaben suchen?",
       faq4A: "Ja. Nutze die Filteroptionen, um nach Anfangsbuchstaben, Endbuchstaben, enthaltenen Buchstaben und Wortlänge zu suchen.",
       faq5Q: "Unterstützt UnscramblWords Platzhalter oder Blanko-Steine?",
-      faq5A: "Derzeit nicht. Das ist eine bekannte Einschränkung, die wir in einem zukünftigen Update angehen könnten.",
+      faq5A: "Ja. Gib ? in das Suchfeld ein, um einen beliebigen Buchstaben darzustellen — zum Beispiel findet CAT? die Wörter CATS, CATE und mehr. Ein Platzhalter-Buchstabe zählt immer 0 Punkte, genau wie die echte Blindstein-Regel beim Scrabble.",
       faq6Q: "Warum fehlt ein Wort, das ich erwartet hätte?",
       faq6A: "Unsere Wörterbücher sind umfangreich, aber nicht vollständig, und wir überarbeiten und verbessern sie laufend. Wenn ein gängiges Wort zu fehlen scheint, ist es möglicherweise noch nicht in der Liste dieser Sprache enthalten.",
       faq7Q: "Speichert ihr meinen Suchverlauf oder persönliche Daten?",
@@ -509,7 +513,8 @@ export const translations = {
       loadingDict: "Carregando o dicionário pela primeira vez, aguarde...",
       expandingDictionary: "Ainda estamos a carregar o dicionário completo em segundo plano — os resultados podem não incluir ainda todas as formas das palavras.",
       seoTitle: "Decifrador de Palavras - Encontre Palavras Instantaneamente | UnscramblWords",
-      seoDescription: "Decifrador de palavras gratuito. Encontre instantaneamente todas as palavras válidas. Perfeito para Scrabble, palavras cruzadas e jogos de palavras."
+      seoDescription: "Decifrador de palavras gratuito. Encontre instantaneamente todas as palavras válidas. Perfeito para Scrabble, palavras cruzadas e jogos de palavras.",
+      wildcardHint: "Dica: use ? como curinga (ex.: CAT? encontra CATO, CATA...). Uma letra curinga vale 0 pontos, tal como uma peça em branco real."
     },
     filters: {
       startsWith: "Começa com",
@@ -579,7 +584,7 @@ export const translations = {
       faq4Q: "Posso pesquisar por letras iniciais ou finais?",
       faq4A: "Sim. Use as opções de filtro para pesquisar por letra inicial, letra final, letras que a palavra deve conter e comprimento da palavra.",
       faq5Q: "O UnscramblWords suporta curingas ou peças em branco?",
-      faq5A: "Atualmente não. É uma limitação conhecida que poderemos resolver numa atualização futura.",
+      faq5A: "Sim. Digite ? na caixa de pesquisa para representar qualquer letra — por exemplo, CAT? encontra CATO, CATA e mais. Uma letra curinga vale sempre 0 pontos, tal como a regra real da peça em branco do Scrabble.",
       faq6Q: "Porque falta uma palavra que eu esperava encontrar?",
       faq6A: "Os nossos dicionários são extensos mas não exaustivos, e continuamos a revê-los e a melhorá-los. Se uma palavra comum parecer estar em falta, pode ainda não estar incluída na lista desse idioma.",
       faq7Q: "Guardam o meu histórico de pesquisa ou dados pessoais?",
@@ -632,7 +637,8 @@ export const translations = {
       loadingDict: "Caricamento del dizionario per la prima volta, attendere...",
       expandingDictionary: "Il dizionario completo si sta ancora caricando in background — i risultati potrebbero non includere ancora tutte le forme delle parole.",
       seoTitle: "Decifratore di Parole - Trova Parole Istantaneamente | UnscramblWords",
-      seoDescription: "Decifratore di parole gratuito. Trova istantaneamente tutte le parole valide. Perfetto per Scarabeo, cruciverba e giochi di parole."
+      seoDescription: "Decifratore di parole gratuito. Trova istantaneamente tutte le parole valide. Perfetto per Scarabeo, cruciverba e giochi di parole.",
+      wildcardHint: "Suggerimento: usa ? come jolly (es. CAT? trova CATE, CATO...). Una lettera jolly vale 0 punti, come una vera tessera bianca."
 
     },
     filters: {
@@ -703,7 +709,7 @@ export const translations = {
       faq4Q: "Posso cercare per lettere iniziali o finali?",
       faq4A: "Sì. Usa le opzioni di filtro per cercare per lettera iniziale, lettera finale, lettere che la parola deve contenere e lunghezza della parola.",
       faq5Q: "UnscramblWords supporta jolly o lettere bianche?",
-      faq5A: "Al momento no. È una limitazione nota che potremmo affrontare in un futuro aggiornamento.",
+      faq5A: "Sì. Digita ? nella casella di ricerca per rappresentare una lettera qualsiasi — ad esempio, CAT? trova CATE, CATO e altro. Una lettera jolly vale sempre 0 punti, come la vera regola della tessera bianca a Scarabeo.",
       faq6Q: "Perché manca una parola che mi aspettavo di trovare?",
       faq6A: "I nostri dizionari sono ampi ma non esaustivi, e continuiamo a rivederli e migliorarli. Se una parola comune sembra mancare, potrebbe non essere ancora inclusa nella lista di quella lingua.",
       faq7Q: "Conservate la mia cronologia di ricerca o i miei dati personali?",
@@ -756,7 +762,8 @@ export const translations = {
       loadingDict: "Sözlük ilk kez yükleniyor, lütfen bekleyin...",
       expandingDictionary: "Tam sözlük hâlâ arka planda yükleniyor — sonuçlar henüz tüm kelime biçimlerini içermeyebilir.",
       seoTitle: "Kelime Çözücü - Anında Kelime Bul | UnscramblWords",
-      seoDescription: "Ücretsiz kelime çözücü. Karışık harflerden anında tüm geçerli kelimeleri bulun. Scrabble, bulmaca ve kelime oyunları için mükemmel."
+      seoDescription: "Ücretsiz kelime çözücü. Karışık harflerden anında tüm geçerli kelimeleri bulun. Scrabble, bulmaca ve kelime oyunları için mükemmel.",
+      wildcardHint: "İpucu: joker harf için ? kullanın (örn. CAT? şu kelimeleri bulur: CATI, CATO...). Joker harfler gerçek bir boş taş gibi 0 puan değerindedir."
 
     },
     filters: {
@@ -827,7 +834,7 @@ export const translations = {
       faq4Q: "Başlangıç veya bitiş harflerine göre arama yapabilir miyim?",
       faq4A: "Evet. Başlangıç harfi, bitiş harfi, kelimenin içermesi gereken harfler ve kelime uzunluğuna göre arama yapmak için filtre seçeneklerini kullanın.",
       faq5Q: "UnscramblWords joker veya boş harf destekliyor mu?",
-      faq5A: "Şu anda desteklemiyor. Bu, gelecekteki bir güncellemede ele alabileceğimiz bilinen bir sınırlamadır.",
+      faq5A: "Evet. Herhangi bir harfi temsil etmesi için arama kutusuna ? yazın — örneğin CAT?, CATI ve CATO gibi kelimeleri bulur. Joker harf her zaman 0 puan değerindedir, tıpkı gerçek Scrabble boş taş kuralında olduğu gibi.",
       faq6Q: "Beklediğim bir kelime neden sonuçlarda yok?",
       faq6A: "Sözlüklerimiz kapsamlı ancak eksiksiz değildir ve onları gözden geçirmeye ve geliştirmeye devam ediyoruz. Yaygın bir kelime eksik görünüyorsa, henüz o dilin listesine eklenmemiş olabilir.",
       faq7Q: "Arama geçmişimi veya kişisel verilerimi saklıyor musunuz?",
@@ -880,7 +887,8 @@ export const translations = {
       loadingDict: "Словарь загружается впервые, пожалуйста подождите...",
       expandingDictionary: "Полный словарь всё ещё загружается в фоновом режиме — результаты могут пока не включать все формы слов.",
       seoTitle: "Расшифровщик Слов - Находите Слова Мгновенно | UnscramblWords",
-      seoDescription: "Бесплатный расшифровщик слов. Мгновенно находите все допустимые слова. Идеально для Скрэббла, кроссвордов и словесных игр."
+      seoDescription: "Бесплатный расшифровщик слов. Мгновенно находите все допустимые слова. Идеально для Скрэббла, кроссвордов и словесных игр.",
+      wildcardHint: "Совет: используйте ? как джокер (например, КОТ? найдёт КОТЫ, КОТА...). Буква-джокер стоит 0 очков, как настоящая пустая фишка."
     },
     filters: {
       startsWith: "Начинается с",
@@ -950,7 +958,7 @@ export const translations = {
       faq4Q: "Могу ли я искать по начальным или конечным буквам?",
       faq4A: "Да. Используйте фильтры для поиска по начальной букве, конечной букве, обязательным буквам и длине слова.",
       faq5Q: "Поддерживает ли UnscramblWords джокеры или пустые фишки?",
-      faq5A: "Пока нет. Это известное ограничение, которое мы можем устранить в будущем обновлении.",
+      faq5A: "Да. Введите ? в строку поиска, чтобы обозначить любую букву — например, КОТ? найдёт КОТЫ, КОТА и другие слова. Буква-джокер всегда стоит 0 очков, как настоящая пустая фишка в Скрэббле.",
       faq6Q: "Почему ожидаемое слово отсутствует в результатах?",
       faq6A: "Наши словари обширны, но не исчерпывающи, и мы продолжаем их проверять и улучшать. Если распространённое слово кажется отсутствующим, возможно, оно ещё не добавлено в список этого языка.",
       faq7Q: "Сохраняете ли вы историю моих поисков или личные данные?",
@@ -1003,7 +1011,8 @@ export const translations = {
       loadingDict: "Wczytywanie słownika po raz pierwszy, proszę czekać...",
       expandingDictionary: "Nadal wczytujemy pełny słownik polski w tle — wyniki na razie mogą nie obejmować wszystkich form odmiany.",
       seoTitle: "Rozszyfrowywacz Słów - Znajdź Słowa Błyskawicznie | UnscramblWords",
-      seoDescription: "Darmowy rozszyfrowywacz słów. Błyskawicznie znajdź wszystkie poprawne słowa z pomieszanych liter. Idealny do Scrabble, krzyżówek i gier słownych. Obsługuje 10 języków."
+      seoDescription: "Darmowy rozszyfrowywacz słów. Błyskawicznie znajdź wszystkie poprawne słowa z pomieszanych liter. Idealny do Scrabble, krzyżówek i gier słownych. Obsługuje 10 języków.",
+      wildcardHint: "Wskazówka: użyj ? jako dzikiej karty (np. KOT? znajdzie KOTY, KOTA...). Litera z dzikiej karty jest warta 0 punktów, tak jak prawdziwy pusty pionek."
     },
     filters: {
       startsWith: "Zaczyna się na",
@@ -1073,7 +1082,7 @@ export const translations = {
       faq4Q: "Czy mogę wyszukiwać według liter początkowych lub końcowych?",
       faq4A: "Tak. Skorzystaj z opcji filtrowania, aby wyszukiwać według litery początkowej, końcowej, liter, które słowo musi zawierać, oraz długości słowa.",
       faq5Q: "Czy UnscramblWords obsługuje dzikie karty lub puste litery?",
-      faq5A: "Obecnie nie. To znane ograniczenie, którym możemy zająć się w przyszłej aktualizacji.",
+      faq5A: "Tak. Wpisz ? w polu wyszukiwania, aby oznaczyć dowolną literę — na przykład KOT? znajdzie KOTY, KOTA i inne. Litera z dzikiej karty zawsze jest warta 0 punktów, tak jak prawdziwa zasada pustego pionka w Scrabble.",
       faq6Q: "Dlaczego brakuje słowa, którego się spodziewałem?",
       faq6A: "Nasze słowniki są obszerne, ale niewyczerpujące, i nieustannie je przeglądamy i ulepszamy. Jeśli popularne słowo wydaje się brakować, może po prostu nie zostało jeszcze dodane do listy dla danego języka.",
       faq7Q: "Czy przechowujecie moją historię wyszukiwania lub dane osobowe?",
@@ -1126,7 +1135,8 @@ export const translations = {
       loadingDict: "تحميل القاموس للمرة الأولى، يرجى الانتظار...",
       expandingDictionary: "لا يزال القاموس الكامل قيد التحميل في الخلفية — قد لا تتضمن النتائج بعد جميع أشكال الكلمات.",
       seoTitle: "مفكك الكلمات - ابحث عن الكلمات فوراً | UnscramblWords",
-      seoDescription: "مفكك كلمات مجاني. ابحث فوراً عن جميع الكلمات الصالحة. مثالي لسكرابل والكلمات المتقاطعة وألعاب الكلمات."
+      seoDescription: "مفكك كلمات مجاني. ابحث فوراً عن جميع الكلمات الصالحة. مثالي لسكرابل والكلمات المتقاطعة وألعاب الكلمات.",
+      wildcardHint: "نصيحة: استخدم ? كحرف بديل (مثال: ؟اب يجد كلمات مثل باب، ناب...). الحرف البديل يساوي 0 نقطة، تماماً مثل القطعة الفارغة الحقيقية."
     },
     filters: {
       startsWith: "يبدأ بـ",
@@ -1196,7 +1206,7 @@ export const translations = {
       faq4Q: "هل يمكنني البحث حسب الأحرف الأولى أو الأخيرة؟",
       faq4A: "نعم. استخدم خيارات الفلترة للبحث حسب الحرف الأول، الحرف الأخير، الأحرف التي يجب أن تحتويها الكلمة، وطول الكلمة.",
       faq5Q: "هل يدعم UnscramblWords الأحرف البديلة أو القطع الفارغة؟",
-      faq5A: "ليس حالياً. هذا قيد معروف قد نعالجه في تحديث مستقبلي.",
+      faq5A: "نعم. اكتب ? في مربع البحث لتمثيل أي حرف — على سبيل المثال، ؟اب يجد كلمات مثل باب وناب. الحرف البديل يساوي دائماً 0 نقطة، تماماً مثل القاعدة الحقيقية للقطعة الفارغة في سكرابل.",
       faq6Q: "لماذا تكون كلمة كنت أتوقعها غائبة عن النتائج؟",
       faq6A: "قواميسنا واسعة لكنها ليست شاملة، ونواصل مراجعتها وتحسينها. إذا بدت كلمة شائعة مفقودة، فقد لا تكون قد أُضيفت بعد إلى قائمة تلك اللغة.",
       faq7Q: "هل تحتفظون بسجل بحثي أو بياناتي الشخصية؟",
