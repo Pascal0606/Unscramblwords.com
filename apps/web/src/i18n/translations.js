@@ -34,6 +34,11 @@ export const translations = {
       noMatches: "No matches for your filters",
       noMatchesDesc: "Try clearing some filters or using different requirements to find more playable words."
     },
+    nav: {
+      blog: "Blog",
+      help: "Help & FAQ",
+      privacy: "Privacy Policy"
+    },
     help: {
       title: "Help & FAQ",
       subtitle: "Everything you need to know about unscrambling words.",
@@ -70,7 +75,25 @@ export const translations = {
       s3Step4Title: "Smart Sorting",
       s3Step4Desc: "Results are ordered by length, points, or alphabetically based on your preference.",
       s3TipsTitle: "Tips for Best Results",
-      s3TipsDesc: "Use a combination of filters and try different dictionaries to conquer the toughest puzzles."
+      s3TipsDesc: "Use a combination of filters and try different dictionaries to conquer the toughest puzzles.",
+      faqSectionTitle: "Frequently Asked Questions",
+      faqSectionDesc: "Quick answers to the questions we hear most often.",
+      faq1Q: "Is UnscramblWords free to use?",
+      faq1A: "Yes. UnscramblWords is completely free, with no account or registration required.",
+      faq2Q: "Which languages does UnscramblWords support?",
+      faq2A: "Ten languages: English, French, German, Italian, Spanish, Portuguese, Turkish, Russian, Polish, and Arabic.",
+      faq3Q: "Where do the word lists come from?",
+      faq3A: "Each language has its own dictionary, built from real, publicly available word lists and manually checked to remove duplicates, foreign contamination, and non-standard entries, so results reflect genuinely valid words for that language.",
+      faq4Q: "Can I search by starting or ending letters?",
+      faq4A: "Yes. Use the filter options to search by starting letters, ending letters, letters the word must contain, and word length.",
+      faq5Q: "Does UnscramblWords support wildcards or blank tiles?",
+      faq5A: "Not currently. This is a known limitation we may address in a future update.",
+      faq6Q: "Why is a word I expected missing from the results?",
+      faq6A: "Our dictionaries are large but not exhaustive, and we continue reviewing and improving them. If a common word seems to be missing, it may not yet be included in that language's list.",
+      faq7Q: "Do you store my search history or personal data?",
+      faq7A: "No account is required, and we do not store your search history tied to your identity. Like most websites, we use cookies and analytics to understand overall usage — see our Privacy Policy for details.",
+      faq8Q: "Can I use this tool for Scrabble, Words with Friends, or similar games?",
+      faq8A: "Yes, the tool works well alongside Scrabble, Words with Friends, and many other word games. UnscramblWords is an independent tool and is not officially affiliated with Hasbro, Mattel, or Zynga."
     },
     blog: {
       backToBlog: "Back to Blog",
@@ -134,6 +157,11 @@ export const translations = {
       noMatches: "No hay coincidencias para tus filtros",
       noMatchesDesc: "Intenta borrar algunos filtros o usar requisitos diferentes."
     },
+    nav: {
+      blog: "Blog",
+      help: "Ayuda y Preguntas Frecuentes",
+      privacy: "Política de Privacidad"
+    },
     help: {
       title: "Ayuda y Preguntas Frecuentes",
       subtitle: "Todo lo que necesitas saber sobre cómo descifrar palabras.",
@@ -170,7 +198,25 @@ export const translations = {
       s3Step4Title: "Clasificación Inteligente",
       s3Step4Desc: "Los resultados se ordenan por longitud o puntos.",
       s3TipsTitle: "Consejos para Mejores Resultados",
-      s3TipsDesc: "Usa una combinación de filtros y diccionarios para resolver los rompecabezas más difíciles."
+      s3TipsDesc: "Usa una combinación de filtros y diccionarios para resolver los rompecabezas más difíciles.",
+      faqSectionTitle: "Preguntas Frecuentes",
+      faqSectionDesc: "Respuestas rápidas a las preguntas que más nos hacen.",
+      faq1Q: "¿Es gratis usar UnscramblWords?",
+      faq1A: "Sí. UnscramblWords es completamente gratuito, sin necesidad de cuenta ni registro.",
+      faq2Q: "¿Qué idiomas admite UnscramblWords?",
+      faq2A: "Diez idiomas: inglés, francés, alemán, italiano, español, portugués, turco, ruso, polaco y árabe.",
+      faq3Q: "¿De dónde proceden las listas de palabras?",
+      faq3A: "Cada idioma tiene su propio diccionario, elaborado a partir de listas de palabras reales y de acceso público, revisadas manualmente para eliminar duplicados, contaminación de otros idiomas y entradas no estándar, de modo que los resultados reflejen palabras realmente válidas en ese idioma.",
+      faq4Q: "¿Puedo buscar por letras iniciales o finales?",
+      faq4A: "Sí. Usa las opciones de filtro para buscar por letra inicial, letra final, letras que la palabra debe contener y longitud de la palabra.",
+      faq5Q: "¿UnscramblWords admite comodines o fichas en blanco?",
+      faq5A: "Actualmente no. Es una limitación conocida que podríamos abordar en una futura actualización.",
+      faq6Q: "¿Por qué falta una palabra que esperaba encontrar?",
+      faq6A: "Nuestros diccionarios son extensos pero no exhaustivos, y seguimos revisándolos y mejorándolos. Si una palabra común parece faltar, puede que aún no esté incluida en la lista de ese idioma.",
+      faq7Q: "¿Guardáis mi historial de búsqueda o mis datos personales?",
+      faq7A: "No se requiere cuenta y no almacenamos tu historial de búsqueda vinculado a tu identidad. Como la mayoría de los sitios web, usamos cookies y análisis para entender el uso general — consulta nuestra Política de Privacidad para más detalles.",
+      faq8Q: "¿Puedo usar esta herramienta para Scrabble, Words with Friends u otros juegos similares?",
+      faq8A: "Sí, la herramienta funciona bien junto con Scrabble, Words with Friends y muchos otros juegos de palabras. UnscramblWords es una herramienta independiente y no está afiliada oficialmente con Hasbro, Mattel ni Zynga."
     },
     blog: {
       backToBlog: "Volver al Blog",
@@ -234,6 +280,11 @@ export const translations = {
       noMatches: "Aucun résultat pour vos filtres",
       noMatchesDesc: "Essayez d'effacer certains filtres pour trouver plus de mots."
     },
+    nav: {
+      blog: "Blog",
+      help: "Aide et FAQ",
+      privacy: "Politique de Confidentialité"
+    },
     help: {
       title: "Aide et FAQ",
       subtitle: "Tout ce que vous devez savoir pour déchiffrer des mots.",
@@ -270,7 +321,25 @@ export const translations = {
       s3Step4Title: "Tri Intelligent",
       s3Step4Desc: "Les résultats sont classés par longueur ou points.",
       s3TipsTitle: "Conseils pour les Meilleurs Résultats",
-      s3TipsDesc: "Utilisez une combinaison de filtres pour résoudre les puzzles les plus difficiles."
+      s3TipsDesc: "Utilisez une combinaison de filtres pour résoudre les puzzles les plus difficiles.",
+      faqSectionTitle: "Questions Fréquentes",
+      faqSectionDesc: "Réponses rapides aux questions les plus courantes.",
+      faq1Q: "UnscramblWords est-il gratuit ?",
+      faq1A: "Oui. UnscramblWords est entièrement gratuit, sans compte ni inscription nécessaire.",
+      faq2Q: "Quelles langues UnscramblWords prend-il en charge ?",
+      faq2A: "Dix langues : anglais, français, allemand, italien, espagnol, portugais, turc, russe, polonais et arabe.",
+      faq3Q: "D'où viennent les listes de mots ?",
+      faq3A: "Chaque langue possède son propre dictionnaire, constitué à partir de listes de mots réelles et publiquement accessibles, vérifiées manuellement pour supprimer les doublons, les contaminations étrangères et les entrées non standard, afin que les résultats reflètent des mots réellement valides dans cette langue.",
+      faq4Q: "Puis-je rechercher par lettres de début ou de fin ?",
+      faq4A: "Oui. Utilisez les filtres pour rechercher par lettre de début, lettre de fin, lettres que le mot doit contenir, et longueur du mot.",
+      faq5Q: "UnscramblWords prend-il en charge les jokers ou les lettres blanches ?",
+      faq5A: "Pas pour l'instant. C'est une limitation connue que nous pourrions traiter dans une future mise à jour.",
+      faq6Q: "Pourquoi un mot que j'attendais est-il absent des résultats ?",
+      faq6A: "Nos dictionnaires sont vastes mais pas exhaustifs, et nous continuons à les revoir et à les améliorer. Si un mot courant semble manquer, il n'est peut-être pas encore inclus dans la liste de cette langue.",
+      faq7Q: "Conservez-vous mon historique de recherche ou mes données personnelles ?",
+      faq7A: "Aucun compte n'est requis, et nous ne conservons pas votre historique de recherche lié à votre identité. Comme la plupart des sites web, nous utilisons des cookies et des outils d'analyse pour comprendre l'utilisation générale — consultez notre Politique de Confidentialité pour plus de détails.",
+      faq8Q: "Puis-je utiliser cet outil pour Scrabble, Words with Friends ou des jeux similaires ?",
+      faq8A: "Oui, l'outil fonctionne bien avec Scrabble, Words with Friends et de nombreux autres jeux de mots. UnscramblWords est un outil indépendant et n'est pas officiellement affilié à Hasbro, Mattel ou Zynga."
     },
     blog: {
       backToBlog: "Retour au Blog",
@@ -334,6 +403,11 @@ export const translations = {
       noMatches: "Keine Treffer für deine Filter",
       noMatchesDesc: "Versuche einige Filter zu löschen, um mehr Wörter zu finden."
     },
+    nav: {
+      blog: "Blog",
+      help: "Hilfe & FAQ",
+      privacy: "Datenschutzerklärung"
+    },
     help: {
       title: "Hilfe & FAQ",
       subtitle: "Alles, was du über das Entschlüsseln von Wörtern wissen musst.",
@@ -370,7 +444,25 @@ export const translations = {
       s3Step4Title: "Intelligente Sortierung",
       s3Step4Desc: "Ergebnisse werden nach Länge oder Punkten sortiert.",
       s3TipsTitle: "Tipps für beste Ergebnisse",
-      s3TipsDesc: "Nutze eine Kombination aus Filtern für die schwersten Rätsel."
+      s3TipsDesc: "Nutze eine Kombination aus Filtern für die schwersten Rätsel.",
+      faqSectionTitle: "Häufig gestellte Fragen",
+      faqSectionDesc: "Schnelle Antworten auf die Fragen, die uns am häufigsten gestellt werden.",
+      faq1Q: "Ist UnscramblWords kostenlos?",
+      faq1A: "Ja. UnscramblWords ist vollständig kostenlos, ohne Konto oder Registrierung.",
+      faq2Q: "Welche Sprachen unterstützt UnscramblWords?",
+      faq2A: "Zehn Sprachen: Englisch, Französisch, Deutsch, Italienisch, Spanisch, Portugiesisch, Türkisch, Russisch, Polnisch und Arabisch.",
+      faq3Q: "Woher stammen die Wortlisten?",
+      faq3A: "Jede Sprache hat ihr eigenes Wörterbuch, das aus echten, öffentlich zugänglichen Wortlisten erstellt und manuell geprüft wurde, um Duplikate, fremdsprachliche Verunreinigungen und nicht standardmäßige Einträge zu entfernen — die Ergebnisse spiegeln also tatsächlich gültige Wörter dieser Sprache wider.",
+      faq4Q: "Kann ich nach Anfangs- oder Endbuchstaben suchen?",
+      faq4A: "Ja. Nutze die Filteroptionen, um nach Anfangsbuchstaben, Endbuchstaben, enthaltenen Buchstaben und Wortlänge zu suchen.",
+      faq5Q: "Unterstützt UnscramblWords Platzhalter oder Blanko-Steine?",
+      faq5A: "Derzeit nicht. Das ist eine bekannte Einschränkung, die wir in einem zukünftigen Update angehen könnten.",
+      faq6Q: "Warum fehlt ein Wort, das ich erwartet hätte?",
+      faq6A: "Unsere Wörterbücher sind umfangreich, aber nicht vollständig, und wir überarbeiten und verbessern sie laufend. Wenn ein gängiges Wort zu fehlen scheint, ist es möglicherweise noch nicht in der Liste dieser Sprache enthalten.",
+      faq7Q: "Speichert ihr meinen Suchverlauf oder persönliche Daten?",
+      faq7A: "Es ist kein Konto erforderlich, und wir speichern deinen Suchverlauf nicht mit Bezug zu deiner Identität. Wie die meisten Websites verwenden wir Cookies und Analysetools, um die allgemeine Nutzung zu verstehen — Details findest du in unserer Datenschutzerklärung.",
+      faq8Q: "Kann ich dieses Tool für Scrabble, Words with Friends oder ähnliche Spiele nutzen?",
+      faq8A: "Ja, das Tool funktioniert gut in Kombination mit Scrabble, Words with Friends und vielen anderen Wortspielen. UnscramblWords ist ein unabhängiges Tool und steht in keiner offiziellen Verbindung zu Hasbro, Mattel oder Zynga."
     },
     blog: {
       backToBlog: "Zurück zum Blog",
@@ -434,6 +526,11 @@ export const translations = {
       noMatches: "Nenhum resultado para seus filtros",
       noMatchesDesc: "Tente limpar alguns filtros para encontrar mais palavras."
     },
+    nav: {
+      blog: "Blog",
+      help: "Ajuda e Perguntas Frequentes",
+      privacy: "Política de Privacidade"
+    },
     help: {
       title: "Ajuda e FAQ",
       subtitle: "Tudo o que você precisa saber sobre como decifrar palavras.",
@@ -470,7 +567,25 @@ export const translations = {
       s3Step4Title: "Classificação Inteligente",
       s3Step4Desc: "Resultados são ordenados por tamanho ou pontos.",
       s3TipsTitle: "Dicas para Melhores Resultados",
-      s3TipsDesc: "Use uma combinação de filtros para resolver os quebra-cabeças mais difíceis."
+      s3TipsDesc: "Use uma combinação de filtros para resolver os quebra-cabeças mais difíceis.",
+      faqSectionTitle: "Perguntas Frequentes",
+      faqSectionDesc: "Respostas rápidas às perguntas que mais recebemos.",
+      faq1Q: "O UnscramblWords é gratuito?",
+      faq1A: "Sim. O UnscramblWords é totalmente gratuito, sem necessidade de conta ou registo.",
+      faq2Q: "Que idiomas o UnscramblWords suporta?",
+      faq2A: "Dez idiomas: inglês, francês, alemão, italiano, espanhol, português, turco, russo, polaco e árabe.",
+      faq3Q: "De onde vêm as listas de palavras?",
+      faq3A: "Cada idioma tem o seu próprio dicionário, construído a partir de listas de palavras reais e de acesso público, verificadas manualmente para remover duplicados, contaminação de outras línguas e entradas não padronizadas, para que os resultados reflitam palavras genuinamente válidas nesse idioma.",
+      faq4Q: "Posso pesquisar por letras iniciais ou finais?",
+      faq4A: "Sim. Use as opções de filtro para pesquisar por letra inicial, letra final, letras que a palavra deve conter e comprimento da palavra.",
+      faq5Q: "O UnscramblWords suporta curingas ou peças em branco?",
+      faq5A: "Atualmente não. É uma limitação conhecida que poderemos resolver numa atualização futura.",
+      faq6Q: "Porque falta uma palavra que eu esperava encontrar?",
+      faq6A: "Os nossos dicionários são extensos mas não exaustivos, e continuamos a revê-los e a melhorá-los. Se uma palavra comum parecer estar em falta, pode ainda não estar incluída na lista desse idioma.",
+      faq7Q: "Guardam o meu histórico de pesquisa ou dados pessoais?",
+      faq7A: "Não é necessária qualquer conta, e não guardamos o seu histórico de pesquisa associado à sua identidade. Como a maioria dos sites, usamos cookies e análises para compreender a utilização geral — consulte a nossa Política de Privacidade para mais detalhes.",
+      faq8Q: "Posso usar esta ferramenta para Scrabble, Words with Friends ou jogos semelhantes?",
+      faq8A: "Sim, a ferramenta funciona bem junto com o Scrabble, Words with Friends e muitos outros jogos de palavras. O UnscramblWords é uma ferramenta independente e não está oficialmente afiliado à Hasbro, Mattel ou Zynga."
     },
     blog: {
       backToBlog: "Voltar ao Blog",
@@ -535,6 +650,11 @@ export const translations = {
       noMatches: "Nessun risultato per i tuoi filtri",
       noMatchesDesc: "Prova a cancellare alcuni filtri per trovare più parole."
     },
+    nav: {
+      blog: "Blog",
+      help: "Aiuto e FAQ",
+      privacy: "Informativa sulla Privacy"
+    },
     help: {
       title: "Aiuto e FAQ",
       subtitle: "Tutto quello che devi sapere per decifrare le parole.",
@@ -571,7 +691,25 @@ export const translations = {
       s3Step4Title: "Ordinamento Intelligente",
       s3Step4Desc: "I risultati sono ordinati per lunghezza o punti.",
       s3TipsTitle: "Consigli per i Migliori Risultati",
-      s3TipsDesc: "Usa una combinazione di filtri per i puzzle più difficili."
+      s3TipsDesc: "Usa una combinazione di filtri per i puzzle più difficili.",
+      faqSectionTitle: "Domande Frequenti",
+      faqSectionDesc: "Risposte rapide alle domande più comuni.",
+      faq1Q: "UnscramblWords è gratuito?",
+      faq1A: "Sì. UnscramblWords è completamente gratuito, senza bisogno di account o registrazione.",
+      faq2Q: "Quali lingue supporta UnscramblWords?",
+      faq2A: "Dieci lingue: inglese, francese, tedesco, italiano, spagnolo, portoghese, turco, russo, polacco e arabo.",
+      faq3Q: "Da dove provengono le liste di parole?",
+      faq3A: "Ogni lingua ha il proprio dizionario, costruito a partire da liste di parole reali e pubblicamente disponibili, controllate manualmente per rimuovere duplicati, contaminazioni straniere e voci non standard, in modo che i risultati riflettano parole realmente valide in quella lingua.",
+      faq4Q: "Posso cercare per lettere iniziali o finali?",
+      faq4A: "Sì. Usa le opzioni di filtro per cercare per lettera iniziale, lettera finale, lettere che la parola deve contenere e lunghezza della parola.",
+      faq5Q: "UnscramblWords supporta jolly o lettere bianche?",
+      faq5A: "Al momento no. È una limitazione nota che potremmo affrontare in un futuro aggiornamento.",
+      faq6Q: "Perché manca una parola che mi aspettavo di trovare?",
+      faq6A: "I nostri dizionari sono ampi ma non esaustivi, e continuiamo a rivederli e migliorarli. Se una parola comune sembra mancare, potrebbe non essere ancora inclusa nella lista di quella lingua.",
+      faq7Q: "Conservate la mia cronologia di ricerca o i miei dati personali?",
+      faq7A: "Non è richiesto alcun account e non conserviamo la tua cronologia di ricerca collegata alla tua identità. Come la maggior parte dei siti web, utilizziamo cookie e strumenti di analisi per comprendere l'utilizzo generale — consulta la nostra Informativa sulla Privacy per maggiori dettagli.",
+      faq8Q: "Posso usare questo strumento per Scarabeo (Scrabble), Words with Friends o giochi simili?",
+      faq8A: "Sì, lo strumento funziona bene insieme a Scarabeo, Words with Friends e molti altri giochi di parole. UnscramblWords è uno strumento indipendente e non è ufficialmente affiliato a Hasbro, Mattel o Zynga."
     },
     blog: {
       backToBlog: "Torna al Blog",
@@ -636,6 +774,11 @@ export const translations = {
       noMatches: "Filtreleriniz için eşleşme yok",
       noMatchesDesc: "Daha fazla kelime bulmak için bazı filtreleri temizleyin."
     },
+    nav: {
+      blog: "Blog",
+      help: "Yardım ve SSS",
+      privacy: "Gizlilik Politikası"
+    },
     help: {
       title: "Yardım ve SSS",
       subtitle: "Kelimeleri çözmek hakkında bilmeniz gereken her şey.",
@@ -672,7 +815,25 @@ export const translations = {
       s3Step4Title: "Akıllı Sıralama",
       s3Step4Desc: "Sonuçlar uzunluk veya puana göre sıralanır.",
       s3TipsTitle: "En İyi Sonuçlar İçin İpuçları",
-      s3TipsDesc: "En zor bulmacaları fethetmek için filtre kombinasyonları kullanın."
+      s3TipsDesc: "En zor bulmacaları fethetmek için filtre kombinasyonları kullanın.",
+      faqSectionTitle: "Sık Sorulan Sorular",
+      faqSectionDesc: "En sık aldığımız sorulara hızlı yanıtlar.",
+      faq1Q: "UnscramblWords ücretsiz mi?",
+      faq1A: "Evet. UnscramblWords tamamen ücretsizdir, hesap veya kayıt gerektirmez.",
+      faq2Q: "UnscramblWords hangi dilleri destekliyor?",
+      faq2A: "On dil: İngilizce, Fransızca, Almanca, İtalyanca, İspanyolca, Portekizce, Türkçe, Rusça, Lehçe ve Arapça.",
+      faq3Q: "Kelime listeleri nereden geliyor?",
+      faq3A: "Her dilin, gerçek ve herkese açık kelime listelerinden oluşturulmuş kendi sözlüğü vardır; tekrarlar, yabancı dil bulaşması ve standart dışı girdiler kaldırılarak manuel olarak kontrol edilmiştir, böylece sonuçlar o dilde gerçekten geçerli kelimeleri yansıtır.",
+      faq4Q: "Başlangıç veya bitiş harflerine göre arama yapabilir miyim?",
+      faq4A: "Evet. Başlangıç harfi, bitiş harfi, kelimenin içermesi gereken harfler ve kelime uzunluğuna göre arama yapmak için filtre seçeneklerini kullanın.",
+      faq5Q: "UnscramblWords joker veya boş harf destekliyor mu?",
+      faq5A: "Şu anda desteklemiyor. Bu, gelecekteki bir güncellemede ele alabileceğimiz bilinen bir sınırlamadır.",
+      faq6Q: "Beklediğim bir kelime neden sonuçlarda yok?",
+      faq6A: "Sözlüklerimiz kapsamlı ancak eksiksiz değildir ve onları gözden geçirmeye ve geliştirmeye devam ediyoruz. Yaygın bir kelime eksik görünüyorsa, henüz o dilin listesine eklenmemiş olabilir.",
+      faq7Q: "Arama geçmişimi veya kişisel verilerimi saklıyor musunuz?",
+      faq7A: "Hesap gerekmez ve arama geçmişinizi kimliğinizle ilişkilendirerek saklamayız. Çoğu web sitesi gibi, genel kullanımı anlamak için çerezler ve analiz araçları kullanıyoruz — ayrıntılar için Gizlilik Politikamıza bakın.",
+      faq8Q: "Bu aracı Scrabble, Words with Friends veya benzer oyunlar için kullanabilir miyim?",
+      faq8A: "Evet, araç Scrabble, Words with Friends ve birçok başka kelime oyunuyla birlikte iyi çalışır. UnscramblWords bağımsız bir araçtır ve Hasbro, Mattel veya Zynga ile resmi bir bağlantısı yoktur."
     },
     blog: {
       backToBlog: "Bloga Dön",
@@ -736,6 +897,11 @@ export const translations = {
       noMatches: "Нет совпадений по фильтрам",
       noMatchesDesc: "Попробуйте очистить некоторые фильтры."
     },
+    nav: {
+      blog: "Блог",
+      help: "Помощь и FAQ",
+      privacy: "Политика конфиденциальности"
+    },
     help: {
       title: "Помощь и FAQ",
       subtitle: "Все, что нужно знать о расшифровке слов.",
@@ -772,7 +938,25 @@ export const translations = {
       s3Step4Title: "Умная Сортировка",
       s3Step4Desc: "Результаты сортируются по длине или очкам.",
       s3TipsTitle: "Советы для лучших результатов",
-      s3TipsDesc: "Используйте комбинацию фильтров для самых сложных головоломок."
+      s3TipsDesc: "Используйте комбинацию фильтров для самых сложных головоломок.",
+      faqSectionTitle: "Часто задаваемые вопросы",
+      faqSectionDesc: "Быстрые ответы на самые частые вопросы.",
+      faq1Q: "UnscramblWords бесплатен?",
+      faq1A: "Да. UnscramblWords полностью бесплатен, без необходимости регистрации или создания аккаунта.",
+      faq2Q: "Какие языки поддерживает UnscramblWords?",
+      faq2A: "Десять языков: английский, французский, немецкий, итальянский, испанский, португальский, турецкий, русский, польский и арабский.",
+      faq3Q: "Откуда берутся списки слов?",
+      faq3A: "Для каждого языка используется собственный словарь, составленный из реальных, общедоступных списков слов и вручную проверенный на предмет дубликатов, посторонних заимствований и нестандартных записей — так результаты отражают действительно допустимые слова этого языка.",
+      faq4Q: "Могу ли я искать по начальным или конечным буквам?",
+      faq4A: "Да. Используйте фильтры для поиска по начальной букве, конечной букве, обязательным буквам и длине слова.",
+      faq5Q: "Поддерживает ли UnscramblWords джокеры или пустые фишки?",
+      faq5A: "Пока нет. Это известное ограничение, которое мы можем устранить в будущем обновлении.",
+      faq6Q: "Почему ожидаемое слово отсутствует в результатах?",
+      faq6A: "Наши словари обширны, но не исчерпывающи, и мы продолжаем их проверять и улучшать. Если распространённое слово кажется отсутствующим, возможно, оно ещё не добавлено в список этого языка.",
+      faq7Q: "Сохраняете ли вы историю моих поисков или личные данные?",
+      faq7A: "Аккаунт не требуется, и мы не сохраняем историю ваших поисков, привязанную к вашей личности. Как и большинство сайтов, мы используем куки и аналитику для понимания общего использования — подробности в нашей Политике конфиденциальности.",
+      faq8Q: "Могу ли я использовать этот инструмент для Скрэббла, Words with Friends или похожих игр?",
+      faq8A: "Да, инструмент хорошо подходит для Скрэббла, Words with Friends и многих других словесных игр. UnscramblWords — независимый инструмент, официально не связанный с Hasbro, Mattel или Zynga."
     },
     blog: {
       backToBlog: "Назад к блогу",
@@ -817,7 +1001,6 @@ export const translations = {
       wordCopied: "Słowo skopiowane do schowka",
       copyFailed: "Nie udało się skopiować słowa",
       loadingDict: "Wczytywanie słownika po raz pierwszy, proszę czekać...",
-      expandingDictionary: "لا يزال القاموس الكامل قيد التحميل في الخلفية — قد لا تتضمن النتائج بعد جميع أشكال الكلمات.",
       expandingDictionary: "Nadal wczytujemy pełny słownik polski w tle — wyniki na razie mogą nie obejmować wszystkich form odmiany.",
       seoTitle: "Rozszyfrowywacz Słów - Znajdź Słowa Błyskawicznie | UnscramblWords",
       seoDescription: "Darmowy rozszyfrowywacz słów. Błyskawicznie znajdź wszystkie poprawne słowa z pomieszanych liter. Idealny do Scrabble, krzyżówek i gier słownych. Obsługuje 10 języków."
@@ -836,6 +1019,11 @@ export const translations = {
       noWordsDesc: "Nie udało się znaleźć żadnych poprawnych słów z tych liter. Sprawdź pisownię lub dodaj samogłoski.",
       noMatches: "Brak dopasowań dla wybranych filtrów",
       noMatchesDesc: "Spróbuj usunąć niektóre filtry lub zmienić kryteria, aby znaleźć więcej słów do zagrania."
+    },
+    nav: {
+      blog: "Blog",
+      help: "Pomoc i najczęstsze pytania",
+      privacy: "Polityka Prywatności"
     },
     help: {
       title: "Pomoc i najczęstsze pytania",
@@ -873,7 +1061,25 @@ export const translations = {
       s3Step4Title: "Inteligentne sortowanie",
       s3Step4Desc: "Wyniki są uporządkowane według długości, liczby punktów lub alfabetycznie, zgodnie z preferencjami.",
       s3TipsTitle: "Wskazówki dla najlepszych wyników",
-      s3TipsDesc: "Korzystaj z kombinacji filtrów i wypróbuj różne słowniki, aby poradzić sobie z najtrudniejszymi łamigłówkami."
+      s3TipsDesc: "Korzystaj z kombinacji filtrów i wypróbuj różne słowniki, aby poradzić sobie z najtrudniejszymi łamigłówkami.",
+      faqSectionTitle: "Najczęściej zadawane pytania",
+      faqSectionDesc: "Szybkie odpowiedzi na najczęściej zadawane pytania.",
+      faq1Q: "Czy UnscramblWords jest darmowy?",
+      faq1A: "Tak. UnscramblWords jest całkowicie darmowy, bez konieczności zakładania konta czy rejestracji.",
+      faq2Q: "Jakie języki obsługuje UnscramblWords?",
+      faq2A: "Dziesięć języków: angielski, francuski, niemiecki, włoski, hiszpański, portugalski, turecki, rosyjski, polski i arabski.",
+      faq3Q: "Skąd pochodzą listy słów?",
+      faq3A: "Każdy język ma własny słownik, zbudowany z prawdziwych, publicznie dostępnych list słów, ręcznie sprawdzonych pod kątem duplikatów, obcojęzycznych zanieczyszczeń i niestandardowych wpisów — dzięki temu wyniki odzwierciedlają rzeczywiście poprawne słowa w danym języku.",
+      faq4Q: "Czy mogę wyszukiwać według liter początkowych lub końcowych?",
+      faq4A: "Tak. Skorzystaj z opcji filtrowania, aby wyszukiwać według litery początkowej, końcowej, liter, które słowo musi zawierać, oraz długości słowa.",
+      faq5Q: "Czy UnscramblWords obsługuje dzikie karty lub puste litery?",
+      faq5A: "Obecnie nie. To znane ograniczenie, którym możemy zająć się w przyszłej aktualizacji.",
+      faq6Q: "Dlaczego brakuje słowa, którego się spodziewałem?",
+      faq6A: "Nasze słowniki są obszerne, ale niewyczerpujące, i nieustannie je przeglądamy i ulepszamy. Jeśli popularne słowo wydaje się brakować, może po prostu nie zostało jeszcze dodane do listy dla danego języka.",
+      faq7Q: "Czy przechowujecie moją historię wyszukiwania lub dane osobowe?",
+      faq7A: "Konto nie jest wymagane i nie przechowujemy historii wyszukiwania powiązanej z Twoją tożsamością. Podobnie jak większość stron internetowych, używamy plików cookie i narzędzi analitycznych, aby zrozumieć ogólne korzystanie z serwisu — szczegóły znajdziesz w naszej Polityce Prywatności.",
+      faq8Q: "Czy mogę używać tego narzędzia do Scrabble, Words with Friends lub podobnych gier?",
+      faq8A: "Tak, narzędzie dobrze sprawdza się przy Scrabble, Words with Friends i wielu innych grach słownych. UnscramblWords jest niezależnym narzędziem i nie jest oficjalnie powiązany z Hasbro, Mattel ani Zyngą."
     },
     blog: {
       backToBlog: "Powrót do Bloga",
@@ -918,6 +1124,7 @@ export const translations = {
       wordCopied: "تم نسخ الكلمة",
       copyFailed: "فشل النسخ",
       loadingDict: "تحميل القاموس للمرة الأولى، يرجى الانتظار...",
+      expandingDictionary: "لا يزال القاموس الكامل قيد التحميل في الخلفية — قد لا تتضمن النتائج بعد جميع أشكال الكلمات.",
       seoTitle: "مفكك الكلمات - ابحث عن الكلمات فوراً | UnscramblWords",
       seoDescription: "مفكك كلمات مجاني. ابحث فوراً عن جميع الكلمات الصالحة. مثالي لسكرابل والكلمات المتقاطعة وألعاب الكلمات."
     },
@@ -935,6 +1142,11 @@ export const translations = {
       noWordsDesc: "لم نتمكن من العثور على كلمات صالحة. حاول إضافة حروف علة.",
       noMatches: "لا توجد نتائج للفلاتر",
       noMatchesDesc: "حاول مسح بعض الفلاتر للعثور على المزيد من الكلمات."
+    },
+    nav: {
+      blog: "المدونة",
+      help: "المساعدة والأسئلة الشائعة",
+      privacy: "سياسة الخصوصية"
     },
     help: {
       title: "المساعدة والأسئلة الشائعة",
@@ -972,7 +1184,25 @@ export const translations = {
       s3Step4Title: "فرز ذكي",
       s3Step4Desc: "يتم ترتيب النتائج حسب الطول أو النقاط.",
       s3TipsTitle: "نصائح لأفضل النتائج",
-      s3TipsDesc: "استخدم مزيجاً من الفلاتر لحل أصعب الألغاز."
+      s3TipsDesc: "استخدم مزيجاً من الفلاتر لحل أصعب الألغاز.",
+      faqSectionTitle: "الأسئلة الشائعة",
+      faqSectionDesc: "إجابات سريعة على الأسئلة الأكثر شيوعاً.",
+      faq1Q: "هل UnscramblWords مجاني؟",
+      faq1A: "نعم. UnscramblWords مجاني بالكامل، ولا يتطلب حساباً أو تسجيلاً.",
+      faq2Q: "ما هي اللغات التي يدعمها UnscramblWords؟",
+      faq2A: "عشر لغات: الإنجليزية والفرنسية والألمانية والإيطالية والإسبانية والبرتغالية والتركية والروسية والبولندية والعربية.",
+      faq3Q: "من أين تأتي قوائم الكلمات؟",
+      faq3A: "لكل لغة قاموسها الخاص، مبني من قوائم كلمات حقيقية ومتاحة للعامة، وتم فحصها يدوياً لإزالة التكرارات والتلوث من لغات أخرى والمداخل غير القياسية، بحيث تعكس النتائج كلمات صحيحة فعلاً في تلك اللغة.",
+      faq4Q: "هل يمكنني البحث حسب الأحرف الأولى أو الأخيرة؟",
+      faq4A: "نعم. استخدم خيارات الفلترة للبحث حسب الحرف الأول، الحرف الأخير، الأحرف التي يجب أن تحتويها الكلمة، وطول الكلمة.",
+      faq5Q: "هل يدعم UnscramblWords الأحرف البديلة أو القطع الفارغة؟",
+      faq5A: "ليس حالياً. هذا قيد معروف قد نعالجه في تحديث مستقبلي.",
+      faq6Q: "لماذا تكون كلمة كنت أتوقعها غائبة عن النتائج؟",
+      faq6A: "قواميسنا واسعة لكنها ليست شاملة، ونواصل مراجعتها وتحسينها. إذا بدت كلمة شائعة مفقودة، فقد لا تكون قد أُضيفت بعد إلى قائمة تلك اللغة.",
+      faq7Q: "هل تحتفظون بسجل بحثي أو بياناتي الشخصية؟",
+      faq7A: "لا حاجة لحساب، ولا نحتفظ بسجل بحثك مرتبطاً بهويتك. مثل معظم المواقع، نستخدم ملفات تعريف الارتباط وأدوات التحليل لفهم الاستخدام العام — راجع سياسة الخصوصية لدينا للتفاصيل.",
+      faq8Q: "هل يمكنني استخدام هذه الأداة لسكرابل أو Words with Friends أو ألعاب مشابهة؟",
+      faq8A: "نعم، تعمل الأداة بشكل جيد جنباً إلى جنب مع سكرابل و Words with Friends والعديد من ألعاب الكلمات الأخرى. UnscramblWords أداة مستقلة وغير مرتبطة رسمياً بشركات Hasbro أو Mattel أو Zynga."
     },
     blog: {
       backToBlog: "العودة إلى المدونة",
