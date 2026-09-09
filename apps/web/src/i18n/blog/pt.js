@@ -420,13 +420,13 @@ export const pt = [
         { id: "acumular-bonus", label: "Combinar uma Jogada de Âncora com uma Casa Premium" }
       ],
       body: [
-        "Escrito e verificado pela equipa UnscramblWords.",
         { type: 'heading', id: "o-que-e-uma-ancora", text: "O Que é Realmente uma Letra-Âncora" },
         "Uma âncora é simplesmente uma letra já colocada no tabuleiro através da qual, ou à volta da qual, a sua nova palavra pode ser construída -- em vez de jogar num espaço livre. Em vez de tratar as suas letras como um puzzle isolado, fixa uma letra do tabuleiro e procura palavras de sete letras que passem por ela na posição certa. Isto transforma \"que palavras de sete letras consigo formar?\" na pergunta muito mais útil \"que palavras de sete letras consigo formar que também encaixem aqui?\"",
         { type: 'heading', id: "pesquisar-ancora-comprimento", text: "Pesquisar por Âncora e Comprimento em Conjunto" },
         "Na prática: identifique a posição da letra-âncora na palavra de que precisa (primeira letra, última letra, ou algures no meio), insira as suas letras, defina o filtro de comprimento exatamente para 7, e adicione um filtro \"começa por\" ou \"termina em\" para a âncora, se esta estiver numa das extremidades. No nosso próprio dicionário há 64.818 palavras de exatamente sete letras -- pesquisar sem qualquer restrição de tabuleiro deixa-o a percorrer todas elas, enquanto adicionar o filtro de âncora reduz isso apenas às jogadas realmente possíveis.",
         { type: 'heading', id: "acumular-bonus", text: "Combinar uma Jogada de Âncora com uma Casa Premium" },
-        "As pontuações mais altas numa única jogada vêm de acumular bónus em vez de perseguir apenas um: uma palavra de sete letras já ganha o bónus fixo de 50 pontos por Scrabble completo, e se ao mesmo tempo atravessar uma casa de palavra a dobrar ou triplicar, esse multiplicador aplica-se a toda a palavra, além dos 50 pontos. Se as suas letras incluírem uma de alto valor como X ou Z, vale a pena verificar se alguma jogada de âncora válida permite que essa letra específica caia na sua própria casa premium, em vez de se contentar com a primeira palavra de sete letras encontrada."
+        "As pontuações mais altas numa única jogada vêm de acumular bónus em vez de perseguir apenas um: uma palavra de sete letras já ganha o bónus fixo de 50 pontos por Scrabble completo, e se ao mesmo tempo atravessar uma casa de palavra a dobrar ou triplicar, esse multiplicador aplica-se a toda a palavra, além dos 50 pontos. Se as suas letras incluírem uma de alto valor como X ou Z, vale a pena verificar se alguma jogada de âncora válida permite que essa letra específica caia na sua própria casa premium, em vez de se contentar com a primeira palavra de sete letras encontrada.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "Qual é a diferença entre uma âncora e um encaixe?", answer: "Um encaixe geralmente refere-se a adicionar uma única letra a uma palavra existente para formar uma nova. Uma âncora é o conceito mais amplo: qualquer letra do tabuleiro através da qual a sua nova palavra é construída, seja um simples encaixe ou uma palavra inteira que passa por uma letra central." },
@@ -452,13 +452,13 @@ export const pt = [
         { id: "filtros-para-vencer", label: "Usar os Filtros para Encontrar a Jogada Certa" }
       ],
       body: [
-        "Escrito e verificado pela equipa UnscramblWords.",
         { type: 'heading', id: "porque-ferramenta-dedicada", text: "Porque É Preciso uma Ferramenta Dedicada ao Português" },
         "Uma ferramenta genérica, pensada sobretudo para o inglês, raramente reconhece as particularidades do português. O nosso próprio dicionário tem quase 2,9 milhões de palavras, construído a partir de fontes reais em vez de traduzido mecanicamente de uma lista noutra língua.",
         { type: 'heading', id: "europeu-e-brasileiro", text: "Português Europeu e Brasileiro: Duas Normas, Um Dicionário" },
         "O português tem duas variantes principais com diferenças ortográficas reais -- por exemplo, algumas palavras têm grafias distintas em Portugal e no Brasil. Em vez de forçar os jogadores a escolher uma única variante, o nosso dicionário foi construído combinando fontes de ambas, aceitando palavras genuínas de qualquer uma delas. Uma ferramenta baseada apenas numa das variantes rejeitaria injustamente palavras válidas da outra.",
         { type: 'heading', id: "filtros-para-vencer", text: "Usar os Filtros para Encontrar a Jogada Certa" },
-        "O filtro \"começa por\" ajuda a construir a partir de uma letra já presente no tabuleiro. X e Z são as letras de maior valor no português, com 8 pontos cada. Usar os filtros para encontrar palavras que aproveitem estas letras numa casa premium é frequentemente a diferença entre uma jogada comum e uma jogada vencedora."
+        "O filtro \"começa por\" ajuda a construir a partir de uma letra já presente no tabuleiro. X e Z são as letras de maior valor no português, com 8 pontos cada. Usar os filtros para encontrar palavras que aproveitem estas letras numa casa premium é frequentemente a diferença entre uma jogada comum e uma jogada vencedora.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "O dicionário aceita palavras de Portugal e do Brasil?", answer: "Sim -- foi construído combinando fontes de ambas as variantes, para aceitar palavras genuínas de qualquer uma delas." },
@@ -484,13 +484,13 @@ export const pt = [
         { id: "curinga-letras-valiosas", label: "Usar um Curinga com Letras Valiosas" }
       ],
       body: [
-        "Escrito e verificado pela equipa UnscramblWords.",
         { type: 'heading', id: "como-funciona-curinga", text: "Como Funciona Realmente uma Pesquisa com Curinga" },
         "Insira um ponto de interrogação (?) em qualquer parte da sua pesquisa para representar uma letra em branco, e a ferramenta verifica cada letra do alfabeto nessa posição em vez de o deixar adivinhar qual encaixa. Por exemplo, pesquisar M?TA devolve corretamente META e MATA -- o curinga representa mesmo qualquer letra, testada sistematicamente em vez de aproximada.",
         { type: 'heading', id: "comprimento-deve-corresponder", text: "Porque o Número de Letras Tem de Corresponder" },
         "O número de letras inseridas, curinga incluído, tem de corresponder ao comprimento de qualquer palavra devolvida pela pesquisa. Uma pesquisa de seis letras só pode devolver palavras de seis letras -- uma palavra de oito letras simplesmente não pode sair de um conjunto de seis letras, independentemente de como o curinga é usado.",
         { type: 'heading', id: "curinga-letras-valiosas", text: "Usar um Curinga com Letras Valiosas" },
-        "Um curinga combina particularmente bem com uma letra valiosa que de outro modo é difícil de colocar. X e Z são as letras de maior valor no português, com 8 pontos cada. XADREZ e XAROPE são palavras reais e verificadas que aproveitam esta letra no dia a dia, especialmente úteis quando um curinga completa a palavra."
+        "Um curinga combina particularmente bem com uma letra valiosa que de outro modo é difícil de colocar. X e Z são as letras de maior valor no português, com 8 pontos cada. XADREZ e XAROPE são palavras reais e verificadas que aproveitam esta letra no dia a dia, especialmente úteis quando um curinga completa a palavra.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "Como pesquiso usando uma letra em branco?", answer: "Insira um ponto de interrogação (?) na posição da sua letra em branco. A ferramenta testa cada letra do alfabeto nesse lugar e devolve cada resultado válido." },
@@ -516,13 +516,13 @@ export const pt = [
         { id: "q-sempre-precisa-u", label: "O Q em Português: Quase Sempre Precisa de U" }
       ],
       body: [
-        "Escrito e verificado pela equipa UnscramblWords.",
         { type: 'heading', id: "plurais-nasais-bingo", text: "Plurais Nasais: um Caminho Real para o Bingo" },
         "O português forma muitos plurais com terminações nasais -- -ÕES, -ÃES e -ÃOS -- e esta é uma das formas mais fiáveis de completar um rack quase pronto para um Scrabble completo. No nosso próprio dicionário há 453 palavras terminadas em -ÕES, um padrão genuinamente produtivo. CAPITÃES (capitães) e BENÇÃOS (bênçãos) são exemplos reais de exactamente sete letras -- não curiosidades técnicas, mas palavras do dia a dia que fecham um rack com o bónus completo.",
         { type: 'heading', id: "pesquisa-por-padrao", text: "Pesquisa por Padrão para Palavras Cruzadas" },
         "Nas palavras cruzadas, muitas vezes já sabe algumas letras mas não todas. Uma pesquisa por padrão resolve isto diretamente: usar ?????MENTE (cinco letras desconhecidas seguidas do sufixo conhecido) encontra advérbios reais como ALTAMENTE e FORTEMENTE, ambos confirmados no nosso dicionário. Esta técnica funciona com qualquer sufixo ou prefixo conhecido, transformando um espaço vazio numa lista curta de candidatos reais em vez de uma tentativa às cegas.",
         { type: 'heading', id: "q-sempre-precisa-u", text: "O Q em Português: Quase Sempre Precisa de U" },
-        "Ao contrário do inglês, onde existem palavras genuínas como QAT ou QI sem U a seguir ao Q, o português praticamente não tem exceções a esta regra -- no nosso próprio dicionário, a única entrada com Q sem U é um empréstimo raro. Se tiver um Q na mão sem um U disponível, a estratégia mais fiável é normalmente trocar a peça em vez de esperar por uma exceção que quase não existe."
+        "Ao contrário do inglês, onde existem palavras genuínas como QAT ou QI sem U a seguir ao Q, o português praticamente não tem exceções a esta regra -- no nosso próprio dicionário, a única entrada com Q sem U é um empréstimo raro. Se tiver um Q na mão sem um U disponível, a estratégia mais fiável é normalmente trocar a peça em vez de esperar por uma exceção que quase não existe.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "Os plurais nasais são realmente úteis para encontrar um Scrabble completo?", answer: "Sim -- há 453 palavras terminadas em -ÕES no nosso dicionário, e CAPITÃES e BENÇÃOS são exemplos reais de exatamente sete letras." },
@@ -549,7 +549,6 @@ export const pt = [
         { id: "palavras-longas", label: "Como lidar com as palavras longas do turco" }
       ],
       body: [
-        "Escrito e verificado pela equipa da UnscramblWords.",
         { type: 'heading', id: "tamanho-dicionario", text: "Qual é a dimensão do dicionário turco?" },
         "Os jogos de puzzle representam 96,9% das receitas dos programadores móveis turcos, segundo o relatório de 2026 da AppMagic \"Türkiye's Mobile Gaming Landscape\" -- um mercado verdadeiramente grande e competitivo. Ainda assim, a maioria das ferramentas de desencriptação de palavras é concebida para o inglês e apenas adaptada mais tarde, o que se nota de imediato com texto turco.",
         { type: 'heading', id: "i-com-ponto-sem-ponto", text: "Duas letras, não uma: İ e ı" },
@@ -559,7 +558,8 @@ export const pt = [
         { type: 'heading', id: "valores-letras", text: "Valores de letras a conhecer" },
         "O J é a letra mais valiosa do Scrabble turco, com 10 pontos -- rara, mas vale a pena guardá-la para uma casa de bónus. O Ğ, pelo contrário, é suficientemente comum (surge em palavras do dia a dia como DAĞ e YAĞ) para não dever ser tratado como precioso.",
         { type: 'heading', id: "palavras-longas", text: "Como lidar com as palavras longas do turco" },
-        "O turco é uma língua aglutinante: cadeias de sufixos juntam-se a uma raiz para construir rapidamente palavras longas. Uma ferramenta com filtros \"começa por\" ou \"termina em\", combinada com um dicionário turco verdadeiramente completo, torna muito mais fácil encontrar estas palavras longas do que percorrer as letras manualmente."
+        "O turco é uma língua aglutinante: cadeias de sufixos juntam-se a uma raiz para construir rapidamente palavras longas. Uma ferramenta com filtros \"começa por\" ou \"termina em\", combinada com um dicionário turco verdadeiramente completo, torna muito mais fácil encontrar estas palavras longas do que percorrer as letras manualmente.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "O İ com ponto e o ı sem ponto são mesmo diferentes?", answer: "Sim -- são duas letras distintas em turco, com sons e regras de jogo diferentes." },
@@ -586,7 +586,6 @@ export const pt = [
         { id: "palavras-compostas", label: "Encontrar palavras compostas através de prefixos e sufixos" }
       ],
       body: [
-        "Escrito e verificado pela equipa da UnscramblWords.",
         { type: 'heading', id: "tamanho-dicionario", text: "Qual é a dimensão real do dicionário alemão?" },
         "A lista oficial de palavras de torneio da Alemanha -- a Offizielle Turnierwörterliste, mantida pela Scrabble Deutschland e.V. -- contém 184.243 palavras na sua edição de 1 de maio de 2025, com até nove letras. É um número real e verificável de forma independente, não uma estimativa arredondada. Uma ferramenta dedicada ao alemão deveria basear-se num vocabulário verdadeiramente completo como este, em vez de uma lista genérica que por acaso inclui algumas palavras alemãs.",
         { type: 'heading', id: "eszett-tremas", text: "O Eszett e os tremas: tratar corretamente os caracteres especiais" },
@@ -594,7 +593,8 @@ export const pt = [
         { type: 'heading', id: "valores-frequencia-letras", text: "Valores e frequência das letras: o que é realmente raro" },
         "No Scrabble alemão, o Q e o Y estão empatados no valor mais alto, com 10 pontos cada, seguidos de perto pelo X com 8. No outro extremo, o E é de longe a letra mais comum -- existem realmente 15 peças E num jogo padrão, mais do dobro da letra seguinte mais comum. Saber isto orienta a estratégia em ambos os sentidos: guarde um Q ou um Y para uma boa oportunidade, mas não seja poupado com um E, já que existem muitos mais.",
         { type: 'heading', id: "palavras-compostas", text: "Encontrar palavras compostas através de prefixos e sufixos" },
-        "Os famosos substantivos compostos e as longas formas verbais do alemão tornam-se menos intimidantes assim que se reconhecem os seus elementos constituintes. Os particípios passados começam frequentemente por GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), e os substantivos abstratos terminam frequentemente em -HEIT ou -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ou em -UNG. Pesquisar com um filtro \"começa por\" ou \"termina em\" para estes padrões transforma uma palavra longa e intimidante numa pesquisa muito mais pequena e gerível."
+        "Os famosos substantivos compostos e as longas formas verbais do alemão tornam-se menos intimidantes assim que se reconhecem os seus elementos constituintes. Os particípios passados começam frequentemente por GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), e os substantivos abstratos terminam frequentemente em -HEIT ou -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ou em -UNG. Pesquisar com um filtro \"começa por\" ou \"termina em\" para estes padrões transforma uma palavra longa e intimidante numa pesquisa muito mais pequena e gerível.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "Quantas palavras tem o dicionário oficial do Scrabble alemão?", answer: "184.243, segundo a edição de 1 de maio de 2025 da Offizielle Turnierwörterliste mantida pela Scrabble Deutschland e.V. -- um número real e verificável." },
@@ -622,7 +622,6 @@ export const pt = [
         { id: 'letras-mais-dificeis', label: "As letras mais difíceis" }
       ],
       body: [
-        "Escrito e verificado pela equipa do UnscramblWords, com cada palavra confirmada diretamente no nosso próprio dicionário.",
         { type: 'heading', id: 'o-que-e-um-gancho', text: "O que é uma palavra-gancho?" },
         "Um gancho consiste em juntar uma única letra ao início ou ao fim de uma palavra já colocada no tabuleiro. Vale a pena, porque se pontua pela nova palavra e também pelo valor total da palavra já existente.",
         { type: 'heading', id: 'ganchos-no-inicio', text: "Ganchos no início" },
@@ -631,7 +630,8 @@ export const pt = [
         "LAVA torna-se LAVAM.",
         { type: 'heading', id: 'letras-mais-dificeis', text: "As letras mais difíceis" },
         "O X e o Z valem 8 pontos cada, os valores mais altos do jogo. O Q vale 6 pontos. Estes valores correspondem à distribuição oficial das letras do Scrabble em português.",
-        "Cada exemplo acima foi confirmado diretamente no dicionário português do UnscramblWords, e não simplesmente dado como certo."
+        "Cada exemplo acima foi confirmado diretamente no dicionário português do UnscramblWords, e não simplesmente dado como certo.",
+        "(Revisto pela equipa do UnscramblWords)"
       ],
       faq: [
         { question: "O que é uma palavra-gancho no Scrabble?", answer: "Uma palavra-gancho forma-se acrescentando uma única letra ao início ou ao fim de uma palavra já colocada, criando uma nova palavra válida e pontuando também pela original." },

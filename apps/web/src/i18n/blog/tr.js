@@ -182,7 +182,6 @@ export const tr = [
       title: "Kelime Çözücü: Her Türlü Harf Bulmacasını Çözmenin Eksiksiz Rehberi",
       excerpt: "Kelime arama araçlarının nasıl çalıştığı, yüksek puanlı hamlelerin ardındaki strateji ve filtrelerin etkili kullanımı.",
       body: [
-        "Bu sitedeki içerikler yapay zekâ desteğiyle hazırlanır ve UnscramblWords ekibi tarafından düzenli olarak gözden geçirilir.",
         "Süre daralırken elinizde bir Q ve bir Z ile kalakalmak, kelime oyunlarındaki en yaygın hayal kırıklıklarından biridir. Bir kelime çözücü, bu harf karmaşasını oynanabilir kelimelerden oluşan net bir listeye dönüştürür — ama bu araçların nasıl çalıştığını anlamak ve onları iyi kullanmayı bilmek, basit bir çözümle gerçek bir stratejik avantaj arasındaki farkı yaratır.",
         "Bir kelime çözücü, karışık bir harf kümesini alır ve belirli bir sözlüğe göre denetlenmiş, bu harflerden oluşturulabilecek tüm geçerli kelimeleri bulur. Bunun temelinde bir permütasyon araması yatar: araç, girdiğiniz harfleri bir kelime listesindeki her girişle karşılaştırır ve genellikle uzunluğa veya puan değerine göre sıralanmış eşleşmeleri döndürür. Boş taşlarla oynuyorsanız, çoğu araç herhangi bir harfin yerine geçen bir joker karakteri, genellikle soru işareti veya yıldız işareti, destekler.",
         "Bu araçlar yalnızca Scrabble ile sınırlı değildir. Çapraz bulmacalarda, günlük harf bulmacalarında veya Wordle gibi oyunlarda bir tahmini daraltmak için sıkça kullanılırlar. Dil öğreniminde de faydalıdırlar, çünkü bir harf kümesinden oluşturulabilecek tüm geçerli kelimeleri görmek, aksi hâlde fark edilmeyecek yazım kalıplarını ve kelime ailelerini ortaya çıkarır.",
@@ -195,7 +194,8 @@ export const tr = [
         "Boş bir taş için joker nasıl kullanılır? Boş bir taşı temsil etmek için arama alanına soru işareti veya yıldız işareti girin. Araç, o konum için olası tüm harfleri hesaplar. Standart bir Scrabble setinde iki boş taş bulunur, bu yüzden çoğu araç tek bir aramada iki joker kullanmanıza izin verir.",
         "UnscramblWords Türkçe dışında başka dilleri de destekliyor mu? Evet — site, İngilizce, Fransızca, İspanyolca, Almanca ve İtalyanca dahil 10 dili destekler; her biri kendi referans sözlüğüne göre denetlenir.",
         "Aynı anda kaç harf aranabilir? Sabit bir sınır yoktur — araç, alfabenin 26 harfinin tamamı aynı anda girildiğinde bile sonuç döndürecek şekilde test edilmiştir. Kısa bir harf karmaşasından uzun bir ifadeye kadar her boyutu rahatlıkla işleyebilir.",
-        "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük, Türkçe kelime oyunlarında resmi referans kaynağı olarak kullanılmaktadır."
+        "Kaynaklar: Türk Dil Kurumu (TDK) tarafından yayımlanan Güncel Türkçe Sözlük, Türkçe kelime oyunlarında resmi referans kaynağı olarak kullanılmaktadır.",
+        "(Bu içerik yapay zekâ desteğiyle hazırlanmış olup UnscramblWords ekibi tarafından düzenli olarak gözden geçirilir)"
       ]
     },
     {
@@ -204,7 +204,6 @@ export const tr = [
       title: "En İyi Kelime Bulucuyu Seçmek ve Kullanmak",
       excerpt: "Kelime bulucular gerçekte nasıl çalışır, iyi bir araç ile basit bir anagram listesi arasındaki fark nedir ve tahtanıza uyan hamleyi bulmak için filtreler nasıl stratejik kullanılır.",
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve gözden geçirilmiştir.",
         "En iyi kelime oyunu oyuncuları sadece sözlük ezberlemez — rakiplerinin gözden kaçırdığı hamleleri bulmak için hassas araçlar kullanır. İyi bir kelime bulucu hile yapmak için değil, karışık harfleri hızlıca net seçeneklere dönüştürmek için vardır, üstelik karmaşık bir arayüz işi yavaşlatmadan. Bu rehber, bu araçların nasıl çalıştığını, iyi bir araçta nelere dikkat etmeniz gerektiğini ve filtreleri uzun bir sonuç listesinde gezinmek yerine stratejik şekilde nasıl kullanacağınızı anlatıyor.",
         "Temelde araç, girdiğiniz harfleri alır ve olası her kombinasyonu bir sözlükle karşılaştırarak yalnızca geçerli kelimeleri gösterir. Basit araçlar sadece harflerinizi karıştırır. Daha iyi araçlar bu listeyi daraltmanıza izin verir — uzunluğa, başlangıç veya bitiş harfine ya da içermesi gereken harflere göre — böylece tahtanızda gerçekten boş bir yere uyan hamleyi bulmak için yüzlerce sonucu taramanız gerekmez.",
         "Asıl zorluk, dolu bir tahtaya bir kelimeyi sığdırmaktır. Tahtada zaten 'R' ile başlayan bir kelime varsa, sonuçları 'R ile başlayan' olarak filtrelemek seçenekleri anında bu kelimeye bağlanabilecek hamlelere indirger. Joker de ayrıca değinilmeyi hak ediyor: herhangi bir harfin yerine geçebilir, ama hangi harfin en iyi kelimeyi verdiğini elle bulmak zaman alır. Arama alanına girilen bir soru işareti, aracın alfabedeki tüm harfleri otomatik olarak denemesini sağlamalıdır.",
@@ -220,7 +219,8 @@ export const tr = [
         "Bu araç joker destekliyor mu? Evet — bir jokeri temsil etmek için arama alanına soru işareti girin, araç bu konumdaki alfabenin her harfini dener.",
         "Harflerimin tüm yedisini birden oynayıp oynayamayacağımı kontrol edebilir miyim? Uzunluk filtresini 7'ye ayarlayarak mevcut rafınızın buna izin verip vermediğini görün. Yedi başlangıç harfinizin hepsi elinizdeyken her turda bunu kontrol etmeye değer — 50 puanlık bonus genellikle kazanmakla kaybetmek arasındaki farkı yaratır.",
         "Bu araç Türkçe dışındaki dillerde de çalışır mı? Evet — UnscramblWords 10 dili destekler ve diller arasında geçiş, sayfayı yeniden yüklemeden aynı ekrandan bir anda yapılır.",
-        "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı ve güncel kelime geçerliliği üzerine."
+        "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı ve güncel kelime geçerliliği üzerine.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ]
     },
     {
@@ -229,7 +229,6 @@ export const tr = [
       title: "Yedi Harfi Birden Oynamak: Büyük Bonusun Rehberi",
       excerpt: "Yaygın kelime kökleri, eklemeler ve filtrelerle yedi harfli hamleleri daha hızlı nasıl fark edersiniz — ve 50 puanlık bonusun arkasındaki gerçek sayılar.",
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve gözden geçirilmiştir.",
         "Rafınızdaki yedi harfin tamamını tek hamlede oynamak, genellikle sıkı bir kayıp ile net bir galibiyet arasındaki farkı yaratır. Bunu yapmak, kelimenin kendi puanına ek olarak sabit 50 puanlık bir bonus kazandırır — bu yüzden yalnızca birer puanlık harflerden oluşan mütevazı bir kelime bile, yüksek değerli bir harf etrafında kurulmuş daha kısa bir hamleden daha fazla puan getirebilir.",
         "Yaygın harflerden oluşan raflar — E, A, R, I, O, T, N ve S — en iyi şansı sunar, çünkü bu harfler çok sayıda yedi harfli kelimede geçer. J, Q, X veya Z gibi nadir harflerle dolu raflar böyle bir hamle üretme ihtimali çok daha düşüktür, ama yine de hiçbir şey olmadığını varsaymadan önce uzunluk filtresiyle kontrol etmek işe yarar.",
         "Deneyimli oyuncular yedi harfi bir bütün olarak taramak yerine, tanıdık parçalara ayırır. Belirli altı harfli kelime kökleri özellikle verimlidir ve -LIK/-LİK, -MEK/-MAK gibi yaygın ekler ile yeniden yapılandırılmış kökler, elinizde zaten bulunan beş veya altı harfli bir kökü, sadece bir veya iki harf ekleyerek tam bir yedi harfli hamleye dönüştürür.",
@@ -242,7 +241,8 @@ export const tr = [
         "Kaç tane yedi harfli kelime var? Bu, hangi sözlüğü ve hangi dili kullandığınıza bağlıdır.",
         "Bu araç joker destekliyor mu? Evet — arama alanına bir soru işareti girin, alfabedeki her harfi bu konumda dener.",
         "Başka dillerde de yedi harfli kelime arayabilir miyim? Evet — UnscramblWords 10 dili destekler ve diller arasında geçiş aynı ekrandan bir anda yapılır.",
-        "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı üzerine."
+        "Kaynaklar: Türk Dil Kurumu (TDK) Güncel Türkçe Sözlük, noktalı/noktasız İ-I ayrımı üzerine.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ]
     },
     {
@@ -264,7 +264,6 @@ export const tr = [
         { id: "j-kelime-bulma", label: "UnscramblWords ile J Kelimeleri Bulma" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
         { type: 'heading', id: "neden-j-degerli", text: "J Harfi Neden Bu Kadar Değerli" },
         "Türk alfabesinde Q, W ve X harfleri bulunmaz — bu yüzden Türkçe Scrabble'da en nadir ve en değerli harf J'dir: 10 puan, oyundaki en yüksek değer. Kendi sözlüğümüzde 42.745 kelimeden sadece 41'i J ile başlıyor.",
         { type: 'heading', id: "kisa-j-kelimeleri", text: "Kısa J Kelimeleri" },
@@ -274,7 +273,8 @@ export const tr = [
         { type: 'heading', id: "uzun-j-kelimeleri", text: "Uzun Kelimeler ve Tam Bingo" },
         "Tam bir Bingo için (rakınızdaki yedi harfin tamamını kullanarak 50 puan bonusu kazanmak), JEOLOJİ (yer bilimi) ve JAPONCA (Japon dili) tam olarak yedi harften oluşan gerçek, doğrulanmış kelimelerdir — belirsiz teknik terimler değil.",
         { type: 'heading', id: "j-kelime-bulma", text: "UnscramblWords ile J Kelimeleri Bulma" },
-        "Bu listeyi oyun sırasında hafızadan hatırlamaya çalışmak yerine, \"İle Başlayan\" filtremiz işi doğrudan halleder: harflerinizi girin, J ile başlayan kelimelere göre filtreleyin ve tahmin etmek yerine her geçerli sonucu görün. Aynı yaklaşım aracın desteklediği 10 dilin tamamında aynı şekilde çalışır."
+        "Bu listeyi oyun sırasında hafızadan hatırlamaya çalışmak yerine, \"İle Başlayan\" filtremiz işi doğrudan halleder: harflerinizi girin, J ile başlayan kelimelere göre filtreleyin ve tahmin etmek yerine her geçerli sonucu görün. Aynı yaklaşım aracın desteklediği 10 dilin tamamında aynı şekilde çalışır.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Türkçe Scrabble'da J harfi kaç puan değerinde?", answer: "10 puan — oyundaki en yüksek değer. Bunun nedeni, Q, W ve X harflerinin Türk alfabesinde hiç bulunmaması ve J'nin bu nedenle en nadir harf olmasıdır." },
@@ -300,13 +300,13 @@ export const tr = [
         { id: "bonuslari-birlestirmek", label: "Çapa Hamlesini Prim Karesiyle Birleştirmek" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
         { type: 'heading', id: "capa-nedir", text: "Çapa Harfi Gerçekte Nedir" },
         "Çapa, tahtada zaten duran ve yeni kelimenizin üzerinden veya etrafından inşa edilebileceği bir harftir -- boş bir alana oynamanın aksine. Rakınızı bağımsız bir bulmaca gibi ele almak yerine, bir tahta harfini sabit tutar ve doğru pozisyonda o harfin üzerinden geçen yedi harfli kelimeler ararsınız. Bu, 'hangi yedi harfli kelimeleri yapabilirim?' sorusunu çok daha kullanışlı olan 'burada da yerleşecek hangi yedi harfli kelimeleri yapabilirim?' sorusuna dönüştürür.",
         { type: 'heading', id: "capa-uzunluk-arama", text: "Çapa ve Uzunluğa Göre Birlikte Arama" },
         "Pratikte: ihtiyacınız olan kelimedeki çapa harfinin pozisyonunu not edin (ilk harf, son harf veya ortada bir yer), rakınızdaki harfleri girin, uzunluk filtresini tam olarak 7'ye ayarlayın ve çapa uçlardan birindeyse \"ile başlayan\" veya \"ile biten\" filtresi ekleyin. Kendi sözlüğümüzde tam olarak yedi harften oluşan 6.432 kelime var -- tahta kısıtlaması olmadan arama yapmak hepsini taramanızı gerektirir, çapa filtresi eklemek ise bunu yalnızca gerçekten oynanabilir hamlelere indirger.",
         { type: 'heading', id: "bonuslari-birlestirmek", text: "Çapa Hamlesini Prim Karesiyle Birleştirmek" },
-        "Tek hamledeki en büyük skorlar, bonuslardan yalnızca birini kovalamak yerine onları üst üste bindirmekten gelir: yedi harfli bir kelime zaten 50 puanlık sabit tam Scrabble bonusunu kazandırır, ve aynı anda çift veya üç katı kelime karesinden geçerse, bu çarpan 50 puana ek olarak kelimenin tamamına uygulanır. Rakınızda J, Ğ veya Ö gibi yüksek değerli bir harf varsa, ilk bulduğunuz yedi harfli kelimeyle yetinmek yerine, geçerli bir çapa hamlesinin bu belirli harfi kendi prim karesine düşürüp düşürmediğini kontrol etmeye değer."
+        "Tek hamledeki en büyük skorlar, bonuslardan yalnızca birini kovalamak yerine onları üst üste bindirmekten gelir: yedi harfli bir kelime zaten 50 puanlık sabit tam Scrabble bonusunu kazandırır, ve aynı anda çift veya üç katı kelime karesinden geçerse, bu çarpan 50 puana ek olarak kelimenin tamamına uygulanır. Rakınızda J, Ğ veya Ö gibi yüksek değerli bir harf varsa, ilk bulduğunuz yedi harfli kelimeyle yetinmek yerine, geçerli bir çapa hamlesinin bu belirli harfi kendi prim karesine düşürüp düşürmediğini kontrol etmeye değer.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Çapa ile kanca arasındaki fark nedir?", answer: "Kanca genellikle var olan bir kelimeye tek bir harf ekleyerek yeni bir kelime oluşturmayı ifade eder. Çapa daha geniş bir kavramdır: ister basit bir kanca ister ortadaki bir harften geçen tam bir kelime olsun, yeni kelimenizin üzerinden inşa edildiği herhangi bir tahta harfidir." },
@@ -332,13 +332,13 @@ export const tr = [
         { id: "filtrelerle-kazanmak", label: "Doğru Hamleyi Bulmak için Filtreleri Kullanmak" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
         { type: 'heading', id: "neden-ozel-arac", text: "Neden Türkçeye Özel Bir Araç Gerekli" },
         "Ağırlıklı olarak İngilizce için tasarlanmış genel bir kelime çözücü, genellikle Türkçenin kendine özgü yönlerini tanımaz. Kendi sözlüğümüzde 42.745 kelime var, her biri İngilizce bir listeden mekanik olarak çevrilmek yerine tek tek doğrulanmıştır.",
         { type: 'heading', id: "yumusak-g", text: "Ğ: Neden Gerçek Bir Harf" },
         "Ğ (yumuşak g) çoğu durumda ayrı bir ünsüz sesi olarak telaffuz edilmez, genellikle önceki sesli harfi uzatır -- ama Türkçe yazımda gerçek ve ayrı bir harftir. Kendi sözlüğümüzde Ğ içeren 4.711 kelime var, DAĞ (dağ), SAĞ (sağ/canlı) ve YAĞ (yağ) gibi günlük kelimeler dahil. Ğ'yi göz ardı eden bir araç bu kelimeleri ya tanımaz ya da yanlış sonuçlar üretir.",
         { type: 'heading', id: "filtrelerle-kazanmak", text: "Doğru Hamleyi Bulmak için Filtreleri Kullanmak" },
-        "\"İle başlayan\" filtresi, tahtada zaten bulunan bir harften inşa etmeye yardımcı olur. J, Türkçe Scrabble'da 10 puan değerinde -- oyundaki en yüksek değer. Bu yüksek değerli harfleri bir prim karesinde değerlendiren kelimeleri bulmak için filtreleri kullanmak, sıradan bir hamle ile kazanan bir hamle arasındaki farkı yaratır."
+        "\"İle başlayan\" filtresi, tahtada zaten bulunan bir harften inşa etmeye yardımcı olur. J, Türkçe Scrabble'da 10 puan değerinde -- oyundaki en yüksek değer. Bu yüksek değerli harfleri bir prim karesinde değerlendiren kelimeleri bulmak için filtreleri kullanmak, sıradan bir hamle ile kazanan bir hamle arasındaki farkı yaratır.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Ğ gerçekten ayrı bir harf mi?", answer: "Evet -- çoğu durumda ayrı bir ünsüz sesi olarak telaffuz edilmese de, Türkçe yazımda ve Scrabble'da gerçek ve ayrı bir harftir." },
@@ -364,13 +364,13 @@ export const tr = [
         { id: "joker-degerli-harfler", label: "Jokeri Değerli Harflerle Kullanmak" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
         { type: 'heading', id: "joker-arama-nasil-calisir", text: "Joker Araması Gerçekte Nasıl Çalışır" },
         "Örneğin, K?Z araması doğru şekilde KAZ (kaz) sonucunu verir -- joker gerçekten herhangi bir harfi temsil eder, yaklaşık değil sistematik olarak test edilir.",
         { type: 'heading', id: "uzunluk-eslesmeli", text: "Neden Harf Sayısı Eşleşmelidir" },
         "Girilen harf sayısı, joker dahil, aramanın döndürdüğü herhangi bir kelimenin uzunluğuyla eşleşmelidir. Altı harfli bir arama yalnızca altı harfli kelimeler döndürebilir -- joker nasıl kullanılırsa kullanılsın, sekiz harfli bir kelime altı harfli bir rakadan çıkamaz.",
         { type: 'heading', id: "joker-degerli-harfler", text: "Jokeri Değerli Harflerle Kullanmak" },
-        "Joker, aksi takdirde yerleştirilmesi zor olan değerli bir harfle özellikle iyi eşleşir. J, Türkçe Scrabble'da 10 puan değerinde -- oyundaki en yüksek değer. JÜRİ ve JAMBON, bu harfi etkili şekilde kullanan gerçek, doğrulanmış kelimelerdir; özellikle bir joker kelimeyi tamamladığında faydalıdır."
+        "Joker, aksi takdirde yerleştirilmesi zor olan değerli bir harfle özellikle iyi eşleşir. J, Türkçe Scrabble'da 10 puan değerinde -- oyundaki en yüksek değer. JÜRİ ve JAMBON, bu harfi etkili şekilde kullanan gerçek, doğrulanmış kelimelerdir; özellikle bir joker kelimeyi tamamladığında faydalıdır.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Joker taşı ile nasıl arama yapılır?", answer: "Joker taşınızın pozisyonuna bir soru işareti (?) girin. Araç o pozisyondaki alfabenin her harfini dener ve her geçerli sonucu döndürür." },
@@ -397,7 +397,6 @@ export const tr = [
         { id: "bilesik-kelimeler", label: "Ön Ekler ve Son Ekler ile Bileşik Kelimeler Bulmak" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve doğrulanmıştır.",
         { type: 'heading', id: "gercek-sozluk-buyuklugu", text: "Gerçek Almanca Sözlük Ne Kadar Büyük?" },
         "Almanya'nın resmi turnuva kelime listesi -- Scrabble Deutschland e.V. tarafından tutulan Offizielle Turnierwörterliste -- 1 Mayıs 2025 baskısı itibarıyla, dokuz harfe kadar, 184.243 kelime içerir. Bu, yuvarlanmış bir tahmin değil, gerçek ve bağımsız olarak doğrulanabilir bir sayıdır. Almancaya özel bir kelime çözücü, tesadüfen birkaç Almanca kelime içeren genel bir listeye değil, bunun gibi gerçekten kapsamlı bir kelime dağarcığına dayanmalıdır.",
         { type: 'heading', id: "eszett-ve-umlautlar", text: "Eszett ve Umlaut'lar: Özel Karakterleri Doğru Ele Almak" },
@@ -405,7 +404,8 @@ export const tr = [
         { type: 'heading', id: "harf-degerleri-sikligi", text: "Harf Değerleri ve Sıklığı: Gerçekten Nadir Olan Ne?" },
         "Almanca Scrabble'da Q ve Y en yüksek değerde eşittir, her biri 10 puan; hemen ardından X 8 puanla gelir. Diğer uçta ise E açık ara en yaygın harftir -- standart bir sette gerçekten 15 tane E taşı vardır, bir sonraki en yaygın harfin iki katından fazla. Bunu bilmek stratejiyi iki yönde de şekillendirir: iyi bir fırsat için bir Q veya Y'yi saklayın, ama bir E konusunda cimri olmayın, çünkü daha birçoğu var.",
         { type: 'heading', id: "bilesik-kelimeler", text: "Ön Ekler ve Son Ekler ile Bileşik Kelimeler Bulmak" },
-        "Almancanın ünlü bileşik isimleri ve uzun fiil biçimleri, yapı taşları tanındığında daha az korkutucu hâle gelir. Geçmiş zaman ortaçları çoğunlukla GE- ile başlar (GESAGT, GESCHRIEBEN, GEKOMMEN), ve soyut isimler sıklıkla -HEIT veya -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ya da -UNG ile biter. Bu kalıplar için \"ile başlar\" veya \"ile biter\" filtresiyle arama yapmak, korkutucu uzun bir kelimeyi çok daha küçük, yönetilebilir bir aramaya dönüştürür."
+        "Almancanın ünlü bileşik isimleri ve uzun fiil biçimleri, yapı taşları tanındığında daha az korkutucu hâle gelir. Geçmiş zaman ortaçları çoğunlukla GE- ile başlar (GESAGT, GESCHRIEBEN, GEKOMMEN), ve soyut isimler sıklıkla -HEIT veya -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ya da -UNG ile biter. Bu kalıplar için \"ile başlar\" veya \"ile biter\" filtresiyle arama yapmak, korkutucu uzun bir kelimeyi çok daha küçük, yönetilebilir bir aramaya dönüştürür.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Resmi Almanca Scrabble sözlüğünde kaç kelime var?", answer: "184.243 -- Scrabble Deutschland e.V. tarafından tutulan Offizielle Turnierwörterliste'nin 1 Mayıs 2025 baskısına göre -- gerçek ve doğrulanabilir bir rakam." },
@@ -433,7 +433,6 @@ export const tr = [
         { id: 'en-zor-harfler', label: "En zor harfler" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve her kelime doğrudan kendi sözlüğümüzde doğrulanmıştır.",
         { type: 'heading', id: 'kanca-nedir', text: "Kanca kelime nedir?" },
         "Kanca, tahtada zaten bulunan bir kelimenin başına veya sonuna tek bir harf ekleyerek yeni bir kelime oluşturmaktır. Buna değer, çünkü hem yeni kelimeden hem de var olan kelimenin tam değerinden puan alırsınız.",
         { type: 'heading', id: 'basa-harf-ekleme', text: "Başa harf ekleme" },
@@ -442,7 +441,8 @@ export const tr = [
         "BEBE, BEBEK olur.",
         { type: 'heading', id: 'en-zor-harfler', text: "En zor harfler" },
         "J harfi 10 puanla oyundaki en yüksek değere sahiptir. Ğ harfi ise 8 puan değerindedir. Bu değerler resmi Türkçe Scrabble harf dağılımından alınmıştır.",
-        "Yukarıdaki her örnek, sadece varsayılmak yerine doğrudan UnscramblWords'ün Türkçe sözlüğünde kontrol edilmiştir."
+        "Yukarıdaki her örnek, sadece varsayılmak yerine doğrudan UnscramblWords'ün Türkçe sözlüğünde kontrol edilmiştir.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Scrabble'da kanca kelime nedir?", answer: "Kanca kelime, tahtada zaten bulunan bir kelimenin başına veya sonuna tek bir harf eklenerek oluşturulur ve hem yeni kelime hem de orijinal kelime için puan kazandırır." },
@@ -472,7 +472,6 @@ export const tr = [
         { id: 'degerli-harfler', label: "En Yüksek Değerli Harfler" }
       ],
       body: [
-        "UnscramblWords ekibi tarafından yazılmış ve her kelime doğrudan kendi sözlüğümüzde doğrulanmıştır.",
         { type: 'heading', id: 'ne-yapar', text: "Bir Portekizce Anagram Çözücü Gerçekte Ne Yapar" },
         "Portekizce ünlü bakımından zengin bir dildir: bir harf seti genellikle birden fazla A, E veya O içerir, bu da elle makul şekilde kontrol edilebilecekten çok daha fazla olası kombinasyon yaratır. Özel bir Portekizce anagram çözücü, her kombinasyonu gerçek bir sözlüğe karşı test eder, böylece tahminler yerine gerçekten oynanabilir kelimeler görürsünüz.",
         { type: 'heading', id: 'aksanlar-c', text: "Aksanları ve Ç Harfini İşleme" },
@@ -483,7 +482,8 @@ export const tr = [
         "Sonuçları tahtadaki belirli bir konuma daraltmak için \"ile başlayan\" ve \"ile biten\" filtrelerini kullanın veya bir bulmaca boşluğuna tam olarak uyması için kelime uzunluğuna göre filtreleyin. Geniş bir eşleşme listesinden durumunuza gerçekten uyan birkaç seçeneğe geçmek için birden fazla filtreyi birlikte kullanın.",
         { type: 'heading', id: 'degerli-harfler', text: "En Yüksek Değerli Harfler" },
         "X ve Z, Portekizce Scrabble'da en yüksek değerli iki harftir, her biri 8 puan değerindedir -- EXAME (sınav) ve TEXTO (metin) gibi kelimeler yüksek değerli bir X'i iyi kullanır. Q, 6 puan değerindedir ve çoğu dilde olduğu gibi neredeyse her zaman yanında bir U gerektirir.",
-        "Sözlüğümüz hem Avrupa hem de Brezilya Portekizcesi yazımını kapsar, böylece sonuçlar her iki varyanttan da gerçek kelime dağarcığını yansıtır. Bu rehberdeki her örnek -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META ve MATA -- doğrudan UnscramblWords'ün sözlüğünde kontrol edilmiştir."
+        "Sözlüğümüz hem Avrupa hem de Brezilya Portekizcesi yazımını kapsar, böylece sonuçlar her iki varyanttan da gerçek kelime dağarcığını yansıtır. Bu rehberdeki her örnek -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META ve MATA -- doğrudan UnscramblWords'ün sözlüğünde kontrol edilmiştir.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
       ],
       faq: [
         { question: "Portekizce anagram çözücü joker harfleri destekliyor mu?", answer: "Evet. Herhangi bir bilinmeyen harfi temsil etmesi için arama kutusuna ? yazın -- örneğin M?TA, META ve MATA kelimelerini bulur. Kaç joker kullanabileceğinize dair bir sınır yoktur ve joker harften gelen bir harf, gerçek bir Scrabble boş taşı gibi her zaman 0 puan değerindedir." },

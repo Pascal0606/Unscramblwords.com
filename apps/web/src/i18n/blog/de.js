@@ -188,7 +188,6 @@ export const de = [
       title: 'Wörter entschlüsseln: Der komplette Leitfaden zum Lösen jedes Buchstabenrätsels',
       excerpt: 'Wie Wortsuch-Werkzeuge tatsächlich funktionieren, welche Strategie hinter punktestarken Zügen steckt, und wie man Filter effektiv nutzt.',
       body: [
-        "Inhalte auf dieser Seite werden KI-unterstützt erstellt und regelmäßig vom UnscramblWords-Team überprüft.",
         "Mit einem Q und einem Z auf dem Buchstabenständer dazusitzen, während die Uhr tickt, gehört zu den häufigsten Frustrationen bei Wortspielen. Ein Wörter-Entschlüsseler verwandelt dieses Durcheinander in eine klare Liste spielbarer Wörter — aber zu verstehen, wie diese Werkzeuge funktionieren und wie man sie gut einsetzt, macht den Unterschied zwischen einer schnellen Lösung und einem echten strategischen Vorteil.",
         "Ein Wörter-Entschlüsseler nimmt eine Menge durcheinandergewürfelter Buchstaben und findet alle gültigen Wörter, die sich daraus bilden lassen, geprüft gegen ein bestimmtes Wörterbuch. Das Prinzip dahinter ist eine Permutationssuche: Das Werkzeug vergleicht Ihre Buchstaben mit jedem Eintrag einer Wortliste und liefert die Treffer, meist sortiert nach Länge oder Punktwert. Wenn Sie mit Blankosteinen spielen, unterstützen die meisten Werkzeuge ein Platzhalterzeichen, meist ein Fragezeichen oder Sternchen, das für einen beliebigen Buchstaben steht.",
         "Diese Werkzeuge sind nicht auf Scrabble beschränkt. Sie werden häufig für Kreuzworträtsel, tägliche Buchstabenrätsel oder zum Eingrenzen einer Vermutung bei Spielen wie Wordle genutzt. Auch beim Sprachenlernen sind sie hilfreich, da das Sehen aller gültigen Wörter aus einer Buchstabenmenge Rechtschreibmuster und Wortfamilien sichtbar macht, die sonst leicht übersehen werden.",
@@ -202,7 +201,8 @@ export const de = [
         "Warum hat das ß keinen eigenen Spielstein? Historisch gehört das ß nicht zum ursprünglichen Buchstabensatz des Spiels. Nach den gültigen Regeln legt man stattdessen zwei S-Steine, wenn ein Wort ein ß enthält — ein Detail, das beim ersten Spielen leicht übersehen wird.",
         "Unterstützt UnscramblWords auch andere Sprachen als Deutsch? Ja — die Seite unterstützt 10 Sprachen, darunter Englisch, Französisch, Spanisch, Italienisch und Portugiesisch, jede geprüft gegen ihr eigenes Referenzwörterbuch.",
         "Wie viele Buchstaben kann man auf einmal suchen? Es gibt keine feste Obergrenze — das Werkzeug wurde mit allen 26 Buchstaben des Alphabets gleichzeitig getestet und liefert weiterhin Ergebnisse. Es verarbeitet damit problemlos sowohl ein kurzes Buchstabengemisch als auch einen langen Ausdruck.",
-        "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); Buchstabenwerte und Bingo-Bonusregel im deutschen Scrabble."
+        "Quellen: Rechtschreibduden als Referenzwörterbuch; Offizielle Turnierwörterliste von Scrabble Deutschland e. V. (SDeV); Buchstabenwerte und Bingo-Bonusregel im deutschen Scrabble.",
+        "(Dieser Inhalt ist KI-unterstützt und wird regelmäßig vom UnscramblWords-Team geprüft)"
       ]
     },
     {
@@ -211,7 +211,6 @@ export const de = [
       title: 'Wort-Entschlüsseler beim Scrabble: Auswahl und richtige Nutzung',
       excerpt: 'Wie Wort-Entschlüsseler wirklich funktionieren, was ein gutes Werkzeug von einer einfachen Anagramm-Liste unterscheidet, und wie man Filter gezielt nutzt, um den passenden Zug zu finden.',
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         "Die besten Scrabble-Spieler verlassen sich nicht nur auf ihr Gedächtnis — sie nutzen präzise Werkzeuge, um Züge zu finden, die ihren Gegnern entgehen. Ein guter Wort-Entschlüsseler ist kein Betrug, sondern verwandelt durcheinandergewürfelte Buchstaben schnell in klare Optionen, ohne dass eine überladene Oberfläche im Weg steht. Dieser Guide erklärt, wie diese Werkzeuge funktionieren, worauf man bei der Auswahl achten sollte, und wie man Filter strategisch statt nur zum Durchscrollen nutzt.",
         "Im Kern nimmt das Werkzeug die eingegebenen Buchstaben und prüft jede mögliche Kombination gegen ein Wörterbuch, wobei nur gültige Wörter angezeigt werden. Einfache Werkzeuge mischen lediglich die Buchstaben durch. Bessere Werkzeuge lassen dich diese Liste eingrenzen — nach Länge, nach Anfangs- oder Endbuchstabe, oder nach enthaltenen Buchstaben —, damit du nicht Hunderte Ergebnisse durchsuchen musst, um den einen Zug zu finden, der wirklich auf eine freie Stelle passt.",
         "Die eigentliche Herausforderung ist, ein Wort auf ein volles Spielbrett zu bringen. Wenn ein bereits liegendes Wort mit „R\" beginnt, grenzt ein Filter „beginnt mit R\" die Ergebnisse sofort auf Züge ein, die sich anschließen könnten. Auch der Joker verdient Erwähnung: Er kann jeden Buchstaben ersetzen, aber von Hand herauszufinden, welcher Buchstabe das beste Wort ergibt, kostet Zeit. Ein Fragezeichen im Suchfeld sollte automatisch alle 26 Buchstaben durchtesten.",
@@ -227,7 +226,8 @@ export const de = [
         "Unterstützt das Werkzeug den Joker? Ja — gib ein Fragezeichen im Suchfeld ein, um einen Joker darzustellen; das Werkzeug testet dann jeden Buchstaben des Alphabets an dieser Stelle.",
         "Kann ich prüfen, ob meine Buchstaben alle sieben auf einmal ergeben? Setze den Längenfilter auf 7, um zu sehen, ob dein aktuelles Rack das hergibt. Es lohnt sich, das bei jedem Zug mit allen sieben Anfangsbuchstaben zu prüfen — der 50-Punkte-Bonus entscheidet oft über Sieg oder Niederlage.",
         "Funktioniert das Werkzeug auch in anderen Sprachen als Deutsch? Ja — UnscramblWords unterstützt 10 Sprachen, und der Wechsel geschieht ohne Neuladen der Seite direkt auf demselben Bildschirm.",
-        "Quellen: Buchstabenwerte und offizielle Regeln des deutschen Scrabble (Duden / Scrabble-Deutschland-Verband)."
+        "Quellen: Buchstabenwerte und offizielle Regeln des deutschen Scrabble (Duden / Scrabble-Deutschland-Verband).",
+        "(Geprüft vom UnscramblWords-Team)"
       ]
     },
     {
@@ -236,7 +236,6 @@ export const de = [
       title: 'Sieben Buchstaben auf einmal: der Guide zum großen Bonus',
       excerpt: 'Wie man Siebenbuchstaben-Züge schneller erkennt — mit häufigen Wortstämmen, Anschlüssen und Filtern — und die echten Zahlen hinter dem 50-Punkte-Bonus.',
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         "Alle sieben Buchstaben des Racks in einem einzigen Zug zu legen, ist oft der Unterschied zwischen einer knappen Niederlage und einem klaren Sieg. Dafür gibt es einen festen Bonus von 50 Punkten zusätzlich zum eigentlichen Wortwert — deshalb kann sogar ein bescheidenes Wort aus lauter Ein-Punkt-Buchstaben mehr einbringen als ein kürzerer Zug mit einem hochwertigen Buchstaben.",
         "Racks mit häufigen Buchstaben — E, A, R, I, O, T, N und S — bieten die besten Chancen, da diese Buchstaben in besonders vielen Siebenbuchstaben-Wörtern vorkommen. Racks voller seltener Buchstaben wie J, Q, X oder Z liefern deutlich seltener einen solchen Zug, es lohnt sich aber trotzdem, mit einem Längenfilter kurz nachzusehen, bevor man davon ausgeht, dass nichts geht.",
         "Statt sieben Buchstaben als Ganzes zu überblicken, zerlegen erfahrene Spieler sie in vertraute Bausteine. Bestimmte Wortstämme sind besonders ergiebig, und gängige Endungen wie -UNG, -HEIT, -KEIT sowie Vorsilben wie VER-, GE-, UN- verdienen es, gezielt gelernt zu werden — sie verwandeln einen bereits vorhandenen fünf- oder sechsbuchstabigen Wortstamm mit nur ein bis zwei zusätzlichen Steinen in einen vollen Siebenbuchstaben-Zug.",
@@ -249,7 +248,8 @@ export const de = [
         "Wie viele Siebenbuchstaben-Wörter gibt es? Das hängt vom jeweiligen Wörterbuch und von der Sprache ab.",
         "Unterstützt das Werkzeug den Joker? Ja — gib ein Fragezeichen im Suchfeld ein, und es testet jeden Buchstaben des Alphabets an dieser Stelle.",
         "Kann ich auch in anderen Sprachen nach Siebenbuchstaben-Wörtern suchen? Ja — UnscramblWords unterstützt 10 Sprachen, und der Wechsel geschieht direkt auf demselben Bildschirm.",
-        "Quellen: Buchstabenwerte und offizielle Regeln des deutschen Scrabble (Duden / Scrabble-Deutschland-Verband)."
+        "Quellen: Buchstabenwerte und offizielle Regeln des deutschen Scrabble (Duden / Scrabble-Deutschland-Verband).",
+        "(Geprüft vom UnscramblWords-Team)"
       ]
     },
     {
@@ -271,7 +271,6 @@ export const de = [
         { id: 'q-woerter-finden', label: 'Q-Wörter mit UnscramblWords finden' }
       ],
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         { type: 'heading', id: 'warum-q-wertvoll', text: 'Warum Q so wertvoll ist' },
         "Q ist der höchstwertige Buchstabe im deutschen Scrabble: 10 Punkte, genauso viel wie Y. In unserem eigenen Wörterbuch beginnen 77 von über 36.000 Wörtern mit Q — selten genug, um den hohen Punktwert zu rechtfertigen, aber häufiger als man zunächst denkt.",
         { type: 'heading', id: 'kurze-q-woerter', text: 'Kurze Wörter mit Q' },
@@ -281,7 +280,8 @@ export const de = [
         { type: 'heading', id: 'lange-q-woerter', text: 'Lange Wörter und ein vollständiges Bingo' },
         "Für ein echtes Bingo (Bonus für die Verwendung aller sieben Buchstaben) sind QUADRAT (das Quadrat), QUARTAL (das Geschäftsquartal) und QUATSCH echte Wörter mit genau sieben Buchstaben — kein technisches Kuriosum, sondern Wörter, die im Alltag tatsächlich vorkommen.",
         { type: 'heading', id: 'q-woerter-finden', text: 'Q-Wörter mit UnscramblWords finden' },
-        "Statt sich diese Liste mitten im Spiel aus dem Gedächtnis zusammenzusuchen, übernimmt unser \"Beginnt mit\"-Filter die Arbeit direkt: Buchstaben eingeben, nach Wörtern mit Q filtern, und jedes gültige Ergebnis sehen, statt zu raten. Das funktioniert genauso in allen 10 unterstützten Sprachen."
+        "Statt sich diese Liste mitten im Spiel aus dem Gedächtnis zusammenzusuchen, übernimmt unser \"Beginnt mit\"-Filter die Arbeit direkt: Buchstaben eingeben, nach Wörtern mit Q filtern, und jedes gültige Ergebnis sehen, statt zu raten. Das funktioniert genauso in allen 10 unterstützten Sprachen.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Wie viele Punkte ist Q im deutschen Scrabble wert?", answer: "10 Punkte — zusammen mit Y der höchste Wert im gesamten Spiel." },
@@ -307,13 +307,13 @@ export const de = [
         { id: "boni-stapeln", label: "Einen Ankerzug mit einem Bonusfeld Kombinieren" }
       ],
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         { type: 'heading', id: "was-ist-ein-anker", text: "Was ein Ankerbuchstabe Wirklich Ist" },
         "Ein Anker ist einfach ein Buchstabe, der bereits auf dem Spielfeld liegt und durch oder um den herum Ihr neues Wort gebaut werden kann -- im Gegensatz dazu, in freien Raum zu spielen. Statt Ihr Buchstabenset als eigenständiges Rätsel zu behandeln, legen Sie einen Feldbuchstaben fest und suchen nach Sieben-Buchstaben-Wörtern, die an der richtigen Stelle durch ihn hindurchgehen. Das verwandelt die Frage 'Welche Sieben-Buchstaben-Wörter kann ich bilden?' in die viel nützlichere Frage 'Welche Sieben-Buchstaben-Wörter kann ich bilden, die auch hier landen?'",
         { type: 'heading', id: "anker-plus-filter", text: "Nach Anker und Länge Zugleich Suchen" },
         "In der Praxis: Notieren Sie die Position des Ankerbuchstabens im benötigten Wort (erster Buchstabe, letzter Buchstabe oder irgendwo in der Mitte), geben Sie Ihre Buchstaben ein, stellen Sie den Längenfilter auf genau 7, und fügen Sie einen 'Beginnt mit'- oder 'Endet mit'-Filter für den Anker hinzu, falls er an einem der beiden Enden liegt. In unserem eigenen Wörterbuch haben genau 4.486 Wörter sieben Buchstaben -- eine Suche ohne Feldeinschränkung lässt Sie durch all diese scrollen, während der Ankerfilter dies auf die wenigen tatsächlich spielbaren Züge reduziert.",
         { type: 'heading', id: "boni-stapeln", text: "Einen Ankerzug mit einem Bonusfeld Kombinieren" },
-        "Die größten Punktzahlen in einem einzigen Zug entstehen durch das Stapeln von Boni, nicht durch die Jagd auf einen einzelnen: Ein Sieben-Buchstaben-Wort bringt bereits den festen 50-Punkte-Bonus für ein vollständiges Bingo, und wenn es gleichzeitig ein Wort-doppelt- oder Wort-dreifach-Feld durchquert, gilt dieser Multiplikator für das gesamte Wort zusätzlich zu den 50 Punkten. Enthält Ihr Buchstabenset einen hochwertigen Buchstaben wie Q, X oder Y, lohnt es sich zu prüfen, ob ein gültiger Ankerzug diesen bestimmten Buchstaben auf sein eigenes Bonusfeld bringt, statt einfach das erste gefundene Sieben-Buchstaben-Wort zu nehmen."
+        "Die größten Punktzahlen in einem einzigen Zug entstehen durch das Stapeln von Boni, nicht durch die Jagd auf einen einzelnen: Ein Sieben-Buchstaben-Wort bringt bereits den festen 50-Punkte-Bonus für ein vollständiges Bingo, und wenn es gleichzeitig ein Wort-doppelt- oder Wort-dreifach-Feld durchquert, gilt dieser Multiplikator für das gesamte Wort zusätzlich zu den 50 Punkten. Enthält Ihr Buchstabenset einen hochwertigen Buchstaben wie Q, X oder Y, lohnt es sich zu prüfen, ob ein gültiger Ankerzug diesen bestimmten Buchstaben auf sein eigenes Bonusfeld bringt, statt einfach das erste gefundene Sieben-Buchstaben-Wort zu nehmen.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Was ist der Unterschied zwischen einem Anker und einem Anschluss?", answer: "Ein Anschluss bezeichnet meist das Hinzufügen eines einzelnen Buchstabens zu einem bestehenden Wort, um ein neues zu bilden. Ein Anker ist das breitere Konzept: jeder Feldbuchstabe, durch den Ihr neues Wort aufgebaut wird, egal ob als einfacher Anschluss oder als ganzes Wort durch einen mittleren Buchstaben." },
@@ -339,13 +339,13 @@ export const de = [
         { id: "filter-fuer-den-sieg", label: "Mit Filtern den Richtigen Zug Finden" }
       ],
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         { type: 'heading', id: "warum-eigenes-werkzeug", text: "Warum ein Werkzeug Speziell für Deutsch" },
         "Ein generischer Entschlüsseler, der hauptsächlich für Englisch gebaut wurde, erkennt oft die Besonderheiten des Deutschen nicht. Unser eigenes Wörterbuch enthält über 36.000 Wörter, jedes einzeln geprüft statt einfach aus einer englischen Liste übersetzt.",
         { type: 'heading', id: "das-eszett", text: "Das ß: Warum es Keinen Eigenen Stein Gibt" },
         "Das ß hat im offiziellen deutschen Scrabble keinen eigenen Spielstein -- Wörter, die normalerweise mit ß geschrieben werden, müssen mit SS geschrieben werden, um spielbar zu sein. Unser Wörterbuch wendet diese Regel konsequent auf echte Alltagswörter wie ABFLUSS und ABENDESSEN an. Ein Werkzeug, das diese Regel ignoriert, würde entweder gültige Wörter ablehnen oder ungültige Schreibweisen akzeptieren.",
         { type: 'heading', id: "filter-fuer-den-sieg", text: "Mit Filtern den Richtigen Zug Finden" },
-        "Der \"Beginnt mit\"-Filter hilft, von einem bereits auf dem Feld liegenden Buchstaben aus aufzubauen. Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, zusammen mit Y. Filter zu nutzen, um Wörter zu finden, die Q auf ein Bonusfeld bringen, ist oft der Unterschied zwischen einem gewöhnlichen und einem gewinnenden Zug."
+        "Der \"Beginnt mit\"-Filter hilft, von einem bereits auf dem Feld liegenden Buchstaben aus aufzubauen. Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, zusammen mit Y. Filter zu nutzen, um Wörter zu finden, die Q auf ein Bonusfeld bringen, ist oft der Unterschied zwischen einem gewöhnlichen und einem gewinnenden Zug.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Warum wird ABFLUSS mit SS statt ß geschrieben?", answer: "Das ß hat im offiziellen Scrabble keinen eigenen Spielstein, daher müssen Wörter mit ß für das Spiel mit SS geschrieben werden." },
@@ -371,13 +371,13 @@ export const de = [
         { id: "joker-mit-wertvollen-buchstaben", label: "Einen Joker mit Wertvollen Buchstaben Kombinieren" }
       ],
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         { type: 'heading', id: "wie-joker-suche-funktioniert", text: "Wie Eine Joker-Suche Wirklich Funktioniert" },
         "Geben Sie ein Fragezeichen (?) an beliebiger Stelle in Ihrer Suche ein, um einen Jokerstein darzustellen, und das Tool prüft jeden Buchstaben des Alphabets an dieser Position, statt Sie raten zu lassen, welcher passt. Die Suche nach W?RT liefert beispielsweise korrekt WORT und WIRT -- der Joker steht wirklich für jeden Buchstaben, systematisch getestet statt nur angenähert.",
         { type: 'heading', id: "laenge-muss-passen", text: "Warum die Buchstabenzahl Passen Muss" },
         "Die Anzahl der eingegebenen Buchstaben, Joker eingeschlossen, muss der Länge jedes gefundenen Wortes entsprechen. Eine Suche mit sechs Buchstaben kann nur sechsbuchstabige Wörter liefern -- ein achtbuchstabiges Wort kann schlicht nicht aus einem Sechs-Buchstaben-Set entstehen, egal wie der Joker eingesetzt wird.",
         { type: 'heading', id: "joker-mit-wertvollen-buchstaben", text: "Einen Joker mit Wertvollen Buchstaben Kombinieren" },
-        "Ein Joker passt besonders gut zu einem wertvollen Buchstaben, der sonst schwer zu platzieren ist. Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, zusammen mit Y. QUATSCH und QUALITÄT sind echte, geprüfte Wörter, die diesen Buchstaben effektiv nutzen -- besonders hilfreich, wenn ein Joker das Wort vervollständigt."
+        "Ein Joker passt besonders gut zu einem wertvollen Buchstaben, der sonst schwer zu platzieren ist. Q ist mit 10 Punkten der höchstwertige Buchstabe im deutschen Scrabble, zusammen mit Y. QUATSCH und QUALITÄT sind echte, geprüfte Wörter, die diesen Buchstaben effektiv nutzen -- besonders hilfreich, wenn ein Joker das Wort vervollständigt.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Wie suche ich mit einem Jokerstein?", answer: "Geben Sie ein Fragezeichen (?) an der Stelle des Jokersteins ein. Das Tool testet jeden Buchstaben des Alphabets an dieser Stelle und liefert jedes gültige Ergebnis." },
@@ -405,7 +405,6 @@ export const de = [
         { id: "lange-woerter", label: "Umgang mit langen türkischen Wörtern" }
       ],
       body: [
-        "Verfasst und geprüft vom UnscramblWords-Team.",
         { type: 'heading', id: "woerterbuch-groesse", text: "Wie groß ist das türkische Wörterbuch-Problem?" },
         "Puzzlespiele machen laut AppMagics Bericht \"Türkiye's Mobile Gaming Landscape 2026\" 96,9 % der Einnahmen türkischer Mobile-Entwickler aus -- ein wirklich großer, umkämpfter Markt. Trotzdem sind die meisten Wort-Entschlüsseler für Englisch gebaut und erst nachträglich angepasst, was sich bei türkischer Eingabe sofort zeigt.",
         { type: 'heading', id: "i-punkt-ohne-punkt", text: "Zwei Buchstaben, nicht einer: İ und ı" },
@@ -415,7 +414,8 @@ export const de = [
         { type: 'heading', id: "buchstabenwerte", text: "Wichtige Buchstabenwerte" },
         "J ist mit 10 Punkten der wertvollste Buchstabe im türkischen Scrabble -- selten, aber es lohnt sich, ihn für ein Bonusfeld aufzuheben. Ğ dagegen kommt häufig genug vor (etwa in Alltagswörtern wie DAĞ und YAĞ), dass man ihn nicht wie einen Schatz behandeln sollte.",
         { type: 'heading', id: "lange-woerter", text: "Umgang mit langen türkischen Wörtern" },
-        "Türkisch ist agglutinierend: Suffixketten werden an einen Wortstamm angehängt und bilden so schnell lange Wörter. Ein Tool mit \"beginnt mit\"- oder \"endet mit\"-Filtern, kombiniert mit einem wirklich umfassenden türkischen Wörterbuch, macht das Finden dieser langen Wörter deutlich einfacher als das manuelle Durchsuchen der Buchstaben."
+        "Türkisch ist agglutinierend: Suffixketten werden an einen Wortstamm angehängt und bilden so schnell lange Wörter. Ein Tool mit \"beginnt mit\"- oder \"endet mit\"-Filtern, kombiniert mit einem wirklich umfassenden türkischen Wörterbuch, macht das Finden dieser langen Wörter deutlich einfacher als das manuelle Durchsuchen der Buchstaben.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Sind punktiertes İ und punktloses ı wirklich unterschiedlich?", answer: "Ja -- es sind zwei eigenständige Buchstaben im Türkischen mit unterschiedlichen Lauten und Spielregeln." },
@@ -442,7 +442,6 @@ export const de = [
         { id: 'schwierige-buchstaben', label: "Schwierige Buchstaben sinnvoll einsetzen" }
       ],
       body: [
-        "Geschrieben und geprüft vom UnscramblWords-Team, wobei jedes Wort direkt gegen unser eigenes Wörterbuch kontrolliert wurde.",
         { type: 'heading', id: 'was-ist-ein-hook', text: "Was ist ein Hook?" },
         "Beim Scrabble kann man ein bereits liegendes Wort durch einen einzigen zusätzlichen Buchstaben am Anfang oder Ende in ein neues, gültiges Wort verwandeln. Das lohnt sich, weil man dabei sowohl für das neue Wort als auch für den vollen Wert des ursprünglichen Wortes punktet.",
         { type: 'heading', id: 'voranstellen', text: "Buchstaben voranstellen" },
@@ -451,7 +450,8 @@ export const de = [
         "AFFE wird zu AFFEN, SIEG wird zu SIEGE.",
         { type: 'heading', id: 'schwierige-buchstaben', text: "Schwierige Buchstaben sinnvoll einsetzen" },
         "Q und Y sind mit je 10 Punkten die wertvollsten Buchstaben im deutschen Scrabble, gefolgt von Ö und X mit je 8 Punkten. Ä, J, Ü und V sind mit je 6 Punkten ebenfalls überdurchschnittlich wertvoll. Diese Werte stammen aus der offiziellen deutschen Buchstabenverteilung.",
-        "Jedes Beispiel oben wurde direkt gegen das deutsche Wörterbuch von UnscramblWords geprüft, nicht nur aus dem Englischen übernommen."
+        "Jedes Beispiel oben wurde direkt gegen das deutsche Wörterbuch von UnscramblWords geprüft, nicht nur aus dem Englischen übernommen.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Was ist ein Hook beim Scrabble?", answer: "Ein Hook entsteht, indem man einen einzigen Buchstaben an den Anfang oder das Ende eines bereits liegenden Wortes anfügt und dabei ein neues, gültiges Wort bildet." },
@@ -481,7 +481,6 @@ export const de = [
         { id: 'wertvolle-buchstaben', label: "Die wertvollsten Buchstaben" }
       ],
       body: [
-        "Geschrieben und geprüft vom UnscramblWords-Team, wobei jedes Wort direkt gegen unser eigenes Wörterbuch kontrolliert wurde.",
         { type: 'heading', id: 'was-macht-ein-loeser', text: "Was ein portugiesischer Anagramm-Löser wirklich tut" },
         "Portugiesisch ist eine vokalreiche Sprache: Ein Buchstabensatz enthält oft mehrere A, E oder O, was weit mehr mögliche Kombinationen ergibt, als man realistisch von Hand prüfen kann. Ein spezialisierter portugiesischer Anagramm-Löser testet jede Kombination gegen ein echtes Wörterbuch, sodass man tatsächlich spielbare Wörter sieht statt bloßer Vermutungen.",
         { type: 'heading', id: 'akzente-cedille', text: "Umgang mit Akzenten und der Cedille (Ç)" },
@@ -492,7 +491,8 @@ export const de = [
         "Nutze die Filter „beginnt mit“ und „endet mit“, um Ergebnisse auf eine bestimmte Position auf dem Brett einzugrenzen, oder filtere nach Wortlänge, um eine Kreuzworträtsel-Lücke exakt zu füllen. Kombiniere mehrere Filter gleichzeitig, um von einer langen Trefferliste auf die wenigen wirklich passenden Wörter zu kommen.",
         { type: 'heading', id: 'wertvolle-buchstaben', text: "Die wertvollsten Buchstaben" },
         "X und Z sind die beiden wertvollsten Buchstaben im portugiesischen Scrabble, mit je 8 Punkten -- Wörter wie EXAME (Prüfung) und TEXTO (Text) nutzen ein wertvolles X gut aus. Q ist 6 Punkte wert und braucht, wie in den meisten Sprachen, fast immer ein U an seiner Seite.",
-        "Unser Wörterbuch deckt sowohl die europäische als auch die brasilianische portugiesische Rechtschreibung ab, sodass die Ergebnisse echtes Vokabular aus beiden Varianten widerspiegeln. Jedes Beispiel in diesem Leitfaden -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META und MATA -- wurde direkt gegen das Wörterbuch von UnscramblWords geprüft."
+        "Unser Wörterbuch deckt sowohl die europäische als auch die brasilianische portugiesische Rechtschreibung ab, sodass die Ergebnisse echtes Vokabular aus beiden Varianten widerspiegeln. Jedes Beispiel in diesem Leitfaden -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META und MATA -- wurde direkt gegen das Wörterbuch von UnscramblWords geprüft.",
+        "(Geprüft vom UnscramblWords-Team)"
       ],
       faq: [
         { question: "Unterstützt der portugiesische Anagramm-Löser Platzhalter-Buchstaben?", answer: "Ja. Gib ? im Suchfeld ein, um einen beliebigen unbekannten Buchstaben darzustellen -- zum Beispiel findet M?TA die Wörter META und MATA. Es gibt keine Begrenzung, wie viele Platzhalter du verwenden kannst, und ein Platzhalter-Buchstabe zählt immer 0 Punkte, genau wie ein echter Blindstein beim Scrabble." },

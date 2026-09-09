@@ -182,7 +182,6 @@ export const es = [
       title: "Buscador de palabras: la guía completa para resolver cualquier sopa de letras",
       excerpt: "Cómo funcionan realmente las herramientas de búsqueda de palabras, la estrategia detrás de las jugadas de alta puntuación, y cómo usar los filtros de forma eficaz.",
       body: [
-        "El contenido de este sitio está asistido por IA y se revisa periódicamente por el equipo de UnscramblWords.",
         "Quedarte con una Q y una Z en el atril mientras el reloj corre es una de las frustraciones más comunes en las partidas de palabras. Un buscador o desordenador de letras convierte ese lío de fichas en una lista clara de palabras jugables — pero entender cómo funcionan estas herramientas, y saber usarlas bien, marca la diferencia entre una solución rápida y una verdadera ventaja estratégica.",
         "Un buscador de palabras toma un conjunto de letras desordenadas y encuentra todas las palabras válidas que se pueden formar con ellas, verificadas frente a un diccionario concreto. El principio es una búsqueda por permutación: la herramienta compara tus letras con cada entrada de una lista de palabras y devuelve las coincidencias, normalmente ordenadas por longitud o por valor en puntos. Si juegas con fichas en blanco, la mayoría de las herramientas admiten un carácter comodín, normalmente un signo de interrogación o un asterisco, que representa cualquier letra.",
         "Estas herramientas no se limitan al Scrabble. Se usan habitualmente para crucigramas, los jumbles de letras diarios, o para acotar una hipótesis en juegos como Wordle. También son útiles para el aprendizaje de idiomas, ya que ver todas las palabras válidas que se pueden formar con un conjunto de letras pone de relieve patrones ortográficos y familias de palabras que de otro modo pasarían desapercibidos.",
@@ -196,7 +195,8 @@ export const es = [
         "¿Por qué CH, LL y RR cuentan como una sola letra en español? Estos dígrafos representan un solo sonido en español y, por tradición del juego, ocupan una única ficha, con su propio valor en puntos. Es una particularidad exclusiva del Scrabble en español que no existe en las versiones en otros idiomas.",
         "¿UnscramblWords admite otros idiomas además del español? Sí — el sitio admite 10 idiomas, entre ellos inglés, francés, alemán, italiano y portugués, cada uno verificado frente a su propio diccionario de referencia.",
         "¿Cuántas letras se pueden buscar a la vez? No hay un límite fijo — la herramienta se ha probado introduciendo las 26 letras del alfabeto a la vez y sigue devolviendo resultados, por lo que gestiona con soltura desde una combinación corta hasta una expresión larga.",
-        "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE, Federación Internacional de Scrabble en Español; composición de fichas y reglas del bono de 50 puntos en el Scrabble en español."
+        "Fuentes: Diccionario de la lengua española (RAE/DLE), referencia oficial usada por la FISE, Federación Internacional de Scrabble en Español; composición de fichas y reglas del bono de 50 puntos en el Scrabble en español.",
+        "(Este contenido está asistido por IA y se revisa periódicamente por el equipo de UnscramblWords)"
       ]
     },
     {
@@ -205,7 +205,6 @@ export const es = [
       title: "Cómo elegir y usar el mejor buscador de palabras para el Scrabble",
       excerpt: "Cómo funcionan realmente los buscadores de palabras, qué diferencia a uno bueno de una simple lista de anagramas, y cómo usar los filtros de forma estratégica para encontrar la jugada que encaja en tu tablero.",
       body: [
-        "Escrito y revisado por el equipo de UnscramblWords.",
         "Los mejores jugadores de Scrabble no se limitan a memorizar el diccionario: utilizan herramientas precisas para encontrar jugadas que sus rivales pasan por alto. Un buen buscador de palabras no sirve para hacer trampa, sino para convertir letras desordenadas en opciones claras, rápido, sin una interfaz recargada que estorbe. Esta guía explica cómo funcionan estas herramientas, qué buscar en una buena, y cómo usar los filtros de forma estratégica en lugar de desplazarte por una lista interminable de resultados.",
         "En esencia, la herramienta toma las letras que introduces y comprueba cada combinación posible contra un diccionario, devolviendo solo las palabras válidas. Las herramientas básicas simplemente mezclan tus letras. Las mejores te permiten afinar esa lista — por longitud, por letra inicial o final, o por letras que debe contener — para que no tengas que revisar cientos de resultados buscando el que realmente encaja en un hueco de tu tablero.",
         "El verdadero reto es encajar una palabra en un tablero ya lleno. Si una palabra que ya está en juego empieza por «R», filtrar por «empieza con R» reduce al instante las opciones a jugadas que podrían conectar con ella. El comodín también merece mención: puede sustituir cualquier letra, pero averiguar a mano qué letra da la mejor palabra lleva tiempo. Un signo de interrogación en el campo de búsqueda debería hacer que la herramienta pruebe automáticamente las 27 letras del alfabeto español.",
@@ -221,7 +220,8 @@ export const es = [
         "¿La herramienta admite el comodín? Sí — introduce un signo de interrogación en el campo de búsqueda para representar un comodín, y la herramienta prueba cada letra del alfabeto en esa posición.",
         "¿Puedo comprobar si mis letras dan para jugar las siete fichas de golpe? Pon el filtro de longitud en 7 para ver si tu atril actual lo permite. Merece la pena comprobarlo en cada turno en el que conserves tus siete fichas iniciales — la bonificación de 50 puntos suele marcar la diferencia entre ganar y perder.",
         "¿Funciona en idiomas distintos al español? Sí — UnscramblWords es compatible con 10 idiomas, y cambiar de uno a otro se hace al instante desde la misma pantalla, sin recargar la página.",
-        "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE)."
+        "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE).",
+        "(Revisado por el equipo de UnscramblWords)"
       ]
     },
     {
@@ -230,7 +230,6 @@ export const es = [
       title: "Cómo encontrar tu próximo juego de siete fichas",
       excerpt: "Cómo detectar más rápido las jugadas de siete letras, usando raíces frecuentes, conexiones y filtros — y las cifras reales detrás de la bonificación de 50 puntos.",
       body: [
-        "Escrito y revisado por el equipo de UnscramblWords.",
         "Colocar las siete fichas de tu atril en un solo turno suele marcar la diferencia entre una derrota ajustada y una victoria clara. Hacerlo otorga una bonificación fija de 50 puntos, además de la puntuación de la propia palabra — por eso incluso una palabra modesta hecha solo de fichas de un punto puede superar a una jugada más corta construida alrededor de una letra de alto valor.",
         "Los atriles con letras comunes — E, A, R, I, O, T, N y S — ofrecen las mejores probabilidades, ya que estas letras aparecen en una amplia variedad de palabras de siete letras. Los atriles cargados de letras raras como la J, la Q, la X o la Z tienen muchas menos probabilidades de producir una jugada así, aunque siempre vale la pena comprobarlo con un filtro de longitud antes de asumir que no hay nada que hacer.",
         "En lugar de examinar siete letras como un bloque, los jugadores expertos las dividen en fragmentos familiares. Ciertas raíces de seis letras son especialmente productivas, y sufijos comunes como -CIÓN, -MENTE, -ANDO, o prefijos como RE-, DES-, IN-, merecen aprenderse específicamente porque convierten una raíz de cinco o seis letras que ya tienes en una jugada completa de siete con solo una o dos fichas más.",
@@ -243,7 +242,8 @@ export const es = [
         "¿Cuántas palabras de siete letras existen? Depende del diccionario y del idioma con el que juegues.",
         "¿La herramienta admite el comodín? Sí — introduce un signo de interrogación en el campo de búsqueda, y prueba cada letra del alfabeto en esa posición.",
         "¿Puedo buscar palabras de siete letras en otros idiomas? Sí — UnscramblWords es compatible con 10 idiomas, y cambiar de uno a otro se hace al instante desde la misma pantalla.",
-        "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE)."
+        "Fuentes: valores de las letras y reglas oficiales del Scrabble en español (RAE/DLE vía FISE).",
+        "(Revisado por el equipo de UnscramblWords)"
       ]
     },
     {
@@ -265,7 +265,6 @@ export const es = [
         { id: "encontrar-z", label: "Encontrar palabras con Z en UnscramblWords" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords.",
         { type: 'heading', id: "por-que-z-vale-tanto", text: "Por qué la Z vale tanto en español" },
         "La Z es la letra de mayor valor en el Scrabble en español: 10 puntos, más que cualquier otra letra del juego. En nuestro propio diccionario, 57 de más de 38.000 palabras empiezan por Z — no es tan rara como el X, pero sigue siendo poco frecuente, lo que explica su alto valor.",
         { type: 'heading', id: "palabras-cortas-z", text: "Palabras cortas con Z" },
@@ -275,7 +274,8 @@ export const es = [
         { type: 'heading', id: "palabras-largas-z", text: "Palabras largas y Scrabble completo" },
         "Para un auténtico Scrabble completo (bono de 50 puntos por usar las siete fichas), ZAPATOS (el plural de zapato), ZODIACO y ZAFIROS son palabras reales de exactamente siete letras — no rarezas técnicas, sino vocabulario cotidiano.",
         { type: 'heading', id: "encontrar-z", text: "Encontrar palabras con Z en UnscramblWords" },
-        "En lugar de intentar recordar esta lista de memoria en plena partida, nuestro filtro \"Empieza por\" hace el trabajo directamente: introduce tus letras, filtra por palabras que empiecen por Z, y verás cada resultado válido en lugar de adivinar. El mismo enfoque funciona en los 10 idiomas compatibles con la herramienta."
+        "En lugar de intentar recordar esta lista de memoria en plena partida, nuestro filtro \"Empieza por\" hace el trabajo directamente: introduce tus letras, filtra por palabras que empiecen por Z, y verás cada resultado válido en lugar de adivinar. El mismo enfoque funciona en los 10 idiomas compatibles con la herramienta.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Cuánto vale la letra Z en el Scrabble en español?", answer: "10 puntos — la puntuación más alta de cualquier letra en el juego en español." },
@@ -301,13 +301,13 @@ export const es = [
         { id: "acumular-bonos", label: "Acumular una Jugada de Ancla con una Casilla Premium" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords.",
         { type: 'heading', id: "que-es-un-ancla", text: "Qué es Realmente una Letra Ancla" },
         "Un ancla es simplemente una letra ya colocada en el tablero a través de la cual, o alrededor de la cual, puede construirse tu nueva palabra -- en lugar de jugar en un espacio abierto. En vez de tratar tu atril como un rompecabezas aislado, fijas una letra del tablero y buscas palabras de siete letras que pasen por ella en la posición correcta. Esto convierte '¿qué palabras de siete letras puedo formar?' en la pregunta mucho más útil de '¿qué palabras de siete letras puedo formar que también encajen aquí?'",
         { type: 'heading', id: "buscar-ancla-longitud", text: "Buscar por Ancla y Longitud a la Vez" },
         "En la práctica: identifica la posición de la letra ancla en la palabra que necesitas (primera letra, última letra, o en medio), introduce las letras de tu atril, fija el filtro de longitud en exactamente 7, y añade un filtro de 'empieza por' o 'termina en' para el ancla si cae en uno de los extremos. En nuestro propio diccionario hay exactamente 6.449 palabras de siete letras -- buscar sin ninguna restricción de tablero te deja revisando todas ellas, mientras que añadir el filtro de ancla lo reduce solo a las jugadas realmente posibles.",
         { type: 'heading', id: "acumular-bonos", text: "Acumular una Jugada de Ancla con una Casilla Premium" },
-        "Las puntuaciones más altas en un solo turno vienen de acumular bonos en lugar de perseguir uno solo: una palabra de siete letras ya gana el bono fijo de 50 puntos por Scrabble completo, y si además atraviesa una casilla de palabra doble o triple al mismo tiempo, ese multiplicador se aplica a toda la palabra además de los 50 puntos. Si tu atril incluye una letra de alto valor como K, W, X o Ñ, vale la pena comprobar si alguna jugada de ancla válida permite que esa letra en concreto caiga en su propia casilla premium, en lugar de conformarte con la primera palabra de siete letras que encuentres."
+        "Las puntuaciones más altas en un solo turno vienen de acumular bonos en lugar de perseguir uno solo: una palabra de siete letras ya gana el bono fijo de 50 puntos por Scrabble completo, y si además atraviesa una casilla de palabra doble o triple al mismo tiempo, ese multiplicador se aplica a toda la palabra además de los 50 puntos. Si tu atril incluye una letra de alto valor como K, W, X o Ñ, vale la pena comprobar si alguna jugada de ancla válida permite que esa letra en concreto caiga en su propia casilla premium, en lugar de conformarte con la primera palabra de siete letras que encuentres.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Cuál es la diferencia entre un ancla y un gancho?", answer: "Un gancho suele referirse a añadir una sola letra a una palabra existente para formar una nueva (añadir una S a CASA para hacer CASAS). Un ancla es el concepto más amplio: cualquier letra del tablero a través de la cual se construye tu nueva palabra, ya sea un simple gancho o una palabra entera que pasa por una letra central." },
@@ -333,13 +333,13 @@ export const es = [
         { id: "filtros-para-ganar", label: "Usar los Filtros para Encontrar la Jugada Correcta" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords.",
         { type: 'heading', id: "por-que-herramienta-dedicada", text: "Por Qué Hace Falta una Herramienta Dedicada al Español" },
         "Un descifrador genérico, pensado principalmente para el inglés, a menudo no reconoce las particularidades propias del español. Nuestro propio diccionario tiene más de 38.000 palabras, cada una verificada individualmente en lugar de simplemente traducida desde una lista en inglés.",
         { type: 'heading', id: "la-ene-con-tilde", text: "La Ñ: Por Qué Es una Letra Propia" },
         "La Ñ no es una N con un acento decorativo: es una letra propia del alfabeto español, con su propia ficha y su propio valor de 8 puntos. En nuestro propio diccionario hay 512 palabras que contienen la Ñ, como ACOMPAÑA. Una herramienta que trate la Ñ como una simple variante de la N generará resultados incorrectos o pasará por alto palabras válidas.",
         { type: 'heading', id: "filtros-para-ganar", text: "Usar los Filtros para Encontrar la Jugada Correcta" },
-        "El filtro \"empieza por\" ayuda a construir a partir de una letra ya presente en el tablero. La Z es la letra de mayor valor en español, con 10 puntos -- incluso más que la Ñ. Usar los filtros para encontrar palabras que aprovechen estas letras de alto valor en una casilla premium suele ser la diferencia entre una jugada normal y una jugada ganadora."
+        "El filtro \"empieza por\" ayuda a construir a partir de una letra ya presente en el tablero. La Z es la letra de mayor valor en español, con 10 puntos -- incluso más que la Ñ. Usar los filtros para encontrar palabras que aprovechen estas letras de alto valor en una casilla premium suele ser la diferencia entre una jugada normal y una jugada ganadora.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Es la Ñ realmente una letra distinta de la N?", answer: "Sí -- la Ñ es una letra propia del alfabeto español, con su propia ficha y su propio valor de 8 puntos, no una simple variante de la N." },
@@ -365,13 +365,13 @@ export const es = [
         { id: "comodin-letras-valiosas", label: "Usar un Comodín con Letras Valiosas" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords.",
         { type: 'heading', id: "como-funciona-comodin", text: "Cómo Funciona Realmente una Búsqueda con Comodín" },
         "Introduce un signo de interrogación (?) en cualquier parte de tu búsqueda para representar una ficha en blanco, y la herramienta comprueba cada letra del alfabeto en esa posición en lugar de dejarte adivinar cuál encaja. Por ejemplo, buscar M?TA devuelve correctamente META y MATA -- el comodín realmente representa cualquier letra, probada sistemáticamente en lugar de aproximada.",
         { type: 'heading', id: "longitud-debe-coincidir", text: "Por Qué el Número de Fichas Debe Coincidir" },
         "El número de fichas introducidas, comodín incluido, debe coincidir con la longitud de cualquier palabra que devuelva la búsqueda. Una búsqueda de seis fichas solo puede devolver palabras de seis letras -- una palabra de ocho letras simplemente no puede salir de un atril de seis fichas, sin importar cómo se use el comodín.",
         { type: 'heading', id: "comodin-letras-valiosas", text: "Usar un Comodín con Letras Valiosas" },
-        "Un comodín combina especialmente bien con una letra valiosa que de otro modo es difícil de colocar. La Z es la letra de mayor valor en español, con 10 puntos. ZAPATO y ZORRO son palabras reales y verificadas que aprovechan esta letra de forma cotidiana, especialmente útiles cuando un comodín completa la palabra."
+        "Un comodín combina especialmente bien con una letra valiosa que de otro modo es difícil de colocar. La Z es la letra de mayor valor en español, con 10 puntos. ZAPATO y ZORRO son palabras reales y verificadas que aprovechan esta letra de forma cotidiana, especialmente útiles cuando un comodín completa la palabra.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Cómo busco usando una ficha en blanco?", answer: "Introduce un signo de interrogación (?) en la posición de tu ficha en blanco. La herramienta prueba cada letra del alfabeto en ese lugar y devuelve cada resultado válido." },
@@ -399,7 +399,6 @@ export const es = [
         { id: "palabras-largas", label: "Cómo gestionar las palabras largas del turco" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords.",
         { type: 'heading', id: "tamano-diccionario", text: "¿Qué tamaño tiene el diccionario turco?" },
         "Los juegos de puzles representan el 96,9 % de los ingresos de los desarrolladores móviles turcos, según el informe de AppMagic \"Türkiye's Mobile Gaming Landscape 2026\" -- un mercado realmente grande y competitivo. Aun así, la mayoría de las herramientas de desciframiento de palabras están pensadas para el inglés y solo adaptadas después, algo que se nota de inmediato con texto turco.",
         { type: 'heading', id: "i-con-punto-sin-punto", text: "Dos letras, no una: İ e ı" },
@@ -409,7 +408,8 @@ export const es = [
         { type: 'heading', id: "valores-letras", text: "Valores de letras que conviene conocer" },
         "La J es la letra más valiosa del Scrabble turco, con 10 puntos -- escasa, pero merece la pena guardarla para una casilla de bonificación. La Ğ, en cambio, es lo bastante común (aparece en palabras cotidianas como DAĞ y YAĞ) como para no tratarla como algo precioso.",
         { type: 'heading', id: "palabras-largas", text: "Cómo gestionar las palabras largas del turco" },
-        "El turco es una lengua aglutinante: las cadenas de sufijos se añaden a una raíz para construir palabras largas con rapidez. Una herramienta con filtros de \"empieza por\" o \"termina en\", combinada con un diccionario turco verdaderamente completo, facilita mucho encontrar estas palabras largas frente a revisar las letras manualmente."
+        "El turco es una lengua aglutinante: las cadenas de sufijos se añaden a una raíz para construir palabras largas con rapidez. Una herramienta con filtros de \"empieza por\" o \"termina en\", combinada con un diccionario turco verdaderamente completo, facilita mucho encontrar estas palabras largas frente a revisar las letras manualmente.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Son realmente distintas la İ con punto y la ı sin punto?", answer: "Sí -- son dos letras independientes en turco, con sonidos y reglas de juego diferentes." },
@@ -436,7 +436,6 @@ export const es = [
         { id: "palabras-compuestas", label: "Encontrar palabras compuestas a través de prefijos y sufijos" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords.",
         { type: 'heading', id: "tamano-diccionario", text: "¿Qué tamaño tiene realmente el diccionario alemán?" },
         "La lista oficial de palabras de torneo de Alemania -- la Offizielle Turnierwörterliste, mantenida por Scrabble Deutschland e.V. -- contiene 184.243 palabras en su edición del 1 de mayo de 2025, con hasta nueve letras. Es una cifra real y verificable de forma independiente, no una estimación redondeada. Una herramienta dedicada al alemán debería basarse en un vocabulario realmente completo como este, en lugar de una lista genérica que da la casualidad de incluir algunas palabras alemanas.",
         { type: 'heading', id: "eszett-dieresis", text: "La Eszett y las diéresis: gestionar bien los caracteres especiales" },
@@ -444,7 +443,8 @@ export const es = [
         { type: 'heading', id: "valores-frecuencia-letras", text: "Valores y frecuencia de las letras: qué es realmente escaso" },
         "En el Scrabble alemán, la Q y la Y están empatadas en el valor más alto, con 10 puntos cada una, seguidas de cerca por la X con 8. En el otro extremo, la E es, con diferencia, la letra más común -- hay realmente 15 fichas E en un juego estándar, más del doble que la siguiente letra más común. Saber esto orienta la estrategia en ambos sentidos: guarde una Q o una Y para una buena oportunidad, pero no sea tacaño con una E, ya que hay muchas más disponibles.",
         { type: 'heading', id: "palabras-compuestas", text: "Encontrar palabras compuestas a través de prefijos y sufijos" },
-        "Los famosos sustantivos compuestos y las largas formas verbales del alemán resultan menos intimidantes en cuanto se reconocen sus componentes. Los participios pasados suelen empezar por GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), y los sustantivos abstractos terminan con frecuencia en -HEIT o -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) o en -UNG. Buscar con un filtro de \"empieza por\" o \"termina en\" para estos patrones convierte una palabra larga e intimidante en una búsqueda mucho más pequeña y manejable."
+        "Los famosos sustantivos compuestos y las largas formas verbales del alemán resultan menos intimidantes en cuanto se reconocen sus componentes. Los participios pasados suelen empezar por GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), y los sustantivos abstractos terminan con frecuencia en -HEIT o -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) o en -UNG. Buscar con un filtro de \"empieza por\" o \"termina en\" para estos patrones convierte una palabra larga e intimidante en una búsqueda mucho más pequeña y manejable.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Cuántas palabras tiene el diccionario oficial del Scrabble alemán?", answer: "184.243, según la edición del 1 de mayo de 2025 de la Offizielle Turnierwörterliste mantenida por Scrabble Deutschland e.V. -- una cifra real y verificable." },
@@ -472,7 +472,6 @@ export const es = [
         { id: 'letras-dificiles', label: "Las letras más difíciles" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords, comprobando cada palabra directamente en nuestro propio diccionario.",
         { type: 'heading', id: 'que-es-un-gancho', text: "¿Qué es una palabra gancho?" },
         "Un gancho consiste en añadir una sola letra al principio o al final de una palabra ya colocada en el tablero. Merece la pena porque se puntúa tanto por la palabra nueva como por el valor completo de la palabra ya existente.",
         { type: 'heading', id: 'ganchos-al-principio', text: "Ganchos al principio" },
@@ -481,7 +480,8 @@ export const es = [
         "VALE se convierte en VALES, RÍO se convierte en RÍOS.",
         { type: 'heading', id: 'letras-dificiles', text: "Las letras más difíciles" },
         "La Z vale 10 puntos, el valor más alto del juego. La J, la LL, la Ñ, la RR y la X valen 8 puntos cada una, y el CH y la Q valen 5. Estos son los valores oficiales del Scrabble en español (edición internacional).",
-        "Cada ejemplo anterior fue comprobado directamente en el diccionario español de UnscramblWords, no simplemente traducido del inglés."
+        "Cada ejemplo anterior fue comprobado directamente en el diccionario español de UnscramblWords, no simplemente traducido del inglés.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿Qué es una palabra gancho en Scrabble?", answer: "Una palabra gancho se forma añadiendo una sola letra al principio o al final de una palabra ya colocada, creando una nueva palabra válida y puntuando también por la original." },
@@ -511,7 +511,6 @@ export const es = [
         { id: 'letras-valiosas', label: "Las letras de mayor valor" }
       ],
       body: [
-        "Escrito y verificado por el equipo de UnscramblWords, comprobando cada palabra directamente en nuestro propio diccionario.",
         { type: 'heading', id: 'que-hace-un-solucionador', text: "Qué hace realmente un solucionador de anagramas en portugués" },
         "El portugués es un idioma rico en vocales: un conjunto de letras suele contener varias A, E u O, generando muchas más combinaciones posibles de las que una persona puede comprobar razonablemente a mano. Un solucionador de anagramas en portugués dedicado comprueba cada combinación contra un diccionario real, mostrando palabras realmente jugables en lugar de suposiciones.",
         { type: 'heading', id: 'acentos-cedilla', text: "Manejar acentos y la cedilla (Ç)" },
@@ -522,7 +521,8 @@ export const es = [
         "Usa los filtros \"empieza por\" y \"termina en\" para acotar los resultados hacia una posición concreta del tablero, o filtra por longitud de palabra para encajar exactamente en un hueco de crucigrama. Combina varios filtros a la vez para pasar de una lista larga de coincidencias al puñado que realmente encaja con tu situación.",
         { type: 'heading', id: 'letras-valiosas', text: "Las letras de mayor valor" },
         "La X y la Z son las dos letras de mayor valor en el Scrabble portugués, con 8 puntos cada una -- palabras como EXAME (examen) y TEXTO (texto) aprovechan bien una X de alto valor. La Q vale 6 puntos y, como en la mayoría de los idiomas, casi siempre necesita una U junto a ella.",
-        "Nuestro diccionario cubre tanto la ortografía del portugués europeo como del brasileño, por lo que los resultados reflejan vocabulario real de ambas variantes. Cada ejemplo de esta guía -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META y MATA -- se comprobó directamente en el diccionario de UnscramblWords."
+        "Nuestro diccionario cubre tanto la ortografía del portugués europeo como del brasileño, por lo que los resultados reflejan vocabulario real de ambas variantes. Cada ejemplo de esta guía -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META y MATA -- se comprobó directamente en el diccionario de UnscramblWords.",
+        "(Revisado por el equipo de UnscramblWords)"
       ],
       faq: [
         { question: "¿El solucionador de anagramas en portugués admite letras comodín?", answer: "Sí. Escribe ? en el cuadro de búsqueda para representar cualquier letra desconocida -- por ejemplo, M?TA encuentra META y MATA. No hay límite de cuántos comodines puedes usar, y una letra procedente de un comodín siempre vale 0 puntos, igual que una ficha en blanco real del Scrabble." },

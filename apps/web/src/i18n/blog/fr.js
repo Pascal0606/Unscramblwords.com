@@ -183,7 +183,6 @@ export const fr = [
       title: "Dénicheur de mots : le guide complet pour résoudre n'importe quelle grille de lettres",
       excerpt: "Comment fonctionnent réellement les outils de recherche de mots, la stratégie derrière les coups à haut score, et comment utiliser les filtres efficacement.",
       body: [
-        "Le contenu de ce site est assisté par IA et vérifié périodiquement par l'équipe UnscramblWords.",
         "Se retrouver avec un Q et un Z sur son chevalet pendant que le chronomètre tourne est l'une des frustrations les plus courantes au Scrabble. Un dénicheur de mots transforme ce fouillis de lettres en une liste claire de mots jouables — mais comprendre comment ces outils fonctionnent, et savoir bien les utiliser, fait toute la différence entre un simple dépannage et un véritable avantage stratégique.",
         "Un dénicheur de mots prend un ensemble de lettres mélangées et trouve tous les mots valides que l'on peut former à partir de celles-ci, vérifiés dans un dictionnaire donné. Le principe est une recherche par permutation : l'outil compare vos lettres à chaque entrée d'une liste de mots et renvoie les correspondances, généralement triées par longueur ou par valeur en points. Si vous jouez avec des lettres blanches, la plupart des outils prennent en charge un caractère générique, souvent un point d'interrogation ou un astérisque, qui remplace n'importe quelle lettre.",
         "Ces outils ne se limitent pas au Scrabble. Ils sont couramment utilisés pour les mots croisés, les jeux de lettres quotidiens, ou pour affiner une hypothèse dans des jeux comme le Motus. Ils sont aussi utiles pour l'apprentissage des langues, car voir tous les mots valides formés à partir d'un ensemble de lettres met en évidence des régularités orthographiques et des familles de mots que l'on ne remarquerait pas autrement.",
@@ -197,7 +196,8 @@ export const fr = [
         "Quelle est la différence entre les valeurs de lettres en français et en anglais ? En français, K, W, X, Y et Z valent 10 points et le Q vaut 8 points — des valeurs différentes de celles utilisées dans le Scrabble en langue anglaise. Vérifiez toujours que l'outil que vous utilisez applique le bon barème selon la langue choisie.",
         "UnscramblWords prend-il en charge d'autres langues que le français ? Oui — le site prend en charge 10 langues, dont l'anglais, l'espagnol, l'allemand, l'italien et le portugais, chacune vérifiée par rapport à son propre dictionnaire de référence.",
         "Combien de lettres peut-on rechercher à la fois ? Il n'y a pas de limite fixe — l'outil a été testé avec les 26 lettres de l'alphabet entrées en une seule fois et renvoie toujours des résultats, ce qui lui permet de traiter aussi bien un petit mélange de lettres qu'une longue expression à décomposer.",
-        "Sources : Officiel du jeu Scrabble (ODS9), Larousse, référence officielle de la Fédération Française de Scrabble ; valeurs des lettres et règles du bonus de 50 points en Scrabble francophone."
+        "Sources : Officiel du jeu Scrabble (ODS9), Larousse, référence officielle de la Fédération Française de Scrabble ; valeurs des lettres et règles du bonus de 50 points en Scrabble francophone.",
+        "(Ce contenu est assisté par IA et relu périodiquement par l'équipe UnscramblWords)"
       ]
     },
     {
@@ -206,7 +206,6 @@ export const fr = [
       title: "Bien choisir et utiliser un outil de recherche de mots au Scrabble",
       excerpt: "Comment fonctionnent vraiment les outils de recherche de mots, ce qui distingue un bon outil d'une simple liste d'anagrammes, et comment utiliser les filtres pour trouver le coup qui correspond à votre plateau.",
       body: [
-        "Rédigé et relu par l'équipe UnscramblWords.",
         "Les meilleurs joueurs de Scrabble ne se contentent pas de mémoriser le dictionnaire : ils utilisent des outils précis pour trouver des coups que leurs adversaires manquent. Un bon outil de recherche de mots ne sert pas à tricher, mais à transformer rapidement des lettres mélangées en options claires, sans une interface encombrée qui ralentit tout. Ce guide explique comment ces outils fonctionnent, ce qu'il faut rechercher dans un bon outil, et comment utiliser les filtres de façon stratégique plutôt que de faire défiler une longue liste de résultats.",
         "Concrètement, l'outil prend les lettres que vous entrez et vérifie chaque combinaison possible par rapport à un dictionnaire, ne renvoyant que les mots valides. Les outils basiques se contentent de mélanger vos lettres. Les meilleurs permettent d'affiner cette liste — par longueur, par lettre de départ ou de fin, ou par lettres devant être contenues — afin de ne pas devoir chercher parmi des centaines de résultats celui qui correspond réellement à une place libre sur votre plateau.",
         "Le vrai défi, c'est de faire tenir un mot sur un plateau chargé. Si un mot déjà posé commence par un « R », filtrer vos résultats sur « commence par R » réduit instantanément le choix aux coups qui pourraient s'y greffer. Le joker mérite aussi une mention : il peut remplacer n'importe quelle lettre, mais deviner à la main quelle lettre donne le meilleur mot prend du temps. Un point d'interrogation dans le champ de recherche doit permettre à l'outil de tester automatiquement les 26 lettres.",
@@ -222,7 +221,8 @@ export const fr = [
         "L'outil prend-il en charge le joker ? Oui — entrez un point d'interrogation dans le champ de recherche pour représenter un joker, et l'outil teste chaque lettre de l'alphabet à cette position.",
         "Puis-je vérifier si mes lettres permettent de faire un scrabble ? Réglez le filtre de longueur sur 7 pour voir si votre chevalet actuel le permet. Cela vaut la peine de vérifier à chaque tour où vous avez encore vos sept lettres de départ : le bonus de 50 points fait souvent la différence entre gagner et perdre.",
         "Cet outil fonctionne-t-il dans d'autres langues que le français ? Oui — UnscramblWords prend en charge 10 langues, et changer de langue se fait en un instant depuis le même écran, sans recharger la page.",
-        "Sources : valeurs des lettres et règles officielles du Scrabble francophone (Fédération internationale de Scrabble francophone)."
+        "Sources : valeurs des lettres et règles officielles du Scrabble francophone (Fédération internationale de Scrabble francophone).",
+        "(Relu par l'équipe UnscramblWords)"
       ]
     },
     {
@@ -231,7 +231,6 @@ export const fr = [
       title: "Trouver son scrabble : le guide du mot de sept lettres",
       excerpt: "Comment repérer plus vite les coups de sept lettres, grâce aux radicaux fréquents, aux greffes et aux filtres — et les vrais chiffres derrière le bonus de 50 points.",
       body: [
-        "Rédigé et relu par l'équipe UnscramblWords.",
         "Poser un seul mot de sept lettres — ce qu'on appelle « faire un scrabble » — fait souvent la différence entre une défaite serrée et une victoire écrasante. Utiliser les sept lettres de son chevalet en un seul coup rapporte un bonus fixe de 50 points, en plus du score du mot lui-même — c'est pourquoi même un mot modeste, composé uniquement de lettres à un point, peut rapporter plus qu'un coup plus court bâti autour d'une lettre à forte valeur.",
         "Les chevalets composés de lettres courantes — E, A, R, I, O, T, N et S — offrent les meilleures chances de trouver un scrabble, car ces lettres apparaissent dans un large éventail de mots de sept lettres. Les chevalets chargés de lettres rares comme le J, le Q, le X ou le Z ont beaucoup moins de chances d'en produire un, même s'il vaut toujours la peine de vérifier avec un filtre de longueur avant de conclure qu'il n'y a rien à faire.",
         "Plutôt que de balayer sept lettres d'un bloc, les joueurs expérimentés les découpent en fragments familiers. Certains radicaux de six lettres sont particulièrement productifs : AEINRST, par exemple, s'anagramme en ANTSIER, NASTIER, RATINES, RETAINS, RETSINA, STAINER et STEARIN en anglais — mémoriser un seul de ces radicaux donne une longueur d'avance pour reconnaître les autres. Les suffixes courants comme -ING, -ERS, -EST et les préfixes comme RE-, UN-, PRE- fonctionnent sur le même principe et méritent d'être appris, car ils transforment un radical de cinq ou six lettres déjà présent en un scrabble avec l'ajout d'une ou deux lettres seulement.",
@@ -244,7 +243,8 @@ export const fr = [
         "Combien y a-t-il de mots de sept lettres ? Le nombre dépend du dictionnaire concerné et de la langue de jeu.",
         "Cet outil gère-t-il le joker ? Oui — entrez un point d'interrogation dans le champ de recherche, et il teste chaque lettre de l'alphabet à cette position.",
         "Puis-je chercher des mots de sept lettres dans d'autres langues ? Oui — UnscramblWords prend en charge 10 langues, et changer de langue se fait en un instant depuis le même écran.",
-        "Sources : valeurs des lettres et règles officielles du Scrabble francophone (Fédération internationale de Scrabble francophone)."
+        "Sources : valeurs des lettres et règles officielles du Scrabble francophone (Fédération internationale de Scrabble francophone).",
+        "(Relu par l'équipe UnscramblWords)"
       ]
     },
     {
@@ -267,7 +267,6 @@ export const fr = [
         { id: "trouver-mots-x", label: "Trouver des mots en X avec UnscramblWords" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords.",
         { type: 'heading', id: "pourquoi-x-precieux", text: "Pourquoi la lettre X mérite d'être apprise" },
         "Tirer un X peut sembler un handicap, mais c'est en réalité l'une des lettres les plus valorisées du Scrabble français : 10 points, à égalité avec le K, le W et le Y. Dans notre propre dictionnaire, seuls 44 mots sur plus de 62 000 commencent par X — une rareté qui explique pourquoi il vaut la peine d'en mémoriser quelques-uns.",
         { type: 'heading', id: "mots-courts-x", text: "Mots courts en X : XI et au-delà" },
@@ -277,7 +276,8 @@ export const fr = [
         { type: 'heading', id: "mots-longs-x", text: "Mots longs et Scrabble complet" },
         "XÉRIQUE (qui décrit un milieu extrêmement sec) compte exactement 7 lettres — un authentique Scrabble complet si vous utilisez les sept lettres de votre chevalet, avec le bonus de 50 points à la clé. XANTHINE et XIPHOÏDE, à 8 lettres, sont d'autres options solides si votre chevalet le permet.",
         { type: 'heading', id: "trouver-mots-x", text: "Trouver des mots en X avec UnscramblWords" },
-        "Plutôt que d'essayer de retrouver cette liste de mémoire en pleine partie, notre filtre « Commence par » fait le travail directement : entrez vos lettres, filtrez sur les mots commençant par X, et obtenez chaque résultat valide plutôt que de deviner si un mot peu familier est réellement jouable. Le même principe s'applique dans les 10 langues prises en charge par l'outil."
+        "Plutôt que d'essayer de retrouver cette liste de mémoire en pleine partie, notre filtre « Commence par » fait le travail directement : entrez vos lettres, filtrez sur les mots commençant par X, et obtenez chaque résultat valide plutôt que de deviner si un mot peu familier est réellement jouable. Le même principe s'applique dans les 10 langues prises en charge par l'outil.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "XI est-il vraiment un mot valide au Scrabble ?", answer: "Oui. XI désigne la 14e lettre de l'alphabet grec et reste l'un des rares mots de deux lettres commençant par X dans la langue française." },
@@ -303,13 +303,13 @@ export const fr = [
         { id: "cumuler-bonus", label: "Cumuler un Coup d'Ancrage avec une Case Premium" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords.",
         { type: 'heading', id: "quest-ce-quune-ancre", text: "Ce Qu'est Vraiment une Lettre d'Ancrage" },
         "Une ancre est simplement une lettre déjà posée sur le plateau à travers ou autour de laquelle votre nouveau mot peut se construire -- par opposition à jouer dans un espace libre. Plutôt que de traiter votre chevalet comme un puzzle isolé, vous fixez une lettre du plateau et cherchez des mots de sept lettres qui passent par elle à la bonne position. Cela transforme « quels mots de sept lettres puis-je former ? » en la question bien plus utile « quels mots de sept lettres puis-je former qui se posent aussi ici ? »",
         { type: 'heading', id: "recherche-ancre-longueur", text: "Chercher par Ancre et Longueur Ensemble" },
         "En pratique : repérez la position de la lettre d'ancrage dans le mot dont vous avez besoin (première lettre, dernière lettre, ou au milieu), entrez les lettres de votre chevalet, réglez le filtre de longueur sur exactement 7, et ajoutez un filtre « commence par » ou « termine par » pour l'ancre si elle se trouve à l'une des extrémités. Dans notre propre dictionnaire, 10 240 mots comptent exactement sept lettres -- chercher sans contrainte de plateau vous laisse parcourir tous ces mots, tandis qu'ajouter le filtre d'ancrage réduit cela aux seuls coups réellement jouables.",
         { type: 'heading', id: "cumuler-bonus", text: "Cumuler un Coup d'Ancrage avec une Case Premium" },
-        "Les plus gros scores en un seul tour viennent de l'empilement des bonus plutôt que de la poursuite d'un seul d'entre eux : un mot de sept lettres rapporte déjà le bonus fixe de 50 points du Scrabble complet, et s'il traverse en même temps une case mot compte double ou triple, ce multiplicateur s'applique à tout le mot en plus des 50 points. Si votre chevalet contient une lettre à haute valeur comme K, W, X, Y ou Z, il vaut la peine de vérifier si un coup d'ancrage valide permet à cette lettre précise de se poser sur sa propre case premium, plutôt que de vous contenter du premier mot de sept lettres trouvé."
+        "Les plus gros scores en un seul tour viennent de l'empilement des bonus plutôt que de la poursuite d'un seul d'entre eux : un mot de sept lettres rapporte déjà le bonus fixe de 50 points du Scrabble complet, et s'il traverse en même temps une case mot compte double ou triple, ce multiplicateur s'applique à tout le mot en plus des 50 points. Si votre chevalet contient une lettre à haute valeur comme K, W, X, Y ou Z, il vaut la peine de vérifier si un coup d'ancrage valide permet à cette lettre précise de se poser sur sa propre case premium, plutôt que de vous contenter du premier mot de sept lettres trouvé.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Quelle est la différence entre une ancre et un crochet ?", answer: "Un crochet désigne généralement l'ajout d'une seule lettre à un mot existant pour en former un nouveau (ajouter un S à CORE pour faire CORES). Une ancre est le concept plus large : toute lettre du plateau à travers laquelle votre nouveau mot se construit, qu'il s'agisse d'un simple crochet ou d'un mot entier passant par une lettre centrale." },
@@ -335,13 +335,13 @@ export const fr = [
         { id: "filtres-pour-gagner", label: "Utiliser les Filtres pour Trouver le Bon Coup" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords.",
         { type: 'heading', id: "pourquoi-outil-dedie", text: "Pourquoi un Outil Dédié au Français" },
         "Un déchiffreur générique, conçu principalement pour l'anglais, ne reconnaît souvent pas les particularités propres au français. Notre propre dictionnaire compte plus de 62 000 mots, chacun vérifié individuellement plutôt que simplement traduit ou copié depuis une liste anglaise.",
         { type: 'heading', id: "ligatures-oe-ae", text: "Les Ligatures ŒU et Æ : Pourquoi Elles Comptent" },
         "Les ligatures comme ŒU dans BŒUF ne correspondent à aucune lettre jouable au Scrabble : chaque lettre du plateau est une lettre séparée, donc ces mots doivent être respelés en BOEUF pour être reconnus correctement. Notre dictionnaire applique cette règle systématiquement à des mots courants comme BOEUF, SOEUR, COEUR et NOEUD -- un outil qui ignore cette règle risque de rejeter des mots parfaitement valides ou, pire, d'en accepter d'invalides.",
         { type: 'heading', id: "filtres-pour-gagner", text: "Utiliser les Filtres pour Trouver le Bon Coup" },
-        "Le filtre « commence par » aide à construire à partir d'une lettre déjà présente sur le plateau. Le K, malgré son origine presque entièrement empruntée à d'autres langues (kimono, kayak, karaoké), vaut 10 points -- l'une des valeurs les plus élevées du jeu. Utiliser les filtres pour trouver des mots qui exploitent le K sur une case premium est souvent la différence entre un coup ordinaire et un coup gagnant."
+        "Le filtre « commence par » aide à construire à partir d'une lettre déjà présente sur le plateau. Le K, malgré son origine presque entièrement empruntée à d'autres langues (kimono, kayak, karaoké), vaut 10 points -- l'une des valeurs les plus élevées du jeu. Utiliser les filtres pour trouver des mots qui exploitent le K sur une case premium est souvent la différence entre un coup ordinaire et un coup gagnant.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Pourquoi BŒUF doit-il s'écrire BOEUF au Scrabble ?", answer: "La ligature Œ ne correspond à aucun jeton du jeu -- chaque lettre du plateau est une lettre distincte, donc le mot doit être respelé avec un O et un E séparés pour être reconnu correctement." },
@@ -367,13 +367,13 @@ export const fr = [
         { id: "joker-lettres-precieuses", label: "Utiliser un Joker avec des Lettres Précieuses" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords.",
         { type: 'heading', id: "comment-fonctionne-joker", text: "Comment Fonctionne Vraiment une Recherche avec Joker" },
         "Entrez un point d'interrogation (?) n'importe où dans votre recherche pour représenter un joker, et l'outil vérifie chaque lettre de l'alphabet à cette position plutôt que de vous laisser deviner laquelle convient. Par exemple, chercher M?T renvoie correctement MOT et MAT -- le joker représente vraiment n'importe quelle lettre, testée systématiquement plutôt qu'approximée.",
         { type: 'heading', id: "correspondance-longueur", text: "Pourquoi le Nombre de Lettres Doit Correspondre" },
         "Le nombre de lettres saisies, joker inclus, doit correspondre à la longueur de tout mot renvoyé par la recherche. Une recherche à six lettres ne peut renvoyer que des mots de six lettres -- un mot de huit lettres ne peut tout simplement pas sortir d'un chevalet de six lettres, quelle que soit l'utilisation du joker.",
         { type: 'heading', id: "joker-lettres-precieuses", text: "Utiliser un Joker avec des Lettres Précieuses" },
-        "Un joker se combine particulièrement bien avec une lettre précieuse autrement difficile à placer. Le K, malgré son origine presque entièrement empruntée, vaut 10 points en français -- l'une des valeurs les plus élevées du jeu. KARAOKE, KAYAK et KIMONO sont des mots réels et vérifiés qui exploitent cette lettre efficacement, particulièrement utiles quand un joker complète le mot."
+        "Un joker se combine particulièrement bien avec une lettre précieuse autrement difficile à placer. Le K, malgré son origine presque entièrement empruntée, vaut 10 points en français -- l'une des valeurs les plus élevées du jeu. KARAOKE, KAYAK et KIMONO sont des mots réels et vérifiés qui exploitent cette lettre efficacement, particulièrement utiles quand un joker complète le mot.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Comment chercher avec un joker ?", answer: "Entrez un point d'interrogation (?) à la position de votre joker. L'outil teste chaque lettre de l'alphabet à cet endroit et renvoie chaque résultat valide." },
@@ -401,7 +401,6 @@ export const fr = [
         { id: "mots-longs", label: "Gérer les mots longs du turc" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords.",
         { type: 'heading', id: "ampleur-dictionnaire", text: "L'ampleur du problème du dictionnaire turc" },
         "Les jeux de puzzle représentent 96,9 % des revenus des développeurs mobiles turcs, selon le rapport 2026 d'AppMagic sur le marché du jeu en Türkiye -- un marché véritablement important et compétitif. Pourtant, la plupart des outils de déchiffrement de mots sont conçus pour l'anglais et adaptés après coup, ce qui se voit immédiatement dès qu'on saisit du texte turc.",
         { type: 'heading', id: "i-point-sans-point", text: "Deux lettres, pas une : İ et ı" },
@@ -411,7 +410,8 @@ export const fr = [
         { type: 'heading', id: "valeurs-lettres", text: "Les valeurs de lettres à connaître" },
         "Le J est la lettre la plus précieuse du Scrabble turc, à 10 points -- rare, mais à conserver pour une case premium. Le Ğ, en revanche, est suffisamment courant (présent dans des mots du quotidien comme DAĞ et YAĞ) pour ne pas être traité comme un trésor.",
         { type: 'heading', id: "mots-longs", text: "Gérer les mots longs du turc" },
-        "Le turc est une langue agglutinante : des chaînes de suffixes s'ajoutent à une racine pour construire rapidement des mots longs. Un outil doté de filtres « commence par » ou « se termine par », combiné à un dictionnaire turc réellement complet, facilite grandement la recherche de ces mots longs par rapport à un examen manuel des lettres."
+        "Le turc est une langue agglutinante : des chaînes de suffixes s'ajoutent à une racine pour construire rapidement des mots longs. Un outil doté de filtres « commence par » ou « se termine par », combiné à un dictionnaire turc réellement complet, facilite grandement la recherche de ces mots longs par rapport à un examen manuel des lettres.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Le İ pointé et le ı sans point sont-ils vraiment différents ?", answer: "Oui -- ce sont deux lettres distinctes en turc, avec des sons et des emplacements valides différents dans le jeu." },
@@ -438,7 +438,6 @@ export const fr = [
         { id: "mots-composes", label: "Trouver les mots composés grâce aux préfixes et suffixes" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords.",
         { type: 'heading', id: "taille-dictionnaire", text: "Quelle est la taille réelle du dictionnaire allemand ?" },
         "La liste officielle de mots de tournoi allemande -- l'Offizielle Turnierwörterliste, tenue par Scrabble Deutschland e.V. -- contient 184 243 mots dans son édition du 1er mai 2025, allant jusqu'à neuf lettres. C'est un chiffre réel et vérifiable de manière indépendante, pas une estimation arrondie. Un solveur de mots allemand dédié doit s'appuyer sur un vocabulaire réellement complet comme celui-ci, plutôt que sur une liste générique qui contient par hasard quelques mots allemands.",
         { type: 'heading', id: "eszett-trema", text: "L'Eszett et les trémas : bien gérer les caractères spéciaux" },
@@ -446,7 +445,8 @@ export const fr = [
         { type: 'heading', id: "valeurs-frequence-lettres", text: "Valeurs et fréquence des lettres : ce qui est vraiment rare" },
         "Au Scrabble allemand, le Q et le Y sont à égalité pour la valeur la plus élevée, à 10 points chacune, suivies de près par le X à 8 points. À l'autre extrémité, le E est de loin la lettre la plus courante -- il y a réellement 15 lettres E dans un jeu standard, plus du double de la lettre suivante la plus courante. Savoir cela oriente la stratégie dans les deux sens : gardez un Q ou un Y pour une bonne occasion, mais ne soyez pas avare d'un E, puisqu'il y en a beaucoup d'autres.",
         { type: 'heading', id: "mots-composes", text: "Trouver les mots composés grâce aux préfixes et suffixes" },
-        "Les célèbres noms composés et les longues formes verbales de l'allemand sont moins intimidants une fois qu'on reconnaît leurs éléments constitutifs. Les participes passés commencent très souvent par GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), et les noms abstraits se terminent fréquemment par -HEIT ou -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ou par -UNG. Rechercher avec un filtre \"commence par\" ou \"se termine par\" pour ces schémas transforme un mot long intimidant en une recherche bien plus restreinte et gérable."
+        "Les célèbres noms composés et les longues formes verbales de l'allemand sont moins intimidants une fois qu'on reconnaît leurs éléments constitutifs. Les participes passés commencent très souvent par GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), et les noms abstraits se terminent fréquemment par -HEIT ou -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) ou par -UNG. Rechercher avec un filtre \"commence par\" ou \"se termine par\" pour ces schémas transforme un mot long intimidant en une recherche bien plus restreinte et gérable.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Combien de mots contient le dictionnaire officiel du Scrabble allemand ?", answer: "184 243, dans l'édition du 1er mai 2025 de l'Offizielle Turnierwörterliste tenue par Scrabble Deutschland e.V. -- un chiffre réel et vérifiable." },
@@ -476,7 +476,6 @@ export const fr = [
         { id: 'lettres-difficiles', label: "Les lettres les plus difficiles à placer" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords, chaque mot étant contrôlé directement dans notre propre dictionnaire.",
         { type: 'heading', id: 'quest-ce-quun-crochet', text: "Qu'est-ce qu'un mot-crochet ?" },
         "Un mot-crochet consiste à ajouter une seule lettre au début ou à la fin d'un mot déjà posé sur le plateau. C'est utile car cela permet de marquer à la fois pour le nouveau mot et pour la pleine valeur du mot déjà présent.",
         { type: 'heading', id: 'crochets-avant', text: "Crochets avant : ajouter une lettre au début" },
@@ -487,7 +486,8 @@ export const fr = [
         "Le S permet de former de nombreux pluriels et conjugaisons, mais il vaut aussi la peine d'être gardé pour un scrabble (utiliser ses sept lettres d'un coup, pour un bonus de 50 points), plutôt que dépensé pour un petit crochet.",
         { type: 'heading', id: 'lettres-difficiles', text: "Les lettres les plus difficiles à placer" },
         "Le Q et le Z sont parmi les lettres les plus délicates. D'après la répartition officielle du Scrabble en français, le Q vaut 8 points, tandis que K, W, X, Y et Z valent chacun 10 points — ce sont les lettres les plus précieuses du jeu.",
-        "Chaque exemple ci-dessus a été contrôlé directement dans le dictionnaire français utilisé par UnscramblWords, et non simplement supposé valide."
+        "Chaque exemple ci-dessus a été contrôlé directement dans le dictionnaire français utilisé par UnscramblWords, et non simplement supposé valide.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Qu'est-ce qu'un mot-crochet au Scrabble ?", answer: "Un mot-crochet se forme en ajoutant une seule lettre au début ou à la fin d'un mot déjà posé, créant un nouveau mot valide tout en marquant aussi pour le mot d'origine." },
@@ -517,7 +517,6 @@ export const fr = [
         { id: 'lettres-precieuses', label: "Les lettres les plus précieuses" }
       ],
       body: [
-        "Rédigé et vérifié par l'équipe UnscramblWords, chaque mot étant contrôlé directement dans notre propre dictionnaire.",
         { type: 'heading', id: 'ce-que-fait-un-solveur', text: "Ce que fait vraiment un solveur d'anagrammes portugais" },
         "Le portugais est une langue riche en voyelles : un jeu de lettres contient souvent plusieurs A, E ou O, créant bien plus de combinaisons possibles qu'on ne peut raisonnablement vérifier à la main. Un solveur d'anagrammes portugais dédié teste chaque combinaison contre un vrai dictionnaire, pour obtenir des mots réellement jouables plutôt que des suppositions.",
         { type: 'heading', id: 'accents-cedille', text: "Gérer les accents et la cédille (Ç)" },
@@ -528,7 +527,8 @@ export const fr = [
         "Utilisez les filtres « commence par » et « se termine par » pour cibler une position précise sur le plateau, ou filtrez par longueur de mot pour combler exactement une case de mots croisés. Combinez plusieurs filtres à la fois pour passer d'une longue liste de résultats à la poignée qui convient vraiment à votre situation.",
         { type: 'heading', id: 'lettres-precieuses', text: "Les lettres les plus précieuses" },
         "X et Z sont les deux lettres les plus précieuses au Scrabble portugais, valant 8 points chacune -- des mots comme EXAME (examen) et TEXTO (texte) exploitent bien un X à haute valeur. Le Q vaut 6 points et, comme dans la plupart des langues, nécessite presque toujours un U à ses côtés.",
-        "Notre dictionnaire couvre à la fois l'orthographe du portugais européen et brésilien, afin que les résultats reflètent un vocabulaire réel des deux variantes. Chaque exemple de ce guide -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META et MATA -- a été vérifié directement dans le dictionnaire d'UnscramblWords."
+        "Notre dictionnaire couvre à la fois l'orthographe du portugais européen et brésilien, afin que les résultats reflètent un vocabulaire réel des deux variantes. Chaque exemple de ce guide -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META et MATA -- a été vérifié directement dans le dictionnaire d'UnscramblWords.",
+        "(Relu par l'équipe UnscramblWords)"
       ],
       faq: [
         { question: "Le solveur d'anagrammes portugais prend-il en charge les lettres joker ?", answer: "Oui. Tapez ? dans la barre de recherche pour représenter n'importe quelle lettre inconnue -- par exemple, M?TA trouve META et MATA. Il n'y a aucune limite au nombre de jokers utilisables, et une lettre issue d'un joker vaut toujours 0 point, comme un vrai jeton blanc au Scrabble." },

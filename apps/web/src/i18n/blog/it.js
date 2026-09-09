@@ -200,13 +200,13 @@ export const it = [
         { id: "sommare-bonus", label: "Combinare una Giocata di Ancoraggio con una Casella Premio" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords.",
         { type: 'heading', id: "cose-unancora", text: "Cos'è Davvero una Lettera Ancora" },
         "Un'ancora è semplicemente una lettera già posata sul tabellone attraverso o intorno alla quale può essere costruita la tua nuova parola -- anziché giocare in uno spazio libero. Invece di trattare le tue lettere come un rompicapo isolato, fissi una lettera del tabellone e cerchi parole di sette lettere che passino per essa nella posizione giusta. Questo trasforma 'quali parole di sette lettere posso formare?' nella domanda molto più utile 'quali parole di sette lettere posso formare che si posino anche qui?'",
         { type: 'heading', id: "ricerca-ancora-lunghezza", text: "Cercare per Ancora e Lunghezza Insieme" },
         "In pratica: individua la posizione della lettera ancora nella parola di cui hai bisogno (prima lettera, ultima lettera, o nel mezzo), inserisci le lettere del tuo leggio, imposta il filtro di lunghezza esattamente su 7, e aggiungi un filtro 'inizia con' o 'finisce con' per l'ancora se cade a una delle estremità. Nel nostro dizionario ci sono esattamente 6.100 parole di sette lettere -- cercare senza vincoli di tabellone ti lascia scorrere tutte queste parole, mentre aggiungere il filtro dell'ancora lo riduce solo alle giocate realmente possibili.",
         { type: 'heading', id: "sommare-bonus", text: "Combinare una Giocata di Ancoraggio con una Casella Premio" },
-        "I punteggi più alti in una sola mossa nascono dal sommare i bonus piuttosto che inseguirne uno solo: una parola di sette lettere guadagna già il bonus fisso di 50 punti per lo scarabeo completo, e se allo stesso tempo attraversa una casella parola doppia o tripla, quel moltiplicatore si applica all'intera parola in aggiunta ai 50 punti. Se il tuo leggio include una lettera di alto valore come Q o Z, vale la pena controllare se qualche giocata di ancoraggio valida permette a quella lettera specifica di cadere sulla propria casella premio, invece di accontentarsi della prima parola di sette lettere trovata."
+        "I punteggi più alti in una sola mossa nascono dal sommare i bonus piuttosto che inseguirne uno solo: una parola di sette lettere guadagna già il bonus fisso di 50 punti per lo scarabeo completo, e se allo stesso tempo attraversa una casella parola doppia o tripla, quel moltiplicatore si applica all'intera parola in aggiunta ai 50 punti. Se il tuo leggio include una lettera di alto valore come Q o Z, vale la pena controllare se qualche giocata di ancoraggio valida permette a quella lettera specifica di cadere sulla propria casella premio, invece di accontentarsi della prima parola di sette lettere trovata.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "Qual è la differenza tra un'ancora e un aggancio?", answer: "Un aggancio di solito indica l'aggiunta di una singola lettera a una parola esistente per formarne una nuova. Un'ancora è il concetto più ampio: qualsiasi lettera del tabellone attraverso cui si costruisce la tua nuova parola, che sia un semplice aggancio o un'intera parola che passa per una lettera centrale." },
@@ -231,13 +231,13 @@ export const it = [
         { id: "filtri-per-vincere", label: "Usare i Filtri per Trovare la Mossa Giusta" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords.",
         { type: 'heading', id: "perche-strumento-dedicato", text: "Perché Serve uno Strumento Dedicato all'Italiano" },
         "Un decifratore generico, pensato principalmente per l'inglese, spesso non riconosce le caratteristiche specifiche dell'italiano. Con 14,2 milioni di giocatori in Italia secondo il rapporto IIDEA del 2022 (il 32% della popolazione), è una community abbastanza ampia da meritare uno strumento che gestisca davvero la lingua, non un adattamento approssimativo.",
         { type: 'heading', id: "accenti-e-acca", text: "Accenti e la Lettera H: Perché Contano" },
         "Le vocali accentate -- À, È, É, Ì, Ò, Ù -- non sono un dettaglio estetico: cambiano il significato e la validità di una parola. Un buon strumento distingue \"perche\" (una stringa non valida) da \"perché\" (la parola corretta). Allo stesso modo, la H, pur essendo muta, è tutt'altro che superflua: distingue \"anno\" (l'unità di tempo) da \"hanno\" (voce del verbo avere). Riconoscere questa differenza è essenziale per non giocare una parola che verrebbe contestata.",
         { type: 'heading', id: "filtri-per-vincere", text: "Usare i Filtri per Trovare la Mossa Giusta" },
-        "Il filtro \"inizia con\" aiuta a costruire a partire da una lettera già presente sul tabellone; il filtro \"finisce con\" è particolarmente utile per gli infiniti verbali italiani in -ARE, -ERE e -IRE. Q (10 punti) e Z (8 punti) sono le lettere più preziose del gioco: usare i filtri per trovare parole che le sfruttino su una casella premio è spesso la differenza tra una mossa qualsiasi e una vincente. Non sottovalutate nemmeno le parole di due lettere come RE, SA e MA -- perfette per incastrarsi in spazi ristretti senza bloccare il tabellone."
+        "Il filtro \"inizia con\" aiuta a costruire a partire da una lettera già presente sul tabellone; il filtro \"finisce con\" è particolarmente utile per gli infiniti verbali italiani in -ARE, -ERE e -IRE. Q (10 punti) e Z (8 punti) sono le lettere più preziose del gioco: usare i filtri per trovare parole che le sfruttino su una casella premio è spesso la differenza tra una mossa qualsiasi e una vincente. Non sottovalutate nemmeno le parole di due lettere come RE, SA e MA -- perfette per incastrarsi in spazi ristretti senza bloccare il tabellone.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "Come faccio a decifrare parole italiane con accenti come È o À?", answer: "Non serve digitare l'accento: il motore di ricerca confronta automaticamente le lettere base con le voci accentate del dizionario, identificando parole come città o perché istantaneamente." },
@@ -264,13 +264,13 @@ export const it = [
         { id: "jolly-lettere-preziose", label: "Usare un Jolly con Lettere Preziose" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords.",
         { type: 'heading', id: "come-funziona-jolly", text: "Come Funziona Davvero una Ricerca con Jolly" },
         "Ad esempio, cercare M?TA restituisce correttamente META -- il jolly rappresenta davvero qualsiasi lettera, testata sistematicamente anziché approssimata.",
         { type: 'heading', id: "lunghezza-deve-corrispondere", text: "Perché il Numero di Lettere Deve Corrispondere" },
         "Il numero di lettere inserite, jolly incluso, deve corrispondere alla lunghezza di qualsiasi parola restituita dalla ricerca. Una ricerca di sei lettere può restituire solo parole di sei lettere -- una parola di otto lettere semplicemente non può derivare da un leggio di sei lettere, indipendentemente da come viene usato il jolly.",
         { type: 'heading', id: "jolly-lettere-preziose", text: "Usare un Jolly con Lettere Preziose" },
-        "Un jolly si abbina particolarmente bene a una lettera preziosa altrimenti difficile da posizionare. La Q vale 10 punti nello Scarabeo italiano, il valore più alto del gioco. QUARZO e QUERCIA sono parole reali e verificate che sfruttano efficacemente questa lettera, particolarmente utili quando un jolly completa la parola."
+        "Un jolly si abbina particolarmente bene a una lettera preziosa altrimenti difficile da posizionare. La Q vale 10 punti nello Scarabeo italiano, il valore più alto del gioco. QUARZO e QUERCIA sono parole reali e verificate che sfruttano efficacemente questa lettera, particolarmente utili quando un jolly completa la parola.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "Come si cerca usando una lettera jolly?", answer: "Inserite un punto interrogativo (?) nella posizione della vostra lettera jolly. Lo strumento verifica ogni lettera dell'alfabeto in quel punto e restituisce ogni risultato valido." },
@@ -298,7 +298,6 @@ export const it = [
         { id: "parole-lunghe", label: "Gestire le parole lunghe del turco" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords.",
         { type: 'heading', id: "dimensione-dizionario", text: "Quanto è grande il dizionario turco?" },
         "I giochi puzzle generano il 96,9% dei ricavi degli sviluppatori mobile turchi, secondo il report 2026 di AppMagic \"Türkiye's Mobile Gaming Landscape\" -- un mercato davvero grande e competitivo. Eppure la maggior parte degli strumenti di decifrazione delle parole è pensata per l'inglese e adattata solo in seguito, cosa che si nota subito con l'input turco.",
         { type: 'heading', id: "i-puntata-non-puntata", text: "Due lettere, non una: İ e ı" },
@@ -308,7 +307,8 @@ export const it = [
         { type: 'heading', id: "valori-lettere", text: "Valori di lettere da conoscere" },
         "La J è la lettera più preziosa dello Scarabeo turco, con 10 punti -- rara, ma vale la pena conservarla per una casella bonus. La Ğ, al contrario, è abbastanza comune (compare in parole quotidiane come DAĞ e YAĞ) da non dover essere trattata come preziosa.",
         { type: 'heading', id: "parole-lunghe", text: "Gestire le parole lunghe del turco" },
-        "Il turco è una lingua agglutinante: catene di suffissi si aggiungono a una radice per costruire rapidamente parole lunghe. Uno strumento con filtri \"inizia con\" o \"finisce con\", abbinato a un dizionario turco davvero completo, rende molto più facile trovare queste parole lunghe rispetto a scorrere le lettere manualmente."
+        "Il turco è una lingua agglutinante: catene di suffissi si aggiungono a una radice per costruire rapidamente parole lunghe. Uno strumento con filtri \"inizia con\" o \"finisce con\", abbinato a un dizionario turco davvero completo, rende molto più facile trovare queste parole lunghe rispetto a scorrere le lettere manualmente.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "La İ puntata e la ı senza punto sono davvero diverse?", answer: "Sì -- sono due lettere distinte in turco, con suoni e regole di gioco diverse." },
@@ -335,7 +335,6 @@ export const it = [
         { id: "parole-composte", label: "Trovare parole composte tramite prefissi e suffissi" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords.",
         { type: 'heading', id: "dimensione-dizionario", text: "Quanto è grande davvero il dizionario tedesco?" },
         "L'elenco ufficiale delle parole da torneo della Germania -- l'Offizielle Turnierwörterliste, mantenuto da Scrabble Deutschland e.V. -- contiene 184.243 parole nell'edizione del 1° maggio 2025, fino a nove lettere. È un numero reale e verificabile in modo indipendente, non una stima arrotondata. Uno strumento dedicato al tedesco dovrebbe basarsi su un vocabolario davvero completo come questo, invece che su un elenco generico che per caso include alcune parole tedesche.",
         { type: 'heading', id: "eszett-umlaut", text: "L'Eszett e gli umlaut: gestire correttamente i caratteri speciali" },
@@ -343,7 +342,8 @@ export const it = [
         { type: 'heading', id: "valori-frequenza-lettere", text: "Valori e frequenza delle lettere: cosa è davvero raro" },
         "Nello Scarabeo tedesco, Q e Y sono a pari merito per il valore più alto, con 10 punti ciascuna, seguite da vicino dalla X con 8. All'altro estremo, la E è di gran lunga la lettera più comune -- ci sono davvero 15 tessere E in un set standard, più del doppio della lettera successiva più comune. Saperlo orienta la strategia in entrambe le direzioni: conservate una Q o una Y per una buona occasione, ma non siate avari con una E, dato che ce ne sono molte altre.",
         { type: 'heading', id: "parole-composte", text: "Trovare parole composte tramite prefissi e suffissi" },
-        "I famosi sostantivi composti e le lunghe forme verbali del tedesco risultano meno intimidatori una volta riconosciuti i loro elementi costitutivi. I participi passati iniziano molto spesso con GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), e i sostantivi astratti terminano frequentemente in -HEIT o -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) oppure in -UNG. Cercare con un filtro \"inizia con\" o \"finisce con\" per questi schemi trasforma una parola lunga e intimidatoria in una ricerca molto più piccola e gestibile."
+        "I famosi sostantivi composti e le lunghe forme verbali del tedesco risultano meno intimidatori una volta riconosciuti i loro elementi costitutivi. I participi passati iniziano molto spesso con GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), e i sostantivi astratti terminano frequentemente in -HEIT o -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) oppure in -UNG. Cercare con un filtro \"inizia con\" o \"finisce con\" per questi schemi trasforma una parola lunga e intimidatoria in una ricerca molto più piccola e gestibile.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "Quante parole contiene il dizionario ufficiale dello Scarabeo tedesco?", answer: "184.243, secondo l'edizione del 1° maggio 2025 dell'Offizielle Turnierwörterliste mantenuta da Scrabble Deutschland e.V. -- un dato reale e verificabile." },
@@ -371,7 +371,6 @@ export const it = [
         { id: 'lettere-difficili', label: "Le lettere più difficili" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords, con ogni parola controllata direttamente nel nostro dizionario.",
         { type: 'heading', id: 'cose-un-gancio', text: "Cos'è una parola-gancio?" },
         "A Scarabeo, aggiungere una singola lettera all'inizio o alla fine di una parola già presente sul tabellone può creare una nuova parola valida. Conviene farlo perché si ottengono punti sia per la nuova parola sia per l'intero valore di quella già posata.",
         { type: 'heading', id: 'gancio-iniziale', text: "Aggiungere una lettera all'inizio" },
@@ -380,7 +379,8 @@ export const it = [
         "AVER diventa AVERE.",
         { type: 'heading', id: 'lettere-difficili', text: "Le lettere più difficili" },
         "Il Q vale 10 punti, il valore più alto del gioco. G, H e Z valgono invece 8 punti ciascuna: sono le lettere più difficili da piazzare, ma anche le più preziose quando ci si riesce. Questi valori corrispondono alla distribuzione ufficiale delle lettere di Scarabeo.",
-        "Ogni esempio qui sopra è stato controllato direttamente nel dizionario italiano di UnscramblWords, non semplicemente dato per valido."
+        "Ogni esempio qui sopra è stato controllato direttamente nel dizionario italiano di UnscramblWords, non semplicemente dato per valido.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "Cos'è una parola-gancio a Scarabeo?", answer: "Una parola-gancio si forma aggiungendo una sola lettera all'inizio o alla fine di una parola già presente sul tabellone, creando una nuova parola valida e facendo punteggio anche per quella originale." },
@@ -410,7 +410,6 @@ export const it = [
         { id: 'lettere-preziose', label: "Le lettere di maggior valore" }
       ],
       body: [
-        "Scritto e verificato dal team di UnscramblWords, con ogni parola controllata direttamente nel nostro dizionario.",
         { type: 'heading', id: 'cosa-fa-un-risolutore', text: "Cosa fa davvero un risolutore di anagrammi portoghesi" },
         "Il portoghese è una lingua ricca di vocali: un set di lettere contiene spesso più A, E o O, creando molte più combinazioni possibili di quante se ne possano controllare realisticamente a mano. Un risolutore di anagrammi portoghesi dedicato verifica ogni combinazione contro un vero dizionario, mostrando parole realmente giocabili anziché supposizioni.",
         { type: 'heading', id: 'accenti-cediglia', text: "Gestire accenti e cediglia (Ç)" },
@@ -421,7 +420,8 @@ export const it = [
         "Usa i filtri \"inizia con\" e \"finisce con\" per restringere i risultati verso una posizione specifica sul tabellone, oppure filtra per lunghezza della parola per riempire esattamente uno spazio del cruciverba. Combina più filtri insieme per passare da un lungo elenco di corrispondenze alla manciata che si adatta davvero alla tua situazione.",
         { type: 'heading', id: 'lettere-preziose', text: "Le lettere di maggior valore" },
         "X e Z sono le due lettere di maggior valore nello Scarabeo portoghese, con 8 punti ciascuna -- parole come EXAME (esame) e TEXTO (testo) sfruttano bene una X di alto valore. La Q vale 6 punti e, come nella maggior parte delle lingue, richiede quasi sempre una U al suo fianco.",
-        "Il nostro dizionario copre sia l'ortografia del portoghese europeo sia di quello brasiliano, quindi i risultati riflettono vocabolario reale di entrambe le varianti. Ogni esempio di questa guida -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META e MATA -- è stato controllato direttamente nel dizionario di UnscramblWords."
+        "Il nostro dizionario copre sia l'ortografia del portoghese europeo sia di quello brasiliano, quindi i risultati riflettono vocabolario reale di entrambe le varianti. Ogni esempio di questa guida -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META e MATA -- è stato controllato direttamente nel dizionario di UnscramblWords.",
+        "(Verificato dal team di UnscramblWords)"
       ],
       faq: [
         { question: "Il risolutore di anagrammi portoghesi supporta le lettere jolly?", answer: "Sì. Digita ? nella casella di ricerca per rappresentare una qualsiasi lettera sconosciuta -- ad esempio, M?TA trova META e MATA. Non c'è alcun limite a quanti jolly puoi usare, e una lettera derivata da un jolly vale sempre 0 punti, come una vera tessera bianca a Scarabeo." },

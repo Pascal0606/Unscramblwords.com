@@ -6,7 +6,6 @@ export const en = [
       title: 'Master Scrabble: Essential Strategies to Boost Your Game',
       excerpt: 'Learn proven strategies to improve your Scrabble performance, from board positioning to tile management and scoring tactics.',
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         "Scrabble rewards vocabulary, but strategy is what turns a good vocabulary into consistent wins. Here are the tactics that matter most, from board control to tile management.",
         "Control the premium squares. Double and triple letter scores can turn an ordinary word into a high-scoring play; double and triple word scores are bigger still. Plan your rack with an eye on reaching these squares on your next turn, not just the current one.",
         "Manage your tiles, not just your score. The highest-scoring word available isn't always the best play — consider what you'll be left holding afterwards. High-value but awkward letters (Q, X, Z, J) are risky to keep if you can't use them soon; sometimes a smaller word that preserves a balanced rack of vowels and common consonants is the stronger move.",
@@ -17,7 +16,8 @@ export const en = [
         "Study the word lists. The Official Scrabble Players Dictionary (OSPD) is the standard recreational and school reference in North America; competitive play there uses the NASPA Word List (formerly OWL/TWL), while international tournaments use Collins Scrabble Words (CSW). Knowing which list applies to your game matters, since the two differ by tens of thousands of words.",
         "Practise against strong opponents. Rated online play, followed by reviewing your losses, is one of the fastest ways to spot recurring mistakes.",
         "Think several moves ahead. Anticipate what your opponent can play next, block their best opportunities where practical, and balance offence with defence — consistency beats a single lucky draw over the course of a game.",
-        "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on the current word lists used in North American versus international tournament play."
+        "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on the current word lists used in North American versus international tournament play.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -26,7 +26,6 @@ export const en = [
       title: 'The Complete Guide to Two-Letter Words in Scrabble',
       excerpt: 'Discover the most valuable and useful two-letter words that can transform your Scrabble game and help you score big points.',
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         "Two-letter words are the secret weapon of Scrabble champions. These short but mighty words can fit into tight spaces, create multiple scoring opportunities, and help you use difficult letters. Mastering two-letter words is essential for any serious Scrabble player.",
         "The official word lists contain 107 valid two-letter words in the North American TWL/NWL list (127 in the international CSW list, which includes an additional 20). Learning all of them is one of the highest-return investments a Scrabble player can make. Even knowing the most common 50 will dramatically improve your game.",
         "The highest-value two-letter words include ZA (11 points; informal for pizza), XI (a Greek letter), OX (an animal) and XU (a Vietnamese currency unit), both worth 9 points, and ZO (a Himalayan bovine, a hybrid of yak and cattle). These are invaluable when you are stuck with difficult letters like Q, X, or Z.",
@@ -37,7 +36,8 @@ export const en = [
         "Practise using two-letter words in combination with longer plays. The best Scrabble players always look for opportunities to play parallel to existing words, creating two or more two-letter combinations simultaneously. This parallel play technique can generate enormous scores from seemingly modest racks.",
         "We recommend studying comprehensive two-letter word lists and practising with them regularly. Many online Scrabble resources provide complete lists organised by difficulty. Spend time learning the most common and highest-value words first, then gradually expand your knowledge.",
         "With dedication and regular practice, you will soon be playing two-letter words with confidence and precision, turning difficult racks into high-scoring opportunities that leave your opponents struggling to keep up.",
-        "Sources: NASPA Word List (North American TWL/NWL) and Collins Scrabble Words (CSW), on the official two-letter word counts and point values."
+        "Sources: NASPA Word List (North American TWL/NWL) and Collins Scrabble Words (CSW), on the official two-letter word counts and point values.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -46,7 +46,6 @@ export const en = [
       title: 'How to Improve Your Vocabulary for Word Games',
       excerpt: 'Practical strategies and techniques to build your vocabulary and become a formidable opponent in word games like Scrabble and Wordle.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "A strong vocabulary is the foundation of success in word games. Whether you are playing Scrabble, Wordle, or any word-based game, knowing more words gives you more options and better chances of winning. The good news is that vocabulary building is a skill that can be developed with consistent practice and the right approach.",
         "Start by reading widely and regularly. Books, articles, news websites, and even quality journalism expose you to new words in context. When you encounter an unfamiliar word, look it up immediately and try to use it in a sentence. This active engagement helps cement the word in your memory far better than passive reading alone.",
         "Create a personal word list of interesting and useful words. Keep a notebook or digital document where you record new words, their definitions, and example sentences. Review this list regularly, especially before playing word games. Spaced repetition — reviewing information at increasing intervals — is one of the most effective learning techniques, and apps such as Anki are designed specifically for this purpose.",
@@ -56,7 +55,8 @@ export const en = [
         "Use vocabulary-building apps and online resources. Platforms such as Merriam-Webster's Word of the Day and Vocabulary.com offer structured vocabulary development tailored to word game players.",
         "Engage in conversations with well-read people and participate in book clubs or literary discussion groups. Exposure to sophisticated language in conversation accelerates vocabulary acquisition in a natural and enjoyable way.",
         "Do not underestimate the value of solving cryptic crosswords. Unlike standard crosswords, cryptic crosswords require lateral thinking about word structure, double meanings, and wordplay. Regular cryptic crossword solving develops a deep intuitive understanding of how words work.",
-        "Finally, be patient and consistent. Vocabulary building is a lifelong endeavour. Set small, achievable daily goals — learning five new words per day, for instance — and celebrate your progress. Over months and years, this consistent effort compounds into a formidable word game vocabulary."
+        "Finally, be patient and consistent. Vocabulary building is a lifelong endeavour. Set small, achievable daily goals — learning five new words per day, for instance — and celebrate your progress. Over months and years, this consistent effort compounds into a formidable word game vocabulary.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -65,7 +65,6 @@ export const en = [
       title: 'Best Scrabble Words Using the Letter Q',
       excerpt: 'The letter Q is worth 10 points in Scrabble but is notoriously difficult to use. Here are the best Q words to know.',
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         "The letter Q is one of the highest-scoring tiles in Scrabble, worth 10 points. However, it is also one of the most feared tiles because players traditionally believe Q must always be followed by a U. This is simply not true, and knowing Q-without-U words is one of the most powerful advantages a Scrabble player can have.",
         "The most important Q-without-U words to memorise include QAT (3 letters, a stimulant plant chewed in parts of East Africa and the Middle East), QOPH (4 letters, a Hebrew letter), QANAT (5 letters, an irrigation tunnel), QWERTY (6 letters, the standard keyboard layout), TRANQ (5 letters, short for tranquilliser), QINTAR (6 letters, an Albanian monetary unit), and QAID (4 letters, a Muslim leader or chieftain).",
         "When you do have a U to accompany your Q, some of the best scoring Q words include QUIXOTIC (26 points before multipliers), SQUEEZE (25 points), QUIZ (22 points), QUARTZ (24 points), QUEEN (14 points), QUOTE (14 points), and QUAFF (20 points).",
@@ -76,7 +75,8 @@ export const en = [
         "Learning Q words is not merely about memorisation — it is about transforming one of the most feared tiles into one of the most profitable. Players who are comfortable with Q words have a significant psychological advantage over opponents who dread drawing the Q.",
         "Advanced players also know that QOPH, QADI, and QANAT can catch opponents completely off guard. Many experienced Scrabble players will challenge these words, which means if you know they are valid, you gain both the points and your opponent loses a turn.",
         "Invest time in memorising the complete list of valid Q words in your preferred Scrabble dictionary. This single vocabulary investment is likely to pay dividends in virtually every game you play.",
-        "Sources: NASPA Word List and Collins Scrabble Words, on word validity and standard Scrabble tile point values."
+        "Sources: NASPA Word List and Collins Scrabble Words, on word validity and standard Scrabble tile point values.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -85,7 +85,6 @@ export const en = [
       title: 'High-Scoring Seven-Letter Words for Scrabble Bingos',
       excerpt: 'Playing all seven tiles earns a 50-point bonus. Here are the best seven-letter words to know for scoring bingos in Scrabble.',
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         "In Scrabble, playing all seven tiles in a single turn is called a 'bingo' in North America or a 'bonus word' in international play. This feat earns you a 50-point bonus on top of the word's face value, making it one of the most powerful moves in the game. Knowing which seven-letter combinations are most likely to appear on your rack dramatically increases your bingo frequency.",
         "The most bingo-friendly tiles are the common letters E, A, R, S, T, I, N, O, and L. Racks containing combinations of these letters offer the greatest probability of forming seven-letter words. Conversely, racks heavy in rare letters like J, Q, X, and Z rarely produce bingos.",
         "Some of the most useful seven-letter bingo words to know include ETESIAN (relating to Mediterranean winds), NASTIER (an anagram of RETAINS, STAINER, and RETSINA), SENATOR, ATONERS, TREASON, ORNATES, and MAESTRO.",
@@ -96,7 +95,8 @@ export const en = [
         "Software tools such as Quackle (a Scrabble analysis programme) can help you study bingo probability. By inputting various tile combinations, you can discover which racks offer the highest bingo potential and practise recognising these patterns quickly.",
         "Practising anagram puzzles is one of the best ways to develop bingo vision — the ability to quickly spot seven-letter words hidden in your rack. Dedicated Scrabble training apps present you with racks and challenge you to find bingos under time pressure.",
         "Remember that bingos are not just about playing all seven tiles — they are about playing them in a way that maximises total score. A bingo that lands on a double or triple word score square can generate 100 points or more from a single play, turning the tide of any game.",
-        "Sources: NASPA Word List and Collins Scrabble Words, on word validity and the standard Scrabble bingo bonus."
+        "Sources: NASPA Word List and Collins Scrabble Words, on word validity and the standard Scrabble bingo bonus.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -105,7 +105,6 @@ export const en = [
       title: 'The Fascinating History of Scrabble',
       excerpt: 'From its invention by a New York architect in the 1930s to becoming one of the world\'s most popular board games, here is the complete history of Scrabble.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "Scrabble has a rich and fascinating history that spans nearly a century. The game was invented by Alfred Mosher Butts, an architect from New York who spent his evenings designing word games as a personal creative project. Determined to create a popular pastime, Butts spent years analysing letter frequencies in newspapers and books to design a balanced, challenging word game.",
         "Butts originally called his invention 'Lexiko', then later renamed it 'Criss-Cross Words'. The game combined elements of anagram games with the numerical scoring element that made it uniquely engaging. Despite his efforts, Butts struggled to find a manufacturer willing to produce the game, and for years it remained a homemade product sold informally to friends and acquaintances.",
         "The turning point came in 1948 when James Brunot, a friend of Butts, acquired the rights to manufacture and sell the game. Brunot simplified the rules, redesigned the board slightly, and renamed the game 'Scrabble' — a real English word meaning to scratch or scramble for something. Butts retained a royalty on each set sold.",
@@ -116,7 +115,8 @@ export const en = [
         "The game has also had a notable cultural impact. 'Scrabble' has become a verb in common English usage, and the game has appeared in countless films, television programmes, and novels. It has been credited with improving literacy and vocabulary in players of all ages.",
         "In recent decades, online Scrabble platforms and smartphone apps have introduced the game to entirely new generations of players. Words With Friends, a mobile game inspired by Scrabble, attracted hundreds of millions of users and sparked renewed mainstream interest in competitive word gaming.",
         "Today, Scrabble remains one of the most beloved and enduring board games ever created. Alfred Butts, who died in 1993 at the age of 93, lived to see his 1930s invention become a global phenomenon enjoyed by hundreds of millions of people in virtually every corner of the world.",
-        "Sources: Wikipedia (Alfred Mosher Butts); Mattel's 2024 confirmed sales figures, as reported across multiple 2026 industry statistics summaries."
+        "Sources: Wikipedia (Alfred Mosher Butts); Mattel's 2024 confirmed sales figures, as reported across multiple 2026 industry statistics summaries.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -125,7 +125,6 @@ export const en = [
       title: 'How Word Games Engage Your Brain: The Science of Vocabulary, Memory, and Focus',
       excerpt: 'Word games call on memory, attention, and language processing all at once. Here is what the research actually shows about why that matters.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "Word games call on a wide range of mental skills at once — vocabulary retrieval, spatial reasoning, arithmetic, and forward planning — which is part of why researchers have taken a genuine interest in how they engage the brain. Here's what the evidence actually shows.",
         "Regularly engaging in mentally active pastimes — including word games and puzzles — is associated with better outcomes on cognitive tests, particularly later in life. Researchers describe this using the concept of 'cognitive reserve', developed by neuropsychologist Yaakov Stern: the idea that staying mentally active helps the brain keep working effectively as it changes over the years.",
         "Language processing is one of the most complex tasks the human brain performs, involving multiple regions including Broca's area, Wernicke's area, and parts of the prefrontal cortex. Word games such as Scrabble engage these language areas intensively, requiring vocabulary retrieval, spatial reasoning, arithmetic, and strategic planning all at the same time.",
@@ -137,7 +136,8 @@ export const en = [
         "For children and young people, word games carry clear educational value. Studies broadly link regular word game play with stronger vocabulary, reading comprehension, and spelling in school-age children.",
         "In short: word games are a genuinely engaging way to exercise memory, attention, and language skills, and the research on cognitive reserve gives a good reason to think that engagement adds up over time. They're worth playing for their own sake — enjoyable in the moment, and backed by real evidence for the mental skills they exercise.",
         "This is a general-interest summary of ongoing research, not medical advice.",
-        "Sources: Bialystok, Craik & Freedman (2007), Neuropsychologia, on bilingualism and cognitive performance in later life; Stern (2002) on the cognitive reserve concept."
+        "Sources: Bialystok, Craik & Freedman (2007), Neuropsychologia, on bilingualism and cognitive performance in later life; Stern (2002) on the cognitive reserve concept.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -146,7 +146,6 @@ export const en = [
       title: 'How to Unscramble Letters Quickly: Expert Tips and Techniques',
       excerpt: 'Whether you are playing a word game or solving a puzzle, these expert techniques will help you find words in scrambled letters much faster.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "Unscrambling letters efficiently is a skill that can be developed with practice and the right mental strategies. Whether you are playing Scrabble, solving an anagram puzzle, or competing in a word game, knowing how to quickly identify words hidden in a jumble of letters is enormously valuable.",
         "The first and most important technique is to identify common letter clusters. English contains many highly predictable consonant clusters such as TH, CH, SH, PH, ST, TR, PR, GR, BL, FL, CR, and DR. When you see any of these pairs in your scrambled letters, mentally group them together as a unit and try building words around them.",
         "Similarly, look for common vowel patterns. The combinations EE, EA, OO, OA, AI, OI, and AU appear frequently in English words. Spotting these vowel pairs in your scrambled letters gives you a structural anchor around which to construct words.",
@@ -156,7 +155,8 @@ export const en = [
         "An anagram solver or word unscrambler tool — such as UnscramblWords — is invaluable both for finding answers quickly and for learning. When you use a solver and see the words it finds, make note of any you did not recognise. Looking these words up and memorising them improves your ability to find them unaided next time.",
         "The 'reverse engineering' approach works well for puzzle solving. Instead of trying to build words from your letters, start with common short words — IS, IT, AT, AN, ON, IN — and check whether your scrambled letters can form them. If yes, remove those letters and see what remains. This reduction strategy simplifies the problem progressively.",
         "Regular practice with anagram puzzles is the most reliable way to improve your unscrambling speed. Many dedicated anagram puzzle books and websites offer graded exercises from simple to expert level. Committing to 10 minutes of anagram practice daily produces noticeable improvement within a few weeks.",
-        "Finally, remain calm under time pressure. Anxiety narrows cognitive focus and impairs creative word retrieval. If you are struggling with a particular scramble, momentarily shift your gaze away from the letters, take a breath, and return with fresh eyes. This brief reset frequently reveals words that were previously invisible."
+        "Finally, remain calm under time pressure. Anxiety narrows cognitive focus and impairs creative word retrieval. If you are struggling with a particular scramble, momentarily shift your gaze away from the letters, take a breath, and return with fresh eyes. This brief reset frequently reveals words that were previously invisible.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -165,7 +165,6 @@ export const en = [
       title: 'Word Games in Multiple Languages: Benefits and Challenges',
       excerpt: 'Playing word games in different languages offers unique cognitive benefits and presents fascinating challenges. Here is how to get started.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "Playing word games in multiple languages is one of the most intellectually enriching activities available to language learners and enthusiasts. Whether you are a native speaker exploring word games in a foreign language or a multilingual player who switches comfortably between languages, the experience offers distinct cognitive and educational benefits.",
         "For language learners, word games in a target language provide contextually meaningful vocabulary practice that textbooks often cannot replicate. Encountering new words whilst under the pleasurable pressure of a game situation creates stronger memory associations than passive study. Research in applied linguistics consistently demonstrates that games enhance vocabulary acquisition and retention.",
         "Scrabble and word unscrambling in French, Spanish, German, Italian, Portuguese, and other European languages present unique challenges due to different letter frequency distributions. In French, for instance, the letters E, A, I, S, N, R, T, O, L, and U are the most common, but accented characters such as É, À, and Ç also appear in words, though they are typically worth the same as their unaccented equivalents in French Scrabble.",
@@ -175,7 +174,8 @@ export const en = [
         "For multilingual word game players, switching between languages within a session exercises what linguists call 'code-switching' ability — the capacity to move fluidly between different linguistic systems. This skill is associated with enhanced executive function, the cognitive system responsible for planning, attention management, and cognitive flexibility.",
         "UnscramblWords supports ten languages — English, Spanish, French, German, Portuguese, Italian, Turkish, Russian, Polish, and Arabic — enabling players to practise word unscrambling across a remarkable range of linguistic families. Each language offers a distinct vocabulary challenge and a unique window into a different cultural tradition of wordplay.",
         "If you are new to multilingual word games, the most effective approach is to begin with a language you are already learning or have some familiarity with. Start with short words and gradually build your knowledge of that language's most common vocabulary before attempting longer or more complex unscrambling challenges.",
-        "The joy of multilingual word gaming lies not only in the cognitive benefits but in the cultural enrichment it provides. Each word you learn in a new language opens a small window into the history, culture, and thought patterns of the people who speak it."
+        "The joy of multilingual word gaming lies not only in the cognitive benefits but in the cultural enrichment it provides. Each word you learn in a new language opens a small window into the history, culture, and thought patterns of the people who speak it.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -184,7 +184,6 @@ export const en = [
       title: 'Wordle Strategies: How to Solve the Puzzle Every Day',
       excerpt: 'Wordle has become a global phenomenon. Here are the best strategies and starting words to solve it efficiently every day.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "Wordle, the five-letter word guessing game created by Josh Wardle and acquired by The New York Times in 2022, became a global phenomenon shortly after its release in 2021. Millions of players attempt the daily puzzle, sharing their colour-coded results on social media. Despite its apparent simplicity, Wordle rewards strategic thinking and vocabulary knowledge.",
         "The fundamental mechanics of Wordle are straightforward: you have six attempts to guess a five-letter word. Each guess reveals which letters are correct and in the right position (green), correct but in the wrong position (yellow), or not in the word at all (grey). The challenge lies in using this information as efficiently as possible.",
         "Choosing the right starting word is the most discussed aspect of Wordle strategy. The optimal starting word should contain several of the most common letters in English five-letter words. Words such as CRANE, SLATE, TRACE, STARE, ARISE, and RAISE are widely cited by Wordle analyses as among the more statistically effective openers, as they cover a broad range of the most frequently occurring English letters.",
@@ -197,7 +196,8 @@ export const en = [
         "Repeated letters remain one of the most reliable ways to break a streak. PARER, the answer to Wordle #454 in September 2022, is the puzzle's toughest on record, with roughly 45% of players failing to solve it — its second R falls outside where most players expect a repeat, and its \"_A_ER\" pattern overlaps with more than a dozen other valid words. If you have a confirmed letter but haven't ruled out a duplicate, it's worth testing for one before assuming your remaining guesses only need distinct letters.",
         "Since 2 February 2026, The New York Times has also begun reusing previously played Wordle answers, ending the game's original one-time-only policy. This means the full pool of roughly 2,300 possible answers is back in play on any given day, so older lists of 'already used' words are no longer a safe way to rule out a guess.",
         "Beyond strategy, Wordle rewards vocabulary breadth. Players who know a wide range of five-letter words have access to more informative guesses and a better chance of immediately recognising the answer. Tools such as UnscramblWords can help you explore and memorise five-letter words across multiple languages, enhancing your performance not only in English Wordle but in the many international Wordle variants that now exist.",
-        "Sources: The New York Times, on its 2022 acquisition of Wordle and its February 2026 change to reuse past answers; Aladaileh, Stephens, Alqaisi & Wu (2026), Northeast Journal of Complex Systems, on entropy-based Wordle solving; widely published Wordle-solving analyses on commonly recommended starting words and historical fail rates."
+        "Sources: The New York Times, on its 2022 acquisition of Wordle and its February 2026 change to reuse past answers; Aladaileh, Stephens, Alqaisi & Wu (2026), Northeast Journal of Complex Systems, on entropy-based Wordle solving; widely published Wordle-solving analyses on commonly recommended starting words and historical fail rates.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -206,7 +206,6 @@ export const en = [
       title: 'Unscramble 9 Letter Words: Ultimate 2026 Guide',
       excerpt: 'Ready to unscramble 9 letter words like a pro? This guide covers chunking strategy, common prefixes and suffixes, board extensions, and how to use an online unscrambler with confidence.',
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         "Landing a nine-letter word is one of the fastest ways to pull ahead of an opponent. Most players stall when they have a full rack plus two board tiles to work with — the letters don't form obvious patterns, and high-scoring plays get missed. This guide sets out a repeatable method for unscrambling nine-letter words: chunking the letters, recognising common prefixes and suffixes, and finding extensions on the board rather than relying on a fresh rack alone.",
         "The timing is useful, too: the 8th Edition of the Official SCRABBLE Players Dictionary is due for release on 25 October 2026, and Merriam-Webster has confirmed five of the new playable words so far — boba, kayfabe, spox, yas and zoomies. A full list hasn't been published yet, so treat anything beyond these five as unconfirmed until the edition is out.",
         "A nine-letter word is a valid dictionary entry made from nine characters. An anagram, more generally, is any word formed by rearranging a set of letters. As the letter count rises, the number of possible arrangements grows very quickly — a six-letter word made of six distinct letters has 720 possible orderings (6!), while nine distinct letters have 362,880 possible orderings (9!). That combinatorial jump is the main reason players struggle to spot nine-letter words without help: the human eye is good at short, familiar patterns, not at scanning hundreds of thousands of permutations.",
@@ -221,7 +220,8 @@ export const en = [
         "What are some common 9-letter words that start with UN-? UNCHANGED, UNHAPPILY and UNREALITY are frequent examples, often formed by adding UN- to a seven-letter root already on the board.",
         "How many 9-letter words are there in English? Estimates from major word-list trackers put the figure at roughly 40,000–43,000, depending on which dictionary (e.g. TWL or SOWPODS/CSW) is used as the source.",
         "What is a high-scoring 9-letter word in Scrabble? Words containing high-value letters — Z, Q, X — score well, particularly when they cross a Triple Word Score square. Examples include QUIZZICAL and MAXIMIZED.",
-        "Sources: Merriam-Webster, on the Official SCRABBLE Players Dictionary, 8th Edition (October 2026 release); NASPA Word List and Collins Scrabble Words on word-list size estimates."
+        "Sources: Merriam-Webster, on the Official SCRABBLE Players Dictionary, 8th Edition (October 2026 release); NASPA Word List and Collins Scrabble Words on word-list size estimates.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -230,7 +230,6 @@ export const en = [
       title: 'Word Unscrambler: The Complete Guide to Solving Any Letter Puzzle',
       excerpt: 'How word unscrambler tools actually work, the strategy behind high-scoring plays, and how to use filters effectively — a practical guide for Scrabble and beyond.',
       body: [
-        "Content on this site is AI-assisted and periodically checked by the UnscramblWords Team for accuracy.",
         "Staring at a rack with a Q and a Z while the clock ticks down is one of the most common frustrations in competitive word games. A word unscrambler turns that jumble into a clear list of playable options — but knowing how these tools work, and how to use them well, makes the difference between a quick fix and a genuine strategic edge.",
         "A word unscrambler takes a jumbled set of letters and finds every valid word that can be formed from them, checked against a specific dictionary. The underlying process is a permutation search: the tool checks your letters against every entry in a word list and returns the matches, typically sorted by length or point value. If you're playing with blank tiles, most tools support a wildcard character, usually a question mark or asterisk, that stands in for any letter, so the search can account for tiles whose value isn't fixed yet.",
         "These tools aren't limited to Scrabble. They're commonly used for cryptic crosswords, daily letter-jumble puzzles, and games like Wordle, where narrowing down remaining letter possibilities helps rule out guesses. They're also used in language learning, since seeing every valid word from a set of letters exposes spelling patterns and word families you might not notice otherwise.",
@@ -244,7 +243,8 @@ export const en = [
         "What's the difference between TWL and SOWPODS results? TWL is the North American tournament standard, while SOWPODS, or Collins Scrabble Words, is used internationally and contains a larger word list. A word valid in one isn't guaranteed to be valid in the other, so match your dictionary choice to the rules you're playing under.",
         "Does UnscramblWords support languages other than English? Yes — the site supports 10 languages, including Spanish, French, German, Italian, and Portuguese, each checked against that language's own word list.",
         "How many letters can you search at once? There's no fixed limit — the tool has been tested with all 26 letters of the alphabet entered at once and still returns results, so it comfortably handles anything from a short jumble to a long anagram phrase.",
-        "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on tournament dictionary standards (TWL/NWL and SOWPODS/CSW) and standard Scrabble tile and blank-tile counts."
+        "Sources: NASPA (North American Scrabble Players Association) and Collins Scrabble Words, on tournament dictionary standards (TWL/NWL and SOWPODS/CSW) and standard Scrabble tile and blank-tile counts.",
+        "(This content is AI-assisted and periodically reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -253,7 +253,6 @@ export const en = [
       title: 'Scrabble Cheat: How to Choose and Use the Best Word Finder',
       excerpt: 'How word-finder tools actually work, what separates a good one from a basic anagram list, and how to use filters strategically to find the play that fits your board.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "The best Scrabble players don't just memorise the dictionary — they use precision tools to find plays their opponents miss. A good word finder isn't about shortcutting the game; it's about turning a jumbled rack into a clear set of options, fast, without a cluttered interface getting in the way. This guide covers how these tools actually work, what to look for in a good one, and how to use filters strategically rather than just scrolling through a wall of results.",
         "A word finder takes the letters you enter and checks every possible combination against a dictionary, returning the ones that are valid words. Basic tools just reshuffle your letters. More useful ones let you narrow that list down — by length, by which letters a word must start or end with, or by which letters it must contain — so you're not hunting through hundreds of results to find the one that fits an actual space on your board.",
         "Fitting a word onto a crowded board is the real challenge. If a word already on the board starts with 'R,' filtering your results to 'starts with R' instantly narrows things down to plays that could connect. Wildcards matter too: a blank tile can stand in for any letter, but working out by hand which letter makes the best word is slow. A question mark in a search field should let a tool test all 26 letters against your rack automatically.",
@@ -270,7 +269,8 @@ export const en = [
         "Does this tool support blank tiles? Yes — enter a question mark in the search field to represent a blank, and it checks every letter of the alphabet in that position.",
         "Can I unscramble letters to find a 7-letter Bingo word? Set the length filter to 7 to see if your current rack holds one. It's worth checking every turn where you still have all seven original tiles — the 50-point bonus is often the difference between winning and losing.",
         "Does this work for languages other than English? Yes — UnscramblWords supports 10 languages, and switching between them takes a moment from the same screen, with no need to reload the page.",
-        "Sources: our own dictionary, on the validity of QAT and QAID as Q-without-U plays; NASPA (North American Scrabble Players Association), on standard Scrabble Bingo bonus rules."
+        "Sources: our own dictionary, on the validity of QAT and QAID as Q-without-U plays; NASPA (North American Scrabble Players Association), on standard Scrabble Bingo bonus rules.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -279,7 +279,6 @@ export const en = [
       title: '7-Letter Word Unscrambler: How to Find Your Next Bingo',
       excerpt: 'How to spot seven-letter Bingo plays faster, using common stems, hooks, and filters — plus the real numbers behind the 50-point bonus.',
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         "A single seven-letter play, known as a Bingo, is often the difference between a close loss and a runaway win. In Scrabble, using all seven tiles from your rack in one turn earns a flat 50-point bonus on top of the word's own score — which is why even a modest word made entirely of one-point tiles can outscore a shorter play built around a high-value letter.",
         "Racks built from common letters — E, A, R, I, O, T, N, and S — give you the best odds of finding a Bingo, since these letters appear in the widest range of seven-letter words. Racks heavy in rare letters like J, Q, X, or Z are far less likely to produce one, though they're still worth checking with a length filter before assuming there's nothing there.",
         "Rather than scanning seven letters as one block, expert players break them into familiar chunks. A handful of six-letter 'stems' are especially productive: AEINRST, for instance, anagrams into ANTSIER, NASTIER, RATINES, RETAINS, RETSINA, STAINER, and STEARIN — memorising one gives you a running start on recognising the rest. Common suffixes like -ING, -ERS, -EST, and -IES, and prefixes like RE-, UN-, and PRE-, are worth learning specifically because they turn a five- or six-letter root you already have into a seven-letter Bingo with the addition of just one or two tiles.",
@@ -293,7 +292,8 @@ export const en = [
         "What's the highest-scoring seven-letter word? MUZJIKS, worth 29 points in tiles alone and 128 points when the Z lands on a double-letter square on an opening play.",
         "Does this tool handle blank tiles? Yes — enter a question mark in the search field, and it tests every letter of the alphabet in that position.",
         "Can I search for seven-letter words in other languages? Yes — UnscramblWords supports 10 languages, and switching between them takes a moment from the same screen.",
-        "Sources: Wikipedia (Bingo, Scrabble), on the MUZJIKS scoring record; NASPA and Collins Scrabble Words, on seven-letter word list sizes and the standard Bingo bonus."
+        "Sources: Wikipedia (Bingo, Scrabble), on the MUZJIKS scoring record; NASPA and Collins Scrabble Words, on seven-letter word list sizes and the standard Bingo bonus.",
+        "(Reviewed by the UnscramblWords Team)"
       ]
     },
     {
@@ -316,7 +316,6 @@ export const en = [
         { id: 'finding-x-words', label: 'Finding X Words with UnscramblWords' }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         { type: 'heading', id: 'why-x-is-valuable', text: 'Why the X Tile Is Worth Learning' },
         "Drawing an X can feel like a setback, but it's one of the higher-value tiles in the game: 8 points in both standard Scrabble and Words With Friends. (The two games share almost all their letter values — the one real exception is J, worth 8 in Scrabble and 10 in Words With Friends. X isn't part of that difference, despite what you may have read elsewhere.)",
         "X words are genuinely rare — in our own English dictionary, only 136 out of 172,823 words start with X, a little under 0.1%. That scarcity is exactly why they're worth memorising a handful of: on a double or triple letter square, an 8-point tile turns into a real swing in the score.",
@@ -328,7 +327,8 @@ export const en = [
         { type: 'heading', id: 'long-x-words', text: 'Long X Words and Bingo Plays' },
         "Seven-letter Bingo plays — using all the tiles in your rack for a 50-point bonus in Scrabble (35 points in Words With Friends) — are rarer with X than with more common letters, but they exist, and two of them are words you likely already know: XANTHAN, as in xanthan gum, the thickener found in countless food products, and XYLITOL, the sugar substitute common in sugar-free gum. Both are exactly seven letters and confirmed valid. XIPHOID, the sword-shaped lower part of the sternum, is another solid seven-letter option if you're working with medical or anatomical vocabulary.",
         { type: 'heading', id: 'finding-x-words', text: 'Finding X Words with UnscramblWords' },
-        "Rather than trying to recall this list from memory mid-game, our \"Starts With\" filter does the work directly: enter your rack, filter for words beginning with X, and you'll see every valid match rather than guessing whether an unfamiliar word is actually playable. The tool works the same way across all 10 supported languages, so the same approach applies whether you're playing in English, Spanish, French, or any of the others — each checked against that language's own dictionary rather than a translated English list."
+        "Rather than trying to recall this list from memory mid-game, our \"Starts With\" filter does the work directly: enter your rack, filter for words beginning with X, and you'll see every valid match rather than guessing whether an unfamiliar word is actually playable. The tool works the same way across all 10 supported languages, so the same approach applies whether you're playing in English, Spanish, French, or any of the others — each checked against that language's own dictionary rather than a translated English list.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "What is the highest-scoring practical word that starts with X?", answer: "XENOPHOBIC and XEROGRAPHIC are both valid, long options that offer a large base score before any bonus squares are applied. Longer, more obscure words can theoretically score more, but these two are genuinely useful in an actual game." },
@@ -356,13 +356,13 @@ export const en = [
         { id: "stacking-bonuses", label: "Stacking an Anchor Play with a Premium Square" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         { type: 'heading', id: "what-is-an-anchor", text: "What an Anchor Letter Actually Is" },
         "An anchor is simply a letter already sitting on the board that your new word can be built through or around -- as opposed to playing into open space. Rather than treating your rack as a standalone puzzle, you treat one board letter as fixed and search for seven-letter words that pass through it in the right position. This turns 'what seven-letter words can I make?' into the more useful question 'what seven-letter words can I make that also land here?'",
         { type: 'heading', id: "anchor-plus-filter", text: "Searching by Anchor and Length Together" },
         "In practice: note the anchor letter's position in the word you need (first letter, last letter, or somewhere in the middle), enter your rack letters, set the length filter to exactly 7, and add a starts-with or ends-with filter for the anchor if it falls at either end. In our own dictionary, 23,109 words are exactly seven letters long -- searching without any board constraint leaves you scrolling through all of them, while adding the anchor filter cuts that down to only the handful that could physically be played.",
         { type: 'heading', id: "stacking-bonuses", text: "Stacking an Anchor Play with a Premium Square" },
-        "The biggest single-turn scores come from stacking bonuses rather than chasing any one of them alone: a seven-letter word already earns the flat 50-point Bingo bonus, and if it happens to pass through a double or triple word square at the same time, that multiplier applies to the whole word on top of the 50 points. If your rack includes a high-value letter like Q, X, or Z, it's worth checking whether any valid anchor play lets that specific letter land on its own premium square, rather than just taking the first seven-letter word you find."
+        "The biggest single-turn scores come from stacking bonuses rather than chasing any one of them alone: a seven-letter word already earns the flat 50-point Bingo bonus, and if it happens to pass through a double or triple word square at the same time, that multiplier applies to the whole word on top of the 50 points. If your rack includes a high-value letter like Q, X, or Z, it's worth checking whether any valid anchor play lets that specific letter land on its own premium square, rather than just taking the first seven-letter word you find.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "What's the difference between an anchor and a hook?", answer: "A hook usually refers to adding one letter to an existing word to form a new one (adding S to CORE for CORES). An anchor is the broader concept -- any board letter your new word is built through, whether that's a single-letter hook or a full word passing through a middle letter." },
@@ -387,13 +387,13 @@ export const en = [
         { id: "q-without-u", label: "Using a Blank with High-Value Letters" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         { type: 'heading', id: "how-wildcards-work", text: "How a Wildcard Search Actually Works" },
         "Enter a question mark (?) anywhere in your search to represent a blank tile, and the tool checks every letter of the alphabet in that position rather than making you guess which one fits. For example, searching W?RD correctly returns both WORD and WARD -- the wildcard genuinely stands in for any letter, tested systematically rather than approximated.",
         { type: 'heading', id: "matching-tile-count", text: "Why Tile Count Has to Match" },
         "The number of tiles you enter, wildcard included, has to match the length of any word the search returns. TR?ANE is six tiles (T, R, a wildcard, A, N, E), so it can only return six-letter words -- and it correctly finds RETAIN this way. An eight-letter word simply can't come from a six-tile rack, no matter how the wildcard is used.",
         { type: 'heading', id: "q-without-u", text: "Using a Blank with High-Value Letters" },
-        "A blank pairs especially well with a high-value letter that's otherwise hard to place. QAT -- a real word for a stimulant plant chewed in parts of East Africa and the Middle East -- is a confirmed three-letter Q-without-U word in our dictionary, useful when you're holding a Q but no U. Not every word that shows up in general Scrabble discussion is necessarily in every dictionary, though: QI, for instance, isn't currently recognized by our own tool, so it's worth checking a word's validity directly rather than assuming."
+        "A blank pairs especially well with a high-value letter that's otherwise hard to place. QAT -- a real word for a stimulant plant chewed in parts of East Africa and the Middle East -- is a confirmed three-letter Q-without-U word in our dictionary, useful when you're holding a Q but no U. Not every word that shows up in general Scrabble discussion is necessarily in every dictionary, though: QI, for instance, isn't currently recognized by our own tool, so it's worth checking a word's validity directly rather than assuming.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "How do I search using a blank tile?", answer: "Enter a question mark (?) in the position of your blank tile. The tool tests every letter of the alphabet in that spot and returns every valid match." },
@@ -419,13 +419,13 @@ export const en = [
         { id: "dictionary-difference", label: "The Dictionary Difference" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         { type: 'heading', id: "bingo-bonus-difference", text: "The Bingo Bonus: 50 Points vs. 35" },
         "Using all seven tiles from your rack in a single turn is called a Bingo in both games, but the reward isn't the same: Scrabble awards a flat 50-point bonus, while Words With Friends' own official rules confirm its Bingo bonus is 35 points. It's a real, verified difference, not a rumor -- and it means a Bingo carries relatively less weight in a Words With Friends match, so it's worth weighing against other scoring opportunities rather than chasing one automatically.",
         { type: 'heading', id: "tile-value-difference", text: "Tile Values: Where J Really Matters" },
         "Most letter values carry over between the two games, but J is a genuine exception: it's worth 8 points in Scrabble, where it barely moves the needle on your score, but 10 points in Words With Friends, making it one of the more valuable tiles to hold onto rather than dump early. If you're used to treating J as a minor tile from Scrabble habits, that assumption doesn't carry over.",
         { type: 'heading', id: "dictionary-difference", text: "The Dictionary Difference" },
-        "Words With Friends' word list is genuinely built on the ENABLE dictionary -- the same public-domain word list our own tool uses -- though Words With Friends has added its own extra slang and abbreviations on top of the base list over the years. That means a word confirmed in our dictionary is very likely valid in Words With Friends too, though the reverse isn't guaranteed, since some of Words With Friends' own additions go beyond standard ENABLE. QAT and QAID are two reliable Q-without-U options confirmed directly in our own dictionary, useful in either game when you're holding a Q but no U."
+        "Words With Friends' word list is genuinely built on the ENABLE dictionary -- the same public-domain word list our own tool uses -- though Words With Friends has added its own extra slang and abbreviations on top of the base list over the years. That means a word confirmed in our dictionary is very likely valid in Words With Friends too, though the reverse isn't guaranteed, since some of Words With Friends' own additions go beyond standard ENABLE. QAT and QAID are two reliable Q-without-U options confirmed directly in our own dictionary, useful in either game when you're holding a Q but no U.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "Is the Bingo bonus really different between Scrabble and Words With Friends?", answer: "Yes -- Scrabble awards 50 points for using all seven tiles in one turn, while Words With Friends' own official rules confirm a 35-point bonus for the same feat." },
@@ -452,7 +452,6 @@ export const en = [
         { id: "finding-compound-words", label: "Finding Compound Words Through Prefixes and Suffixes" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         { type: 'heading', id: "real-dictionary-size", text: "How Big Is the Real German Dictionary?" },
         "Germany's official tournament word list -- the Offizielle Turnierwörterliste, maintained by Scrabble Deutschland e.V. -- contains 184,243 words as of its 1 May 2025 edition, going up to nine letters. This is a real, independently verifiable number, not a rounded estimate. A dedicated German word solver should be built on genuinely comprehensive vocabulary like this, rather than a generic list that happens to include some German words.",
         { type: 'heading', id: "eszett-and-umlauts", text: "The Eszett and Umlauts: Getting Special Characters Right" },
@@ -460,7 +459,8 @@ export const en = [
         { type: 'heading', id: "letter-values-and-frequency", text: "Letter Values and Frequency: What's Actually Rare" },
         "In German Scrabble, Q and Y are tied for the highest value at 10 points each, with X close behind at 8. At the other end, E is the most common letter by far -- there are genuinely 15 E tiles in a standard set, more than double the next most common letter. Knowing this shapes strategy in both directions: hold onto a Q or Y for a good opportunity, but don't be precious about an E, since there are plenty more where that came from.",
         { type: 'heading', id: "finding-compound-words", text: "Finding Compound Words Through Prefixes and Suffixes" },
-        "German's famous compound nouns and long verb forms aren't as intimidating once you recognise the building blocks. Past participles very often start with GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), and abstract nouns frequently end in -HEIT or -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) or -UNG. Searching with a \"starts with\" or \"ends with\" filter for these patterns turns an intimidating long word into a much smaller, more manageable search."
+        "German's famous compound nouns and long verb forms aren't as intimidating once you recognise the building blocks. Past participles very often start with GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), and abstract nouns frequently end in -HEIT or -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) or -UNG. Searching with a \"starts with\" or \"ends with\" filter for these patterns turns an intimidating long word into a much smaller, more manageable search.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "How many words are in the official German Scrabble dictionary?", answer: "184,243, as of the 1 May 2025 edition of the Offizielle Turnierwörterliste maintained by Scrabble Deutschland e.V. -- a real, verifiable figure." },
@@ -489,7 +489,6 @@ export const en = [
         { id: "handling-long-words", label: "Handling Turkish's Long Words" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team.",
         { type: 'heading', id: "turkish-dictionary-size", text: "How Big Is the Turkish Dictionary Problem?" },
         "Puzzle games account for 96.9% of all revenue earned by Turkish mobile game developers, according to AppMagic's 2026 Türkiye gaming report -- this is a genuinely large, competitive market. Yet most word-unscrambling tools are built for English and only loosely adapted afterwards, which shows immediately with Turkish input.",
         { type: 'heading', id: "two-letters-not-one", text: "Two Letters, Not One: İ and ı" },
@@ -499,7 +498,8 @@ export const en = [
         { type: 'heading', id: "letter-values-worth-knowing", text: "Letter Values Worth Knowing" },
         "J is Turkish Scrabble's highest-value letter at 10 points -- rare, but worth holding onto for a premium square. Ğ, by contrast, is common enough (appearing in everyday words like DAĞ and YAĞ) that it shouldn't be treated as precious.",
         { type: 'heading', id: "handling-long-words", text: "Handling Turkish's Long Words" },
-        "Turkish is agglutinative -- suffix chains stack onto a root to build long words quickly. A solver with a \"starts with\" or \"ends with\" filter, matched against a genuinely comprehensive Turkish dictionary, makes it far easier to find these longer words than scanning letters manually."
+        "Turkish is agglutinative -- suffix chains stack onto a root to build long words quickly. A solver with a \"starts with\" or \"ends with\" filter, matched against a genuinely comprehensive Turkish dictionary, makes it far easier to find these longer words than scanning letters manually.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "Are the dotted İ and dotless ı really different letters?", answer: "Yes -- they are two separate letters in Turkish, with different sounds and different rules for where they can appear." },
@@ -528,7 +528,6 @@ export const en = [
         { id: 'hardest-letters', label: "The Hardest Letters to Play" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         { type: 'heading', id: 'what-is-a-hook', text: "What Is a Hook Word?" },
         "A hook word is a valid word formed by adding a single letter to the start or end of a word already on the board. Hooks matter because they let you score for both your new word and the full value of the word you built onto — effectively double-dipping on points you've already put on the table.",
         { type: 'heading', id: 'front-hooks', text: "Front Hooks: Adding a Letter to the Start" },
@@ -539,7 +538,8 @@ export const en = [
         "S is the most flexible hook, since it pluralises most nouns and conjugates many verbs. It's also easy to overuse: saving an S for a seven-tile bingo play (worth a 50-point bonus) is often more valuable than spending it on a small hook.",
         { type: 'heading', id: 'hardest-letters', text: "The Hardest Letters to Play" },
         "Q and Z are the two hardest letters to place. QAT and QAID (both genuine playable words) are reliable ways to use a Q without a U. ZOO, ZEST, and ZONE do the same job for Z. Letter values referenced here (Z = 10, V = 4, J = 8, Q = 10) are the standard English Scrabble tile values.",
-        "Every example above has been checked against UnscramblWords' own English dictionary — not just general Scrabble knowledge — so what you see here is what the tool will actually confirm. If you're unsure whether a hook is valid mid-game, our word filters (by starting or ending letter) let you check in seconds."
+        "Every example above has been checked against UnscramblWords' own English dictionary — not just general Scrabble knowledge — so what you see here is what the tool will actually confirm. If you're unsure whether a hook is valid mid-game, our word filters (by starting or ending letter) let you check in seconds.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "What is a hook word in Scrabble?", answer: "A hook word is formed by adding a single letter to the beginning or end of a word already on the board, creating a new valid word while also scoring for the original one." },
@@ -569,7 +569,6 @@ export const en = [
         { id: 'letras-valiosas', label: "The Highest-Scoring Letters" }
       ],
       body: [
-        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
         { type: 'heading', id: 'o-que-faz', text: "What a Portuguese Anagram Solver Actually Does" },
         "Portuguese is a vowel-heavy language, so a rack of letters often holds several A's, E's, or O's, creating far more possible combinations than a person can realistically check by hand. A dedicated Portuguese anagram solver checks every combination against a real dictionary, so you see actual playable words rather than guesses.",
         { type: 'heading', id: 'acentos-cedilha', text: "Handling Accents and the Cedilla (Ç)" },
@@ -580,7 +579,8 @@ export const en = [
         "Use the Starts With and Ends With filters to narrow results toward a specific board position, or filter by word length to fit a crossword gap exactly. Combine several filters at once to go from a broad list of matches to the handful that actually fit your situation.",
         { type: 'heading', id: 'letras-valiosas', text: "The Highest-Scoring Letters" },
         "X and Z are the two highest-scoring letters in Portuguese Scrabble, worth 8 points each -- words like EXAME (exam) and TEXTO (text) put a high-value X to good use. Q is worth 6 points and, as in most languages, almost always needs a U alongside it.",
-        "Our dictionary covers both European and Brazilian Portuguese spelling, so results reflect real vocabulary from either variant. Every example in this guide -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META, and MATA -- has been checked directly against UnscramblWords' own dictionary."
+        "Our dictionary covers both European and Brazilian Portuguese spelling, so results reflect real vocabulary from either variant. Every example in this guide -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META, and MATA -- has been checked directly against UnscramblWords' own dictionary.",
+        "(Reviewed by the UnscramblWords Team)"
       ],
       faq: [
         { question: "Does the Portuguese anagram solver support wildcard letters?", answer: "Yes. Type ? in the search box to represent any single unknown letter -- for example, M?TA finds META and MATA. There's no limit on how many wildcards you can use, and a wildcard-derived letter always scores 0 points, the same as a real blank Scrabble tile." },

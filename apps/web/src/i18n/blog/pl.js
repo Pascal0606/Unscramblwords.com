@@ -399,13 +399,13 @@ export const pl = [
         { id: "laczenie-bonusow", label: "Łączenie Ruchu z Kotwicą z Polem Premiowym" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords.",
         { type: 'heading', id: "czym-jest-kotwica", text: "Czym Naprawdę Jest Litera-Kotwica" },
         "Kotwica to po prostu litera już leżąca na planszy, przez którą lub wokół której można zbudować nowe słowo -- w przeciwieństwie do gry w wolnej przestrzeni. Zamiast traktować swoje litery jako odizolowaną łamigłówkę, ustalasz jedną literę na planszy i szukasz siedmioliterowych słów, które przechodzą przez nią we właściwej pozycji. To zamienia pytanie \"jakie siedmioliterowe słowa mogę ułożyć?\" w znacznie bardziej użyteczne pytanie \"jakie siedmioliterowe słowa mogę ułożyć, które też tu pasują?\"",
         { type: 'heading', id: "szukanie-kotwica-dlugosc", text: "Szukanie Jednocześnie po Kotwicy i Długości" },
         "W praktyce: zauważ pozycję litery-kotwicy w potrzebnym słowie (pierwsza litera, ostatnia litera, lub gdzieś w środku), wpisz litery ze swojego zestawu, ustaw filtr długości dokładnie na 7, i dodaj filtr \"zaczyna się od\" lub \"kończy się na\" dla kotwicy, jeśli znajduje się na jednym z końców. W naszym własnym słowniku jest dokładnie 121 981 słów o siedmiu literach -- szukanie bez żadnego ograniczenia planszy zostawia Cię z przeglądaniem ich wszystkich, podczas gdy dodanie filtra kotwicy zawęża to tylko do faktycznie możliwych do zagrania ruchów.",
         { type: 'heading', id: "laczenie-bonusow", text: "Łączenie Ruchu z Kotwicą z Polem Premiowym" },
-        "Największe wyniki w jednym ruchu biorą się z łączenia bonusów, a nie z pogoni za jednym z nich: siedmioliterowe słowo już zdobywa stały bonus 50 punktów za pełny Scrabble, a jeśli jednocześnie przechodzi przez pole podwójnego lub potrójnego słowa, ten mnożnik stosuje się do całego słowa, oprócz tych 50 punktów. Jeśli Twój zestaw liter zawiera wartościową literę, taką jak Ź lub Ż, warto sprawdzić, czy jakiś prawidłowy ruch z kotwicą pozwala tej konkretnej literze wylądować na jej własnym polu premiowym, zamiast zadowalać się pierwszym znalezionym siedmioliterowym słowem."
+        "Największe wyniki w jednym ruchu biorą się z łączenia bonusów, a nie z pogoni za jednym z nich: siedmioliterowe słowo już zdobywa stały bonus 50 punktów za pełny Scrabble, a jeśli jednocześnie przechodzi przez pole podwójnego lub potrójnego słowa, ten mnożnik stosuje się do całego słowa, oprócz tych 50 punktów. Jeśli Twój zestaw liter zawiera wartościową literę, taką jak Ź lub Ż, warto sprawdzić, czy jakiś prawidłowy ruch z kotwicą pozwala tej konkretnej literze wylądować na jej własnym polu premiowym, zamiast zadowalać się pierwszym znalezionym siedmioliterowym słowem.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Jaka jest różnica między kotwicą a zaczepieniem?", answer: "Zaczepienie zwykle oznacza dodanie jednej litery do istniejącego słowa, by utworzyć nowe. Kotwica to szersze pojęcie: dowolna litera na planszy, przez którą budowane jest nowe słowo, niezależnie od tego, czy jest to proste zaczepienie, czy całe słowo przechodzące przez literę w środku." },
@@ -431,13 +431,13 @@ export const pl = [
         { id: "filtry-do-wygranej", label: "Używanie Filtrów, By Znaleźć Właściwy Ruch" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords.",
         { type: 'heading', id: "dlaczego-dedykowane-narzedzie", text: "Dlaczego Potrzebne Jest Narzędzie Dedykowane Polskiemu" },
         "Ogólne narzędzie, zaprojektowane głównie z myślą o angielskim, często nie rozpoznaje specyfiki języka polskiego. Nasz własny słownik zawiera ponad 2,8 miliona słów, zbudowany z prawdziwych źródeł, a nie mechanicznie przetłumaczony z listy w innym języku.",
         { type: 'heading', id: "zbitki-spolgloskowe", text: "SZ, CZ, RZ, DZ: Prawdziwe Dźwięki, Nie Przypadek" },
         "Zbitki takie jak SZ, CZ, RZ i DZ reprezentują pojedyncze, odrębne dźwięki w języku polskim, a nie przypadkowe zestawienie dwóch liter. Pojawiają się w codziennych słowach jak SZKOŁA, CZAS, RZEKA i DZIEŃ. Narzędzie, które traktuje je jako zwykłe sekwencje liter, nie rozumie prawdziwej struktury polskich słów -- każda z tych liter nadal liczy się osobno przy punktacji, ale ich powtarzalność w codziennym słownictwie jest czymś, co dedykowany słownik musi uwzględniać poprawnie.",
         { type: 'heading', id: "filtry-do-wygranej", text: "Używanie Filtrów, By Znaleźć Właściwy Ruch" },
-        "Filtr \"zaczyna się od\" pomaga budować od litery już obecnej na planszy. Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze. Używanie filtrów do znalezienia słów, które umieszczają takie wartościowe litery na polu premiowym, często decyduje o różnicy między zwykłym a zwycięskim ruchem."
+        "Filtr \"zaczyna się od\" pomaga budować od litery już obecnej na planszy. Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze. Używanie filtrów do znalezienia słów, które umieszczają takie wartościowe litery na polu premiowym, często decyduje o różnicy między zwykłym a zwycięskim ruchem.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Czy SZ, CZ, RZ i DZ liczą się jako pojedyncze litery w Scrabble?", answer: "Nie -- każda litera nadal liczy się osobno przy punktacji, ale reprezentują one pojedyncze dźwięki w wymowie, co jest ważne dla poprawnego rozpoznawania słów." },
@@ -463,13 +463,13 @@ export const pl = [
         { id: "joker-wartosciowe-litery", label: "Używanie Jokera z Wartościowymi Literami" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords.",
         { type: 'heading', id: "jak-dziala-joker", text: "Jak Naprawdę Działa Wyszukiwanie z Jokerem" },
         "Wpisz znak zapytania (?) w dowolnym miejscu wyszukiwania, aby reprezentować pusty kafelek, a narzędzie sprawdzi każdą literę alfabetu w tej pozycji, zamiast każe Ci zgadywać, która pasuje. Na przykład wyszukanie K?T poprawnie zwraca KOT i KIT -- joker naprawdę reprezentuje dowolną literę, testowaną systematycznie, a nie w przybliżeniu.",
         { type: 'heading', id: "dlugosc-musi-pasowac", text: "Dlaczego Liczba Liter Musi Pasować" },
         "Liczba wpisanych liter, wliczając jokera, musi odpowiadać długości każdego zwróconego słowa. Wyszukiwanie sześcioliterowe może zwrócić tylko słowa sześcioliterowe -- ośmioliterowe słowo po prostu nie może powstać z zestawu sześciu liter, niezależnie od tego, jak użyty zostanie joker.",
         { type: 'heading', id: "joker-wartosciowe-litery", text: "Używanie Jokera z Wartościowymi Literami" },
-        "Joker szczególnie dobrze łączy się z wartościową literą, którą inaczej trudno umieścić. Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze. ŹLE i ŹRÓDŁO to prawdziwe, zweryfikowane słowa skutecznie wykorzystujące tę literę, szczególnie przydatne, gdy joker uzupełnia słowo."
+        "Joker szczególnie dobrze łączy się z wartościową literą, którą inaczej trudno umieścić. Ź jest warta 9 punktów w polskim Scrabble -- najwyższa wartość w całej grze. ŹLE i ŹRÓDŁO to prawdziwe, zweryfikowane słowa skutecznie wykorzystujące tę literę, szczególnie przydatne, gdy joker uzupełnia słowo.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Jak szukać za pomocą pustego kafelka?", answer: "Wpisz znak zapytania (?) w pozycji swojego pustego kafelka. Narzędzie sprawdzi każdą literę alfabetu w tym miejscu i zwróci każdy prawidłowy wynik." },
@@ -497,7 +497,6 @@ export const pl = [
         { id: "dlugie-slowa", label: "Jak radzić sobie z długimi tureckimi słowami" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords.",
         { type: 'heading', id: "wielkosc-slownika", text: "Jak duży jest turecki słownik?" },
         "Gry logiczne odpowiadają za 96,9% przychodów tureckich twórców gier mobilnych, według raportu AppMagic z 2026 roku \"Türkiye's Mobile Gaming Landscape\" -- to naprawdę duży i konkurencyjny rynek. Mimo to większość narzędzi do rozszyfrowywania słów jest projektowana z myślą o angielskim i dopiero później adaptowana, co od razu widać przy tureckim tekście.",
         { type: 'heading', id: "i-kropkowane-bezkropkowe", text: "Dwie litery, nie jedna: İ i ı" },
@@ -507,7 +506,8 @@ export const pl = [
         { type: 'heading', id: "wartosci-liter", text: "Wartości liter, które warto znać" },
         "J to najcenniejsza litera tureckiego Scrabble, warta 10 punktów -- rzadka, ale warto ją zachować na pole premiowe. Ğ z kolei jest na tyle powszechna (występuje w codziennych słowach jak DAĞ i YAĞ), że nie należy jej traktować jak skarbu.",
         { type: 'heading', id: "dlugie-slowa", text: "Jak radzić sobie z długimi tureckimi słowami" },
-        "Turecki jest językiem aglutynacyjnym: łańcuchy przyrostków dołączane są do rdzenia, szybko tworząc długie słowa. Narzędzie z filtrami „zaczyna się od\" lub „kończy się na\", połączone z naprawdę pełnym tureckim słownikiem, znacznie ułatwia znajdowanie takich długich słów w porównaniu z ręcznym przeglądaniem liter."
+        "Turecki jest językiem aglutynacyjnym: łańcuchy przyrostków dołączane są do rdzenia, szybko tworząc długie słowa. Narzędzie z filtrami „zaczyna się od\" lub „kończy się na\", połączone z naprawdę pełnym tureckim słownikiem, znacznie ułatwia znajdowanie takich długich słów w porównaniu z ręcznym przeglądaniem liter.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Czy kropkowane İ i bezkropkowe ı naprawdę się różnią?", answer: "Tak -- to dwie odrębne litery w języku tureckim, z różnymi dźwiękami i zasadami gry." },
@@ -534,7 +534,6 @@ export const pl = [
         { id: "slowa-zlozone", label: "Znajdowanie słów złożonych dzięki przedrostkom i przyrostkom" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords.",
         { type: 'heading', id: "rozmiar-slownika-niemieckiego", text: "Jak duży jest naprawdę niemiecki słownik?" },
         "Oficjalna niemiecka lista słów turniejowych -- Offizielle Turnierwörterliste, prowadzona przez Scrabble Deutschland e.V. -- zawiera 184 243 słowa w wydaniu z 1 maja 2025 roku, obejmując słowa do dziewięciu liter. To prawdziwa, niezależnie weryfikowalna liczba, a nie zaokrąglony szacunek. Solver dedykowany niemieckiemu powinien opierać się na naprawdę pełnym słownictwie takim jak to, a nie na ogólnej liście, która przypadkiem zawiera kilka niemieckich słów.",
         { type: 'heading', id: "eszett-umlauty", text: "Eszett i umlauty: poprawne radzenie sobie ze znakami specjalnymi" },
@@ -542,7 +541,8 @@ export const pl = [
         { type: 'heading', id: "wartosc-czestotliwosc-liter", text: "Wartość i częstotliwość liter: co jest naprawdę rzadkie" },
         "W niemieckim Scrabble Q i Y dzielą najwyższą wartość -- po 10 punktów każda, tuż za nimi X z 8 punktami. Na drugim biegunie E jest zdecydowanie najczęstszą literą -- w standardowym zestawie jest naprawdę 15 kafelków E, ponad dwa razy więcej niż kolejnej najczęstszej litery. Wiedza o tym kształtuje strategię w obu kierunkach: zachowajcie Q lub Y na dobrą okazję, ale nie żałujcie E, bo jest ich znacznie więcej.",
         { type: 'heading', id: "slowa-zlozone", text: "Znajdowanie słów złożonych dzięki przedrostkom i przyrostkom" },
-        "Słynne niemieckie rzeczowniki złożone i długie formy czasownikowe są mniej onieśmielające, gdy rozpozna się ich elementy składowe. Imiesłowy bierne bardzo często zaczynają się od GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), a rzeczowniki abstrakcyjne często kończą się na -HEIT lub -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) albo na -UNG. Wyszukiwanie z filtrem „zaczyna się od\" lub „kończy się na\" dla tych wzorców zamienia onieśmielające długie słowo w znacznie mniejsze, łatwiejsze do ogarnięcia wyszukiwanie."
+        "Słynne niemieckie rzeczowniki złożone i długie formy czasownikowe są mniej onieśmielające, gdy rozpozna się ich elementy składowe. Imiesłowy bierne bardzo często zaczynają się od GE- (GESAGT, GESCHRIEBEN, GEKOMMEN), a rzeczowniki abstrakcyjne często kończą się na -HEIT lub -KEIT (FREIHEIT, SCHÖNHEIT, MÖGLICHKEIT) albo na -UNG. Wyszukiwanie z filtrem „zaczyna się od\" lub „kończy się na\" dla tych wzorców zamienia onieśmielające długie słowo w znacznie mniejsze, łatwiejsze do ogarnięcia wyszukiwanie.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Ile słów zawiera oficjalny słownik niemieckiego Scrabble?", answer: "184 243, według wydania z 1 maja 2025 roku Offizielle Turnierwörterliste prowadzonej przez Scrabble Deutschland e.V. -- prawdziwa, weryfikowalna liczba." },
@@ -570,7 +570,6 @@ export const pl = [
         { id: 'najtrudniejsze-litery', label: "Najtrudniejsze litery" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords — każde słowo sprawdzone bezpośrednio w naszym własnym słowniku.",
         { type: 'heading', id: 'czym-jest-haczyk', text: "Czym jest słowo-haczyk?" },
         "Haczyk polega na dodaniu jednej litery na początku lub na końcu słowa już leżącego na planszy. Warto to robić, bo punktuje się zarówno za nowe słowo, jak i za pełną wartość słowa już istniejącego.",
         { type: 'heading', id: 'haczyki-z-przodu', text: "Haczyki z przodu" },
@@ -579,7 +578,8 @@ export const pl = [
         "ZŁO staje się ZŁOM.",
         { type: 'heading', id: 'najtrudniejsze-litery', text: "Najtrudniejsze litery" },
         "Litera Ź jest warta aż 9 punktów — to jedna z najcenniejszych liter w grze. Ń jest warta 7 punktów, a Ć — 6. Te wartości pochodzą z oficjalnego rozkładu liter polskiego Scrabble.",
-        "Każdy powyższy przykład został sprawdzony bezpośrednio w polskim słowniku UnscramblWords, a nie po prostu założony jako poprawny."
+        "Każdy powyższy przykład został sprawdzony bezpośrednio w polskim słowniku UnscramblWords, a nie po prostu założony jako poprawny.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Czym jest słowo-haczyk w Scrabble?", answer: "Słowo-haczyk powstaje przez dodanie jednej litery na początku lub na końcu słowa już leżącego na planszy, tworząc nowe poprawne słowo i punktując także za oryginał." },
@@ -609,7 +609,6 @@ export const pl = [
         { id: 'cenne-litery', label: "Najcenniejsze litery" }
       ],
       body: [
-        "Napisane i zweryfikowane przez zespół UnscramblWords — każde słowo sprawdzone bezpośrednio w naszym własnym słowniku.",
         { type: 'heading', id: 'co-robi-rozwiazywacz', text: "Co naprawdę robi rozwiązywacz anagramów portugalskich" },
         "Portugalski to język bogaty w samogłoski: zestaw liter często zawiera kilka A, E lub O, co tworzy znacznie więcej możliwych kombinacji, niż da się rozsądnie sprawdzić ręcznie. Dedykowany rozwiązywacz anagramów portugalskich sprawdza każdą kombinację względem prawdziwego słownika, pokazując naprawdę grywalne słowa zamiast domysłów.",
         { type: 'heading', id: 'akcenty-cedylla', text: "Obsługa akcentów i cedylli (Ç)" },
@@ -620,7 +619,8 @@ export const pl = [
         "Użyj filtrów \"zaczyna się od\" i \"kończy się na\", aby zawęzić wyniki do konkretnej pozycji na planszy, lub filtruj według długości słowa, aby dokładnie dopasować lukę w krzyżówce. Łącz kilka filtrów naraz, aby przejść od długiej listy dopasowań do garstki naprawdę pasującej do twojej sytuacji.",
         { type: 'heading', id: 'cenne-litery', text: "Najcenniejsze litery" },
         "X i Z to dwie najcenniejsze litery w portugalskim Scrabble, warte po 8 punktów każda -- słowa takie jak EXAME (egzamin) i TEXTO (tekst) dobrze wykorzystują cenną literę X. Q jest warte 6 punktów i, jak w większości języków, niemal zawsze wymaga U obok siebie.",
-        "Nasz słownik obejmuje zarówno pisownię portugalskiego europejskiego, jak i brazylijskiego, dzięki czemu wyniki odzwierciedlają prawdziwe słownictwo z obu wariantów. Każdy przykład w tym przewodniku -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META i MATA -- został sprawdzony bezpośrednio w słowniku UnscramblWords."
+        "Nasz słownik obejmuje zarówno pisownię portugalskiego europejskiego, jak i brazylijskiego, dzięki czemu wyniki odzwierciedlają prawdziwe słownictwo z obu wariantów. Każdy przykład w tym przewodniku -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META i MATA -- został sprawdzony bezpośrednio w słowniku UnscramblWords.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
       ],
       faq: [
         { question: "Czy rozwiązywacz anagramów portugalskich obsługuje litery-dzikie karty?", answer: "Tak. Wpisz ? w polu wyszukiwania, aby oznaczyć dowolną nieznaną literę -- na przykład M?TA znajduje META i MATA. Nie ma ograniczenia liczby użytych dzikich kart, a litera z dzikiej karty zawsze jest warta 0 punktów, tak jak prawdziwy pusty pionek w Scrabble." },
