@@ -491,4 +491,47 @@ export const es = [
         { question: "¿Los ganchos son legales en torneos?", answer: "Sí. El gancho no es una regla especial: cualquier palabra válida reconocida por el diccionario oficial del torneo puede jugarse, incluidas las formadas mediante un gancho." }
       ]
     },
+    {
+      slug: 'solucionador-anagramas-portugues',
+      date: '2026-09-09',
+      title: 'Solucionador de anagramas en portugués: encuentra cada palabra al instante',
+      excerpt: 'Cómo descifrar letras en portugués con precisión -- acentos, cedilla y comodines -- con ejemplos verificados en nuestro propio diccionario.',
+      keyTakeaways: [
+        "Un verdadero solucionador de anagramas en portugués debe manejar bien los acentos y la cedilla (Ç), ya que cambian la palabra en sí, no solo su aspecto.",
+        "La X y la Z son las dos letras de mayor valor en portugués, con 8 puntos cada una; la Ç vale 3 puntos -- más que la simple C (2 puntos), pero lejos de las mejores.",
+        "UnscramblWords admite letras comodín (escribe ? para una letra desconocida), sin límite en cuántas uses en una búsqueda.",
+        "El diccionario cubre tanto la ortografía del portugués europeo como del brasileño.",
+        "Cada ejemplo de palabra en esta guía se comprobó directamente en el diccionario portugués de UnscramblWords."
+      ],
+      toc: [
+        { id: 'que-hace-un-solucionador', label: "Qué hace realmente un solucionador de anagramas en portugués" },
+        { id: 'acentos-cedilla', label: "Manejar acentos y la cedilla (Ç)" },
+        { id: 'comodines', label: "Usar comodines para letras desconocidas" },
+        { id: 'filtros', label: "Filtros avanzados para rompecabezas de palabras en portugués" },
+        { id: 'letras-valiosas', label: "Las letras de mayor valor" }
+      ],
+      body: [
+        "Escrito y verificado por el equipo de UnscramblWords, comprobando cada palabra directamente en nuestro propio diccionario.",
+        { type: 'heading', id: 'que-hace-un-solucionador', text: "Qué hace realmente un solucionador de anagramas en portugués" },
+        "El portugués es un idioma rico en vocales: un conjunto de letras suele contener varias A, E u O, generando muchas más combinaciones posibles de las que una persona puede comprobar razonablemente a mano. Un solucionador de anagramas en portugués dedicado comprueba cada combinación contra un diccionario real, mostrando palabras realmente jugables en lugar de suposiciones.",
+        { type: 'heading', id: 'acentos-cedilla', text: "Manejar acentos y la cedilla (Ç)" },
+        "Los acentos cambian el significado, no solo la ortografía. CORAÇÃO (corazón), AÇÃO (acción), MAÇÃ (manzana) y FORÇA (fuerza) son palabras portuguesas auténticas verificadas en nuestro diccionario. La cedilla (Ç) es una letra distinta en la puntuación del Scrabble portugués, con un valor de 3 puntos -- más que la simple C (2 puntos), aunque lejos de las fichas de mayor valor.",
+        { type: 'heading', id: 'comodines', text: "Usar comodines para letras desconocidas" },
+        "Si te falta una letra, escribe ? en el cuadro de búsqueda para representarla. Buscar M?TA devuelve correctamente META y MATA, probando cada letra en esa posición en lugar de exigir una coincidencia exacta. No hay límite de cuántos comodines puedes usar en una búsqueda, y una letra procedente de un comodín siempre vale 0 puntos, igual que la regla real de la ficha en blanco del Scrabble.",
+        { type: 'heading', id: 'filtros', text: "Filtros avanzados para rompecabezas de palabras en portugués" },
+        "Usa los filtros \"empieza por\" y \"termina en\" para acotar los resultados hacia una posición concreta del tablero, o filtra por longitud de palabra para encajar exactamente en un hueco de crucigrama. Combina varios filtros a la vez para pasar de una lista larga de coincidencias al puñado que realmente encaja con tu situación.",
+        { type: 'heading', id: 'letras-valiosas', text: "Las letras de mayor valor" },
+        "La X y la Z son las dos letras de mayor valor en el Scrabble portugués, con 8 puntos cada una -- palabras como EXAME (examen) y TEXTO (texto) aprovechan bien una X de alto valor. La Q vale 6 puntos y, como en la mayoría de los idiomas, casi siempre necesita una U junto a ella.",
+        "Nuestro diccionario cubre tanto la ortografía del portugués europeo como del brasileño, por lo que los resultados reflejan vocabulario real de ambas variantes. Cada ejemplo de esta guía -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META y MATA -- se comprobó directamente en el diccionario de UnscramblWords."
+      ],
+      faq: [
+        { question: "¿El solucionador de anagramas en portugués admite letras comodín?", answer: "Sí. Escribe ? en el cuadro de búsqueda para representar cualquier letra desconocida -- por ejemplo, M?TA encuentra META y MATA. No hay límite de cuántos comodines puedes usar, y una letra procedente de un comodín siempre vale 0 puntos, igual que una ficha en blanco real del Scrabble." },
+        { question: "¿Cómo manejo acentos como la tilde o la cedilla?", answer: "Escribe las letras acentuadas tal como aparecen en la palabra que buscas. Nuestro diccionario incluye palabras portuguesas genuinas con sus acentos correctos, como CORAÇÃO y MAÇÃ." },
+        { question: "¿Este buscador de palabras en portugués es gratuito?", answer: "Sí, completamente gratuito, sin registro ni cuenta necesarios." },
+        { question: "¿Puedo usar esta herramienta para el Scrabble portugués y Words with Friends?", answer: "Sí. UnscramblWords funciona bien junto al Scrabble portugués, Words with Friends y juegos similares, aunque es una herramienta independiente y no está afiliada oficialmente a Hasbro, Mattel ni Zynga." },
+        { question: "¿El solucionador funciona en móviles sin aplicación?", answer: "Sí, funciona en cualquier navegador móvil estándar -- no se necesita aplicación ni descarga." },
+        { question: "¿Qué diccionario usa el solucionador de anagramas en portugués?", answer: "Un diccionario que cubre tanto la ortografía del portugués europeo como del brasileño, revisado manualmente para eliminar duplicados y entradas no estándar." },
+        { question: "¿Puedo filtrar los resultados por longitud de palabra?", answer: "Sí, además de filtrar por letra inicial, letra final y letra obligatoria. Los resultados se ordenan automáticamente por valor en puntos." }
+      ]
+    },
 ];

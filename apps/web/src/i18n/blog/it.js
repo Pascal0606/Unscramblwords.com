@@ -390,4 +390,47 @@ export const it = [
         { question: "I ganci sono ammessi nei tornei?", answer: "Sì. Il gancio non è una regola speciale: qualsiasi parola valida riconosciuta dal dizionario ufficiale del torneo può essere giocata, comprese quelle formate con un gancio." }
       ]
     },
+    {
+      slug: 'risolutore-anagrammi-portoghese',
+      date: '2026-09-09',
+      title: 'Risolutore di anagrammi portoghesi: trova ogni parola all\'istante',
+      excerpt: 'Come decifrare lettere portoghesi con precisione -- accenti, cediglia e jolly -- con esempi verificati nel nostro dizionario.',
+      keyTakeaways: [
+        "Un vero risolutore di anagrammi portoghesi deve gestire correttamente accenti e cediglia (Ç), perché cambiano la parola stessa, non solo il suo aspetto.",
+        "X e Z sono le due lettere di maggior valore in portoghese, con 8 punti ciascuna; la Ç vale 3 punti -- più della semplice C (2 punti), ma lontana dal vertice.",
+        "UnscramblWords supporta lettere jolly (digita ? per una lettera sconosciuta), senza limiti su quante usarne in una ricerca.",
+        "Il dizionario copre sia l'ortografia del portoghese europeo sia di quello brasiliano.",
+        "Ogni esempio di parola in questa guida è stato controllato direttamente nel dizionario portoghese di UnscramblWords."
+      ],
+      toc: [
+        { id: 'cosa-fa-un-risolutore', label: "Cosa fa davvero un risolutore di anagrammi portoghesi" },
+        { id: 'accenti-cediglia', label: "Gestire accenti e cediglia (Ç)" },
+        { id: 'jolly', label: "Usare i jolly per le lettere sconosciute" },
+        { id: 'filtri', label: "Filtri avanzati per i puzzle di parole portoghesi" },
+        { id: 'lettere-preziose', label: "Le lettere di maggior valore" }
+      ],
+      body: [
+        "Scritto e verificato dal team di UnscramblWords, con ogni parola controllata direttamente nel nostro dizionario.",
+        { type: 'heading', id: 'cosa-fa-un-risolutore', text: "Cosa fa davvero un risolutore di anagrammi portoghesi" },
+        "Il portoghese è una lingua ricca di vocali: un set di lettere contiene spesso più A, E o O, creando molte più combinazioni possibili di quante se ne possano controllare realisticamente a mano. Un risolutore di anagrammi portoghesi dedicato verifica ogni combinazione contro un vero dizionario, mostrando parole realmente giocabili anziché supposizioni.",
+        { type: 'heading', id: 'accenti-cediglia', text: "Gestire accenti e cediglia (Ç)" },
+        "Gli accenti cambiano il significato, non solo l'ortografia. CORAÇÃO (cuore), AÇÃO (azione), MAÇÃ (mela) e FORÇA (forza) sono tutte parole portoghesi autentiche verificate nel nostro dizionario. La cediglia (Ç) è una lettera distinta nel punteggio dello Scarabeo portoghese, che vale 3 punti -- più della semplice C (2 punti), ma lontana dalle tessere di maggior valore.",
+        { type: 'heading', id: 'jolly', text: "Usare i jolly per le lettere sconosciute" },
+        "Se ti manca una lettera, digita ? nella casella di ricerca per rappresentarla. Cercare M?TA restituisce correttamente META e MATA, provando ogni lettera in quella posizione invece di richiedere una corrispondenza esatta. Non c'è alcun limite a quanti jolly puoi usare in una ricerca, e una lettera derivata da un jolly vale sempre 0 punti, come la vera regola della tessera bianca a Scarabeo.",
+        { type: 'heading', id: 'filtri', text: "Filtri avanzati per i puzzle di parole portoghesi" },
+        "Usa i filtri \"inizia con\" e \"finisce con\" per restringere i risultati verso una posizione specifica sul tabellone, oppure filtra per lunghezza della parola per riempire esattamente uno spazio del cruciverba. Combina più filtri insieme per passare da un lungo elenco di corrispondenze alla manciata che si adatta davvero alla tua situazione.",
+        { type: 'heading', id: 'lettere-preziose', text: "Le lettere di maggior valore" },
+        "X e Z sono le due lettere di maggior valore nello Scarabeo portoghese, con 8 punti ciascuna -- parole come EXAME (esame) e TEXTO (testo) sfruttano bene una X di alto valore. La Q vale 6 punti e, come nella maggior parte delle lingue, richiede quasi sempre una U al suo fianco.",
+        "Il nostro dizionario copre sia l'ortografia del portoghese europeo sia di quello brasiliano, quindi i risultati riflettono vocabolario reale di entrambe le varianti. Ogni esempio di questa guida -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META e MATA -- è stato controllato direttamente nel dizionario di UnscramblWords."
+      ],
+      faq: [
+        { question: "Il risolutore di anagrammi portoghesi supporta le lettere jolly?", answer: "Sì. Digita ? nella casella di ricerca per rappresentare una qualsiasi lettera sconosciuta -- ad esempio, M?TA trova META e MATA. Non c'è alcun limite a quanti jolly puoi usare, e una lettera derivata da un jolly vale sempre 0 punti, come una vera tessera bianca a Scarabeo." },
+        { question: "Come gestisco accenti come la tilde o la cediglia?", answer: "Digita le lettere accentate così come appaiono nella parola che stai cercando. Il nostro dizionario include vere parole portoghesi con i loro accenti corretti, come CORAÇÃO e MAÇÃ." },
+        { question: "Questo cercatore di parole portoghesi è gratuito?", answer: "Sì, completamente gratuito, senza registrazione o account." },
+        { question: "Posso usare questo strumento per lo Scarabeo portoghese e Words with Friends?", answer: "Sì. UnscramblWords funziona bene insieme allo Scarabeo portoghese, Words with Friends e giochi simili, pur essendo uno strumento indipendente, non affiliato ufficialmente a Hasbro, Mattel o Zynga." },
+        { question: "Il risolutore funziona su dispositivi mobili senza app?", answer: "Sì, funziona in qualsiasi browser mobile standard -- nessuna app o download necessario." },
+        { question: "Quale dizionario usa il risolutore di anagrammi portoghesi?", answer: "Un dizionario che copre sia l'ortografia del portoghese europeo sia di quello brasiliano, controllato manualmente per rimuovere duplicati e voci non standard." },
+        { question: "Posso filtrare i risultati per lunghezza della parola?", answer: "Sì, insieme al filtro per lettera iniziale, lettera finale e lettera obbligatoria. I risultati vengono ordinati automaticamente per valore in punti." }
+      ]
+    },
 ];

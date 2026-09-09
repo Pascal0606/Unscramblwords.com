@@ -549,4 +549,47 @@ export const en = [
         { question: "Are hooks legal in tournament Scrabble?", answer: "Yes. Hooking isn't a special rule — any grammatically valid word recognised by the tournament's official dictionary can be played, including ones formed by hooking." }
       ]
     },
+    {
+      slug: 'portuguese-anagram-solver',
+      date: '2026-09-09',
+      title: 'Portuguese Anagram Solver: Find Every Word Instantly',
+      excerpt: 'How to unscramble Portuguese letters accurately -- handling accents, the cedilla, and wildcards -- with examples verified against our own dictionary.',
+      keyTakeaways: [
+        "A genuine Portuguese anagram solver needs to handle accents and the cedilla (Ç) correctly, since they change which word you get, not just how it looks.",
+        "X and Z are the two highest-scoring letters in Portuguese, worth 8 points each; Ç scores 3 -- higher than plain C's 2, but nowhere near the top.",
+        "UnscramblWords supports wildcard letters (type ? for any unknown letter), with no fixed limit on how many you use in one search.",
+        "The dictionary covers both European and Brazilian Portuguese spelling.",
+        "Every word example in this guide has been checked directly against UnscramblWords' own Portuguese dictionary."
+      ],
+      toc: [
+        { id: 'o-que-faz', label: "What a Portuguese Anagram Solver Actually Does" },
+        { id: 'acentos-cedilha', label: "Handling Accents and the Cedilla (Ç)" },
+        { id: 'curingas', label: "Using Wildcards for Unknown Letters" },
+        { id: 'filtros', label: "Advanced Filters for Portuguese Word Puzzles" },
+        { id: 'letras-valiosas', label: "The Highest-Scoring Letters" }
+      ],
+      body: [
+        "Written and reviewed by the UnscramblWords Team, with every word checked directly against our own dictionary.",
+        { type: 'heading', id: 'o-que-faz', text: "What a Portuguese Anagram Solver Actually Does" },
+        "Portuguese is a vowel-heavy language, so a rack of letters often holds several A's, E's, or O's, creating far more possible combinations than a person can realistically check by hand. A dedicated Portuguese anagram solver checks every combination against a real dictionary, so you see actual playable words rather than guesses.",
+        { type: 'heading', id: 'acentos-cedilha', text: "Handling Accents and the Cedilla (Ç)" },
+        "Accents change meaning, not just spelling. CORAÇÃO (heart), AÇÃO (action), MAÇÃ (apple), and FORÇA (strength) are all genuine Portuguese words verified in our dictionary. The cedilla (Ç) is a distinct letter in Portuguese Scrabble scoring, worth 3 points -- higher than plain C's 2 points, though nowhere near the highest-value tiles.",
+        { type: 'heading', id: 'curingas', text: "Using Wildcards for Unknown Letters" },
+        "If you're missing a letter, type ? in the search box to represent it. Searching M?TA correctly returns META and MATA, trying every letter in that position rather than requiring an exact match. There's no limit on how many wildcards you can use in one search, and a wildcard-derived letter always scores 0 points, matching the real rule for a blank Scrabble tile.",
+        { type: 'heading', id: 'filtros', text: "Advanced Filters for Portuguese Word Puzzles" },
+        "Use the Starts With and Ends With filters to narrow results toward a specific board position, or filter by word length to fit a crossword gap exactly. Combine several filters at once to go from a broad list of matches to the handful that actually fit your situation.",
+        { type: 'heading', id: 'letras-valiosas', text: "The Highest-Scoring Letters" },
+        "X and Z are the two highest-scoring letters in Portuguese Scrabble, worth 8 points each -- words like EXAME (exam) and TEXTO (text) put a high-value X to good use. Q is worth 6 points and, as in most languages, almost always needs a U alongside it.",
+        "Our dictionary covers both European and Brazilian Portuguese spelling, so results reflect real vocabulary from either variant. Every example in this guide -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META, and MATA -- has been checked directly against UnscramblWords' own dictionary."
+      ],
+      faq: [
+        { question: "Does the Portuguese anagram solver support wildcard letters?", answer: "Yes. Type ? in the search box to represent any single unknown letter -- for example, M?TA finds META and MATA. There's no limit on how many wildcards you can use, and a wildcard-derived letter always scores 0 points, the same as a real blank Scrabble tile." },
+        { question: "How do I handle accents like the tilde or cedilla?", answer: "Type the accented letters as they appear in the word you're looking for. Our dictionary includes genuine Portuguese words with their correct accents, such as CORAÇÃO and MAÇÃ." },
+        { question: "Is this Portuguese word finder free to use?", answer: "Yes, completely free, with no registration or account required." },
+        { question: "Can I use this tool for Portuguese Scrabble and Words with Friends?", answer: "Yes. UnscramblWords works well alongside Portuguese Scrabble, Words with Friends, and similar games, though it's an independent tool and isn't officially affiliated with Hasbro, Mattel, or Zynga." },
+        { question: "Does the solver work on mobile devices without an app?", answer: "Yes, it works in any standard mobile browser -- no app or download required." },
+        { question: "What dictionary does the Portuguese anagram solver use?", answer: "A dictionary covering both European and Brazilian Portuguese spelling, manually checked to remove duplicates and non-standard entries." },
+        { question: "Can I filter results by word length?", answer: "Yes, along with filtering by starting letters, ending letters, and required letters. Results are automatically sorted by point value." }
+      ]
+    },
 ];

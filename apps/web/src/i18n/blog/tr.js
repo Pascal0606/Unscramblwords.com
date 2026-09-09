@@ -452,4 +452,47 @@ export const tr = [
         { question: "Kancalar turnuvalarda geçerli midir?", answer: "Evet. Kanca özel bir kural değildir; turnuvanın resmi sözlüğünde tanınan geçerli her kelime oynanabilir, kanca ile oluşturulanlar da dahil." }
       ]
     },
+    {
+      slug: 'portekizce-anagram-cozucu',
+      date: '2026-09-09',
+      title: 'Portekizce Anagram Çözücü: Her Kelimeyi Anında Bulun',
+      excerpt: 'Portekizce harfleri doğru şekilde çözme -- aksanlar, ç harfi ve joker harfler -- kendi sözlüğümüzde doğrulanmış örneklerle.',
+      keyTakeaways: [
+        "Gerçek bir Portekizce anagram çözücü, aksanları ve ç harfini doğru işlemelidir, çünkü bunlar sadece görünümü değil, kelimenin kendisini değiştirir.",
+        "X ve Z, Portekizcede en yüksek değerli iki harftir, her biri 8 puan değerindedir; Ç ise 3 puan değerindedir -- düz C'den (2 puan) yüksek, ama en üste yakın değil.",
+        "UnscramblWords joker harfleri destekler (bilinmeyen bir harf için ? yazın), bir aramada kaç tane kullanacağınıza dair bir sınır yoktur.",
+        "Sözlük, hem Avrupa hem de Brezilya Portekizcesi yazımını kapsar.",
+        "Bu rehberdeki her kelime örneği doğrudan UnscramblWords'ün Portekizce sözlüğünde kontrol edilmiştir."
+      ],
+      toc: [
+        { id: 'ne-yapar', label: "Bir Portekizce Anagram Çözücü Gerçekte Ne Yapar" },
+        { id: 'aksanlar-c', label: "Aksanları ve Ç Harfini İşleme" },
+        { id: 'jokerler', label: "Bilinmeyen Harfler İçin Joker Kullanma" },
+        { id: 'filtreler', label: "Portekizce Kelime Bulmacaları İçin Gelişmiş Filtreler" },
+        { id: 'degerli-harfler', label: "En Yüksek Değerli Harfler" }
+      ],
+      body: [
+        "UnscramblWords ekibi tarafından yazılmış ve her kelime doğrudan kendi sözlüğümüzde doğrulanmıştır.",
+        { type: 'heading', id: 'ne-yapar', text: "Bir Portekizce Anagram Çözücü Gerçekte Ne Yapar" },
+        "Portekizce ünlü bakımından zengin bir dildir: bir harf seti genellikle birden fazla A, E veya O içerir, bu da elle makul şekilde kontrol edilebilecekten çok daha fazla olası kombinasyon yaratır. Özel bir Portekizce anagram çözücü, her kombinasyonu gerçek bir sözlüğe karşı test eder, böylece tahminler yerine gerçekten oynanabilir kelimeler görürsünüz.",
+        { type: 'heading', id: 'aksanlar-c', text: "Aksanları ve Ç Harfini İşleme" },
+        "Aksanlar sadece yazımı değil, anlamı da değiştirir. CORAÇÃO (kalp), AÇÃO (eylem), MAÇÃ (elma) ve FORÇA (güç) sözlüğümüzde doğrulanmış gerçek Portekizce kelimelerdir. Ç harfi, Portekizce Scrabble puanlamasında ayrı bir harftir ve 3 puan değerindedir -- düz C'nin (2 puan) üzerinde, ancak en değerli taşlardan uzaktır.",
+        { type: 'heading', id: 'jokerler', text: "Bilinmeyen Harfler İçin Joker Kullanma" },
+        "Eksik bir harfiniz varsa, onu temsil etmesi için arama kutusuna ? yazın. M?TA aramak, o pozisyondaki her harfi deneyerek META ve MATA kelimelerini doğru şekilde bulur, tam eşleşme gerektirmez. Bir aramada kaç joker kullanabileceğinize dair bir sınır yoktur ve joker harften gelen bir harf, gerçek Scrabble boş taş kuralıyla aynı şekilde her zaman 0 puan değerindedir.",
+        { type: 'heading', id: 'filtreler', text: "Portekizce Kelime Bulmacaları İçin Gelişmiş Filtreler" },
+        "Sonuçları tahtadaki belirli bir konuma daraltmak için \"ile başlayan\" ve \"ile biten\" filtrelerini kullanın veya bir bulmaca boşluğuna tam olarak uyması için kelime uzunluğuna göre filtreleyin. Geniş bir eşleşme listesinden durumunuza gerçekten uyan birkaç seçeneğe geçmek için birden fazla filtreyi birlikte kullanın.",
+        { type: 'heading', id: 'degerli-harfler', text: "En Yüksek Değerli Harfler" },
+        "X ve Z, Portekizce Scrabble'da en yüksek değerli iki harftir, her biri 8 puan değerindedir -- EXAME (sınav) ve TEXTO (metin) gibi kelimeler yüksek değerli bir X'i iyi kullanır. Q, 6 puan değerindedir ve çoğu dilde olduğu gibi neredeyse her zaman yanında bir U gerektirir.",
+        "Sözlüğümüz hem Avrupa hem de Brezilya Portekizcesi yazımını kapsar, böylece sonuçlar her iki varyanttan da gerçek kelime dağarcığını yansıtır. Bu rehberdeki her örnek -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META ve MATA -- doğrudan UnscramblWords'ün sözlüğünde kontrol edilmiştir."
+      ],
+      faq: [
+        { question: "Portekizce anagram çözücü joker harfleri destekliyor mu?", answer: "Evet. Herhangi bir bilinmeyen harfi temsil etmesi için arama kutusuna ? yazın -- örneğin M?TA, META ve MATA kelimelerini bulur. Kaç joker kullanabileceğinize dair bir sınır yoktur ve joker harften gelen bir harf, gerçek bir Scrabble boş taşı gibi her zaman 0 puan değerindedir." },
+        { question: "Tilde veya ç gibi aksanları nasıl işlerim?", answer: "Aksanlı harfleri, aradığınız kelimede göründükleri şekilde yazın. Sözlüğümüz, CORAÇÃO ve MAÇÃ gibi doğru aksanlarıyla gerçek Portekizce kelimeler içerir." },
+        { question: "Bu Portekizce kelime bulucu ücretsiz mi?", answer: "Evet, tamamen ücretsizdir, kayıt veya hesap gerekmez." },
+        { question: "Bu aracı Portekizce Scrabble ve Words with Friends için kullanabilir miyim?", answer: "Evet. UnscramblWords, bağımsız bir araç olmasına ve Hasbro, Mattel veya Zynga ile resmi bir bağlantısı olmamasına rağmen, Portekizce Scrabble, Words with Friends ve benzer oyunlarla iyi çalışır." },
+        { question: "Çözücü uygulama olmadan mobil cihazlarda çalışır mı?", answer: "Evet, herhangi bir standart mobil tarayıcıda çalışır -- uygulama veya indirme gerekmez." },
+        { question: "Portekizce anagram çözücü hangi sözlüğü kullanıyor?", answer: "Hem Avrupa hem de Brezilya Portekizcesi yazımını kapsayan, kopyaları ve standart dışı girdileri kaldırmak için elle kontrol edilmiş bir sözlük." },
+        { question: "Sonuçları kelime uzunluğuna göre filtreleyebilir miyim?", answer: "Evet, başlangıç harfi, bitiş harfi ve gerekli harfe göre filtrelemenin yanı sıra. Sonuçlar otomatik olarak puan değerine göre sıralanır." }
+      ]
+    },
 ];

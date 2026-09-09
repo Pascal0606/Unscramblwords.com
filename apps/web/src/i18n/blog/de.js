@@ -461,4 +461,47 @@ export const de = [
         { question: "Sind Hooks im Turnier erlaubt?", answer: "Ja. Ein Hook ist keine besondere Regel — jedes im offiziellen Turnierwörterbuch anerkannte Wort darf gespielt werden, auch wenn es durch einen Hook entstanden ist." }
       ]
     },
+    {
+      slug: 'portugiesischer-anagramm-loeser',
+      date: '2026-09-09',
+      title: 'Portugiesischer Anagramm-Löser: Jedes Wort sofort finden',
+      excerpt: 'Wie man portugiesische Buchstaben präzise entschlüsselt -- Akzente, Cedille und Platzhalter -- mit Beispielen, die direkt in unserem eigenen Wörterbuch geprüft wurden.',
+      keyTakeaways: [
+        "Ein echter portugiesischer Anagramm-Löser muss Akzente und die Cedille (Ç) korrekt behandeln, da sie das Wort selbst verändern, nicht nur sein Aussehen.",
+        "X und Y — nein, X und Z sind die beiden wertvollsten Buchstaben im Portugiesischen, mit je 8 Punkten; Ç ist 3 Punkte wert -- mehr als das einfache C (2 Punkte), aber weit von der Spitze entfernt.",
+        "UnscramblWords unterstützt Platzhalter-Buchstaben (gib ? für einen unbekannten Buchstaben ein), ohne feste Begrenzung, wie viele du in einer Suche verwendest.",
+        "Das Wörterbuch deckt sowohl die europäische als auch die brasilianische portugiesische Rechtschreibung ab.",
+        "Jedes Wortbeispiel in diesem Leitfaden wurde direkt gegen das portugiesische Wörterbuch von UnscramblWords geprüft."
+      ],
+      toc: [
+        { id: 'was-macht-ein-loeser', label: "Was ein portugiesischer Anagramm-Löser wirklich tut" },
+        { id: 'akzente-cedille', label: "Umgang mit Akzenten und der Cedille (Ç)" },
+        { id: 'platzhalter', label: "Platzhalter für unbekannte Buchstaben verwenden" },
+        { id: 'filter', label: "Erweiterte Filter für portugiesische Worträtsel" },
+        { id: 'wertvolle-buchstaben', label: "Die wertvollsten Buchstaben" }
+      ],
+      body: [
+        "Geschrieben und geprüft vom UnscramblWords-Team, wobei jedes Wort direkt gegen unser eigenes Wörterbuch kontrolliert wurde.",
+        { type: 'heading', id: 'was-macht-ein-loeser', text: "Was ein portugiesischer Anagramm-Löser wirklich tut" },
+        "Portugiesisch ist eine vokalreiche Sprache: Ein Buchstabensatz enthält oft mehrere A, E oder O, was weit mehr mögliche Kombinationen ergibt, als man realistisch von Hand prüfen kann. Ein spezialisierter portugiesischer Anagramm-Löser testet jede Kombination gegen ein echtes Wörterbuch, sodass man tatsächlich spielbare Wörter sieht statt bloßer Vermutungen.",
+        { type: 'heading', id: 'akzente-cedille', text: "Umgang mit Akzenten und der Cedille (Ç)" },
+        "Akzente verändern die Bedeutung, nicht nur die Schreibweise. CORAÇÃO (Herz), AÇÃO (Aktion), MAÇÃ (Apfel) und FORÇA (Kraft) sind alle echte portugiesische Wörter, verifiziert in unserem Wörterbuch. Die Cedille (Ç) ist beim portugiesischen Scrabble ein eigener Buchstabe mit 3 Punkten -- mehr als das einfache C mit 2 Punkten, aber weit von den wertvollsten Steinen entfernt.",
+        { type: 'heading', id: 'platzhalter', text: "Platzhalter für unbekannte Buchstaben verwenden" },
+        "Fehlt dir ein Buchstabe, gib ? im Suchfeld ein, um ihn darzustellen. Die Suche nach M?TA liefert korrekt META und MATA, indem jeder Buchstabe an dieser Stelle ausprobiert wird, statt eine exakte Übereinstimmung zu verlangen. Es gibt keine Begrenzung, wie viele Platzhalter du in einer Suche verwendest, und ein Platzhalter-Buchstabe zählt immer 0 Punkte, genau wie die echte Regel für einen Blindstein beim Scrabble.",
+        { type: 'heading', id: 'filter', text: "Erweiterte Filter für portugiesische Worträtsel" },
+        "Nutze die Filter „beginnt mit“ und „endet mit“, um Ergebnisse auf eine bestimmte Position auf dem Brett einzugrenzen, oder filtere nach Wortlänge, um eine Kreuzworträtsel-Lücke exakt zu füllen. Kombiniere mehrere Filter gleichzeitig, um von einer langen Trefferliste auf die wenigen wirklich passenden Wörter zu kommen.",
+        { type: 'heading', id: 'wertvolle-buchstaben', text: "Die wertvollsten Buchstaben" },
+        "X und Z sind die beiden wertvollsten Buchstaben im portugiesischen Scrabble, mit je 8 Punkten -- Wörter wie EXAME (Prüfung) und TEXTO (Text) nutzen ein wertvolles X gut aus. Q ist 6 Punkte wert und braucht, wie in den meisten Sprachen, fast immer ein U an seiner Seite.",
+        "Unser Wörterbuch deckt sowohl die europäische als auch die brasilianische portugiesische Rechtschreibung ab, sodass die Ergebnisse echtes Vokabular aus beiden Varianten widerspiegeln. Jedes Beispiel in diesem Leitfaden -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META und MATA -- wurde direkt gegen das Wörterbuch von UnscramblWords geprüft."
+      ],
+      faq: [
+        { question: "Unterstützt der portugiesische Anagramm-Löser Platzhalter-Buchstaben?", answer: "Ja. Gib ? im Suchfeld ein, um einen beliebigen unbekannten Buchstaben darzustellen -- zum Beispiel findet M?TA die Wörter META und MATA. Es gibt keine Begrenzung, wie viele Platzhalter du verwenden kannst, und ein Platzhalter-Buchstabe zählt immer 0 Punkte, genau wie ein echter Blindstein beim Scrabble." },
+        { question: "Wie gehe ich mit Akzenten wie der Tilde oder der Cedille um?", answer: "Gib die akzentuierten Buchstaben so ein, wie sie im gesuchten Wort erscheinen. Unser Wörterbuch enthält echte portugiesische Wörter mit ihren korrekten Akzenten, wie CORAÇÃO und MAÇÃ." },
+        { question: "Ist dieser portugiesische Wortfinder kostenlos?", answer: "Ja, vollständig kostenlos, ohne Registrierung oder Konto." },
+        { question: "Kann ich dieses Tool für portugiesisches Scrabble und Words with Friends nutzen?", answer: "Ja. UnscramblWords funktioniert gut in Kombination mit portugiesischem Scrabble, Words with Friends und ähnlichen Spielen, ist jedoch ein unabhängiges Tool und steht in keiner offiziellen Verbindung zu Hasbro, Mattel oder Zynga." },
+        { question: "Funktioniert der Löser auf dem Handy ohne App?", answer: "Ja, er funktioniert in jedem gängigen mobilen Browser -- keine App oder Download nötig." },
+        { question: "Welches Wörterbuch verwendet der portugiesische Anagramm-Löser?", answer: "Ein Wörterbuch, das sowohl die europäische als auch die brasilianische portugiesische Rechtschreibung abdeckt, manuell geprüft, um Duplikate und nicht standardmäßige Einträge zu entfernen." },
+        { question: "Kann ich Ergebnisse nach Wortlänge filtern?", answer: "Ja, zusätzlich zur Filterung nach Anfangsbuchstaben, Endbuchstaben und Pflichtbuchstaben. Die Ergebnisse werden automatisch nach Punktwert sortiert." }
+      ]
+    },
 ];

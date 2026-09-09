@@ -589,4 +589,47 @@ export const pl = [
         { question: "Czy haczyki są dozwolone w turniejach?", answer: "Tak. Haczyk nie jest specjalną zasadą — można zagrać dowolne poprawne słowo uznane przez oficjalny słownik turnieju, w tym słowa utworzone przez haczyk." }
       ]
     },
+    {
+      slug: 'rozwiazywacz-anagramow-portugalskich',
+      date: '2026-09-09',
+      title: 'Rozwiązywacz anagramów portugalskich: znajdź każde słowo natychmiast',
+      excerpt: 'Jak dokładnie rozszyfrowywać portugalskie litery -- akcenty, cedylla i dzikie karty -- z przykładami zweryfikowanymi w naszym własnym słowniku.',
+      keyTakeaways: [
+        "Prawdziwy rozwiązywacz anagramów portugalskich musi poprawnie obsługiwać akcenty i cedyllę (Ç), ponieważ zmieniają one samo słowo, a nie tylko jego wygląd.",
+        "X i Z to dwie najcenniejsze litery w języku portugalskim, warte po 8 punktów każda; Ç jest warta 3 punkty -- więcej niż zwykłe C (2 punkty), ale daleko od szczytu.",
+        "UnscramblWords obsługuje litery-dzikie karty (wpisz ? dla nieznanej litery), bez ograniczeń co do liczby użytych w jednym wyszukiwaniu.",
+        "Słownik obejmuje zarówno pisownię portugalskiego europejskiego, jak i brazylijskiego.",
+        "Każdy przykład słowa w tym przewodniku został sprawdzony bezpośrednio w portugalskim słowniku UnscramblWords."
+      ],
+      toc: [
+        { id: 'co-robi-rozwiazywacz', label: "Co naprawdę robi rozwiązywacz anagramów portugalskich" },
+        { id: 'akcenty-cedylla', label: "Obsługa akcentów i cedylli (Ç)" },
+        { id: 'dzikie-karty', label: "Używanie dzikich kart dla nieznanych liter" },
+        { id: 'filtry', label: "Zaawansowane filtry do portugalskich łamigłówek słownych" },
+        { id: 'cenne-litery', label: "Najcenniejsze litery" }
+      ],
+      body: [
+        "Napisane i zweryfikowane przez zespół UnscramblWords — każde słowo sprawdzone bezpośrednio w naszym własnym słowniku.",
+        { type: 'heading', id: 'co-robi-rozwiazywacz', text: "Co naprawdę robi rozwiązywacz anagramów portugalskich" },
+        "Portugalski to język bogaty w samogłoski: zestaw liter często zawiera kilka A, E lub O, co tworzy znacznie więcej możliwych kombinacji, niż da się rozsądnie sprawdzić ręcznie. Dedykowany rozwiązywacz anagramów portugalskich sprawdza każdą kombinację względem prawdziwego słownika, pokazując naprawdę grywalne słowa zamiast domysłów.",
+        { type: 'heading', id: 'akcenty-cedylla', text: "Obsługa akcentów i cedylli (Ç)" },
+        "Akcenty zmieniają znaczenie, a nie tylko pisownię. CORAÇÃO (serce), AÇÃO (akcja), MAÇÃ (jabłko) i FORÇA (siła) to prawdziwe portugalskie słowa zweryfikowane w naszym słowniku. Cedylla (Ç) jest odrębną literą w punktacji portugalskiego Scrabble, wartą 3 punkty -- więcej niż zwykłe C (2 punkty), choć daleko od najcenniejszych liter.",
+        { type: 'heading', id: 'dzikie-karty', text: "Używanie dzikich kart dla nieznanych liter" },
+        "Jeśli brakuje ci litery, wpisz ? w polu wyszukiwania, aby ją oznaczyć. Wyszukanie M?TA poprawnie zwraca META i MATA, sprawdzając każdą literę na tej pozycji zamiast wymagać dokładnego dopasowania. Nie ma ograniczenia liczby dzikich kart użytych w jednym wyszukiwaniu, a litera z dzikiej karty zawsze jest warta 0 punktów, zgodnie z prawdziwą zasadą pustego pionka w Scrabble.",
+        { type: 'heading', id: 'filtry', text: "Zaawansowane filtry do portugalskich łamigłówek słownych" },
+        "Użyj filtrów \"zaczyna się od\" i \"kończy się na\", aby zawęzić wyniki do konkretnej pozycji na planszy, lub filtruj według długości słowa, aby dokładnie dopasować lukę w krzyżówce. Łącz kilka filtrów naraz, aby przejść od długiej listy dopasowań do garstki naprawdę pasującej do twojej sytuacji.",
+        { type: 'heading', id: 'cenne-litery', text: "Najcenniejsze litery" },
+        "X i Z to dwie najcenniejsze litery w portugalskim Scrabble, warte po 8 punktów każda -- słowa takie jak EXAME (egzamin) i TEXTO (tekst) dobrze wykorzystują cenną literę X. Q jest warte 6 punktów i, jak w większości języków, niemal zawsze wymaga U obok siebie.",
+        "Nasz słownik obejmuje zarówno pisownię portugalskiego europejskiego, jak i brazylijskiego, dzięki czemu wyniki odzwierciedlają prawdziwe słownictwo z obu wariantów. Każdy przykład w tym przewodniku -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META i MATA -- został sprawdzony bezpośrednio w słowniku UnscramblWords."
+      ],
+      faq: [
+        { question: "Czy rozwiązywacz anagramów portugalskich obsługuje litery-dzikie karty?", answer: "Tak. Wpisz ? w polu wyszukiwania, aby oznaczyć dowolną nieznaną literę -- na przykład M?TA znajduje META i MATA. Nie ma ograniczenia liczby użytych dzikich kart, a litera z dzikiej karty zawsze jest warta 0 punktów, tak jak prawdziwy pusty pionek w Scrabble." },
+        { question: "Jak obsługiwać akcenty takie jak tylda czy cedylla?", answer: "Wpisuj litery z akcentami tak, jak pojawiają się w szukanym słowie. Nasz słownik zawiera prawdziwe portugalskie słowa z poprawnymi akcentami, takie jak CORAÇÃO i MAÇÃ." },
+        { question: "Czy ten wyszukiwacz portugalskich słów jest darmowy?", answer: "Tak, całkowicie darmowy, bez konieczności rejestracji czy konta." },
+        { question: "Czy mogę użyć tego narzędzia do portugalskiego Scrabble i Words with Friends?", answer: "Tak. UnscramblWords dobrze sprawdza się przy portugalskim Scrabble, Words with Friends i podobnych grach, choć jest niezależnym narzędziem i nie jest oficjalnie powiązany z Hasbro, Mattel ani Zyngą." },
+        { question: "Czy rozwiązywacz działa na urządzeniach mobilnych bez aplikacji?", answer: "Tak, działa w każdej standardowej przeglądarce mobilnej -- nie jest potrzebna żadna aplikacja ani pobieranie." },
+        { question: "Jakiego słownika używa rozwiązywacz anagramów portugalskich?", answer: "Słownika obejmującego zarówno pisownię portugalskiego europejskiego, jak i brazylijskiego, ręcznie sprawdzonego pod kątem duplikatów i niestandardowych wpisów." },
+        { question: "Czy mogę filtrować wyniki według długości słowa?", answer: "Tak, a także według litery początkowej, końcowej i wymaganej. Wyniki są automatycznie sortowane według wartości punktowej." }
+      ]
+    },
 ];

@@ -497,4 +497,47 @@ export const fr = [
         { question: "Les crochets sont-ils autorisés en tournoi ?", answer: "Oui. Le crochet n'est pas une règle spéciale : tout mot valide reconnu par le dictionnaire officiel du tournoi peut être joué, y compris ceux formés par un crochet." }
       ]
     },
+    {
+      slug: 'solveur-anagrammes-portugais',
+      date: '2026-09-09',
+      title: 'Solveur d\'anagrammes portugais : trouvez chaque mot instantanément',
+      excerpt: 'Comment déchiffrer des lettres portugaises avec précision -- accents, cédille et lettres joker -- avec des exemples vérifiés dans notre propre dictionnaire.',
+      keyTakeaways: [
+        "Un véritable solveur d'anagrammes portugais doit gérer correctement les accents et la cédille (Ç), car ils changent le mot obtenu, pas seulement son apparence.",
+        "X et Z sont les deux lettres les plus précieuses en portugais, valant 8 points chacune ; le Ç vaut 3 points -- plus que le simple C (2 points), mais loin des meilleures lettres.",
+        "UnscramblWords prend en charge les lettres joker (tapez ? pour une lettre inconnue), sans limite sur leur nombre dans une même recherche.",
+        "Le dictionnaire couvre à la fois l'orthographe du portugais européen et brésilien.",
+        "Chaque exemple de ce guide a été vérifié directement dans le dictionnaire portugais d'UnscramblWords."
+      ],
+      toc: [
+        { id: 'ce-que-fait-un-solveur', label: "Ce que fait vraiment un solveur d'anagrammes portugais" },
+        { id: 'accents-cedille', label: "Gérer les accents et la cédille (Ç)" },
+        { id: 'jokers', label: "Utiliser des jokers pour les lettres inconnues" },
+        { id: 'filtres', label: "Filtres avancés pour les puzzles de mots portugais" },
+        { id: 'lettres-precieuses', label: "Les lettres les plus précieuses" }
+      ],
+      body: [
+        "Rédigé et vérifié par l'équipe UnscramblWords, chaque mot étant contrôlé directement dans notre propre dictionnaire.",
+        { type: 'heading', id: 'ce-que-fait-un-solveur', text: "Ce que fait vraiment un solveur d'anagrammes portugais" },
+        "Le portugais est une langue riche en voyelles : un jeu de lettres contient souvent plusieurs A, E ou O, créant bien plus de combinaisons possibles qu'on ne peut raisonnablement vérifier à la main. Un solveur d'anagrammes portugais dédié teste chaque combinaison contre un vrai dictionnaire, pour obtenir des mots réellement jouables plutôt que des suppositions.",
+        { type: 'heading', id: 'accents-cedille', text: "Gérer les accents et la cédille (Ç)" },
+        "Les accents changent le sens, pas seulement l'orthographe. CORAÇÃO (cœur), AÇÃO (action), MAÇÃ (pomme) et FORÇA (force) sont tous des mots portugais authentiques vérifiés dans notre dictionnaire. La cédille (Ç) est une lettre distincte dans le calcul des points au Scrabble portugais, valant 3 points -- plus que le simple C (2 points), bien loin cependant des lettres les plus précieuses.",
+        { type: 'heading', id: 'jokers', text: "Utiliser des jokers pour les lettres inconnues" },
+        "S'il vous manque une lettre, tapez ? dans la barre de recherche pour la représenter. Rechercher M?TA renvoie correctement META et MATA, en testant chaque lettre à cette position plutôt que d'exiger une correspondance exacte. Il n'y a aucune limite au nombre de jokers utilisables dans une même recherche, et une lettre issue d'un joker vaut toujours 0 point, comme la vraie règle du jeton blanc au Scrabble.",
+        { type: 'heading', id: 'filtres', text: "Filtres avancés pour les puzzles de mots portugais" },
+        "Utilisez les filtres « commence par » et « se termine par » pour cibler une position précise sur le plateau, ou filtrez par longueur de mot pour combler exactement une case de mots croisés. Combinez plusieurs filtres à la fois pour passer d'une longue liste de résultats à la poignée qui convient vraiment à votre situation.",
+        { type: 'heading', id: 'lettres-precieuses', text: "Les lettres les plus précieuses" },
+        "X et Z sont les deux lettres les plus précieuses au Scrabble portugais, valant 8 points chacune -- des mots comme EXAME (examen) et TEXTO (texte) exploitent bien un X à haute valeur. Le Q vaut 6 points et, comme dans la plupart des langues, nécessite presque toujours un U à ses côtés.",
+        "Notre dictionnaire couvre à la fois l'orthographe du portugais européen et brésilien, afin que les résultats reflètent un vocabulaire réel des deux variantes. Chaque exemple de ce guide -- CORAÇÃO, AÇÃO, MAÇÃ, FORÇA, CÃO, CAÇA, EXAME, TEXTO, META et MATA -- a été vérifié directement dans le dictionnaire d'UnscramblWords."
+      ],
+      faq: [
+        { question: "Le solveur d'anagrammes portugais prend-il en charge les lettres joker ?", answer: "Oui. Tapez ? dans la barre de recherche pour représenter n'importe quelle lettre inconnue -- par exemple, M?TA trouve META et MATA. Il n'y a aucune limite au nombre de jokers utilisables, et une lettre issue d'un joker vaut toujours 0 point, comme un vrai jeton blanc au Scrabble." },
+        { question: "Comment gérer des accents comme le tilde ou la cédille ?", answer: "Tapez les lettres accentuées telles qu'elles apparaissent dans le mot recherché. Notre dictionnaire inclut de véritables mots portugais avec leurs accents corrects, comme CORAÇÃO et MAÇÃ." },
+        { question: "Cet outil de recherche de mots portugais est-il gratuit ?", answer: "Oui, entièrement gratuit, sans inscription ni compte nécessaire." },
+        { question: "Puis-je utiliser cet outil pour le Scrabble portugais et Words with Friends ?", answer: "Oui. UnscramblWords fonctionne bien avec le Scrabble portugais, Words with Friends et des jeux similaires, bien qu'il s'agisse d'un outil indépendant, non affilié officiellement à Hasbro, Mattel ou Zynga." },
+        { question: "Le solveur fonctionne-t-il sur mobile sans application ?", answer: "Oui, il fonctionne dans n'importe quel navigateur mobile standard -- aucune application ni téléchargement requis." },
+        { question: "Quel dictionnaire utilise le solveur d'anagrammes portugais ?", answer: "Un dictionnaire couvrant à la fois l'orthographe du portugais européen et brésilien, vérifié manuellement pour supprimer les doublons et les entrées non standard." },
+        { question: "Puis-je filtrer les résultats par longueur de mot ?", answer: "Oui, ainsi que par lettre de début, lettre de fin et lettre obligatoire. Les résultats sont automatiquement triés par valeur en points." }
+      ]
+    },
 ];
