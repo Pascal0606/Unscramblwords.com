@@ -252,6 +252,17 @@ const UnscrambleApp = () => {
           </motion.div>
 
           <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.05, ease: "easeOut" }}
+            className="max-w-3xl mx-auto mb-6 px-4"
+          >
+            <p className="text-sm sm:text-base text-center text-muted-foreground leading-relaxed">
+              {t('ui.introText')}
+            </p>
+          </motion.div>
+
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
