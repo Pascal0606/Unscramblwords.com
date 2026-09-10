@@ -8,6 +8,7 @@ const PrivacyPolicy = () => {
       <Helmet>
         <title>{`Privacy Policy - UnscramblWords`}</title>
         <meta name="description" content="Privacy Policy and terms of data usage for UnscramblWords" />
+        <link rel="canonical" href="https://unscramblwords.com/privacy" />
       </Helmet>
       
       <div className="max-w-4xl mx-auto space-y-8">
