@@ -433,4 +433,46 @@ export const it = [
         { question: "Posso filtrare i risultati per lunghezza della parola?", answer: "Sì, insieme al filtro per lettera iniziale, lettera finale e lettera obbligatoria. I risultati vengono ordinati automaticamente per valore in punti." }
       ]
     },
+    {
+      slug: 'risolutore-text-twist-guida-bingo',
+      date: '2026-09-10',
+      title: 'Risolutore Text Twist: trova la parola Bingo all\'istante',
+      excerpt: 'Come trovare rapidamente la parola \'Bingo\' decisiva, usare correttamente jolly e filtri, e quali esempi di parole reggono davvero -- verificati nel nostro dizionario.',
+      keyTakeaways: [
+        "Una parola 'Bingo' -- che usa tutte le lettere del tuo set -- è ciò che permette di avanzare a Text Twist; le parole più corte danno punti ma non fanno cambiare livello.",
+        "Q e X sono le lettere più difficili da piazzare.",
+        "Digita ? come jolly quando una lettera è sconosciuta. Non c'è alcun limite, e una lettera jolly vale sempre 0 punti.",
+        "Filtri reali -- inizia con, finisce con, contiene, lettera obbligatoria, lunghezza -- restringono i risultati al tuo schema.",
+        "I risultati sono ordinati automaticamente per valore in punti."
+      ],
+      toc: [
+        { id: 'cose-un-bingo', label: "Cos'è la parola 'Bingo', e perché conta?" },
+        { id: 'filtri', label: "Usare i filtri per svuotare la griglia" },
+        { id: 'jolly', label: "Usare i jolly per le lettere sconosciute" },
+        { id: 'lettere-difficili', label: "Le lettere più difficili da piazzare" },
+        { id: 'strategie-manuali', label: "Alcune strategie manuali utili" }
+      ],
+      body: [
+        { type: 'heading', id: 'cose-un-bingo', text: "Cos'è la parola 'Bingo', e perché conta?" },
+        "A Text Twist, trovare almeno una parola che usa tutte le lettere del tuo set -- la parola 'Bingo' -- è ciò che permette di passare al turno successivo. Le parole più corte danno punti lungo il percorso, ma solo la parola Bingo fa scattare il cambio di livello. Text Twist 3, l'attuale versione Steam di Tuga Studios (aprile 2023, 3,99 €), supporta dieci lingue tra cui turco e portoghese, accanto alle versioni gratuite per browser e mobile con cui molti giocatori hanno conosciuto per primo questo gioco.",
+        { type: 'heading', id: 'filtri', text: "Usare i filtri per svuotare la griglia" },
+        "Una volta trovata la parola Bingo, i filtri aiutano a svuotare rapidamente il resto della griglia. Usa \"inizia con\" o \"finisce con\" per le lettere già fissate nel puzzle, \"contiene\" per una lettera che sai debba comparire, e \"lunghezza\" per uno spazio specifico. I risultati sono ordinati automaticamente per valore in punti, così le mosse migliori appaiono per prime.",
+        { type: 'heading', id: 'jolly', text: "Usare i jolly per le lettere sconosciute" },
+        "Se una lettera non è chiara, o hai una tessera bianca, digita ? nella casella di ricerca per rappresentarla. Non c'è alcun limite a quanti jolly puoi usare in una ricerca, e una lettera jolly vale sempre 0 punti, come la vera regola della tessera bianca a Scarabeo.",
+        { type: 'heading', id: 'lettere-difficili', text: "Le lettere più difficili da piazzare" },
+        "Il Q vale 10 punti, il valore più alto del gioco a Scarabeo. G, H e Z valgono 8 punti ciascuna -- tra le lettere più difficili da piazzare, ma anche tra le più preziose quando ci si riesce.",
+        { type: 'heading', id: 'strategie-manuali', text: "Alcune strategie manuali utili" },
+        "Cercare suffissi comuni (-ZIONE, -MENTE, -ATO) e prefissi (RI-, IN-, DIS-) prima di ricorrere a un risolutore può velocizzare il gioco manuale, perché individuarne uno spesso rivela il resto della parola.",
+        "Ogni informazione descritta qui è stata verificata direttamente nel dizionario e nel codice di UnscramblWords, non semplicemente presunta."
+      ],
+      faq: [
+        { question: "Usare un risolutore Text Twist è considerato barare?", answer: "Dipende dalla piattaforma e da come lo usi. Molti giocatori usano un risolutore come strumento di apprendimento -- per verificare una parola prima di giocarla, o per rivedere cosa hanno perso dopo un turno -- piuttosto che durante una partita competitiva dal vivo." },
+        { question: "UnscramblWords supporta le lettere jolly?", answer: "Sì. Digita ? nella casella di ricerca per rappresentare una qualsiasi lettera sconosciuta. Non c'è alcun limite a quanti puoi usarne, e una lettera jolly vale sempre 0 punti, come una vera tessera bianca a Scarabeo." },
+        { question: "Posso filtrare i risultati per lunghezza o lettere specifiche?", answer: "Sì. Filtra per lettera iniziale, lettera finale, una lettera che la parola deve contenere, e lunghezza esatta -- tutti insieme se necessario." },
+        { question: "UnscramblWords è gratuito?", answer: "Sì, completamente gratuito, senza account o registrazione." },
+        { question: "Funziona su mobile senza app?", answer: "Sì, funziona in qualsiasi browser mobile standard -- nessun download necessario." },
+        { question: "Quale dizionario usa UnscramblWords?", answer: "Ogni lingua ha il proprio dizionario, costruito da liste di parole reali e pubblicamente disponibili, controllate manualmente per rimuovere duplicati e voci non standard." },
+        { question: "Posso usarlo per altri giochi come Scarabeo o Words with Friends?", answer: "Sì, lo strumento funziona bene con Scarabeo, Words with Friends, Text Twist e giochi simili. UnscramblWords è uno strumento indipendente, non affiliato ufficialmente a Hasbro, Mattel, Zynga o Tuga Studios." }
+      ]
+    },
 ];

@@ -495,4 +495,46 @@ export const tr = [
         { question: "Sonuçları kelime uzunluğuna göre filtreleyebilir miyim?", answer: "Evet, başlangıç harfi, bitiş harfi ve gerekli harfe göre filtrelemenin yanı sıra. Sonuçlar otomatik olarak puan değerine göre sıralanır." }
       ]
     },
+    {
+      slug: 'text-twist-cozucu-bingo-kelime-rehberi',
+      date: '2026-09-10',
+      title: 'Text Twist Çözücü: Bingo Kelimesini Anında Bulun',
+      excerpt: 'Belirleyici \'Bingo\' kelimesini hızlıca nasıl bulacağınız, joker ve filtreleri doğru kullanma, ve hangi kelime örneklerinin gerçekten geçerli olduğu -- kendi sözlüğümüzde doğrulanmıştır.',
+      keyTakeaways: [
+        "Elinizdeki tüm harfleri kullanan bir 'Bingo' kelimesi, Text Twist'te ilerlemenizi sağlar; daha kısa kelimeler puan kazandırır ama seviye değiştirmez.",
+        "J harfi en yüksek değerli, dolayısıyla genellikle en zor yerleştirilen harflerden biridir.",
+        "Bir harf bilinmiyorsa joker için ? yazın. Kullanım sayısında sınır yoktur ve joker harften gelen bir harf her zaman 0 puan değerindedir.",
+        "Gerçek filtreler -- ile başlayan, ile biten, içeren, gerekli harf, kelime uzunluğu -- sonuçları ızgaranıza göre daraltır.",
+        "Sonuçlar otomatik olarak puan değerine göre sıralanır."
+      ],
+      toc: [
+        { id: 'bingo-nedir', label: "'Bingo' Kelimesi Nedir ve Neden Önemlidir?" },
+        { id: 'filtreler', label: "Izgarayı Temizlemek İçin Filtreleri Kullanma" },
+        { id: 'jokerler', label: "Bilinmeyen Harfler İçin Joker Kullanma" },
+        { id: 'en-zor-harfler', label: "En Zor Yerleştirilen Harfler" },
+        { id: 'manuel-stratejiler', label: "Bilinmesi Gereken Birkaç Manuel Strateji" }
+      ],
+      body: [
+        { type: 'heading', id: 'bingo-nedir', text: "'Bingo' Kelimesi Nedir ve Neden Önemlidir?" },
+        "Text Twist'te, elinizdeki tüm harfleri kullanan en az bir kelime bulmak -- 'Bingo' kelimesi -- bir sonraki tura geçmenizi sağlar. Daha kısa kelimeler yol boyunca puan kazandırır, ancak yalnızca Bingo kelimesi seviye değişimini tetikler. Tuga Studios'un mevcut Steam sürümü olan Text Twist 3 (Nisan 2023, 3,99 $), Türkçe ve Portekizce dahil on dili destekler; bu, birçok oyuncunun bu oyunu ilk tanıdığı ücretsiz tarayıcı ve mobil sürümlerin yanı sıradır.",
+        { type: 'heading', id: 'filtreler', text: "Izgarayı Temizlemek İçin Filtreleri Kullanma" },
+        "Bingo kelimenizi bulduktan sonra, filtreler ızgaranın geri kalanını hızlıca temizlemenize yardımcı olur. Bulmacanızda zaten sabit olan harfler için \"ile başlayan\" veya \"ile biten\"i, mutlaka geçmesi gereken bir harf için \"içeren\"i ve belirli bir boşluk için \"kelime uzunluğu\"nu kullanın. Sonuçlar otomatik olarak puan değerine göre sıralanır, böylece en güçlü hamleler önce görünür.",
+        { type: 'heading', id: 'jokerler', text: "Bilinmeyen Harfler İçin Joker Kullanma" },
+        "Bir harf belirsizse veya boş bir taşla çalışıyorsanız, onu temsil etmesi için arama kutusuna ? yazın. Bir aramada kaç joker kullanabileceğinize dair bir sınır yoktur ve joker harften gelen bir harf, gerçek Scrabble boş taş kuralıyla aynı şekilde her zaman 0 puan değerindedir.",
+        { type: 'heading', id: 'en-zor-harfler', text: "En Zor Yerleştirilen Harfler" },
+        "J harfi 10 puanla oyundaki en yüksek değere sahiptir. Ğ harfi ise 8 puan değerindedir -- genellikle yerleştirilmesi en zor olan ama en değerli harfler arasındadır.",
+        { type: 'heading', id: 'manuel-stratejiler', text: "Bilinmesi Gereken Birkaç Manuel Strateji" },
+        "Bir çözücüye başvurmadan önce yaygın ekleri (-LER, -DEN, -Lİ) ve önekleri taramak manuel oyunu hızlandırabilir, çünkü birini fark etmek genellikle kelimenin geri kalanını ortaya çıkarır.",
+        "Burada açıklanan her bilgi, varsayılmak yerine doğrudan UnscramblWords'ün sözlüğünde ve kodunda kontrol edilmiştir."
+      ],
+      faq: [
+        { question: "Text Twist çözücü kullanmak hile sayılır mı?", answer: "Bu, platforma ve nasıl kullandığınıza bağlıdır. Birçok oyuncu bir çözücüyü canlı rekabetçi oyun sırasında değil, bir kelimeyi oynamadan önce kontrol etmek veya bir turdan sonra neyi kaçırdığını gözden geçirmek için bir öğrenme aracı olarak kullanır." },
+        { question: "UnscramblWords joker harfleri destekliyor mu?", answer: "Evet. Herhangi bir bilinmeyen harfi temsil etmesi için arama kutusuna ? yazın. Kaç tane kullanabileceğinize dair bir sınır yoktur ve joker harften gelen bir harf, gerçek bir Scrabble boş taşı gibi her zaman 0 puan değerindedir." },
+        { question: "Sonuçları uzunluğa veya belirli harflere göre filtreleyebilir miyim?", answer: "Evet. Başlangıç harfi, bitiş harfi, kelimenin içermesi gereken bir harf ve tam uzunluğa göre filtreleyin -- gerekirse hepsini birlikte." },
+        { question: "UnscramblWords ücretsiz mi?", answer: "Evet, tamamen ücretsizdir, hesap veya kayıt gerekmez." },
+        { question: "Uygulama olmadan mobilde çalışır mı?", answer: "Evet, herhangi bir standart mobil tarayıcıda çalışır -- indirme gerekmez." },
+        { question: "UnscramblWords hangi sözlüğü kullanıyor?", answer: "Her dilin, gerçek ve herkese açık kelime listelerinden oluşturulmuş, tekrarları ve standart dışı girdileri kaldırmak için elle kontrol edilmiş kendi sözlüğü vardır." },
+        { question: "Bunu Scrabble veya Words with Friends gibi başka oyunlar için kullanabilir miyim?", answer: "Evet, araç Scrabble, Words with Friends, Text Twist ve benzer oyunlarla iyi çalışır. UnscramblWords bağımsız bir araçtır ve Hasbro, Mattel, Zynga veya Tuga Studios ile resmi bir bağlantısı yoktur." }
+      ]
+    },
 ];

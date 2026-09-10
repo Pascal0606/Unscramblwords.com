@@ -534,4 +534,46 @@ export const es = [
         { question: "¿Puedo filtrar los resultados por longitud de palabra?", answer: "Sí, además de filtrar por letra inicial, letra final y letra obligatoria. Los resultados se ordenan automáticamente por valor en puntos." }
       ]
     },
+    {
+      slug: 'solucionador-text-twist-guia-bingo',
+      date: '2026-09-10',
+      title: 'Solucionador de Text Twist: encuentra la palabra Bingo al instante',
+      excerpt: 'Cómo encontrar rápido la palabra \'Bingo\' decisiva, usar bien los comodines y filtros, y qué ejemplos de palabras realmente son válidos -- verificados en nuestro diccionario.',
+      keyTakeaways: [
+        "Una palabra 'Bingo' -- que usa todas las letras de tu conjunto -- es lo que te permite avanzar en Text Twist; las palabras más cortas dan puntos pero no cambian de nivel.",
+        "La Q y la X son las letras más difíciles de colocar.",
+        "Escribe ? como comodín cuando una letra es desconocida. No hay límite de uso, y una letra comodín siempre vale 0 puntos.",
+        "Filtros reales -- empieza por, termina en, contiene, letra obligatoria, longitud -- ajustan los resultados a tu cuadrícula.",
+        "Los resultados se ordenan automáticamente por valor en puntos."
+      ],
+      toc: [
+        { id: 'que-es-un-bingo', label: "¿Qué es la palabra 'Bingo', y por qué importa?" },
+        { id: 'filtros', label: "Usar filtros para vaciar la cuadrícula" },
+        { id: 'comodines', label: "Usar comodines para letras desconocidas" },
+        { id: 'letras-dificiles', label: "Las letras más difíciles de colocar" },
+        { id: 'estrategias-manuales', label: "Algunas estrategias manuales útiles" }
+      ],
+      body: [
+        { type: 'heading', id: 'que-es-un-bingo', text: "¿Qué es la palabra 'Bingo', y por qué importa?" },
+        "En Text Twist, encontrar al menos una palabra que use todas las letras de tu conjunto -- la palabra 'Bingo' -- es lo que te permite pasar a la siguiente ronda. Las palabras más cortas dan puntos por el camino, pero solo la palabra Bingo activa el cambio de nivel. Text Twist 3, la versión actual de Steam de Tuga Studios (abril de 2023, 3,99 €), admite diez idiomas incluyendo turco y portugués, junto a las versiones gratuitas de navegador y móvil por las que muchos jugadores conocieron primero este juego.",
+        { type: 'heading', id: 'filtros', text: "Usar filtros para vaciar la cuadrícula" },
+        "Una vez encontrada tu palabra Bingo, los filtros ayudan a vaciar rápidamente el resto de la cuadrícula. Usa \"empieza por\" o \"termina en\" para letras ya fijadas en tu puzzle, \"contiene\" para una letra que sabes que debe aparecer, y \"longitud\" para un hueco específico. Los resultados se ordenan automáticamente por valor en puntos, así las mejores jugadas aparecen primero.",
+        { type: 'heading', id: 'comodines', text: "Usar comodines para letras desconocidas" },
+        "Si una letra no está clara, o tienes una ficha en blanco, escribe ? en el cuadro de búsqueda para representarla. No hay límite de comodines que puedas usar en una búsqueda, y una letra comodín siempre vale 0 puntos, igual que la regla real de la ficha en blanco del Scrabble.",
+        { type: 'heading', id: 'letras-dificiles', text: "Las letras más difíciles de colocar" },
+        "La Z vale 10 puntos, el valor más alto del Scrabble en español. La J, la LL, la Ñ, la RR y la X valen 8 puntos cada una -- entre las letras más difíciles de colocar, pero también de las más valiosas.",
+        { type: 'heading', id: 'estrategias-manuales', text: "Algunas estrategias manuales útiles" },
+        "Buscar sufijos comunes (-CIÓN, -MENTE, -ADO) y prefijos (RE-, DES-, IN-) antes de recurrir a un solucionador puede acelerar el juego manual, ya que detectar uno a menudo revela el resto de la palabra.",
+        "Cada dato descrito aquí se comprobó directamente en el diccionario y el código de UnscramblWords, no simplemente se asumió."
+      ],
+      faq: [
+        { question: "¿Usar un solucionador de Text Twist se considera trampa?", answer: "Depende de la plataforma y de cómo lo uses. Muchos jugadores usan un solucionador como herramienta de aprendizaje -- para comprobar una palabra antes de jugarla, o para repasar lo que se les escapó tras una ronda -- más que durante una partida competitiva en directo." },
+        { question: "¿UnscramblWords admite letras comodín?", answer: "Sí. Escribe ? en el cuadro de búsqueda para representar cualquier letra desconocida. No hay límite de cuántos puedes usar, y una letra comodín siempre vale 0 puntos, igual que una ficha en blanco real del Scrabble." },
+        { question: "¿Puedo filtrar resultados por longitud o letras específicas?", answer: "Sí. Filtra por letra inicial, letra final, una letra que la palabra debe contener, y longitud exacta -- todo a la vez si lo necesitas." },
+        { question: "¿Es gratuito UnscramblWords?", answer: "Sí, completamente gratuito, sin cuenta ni registro necesarios." },
+        { question: "¿Funciona en móvil sin aplicación?", answer: "Sí, funciona en cualquier navegador móvil estándar -- no se necesita descarga." },
+        { question: "¿Qué diccionario usa UnscramblWords?", answer: "Cada idioma tiene su propio diccionario, elaborado a partir de listas de palabras reales y de acceso público, revisadas manualmente para eliminar duplicados y entradas no estándar." },
+        { question: "¿Puedo usarlo para otros juegos como Scrabble o Words with Friends?", answer: "Sí, la herramienta funciona bien junto a Scrabble, Words with Friends, Text Twist y juegos similares. UnscramblWords es una herramienta independiente, no afiliada oficialmente a Hasbro, Mattel, Zynga ni Tuga Studios." }
+      ]
+    },
 ];

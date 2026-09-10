@@ -632,4 +632,46 @@ export const pl = [
         { question: "Czy mogę filtrować wyniki według długości słowa?", answer: "Tak, a także według litery początkowej, końcowej i wymaganej. Wyniki są automatycznie sortowane według wartości punktowej." }
       ]
     },
+    {
+      slug: 'rozwiazywacz-text-twist-poradnik-bingo',
+      date: '2026-09-10',
+      title: 'Rozwiązywacz Text Twist: znajdź słowo Bingo natychmiast',
+      excerpt: 'Jak szybko znaleźć decydujące słowo \'Bingo\', prawidłowo używać dzikich kart i filtrów, oraz które przykłady słów naprawdę się sprawdzają -- zweryfikowane w naszym słowniku.',
+      keyTakeaways: [
+        "Słowo 'Bingo' -- wykorzystujące wszystkie litery z twojego zestawu -- pozwala awansować w Text Twist; krótsze słowa dają punkty, ale nie zmieniają poziomu.",
+        "Litera Ź jest jedną z najcenniejszych, a więc często i najtrudniejszych do umieszczenia.",
+        "Wpisz ? jako dziką kartę, gdy litera jest nieznana. Nie ma limitu użycia, a litera z dzikiej karty zawsze jest warta 0 punktów.",
+        "Prawdziwe filtry -- zaczyna się od, kończy się na, zawiera, wymagana litera, długość słowa -- zawężają wyniki do twojej planszy.",
+        "Wyniki są automatycznie sortowane według wartości punktowej."
+      ],
+      toc: [
+        { id: 'czym-jest-bingo', label: "Czym jest słowo 'Bingo' i dlaczego jest ważne?" },
+        { id: 'filtry', label: "Używanie filtrów do czyszczenia planszy" },
+        { id: 'dzikie-karty', label: "Używanie dzikich kart dla nieznanych liter" },
+        { id: 'najtrudniejsze-litery', label: "Najtrudniejsze do umieszczenia litery" },
+        { id: 'strategie-reczne', label: "Kilka przydatnych strategii ręcznych" }
+      ],
+      body: [
+        { type: 'heading', id: 'czym-jest-bingo', text: "Czym jest słowo 'Bingo' i dlaczego jest ważne?" },
+        "W Text Twist znalezienie przynajmniej jednego słowa wykorzystującego wszystkie litery z twojego zestawu -- słowa 'Bingo' -- pozwala przejść do następnej rundy. Krótsze słowa dają punkty po drodze, ale tylko słowo Bingo wywołuje zmianę poziomu. Text Twist 3, obecna wersja na Steam od Tuga Studios (kwiecień 2023, 3,99 USD), obsługuje dziesięć języków, w tym turecki i portugalski, obok darmowych wersji przeglądarkowej i mobilnej, dzięki którym wielu graczy poznało tę grę po raz pierwszy.",
+        { type: 'heading', id: 'filtry', text: "Używanie filtrów do czyszczenia planszy" },
+        "Po znalezieniu słowa Bingo filtry pomagają szybko wyczyścić resztę planszy. Użyj \"zaczyna się od\" lub \"kończy się na\" dla liter już ustalonych w twojej układance, \"zawiera\" dla litery, która na pewno musi się pojawić, oraz \"długość słowa\" dla konkretnej luki. Wyniki są automatycznie sortowane według wartości punktowej, więc najsilniejsze ruchy pojawiają się jako pierwsze.",
+        { type: 'heading', id: 'dzikie-karty', text: "Używanie dzikich kart dla nieznanych liter" },
+        "Jeśli litera jest niejasna lub masz pusty pionek, wpisz ? w polu wyszukiwania, aby ją oznaczyć. Nie ma ograniczenia liczby dzikich kart użytych w jednym wyszukiwaniu, a litera z dzikiej karty zawsze jest warta 0 punktów, zgodnie z prawdziwą zasadą pustego pionka w Scrabble.",
+        { type: 'heading', id: 'najtrudniejsze-litery', text: "Najtrudniejsze do umieszczenia litery" },
+        "Litera Ź jest warta aż 9 punktów -- jedna z najcenniejszych w grze, i często jedna z najtrudniejszych do sensownego umieszczenia.",
+        { type: 'heading', id: 'strategie-reczne', text: "Kilka przydatnych strategii ręcznych" },
+        "Wyszukiwanie popularnych końcówek i przedrostków przed sięgnięciem po rozwiązywacz może przyspieszyć grę ręczną, ponieważ rozpoznanie jednego z nich często ujawnia resztę słowa.",
+        "Każda informacja opisana tutaj została sprawdzona bezpośrednio w słowniku i kodzie UnscramblWords, a nie po prostu założona."
+      ],
+      faq: [
+        { question: "Czy używanie rozwiązywacza Text Twist jest uważane za oszustwo?", answer: "To zależy od platformy i sposobu użycia. Wielu graczy używa rozwiązywacza jako narzędzia do nauki -- aby sprawdzić słowo przed zagraniem go lub przejrzeć, co przegapili po rundzie -- a nie podczas rywalizacji na żywo." },
+        { question: "Czy UnscramblWords obsługuje litery-dzikie karty?", answer: "Tak. Wpisz ? w polu wyszukiwania, aby oznaczyć dowolną nieznaną literę. Nie ma ograniczenia liczby użytych dzikich kart, a litera z dzikiej karty zawsze jest warta 0 punktów, tak jak prawdziwy pusty pionek w Scrabble." },
+        { question: "Czy mogę filtrować wyniki według długości lub konkretnych liter?", answer: "Tak. Filtruj według litery początkowej, końcowej, litery, którą słowo musi zawierać, oraz dokładnej długości -- wszystko naraz, jeśli potrzeba." },
+        { question: "Czy UnscramblWords jest darmowy?", answer: "Tak, całkowicie darmowy, bez konta czy rejestracji." },
+        { question: "Czy działa na urządzeniach mobilnych bez aplikacji?", answer: "Tak, działa w każdej standardowej przeglądarce mobilnej -- pobieranie nie jest potrzebne." },
+        { question: "Jakiego słownika używa UnscramblWords?", answer: "Każdy język ma własny słownik, zbudowany z prawdziwych, publicznie dostępnych list słów, ręcznie sprawdzonych pod kątem duplikatów i niestandardowych wpisów." },
+        { question: "Czy mogę używać tego do innych gier, takich jak Scrabble lub Words with Friends?", answer: "Tak, narzędzie dobrze sprawdza się przy Scrabble, Words with Friends, Text Twist i podobnych grach. UnscramblWords jest niezależnym narzędziem, niepowiązanym oficjalnie z Hasbro, Mattel, Zyngą ani Tuga Studios." }
+      ]
+    },
 ];

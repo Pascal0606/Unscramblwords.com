@@ -592,4 +592,46 @@ export const en = [
         { question: "Can I filter results by word length?", answer: "Yes, along with filtering by starting letters, ending letters, and required letters. Results are automatically sorted by point value." }
       ]
     },
+    {
+      slug: 'text-twist-solver-bingo-word-guide',
+      date: '2026-09-10',
+      title: 'Text Twist Solver: Find the Bingo Word Instantly',
+      excerpt: 'How to find the qualifying \'Bingo\' word fast, use wildcards and filters correctly, and which word examples actually hold up -- verified against our own dictionary.',
+      keyTakeaways: [
+        "A 'Bingo' word -- one that uses every letter in your rack -- is what lets you advance in Text Twist; shorter words earn points but won't trigger the level change.",
+        "Q and X are the hardest letters to place. QAT is a genuine way to play a Q with no U in sight; AX, EX, and OX are reliable short X-words.",
+        "Type ? for a wildcard when a letter is unknown. There's no limit on how many you can use, and a wildcard-derived letter always scores 0 points.",
+        "Real filters -- starts with, ends with, contains, required letter, word length -- narrow results to fit your specific grid.",
+        "Results are automatically sorted by point value."
+      ],
+      toc: [
+        { id: 'what-is-a-bingo', label: "What Is the 'Bingo' Word, and Why Does It Matter?" },
+        { id: 'filters', label: "Using Filters to Clear the Grid" },
+        { id: 'wildcards', label: "Using Wildcards for Unknown Letters" },
+        { id: 'hardest-letters', label: "The Hardest Letters to Place" },
+        { id: 'manual-strategies', label: "A Few Manual Strategies Worth Knowing" }
+      ],
+      body: [
+        { type: 'heading', id: 'what-is-a-bingo', text: "What Is the 'Bingo' Word, and Why Does It Matter?" },
+        "In Text Twist, finding at least one word that uses every letter in your rack -- the 'Bingo' word -- is what lets you advance to the next round. Shorter words earn points along the way, but only the Bingo word triggers the level change. Text Twist 3, the current Steam release from Tuga Studios (April 2023, $3.99), supports ten languages including Turkish and Portuguese, alongside the free browser and mobile versions many players first knew this game from.",
+        { type: 'heading', id: 'filters', text: "Using Filters to Clear the Grid" },
+        "Once you've found your Bingo word, filters help you clear the rest of the grid quickly. Use Starts With or Ends With to match letters already fixed in your puzzle, Contains for a letter you know must appear, and Word Length to match a specific gap. Results are sorted automatically by point value, so the strongest plays surface first.",
+        { type: 'heading', id: 'wildcards', text: "Using Wildcards for Unknown Letters" },
+        "If a letter is unclear, or you're working with a blank tile, type ? in the search box to represent it. There's no limit on how many wildcards you can use in one search, and a wildcard-derived letter always scores 0 points, matching the real rule for a blank Scrabble tile.",
+        { type: 'heading', id: 'hardest-letters', text: "The Hardest Letters to Place" },
+        "Q and X are the two letters most likely to leave you stuck. Q almost always needs a U -- QAT is one of the few genuine exceptions, a real playable word with a Q and no U at all. X is more forgiving: short, valid words like AX, EX, and OX let you use it without needing a specific partner letter.",
+        { type: 'heading', id: 'manual-strategies', text: "A Few Manual Strategies Worth Knowing" },
+        "Scanning for common suffixes (-S, -ED, -ING) and prefixes (RE-, UN-, PRE-) before reaching for a solver can speed up manual play, since spotting one often reveals the rest of the word. For practising longer words, RETAINS and SENATOR are both well-known seven-letter study words, since rearranging or adding to them opens up several other valid words worth recognising on sight.",
+        "Every word and feature described here has been checked directly against UnscramblWords' own dictionary and code, not assumed."
+      ],
+      faq: [
+        { question: "Is using a Text Twist solver considered cheating?", answer: "That depends on the platform and how you use it. Many players use a solver as a learning tool -- to check a word before playing it, or to review what they missed after a round -- rather than during live competitive play. Worth checking your specific game or community's own rules if that matters to you." },
+        { question: "Does UnscramblWords support wildcard letters?", answer: "Yes. Type ? in the search box to represent any single unknown letter. There's no limit on how many you can use, and a wildcard-derived letter always scores 0 points, the same as a real blank Scrabble tile." },
+        { question: "Can I filter results by word length or specific letters?", answer: "Yes. Filter by starting letter, ending letter, a letter the word must contain, and exact word length -- all at once if needed." },
+        { question: "Is UnscramblWords free to use?", answer: "Yes, completely free, with no account or registration required." },
+        { question: "Does it work on mobile without an app?", answer: "Yes, it works in any standard mobile browser -- no download required." },
+        { question: "Which dictionary does UnscramblWords use?", answer: "Each language has its own dictionary, built from real, publicly available word lists and manually checked to remove duplicates and non-standard entries." },
+        { question: "Can I use this for other word games like Scrabble or Words with Friends?", answer: "Yes, the tool works well alongside Scrabble, Words with Friends, Text Twist, and similar games. UnscramblWords is an independent tool and isn't officially affiliated with Hasbro, Mattel, Zynga, or Tuga Studios." }
+      ]
+    },
 ];

@@ -504,4 +504,46 @@ export const de = [
         { question: "Kann ich Ergebnisse nach Wortlänge filtern?", answer: "Ja, zusätzlich zur Filterung nach Anfangsbuchstaben, Endbuchstaben und Pflichtbuchstaben. Die Ergebnisse werden automatisch nach Punktwert sortiert." }
       ]
     },
+    {
+      slug: 'text-twist-loeser-bingo-wort-anleitung',
+      date: '2026-09-10',
+      title: 'Text Twist Löser: Das Bingo-Wort sofort finden',
+      excerpt: 'Wie man das entscheidende \'Bingo\'-Wort schnell findet, Platzhalter und Filter richtig einsetzt, und welche Wortbeispiele wirklich stimmen -- geprüft in unserem eigenen Wörterbuch.',
+      keyTakeaways: [
+        "Ein 'Bingo'-Wort -- eines, das alle Buchstaben deines Buchstabensatzes nutzt -- bringt dich bei Text Twist weiter; kürzere Wörter bringen Punkte, lösen aber keinen Levelwechsel aus.",
+        "Q und X sind die schwierigsten Buchstaben. QAT ist eine echte Möglichkeit, ein Q ganz ohne U zu spielen; AX, EX und OX sind zuverlässige kurze X-Wörter.",
+        "Gib ? als Platzhalter ein, wenn ein Buchstabe unbekannt ist. Es gibt keine Begrenzung, und ein Platzhalter-Buchstabe zählt immer 0 Punkte.",
+        "Echte Filter -- beginnt mit, endet mit, enthält, Pflichtbuchstabe, Wortlänge -- grenzen Ergebnisse auf dein Raster ein.",
+        "Ergebnisse werden automatisch nach Punktwert sortiert."
+      ],
+      toc: [
+        { id: 'was-ist-ein-bingo', label: "Was ist das 'Bingo'-Wort, und warum zählt es?" },
+        { id: 'filter', label: "Filter nutzen, um das Raster zu leeren" },
+        { id: 'platzhalter', label: "Platzhalter für unbekannte Buchstaben verwenden" },
+        { id: 'schwierige-buchstaben', label: "Die schwierigsten Buchstaben" },
+        { id: 'manuelle-strategien', label: "Ein paar nützliche manuelle Strategien" }
+      ],
+      body: [
+        { type: 'heading', id: 'was-ist-ein-bingo', text: "Was ist das 'Bingo'-Wort, und warum zählt es?" },
+        "Bei Text Twist bringt dich das Finden mindestens eines Wortes, das alle Buchstaben deines Buchstabensatzes nutzt -- das 'Bingo'-Wort --, in die nächste Runde. Kürzere Wörter bringen unterwegs Punkte, aber nur das Bingo-Wort löst den Levelwechsel aus. Text Twist 3, die aktuelle Steam-Version von Tuga Studios (April 2023, 3,99 €), unterstützt zehn Sprachen, darunter Türkisch und Portugiesisch, neben den kostenlosen Browser- und Mobilversionen, die viele Spieler zuerst kannten.",
+        { type: 'heading', id: 'filter', text: "Filter nutzen, um das Raster zu leeren" },
+        "Sobald du dein Bingo-Wort gefunden hast, helfen Filter dabei, den Rest des Rasters schnell zu leeren. Nutze „beginnt mit“ oder „endet mit“ für bereits feststehende Buchstaben, „enthält“ für einen Buchstaben, der garantiert vorkommt, und „Wortlänge“ für eine bestimmte Lücke. Ergebnisse werden automatisch nach Punktwert sortiert, sodass die stärksten Spielzüge zuerst erscheinen.",
+        { type: 'heading', id: 'platzhalter', text: "Platzhalter für unbekannte Buchstaben verwenden" },
+        "Ist ein Buchstabe unklar oder arbeitest du mit einem Blindstein, gib ? im Suchfeld ein, um ihn darzustellen. Es gibt keine Begrenzung, wie viele Platzhalter du in einer Suche verwendest, und ein Platzhalter-Buchstabe zählt immer 0 Punkte, genau wie die echte Regel für einen Blindstein beim Scrabble.",
+        { type: 'heading', id: 'schwierige-buchstaben', text: "Die schwierigsten Buchstaben" },
+        "Q und Y sind mit je 10 Punkten die wertvollsten Buchstaben im deutschen Scrabble, gefolgt von Ö und X mit je 8 Punkten -- oft auch die schwierigsten, um sie sinnvoll zu platzieren.",
+        { type: 'heading', id: 'manuelle-strategien', text: "Ein paar nützliche manuelle Strategien" },
+        "Das Absuchen nach gängigen Endungen (-EN, -ER, -UNG) und Vorsilben (VER-, GE-, UN-) vor dem Griff zum Löser kann das manuelle Spiel beschleunigen, da das Erkennen einer davon oft den Rest des Wortes verrät.",
+        "Jede hier beschriebene Information wurde direkt gegen das Wörterbuch und den Code von UnscramblWords geprüft, nicht nur angenommen."
+      ],
+      faq: [
+        { question: "Gilt die Nutzung eines Text-Twist-Lösers als Schummeln?", answer: "Das hängt von der Plattform und der Nutzung ab. Viele Spieler nutzen einen Löser als Lernwerkzeug -- um ein Wort vor dem Spielen zu prüfen oder nach einer Runde zu sehen, was sie verpasst haben -- statt während eines live laufenden Wettbewerbs." },
+        { question: "Unterstützt UnscramblWords Platzhalter-Buchstaben?", answer: "Ja. Gib ? im Suchfeld ein, um einen beliebigen unbekannten Buchstaben darzustellen. Es gibt keine Begrenzung, und ein Platzhalter-Buchstabe zählt immer 0 Punkte, genau wie ein echter Blindstein beim Scrabble." },
+        { question: "Kann ich Ergebnisse nach Wortlänge oder bestimmten Buchstaben filtern?", answer: "Ja. Filtere nach Anfangsbuchstabe, Endbuchstabe, einem Pflichtbuchstaben und genauer Wortlänge -- bei Bedarf alle gleichzeitig." },
+        { question: "Ist UnscramblWords kostenlos?", answer: "Ja, vollständig kostenlos, ohne Konto oder Registrierung." },
+        { question: "Funktioniert es auf dem Handy ohne App?", answer: "Ja, es funktioniert in jedem gängigen mobilen Browser -- kein Download nötig." },
+        { question: "Welches Wörterbuch verwendet UnscramblWords?", answer: "Jede Sprache hat ihr eigenes Wörterbuch, erstellt aus echten, öffentlich zugänglichen Wortlisten und manuell geprüft, um Duplikate und nicht standardmäßige Einträge zu entfernen." },
+        { question: "Kann ich das für andere Spiele wie Scrabble oder Words with Friends nutzen?", answer: "Ja, das Tool funktioniert gut mit Scrabble, Words with Friends, Text Twist und ähnlichen Spielen. UnscramblWords ist ein unabhängiges Tool und steht in keiner offiziellen Verbindung zu Hasbro, Mattel, Zynga oder Tuga Studios." }
+      ]
+    },
 ];

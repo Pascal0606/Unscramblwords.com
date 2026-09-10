@@ -641,4 +641,46 @@ export const pt = [
         { question: "Os ganchos são permitidos em torneios?", answer: "Sim. O gancho não é uma regra especial: qualquer palavra válida reconhecida pelo dicionário oficial do torneio pode ser jogada, incluindo as formadas por um gancho." }
       ]
     },
+    {
+      slug: 'solucionador-text-twist-guia-bingo',
+      date: '2026-09-10',
+      title: 'Solucionador Text Twist: encontre a palavra Bingo instantaneamente',
+      excerpt: 'Como encontrar rapidamente a palavra \'Bingo\' decisiva, usar corretamente curingas e filtros, e quais exemplos de palavras realmente funcionam -- verificados no nosso dicionário.',
+      keyTakeaways: [
+        "Uma palavra 'Bingo' -- que usa todas as letras do seu conjunto -- é o que permite avançar no Text Twist; palavras mais curtas dão pontos mas não mudam de nível.",
+        "O X e o Z estão entre as letras mais valiosas, e por isso muitas vezes as mais difíceis de colocar.",
+        "Digite ? como curinga quando uma letra é desconhecida. Não há limite de uso, e uma letra curinga vale sempre 0 pontos.",
+        "Filtros reais -- começa por, termina em, contém, letra obrigatória, comprimento -- ajustam os resultados à sua grelha.",
+        "Os resultados são ordenados automaticamente por valor em pontos."
+      ],
+      toc: [
+        { id: 'o-que-e-um-bingo', label: "O que é a palavra 'Bingo', e porque importa?" },
+        { id: 'filtros', label: "Usar filtros para limpar a grelha" },
+        { id: 'curingas', label: "Usar curingas para letras desconhecidas" },
+        { id: 'letras-dificeis', label: "As letras mais difíceis de colocar" },
+        { id: 'estrategias-manuais', label: "Algumas estratégias manuais úteis" }
+      ],
+      body: [
+        { type: 'heading', id: 'o-que-e-um-bingo', text: "O que é a palavra 'Bingo', e porque importa?" },
+        "No Text Twist, encontrar pelo menos uma palavra que use todas as letras do seu conjunto -- a palavra 'Bingo' -- é o que permite avançar para a ronda seguinte. Palavras mais curtas dão pontos pelo caminho, mas só a palavra Bingo ativa a mudança de nível. O Text Twist 3, a versão atual da Steam da Tuga Studios (abril de 2023, 3,99 €), suporta dez idiomas incluindo turco e português, ao lado das versões gratuitas de navegador e telemóvel pelas quais muitos jogadores conheceram primeiro este jogo.",
+        { type: 'heading', id: 'filtros', text: "Usar filtros para limpar a grelha" },
+        "Depois de encontrar a sua palavra Bingo, os filtros ajudam a limpar rapidamente o resto da grelha. Use \"começa por\" ou \"termina em\" para letras já fixas no seu puzzle, \"contém\" para uma letra que sabe que deve aparecer, e \"comprimento\" para um espaço específico. Os resultados são ordenados automaticamente por valor em pontos, para que as melhores jogadas apareçam primeiro.",
+        { type: 'heading', id: 'curingas', text: "Usar curingas para letras desconhecidas" },
+        "Se uma letra não estiver clara, ou tiver uma peça em branco, digite ? na caixa de pesquisa para representá-la. Não há limite de curingas que possa usar numa pesquisa, e uma letra curinga vale sempre 0 pontos, tal como a regra real da peça em branco do Scrabble.",
+        { type: 'heading', id: 'letras-dificeis', text: "As letras mais difíceis de colocar" },
+        "O X e o Z valem 8 pontos cada, os valores mais altos do Scrabble em português -- entre as letras mais difíceis de colocar, mas também das mais valiosas.",
+        { type: 'heading', id: 'estrategias-manuais', text: "Algumas estratégias manuais úteis" },
+        "Procurar sufixos comuns (-ÇÃO, -MENTE, -ADO) e prefixos (RE-, DES-, IN-) antes de recorrer a um solucionador pode acelerar o jogo manual, já que reconhecer um deles frequentemente revela o resto da palavra.",
+        "Cada informação descrita aqui foi confirmada diretamente no dicionário e no código do UnscramblWords, e não simplesmente presumida."
+      ],
+      faq: [
+        { question: "Usar um solucionador de Text Twist é considerado batota?", answer: "Depende da plataforma e de como o usa. Muitos jogadores usam um solucionador como ferramenta de aprendizagem -- para confirmar uma palavra antes de a jogar, ou para rever o que perderam depois de uma ronda -- em vez de durante uma partida competitiva ao vivo." },
+        { question: "O UnscramblWords suporta letras curinga?", answer: "Sim. Digite ? na caixa de pesquisa para representar qualquer letra desconhecida. Não há limite de quantas pode usar, e uma letra curinga vale sempre 0 pontos, tal como uma peça em branco real do Scrabble." },
+        { question: "Posso filtrar resultados por comprimento ou letras específicas?", answer: "Sim. Filtre por letra inicial, letra final, uma letra que a palavra deve conter, e comprimento exato -- tudo ao mesmo tempo se necessário." },
+        { question: "O UnscramblWords é gratuito?", answer: "Sim, totalmente gratuito, sem conta ou registo necessários." },
+        { question: "Funciona em telemóvel sem aplicação?", answer: "Sim, funciona em qualquer navegador móvel padrão -- sem necessidade de transferência." },
+        { question: "Que dicionário usa o UnscramblWords?", answer: "Cada idioma tem o seu próprio dicionário, construído a partir de listas de palavras reais e de acesso público, verificadas manualmente para remover duplicados e entradas não padronizadas." },
+        { question: "Posso usar isto para outros jogos como Scrabble ou Words with Friends?", answer: "Sim, a ferramenta funciona bem junto com o Scrabble, Words with Friends, Text Twist e jogos semelhantes. O UnscramblWords é uma ferramenta independente e não está oficialmente afiliado à Hasbro, Mattel, Zynga ou Tuga Studios." }
+      ]
+    },
 ];

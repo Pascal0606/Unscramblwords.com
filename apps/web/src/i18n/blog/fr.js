@@ -540,4 +540,46 @@ export const fr = [
         { question: "Puis-je filtrer les résultats par longueur de mot ?", answer: "Oui, ainsi que par lettre de début, lettre de fin et lettre obligatoire. Les résultats sont automatiquement triés par valeur en points." }
       ]
     },
+    {
+      slug: 'solveur-text-twist-guide-bingo',
+      date: '2026-09-10',
+      title: 'Solveur Text Twist : trouvez le mot Bingo instantanément',
+      excerpt: 'Comment trouver rapidement le mot « Bingo » qualificatif, utiliser correctement les jokers et les filtres, et quels exemples de mots tiennent vraiment la route -- vérifiés dans notre propre dictionnaire.',
+      keyTakeaways: [
+        "Un mot « Bingo » -- qui utilise toutes les lettres de votre jeu -- est ce qui permet de progresser dans Text Twist ; les mots plus courts rapportent des points mais ne font pas passer au niveau suivant.",
+        "Le Q et le X sont les lettres les plus difficiles à placer. Word.",
+        "Tapez ? pour un joker lorsqu'une lettre est inconnue. Il n'y a aucune limite au nombre utilisable, et une lettre issue d'un joker vaut toujours 0 point.",
+        "De vrais filtres -- commence par, se termine par, contient, lettre obligatoire, longueur du mot -- affinent les résultats selon votre grille.",
+        "Les résultats sont automatiquement triés par valeur en points."
+      ],
+      toc: [
+        { id: 'quest-ce-quun-bingo', label: "Qu'est-ce que le mot « Bingo », et pourquoi compte-t-il ?" },
+        { id: 'filtres', label: "Utiliser les filtres pour vider la grille" },
+        { id: 'jokers', label: "Utiliser des jokers pour les lettres inconnues" },
+        { id: 'lettres-difficiles', label: "Les lettres les plus difficiles à placer" },
+        { id: 'strategies-manuelles', label: "Quelques stratégies manuelles utiles" }
+      ],
+      body: [
+        { type: 'heading', id: 'quest-ce-quun-bingo', text: "Qu'est-ce que le mot « Bingo », et pourquoi compte-t-il ?" },
+        "Dans Text Twist, trouver au moins un mot qui utilise toutes les lettres de votre jeu -- le mot « Bingo » -- est ce qui permet de passer au tour suivant. Les mots plus courts rapportent des points en chemin, mais seul le mot Bingo déclenche le changement de niveau. Text Twist 3, la version Steam actuelle développée par Tuga Studios (avril 2023, 3,99 €), prend en charge dix langues dont le turc et le portugais, aux côtés des versions gratuites navigateur et mobile que beaucoup de joueurs ont connues en premier.",
+        { type: 'heading', id: 'filtres', text: "Utiliser les filtres pour vider la grille" },
+        "Une fois votre mot Bingo trouvé, les filtres aident à vider rapidement le reste de la grille. Utilisez « commence par » ou « se termine par » pour correspondre aux lettres déjà fixées dans votre puzzle, « contient » pour une lettre que vous savez devoir apparaître, et « longueur du mot » pour combler un espace précis. Les résultats sont triés automatiquement par valeur en points, afin que les meilleurs coups apparaissent en premier.",
+        { type: 'heading', id: 'jokers', text: "Utiliser des jokers pour les lettres inconnues" },
+        "Si une lettre est incertaine, ou si vous disposez d'un jeton blanc, tapez ? dans la barre de recherche pour la représenter. Il n'y a aucune limite au nombre de jokers utilisables dans une même recherche, et une lettre issue d'un joker vaut toujours 0 point, comme la vraie règle du jeton blanc au Scrabble.",
+        { type: 'heading', id: 'lettres-difficiles', text: "Les lettres les plus difficiles à placer" },
+        "D'après la répartition officielle du Scrabble en français, le Q vaut 8 points, tandis que K, W, X, Y et Z valent chacun 10 points -- ce sont les lettres les plus précieuses et souvent les plus difficiles à placer du jeu.",
+        { type: 'heading', id: 'strategies-manuelles', text: "Quelques stratégies manuelles utiles" },
+        "Repérer les suffixes courants (-S, -ANT, -MENT) et préfixes (RE-, DÉ-, IN-) avant de recourir à un solveur peut accélérer le jeu manuel, car en repérer un révèle souvent le reste du mot.",
+        "Chaque information décrite ici a été vérifiée directement dans le dictionnaire et le code d'UnscramblWords, et non simplement supposée exacte."
+      ],
+      faq: [
+        { question: "Utiliser un solveur Text Twist est-il considéré comme de la triche ?", answer: "Cela dépend de la plateforme et de la façon dont vous l'utilisez. De nombreux joueurs utilisent un solveur comme outil d'apprentissage -- pour vérifier un mot avant de le jouer, ou pour revoir ce qu'ils ont manqué après une manche -- plutôt que pendant une partie compétitive en direct." },
+        { question: "UnscramblWords prend-il en charge les lettres joker ?", answer: "Oui. Tapez ? dans la barre de recherche pour représenter n'importe quelle lettre inconnue. Il n'y a aucune limite au nombre utilisable, et une lettre issue d'un joker vaut toujours 0 point, comme un vrai jeton blanc au Scrabble." },
+        { question: "Puis-je filtrer les résultats par longueur ou par lettres précises ?", answer: "Oui. Filtrez par lettre de début, lettre de fin, une lettre que le mot doit contenir, et longueur exacte du mot -- tout à la fois si besoin." },
+        { question: "UnscramblWords est-il gratuit ?", answer: "Oui, entièrement gratuit, sans compte ni inscription nécessaire." },
+        { question: "Fonctionne-t-il sur mobile sans application ?", answer: "Oui, il fonctionne dans n'importe quel navigateur mobile standard -- aucun téléchargement requis." },
+        { question: "Quel dictionnaire UnscramblWords utilise-t-il ?", answer: "Chaque langue possède son propre dictionnaire, constitué à partir de listes de mots réelles et publiquement accessibles, vérifiées manuellement pour supprimer les doublons et les entrées non standard." },
+        { question: "Puis-je l'utiliser pour d'autres jeux comme Scrabble ou Words with Friends ?", answer: "Oui, l'outil fonctionne bien avec Scrabble, Words with Friends, Text Twist et des jeux similaires. UnscramblWords est un outil indépendant, non affilié officiellement à Hasbro, Mattel, Zynga ou Tuga Studios." }
+      ]
+    },
 ];
