@@ -674,4 +674,47 @@ export const pl = [
         { question: "Czy mogę używać tego do innych gier, takich jak Scrabble lub Words with Friends?", answer: "Tak, narzędzie dobrze sprawdza się przy Scrabble, Words with Friends, Text Twist i podobnych grach. UnscramblWords jest niezależnym narzędziem, niepowiązanym oficjalnie z Hasbro, Mattel, Zyngą ani Tuga Studios." }
       ]
     },
+    {
+      slug: 'wordscapes-sposob-szybkie-rozwiazywanie',
+      date: '2026-09-11',
+      title: 'Sposób na Wordscapes: jak szybko rozwiązać każdy poziom',
+      excerpt: 'Jak naprawdę używać wyszukiwarki słów, by pokonać trudne poziomy Wordscapes -- prawdziwe filtry, prawdziwe wsparcie dzikich kart, i matematyka stojąca za tym, dlaczego siatki na 7 liter wydają się takie trudne.',
+      keyTakeaways: [
+        "Zestaw 7 liter można ułożyć na 5040 różnych sposobów (7 silnia), dlatego nawet bogate słownictwo utyka bez systematycznego podejścia.",
+        "Filtrowanie według długości słowa oraz \"zaczyna się od\"/\"kończy się na\" zawęża wyniki do konkretnych pustych pól twojej siatki.",
+        "Wpisz ? jako dziką kartę, gdy litera jest nieznana -- bez limitu, ile możesz użyć w jednym wyszukiwaniu.",
+        "Narzędzie obsługuje 10 języków, przydatne przy międzynarodowych wersjach Wordscapes, każda z własnym prawdziwym słownikiem.",
+        "UnscramblWords jest całkowicie darmowy, bez konta czy pobierania."
+      ],
+      toc: [
+        { id: 'dlaczego-7-liter-trudne', label: "Dlaczego siatki na 7 liter wydają się dużo trudniejsze" },
+        { id: 'filtry', label: "Używanie filtrów dopasowanych do siatki" },
+        { id: 'dzikie-karty', label: "Używanie dzikiej karty dla nieznanej litery" },
+        { id: 'slowa-bonusowe', label: "Znajdowanie słów bonusowych" },
+        { id: 'wielojezycznosc', label: "Granie w wersjach międzynarodowych" }
+      ],
+      body: [
+        { type: 'heading', id: 'dlaczego-7-liter-trudne', text: "Dlaczego siatki na 7 liter wydają się dużo trudniejsze" },
+        "Siedem różnych liter można ułożyć na 5040 różnych sposobów (7 silnia) -- naprawdę ogromna liczba kombinacji do przejrzenia metodą prób i błędów. To prawdziwy powód, dla którego trudność Wordscapes tak gwałtownie rośnie przy przejściu z 3-4 na 6-7 liter: przestrzeń poszukiwań rośnie silniowo, a nie tylko liniowo, z każdą dodaną literą.",
+        { type: 'heading', id: 'filtry', text: "Używanie filtrów dopasowanych do siatki" },
+        "Puste pola siatki to najszybszy sposób na zawężenie długiej listy możliwych słów do tego jednego potrzebnego. Ustaw filtr długości na konkretne pole i użyj \"zaczyna się od\" lub \"kończy się na\", gdy litera jest już ustalona przez krzyżujące się słowo.",
+        { type: 'heading', id: 'dzikie-karty', text: "Używanie dzikiej karty dla nieznanej litery" },
+        "Jeśli znasz długość słowa i jedną lub dwie jego litery, ale nie resztę, wpisz ? w polu wyszukiwania dla każdej nieznanej litery. Nie ma ograniczenia, ile dzikich kart możesz użyć w jednym wyszukiwaniu.",
+        { type: 'heading', id: 'slowa-bonusowe', text: "Znajdowanie słów bonusowych" },
+        "Słowa, które wykorzystują twoje koło liter, ale nie pasują do siatki krzyżówki, nadal liczą się w Wordscapes jako słowa bonusowe, dając dodatkowe monety. Wyszukaj z całym zestawem liter bez filtrów, aby zobaczyć każde poprawne słowo, jakie mogą utworzyć, a potem wpisz te, które jeszcze nie pojawiły się na siatce.",
+        { type: 'heading', id: 'wielojezycznosc', text: "Granie w wersjach międzynarodowych" },
+        "Wordscapes ma wersje w kilku językach, a listy słów naprawdę się między nimi różnią. UnscramblWords obsługuje dziesięć języków -- angielski, francuski, niemiecki, włoski, hiszpański, portugalski, turecki, rosyjski, polski i arabski -- każdy z własnym słownikiem, dzięki czemu wyniki pasują do wersji, w którą naprawdę grasz.",
+        "Każde stwierdzenie i funkcja opisane tutaj zostały sprawdzone bezpośrednio w kodzie i słownikach UnscramblWords, a nie po prostu założone.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
+      ],
+      faq: [
+        { question: "Czy używanie wyszukiwarki słów do Wordscapes jest niezgodne z zasadami?", answer: "Używanie zewnętrznej, przeglądarkowej wyszukiwarki słów nie zmienia samej gry -- nadal wpisujesz każde słowo ręcznie. Jeśli to dla ciebie ważne, warto sprawdzić bezpośrednio regulamin Wordscapes, ponieważ nie możemy mówić w imieniu konkretnych zasad innej firmy." },
+        { question: "Jak znaleźć słowo o konkretnej długości?", answer: "Wpisz swoje litery, a następnie ustaw filtr długości na dokładną potrzebną liczbę -- to natychmiast zawęża wyniki tylko do słów pasujących do tego pola." },
+        { question: "Czy UnscramblWords obsługuje dzikie karty dla nieznanych liter?", answer: "Tak. Wpisz ? dla dowolnej nieznanej litery. Nie ma ograniczenia, ile możesz użyć w jednym wyszukiwaniu." },
+        { question: "Czy mogę używać tego do międzynarodowych wersji Wordscapes?", answer: "Tak, narzędzie obsługuje dziesięć języków, każdy z własnym prawdziwym słownikiem, dzięki czemu możesz dopasować wyniki do wersji językowej, w którą grasz." },
+        { question: "Dlaczego Wordscapes nie akceptuje słowa znalezionego przez narzędzie?", answer: "Wordscapes używa własnego, wyselekcjonowanego słownika dla siatki każdego poziomu, który może wykluczać niektóre poprawne słowa. Słowo, które nasz słownik potwierdza jako prawdziwe, może liczyć się w grze tylko jako słowo bonusowe lub w ogóle nie zostać zaakceptowane, w zależności od własnej listy Wordscapes dla tej łamigłówki." },
+        { question: "Czy UnscramblWords jest darmowy?", answer: "Tak, całkowicie darmowy, bez konta czy pobierania." },
+        { question: "Czy mogę używać tego również do innych gier słownych?", answer: "Tak, narzędzie dobrze sprawdza się przy Wordscapes, Scrabble, Words with Friends i podobnych grach. UnscramblWords jest niezależnym narzędziem, niepowiązanym oficjalnie z PeopleFun (twórcą Wordscapes), Hasbro, Mattel ani Zyngą." }
+      ]
+    },
 ];

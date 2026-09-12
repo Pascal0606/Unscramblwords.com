@@ -546,4 +546,47 @@ export const de = [
         { question: "Kann ich das für andere Spiele wie Scrabble oder Words with Friends nutzen?", answer: "Ja, das Tool funktioniert gut mit Scrabble, Words with Friends, Text Twist und ähnlichen Spielen. UnscramblWords ist ein unabhängiges Tool und steht in keiner offiziellen Verbindung zu Hasbro, Mattel, Zynga oder Tuga Studios." }
       ]
     },
+    {
+      slug: 'wordscapes-loesung-level-schnell-schaffen',
+      date: '2026-09-11',
+      title: 'Wordscapes-Lösungshilfe: Jedes Level schnell schaffen',
+      excerpt: 'Wie man einen Wortfinder wirklich nutzt, um schwierige Wordscapes-Level zu meistern -- echte Filter, echte Platzhalter-Unterstützung, und die Mathematik dahinter, warum 7-Buchstaben-Raster so schwer wirken.',
+      keyTakeaways: [
+        "Ein 7-Buchstaben-Satz kann auf 5.040 verschiedene Arten angeordnet werden (7 Fakultät), weshalb selbst ein großer Wortschatz ohne systematisches Vorgehen ins Stocken gerät.",
+        "Das Filtern nach Wortlänge sowie nach „beginnt mit“/„endet mit“ grenzt Ergebnisse auf die konkreten leeren Felder deines Rasters ein.",
+        "Gib ? als Platzhalter ein, wenn ein Buchstabe unbekannt ist -- es gibt keine Begrenzung, wie viele du in einer Suche verwendest.",
+        "Das Tool unterstützt 10 Sprachen, nützlich für internationale Wordscapes-Ausgaben, jede mit einem eigenen echten Wörterbuch.",
+        "UnscramblWords ist vollständig kostenlos, ohne Konto oder Download."
+      ],
+      toc: [
+        { id: 'warum-7-buchstaben-schwer', label: "Warum 7-Buchstaben-Raster so viel schwerer wirken" },
+        { id: 'filter', label: "Filter nutzen, um zum Raster zu passen" },
+        { id: 'platzhalter', label: "Platzhalter für einen unbekannten Buchstaben nutzen" },
+        { id: 'bonuswoerter', label: "Bonuswörter finden" },
+        { id: 'mehrsprachig', label: "Internationale Ausgaben spielen" }
+      ],
+      body: [
+        { type: 'heading', id: 'warum-7-buchstaben-schwer', text: "Warum 7-Buchstaben-Raster so viel schwerer wirken" },
+        "Sieben unterschiedliche Buchstaben lassen sich auf 5.040 verschiedene Arten anordnen (7 Fakultät) -- eine wirklich große Zahl an Kombinationen, um sie per Ausprobieren zu durchsuchen. Das ist der eigentliche Grund, warum der Schwierigkeitsgrad bei Wordscapes so stark ansteigt, sobald Level von 3-4 auf 6-7 Buchstaben wechseln: Der Suchraum wächst fakultativ, nicht nur linear, mit jedem zusätzlichen Buchstaben.",
+        { type: 'heading', id: 'filter', text: "Filter nutzen, um zum Raster zu passen" },
+        "Die leeren Felder eines Rasters sind der schnellste Weg, eine lange Liste möglicher Wörter auf das eine gesuchte einzugrenzen. Stelle den Längenfilter auf ein bestimmtes Feld ein, und nutze „beginnt mit“ oder „endet mit“, wenn ein Buchstabe bereits durch ein sich kreuzendes Wort feststeht.",
+        { type: 'heading', id: 'platzhalter', text: "Platzhalter für einen unbekannten Buchstaben nutzen" },
+        "Kennst du die Länge eines Wortes und ein oder zwei seiner Buchstaben, aber nicht den Rest, gib ? im Suchfeld für jeden unbekannten Buchstaben ein. Es gibt keine Begrenzung, wie viele Platzhalter du in einer Suche verwendest.",
+        { type: 'heading', id: 'bonuswoerter', text: "Bonuswörter finden" },
+        "Wörter, die dein Buchstabenrad nutzen, aber nicht ins Kreuzworträtsel-Raster passen, zählen bei Wordscapes trotzdem als Bonuswörter und bringen zusätzliche Münzen. Suche mit deinem vollständigen Buchstabensatz ohne Filter, um jedes gültige Wort zu sehen, das sie bilden können, und gib dann die ein, die noch nicht im Raster erscheinen.",
+        { type: 'heading', id: 'mehrsprachig', text: "Internationale Ausgaben spielen" },
+        "Wordscapes gibt es in mehreren Sprachen, und die Wortlisten unterscheiden sich tatsächlich zwischen den Ausgaben. UnscramblWords unterstützt zehn Sprachen -- Englisch, Französisch, Deutsch, Italienisch, Spanisch, Portugiesisch, Türkisch, Russisch, Polnisch und Arabisch -- jede mit ihrem eigenen Wörterbuch, sodass die Ergebnisse zur tatsächlich gespielten Ausgabe passen.",
+        "Jede hier beschriebene Aussage und Funktion wurde direkt gegen den Code und die Wörterbücher von UnscramblWords geprüft, nicht nur angenommen.",
+        "(Geprüft vom UnscramblWords-Team)"
+      ],
+      faq: [
+        { question: "Verstößt die Nutzung eines Wortfinders für Wordscapes gegen die Regeln?", answer: "Die Nutzung eines externen, browserbasierten Wortfinders verändert das Spiel selbst nicht -- du gibst weiterhin jedes Wort manuell ein. Falls dir das wichtig ist, lohnt sich ein Blick in die eigenen Nutzungsbedingungen von Wordscapes, da wir nicht für die spezifischen Regeln eines anderen Unternehmens sprechen können." },
+        { question: "Wie finde ich ein Wort bestimmter Länge?", answer: "Gib deine Buchstaben ein und stelle dann den Längenfilter auf die genaue gesuchte Zahl -- das grenzt die Ergebnisse sofort auf Wörter ein, die in dieses Feld passen." },
+        { question: "Unterstützt UnscramblWords Platzhalter für unbekannte Buchstaben?", answer: "Ja. Gib ? für jeden unbekannten Buchstaben ein. Es gibt keine Begrenzung, wie viele du in einer Suche verwenden kannst." },
+        { question: "Kann ich das für internationale Wordscapes-Ausgaben nutzen?", answer: "Ja, das Tool unterstützt zehn Sprachen, jede mit einem eigenen echten Wörterbuch, sodass du Ergebnisse zur jeweils gespielten Sprachausgabe passend machen kannst." },
+        { question: "Warum akzeptiert Wordscapes ein vom Tool gefundenes Wort nicht?", answer: "Wordscapes verwendet ein eigenes kuratiertes Wörterbuch für das Raster jedes Levels, das manche gültigen Wörter ausschließen kann. Ein von unserem Wörterbuch bestätigtes echtes Wort zählt im Spiel möglicherweise nur als Bonuswort oder wird gar nicht akzeptiert, je nach Wordscapes' eigener Liste für dieses Rätsel." },
+        { question: "Ist UnscramblWords kostenlos?", answer: "Ja, vollständig kostenlos, ohne Konto oder Download." },
+        { question: "Kann ich das auch für andere Wortspiele nutzen?", answer: "Ja, das Tool funktioniert gut mit Wordscapes, Scrabble, Words with Friends und ähnlichen Spielen. UnscramblWords ist ein unabhängiges Tool und steht in keiner offiziellen Verbindung zu PeopleFun (den Machern von Wordscapes), Hasbro, Mattel oder Zynga." }
+      ]
+    },
 ];

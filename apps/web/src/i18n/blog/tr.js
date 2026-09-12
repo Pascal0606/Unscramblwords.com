@@ -537,4 +537,47 @@ export const tr = [
         { question: "Bunu Scrabble veya Words with Friends gibi başka oyunlar için kullanabilir miyim?", answer: "Evet, araç Scrabble, Words with Friends, Text Twist ve benzer oyunlarla iyi çalışır. UnscramblWords bağımsız bir araçtır ve Hasbro, Mattel, Zynga veya Tuga Studios ile resmi bir bağlantısı yoktur." }
       ]
     },
+    {
+      slug: 'wordscapes-hile-seviyeleri-hizli-cozme',
+      date: '2026-09-11',
+      title: 'Wordscapes Hilesi: Herhangi Bir Seviyeyi Hızlıca Çözme',
+      excerpt: 'Zorlu Wordscapes seviyelerini yenmek için bir kelime bulucunun gerçekte nasıl kullanılacağı -- gerçek filtreler, gerçek joker desteği ve 7 harfli ızgaraların neden bu kadar zor hissettirdiğinin matematiği.',
+      keyTakeaways: [
+        "7 harfli bir set 5.040 farklı şekilde düzenlenebilir (7 faktöriyel); bu yüzden güçlü bir kelime dağarcığı bile sistematik bir yaklaşım olmadan takılıp kalır.",
+        "Kelime uzunluğuna ve \"ile başlayan\"/\"ile biten\"e göre filtrelemek, sonuçları ızgaranızın belirli boş alanlarına daraltır.",
+        "Bir harf bilinmiyorsa joker için ? yazın -- bir aramada kaç tane kullanacağınıza dair sınır yoktur.",
+        "Araç, uluslararası Wordscapes sürümleri için yararlı olan 10 dili destekler; her biri kendi gerçek sözlüğüne sahiptir.",
+        "UnscramblWords tamamen ücretsizdir, hesap veya indirme gerekmez."
+      ],
+      toc: [
+        { id: 'neden-7-harf-zor', label: "7 Harfli Izgaralar Neden Çok Daha Zor Hissettiriyor" },
+        { id: 'filtreler', label: "Izgaranıza Uyacak Filtreleri Kullanma" },
+        { id: 'jokerler', label: "Bilinmeyen Bir Harf İçin Joker Kullanma" },
+        { id: 'bonus-kelimeler', label: "Bonus Kelimeleri Bulma" },
+        { id: 'coklu-dil', label: "Uluslararası Sürümleri Oynama" }
+      ],
+      body: [
+        { type: 'heading', id: 'neden-7-harf-zor', text: "7 Harfli Izgaralar Neden Çok Daha Zor Hissettiriyor" },
+        "Yedi farklı harf 5.040 farklı şekilde düzenlenebilir (7 faktöriyel) -- deneme yanılma yoluyla incelemek için gerçekten büyük bir kombinasyon sayısı. Wordscapes'in zorluğunun seviyeler 3-4 harften 6-7 harfe geçtiğinde bu kadar keskin bir şekilde artmasının gerçek nedeni budur: arama alanı her eklenen harfle sadece doğrusal değil, faktöriyel olarak büyür.",
+        { type: 'heading', id: 'filtreler', text: "Izgaranıza Uyacak Filtreleri Kullanma" },
+        "Bir ızgaranın boş alanları, uzun bir olası kelime listesini ihtiyacınız olan tek kelimeye daraltmanın en hızlı yoludur. Belirli bir alana uyması için uzunluk filtresini ayarlayın ve bir harf zaten kesişen bir kelime tarafından sabitlenmişse \"ile başlayan\" veya \"ile biten\"i kullanın.",
+        { type: 'heading', id: 'jokerler', text: "Bilinmeyen Bir Harf İçin Joker Kullanma" },
+        "Bir kelimenin uzunluğunu ve bir veya iki harfini biliyor ama gerisini bilmiyorsanız, her bilinmeyen harf için arama kutusuna ? yazın. Bir aramada kaç joker kullanabileceğinize dair bir sınır yoktur.",
+        { type: 'heading', id: 'bonus-kelimeler', text: "Bonus Kelimeleri Bulma" },
+        "Harf çarkınızı kullanan ama bulmaca ızgarasına uymayan kelimeler, Wordscapes'te yine de bonus kelime sayılır ve ekstra jeton kazandırır. Harflerinizin tamamıyla filtresiz arama yaparak oluşturabilecekleri her geçerli kelimeyi görün, ardından ızgarada henüz görünmeyenleri girin.",
+        { type: 'heading', id: 'coklu-dil', text: "Uluslararası Sürümleri Oynama" },
+        "Wordscapes'in birden çok dilde sürümü vardır ve kelime listeleri sürümler arasında gerçekten farklılık gösterir. UnscramblWords on dili destekler -- İngilizce, Fransızca, Almanca, İtalyanca, İspanyolca, Portekizce, Türkçe, Rusça, Lehçe ve Arapça -- her biri kendi sözlüğünü kullanır, böylece sonuçlar gerçekten oynadığınız sürümle eşleşir.",
+        "Burada açıklanan her iddia ve özellik, varsayılmak yerine doğrudan UnscramblWords'ün kodu ve sözlükleri üzerinde kontrol edilmiştir.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
+      ],
+      faq: [
+        { question: "Wordscapes için kelime bulucu kullanmak kurallara aykırı mı?", answer: "Harici, tarayıcı tabanlı bir kelime bulucu kullanmak oyunun kendisini değiştirmez -- yine de her kelimeyi elle girersiniz. Bu sizin için önemliyse, başka bir şirketin belirli kurallarını temsil edemeyeceğimiz için doğrudan Wordscapes'in kendi şartlarını kontrol etmeniz iyi olur." },
+        { question: "Belirli bir uzunlukta kelimeyi nasıl bulurum?", answer: "Harflerinizi yazın, ardından uzunluk filtresini ihtiyacınız olan tam sayıya ayarlayın -- bu, sonuçları hemen o alana uyan kelimelerle sınırlar." },
+        { question: "UnscramblWords bilinmeyen harfler için joker destekliyor mu?", answer: "Evet. Bilmediğiniz herhangi bir harf için ? yazın. Bir aramada kaç tane kullanabileceğinize dair bir sınır yoktur." },
+        { question: "Bunu uluslararası Wordscapes sürümleri için kullanabilir miyim?", answer: "Evet, araç on dili destekler, her biri kendi gerçek sözlüğüne sahiptir, böylece sonuçları oynadığınız dil sürümüne uyacak şekilde eşleştirebilirsiniz." },
+        { question: "Wordscapes neden aracın bulduğu bir kelimeyi kabul etmiyor?", answer: "Wordscapes, her seviyenin ızgarası için kendi düzenlediği sözlüğü kullanır ve bu bazı geçerli kelimeleri dışlayabilir. Sözlüğümüzün gerçek olduğunu doğruladığı bir kelime, oyunda yalnızca bonus kelime olarak sayılabilir veya o bulmaca için Wordscapes'in kendi listesine bağlı olarak hiç kabul edilmeyebilir." },
+        { question: "UnscramblWords ücretsiz mi?", answer: "Evet, tamamen ücretsizdir, hesap veya indirme gerekmez." },
+        { question: "Bunu diğer kelime oyunları için de kullanabilir miyim?", answer: "Evet, araç Wordscapes, Scrabble, Words with Friends ve benzer oyunlarla iyi çalışır. UnscramblWords bağımsız bir araçtır ve PeopleFun (Wordscapes'in yapımcısı), Hasbro, Mattel veya Zynga ile resmi bir bağlantısı yoktur." }
+      ]
+    },
 ];

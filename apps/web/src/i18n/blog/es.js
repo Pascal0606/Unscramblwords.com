@@ -576,4 +576,47 @@ export const es = [
         { question: "¿Puedo usarlo para otros juegos como Scrabble o Words with Friends?", answer: "Sí, la herramienta funciona bien junto a Scrabble, Words with Friends, Text Twist y juegos similares. UnscramblWords es una herramienta independiente, no afiliada oficialmente a Hasbro, Mattel, Zynga ni Tuga Studios." }
       ]
     },
+    {
+      slug: 'truco-wordscapes-resolver-niveles-rapido',
+      date: '2026-09-11',
+      title: 'Truco de Wordscapes: cómo resolver cualquier nivel rápido',
+      excerpt: 'Cómo usar realmente un buscador de palabras para vencer niveles difíciles de Wordscapes -- filtros reales, comodines reales, y las matemáticas detrás de por qué las cuadrículas de 7 letras se sienten tan difíciles.',
+      keyTakeaways: [
+        "Un conjunto de 7 letras puede ordenarse de 5.040 maneras distintas (7 factorial), por eso incluso un buen vocabulario se atasca sin un método sistemático.",
+        "Filtrar por longitud de palabra y por \"empieza por\"/\"termina en\" reduce los resultados a los huecos concretos de tu cuadrícula.",
+        "Escribe ? como comodín cuando una letra es desconocida -- sin límite de cuántos usar en una búsqueda.",
+        "La herramienta admite 10 idiomas, útil para ediciones internacionales de Wordscapes, cada uno con su propio diccionario real.",
+        "UnscramblWords es completamente gratuito, sin cuenta ni descarga."
+      ],
+      toc: [
+        { id: 'por-que-7-letras-dificil', label: "Por qué las cuadrículas de 7 letras se sienten mucho más difíciles" },
+        { id: 'filtros', label: "Usar filtros para ajustarse a tu cuadrícula" },
+        { id: 'comodines', label: "Usar un comodín para una letra desconocida" },
+        { id: 'palabras-bonus', label: "Encontrar palabras bonus" },
+        { id: 'multilingue', label: "Jugar ediciones internacionales" }
+      ],
+      body: [
+        { type: 'heading', id: 'por-que-7-letras-dificil', text: "Por qué las cuadrículas de 7 letras se sienten mucho más difíciles" },
+        "Siete letras distintas pueden ordenarse de 5.040 maneras diferentes (7 factorial) -- un número de combinaciones realmente enorme para examinar por ensayo y error. Esa es la razón real por la que la dificultad de Wordscapes aumenta tan bruscamente cuando los niveles pasan de 3-4 a 6-7 letras: el espacio de búsqueda crece de forma factorial, no solo lineal, con cada letra añadida.",
+        { type: 'heading', id: 'filtros', text: "Usar filtros para ajustarse a tu cuadrícula" },
+        "Los huecos vacíos de una cuadrícula son la forma más rápida de reducir una larga lista de palabras posibles a la que necesitas. Ajusta el filtro de longitud a un hueco específico, y usa \"empieza por\" o \"termina en\" cuando una letra ya esté fijada por una palabra que se cruza.",
+        { type: 'heading', id: 'comodines', text: "Usar un comodín para una letra desconocida" },
+        "Si conoces la longitud de una palabra y una o dos de sus letras pero no el resto, escribe ? en el cuadro de búsqueda por cada letra desconocida. No hay límite de cuántos comodines puedes usar en una búsqueda.",
+        { type: 'heading', id: 'palabras-bonus', text: "Encontrar palabras bonus" },
+        "Las palabras que usan tu rueda de letras pero no encajan en la cuadrícula de crucigrama cuentan igualmente como palabras bonus en Wordscapes, dando monedas extra. Busca con todo tu conjunto de letras sin filtros para ver cada palabra válida que pueden formar, y luego introduce las que aún no aparecen en la cuadrícula.",
+        { type: 'heading', id: 'multilingue', text: "Jugar ediciones internacionales" },
+        "Wordscapes tiene ediciones en varios idiomas, y las listas de palabras realmente difieren entre ellas. UnscramblWords admite diez idiomas -- inglés, francés, alemán, italiano, español, portugués, turco, ruso, polaco y árabe -- cada uno con su propio diccionario, para que los resultados coincidan con la edición que realmente juegas.",
+        "Cada afirmación y función descrita aquí se ha comprobado directamente en el código y los diccionarios de UnscramblWords, no simplemente se ha asumido.",
+        "(Revisado por el equipo de UnscramblWords)"
+      ],
+      faq: [
+        { question: "¿Usar un buscador de palabras para Wordscapes va contra las reglas?", answer: "Usar un buscador de palabras externo basado en navegador no modifica el juego en sí -- sigues introduciendo cada palabra manualmente. Si esto te preocupa, conviene revisar directamente las condiciones de Wordscapes, ya que no podemos hablar por las normas específicas de otra empresa." },
+        { question: "¿Cómo encuentro una palabra de una longitud concreta?", answer: "Escribe tus letras y ajusta el filtro de longitud al número exacto que necesitas -- esto reduce inmediatamente los resultados a las palabras que encajan en ese hueco." },
+        { question: "¿UnscramblWords admite comodines para letras desconocidas?", answer: "Sí. Escribe ? para cualquier letra que no conozcas. No hay límite de cuántos puedes usar en una búsqueda." },
+        { question: "¿Puedo usarlo para ediciones internacionales de Wordscapes?", answer: "Sí, la herramienta admite diez idiomas, cada uno con su propio diccionario real, para que puedas ajustar los resultados a la edición que estás jugando." },
+        { question: "¿Por qué Wordscapes no acepta una palabra encontrada por la herramienta?", answer: "Wordscapes usa su propio diccionario curado para la cuadrícula de cada nivel, que puede excluir ciertas palabras válidas. Una palabra que nuestro diccionario confirma como real podría contar solo como palabra bonus en el juego, o no aceptarse en absoluto, según la lista propia de Wordscapes para ese puzle." },
+        { question: "¿Es gratuito UnscramblWords?", answer: "Sí, completamente gratuito, sin cuenta ni descarga." },
+        { question: "¿Puedo usarlo también para otros juegos de palabras?", answer: "Sí, la herramienta funciona bien junto a Wordscapes, Scrabble, Words with Friends y juegos similares. UnscramblWords es una herramienta independiente, no afiliada oficialmente a PeopleFun (los creadores de Wordscapes), Hasbro, Mattel ni Zynga." }
+      ]
+    },
 ];

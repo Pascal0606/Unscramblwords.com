@@ -582,4 +582,47 @@ export const fr = [
         { question: "Puis-je l'utiliser pour d'autres jeux comme Scrabble ou Words with Friends ?", answer: "Oui, l'outil fonctionne bien avec Scrabble, Words with Friends, Text Twist et des jeux similaires. UnscramblWords est un outil indépendant, non affilié officiellement à Hasbro, Mattel, Zynga ou Tuga Studios." }
       ]
     },
+    {
+      slug: 'astuce-wordscapes-resoudre-niveaux',
+      date: '2026-09-11',
+      title: 'Astuce Wordscapes : comment résoudre n\'importe quel niveau rapidement',
+      excerpt: 'Comment utiliser un chercheur de mots pour vaincre les niveaux difficiles de Wordscapes -- vrais filtres, vrai support des jokers, et les maths derrière la difficulté des grilles à 7 lettres.',
+      keyTakeaways: [
+        "Un jeu de 7 lettres peut être arrangé de 5 040 façons différentes (7 factorielle), ce qui explique pourquoi même un bon vocabulaire reste bloqué sans approche systématique.",
+        "Filtrer par longueur de mot et par « commence par »/« se termine par » réduit les résultats aux cases vides précises de votre grille.",
+        "Tapez ? comme joker lorsqu'une lettre est inconnue -- aucune limite sur le nombre utilisable dans une même recherche.",
+        "L'outil prend en charge 10 langues, utile pour les éditions internationales de Wordscapes, chacune avec son propre vrai dictionnaire.",
+        "UnscramblWords est entièrement gratuit, sans compte ni téléchargement nécessaire."
+      ],
+      toc: [
+        { id: 'pourquoi-7-lettres-difficile', label: "Pourquoi les grilles à 7 lettres semblent tellement plus difficiles" },
+        { id: 'filtres', label: "Utiliser les filtres pour correspondre à votre grille" },
+        { id: 'jokers', label: "Utiliser un joker pour une lettre inconnue" },
+        { id: 'mots-bonus', label: "Trouver les mots bonus" },
+        { id: 'multilingue', label: "Jouer aux éditions internationales" }
+      ],
+      body: [
+        { type: 'heading', id: 'pourquoi-7-lettres-difficile', text: "Pourquoi les grilles à 7 lettres semblent tellement plus difficiles" },
+        "Sept lettres distinctes peuvent être arrangées de 5 040 façons différentes (7 factorielle) -- un nombre de combinaisons véritablement énorme à trier par essais-erreurs. C'est la vraie raison pour laquelle la difficulté de Wordscapes augmente si brutalement lorsque les niveaux passent de 3-4 lettres à 6-7 : l'espace de recherche croît de façon factorielle, pas seulement linéaire, à chaque lettre ajoutée.",
+        { type: 'heading', id: 'filtres', text: "Utiliser les filtres pour correspondre à votre grille" },
+        "Les cases vides d'une grille sont le moyen le plus rapide de réduire une longue liste de mots possibles au seul dont vous avez besoin. Réglez le filtre de longueur pour correspondre à une case précise, et utilisez « commence par » ou « se termine par » lorsqu'une lettre est déjà ancrée par un mot qui se croise.",
+        { type: 'heading', id: 'jokers', text: "Utiliser un joker pour une lettre inconnue" },
+        "Si vous connaissez la longueur d'un mot et une ou deux de ses lettres mais pas le reste, tapez ? dans la barre de recherche pour chaque lettre inconnue. Il n'y a aucune limite au nombre de jokers utilisables dans une même recherche.",
+        { type: 'heading', id: 'mots-bonus', text: "Trouver les mots bonus" },
+        "Les mots formés avec votre roue de lettres mais qui ne rentrent pas dans la grille de mots croisés comptent quand même comme mots bonus dans Wordscapes, rapportant des pièces supplémentaires. Recherchez avec l'ensemble de vos lettres sans aucun filtre pour voir tous les mots valides qu'elles peuvent former, puis entrez ceux qui n'apparaissent pas déjà sur la grille.",
+        { type: 'heading', id: 'multilingue', text: "Jouer aux éditions internationales" },
+        "Wordscapes existe en plusieurs langues, et les listes de mots diffèrent réellement d'une édition à l'autre. UnscramblWords prend en charge dix langues -- anglais, français, allemand, italien, espagnol, portugais, turc, russe, polonais et arabe -- chacune utilisant son propre dictionnaire, afin que les résultats correspondent à l'édition que vous jouez réellement.",
+        "Chaque affirmation et fonctionnalité décrite ici a été vérifiée directement dans le code et les dictionnaires d'UnscramblWords, et non simplement supposée.",
+        "(Relu par l'équipe UnscramblWords)"
+      ],
+      faq: [
+        { question: "Utiliser un chercheur de mots pour Wordscapes est-il contraire aux règles ?", answer: "Utiliser un chercheur de mots externe basé sur navigateur ne modifie pas le jeu lui-même -- vous entrez toujours chaque mot manuellement. Si cela vous préoccupe, il vaut mieux consulter directement les conditions d'utilisation de Wordscapes, car nous ne pouvons pas parler au nom des règles spécifiques d'une autre entreprise." },
+        { question: "Comment trouver un mot d'une longueur précise ?", answer: "Tapez vos lettres, puis réglez le filtre de longueur sur le nombre exact recherché -- cela réduit immédiatement les résultats aux seuls mots correspondant à cette case." },
+        { question: "UnscramblWords prend-il en charge les jokers pour les lettres inconnues ?", answer: "Oui. Tapez ? pour toute lettre que vous ne connaissez pas. Il n'y a aucune limite au nombre utilisable dans une même recherche." },
+        { question: "Puis-je l'utiliser pour les éditions internationales de Wordscapes ?", answer: "Oui, l'outil prend en charge dix langues, chacune avec son propre vrai dictionnaire, afin de faire correspondre les résultats à l'édition linguistique que vous jouez." },
+        { question: "Pourquoi Wordscapes n'accepte-t-il pas un mot trouvé par l'outil ?", answer: "Wordscapes utilise son propre dictionnaire, choisi pour chaque grille de niveau, qui peut exclure certains mots pourtant valides. Un mot que notre dictionnaire confirme comme réel peut ne compter que comme mot bonus dans le jeu, ou ne pas être accepté du tout, selon la liste propre à Wordscapes pour ce puzzle." },
+        { question: "UnscramblWords est-il gratuit ?", answer: "Oui, entièrement gratuit, sans compte ni téléchargement nécessaire." },
+        { question: "Puis-je l'utiliser pour d'autres jeux de mots ?", answer: "Oui, l'outil fonctionne bien avec Wordscapes, Scrabble, Words with Friends et des jeux similaires. UnscramblWords est un outil indépendant, non affilié officiellement à PeopleFun (les créateurs de Wordscapes), Hasbro, Mattel ou Zynga." }
+      ]
+    },
 ];
