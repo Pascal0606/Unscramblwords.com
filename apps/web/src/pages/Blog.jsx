@@ -1,9 +1,27 @@
 import React, { useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet';
-import { Link, useParams } from 'react-router-dom';
+import { Link, Navigate, useParams } from 'react-router-dom';
 import { ArrowRight, ArrowLeft, BookOpen, Clock, Calendar, Tag, Search, X, Lightbulb, List as ListIcon, ChevronDown } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage.js';
 import { blogContent } from '@/i18n/blogContent.js';
+
+// Old slugs that have since been renamed to actually match their content,
+// mapped to their real current slug. When an old URL is requested, redirect
+// straight to the new one instead of showing "article not found" -- both for
+// any real visitor who bookmarked or was linked to the old URL, and so a
+// search engine re-crawling the old address is pointed to the live page
+// rather than finding it gone. Same mapping applies across every language
+// this rename touched.
+const RENAMED_SLUGS = {
+  'best-scrabble-words-with-q': {
+    fr: 'meilleurs-mots-scrabble-lettre-k',
+    es: 'll-rr-fichas-dobles-scrabble-espanol',
+    pt: 'letra-c-cedilha-sufixo-cao-portugues',
+    tr: 'noktali-i-noktasiz-i-turkce-scrabble',
+    ru: 'redkie-bukvy-skrebbl-bukva-f',
+    ar: 'alhamzat-alahruf-alqayima-sikrabl',
+  },
+};
 
 // Renders one FAQ entry as a collapsible item. Kept as its own component so
 // each entry has independent open/closed state.
@@ -59,6 +77,10 @@ export function BlogArticle() {
   const article = articles.find(a => a.slug === slug);
 
   if (!article) {
+    const renamedTo = RENAMED_SLUGS[slug]?.[currentLanguage];
+    if (renamedTo) {
+      return <Navigate to={`/${currentLanguage}/blog/${renamedTo}`} replace />;
+    }
     return (
       <div className="min-h-dvh bg-background text-foreground flex items-center justify-center">
         <div className="text-center px-4">
