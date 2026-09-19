@@ -54,7 +54,7 @@ export const es = [
       ]
     },
     {
-      slug: "best-scrabble-words-with-q",
+      slug: "ll-rr-fichas-dobles-scrabble-espanol",
       date: '2026-07-24',
       title: "LL y RR: las Fichas Dobles Únicas del Scrabble en Español",
       excerpt: "El español tiene algo que ningún otro idioma de esta lista tiene: dos combinaciones de letras, LL y RR, que cuentan como una sola ficha. Esto es lo que hay que saber.",

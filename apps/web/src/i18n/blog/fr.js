@@ -54,7 +54,7 @@ export const fr = [
       ]
     },
     {
-      slug: "best-scrabble-words-with-q",
+      slug: "meilleurs-mots-scrabble-lettre-k",
       date: '2026-07-24',
       title: "Les Meilleurs Mots au Scrabble avec la Lettre K",
       excerpt: "La lettre K vaut 10 points au Scrabble français, à égalité avec W, X, Y et Z -- contrairement au Q, qui n'en vaut que 8. Voici comment vraiment l'exploiter.",

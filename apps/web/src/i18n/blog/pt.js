@@ -89,7 +89,7 @@ export const pt = [
       ]
     },
     {
-      slug: "best-scrabble-words-with-q",
+      slug: "letra-c-cedilha-sufixo-cao-portugues",
       date: '2026-07-24',
       title: "O Ç e o Sufixo -ÇÃO: a Letra Mais Produtiva do Português",
       excerpt: "O Q vale apenas 6 pontos em português -- nada de especial. O Ç, porém, alimenta um dos sufixos mais produtivos da língua. Eis porque vale a pena conhecê-lo.",

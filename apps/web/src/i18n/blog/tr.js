@@ -54,7 +54,7 @@ export const tr = [
       ]
     },
     {
-      slug: "best-scrabble-words-with-q",
+      slug: "noktali-i-noktasiz-i-turkce-scrabble",
       date: '2026-07-24',
       title: "Noktalı İ ve Noktasız I: Türkçe Scrabble'ın Kendine Özgü Kuralı",
       excerpt: "Q, W ve X harfleri Türk alfabesinde yer almaz. Ama Türkçenin kendine özgü gerçek bir zorluğu var: noktalı İ ve noktasız I arasındaki fark. İşte bilmeniz gerekenler.",

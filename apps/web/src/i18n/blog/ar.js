@@ -54,7 +54,7 @@ export const ar = [
       ]
     },
     {
-      slug: "best-scrabble-words-with-q",
+      slug: "alhamzat-alahruf-alqayima-sikrabl",
       date: '2026-07-24',
       title: "الهمزات: الحروف الأعلى قيمة في السكرابل العربي",
       excerpt: "حرف القاف لا يتجاوز 3 نقاط في السكرابل العربي -- ليس الحرف المميز الذي قد تتوقعه. الهمزات هي الحروف الأعلى قيمة فعلياً.",
