@@ -358,6 +358,18 @@ export default function Blog() {
       <Helmet>
         <title>{t('blog.pageTitleTag')}</title>
         <meta name="description" content={t('blog.metaDescription')} />
+        <link rel="canonical" href={`https://unscramblwords.com/${currentLanguage}/blog`} />
+        <link rel="alternate" hrefLang="en" href="https://unscramblwords.com/en/blog" />
+        <link rel="alternate" hrefLang="fr" href="https://unscramblwords.com/fr/blog" />
+        <link rel="alternate" hrefLang="de" href="https://unscramblwords.com/de/blog" />
+        <link rel="alternate" hrefLang="it" href="https://unscramblwords.com/it/blog" />
+        <link rel="alternate" hrefLang="es" href="https://unscramblwords.com/es/blog" />
+        <link rel="alternate" hrefLang="pt" href="https://unscramblwords.com/pt/blog" />
+        <link rel="alternate" hrefLang="tr" href="https://unscramblwords.com/tr/blog" />
+        <link rel="alternate" hrefLang="ru" href="https://unscramblwords.com/ru/blog" />
+        <link rel="alternate" hrefLang="pl" href="https://unscramblwords.com/pl/blog" />
+        <link rel="alternate" hrefLang="ar" href="https://unscramblwords.com/ar/blog" />
+        <link rel="alternate" hrefLang="x-default" href="https://unscramblwords.com/en/blog" />
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
