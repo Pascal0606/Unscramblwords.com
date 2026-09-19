@@ -182,6 +182,17 @@ const UnscrambleApp = () => {
         <meta name="twitter:title" content={t('ui.seoTitle')} />
         <meta name="twitter:description" content={t('ui.seoDescription')} />
         <link rel="canonical" href={`https://unscramblwords.com/${currentLanguage}`} />
+        <link rel="alternate" hrefLang="en" href="https://unscramblwords.com/en" />
+        <link rel="alternate" hrefLang="fr" href="https://unscramblwords.com/fr" />
+        <link rel="alternate" hrefLang="de" href="https://unscramblwords.com/de" />
+        <link rel="alternate" hrefLang="it" href="https://unscramblwords.com/it" />
+        <link rel="alternate" hrefLang="es" href="https://unscramblwords.com/es" />
+        <link rel="alternate" hrefLang="pt" href="https://unscramblwords.com/pt" />
+        <link rel="alternate" hrefLang="tr" href="https://unscramblwords.com/tr" />
+        <link rel="alternate" hrefLang="ru" href="https://unscramblwords.com/ru" />
+        <link rel="alternate" hrefLang="pl" href="https://unscramblwords.com/pl" />
+        <link rel="alternate" hrefLang="ar" href="https://unscramblwords.com/ar" />
+        <link rel="alternate" hrefLang="x-default" href="https://unscramblwords.com/en" />
         <html lang={currentLanguage} />
       </Helmet>
 
