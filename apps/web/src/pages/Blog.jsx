@@ -38,6 +38,19 @@ function BilingualLabel({ translated, english, currentLanguage }) {
   return `${translated} / ${english}`;
 }
 
+// Derives a simple category from an article's slug/title. Used both for the
+// blog listing's filter buttons and for finding genuinely related articles
+// on an individual article page -- kept as one shared function so the two
+// views can never disagree about which category an article belongs to.
+function getArticleCategory(article) {
+  if (article.slug.includes('strategies') || article.title.toLowerCase().includes('strategy')) {
+    return 'Strategy';
+  } else if (article.slug.includes('vocabulary') || article.title.toLowerCase().includes('vocabulary')) {
+    return 'Vocabulary';
+  }
+  return 'Guides';
+}
+
 export function BlogArticle() {
   const { slug } = useParams();
   const { currentLanguage, t } = useLanguage();
@@ -58,12 +71,53 @@ export function BlogArticle() {
     );
   }
 
+  // article.date is a genuine 'YYYY-MM-DD' value; parse its components
+  // manually rather than `new Date(article.date)`, which parses as UTC
+  // midnight and can display as the previous day in timezones behind UTC.
+  let formattedDate = '';
+  if (article.date) {
+    const [y, m, d] = article.date.split('-').map(Number);
+    const parsed = new Date(y, m - 1, d);
+    formattedDate = parsed.toLocaleDateString(t('blog.dateLocale'), { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  // Up to 3 other articles sharing this one's category, newest first --
+  // genuine internal links between real, related content rather than an
+  // arbitrary or random selection.
+  const relatedArticles = articles
+    .filter(a => a.slug !== article.slug && getArticleCategory(a) === getArticleCategory(article))
+    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
+    .slice(0, 3);
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.excerpt,
+    datePublished: article.date || undefined,
+    author: { '@type': 'Organization', name: 'UnscramblWords' },
+    publisher: { '@type': 'Organization', name: 'UnscramblWords' },
+    mainEntityOfPage: `https://unscramblwords.com/${currentLanguage}/blog/${slug}`
+  };
+
+  const faqSchema = article.faq && article.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faq.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer }
+    }))
+  } : null;
+
   return (
     <div className="min-h-dvh bg-background text-foreground py-16 md:py-24">
       <Helmet>
         <title>{`${article.title} | UnscramblWords Blog`}</title>
         <meta name="description" content={article.excerpt} />
         <link rel="canonical" href={`https://unscramblwords.com/${currentLanguage}/blog/${slug}`} />
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        {faqSchema && <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>}
       </Helmet>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,7 +138,7 @@ export function BlogArticle() {
             </span>
             <span className="flex items-center text-sm text-muted-foreground font-medium">
               <Calendar className="w-4 h-4 mr-1.5" />
-              2026
+              {formattedDate}
             </span>
             <span className="flex items-center text-sm text-muted-foreground font-medium">
               <Clock className="w-4 h-4 mr-1.5" />
@@ -178,6 +232,25 @@ export function BlogArticle() {
           </div>
         )}
 
+        {/* Related articles -- only renders if there are genuinely related ones */}
+        {relatedArticles.length > 0 && (
+          <div className="mt-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">{t('blog.relatedArticles')}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {relatedArticles.map((related) => (
+                <Link
+                  key={related.slug}
+                  to={`/${currentLanguage}/blog/${related.slug}`}
+                  className="block border border-border/40 rounded-2xl p-5 bg-card hover:border-primary/40 transition-colors"
+                >
+                  <h3 className="font-bold text-card-foreground mb-2 leading-snug">{related.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">{related.excerpt}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         <hr className="border-border mt-12 mb-8" />
 
         <div className="flex items-center justify-between">
@@ -220,12 +293,7 @@ export default function Blog() {
 
   const enhancedArticles = useMemo(() => {
     const articles = rawArticles.map((article, index) => {
-      let category = 'Guides';
-      if (article.slug.includes('strategies') || article.title.toLowerCase().includes('strategy')) {
-        category = 'Strategy';
-      } else if (article.slug.includes('vocabulary') || article.title.toLowerCase().includes('vocabulary')) {
-        category = 'Vocabulary';
-      }
+      const category = getArticleCategory(article);
       // article.date is a genuine 'YYYY-MM-DD' value sourced from this article's actual
       // git history (or, for the small number of articles that predate reliable version
       // control, the earliest confirmed date the article is known to have existed).
