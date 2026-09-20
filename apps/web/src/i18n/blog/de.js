@@ -589,4 +589,48 @@ export const de = [
         { question: "Kann ich das auch für andere Wortspiele nutzen?", answer: "Ja, das Tool funktioniert gut mit Wordscapes, Scrabble, Words with Friends und ähnlichen Spielen. UnscramblWords ist ein unabhängiges Tool und steht in keiner offiziellen Verbindung zu PeopleFun (den Machern von Wordscapes), Hasbro, Mattel oder Zynga." }
       ]
     },
+    {
+      slug: 'woerter-mit-bestimmten-buchstaben-finden',
+      date: '2026-09-19',
+      title: 'Wörter mit bestimmten Buchstaben finden: Ein praktischer Leitfaden',
+      excerpt: 'Wie man eine Wortsuche mit echten Filtern und Platzhaltern wirklich eingrenzt -- geprüft in unserem eigenen Wörterbuch und Code, nicht nur angenommen.',
+      keyTakeaways: [
+        "Fünf echte Filter -- beginnt mit, endet mit, enthält, Pflichtbuchstabe, Wortlänge -- passen eine Suche genau an das an, was ein Raster oder Rätsel braucht.",
+        "Gib ? als Platzhalter ein, wenn ein Buchstabe unbekannt ist. Es gibt keine Begrenzung, und beim Scrabble zählt ein Platzhalter-Buchstabe immer 0 Punkte.",
+        "Ergebnisse werden automatisch nach Punktwert sortiert.",
+        "Q ist einer der schwierigsten Buchstaben; im deutschen Scrabble sind Q und Y mit je 10 Punkten die wertvollsten Buchstaben überhaupt.",
+        "Das Tool unterstützt 10 Sprachen, jede mit ihrem eigenen echten Wörterbuch."
+      ],
+      toc: [
+        { id: 'echte-filter', label: "Die echten verfügbaren Filter, und was jeder davon tut" },
+        { id: 'platzhalter', label: "Platzhalter für unbekannte Buchstaben verwenden" },
+        { id: 'schwierige-buchstaben', label: "Q und andere schwierige Buchstaben platzieren" },
+        { id: 'wortspiele', label: "Filter für Wordle-ähnliche Rätsel nutzen" },
+        { id: 'mehrsprachig', label: "Suchen in anderen Sprachen" }
+      ],
+      body: [
+        { type: 'heading', id: 'echte-filter', text: "Die echten verfügbaren Filter, und was jeder davon tut" },
+        "Fünf echte Filter grenzen eine Suche genau auf das ein, was du brauchst: „beginnt mit“ und „endet mit“ passen zu einem bereits feststehenden Buchstaben, „enthält“ prüft, ob ein Buchstabe irgendwo im Wort vorkommt, „Pflichtbuchstabe“ funktioniert genauso, und „Wortlänge“ passt zu einer exakten Zeichenanzahl. Kombiniere mehrere gleichzeitig, um von einer langen Trefferliste auf die wenigen wirklich passenden Wörter zu kommen.",
+        { type: 'heading', id: 'platzhalter', text: "Platzhalter für unbekannte Buchstaben verwenden" },
+        "Kennst du die Länge eines Wortes und einige seiner Buchstaben, aber nicht den Rest, gib ? im Suchfeld für jeden unbekannten Buchstaben ein. Es gibt keine Begrenzung, wie viele Platzhalter du in einer Suche verwendest, und beim Scrabble zählt ein Platzhalter-Buchstabe immer 0 Punkte, genau wie die echte Regel für einen Blindstein.",
+        { type: 'heading', id: 'schwierige-buchstaben', text: "Q und andere schwierige Buchstaben platzieren" },
+        "Q und Y sind mit je 10 Punkten die wertvollsten Buchstaben im deutschen Scrabble, gefolgt von Ö und X mit je 8 Punkten. Ä, J, Ü und V sind mit je 6 Punkten ebenfalls überdurchschnittlich wertvoll -- diese Werte stammen aus der offiziellen deutschen Buchstabenverteilung.",
+        { type: 'heading', id: 'wortspiele', text: "Filter für Wordle-ähnliche Rätsel nutzen" },
+        "Wordle-ähnliche Spiele funktionieren gut mit denselben Filtern. Kennst du die genaue Position eines Buchstabens (ein grünes Feld) und die Wortlänge, grenzen „beginnt mit“, „endet mit“ und „Wortlänge“ die Ergebnisse direkt ein.",
+        { type: 'heading', id: 'mehrsprachig', text: "Suchen in anderen Sprachen" },
+        "Wortspiele gibt es in vielen Sprachen, und Wortlisten unterscheiden sich tatsächlich zwischen ihnen. UnscramblWords unterstützt zehn Sprachen -- Englisch, Französisch, Deutsch, Italienisch, Spanisch, Portugiesisch, Türkisch, Russisch, Polnisch und Arabisch -- jede mit ihrem eigenen echten Wörterbuch, sodass die Ergebnisse zur tatsächlich gespielten Sprache passen.",
+        "Jede hier beschriebene Funktion und jedes Wort wurde direkt gegen den Code und das Wörterbuch von UnscramblWords geprüft, nicht nur angenommen.",
+        "(Geprüft vom UnscramblWords-Team)"
+      ],
+      faq: [
+        { question: "Wie finde ich Wörter, die einen bestimmten Buchstaben enthalten?", answer: "Nutze den „enthält“-Filter -- gib den Buchstaben ein, und die Ergebnisse umfassen nur Wörter, die ihn enthalten, unabhängig von der Position." },
+        { question: "Kann ich nach Wortlänge und bestimmten Buchstaben gleichzeitig suchen?", answer: "Ja. Kombiniere „Wortlänge“ mit jedem anderen Filter -- beginnt mit, endet mit, enthält oder Pflichtbuchstabe --, um eine bestimmte Lücke genau zu treffen." },
+        { question: "Gibt es einen Filter für Wörter, die mit bestimmten Buchstaben beginnen und enden?", answer: "Ja, „beginnt mit“ und „endet mit“ sind zwei echte, eigenständige Filter, die miteinander oder mit „enthält“ kombiniert werden können." },
+        { question: "Wie verwende ich einen Platzhalter, um Wörter mit fehlenden Buchstaben zu finden?", answer: "Gib ? für jeden unbekannten Buchstaben ein. Es gibt keine Begrenzung, wie viele Platzhalter du in einer Suche verwenden kannst." },
+        { question: "Unterstützt UnscramblWords einen Filter zum Ausschließen von Buchstaben?", answer: "Derzeit nicht. Die verfügbaren Filter sind: beginnt mit, endet mit, enthält, Pflichtbuchstabe und Wortlänge." },
+        { question: "Kann ich Ergebnisse nach Punktzahl oder alphabetisch sortieren?", answer: "Ergebnisse werden automatisch nach Punktwert sortiert; eine separate manuelle Sortieroption gibt es derzeit nicht." },
+        { question: "Kann ich auch in anderen Sprachen als Deutsch suchen?", answer: "Ja, das Tool unterstützt zehn Sprachen, jede mit ihrem eigenen echten Wörterbuch." },
+        { question: "Ist das auf dem Handy kostenlos nutzbar?", answer: "Ja, vollständig kostenlos, ohne Konto, Registrierung oder App-Download." }
+      ]
+    },
 ];

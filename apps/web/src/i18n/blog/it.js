@@ -518,4 +518,48 @@ export const it = [
         { question: "Posso usarlo anche per altri giochi di parole?", answer: "Sì, lo strumento funziona bene con Wordscapes, Scarabeo, Words with Friends e giochi simili. UnscramblWords è uno strumento indipendente, non affiliato ufficialmente a PeopleFun (i creatori di Wordscapes), Hasbro, Mattel o Zynga." }
       ]
     },
+    {
+      slug: 'trovare-parole-con-lettere-specifiche',
+      date: '2026-09-19',
+      title: 'Trovare parole con lettere specifiche: guida pratica',
+      excerpt: 'Come restringere davvero una ricerca di parole usando filtri reali e jolly -- verificato nel nostro dizionario e codice, non semplicemente presunto.',
+      keyTakeaways: [
+        "Cinque filtri reali -- inizia con, finisce con, contiene, lettera obbligatoria, lunghezza -- permettono di adattare una ricerca esattamente a ciò che serve.",
+        "Digita ? come jolly quando una lettera è sconosciuta. Non c'è alcun limite, e a Scarabeo una lettera jolly vale sempre 0 punti.",
+        "I risultati sono ordinati automaticamente per valore in punti.",
+        "Il Q è una delle lettere più difficili da piazzare; vale 10 punti a Scarabeo, il valore più alto del gioco.",
+        "Lo strumento supporta 10 lingue, ciascuna con il proprio vero dizionario."
+      ],
+      toc: [
+        { id: 'filtri-reali', label: "I filtri reali disponibili, e cosa fa ciascuno" },
+        { id: 'jolly', label: "Usare i jolly per le lettere sconosciute" },
+        { id: 'lettere-difficili', label: "Piazzare il Q e le altre lettere difficili" },
+        { id: 'wordle', label: "Usare i filtri per puzzle simili a Wordle" },
+        { id: 'multilingue', label: "Cercare in altre lingue" }
+      ],
+      body: [
+        { type: 'heading', id: 'filtri-reali', text: "I filtri reali disponibili, e cosa fa ciascuno" },
+        "Cinque filtri reali restringono una ricerca esattamente a ciò che serve: \"inizia con\" e \"finisce con\" corrispondono a una lettera già fissata, \"contiene\" verifica che una lettera compaia ovunque nella parola, \"lettera obbligatoria\" funziona allo stesso modo, e \"lunghezza\" corrisponde a un numero esatto di caratteri. Combinane più di uno alla volta per passare da un lungo elenco di risultati alla manciata che si adatta davvero.",
+        { type: 'heading', id: 'jolly', text: "Usare i jolly per le lettere sconosciute" },
+        "Se conosci la lunghezza di una parola e alcune delle sue lettere ma non il resto, digita ? nella casella di ricerca per ogni lettera sconosciuta. Non c'è alcun limite a quanti jolly puoi usare in una ricerca, e a Scarabeo una lettera jolly vale sempre 0 punti, come la vera regola della tessera bianca.",
+        { type: 'heading', id: 'lettere-difficili', text: "Piazzare il Q e le altre lettere difficili" },
+        "Il Q vale 10 punti, il valore più alto del gioco a Scarabeo. G, H e Z valgono invece 8 punti ciascuna -- tra le lettere più difficili da piazzare, ma anche tra le più preziose quando ci si riesce.",
+        { type: 'heading', id: 'wordle', text: "Usare i filtri per puzzle simili a Wordle" },
+        "I giochi simili a Wordle funzionano bene con gli stessi filtri. Se conosci la posizione esatta di una lettera (una casella verde) e la lunghezza della parola, i filtri \"inizia con\", \"finisce con\" e \"lunghezza\" restringono direttamente i risultati.",
+        { type: 'heading', id: 'multilingue', text: "Cercare in altre lingue" },
+        "I giochi di parole esistono in molte lingue, e le liste di parole differiscono davvero tra loro. UnscramblWords supporta dieci lingue -- inglese, francese, tedesco, italiano, spagnolo, portoghese, turco, russo, polacco e arabo -- ciascuna con il proprio dizionario, così i risultati corrispondono alla lingua che stai davvero usando.",
+        "Ogni funzionalità e parola descritta qui è stata verificata direttamente nel codice e nel dizionario di UnscramblWords, non semplicemente presunta.",
+        "(Verificato dal team di UnscramblWords)"
+      ],
+      faq: [
+        { question: "Come trovo parole che contengono una lettera specifica?", answer: "Usa il filtro \"contiene\" -- inserisci la lettera, e i risultati includeranno solo parole che la contengono, indipendentemente dalla posizione." },
+        { question: "Posso cercare per lunghezza della parola e lettere specifiche insieme?", answer: "Sì. Combina \"lunghezza\" con qualsiasi altro filtro -- inizia con, finisce con, contiene o lettera obbligatoria -- per centrare esattamente uno spazio specifico." },
+        { question: "Esiste un filtro per parole che iniziano e finiscono con lettere specifiche?", answer: "Sì, \"inizia con\" e \"finisce con\" sono due filtri reali e distinti, combinabili tra loro o con \"contiene\"." },
+        { question: "Come uso un jolly per trovare parole con lettere mancanti?", answer: "Digita ? per ogni lettera sconosciuta. Non c'è alcun limite a quanti jolly puoi usare in una ricerca." },
+        { question: "UnscramblWords supporta un filtro per escludere lettere?", answer: "Al momento no. I filtri disponibili sono: inizia con, finisce con, contiene, lettera obbligatoria e lunghezza." },
+        { question: "Posso ordinare i risultati per punteggio o alfabeticamente?", answer: "I risultati sono ordinati automaticamente per valore in punti; al momento non esiste un'opzione di ordinamento manuale separata." },
+        { question: "Posso cercare anche in altre lingue oltre all'italiano?", answer: "Sì, lo strumento supporta dieci lingue, ciascuna con il proprio vero dizionario." },
+        { question: "È gratuito su mobile?", answer: "Sì, completamente gratuito, senza account, registrazione o download di app." }
+      ]
+    },
 ];

@@ -580,4 +580,48 @@ export const tr = [
         { question: "Bunu diğer kelime oyunları için de kullanabilir miyim?", answer: "Evet, araç Wordscapes, Scrabble, Words with Friends ve benzer oyunlarla iyi çalışır. UnscramblWords bağımsız bir araçtır ve PeopleFun (Wordscapes'in yapımcısı), Hasbro, Mattel veya Zynga ile resmi bir bağlantısı yoktur." }
       ]
     },
+    {
+      slug: 'belirli-harflerle-kelime-bulma',
+      date: '2026-09-19',
+      title: 'Belirli Harflerle Kelime Bulma: Pratik Rehber',
+      excerpt: 'Gerçek filtreler ve jokerler kullanarak bir kelime aramasını nasıl gerçekten daraltacağınız -- varsayılmak yerine kendi sözlüğümüzde ve kodumuzda doğrulanmıştır.',
+      keyTakeaways: [
+        "Beş gerçek filtre -- ile başlayan, ile biten, içeren, gerekli harf, kelime uzunluğu -- bir aramayı tam olarak ihtiyacınıza göre ayarlar.",
+        "Bir harf bilinmiyorsa joker için ? yazın. Kullanım sayısında sınır yoktur ve Scrabble'da joker harf her zaman 0 puan değerindedir.",
+        "Sonuçlar otomatik olarak puan değerine göre sıralanır.",
+        "J harfi en yüksek değerli harflerden biridir, Türkçe Scrabble'da 10 puan değerindedir.",
+        "Araç, her biri kendi gerçek sözlüğüne sahip 10 dili destekler."
+      ],
+      toc: [
+        { id: 'gercek-filtreler', label: "Mevcut Gerçek Filtreler ve Her Birinin İşlevi" },
+        { id: 'jokerler', label: "Bilinmeyen Harfler İçin Joker Kullanma" },
+        { id: 'zor-harfler', label: "J ve Diğer Zor Harfleri Yerleştirme" },
+        { id: 'wordle', label: "Wordle Benzeri Bulmacalar İçin Filtre Kullanma" },
+        { id: 'coklu-dil', label: "Diğer Dillerde Arama Yapma" }
+      ],
+      body: [
+        { type: 'heading', id: 'gercek-filtreler', text: "Mevcut Gerçek Filtreler ve Her Birinin İşlevi" },
+        "Beş gerçek filtre bir aramayı tam olarak ihtiyacınız olana daraltır: \"ile başlayan\" ve \"ile biten\" zaten sabit olan bir harfle eşleşir, \"içeren\" bir harfin kelimenin herhangi bir yerinde geçip geçmediğini kontrol eder, \"gerekli harf\" aynı şekilde çalışır ve \"kelime uzunluğu\" tam bir karakter sayısıyla eşleşir. Uzun bir sonuç listesinden gerçekten uyan birkaç seçeneğe geçmek için birden fazlasını aynı anda birleştirin.",
+        { type: 'heading', id: 'jokerler', text: "Bilinmeyen Harfler İçin Joker Kullanma" },
+        "Bir kelimenin uzunluğunu ve bazı harflerini biliyor ama gerisini bilmiyorsanız, her bilinmeyen harf için arama kutusuna ? yazın. Bir aramada kaç joker kullanabileceğinize dair bir sınır yoktur ve Scrabble'da joker harften gelen bir harf her zaman 0 puan değerindedir, tıpkı gerçek boş taş kuralında olduğu gibi.",
+        { type: 'heading', id: 'zor-harfler', text: "J ve Diğer Zor Harfleri Yerleştirme" },
+        "J harfi 10 puanla oyundaki en yüksek değere sahiptir. Ğ harfi ise 8 puan değerindedir -- genellikle yerleştirilmesi en zor olan ama en değerli harfler arasındadır. Bu değerler resmi Türkçe Scrabble harf dağılımından alınmıştır.",
+        { type: 'heading', id: 'wordle', text: "Wordle Benzeri Bulmacalar İçin Filtre Kullanma" },
+        "Wordle benzeri oyunlar aynı filtrelerle iyi çalışır. Bir harfin tam konumunu (yeşil bir kare) ve kelimenin uzunluğunu biliyorsanız, \"ile başlayan\", \"ile biten\" ve \"kelime uzunluğu\" filtreleri sonuçları doğrudan daraltır.",
+        { type: 'heading', id: 'coklu-dil', text: "Diğer Dillerde Arama Yapma" },
+        "Kelime oyunları birçok dilde mevcuttur ve kelime listeleri diller arasında gerçekten farklılık gösterir. UnscramblWords on dili destekler -- İngilizce, Fransızca, Almanca, İtalyanca, İspanyolca, Portekizce, Türkçe, Rusça, Lehçe ve Arapça -- her biri kendi gerçek sözlüğünü kullanır, böylece sonuçlar gerçekten kullandığınız dille eşleşir.",
+        "Burada açıklanan her özellik ve kelime, varsayılmak yerine doğrudan UnscramblWords'ün kodu ve sözlüğü üzerinde kontrol edilmiştir.",
+        "(UnscramblWords ekibi tarafından incelenmiştir)"
+      ],
+      faq: [
+        { question: "Belirli bir harfi içeren kelimeleri nasıl bulurum?", answer: "\"İçeren\" filtresini kullanın -- harfi girin, sonuçlar yalnızca o harfi içeren kelimeleri, konumundan bağımsız olarak gösterecektir." },
+        { question: "Kelime uzunluğuna ve belirli harflere göre aynı anda arama yapabilir miyim?", answer: "Evet. \"Kelime uzunluğu\"nu diğer filtrelerden herhangi biriyle -- ile başlayan, ile biten, içeren veya gerekli harf -- birleştirerek belirli bir boşluğu tam olarak hedefleyin." },
+        { question: "Belirli harflerle başlayan ve biten kelimeler için bir filtre var mı?", answer: "Evet, \"ile başlayan\" ve \"ile biten\" iki gerçek, ayrı filtredir ve birbirleriyle veya \"içeren\" ile birleştirilebilir." },
+        { question: "Eksik harfleri olan kelimeleri bulmak için jokeri nasıl kullanırım?", answer: "Her bilinmeyen harf için ? yazın. Bir aramada kaç joker kullanabileceğinize dair bir sınır yoktur." },
+        { question: "UnscramblWords harfleri hariç tutma filtresi destekliyor mu?", answer: "Şu anda desteklemiyor. Mevcut filtreler: ile başlayan, ile biten, içeren, gerekli harf ve kelime uzunluğu." },
+        { question: "Sonuçları puana veya alfabetik olarak sıralayabilir miyim?", answer: "Sonuçlar otomatik olarak puan değerine göre sıralanır; şu anda ayrı bir manuel sıralama seçeneği yoktur." },
+        { question: "Türkçe dışındaki dillerde de arama yapabilir miyim?", answer: "Evet, araç on dili destekler, her biri kendi gerçek sözlüğüne sahiptir." },
+        { question: "Mobilde ücretsiz mi?", answer: "Evet, tamamen ücretsizdir, hesap, kayıt veya uygulama indirme gerekmez." }
+      ]
+    },
 ];

@@ -677,4 +677,48 @@ export const en = [
         { question: "Can I use this for other word games too?", answer: "Yes, the tool works well alongside Wordscapes, Scrabble, Words with Friends, and similar games. UnscramblWords is an independent tool and isn't officially affiliated with PeopleFun (the makers of Wordscapes), Hasbro, Mattel, or Zynga." }
       ]
     },
+    {
+      slug: 'find-words-with-specific-letters',
+      date: '2026-09-19',
+      title: 'Find Words with Specific Letters: A Practical Guide',
+      excerpt: 'How to actually narrow down a word search using real filters and wildcards -- verified against our own dictionary and code, not assumed.',
+      keyTakeaways: [
+        "Five real filters -- starts with, ends with, contains, required letter, word length -- let you match a search to exactly what a board or puzzle needs.",
+        "Type ? for a wildcard when a letter is unknown. There's no limit on how many you can use, and in Scrabble-style scoring, a wildcard-derived letter always scores 0 points.",
+        "Results are automatically sorted by point value.",
+        "Q is one of the hardest letters to place; QAT and TRANQ are genuine ways to play it without a U, verified in our dictionary.",
+        "The tool supports 10 languages, each with its own real dictionary."
+      ],
+      toc: [
+        { id: 'real-filters', label: "The Real Filters Available, and What Each One Does" },
+        { id: 'wildcards', label: "Using Wildcards for Unknown Letters" },
+        { id: 'hardest-letters', label: "Placing Q and Other Difficult Letters" },
+        { id: 'wordle', label: "Using Filters for Wordle-Style Puzzles" },
+        { id: 'multilingual', label: "Searching in Other Languages" }
+      ],
+      body: [
+        { type: 'heading', id: 'real-filters', text: "The Real Filters Available, and What Each One Does" },
+        "Five real filters narrow a search down to exactly what you need: Starts With and Ends With match a fixed letter already in place, Contains checks for a letter appearing anywhere in the word, Required Letter works the same way, and Word Length matches an exact character count. Combine several at once to go from a long list of matches to the handful that actually fit your situation.",
+        { type: 'heading', id: 'wildcards', text: "Using Wildcards for Unknown Letters" },
+        "If you know a word's length and some of its letters but not the rest, type ? in the search box for each unknown letter -- for example, C?T finds CAT, COT, and CUT. There's no limit on how many wildcards you can use in one search, and in Scrabble-style scoring, a wildcard-derived letter always scores 0 points, matching the real rule for a blank tile.",
+        { type: 'heading', id: 'hardest-letters', text: "Placing Q and Other Difficult Letters" },
+        "Q is one of the hardest letters to place, since it almost always needs a U. QAT and TRANQ are two genuine exceptions -- real, playable words that use Q with no U at all. The Official Scrabble Players Dictionary's 7th edition (Merriam-Webster, November 2022) added roughly 500 new words, though it's worth knowing this isn't the actual tournament-official word list used in North America -- that's the NASPA Word List.",
+        { type: 'heading', id: 'wordle', text: "Using Filters for Wordle-Style Puzzles" },
+        "Wordle-style games work well with the same filters. If you know a letter's exact position (a green tile) and the word's length, the Starts With, Ends With, and Word Length filters narrow results directly. Since February 2026, the New York Times has also started reusing some past Wordle answers, so an older solution can genuinely reappear.",
+        { type: 'heading', id: 'multilingual', text: "Searching in Other Languages" },
+        "Word games exist across many languages, and word lists genuinely differ between them. UnscramblWords supports ten languages -- English, French, German, Italian, Spanish, Portuguese, Turkish, Russian, Polish, and Arabic -- each using that language's own real dictionary, so results match the language you're actually playing in.",
+        "Every feature and word described here has been checked directly against UnscramblWords' own code and dictionary, not assumed.",
+        "(Reviewed by the UnscramblWords Team)"
+      ],
+      faq: [
+        { question: "How do I find words that contain a specific letter?", answer: "Use the Contains filter -- enter the letter, and results will include only words containing it, regardless of position." },
+        { question: "Can I search by word length and specific letters at once?", answer: "Yes. Combine Word Length with any of the other filters -- Starts With, Ends With, Contains, or Required Letter -- to match a specific gap exactly." },
+        { question: "Is there a filter for words starting and ending with specific letters?", answer: "Yes, Starts With and Ends With are both real, separate filters, and can be combined with each other or with Contains." },
+        { question: "How do I use a wildcard to find words with missing letters?", answer: "Type ? for each unknown letter -- for example, C?T finds CAT, COT, and CUT. There's no limit on how many wildcards you can use in one search." },
+        { question: "Does UnscramblWords support an 'exclude letters' filter?", answer: "Not currently. The available filters are Starts With, Ends With, Contains, Required Letter, and Word Length." },
+        { question: "Can I sort results by score or alphabetically?", answer: "Results are automatically sorted by point value; there's currently no separate manual sort option." },
+        { question: "Can I search in languages other than English?", answer: "Yes, the tool supports ten languages, each with its own real dictionary." },
+        { question: "Is this free to use on mobile?", answer: "Yes, completely free, with no account, registration, or app download required." }
+      ]
+    },
 ];

@@ -625,4 +625,48 @@ export const fr = [
         { question: "Puis-je l'utiliser pour d'autres jeux de mots ?", answer: "Oui, l'outil fonctionne bien avec Wordscapes, Scrabble, Words with Friends et des jeux similaires. UnscramblWords est un outil indépendant, non affilié officiellement à PeopleFun (les créateurs de Wordscapes), Hasbro, Mattel ou Zynga." }
       ]
     },
+    {
+      slug: 'trouver-mots-avec-lettres-specifiques',
+      date: '2026-09-19',
+      title: 'Trouver des mots avec des lettres précises : guide pratique',
+      excerpt: 'Comment vraiment affiner une recherche de mots à l\'aide de filtres réels et de jokers -- vérifié dans notre propre dictionnaire et notre code, non simplement supposé.',
+      keyTakeaways: [
+        "Cinq filtres réels -- commence par, se termine par, contient, lettre obligatoire, longueur -- permettent d'ajuster une recherche exactement à ce qu'exige une grille ou un puzzle.",
+        "Tapez ? comme joker lorsqu'une lettre est inconnue. Il n'y a aucune limite au nombre utilisable, et au Scrabble, une lettre issue d'un joker vaut toujours 0 point.",
+        "Les résultats sont automatiquement triés par valeur en points.",
+        "Le Q est l'une des lettres les plus difficiles à placer ; DOSER et QAT en sont deux exemples réels sans U, vérifiés dans notre dictionnaire.",
+        "L'outil prend en charge 10 langues, chacune avec son propre vrai dictionnaire."
+      ],
+      toc: [
+        { id: 'filtres-reels', label: "Les filtres réels disponibles, et ce que fait chacun" },
+        { id: 'jokers', label: "Utiliser des jokers pour les lettres inconnues" },
+        { id: 'lettres-difficiles', label: "Placer le Q et les autres lettres difficiles" },
+        { id: 'motus', label: "Utiliser les filtres pour Motus et jeux similaires" },
+        { id: 'multilingue', label: "Chercher dans d'autres langues" }
+      ],
+      body: [
+        { type: 'heading', id: 'filtres-reels', text: "Les filtres réels disponibles, et ce que fait chacun" },
+        "Cinq filtres réels réduisent une recherche à exactement ce dont vous avez besoin : « commence par » et « se termine par » correspondent à une lettre déjà fixée, « contient » vérifie qu'une lettre apparaît n'importe où dans le mot, « lettre obligatoire » fonctionne de la même façon, et « longueur » correspond à un nombre exact de caractères. Combinez-en plusieurs à la fois pour passer d'une longue liste de résultats à la poignée qui convient vraiment.",
+        { type: 'heading', id: 'jokers', text: "Utiliser des jokers pour les lettres inconnues" },
+        "Si vous connaissez la longueur d'un mot et certaines de ses lettres mais pas le reste, tapez ? dans la barre de recherche pour chaque lettre inconnue -- par exemple, C?T trouve CAT (si le mot existe) ou d'autres correspondances selon la langue. Il n'y a aucune limite au nombre de jokers utilisables dans une même recherche, et au Scrabble, une lettre issue d'un joker vaut toujours 0 point, comme la vraie règle du jeton blanc.",
+        { type: 'heading', id: 'lettres-difficiles', text: "Placer le Q et les autres lettres difficiles" },
+        "D'après la répartition officielle du Scrabble en français, le Q vaut 8 points, tandis que K, W, X, Y et Z valent chacun 10 points -- ce sont les lettres les plus précieuses et souvent les plus difficiles à placer du jeu.",
+        { type: 'heading', id: 'motus', text: "Utiliser les filtres pour Motus et jeux similaires" },
+        "Les jeux de type Motus fonctionnent bien avec les mêmes filtres. Si vous connaissez la position exacte d'une lettre (une case verte) et la longueur du mot, les filtres « commence par », « se termine par » et « longueur » affinent directement les résultats.",
+        { type: 'heading', id: 'multilingue', text: "Chercher dans d'autres langues" },
+        "Les jeux de mots existent dans de nombreuses langues, et les listes de mots diffèrent réellement d'une langue à l'autre. UnscramblWords prend en charge dix langues -- anglais, français, allemand, italien, espagnol, portugais, turc, russe, polonais et arabe -- chacune avec son propre vrai dictionnaire, afin que les résultats correspondent à la langue que vous utilisez réellement.",
+        "Chaque fonctionnalité et chaque mot décrits ici ont été vérifiés directement dans le code et le dictionnaire d'UnscramblWords, et non simplement supposés.",
+        "(Relu par l'équipe UnscramblWords)"
+      ],
+      faq: [
+        { question: "Comment trouver des mots contenant une lettre précise ?", answer: "Utilisez le filtre « contient » -- entrez la lettre, et les résultats n'incluront que les mots qui la contiennent, peu importe sa position." },
+        { question: "Puis-je rechercher par longueur de mot et lettres précises en même temps ?", answer: "Oui. Combinez « longueur » avec n'importe quel autre filtre -- commence par, se termine par, contient ou lettre obligatoire -- pour cibler exactement un espace donné." },
+        { question: "Existe-t-il un filtre pour les mots qui commencent et se terminent par des lettres précises ?", answer: "Oui, « commence par » et « se termine par » sont deux filtres réels et distincts, combinables entre eux ou avec « contient »." },
+        { question: "Comment utiliser un joker pour trouver des mots avec des lettres manquantes ?", answer: "Tapez ? pour chaque lettre inconnue. Il n'y a aucune limite au nombre de jokers utilisables dans une même recherche." },
+        { question: "UnscramblWords propose-t-il un filtre pour exclure des lettres ?", answer: "Pas actuellement. Les filtres disponibles sont : commence par, se termine par, contient, lettre obligatoire et longueur." },
+        { question: "Puis-je trier les résultats par score ou par ordre alphabétique ?", answer: "Les résultats sont automatiquement triés par valeur en points ; il n'existe actuellement pas d'option de tri manuel distincte." },
+        { question: "Puis-je faire une recherche dans d'autres langues que le français ?", answer: "Oui, l'outil prend en charge dix langues, chacune avec son propre vrai dictionnaire." },
+        { question: "Est-ce gratuit sur mobile ?", answer: "Oui, entièrement gratuit, sans compte, inscription ni téléchargement d'application nécessaires." }
+      ]
+    },
 ];

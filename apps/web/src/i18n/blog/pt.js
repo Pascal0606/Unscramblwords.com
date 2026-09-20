@@ -726,4 +726,48 @@ export const pt = [
         { question: "Posso usar isto também para outros jogos de palavras?", answer: "Sim, a ferramenta funciona bem junto com o Wordscapes, Scrabble, Words with Friends e jogos semelhantes. O UnscramblWords é uma ferramenta independente e não está oficialmente afiliado à PeopleFun (criadora do Wordscapes), Hasbro, Mattel ou Zynga." }
       ]
     },
+    {
+      slug: 'encontrar-palavras-com-letras-especificas',
+      date: '2026-09-19',
+      title: 'Encontrar palavras com letras específicas: guia prático',
+      excerpt: 'Como realmente restringir uma pesquisa de palavras usando filtros reais e curingas -- verificado no nosso dicionário e código, não simplesmente presumido.',
+      keyTakeaways: [
+        "Cinco filtros reais -- começa por, termina em, contém, letra obrigatória, comprimento -- permitem ajustar uma pesquisa exatamente ao que precisa.",
+        "Digite ? como curinga quando uma letra é desconhecida. Não há limite de uso, e no Scrabble uma letra curinga vale sempre 0 pontos.",
+        "Os resultados são ordenados automaticamente por valor em pontos.",
+        "O X e o Z estão entre as letras de maior valor em português, com 8 pontos cada.",
+        "A ferramenta suporta 10 idiomas, cada um com o seu próprio dicionário real."
+      ],
+      toc: [
+        { id: 'filtros-reais', label: "Os filtros reais disponíveis, e o que cada um faz" },
+        { id: 'curingas', label: "Usar curingas para letras desconhecidas" },
+        { id: 'letras-dificeis', label: "Colocar o Q e outras letras difíceis" },
+        { id: 'wordle', label: "Usar filtros para puzzles tipo Wordle" },
+        { id: 'multilingue', label: "Pesquisar noutros idiomas" }
+      ],
+      body: [
+        { type: 'heading', id: 'filtros-reais', text: "Os filtros reais disponíveis, e o que cada um faz" },
+        "Cinco filtros reais reduzem uma pesquisa exatamente ao que precisa: \"começa por\" e \"termina em\" correspondem a uma letra já fixa, \"contém\" verifica se uma letra aparece em qualquer posição da palavra, \"letra obrigatória\" funciona da mesma forma, e \"comprimento\" corresponde a um número exato de caracteres. Combine vários ao mesmo tempo para passar de uma longa lista de resultados ao punhado que realmente serve.",
+        { type: 'heading', id: 'curingas', text: "Usar curingas para letras desconhecidas" },
+        "Se sabe o comprimento de uma palavra e algumas das suas letras mas não o resto, digite ? na caixa de pesquisa para cada letra desconhecida. Não há limite de quantos curingas pode usar numa pesquisa, e no Scrabble uma letra curinga vale sempre 0 pontos, tal como a regra real da peça em branco.",
+        { type: 'heading', id: 'letras-dificeis', text: "Colocar o Q e outras letras difíceis" },
+        "O X e o Z valem 8 pontos cada, os valores mais altos do Scrabble em português. O Q vale 6 pontos -- entre as letras mais difíceis de colocar, mas também das mais valiosas.",
+        { type: 'heading', id: 'wordle', text: "Usar filtros para puzzles tipo Wordle" },
+        "Os jogos do tipo Wordle funcionam bem com os mesmos filtros. Se sabe a posição exata de uma letra (uma casa verde) e o comprimento da palavra, os filtros \"começa por\", \"termina em\" e \"comprimento\" restringem os resultados diretamente.",
+        { type: 'heading', id: 'multilingue', text: "Pesquisar noutros idiomas" },
+        "Os jogos de palavras existem em muitos idiomas, e as listas de palavras diferem genuinamente entre eles. O UnscramblWords suporta dez idiomas -- inglês, francês, alemão, italiano, espanhol, português, turco, russo, polaco e árabe -- cada um com o seu próprio dicionário real, para que os resultados correspondam ao idioma que está realmente a usar.",
+        "Cada funcionalidade e palavra descrita aqui foi confirmada diretamente no código e no dicionário do UnscramblWords, e não simplesmente presumida.",
+        "(Revisto pela equipa do UnscramblWords)"
+      ],
+      faq: [
+        { question: "Como encontro palavras que contenham uma letra específica?", answer: "Use o filtro \"contém\" -- introduza a letra, e os resultados incluirão apenas palavras que a contenham, independentemente da posição." },
+        { question: "Posso pesquisar por comprimento de palavra e letras específicas ao mesmo tempo?", answer: "Sim. Combine \"comprimento\" com qualquer outro filtro -- começa por, termina em, contém ou letra obrigatória -- para acertar exatamente num espaço específico." },
+        { question: "Existe um filtro para palavras que começam e terminam com letras específicas?", answer: "Sim, \"começa por\" e \"termina em\" são dois filtros reais e distintos, combináveis entre si ou com \"contém\"." },
+        { question: "Como uso um curinga para encontrar palavras com letras em falta?", answer: "Digite ? para cada letra desconhecida. Não há limite de quantos curingas pode usar numa pesquisa." },
+        { question: "O UnscramblWords suporta um filtro para excluir letras?", answer: "Atualmente não. Os filtros disponíveis são: começa por, termina em, contém, letra obrigatória e comprimento." },
+        { question: "Posso ordenar os resultados por pontuação ou alfabeticamente?", answer: "Os resultados são ordenados automaticamente por valor em pontos; atualmente não existe uma opção de ordenação manual separada." },
+        { question: "Posso pesquisar noutros idiomas além do português?", answer: "Sim, a ferramenta suporta dez idiomas, cada um com o seu próprio dicionário real." },
+        { question: "É gratuito no telemóvel?", answer: "Sim, totalmente gratuito, sem conta, registo ou transferência de aplicações." }
+      ]
+    },
 ];

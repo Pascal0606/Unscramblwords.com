@@ -717,4 +717,48 @@ export const pl = [
         { question: "Czy mogę używać tego również do innych gier słownych?", answer: "Tak, narzędzie dobrze sprawdza się przy Wordscapes, Scrabble, Words with Friends i podobnych grach. UnscramblWords jest niezależnym narzędziem, niepowiązanym oficjalnie z PeopleFun (twórcą Wordscapes), Hasbro, Mattel ani Zyngą." }
       ]
     },
+    {
+      slug: 'szukanie-slow-z-okreslonymi-literami',
+      date: '2026-09-19',
+      title: 'Szukanie słów z określonymi literami: praktyczny poradnik',
+      excerpt: 'Jak naprawdę zawęzić wyszukiwanie słów za pomocą prawdziwych filtrów i dzikich kart -- zweryfikowane w naszym słowniku i kodzie, a nie po prostu założone.',
+      keyTakeaways: [
+        "Pięć prawdziwych filtrów -- zaczyna się od, kończy się na, zawiera, wymagana litera, długość słowa -- pozwala dopasować wyszukiwanie dokładnie do potrzeb.",
+        "Wpisz ? jako dziką kartę, gdy litera jest nieznana. Nie ma limitu użycia, a w Scrabble litera z dzikiej karty zawsze jest warta 0 punktów.",
+        "Wyniki są automatycznie sortowane według wartości punktowej.",
+        "Litera Ź jest warta aż 9 punktów -- jedna z najcenniejszych, ale i najtrudniejszych do sensownego umieszczenia liter w grze.",
+        "Narzędzie obsługuje 10 języków, każdy z własnym prawdziwym słownikiem."
+      ],
+      toc: [
+        { id: 'prawdziwe-filtry', label: "Prawdziwe dostępne filtry i co robi każdy z nich" },
+        { id: 'dzikie-karty', label: "Używanie dzikich kart dla nieznanych liter" },
+        { id: 'trudne-litery', label: "Umieszczanie trudnych liter" },
+        { id: 'wordle', label: "Używanie filtrów do łamigłówek typu Wordle" },
+        { id: 'wielojezycznosc', label: "Szukanie w innych językach" }
+      ],
+      body: [
+        { type: 'heading', id: 'prawdziwe-filtry', text: "Prawdziwe dostępne filtry i co robi każdy z nich" },
+        "Pięć prawdziwych filtrów zawęża wyszukiwanie dokładnie do tego, czego potrzebujesz: \"zaczyna się od\" i \"kończy się na\" pasują do już ustalonej litery, \"zawiera\" sprawdza, czy litera pojawia się w dowolnym miejscu słowa, \"wymagana litera\" działa tak samo, a \"długość słowa\" pasuje do dokładnej liczby znaków. Połącz kilka naraz, aby przejść z długiej listy dopasowań do garstki naprawdę pasującej.",
+        { type: 'heading', id: 'dzikie-karty', text: "Używanie dzikich kart dla nieznanych liter" },
+        "Jeśli znasz długość słowa i niektóre jego litery, ale nie resztę, wpisz ? w polu wyszukiwania dla każdej nieznanej litery. Nie ma ograniczenia liczby dzikich kart użytych w jednym wyszukiwaniu, a w Scrabble litera z dzikiej karty zawsze jest warta 0 punktów, zgodnie z prawdziwą zasadą pustego pionka.",
+        { type: 'heading', id: 'trudne-litery', text: "Umieszczanie trudnych liter" },
+        "Litera Ź jest warta aż 9 punktów -- jedna z najcenniejszych liter w grze, i często jedna z najtrudniejszych do sensownego umieszczenia. Ń jest warta 7 punktów, a Ć -- 6. Te wartości pochodzą z oficjalnego rozkładu liter polskiego Scrabble.",
+        { type: 'heading', id: 'wordle', text: "Używanie filtrów do łamigłówek typu Wordle" },
+        "Gry typu Wordle dobrze współpracują z tymi samymi filtrami. Jeśli znasz dokładną pozycję litery (zielone pole) i długość słowa, filtry \"zaczyna się od\", \"kończy się na\" i \"długość słowa\" bezpośrednio zawężają wyniki.",
+        { type: 'heading', id: 'wielojezycznosc', text: "Szukanie w innych językach" },
+        "Gry słowne istnieją w wielu językach, a listy słów naprawdę się między nimi różnią. UnscramblWords obsługuje dziesięć języków -- angielski, francuski, niemiecki, włoski, hiszpański, portugalski, turecki, rosyjski, polski i arabski -- każdy z własnym prawdziwym słownikiem, dzięki czemu wyniki pasują do języka, którego naprawdę używasz.",
+        "Każda funkcja i słowo opisane tutaj zostały sprawdzone bezpośrednio w kodzie i słowniku UnscramblWords, a nie po prostu założone.",
+        "(Zweryfikowane przez zespół UnscramblWords)"
+      ],
+      faq: [
+        { question: "Jak znaleźć słowa zawierające konkretną literę?", answer: "Użyj filtra \"zawiera\" -- wpisz literę, a wyniki będą obejmować tylko słowa ją zawierające, niezależnie od pozycji." },
+        { question: "Czy mogę szukać według długości słowa i konkretnych liter jednocześnie?", answer: "Tak. Połącz \"długość słowa\" z dowolnym innym filtrem -- zaczyna się od, kończy się na, zawiera lub wymagana litera -- aby dokładnie trafić w konkretną lukę." },
+        { question: "Czy istnieje filtr dla słów zaczynających się i kończących na konkretne litery?", answer: "Tak, \"zaczyna się od\" i \"kończy się na\" to dwa prawdziwe, odrębne filtry, które można łączyć ze sobą lub z \"zawiera\"." },
+        { question: "Jak używać dzikiej karty, aby znaleźć słowa z brakującymi literami?", answer: "Wpisz ? dla każdej nieznanej litery. Nie ma ograniczenia liczby dzikich kart użytych w jednym wyszukiwaniu." },
+        { question: "Czy UnscramblWords obsługuje filtr wykluczający litery?", answer: "Obecnie nie. Dostępne filtry to: zaczyna się od, kończy się na, zawiera, wymagana litera i długość słowa." },
+        { question: "Czy mogę sortować wyniki według punktacji lub alfabetycznie?", answer: "Wyniki są automatycznie sortowane według wartości punktowej; obecnie nie ma osobnej opcji sortowania ręcznego." },
+        { question: "Czy mogę szukać w językach innych niż polski?", answer: "Tak, narzędzie obsługuje dziesięć języków, każdy z własnym prawdziwym słownikiem." },
+        { question: "Czy jest to darmowe na urządzeniach mobilnych?", answer: "Tak, całkowicie darmowe, bez konta, rejestracji czy pobierania aplikacji." }
+      ]
+    },
 ];

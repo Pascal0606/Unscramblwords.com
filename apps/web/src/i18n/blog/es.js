@@ -619,4 +619,48 @@ export const es = [
         { question: "¿Puedo usarlo también para otros juegos de palabras?", answer: "Sí, la herramienta funciona bien junto a Wordscapes, Scrabble, Words with Friends y juegos similares. UnscramblWords es una herramienta independiente, no afiliada oficialmente a PeopleFun (los creadores de Wordscapes), Hasbro, Mattel ni Zynga." }
       ]
     },
+    {
+      slug: 'encontrar-palabras-con-letras-especificas',
+      date: '2026-09-19',
+      title: 'Encontrar palabras con letras específicas: guía práctica',
+      excerpt: 'Cómo acotar realmente una búsqueda de palabras usando filtros reales y comodines -- verificado en nuestro diccionario y código, no simplemente asumido.',
+      keyTakeaways: [
+        "Cinco filtros reales -- empieza por, termina en, contiene, letra obligatoria, longitud -- permiten ajustar una búsqueda exactamente a lo que necesitas.",
+        "Escribe ? como comodín cuando una letra es desconocida. No hay límite de uso, y en Scrabble una letra comodín siempre vale 0 puntos.",
+        "Los resultados se ordenan automáticamente por valor en puntos.",
+        "La Z es una de las letras de mayor valor en español, con 10 puntos -- el valor más alto del juego.",
+        "La herramienta admite 10 idiomas, cada uno con su propio diccionario real."
+      ],
+      toc: [
+        { id: 'filtros-reales', label: "Los filtros reales disponibles, y qué hace cada uno" },
+        { id: 'comodines', label: "Usar comodines para letras desconocidas" },
+        { id: 'letras-dificiles', label: "Colocar la Q y otras letras difíciles" },
+        { id: 'wordle', label: "Usar filtros para puzles tipo Wordle" },
+        { id: 'multilingue', label: "Buscar en otros idiomas" }
+      ],
+      body: [
+        { type: 'heading', id: 'filtros-reales', text: "Los filtros reales disponibles, y qué hace cada uno" },
+        "Cinco filtros reales reducen una búsqueda a exactamente lo que necesitas: \"empieza por\" y \"termina en\" coinciden con una letra ya fijada, \"contiene\" comprueba que una letra aparezca en cualquier posición de la palabra, \"letra obligatoria\" funciona igual, y \"longitud\" coincide con un número exacto de caracteres. Combina varios a la vez para pasar de una larga lista de resultados al puñado que realmente encaja.",
+        { type: 'heading', id: 'comodines', text: "Usar comodines para letras desconocidas" },
+        "Si conoces la longitud de una palabra y algunas de sus letras pero no el resto, escribe ? en el cuadro de búsqueda por cada letra desconocida. No hay límite de cuántos comodines puedes usar en una búsqueda, y en Scrabble una letra comodín siempre vale 0 puntos, igual que la regla real de la ficha en blanco.",
+        { type: 'heading', id: 'letras-dificiles', text: "Colocar la Q y otras letras difíciles" },
+        "La Z vale 10 puntos, el valor más alto del Scrabble en español. La J, la LL, la Ñ, la RR y la X valen 8 puntos cada una, y la CH y la Q valen 5 -- estos son los valores oficiales del Scrabble en español (edición internacional).",
+        { type: 'heading', id: 'wordle', text: "Usar filtros para puzles tipo Wordle" },
+        "Los juegos tipo Wordle funcionan bien con los mismos filtros. Si conoces la posición exacta de una letra (una casilla verde) y la longitud de la palabra, los filtros \"empieza por\", \"termina en\" y \"longitud\" acotan los resultados directamente.",
+        { type: 'heading', id: 'multilingue', text: "Buscar en otros idiomas" },
+        "Los juegos de palabras existen en muchos idiomas, y las listas de palabras realmente difieren entre ellos. UnscramblWords admite diez idiomas -- inglés, francés, alemán, italiano, español, portugués, turco, ruso, polaco y árabe -- cada uno con su propio diccionario real, para que los resultados coincidan con el idioma que realmente estás usando.",
+        "Cada función y palabra descrita aquí se ha comprobado directamente en el código y el diccionario de UnscramblWords, no simplemente se ha asumido.",
+        "(Revisado por el equipo de UnscramblWords)"
+      ],
+      faq: [
+        { question: "¿Cómo encuentro palabras que contengan una letra específica?", answer: "Usa el filtro \"contiene\" -- introduce la letra, y los resultados solo incluirán palabras que la contengan, sin importar su posición." },
+        { question: "¿Puedo buscar por longitud de palabra y letras específicas a la vez?", answer: "Sí. Combina \"longitud\" con cualquier otro filtro -- empieza por, termina en, contiene o letra obligatoria -- para acertar exactamente un hueco concreto." },
+        { question: "¿Existe un filtro para palabras que empiezan y terminan con letras específicas?", answer: "Sí, \"empieza por\" y \"termina en\" son dos filtros reales y distintos, combinables entre sí o con \"contiene\"." },
+        { question: "¿Cómo uso un comodín para encontrar palabras con letras que faltan?", answer: "Escribe ? por cada letra desconocida. No hay límite de cuántos comodines puedes usar en una búsqueda." },
+        { question: "¿UnscramblWords admite un filtro para excluir letras?", answer: "Actualmente no. Los filtros disponibles son: empieza por, termina en, contiene, letra obligatoria y longitud." },
+        { question: "¿Puedo ordenar los resultados por puntuación o alfabéticamente?", answer: "Los resultados se ordenan automáticamente por valor en puntos; actualmente no existe una opción de orden manual independiente." },
+        { question: "¿Puedo buscar en otros idiomas además del español?", answer: "Sí, la herramienta admite diez idiomas, cada uno con su propio diccionario real." },
+        { question: "¿Es gratis en móvil?", answer: "Sí, completamente gratis, sin cuenta, registro ni descarga de aplicaciones." }
+      ]
+    },
 ];
