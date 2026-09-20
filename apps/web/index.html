@@ -9,12 +9,24 @@
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="iPmbxj5wrJobyw8vMVuWAaSk1kDDkV4Do8unZ-pI2wY" />
 
-  <!-- Google Ads Tag -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18340977733"></script>
+  <!-- Google tag (gtag.js), one shared load, configured for both the
+       Google Ads conversion ID and the GA4 property. Previously this was
+       two entirely separate <script src="gtag/js?id=..."> tags, one per
+       ID, each bootstrapping its own full copy of the gtag library.
+       Confirmed via a Lighthouse treemap that this caused a second,
+       near-duplicate ~157 KiB fetch (the same ID, plus auto-appended
+       cx/gtm linking parameters) once the two separately-loaded copies
+       detected each other's config and initiated cross-account linking.
+       Google's own documentation for using multiple products together
+       is to load the library once and call gtag('config', ...) per ID
+       from one shared setup, as below; this removes the duplicate
+       load entirely rather than just working around it. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DB2M1X245"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      gtag('config', 'G-0DB2M1X245');
       gtag('config', 'AW-18340977733');
   </script>
 
@@ -123,24 +135,15 @@
        value content"), so this script cannot serve a single ad right
        now. Confirmed via a real Lighthouse treemap that loading it
        anyway costs ~56 KiB for the script itself, plus a further
-       ~163 KiB it triggers internally (its own "show_ads_impl" file),
-       plus an apparent duplicate GA4 tag load it seems to trigger via
-       auto-linking to the site's Analytics property, together a very
-       large share of the page's total weight, for a feature currently
-       incapable of doing anything. Restore this script (uncomment it)
-       once AdSense approval actually comes through.
+       ~163 KiB it triggers internally (its own "show_ads_impl" file).
+       (A second finding from that same investigation, a duplicate GA4
+       tag load, was unrelated to this script and has since been fixed
+       separately by consolidating to one shared gtag.js load above.)
+       Restore this script (uncomment it) once AdSense approval
+       actually comes through.
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844696739653596"
     crossorigin="anonymous"></script>
   -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0DB2M1X245"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0DB2M1X245');
-</script>
 </head>
 
 <body>
