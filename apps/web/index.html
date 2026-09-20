@@ -118,9 +118,20 @@
     }
   </script>
 
-  <!-- Google AdSense -->
+  <!-- Google AdSense — TEMPORARILY DISABLED (20 Sept 2026): AdSense has
+       never been approved for this site (repeatedly rejected for "Low
+       value content"), so this script cannot serve a single ad right
+       now. Confirmed via a real Lighthouse treemap that loading it
+       anyway costs ~56 KiB for the script itself, plus a further
+       ~163 KiB it triggers internally (its own "show_ads_impl" file),
+       plus an apparent duplicate GA4 tag load it seems to trigger via
+       auto-linking to the site's Analytics property, together a very
+       large share of the page's total weight, for a feature currently
+       incapable of doing anything. Restore this script (uncomment it)
+       once AdSense approval actually comes through.
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844696739653596"
     crossorigin="anonymous"></script>
+  -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DB2M1X245"></script>
 <script>
