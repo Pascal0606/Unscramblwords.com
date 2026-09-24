@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { ArrowRight, ArrowLeft, BookOpen, Clock, Calendar, Tag, Search, X, Lightbulb, List as ListIcon, ChevronDown } from 'lucide-react';
+import { ArrowRight, ArrowLeft, BookOpen, Clock, Calendar, Tag, Search, X, Lightbulb, List as ListIcon, ChevronDown, Loader2 } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage.js';
-import { blogContent } from '@/i18n/blogContent.js';
+import { useBlogArticles } from '@/hooks/useBlogArticles.js';
 
 // Old slugs that have since been renamed to actually match their content,
 // mapped to their real current slug. When an old URL is requested, redirect
@@ -72,8 +72,19 @@ function getArticleCategory(article) {
 export function BlogArticle() {
   const { slug } = useParams();
   const { currentLanguage, t } = useLanguage();
+  const { articles, loading } = useBlogArticles(currentLanguage);
 
-  const articles = blogContent[currentLanguage] || blogContent['en'] || [];
+  // Show a lightweight, language-neutral loading state while this
+  // language's article chunk is being fetched, rather than briefly
+  // flashing "article not found" before the data has arrived.
+  if (loading) {
+    return (
+      <div className="min-h-dvh bg-background text-foreground flex items-center justify-center">
+        <Loader2 className="w-8 h-8 animate-spin text-muted-foreground" />
+      </div>
+    );
+  }
+
   const article = articles.find(a => a.slug === slug);
 
   if (!article) {
@@ -301,7 +312,7 @@ export default function Blog() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const rawArticles = blogContent[currentLanguage] || blogContent['en'] || [];
+  const { articles: rawArticles, loading } = useBlogArticles(currentLanguage);
 
   // Internal category keys stay in English so slug/title matching below keeps
   // working regardless of language; only the on-screen label is translated,
@@ -432,6 +443,11 @@ export default function Blog() {
           </div>
         </header>
 
+        {loading ? (
+          <div className="flex items-center justify-center py-24">
+            <Loader2 className="w-8 h-8 animate-spin text-muted-foreground" />
+          </div>
+        ) : (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {filteredArticles.length > 0 ? (
             filteredArticles.map((article, index) => {
@@ -510,6 +526,7 @@ export default function Blog() {
             </div>
           )}
         </div>
+        )}
       </div>
     </div>
   );
