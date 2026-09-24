@@ -35,7 +35,7 @@ const LANGS = ['en', 'fr', 'de', 'it', 'es', 'pt', 'tr', 'ru', 'pl', 'ar'];
 async function main() {
   const { render } = await import(SSR_ENTRY);
 
-  const blogContentPath = path.resolve(__dirname, '../src/i18n/blogContent.js');
+  const blogContentPath = path.resolve(__dirname, '../src/i18n/blogContentAll.js');
   const { blogContent } = await import(blogContentPath);
 
   const template = fs.readFileSync(path.join(CLIENT_DIST, 'index.html'), 'utf-8');

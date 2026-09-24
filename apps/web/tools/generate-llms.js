@@ -192,7 +192,7 @@ async function getHomepagePages(srcDir) {
 }
 
 async function getBlogPages(srcDir) {
-	const { blogContent } = await import(path.join(srcDir, 'i18n', 'blogContent.js'));
+	const { blogContent } = await import(path.join(srcDir, 'i18n', 'blogContentAll.js'));
 	const pages = [];
 
 	for (const lang of Object.keys(blogContent)) {

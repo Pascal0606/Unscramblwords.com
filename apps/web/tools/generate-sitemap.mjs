@@ -15,7 +15,7 @@ const LANGS = ['en', 'fr', 'de', 'it', 'es', 'pt', 'tr', 'ru', 'pl', 'ar'];
 const BASE = 'https://unscramblwords.com';
 
 async function main() {
-  const blogContentPath = path.resolve(__dirname, '../src/i18n/blogContent.js');
+  const blogContentPath = path.resolve(__dirname, '../src/i18n/blogContentAll.js');
   const { blogContent } = await import(blogContentPath);
 
   const today = new Date().toISOString().slice(0, 10);
